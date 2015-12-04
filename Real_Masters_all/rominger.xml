@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname encodinganalog="100" source="lcnaf">Rominger family.</famname>
+        <famname encodinganalog="100" source="lcnaf" ref="/agents/families/221">Rominger family.</famname>
       </origination>
       <unittitle encodinganalog="245">Carl Rominger family papers <unitdate type="inclusive" encodinganalog="245$f" normal="1840/1945">1840-1945</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85782 Aa 2</unitid>
@@ -88,7 +89,7 @@ Carl Rominger family papers, Bentley Historical Library, University of Michigan<
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html" ref="/subjects/860">Ann Arbor (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8314">Geology--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5827">German Americans--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79131100">Michigan. Geological survey.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79131100" ref="/agents/corporate_entities/9827">Michigan. Geological survey.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6031">Physicians--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5739">Women--Michigan--Ann Arbor.</subject>
       </controlaccess>
@@ -100,18 +101,18 @@ Carl Rominger family papers, Bentley Historical Library, University of Michigan<
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2761">Fifth Street (Ann Arbor, Mich.)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5215">Furnishings.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3689">Interiors.</subject>
-        <famname source="lcnaf" encodinganalog="600">Neuman family.</famname>
-        <persname source="lcnaf" encodinganalog="600">Rominger, Carl Ludwig, 1820-1907.</persname>
-        <famname source="lcnaf" encodinganalog="600">Rominger family.</famname>
-        <corpname source="lcnaf" encodinganalog="610">Rominger House (Ann Arbor, Mich.)</corpname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/319">Neuman family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28572">Rominger, Carl Ludwig, 1820-1907.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/221">Rominger family.</famname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11534">Rominger House (Ann Arbor, Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3845">Streets--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Rominger, Carl Ludwig, 1820-1907.</persname>
-        <persname source="lcnaf" encodinganalog="700">Rominger, Frederika, 1826-1914.</persname>
-        <persname source="lcnaf" encodinganalog="700">Rominger, Julia.</persname>
-        <persname source="lcnaf" encodinganalog="700">Rominger, Louis, 1859-1936.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28572">Rominger, Carl Ludwig, 1820-1907.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30952">Rominger, Frederika, 1826-1914.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29373">Rominger, Julia.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27493">Rominger, Louis, 1859-1936.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

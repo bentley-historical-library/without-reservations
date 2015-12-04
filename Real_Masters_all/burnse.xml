@@ -44,7 +44,8 @@
         <item>headings removed and other changes made to conform to new style, GK</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -55,7 +56,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Burns, Eunice.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30420">Burns, Eunice.</persname>
       </origination>
       <unittitle encodinganalog="245">Eunice Burns papers <unitdate type="inclusive" encodinganalog="245$f" normal="1960/2011">1960-2011</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85476 Aa 2</unitid>
@@ -103,18 +104,18 @@ Eunice Burns papers, Bentley Historical Library, University of Michigan</p>
       <controlaccess>
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html" ref="/subjects/860">Ann Arbor (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor (Mich.). Common Council.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor (Mich.). Downtown Development Authority.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82061924">Ann Arbor (Mich.). Planning Commission.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9660">Ann Arbor (Mich.). Common Council.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13710">Ann Arbor (Mich.). Downtown Development Authority.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82061924" ref="/agents/corporate_entities/13704">Ann Arbor (Mich.). Planning Commission.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6574">Civil rights--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5678">Discrimination in housing--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no99005250">Huron River Watershed Council.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no99005250" ref="/agents/corporate_entities/11646">Huron River Watershed Council.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5661">Municipal government--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Committee to Study Intercollegiate Athletics for Women.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Sports.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12639">University of Michigan. Committee to Study Intercollegiate Athletics for Women.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Sports.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6223">Women's rights--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5837">Women college students--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Students.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6575">Women in politics--Michigan--Ann Arbor.</subject>
       </controlaccess>
     </controlaccess>

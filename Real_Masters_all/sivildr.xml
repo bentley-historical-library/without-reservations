@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Sivil, Daniel Ross, 1940-1995.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/31354">Sivil, Daniel Ross, 1940-1995.</persname>
       </origination>
       <unittitle encodinganalog="245">Daniel R. Sivil Papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1940/1993">1940-1993</unitdate>
@@ -80,24 +81,24 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Sivil, Daniel Ross, 1940-1995.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31354">Sivil, Daniel Ross, 1940-1995.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10101">Gay activists--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Association of Suburban People.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11162">Association of Suburban People.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5745">Gay rights--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5926">Gay liberation movement--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr91006418">Michigan Organization for Human Rights.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr91006418" ref="/agents/corporate_entities/11456">Michigan Organization for Human Rights.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5744">Gays--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5743">Lesbians--Michigan.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Sivil, Daniel Ross, 1940-1995.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31354">Sivil, Daniel Ross, 1940-1995.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4266">Gay rights.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5321">Gays--Michigan.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Messer, Henry.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32019">Messer, Henry.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

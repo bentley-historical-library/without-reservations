@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n79036860">University of Michigan. Center for Japanese Studies.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n79036860" ref="/agents/corporate_entities/10149">University of Michigan. Center for Japanese Studies.</corpname>
       </origination>
       <unittitle encodinganalog="245">Center for Japanese Studies (University of Michigan) publications</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1948/2009">1948-2009</unitdate>
@@ -93,10 +94,10 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Alumni and alumnae.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79036860">University of Michigan. Center for Japanese Studies.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Summer Session.</corpname>
-        <corpname source="lcnaf" encodinganalog="611" authfilenumber="http://id.loc.gov/authorities/names/n84009689">U.S.-Japan Automotive Industry Conference.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Alumni and alumnae.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79036860" ref="/agents/corporate_entities/10149">University of Michigan. Center for Japanese Studies.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11137">University of Michigan. Summer Session.</corpname>
+        <corpname source="lcnaf" encodinganalog="611" authfilenumber="http://id.loc.gov/authorities/names/n84009689" ref="/agents/corporate_entities/9983">U.S.-Japan Automotive Industry Conference.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Werner, William A., 1930-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/36234">Werner, William A., 1930-</persname>
       </origination>
       <unittitle encodinganalog="245">William A. Werner papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1956/1998">1956-1998</unitdate>
@@ -83,10 +84,10 @@ William A. Werner papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Werner, William A.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29651">Werner, William A.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9954">Architecture--Study and teaching--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2004034454">University of Michigan. A. Alfred Taubman College of Architecture and Urban Planning.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2004034454" ref="/agents/corporate_entities/9390">University of Michigan. A. Alfred Taubman College of Architecture and Urban Planning.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

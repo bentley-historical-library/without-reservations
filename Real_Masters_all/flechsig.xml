@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Flechsig, Jack.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28848">Flechsig, Jack.</persname>
       </origination>
       <unittitle encodinganalog="245">Jack Flechsig Papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1919/1988">1919-1988</unitdate>
@@ -83,10 +84,10 @@ Jack Flechsig papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Flechsig, Jack.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28848">Flechsig, Jack.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7776">Television stations--Michigan--Detroit.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7777">Television stations--Michigan--Southfield.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50062750">WXYZ-TV (Television station : Southfield, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50062750" ref="/agents/corporate_entities/11608">WXYZ-TV (Television station : Southfield, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

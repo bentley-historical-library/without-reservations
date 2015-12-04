@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Claybourn, John Geronold, 1886-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/35971">Claybourn, John Geronold, 1886-</persname>
       </origination>
       <unittitle encodinganalog="245">John G. Claybourn Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1908/1966">1908-1966</unitdate></unittitle>
       <abstract>Civil engineer, consultant on marine development and dredging, and superintendent of the dredging division of the Panama canal. Topical files relating to the maintenance and development of the Panama Canal and dredging problems in Burma, Colombia, and other Latin American countries; scrapbook relating to the Spanish-American War; and photographs.</abstract>
@@ -105,9 +106,9 @@
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1594">Burma.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1595">Canal Zone.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6834">Canals.</subject>
-        <persname source="lcnaf" encodinganalog="600">Claybourn, Elsie Greiser.</persname>
-        <persname source="lcnaf" encodinganalog="600">Claybourn, John Geronold, 1886-</persname>
-        <persname source="lcnaf" encodinganalog="600">Claybourn, Leslie W. (Leslie William), 1883-1956.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33801">Claybourn, Elsie Greiser.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35971">Claybourn, John Geronold, 1886-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/36058">Claybourn, Leslie W. (Leslie William), 1883-1956.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1017">Colombia.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6835">Dredging.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6836">Engineers--United States.</subject>
@@ -126,22 +127,22 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4072">Boat and ship industry.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1594">Burma.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1595">Canal Zone.</geogname>
-        <persname source="lcnaf" encodinganalog="600">Claybourn, Elsie Greiser.</persname>
-        <famname source="lcnaf" encodinganalog="600">Claybourn family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33801">Claybourn, Elsie Greiser.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/142">Claybourn family.</famname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1017">Colombia.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1601">Costa Rica.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4073">Dredging.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3662">Football.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5791">Freemasonry.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50034482">Gompers, Samuel, 1850-1924.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50034482" ref="/agents/people/32006">Gompers, Samuel, 1850-1924.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1286">Guatemala.</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79100565">Lindbergh, Charles A. (Charles Augustus), 1902-1974.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79100565" ref="/agents/people/31854">Lindbergh, Charles A. (Charles Augustus), 1902-1974.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1597">Panama.</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82004295" ref="/subjects/1598">Panama Canal (Panama)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3918">Ships.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4074">Surveying--Panama.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6011">Spanish-American War, 1898.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85378842">Warner, Jack L., 1892-1978.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85378842" ref="/agents/people/32225">Warner, Jack L., 1892-1978.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

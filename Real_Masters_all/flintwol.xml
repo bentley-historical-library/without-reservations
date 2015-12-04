@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Flint Woolen Mills</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/11103">Flint Woolen Mills</corpname>
       </origination>
       <unittitle encodinganalog="245">Flint Woolen Mills Records <unitdate type="inclusive" encodinganalog="245$f" normal="1851/1910">1851-1910</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">851219 Bb.2/2; BB.2 Outsize</unitid>
@@ -85,9 +86,9 @@ Flint Woolen Mills Records, Bentley Historical Library, University of Michigan</
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7785">General stores--Michigan--Flint.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7786">General stores--Michigan--Stony Run.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1023">Genesee County (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600">Stone, Oren, b. 1833.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Stone, Atwood &amp; Company (Flint, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Stone Woolen Mills (Flint, Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28248">Stone, Oren, b. 1833.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9104">Stone, Atwood &amp; Company (Flint, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11120">Stone Woolen Mills (Flint, Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1863">Stony Run (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7787">Wool industry--Michigan--Flint.</subject>
       </controlaccess>

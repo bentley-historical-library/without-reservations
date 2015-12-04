@@ -43,7 +43,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -54,7 +55,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Gerald R. Ford School of Public Policy.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/12682">University of Michigan. Gerald R. Ford School of Public Policy.</corpname>
       </origination>
       <unittitle encodinganalog="245">Gerald R. Ford School of Public Policy (University of Michigan) Publications <unitdate type="inclusive" encodinganalog="245$f" normal="1923/2006">1923-2006</unitdate></unittitle>
       <abstract>Includes brochures, manuals, proceedings, programs, and reports. Also contains bulletins or course catalogs from the School of Public Policy, the Institute of Public Policy Studies, the Institute of Public Administration, and the Institute of Public and Social Administration. Contains 1967 and 1968 W.S. Woytinsky lectures and the newsletters <title render="italic">Newsletter: Institute of Public Administration</title>, <title render="italic">IPPS Newsletter</title> and the <title render="italic">School of Public Policy Newsletter</title>. Also includes Bureau of Government bulletins, pamphlets, and reports and the newsletter <title render="italic">The Staebler Caucus</title> published by the Neil Staebler Political Education Fund. Also contains the <title render="italic">Newsletter to Graduates</title> published by the Michigan chapter of the American Society for Public Administration.</abstract>
@@ -180,11 +181,11 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. School of Public Policy.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87826795">University of Michigan. Institute of Public Policy Studies.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Institute of Public Administration.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Institute of Public and Social Administration.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no95060550">University of Michigan. Bureau of Government.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/8848">University of Michigan. School of Public Policy.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87826795" ref="/agents/corporate_entities/9145">University of Michigan. Institute of Public Policy Studies.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11411">University of Michigan. Institute of Public Administration.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12355">University of Michigan. Institute of Public and Social Administration.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no95060550" ref="/agents/corporate_entities/11561">University of Michigan. Bureau of Government.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Publications:</head>
@@ -192,12 +193,12 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n87826795">University of Michigan. Institute of Public Policy Studies.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Institute of Public Administration.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Institute of Public and Social Administration.</corpname>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/no95060550">University of Michigan. Bureau of Government.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">Neil Staebler Political Education Fund.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">American Society for Public Administration. Michigan Chapter.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n87826795" ref="/agents/corporate_entities/9145">University of Michigan. Institute of Public Policy Studies.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/11411">University of Michigan. Institute of Public Administration.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/12355">University of Michigan. Institute of Public and Social Administration.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/no95060550" ref="/agents/corporate_entities/11561">University of Michigan. Bureau of Government.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/10432">Neil Staebler Political Education Fund.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/11461">American Society for Public Administration. Michigan Chapter.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Publications:</head>

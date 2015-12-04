@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">L.G. Bates General Store (Elsie, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/14472">L.G. Bates General Store (Elsie, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">L.G. Bates General Store (Elsie, Mich.) records <unitdate type="inclusive" encodinganalog="245$f" normal="1857/1920">1857-1920</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85151 Bb.2/2; BB.2 Outsize</unitid>
@@ -86,25 +87,25 @@ L.G. Bates General Store (Elsie, Mich.) records, Bentley Historical Library, Uni
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Bates, LaMott G., b. 1847.</persname>
-        <famname source="lcnaf" encodinganalog="600">Bates family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34075">Bates, LaMott G., b. 1847.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/6">Bates family.</famname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2092">Clinton County (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8780">General stores--Michigan--Elsie.</subject>
-        <famname source="lcnaf" encodinganalog="600">Sickels family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/265">Sickels family.</famname>
         <geogname source="local" encodinganalog="691" ref="/subjects/832">Elsie (Mich.)--Businesses.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <famname source="lcnaf" encodinganalog="600">Bates family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/6">Bates family.</famname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3622">Children.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4695">Dentistry--Michigan--Elsie.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4696">Dwellings--Michigan--Elsie.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n98032923.html" ref="/subjects/1087">Elsie (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Interiors--Dentist office.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13250">Interiors--Dentist office.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4697">Interiors--Michigan--Elsie.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3670">Railroad accidents.</subject>
-        <famname source="lcnaf" encodinganalog="600">Sickels family.</famname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Student housing.</corpname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/265">Sickels family.</famname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Student housing.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8781">Veterans--Michigan--Elsie.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3619">Women.</subject>
       </controlaccess>

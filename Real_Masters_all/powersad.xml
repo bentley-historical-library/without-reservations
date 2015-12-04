@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Power, Sadye.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/29545">Power, Sadye.</persname>
       </origination>
       <unittitle encodinganalog="245">Sadye Power Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1940/1979">1940-1979</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">89193 Aa 2</unitid>
@@ -79,15 +80,15 @@ Sadye Power Papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Symphony.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12961">Ann Arbor Symphony.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6368">Birth control.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7028">Civic leaders--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Greenhills School (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82147959">Merrill-Palmer Institute.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Planned Parenthood Federation of America.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Power, Sadye.</persname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Alumnae Council.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Washtenaw County League for Planned Parenthood.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13790">Greenhills School (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82147959" ref="/agents/corporate_entities/10000">Merrill-Palmer Institute.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10345">Planned Parenthood Federation of America.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29545">Power, Sadye.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10080">University of Michigan. Alumnae Council.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10232">Washtenaw County League for Planned Parenthood.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7027">Women civic leaders--Michigan--Ann Arbor.</subject>
       </controlaccess>
     </controlaccess>

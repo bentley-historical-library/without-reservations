@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Hatch, Henry W.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33911">Hatch, Henry W.</persname>
       </origination>
       <unittitle encodinganalog="245">Henry W. Hatch photograph collection</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1814">1814</unitdate>
@@ -87,11 +88,11 @@ Henry W. Hatch photograph collection, Bentley Historical Library, University of 
       </p>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600">Hatch, Henry W.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33911">Hatch, Henry W.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4486">Athletics--Michigan--Ann Arbor.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4487">Fire engines and equipment--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Sports.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Football.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Sports.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Football.</corpname>
       </controlaccess>
       <controlaccess>
         <genreform source="aat" encodinganalog="655" ref="/subjects/3141">Photographs.</genreform>

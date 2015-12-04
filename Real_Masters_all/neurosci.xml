@@ -23,7 +23,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Neuroscience Program.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/10220">University of Michigan. Neuroscience Program.</corpname>
       </origination>
       <unittitle encodinganalog="245">Neuroscience Program (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1963/1985">1963-1985</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">861043 Bimu C7 2</unitid>
@@ -82,11 +83,11 @@ Neuroscience Program (University of Michigan) records, Bentley Historical Librar
       <controlaccess>
         <head>Subjects:</head>
         <subject encodinganalog="650" source="lcsh" ref="/subjects/7166">Neurology.</subject>
-        <corpname encodinganalog="610" source="lcnaf">University of Michigan. Neuroscience Program.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/10220">University of Michigan. Neuroscience Program.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <corpname encodinganalog="710" source="lcnaf">University of Michigan. Neuroscience Program.</corpname>
+        <corpname encodinganalog="710" source="lcnaf" ref="/agents/corporate_entities/10220">University of Michigan. Neuroscience Program.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

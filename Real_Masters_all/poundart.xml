@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n50019582">Pound, Arthur, 1884-1966.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n50019582" ref="/agents/people/35372">Pound, Arthur, 1884-1966.</persname>
       </origination>
       <unittitle encodinganalog="245">Arthur Pound Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1928/1968">1928-1968</unitdate></unittitle>
       <abstract>Historical writer. Correspondence, drafts of works, research materials, and copies of articles; include draft of book on Lake Ontario, research materials on the RCA corporation and radio broadcasting, research materials on the history of General Motors; manuscript on the state of American society probably 1941, written by California Senator Sheridan Downey.</abstract>
@@ -80,12 +81,12 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6544">Automobile industry and trade--United States.</subject>
-        <persname source="lcnaf" encodinganalog="600">Downey, Sheridan.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79079577">General Motors Corporation.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29587">Downey, Sheridan.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79079577" ref="/agents/corporate_entities/10876">General Motors Corporation.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2734">Ontario, Lake (N.Y. and Ont.)</geogname>
-        <persname authfilenumber="http://id.loc.gov/authorities/names/n50019582" source="lcnaf">Pound, Arthur, 1884-1966.</persname>
+        <persname authfilenumber="http://id.loc.gov/authorities/names/n50019582" source="lcnaf" ref="/agents/people/35372">Pound, Arthur, 1884-1966.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7227">Radio broadcasting--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Radio Corporation of America.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10799">Radio Corporation of America.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Matthaei Botanical Gardens.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/11458">University of Michigan. Matthaei Botanical Gardens.</corpname>
       </origination>
       <unittitle encodinganalog="245">Matthaei Botanical Gardens (University of Michigan) publications</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1928/2005">1928-2005</unitdate>
@@ -100,17 +101,17 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="611">Ann Arbor Flower and Garden Show.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Matthaei Botanical Gardens.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Matthaei Botanical Gardens. Friends.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Matthaei Botanical Gardens. Adult Education Program.</corpname>
+        <corpname source="lcnaf" encodinganalog="611" ref="/agents/corporate_entities/13611">Ann Arbor Flower and Garden Show.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11458">University of Michigan. Matthaei Botanical Gardens.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13302">University of Michigan. Matthaei Botanical Gardens. Friends.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11217">University of Michigan. Matthaei Botanical Gardens. Adult Education Program.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Matthaei Botanical Gardens. Adult Education Program.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Matthaei Botanical Gardens. Friends.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">Matthaei Botanical Gardens.</corpname>
-        <corpname source="lcnaf" encodinganalog="711">Ann Arbor Flower and Garden Show.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/11217">University of Michigan. Matthaei Botanical Gardens. Adult Education Program.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/13302">University of Michigan. Matthaei Botanical Gardens. Friends.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/10456">Matthaei Botanical Gardens.</corpname>
+        <corpname source="lcnaf" encodinganalog="711" ref="/agents/corporate_entities/13611">Ann Arbor Flower and Garden Show.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

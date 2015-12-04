@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Arnold family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/279">Arnold family.</famname>
       </origination>
       <unittitle encodinganalog="245">Arnold-Safford family papers <unitdate type="inclusive" encodinganalog="245$f" normal="1856/1992">1856-1992</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">0717 Aa 2</unitid>
@@ -77,13 +78,13 @@ Arnold-Safford Family papers, Bentley Historical Library, University of Michigan
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <famname source="lcnaf" encodinganalog="600">Arnold family.</famname>
-        <famname source="lcnaf" encodinganalog="600">Albright family.</famname>
-        <famname source="lcnaf" encodinganalog="600">Crawford family.</famname>
-        <persname source="lcnaf" encodinganalog="600">Arnold, Orlan.</persname>
-        <persname source="lcnaf" encodinganalog="600">Arnold, Virginia Safford.</persname>
-        <famname source="lcnaf" encodinganalog="600">Safford family.</famname>
-        <famname source="lcnaf" encodinganalog="600">Sunderland family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/279">Arnold family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/208">Albright family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/133">Crawford family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29336">Arnold, Orlan.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31576">Arnold, Virginia Safford.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/364">Safford family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/94">Sunderland family.</famname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Clay, Margaret L.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33956">Clay, Margaret L.</persname>
       </origination>
       <unittitle encodinganalog="245">Margaret L. Clay Papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1963/2003">1963-2003</unitdate>
@@ -85,11 +86,11 @@ Margaret L. Clay Papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Clay, Margaret L.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Coalition on Substance Abuse.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n93801600">National Council on Alcoholism and Drug Dependence (U.S.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Northeast Michigan Community Partnership for Prevention.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Thunder Bay Community Health Services.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33956">Clay, Margaret L.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14347">Michigan Coalition on Substance Abuse.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n93801600" ref="/agents/corporate_entities/11627">National Council on Alcoholism and Drug Dependence (U.S.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9325">Northeast Michigan Community Partnership for Prevention.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11748">Thunder Bay Community Health Services.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6838">Public health--Michigan, Northeastern.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6839">Substance abuse--Michigan--Prevention.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6840">Substance abuse--Research--Michigan, Northeastern.</subject>

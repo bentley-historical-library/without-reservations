@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Chapin family</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/59">Chapin family</famname>
       </origination>
       <unittitle encodinganalog="245">Chapin family (Niles, Mich.) papers <unitdate type="inclusive" encodinganalog="245$f" normal="1879/1937">1879-1937</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85112 Aa 2</unitid>
@@ -83,22 +84,22 @@ Chapin family (Niles, Mich.) papers, Bentley Historical Library, University of M
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88172253">American Manganese Producers Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88172253" ref="/agents/corporate_entities/12875">American Manganese Producers Association.</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82094760.html" ref="/subjects/1486">Berrien Springs (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82062709.html" ref="/subjects/1442">Buchanan (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600">Chapin, Charles A. (Charles Augustus)</persname>
-        <persname source="lcnaf" encodinganalog="600">Chapin, Henry A. (Henry Austin), 1813-1898.</persname>
-        <famname source="lcnaf" encodinganalog="600">Chopin family.</famname>
-        <corpname source="lcnaf" encodinganalog="610">Chapin Mine (Iron Mountain, Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34565">Chapin, Charles A. (Charles Augustus)</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32129">Chapin, Henry A. (Henry Austin), 1813-1898.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/249">Chopin family.</famname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11545">Chapin Mine (Iron Mountain, Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6754">Electric industries.</subject>
-        <corpname source="lcnaf" encodinganalog="610">First Presbyterian Church (Niles, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Indiana and Michigan Electric Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9826">First Presbyterian Church (Niles, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13151">Indiana and Michigan Electric Company.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6755">Iron mines and mining--Michigan--Iron Mountain.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79034579.html" ref="/subjects/1130">Iron Mountain (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6756">Manganese.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Menominee Mining Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10746">Menominee Mining Company.</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85081854.html" ref="/subjects/1177">Niles (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Presbyterian Church--Michigan--Niles.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10309">Presbyterian Church--Michigan--Niles.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

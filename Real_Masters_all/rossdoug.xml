@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Ross, Douglas, 1942-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33712">Ross, Douglas, 1942-</persname>
       </origination>
       <unittitle encodinganalog="245">Douglas Ross Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1967/2002">1967-2002</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">861071 Aa 2</unitid>
@@ -83,14 +84,14 @@ Douglas Ross Papers
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8998">Charter schools--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9915">Consumer protection--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82069721">Corporation for Enterprise Development.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731">Democratic Party (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82069721" ref="/agents/corporate_entities/9573">Corporation for Enterprise Development.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731" ref="/agents/corporate_entities/12900">Democratic Party (Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6884">Elections--Michigan--1972.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5798">Elections--Michigan--1982.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9916">Elections--Michigan--1998.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5684">Immigrants--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/863">Michigan--Emigration and immigration.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. Legislature. Senate.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9225">Michigan. Legislature. Senate.</corpname>
         <geogname source="local" encodinganalog="691" ref="/subjects/801">Michigan--Politics and government--1971-1980.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/802">Michigan--Politics and government--1981-1990.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/816">Michigan--Politics and government--1991-2000.</geogname>
@@ -98,24 +99,24 @@ Douglas Ross Papers
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9917">Recall--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6716">Social action--Michigan--Societies, etc.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6189">Taxation--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="600">Tisch, Robert.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80126206">United States. Employment and Training Administration.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33986">Tisch, Robert.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80126206" ref="/agents/corporate_entities/11205">United States. Employment and Training Administration.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50038224">Chavez, Cesar, 1927-1993</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79091168">Kennedy, Edward M. (Edward Moore), 1932-2009</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80010387">Milliken, William G., 1922-</persname>
-        <persname source="lcnaf" encodinganalog="600">Ross, Douglas, 1942-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50038224" ref="/agents/people/29142">Chavez, Cesar, 1927-1993</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79091168" ref="/agents/people/28578">Kennedy, Edward M. (Edward Moore), 1932-2009</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80010387" ref="/agents/people/28689">Milliken, William G., 1922-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33712">Ross, Douglas, 1942-</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Sound Recordings:</head>
-        <persname source="lcnaf" encodinganalog="600">Ross, Douglas, 1942-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33712">Ross, Douglas, 1942-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8171">Tax and expenditure limitations--Michigan.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors: Sound Recordings:</head>
-        <persname source="lcnaf" encodinganalog="700">Tisch, Robert.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33986">Tisch, Robert.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

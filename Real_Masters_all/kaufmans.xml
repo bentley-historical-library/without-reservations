@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Kaufmann, Susan W.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/35625">Kaufmann, Susan W.</persname>
       </origination>
       <unittitle encodinganalog="245">Susan W. Kaufmann papers <unitdate type="inclusive" encodinganalog="245$f" normal="1995/2011">1995-2011</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2012075 Aa 2</unitid>
@@ -85,17 +86,17 @@ Susan W. Kaufmann papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n99836354">Connerly, Ward, 1939-</persname>
-        <persname source="lcnaf" encodinganalog="600">Kaufmann, Susan W.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n99836354" ref="/agents/people/33410">Connerly, Ward, 1939-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35625">Kaufmann, Susan W.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8593">Affirmative action programs--California.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6870">Affirmative action programs--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5726">Civil rights--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8594">Constitutional amendments--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8595">Race discrimination--Law and legislation--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8596">Women--Crimes against.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Civil Rights Initiative.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">One United Michigan (Organization)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n92034729">University of Michigan. Center for the Education of Women.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11758">Michigan Civil Rights Initiative.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10573">One United Michigan (Organization)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n92034729" ref="/agents/corporate_entities/13199">University of Michigan. Center for the Education of Women.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

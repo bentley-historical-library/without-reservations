@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Tanner, Andrew W.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28910">Tanner, Andrew W.</persname>
       </origination>
       <unittitle encodinganalog="245">Andrew W. Tanner Photographs <unitdate type="inclusive" encodinganalog="245$f" normal="1894/1909">1894-1909</unitdate></unittitle>
       <abstract>Andrew Tanner was photographer, born in Missouri, who traveled about the United States. He lived for a time in Ann Arbor, Michigan and on Coryell Island (part of the Les Cheneaux Islands) in Michigan's Upper Peninsula. The collection consists of glass plate negatives of images taken while in different parts of the United States and Mexico.</abstract>
@@ -86,7 +87,7 @@
       </p>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Tanner, Andrew W.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28910">Tanner, Andrew W.</persname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79084870.html" ref="/subjects/2955">Colorado Springs (Colo.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2956">Emporia (Kan.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2957">Hot Springs (Ark.)</geogname>
@@ -96,12 +97,12 @@
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/978">Mexico.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4132">Resorts--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79041725.html" ref="/subjects/1744">Saint Louis (Mo.)</geogname>
-        <famname source="lcnaf" encodinganalog="600">Tanner family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/209">Tanner family.</famname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79148924.html" ref="/subjects/2959">Topeka (Kan.)</geogname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Kausch, Jack.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28547">Kausch, Jack.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

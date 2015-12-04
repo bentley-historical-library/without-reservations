@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Stockton, Thomas R.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33116">Stockton, Thomas R.</persname>
       </origination>
       <unittitle encodinganalog="245">Thomas R. Stockton papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1917/2013">1917-2013</unitdate>
@@ -83,12 +84,12 @@ Thomas R. Stockton papers, Bentley Historical Library, University of Michigan</p
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Stockton, Thomas R.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33116">Stockton, Thomas R.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6677">Automobile industry and trade--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10245">Automobiles--Design and construction.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6831">Engineers--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10246">Engines--Design and construction.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80085248">Ford Motor Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80085248" ref="/agents/corporate_entities/9550">Ford Motor Company.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10247">Turbines--Design and construction.</subject>
       </controlaccess>
       <controlaccess>

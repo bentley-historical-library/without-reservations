@@ -50,7 +50,8 @@
         <item>Original Encoding from a Word 6 File</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -61,7 +62,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Engineering Communications &amp; Marketing.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/9155">University of Michigan. Engineering Communications &amp; Marketing.</corpname>
       </origination>
       <unittitle encodinganalog="245">Engineering Communications &amp; Marketing (University of Michigan) records</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1860/2010">1860-2010</unitdate>
@@ -114,18 +115,18 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Engineering Communications.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80094504">University of Michigan. College of Engineering.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10308">University of Michigan. Engineering Communications.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80094504" ref="/agents/corporate_entities/9252">University of Michigan. College of Engineering.</corpname>
         <geogname source="lcsh" encodinganalog="650" ref="/subjects/968">North Campus (University of Michigan)</geogname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Cooley, Mortimer E., 1855-1946.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Camp Davis (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Quarterdeck Society (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Buildings.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Engineering Communications.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80094504">University of Michigan. College of Engineering.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/27608">Cooley, Mortimer E., 1855-1946.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14205">Camp Davis (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10961">Quarterdeck Society (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Buildings.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10308">University of Michigan. Engineering Communications.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80094504" ref="/agents/corporate_entities/9252">University of Michigan. College of Engineering.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/968">North Campus (University of Michigan)</geogname>
         <subject source="lcsh" ref="/subjects/6986">World War, 1914-1918--Michigan--Ann Arbor.</subject>
       </controlaccess>

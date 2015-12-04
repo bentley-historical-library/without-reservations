@@ -35,7 +35,8 @@
         <item>Original encoding from Word 6.0 file</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Kennedy, G. Donald (George Donald), 1900-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28382">Kennedy, G. Donald (George Donald), 1900-</persname>
       </origination>
       <unittitle encodinganalog="245$a">G. Donald Kennedy Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1928/1968">1928-1968</unitdate></unittitle>
       <abstract>Civil engineer, served as Michigan state highway commissioner, chairman of the Mackinac Straits Bridge Authority and president of Portland Cement Company. Papers primarily document work with highway commission and Mackinac Straits Bridge Authority.</abstract>
@@ -113,25 +114,25 @@
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6757">Aeronautics.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8639">Airports--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79007717">American Association of State Highway Officials.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Automotive Safety Foundation.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79007717" ref="/agents/corporate_entities/9606">American Association of State Highway Officials.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13399">Automotive Safety Foundation.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6188">Bridges--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8640">Cement.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731">Democratic Party (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731" ref="/agents/corporate_entities/12900">Democratic Party (Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6831">Engineers--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50057722">Huron-Clinton Metropolitan Authority.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008190250">Kennedy, G. Donald (George Donald), 1900-1988</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50057722" ref="/agents/corporate_entities/14544">Huron-Clinton Metropolitan Authority.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008190250" ref="/agents/people/28475">Kennedy, G. Donald (George Donald), 1900-1988</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1374">Mackinac Bridge (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Mackinac Bridge Authority (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12349">Mackinac Bridge Authority (Mich.)</corpname>
         <geogname source="local" encodinganalog="691" ref="/subjects/803">Michigan--Politics and government--1929-1938.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/812">Michigan--Politics and government--1939-1945.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. State Highway Dept.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12377">Michigan. State Highway Dept.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1204">Pontiac (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6494">Presidents--United States--Election--1936.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6404">Roads--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79022932">Roosevelt, Franklin D. (Franklin Delano), 1882-1945.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79022932" ref="/agents/people/34012">Roosevelt, Franklin D. (Franklin Delano), 1882-1945.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6813">Traffic engineering--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Willow Run Bomber Plant.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12177">Willow Run Bomber Plant.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5681">World War, 1939-1945.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/965">United States--Politics and government--1933-1945.</geogname>
       </controlaccess>
@@ -139,24 +140,24 @@
         <head>Subjects - Visual Material:</head>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2155">Blue Water Bridge (Port Huron, Mich. and Sarnia, Ont.)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4072">Boat and ship industry.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Chrysler Corporation.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">City of Cheboygan (Ship)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">City of Munising (Ship)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">City of Petoskey (Ship)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9472">Chrysler Corporation.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12062">City of Cheboygan (Ship)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13915">City of Munising (Ship)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12208">City of Petoskey (Ship)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2156">Cut River Bridge (Mich.)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4617">Defense industry.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731">Democratic Party (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731" ref="/agents/corporate_entities/12900">Democratic Party (Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539.html" ref="/subjects/933">Detroit (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008187778">Dickinson, Luren Dudley, 1859-1943.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79135041">Farley, James A. (James Aloysius), 1888-1976.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008187778" ref="/agents/people/35799">Dickinson, Luren Dudley, 1859-1943.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79135041" ref="/agents/people/34903">Farley, James A. (James Aloysius), 1888-1976.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7958">Ferries.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1374">Mackinac Bridge (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81139923.html" ref="/subjects/949">Mackinac Island (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n88268193.html" ref="/subjects/1005">Mackinaw City (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. State Highway Dept.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n86025928">Murphy, Frank, 1890-1949.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12377">Michigan. State Highway Dept.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n86025928" ref="/agents/people/32539">Murphy, Frank, 1890-1949.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3810">Offices.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Pere Marquette No. 20 (Ship)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10427">Pere Marquette No. 20 (Ship)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4317">Political elections--1936.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4618">Political elections--1937.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4619">Political elections--1941.</subject>
@@ -165,35 +166,35 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4622">Politics and government--1941-1950.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4352">Quarrying.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3799">Roads--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79022932">Roosevelt, Franklin D. (Franklin Delano), 1882-1945.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79022932" ref="/agents/people/34012">Roosevelt, Franklin D. (Franklin Delano), 1882-1945.</persname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85155112.html" ref="/subjects/1219">Saint Ignace (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Straits of Mackinac (Ship)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12259">Straits of Mackinac (Ship)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4623">Tanks (Military science)</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4624">Traffic congestion.</subject>
-        <persname source="lcnaf" encodinganalog="600">Van Wagoner, Murray Delos, 1898-</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80002425">Wallace, Henry Agard, 1888-1965.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Willow Run Bomber Plant.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28156">Van Wagoner, Murray Delos, 1898-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80002425" ref="/agents/people/35092">Wallace, Henry Agard, 1888-1965.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12177">Willow Run Bomber Plant.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2157">Willow Run Expressway (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5681">World War, 1939-1945.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2007125178">Brown, Prentiss M. (Prentiss Marsh), 1889-1973.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79060195">Byrd, Richard Evelyn, 1888-1957.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008190241">Cobo, Albert E. (Albert Eugene), 1893-1957.</persname>
-        <persname source="lcnaf" encodinganalog="700">Delano, Frederic A. (Frederic Adrian), 1863-1953.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79135041">Farley, James A. (James Aloysius), 1888-1976.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n96021654">Jeffries, Edward, 1900-1950</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no97000797">Litchfield, Edward H. (Edward Harold), 1914-1968.</persname>
-        <persname source="lcnaf" encodinganalog="700">MacDonald, Thomas H. (Thomas Harris), b. 1881.</persname>
-        <persname source="lcnaf" encodinganalog="700">Michelf, Rodolfo.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86025928">Murphy, Frank, 1890-1949.</persname>
-        <persname source="lcnaf" encodinganalog="700">Osborn, Chase S. (Chase Salmon), b. 1860.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50048290">Romney, George W., 1907-1995.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n2005075179">Sorensen, Charles E., 1881-1968.</persname>
-        <persname source="lcnaf" encodinganalog="700">Van Wagoner, Murray Delos, 1898-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80002425">Wallace, Henry Agard, 1888-1965.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80084463">Williams, G. Mennen, 1911-1988.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2007125178" ref="/agents/people/28207">Brown, Prentiss M. (Prentiss Marsh), 1889-1973.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79060195" ref="/agents/people/29595">Byrd, Richard Evelyn, 1888-1957.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008190241" ref="/agents/people/35456">Cobo, Albert E. (Albert Eugene), 1893-1957.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28011">Delano, Frederic A. (Frederic Adrian), 1863-1953.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79135041" ref="/agents/people/34903">Farley, James A. (James Aloysius), 1888-1976.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n96021654" ref="/agents/people/27545">Jeffries, Edward, 1900-1950</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no97000797" ref="/agents/people/31851">Litchfield, Edward H. (Edward Harold), 1914-1968.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32578">MacDonald, Thomas H. (Thomas Harris), b. 1881.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28289">Michelf, Rodolfo.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86025928" ref="/agents/people/32539">Murphy, Frank, 1890-1949.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29688">Osborn, Chase S. (Chase Salmon), b. 1860.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50048290" ref="/agents/people/31627">Romney, George W., 1907-1995.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n2005075179" ref="/agents/people/27431">Sorensen, Charles E., 1881-1968.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28156">Van Wagoner, Murray Delos, 1898-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80002425" ref="/agents/people/35092">Wallace, Henry Agard, 1888-1965.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80084463" ref="/agents/people/31096">Williams, G. Mennen, 1911-1988.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

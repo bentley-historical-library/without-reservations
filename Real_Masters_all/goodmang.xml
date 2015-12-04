@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Goodman, Grant Kohn</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33493">Goodman, Grant Kohn</persname>
       </origination>
       <unittitle encodinganalog="245">Grant K. Goodman papers <unitdate type="inclusive" encodinganalog="245$f" normal="1943/1995">1943-1995</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">0336 Aa 2</unitid>
@@ -88,19 +89,19 @@ Grant K. Goodman papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname encodinganalog="610" source="lcnaf">United States. Army. Japanese Language School (University of Michigan)</corpname>
-        <persname encodinganalog="600" source="lcnaf">Goodman, Grant K.</persname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/9125">United States. Army. Japanese Language School (University of Michigan)</corpname>
+        <persname encodinganalog="600" source="lcnaf" ref="/agents/people/27595">Goodman, Grant K.</persname>
         <subject normal="650" source="lcsh" ref="/subjects/6045">World War, 1939-1945--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname encodinganalog="610" source="lcnaf">United States. Army. Japanese Language School (University of Michigan)</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/9125">United States. Army. Japanese Language School (University of Michigan)</corpname>
         <subject normal="650" source="lcsh" ref="/subjects/6045">World War, 1939-1945--Michigan--Ann Arbor.</subject>
         <geogname encodinganalog="655" source="lcsh" ref="/subjects/1924">Tokyo.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Sound Recordings:</head>
-        <corpname encodinganalog="610" source="lcnaf">United States. Army. Japanese Language School (University of Michigan)</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/9125">United States. Army. Japanese Language School (University of Michigan)</corpname>
         <title encodinganalog="730" source="lcnaf" ref="/subjects/198">Nips in the Bud.</title>
         <subject normal="650" source="lcsh" ref="/subjects/6045">World War, 1939-1945--Michigan--Ann Arbor.</subject>
       </controlaccess>

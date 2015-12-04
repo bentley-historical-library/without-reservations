@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Bell, Margaret, 1888-1969.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/36012">Bell, Margaret, 1888-1969.</persname>
       </origination>
       <unittitle encodinganalog="245">Margaret Bell papers <unitdate type="inclusive" encodinganalog="245$f" normal="1919/1956">1919-1956</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">861055 Aa 2</unitid>
@@ -222,10 +223,10 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Bell, Margaret, 1888-1969.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/36012">Bell, Margaret, 1888-1969.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6247">Physical education for women--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Physical Education for Women.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13283">University of Michigan. Dept. of Physical Education for Women.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6248">Women--Health and hygiene--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6249">Women physicians--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6031">Physicians--Michigan--Ann Arbor.</subject>
@@ -239,24 +240,24 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3866">Gymnasiums--Michigan--Ann Arbor.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3867">Physical education.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3630">Sports.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Physical Education for Women.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs--1951-1960.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13283">University of Michigan. Dept. of Physical Education for Women.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Students--Social life and customs--1951-1960.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3619">Women.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname encodinganalog="700" source="lcnaf">Bell, Margaret, 1888-1969.</persname>
-        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79060532">Dewey, John, 1859-1952.</persname>
-        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/nr94029651">Lee, Mabel.</persname>
-        <persname encodinganalog="700" source="lcnaf">Halsey, Elizabeth, b. 1890.</persname>
-        <persname encodinganalog="700" source="lcnaf">Jordan, Myra Beach, 1863-1946.</persname>
-        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/no2004117161">McCloy, Charles H. (Charles Harold), 1886-1959.</persname>
-        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n81127252">Mitchell, Elmer Dayton, 1889-</persname>
-        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n81114561">Nash, Jay Bryan, 1886-1965.</persname>
-        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n91070136">Palmer, Thomas Witherell, 1830-1913.</persname>
-        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n90648453">Stagg, Amos Alonzo, 1862-1965.</persname>
-        <persname encodinganalog="700" source="lcnaf">Sundwall, John, 1880-1950.</persname>
-        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n92051380">Yost, Fielding Harris, 1871-1946.</persname>
+        <persname encodinganalog="700" source="lcnaf" ref="/agents/people/36012">Bell, Margaret, 1888-1969.</persname>
+        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79060532" ref="/agents/people/35174">Dewey, John, 1859-1952.</persname>
+        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/nr94029651" ref="/agents/people/28375">Lee, Mabel.</persname>
+        <persname encodinganalog="700" source="lcnaf" ref="/agents/people/33024">Halsey, Elizabeth, b. 1890.</persname>
+        <persname encodinganalog="700" source="lcnaf" ref="/agents/people/31771">Jordan, Myra Beach, 1863-1946.</persname>
+        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/no2004117161" ref="/agents/people/33365">McCloy, Charles H. (Charles Harold), 1886-1959.</persname>
+        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n81127252" ref="/agents/people/29936">Mitchell, Elmer Dayton, 1889-</persname>
+        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n81114561" ref="/agents/people/31937">Nash, Jay Bryan, 1886-1965.</persname>
+        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n91070136" ref="/agents/people/28896">Palmer, Thomas Witherell, 1830-1913.</persname>
+        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n90648453" ref="/agents/people/28755">Stagg, Amos Alonzo, 1862-1965.</persname>
+        <persname encodinganalog="700" source="lcnaf" ref="/agents/people/28354">Sundwall, John, 1880-1950.</persname>
+        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n92051380" ref="/agents/people/28811">Yost, Fielding Harris, 1871-1946.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

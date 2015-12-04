@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Wright family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/283">Wright family.</famname>
       </origination>
       <unittitle encodinganalog="245">Wright family papers <unitdate type="inclusive" encodinganalog="245$f" normal="1825/1938">1825-1938</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">86440 Aa 2; UAx</unitid>
@@ -81,8 +82,8 @@ Wright family papers, Bentley Historical Library, University of Michigan</p>
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7238">Agriculture.</subject>
-        <persname source="lcnaf" encodinganalog="600">Collier, Victory P.</persname>
-        <famname source="lcnaf" encodinganalog="600">Collier family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35632">Collier, Victory P.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/216">Collier family.</famname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539.html" ref="/subjects/933">Detroit (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1815">Great Lakes (North America)</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/797">Michigan--Social life and customs--1861-1870.</geogname>
@@ -93,12 +94,12 @@ Wright family papers, Bentley Historical Library, University of Michigan</p>
         <geogname source="local" encodinganalog="691" ref="/subjects/818">Michigan--Social life and customs--1911-1920.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/790">Michigan--Social life and customs--1921-1930.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1578">Ohio.</geogname>
-        <famname source="lcnaf" encodinganalog="600">Pettibone family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/51">Pettibone family.</famname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10806">Ships--Great Lakes (North America)</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n83060788">Stanley, David Sloane, 1828-1902.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n83060788" ref="/agents/people/29353">Stanley, David Sloane, 1828-1902.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/3131">Tallmadge (Ohio)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8335">Women--Michigan--Detroit.</subject>
-        <famname source="lcnaf" encodinganalog="600">Wright family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/283">Wright family.</famname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1302">Michigan--Social life and customs--19th century.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/851">Michigan--Social life and customs--20th century.</geogname>
       </controlaccess>
@@ -112,15 +113,15 @@ Wright family papers, Bentley Historical Library, University of Michigan</p>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5629">Men--Clothing and dress--1921-1930.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3810">Offices.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3619">Women.</subject>
-        <famname source="lcnaf" encodinganalog="600">Wright family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/283">Wright family.</famname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Collier, William W.</persname>
-        <persname source="lcnaf" encodinganalog="700">Pettibone, Samuel.</persname>
-        <persname source="lcnaf" encodinganalog="700">Wright, Fannie E. Pettibone, 1836-1925.</persname>
-        <persname source="lcnaf" encodinganalog="700">Wright, Philo Elizar, 1828-1876.</persname>
-        <persname source="lcnaf" encodinganalog="700">Wright, Philo Sherman, 1862-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35415">Collier, William W.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31432">Pettibone, Samuel.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28690">Wright, Fannie E. Pettibone, 1836-1925.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31026">Wright, Philo Elizar, 1828-1876.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29673">Wright, Philo Sherman, 1862-</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

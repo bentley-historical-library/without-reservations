@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2010 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Helmer, L. May.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30256">Helmer, L. May.</persname>
       </origination>
       <unittitle encodinganalog="245">L. May Helmer papers <unitdate type="inclusive" encodinganalog="245$f" normal="1907/1919">1907-1919</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2014123 Aa 2</unitid>
@@ -82,12 +83,12 @@ L. May Helmer papers, Bentley Historical Library, University of Michigan</p>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8174">Dental hygiene--Study and teaching--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2007">Dijon (France)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4497">Group portraits.</subject>
-        <persname source="lcnaf" encodinganalog="600">Helmer, L. May.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30256">Helmer, L. May.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4498">Hospital ships--British--1910-1920.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4499">Nurses.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50071170">United States. Army Nurse Corps.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Homeopathic Hospital. Training School for Nurses.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85129645">University of Michigan. School of Dentistry.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50071170" ref="/agents/corporate_entities/13397">United States. Army Nurse Corps.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9159">University of Michigan. Homeopathic Hospital. Training School for Nurses.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85129645" ref="/agents/corporate_entities/12675">University of Michigan. School of Dentistry.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8175">World War, 1914-1918--Women.</subject>
         <genreform source="aat" encodinganalog="655" ref="/subjects/3141">Photographs.</genreform>
         <genreform source="aat" encodinganalog="655" ref="/subjects/3139">Scrapbooks.</genreform>

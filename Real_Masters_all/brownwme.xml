@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Brown, William Ellis, 1896-1970.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/35709">Brown, William Ellis, 1896-1970.</persname>
       </origination>
       <unittitle encodinganalog="245">William E. Brown papers <unitdate type="inclusive" encodinganalog="245$f" normal="1923/1972">1923-1972</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85896 Aa 2; AC</unitid>
@@ -87,22 +88,22 @@ William E. Brown papers, Bentley Historical Library, University of Michigan</p>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/857">Ann Arbor (Mich.)--Politics and government.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6509">Automobile industry and trade--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6267">Automobile parking.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008190241">Cobo, Albert E. (Albert Eugene), 1893-1957.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008190241" ref="/agents/people/35456">Cobo, Albert E. (Albert Eugene), 1893-1957.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6510">Elections--Michigan--1956.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5676">Housing--Michigan--Ann Arbor.</subject>
         <geogname source="local" encodinganalog="691" ref="/subjects/809">Michigan--Politics and government--1946-1960.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5661">Municipal government--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6156">Real estate business--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Veterans Administration Hospital (Ann Arbor, Mich.)</corpname>
-        <persname source="lcnaf" encodinganalog="600">Brown, William Ellis, 1896-1970.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13160">Republican Party (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9059">Veterans Administration Hospital (Ann Arbor, Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35709">Brown, William Ellis, 1896-1970.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/910">Michigan--Politics and government--1951-</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/884">Michigan--Politics and government--1837-1950.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/233">Ann Arbor (Mich.)--Buildings, structures, etc.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor (Mich.). Common Council.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9660">Ann Arbor (Mich.). Common Council.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1376">Detroit (Mich.)--Buildings, structures, etc.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3982">Garages.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3983">Parking.</subject>

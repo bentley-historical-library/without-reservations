@@ -43,7 +43,8 @@
         <item>Original encoding from Word 6.0 file.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -54,7 +55,7 @@
   <archdesc level="collection" type="inventory" audience="external" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf">McCreery family.</famname>
+        <famname source="lcnaf" ref="/agents/families/326">McCreery family.</famname>
       </origination>
       <unittitle encodinganalog="245">McCreery-Fenton Family papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1818/1948">1818-1948</unitdate>
@@ -106,25 +107,25 @@
       </p>
       <controlaccess>
         <genreform source="aat" encodinganalog="655" ref="/subjects/3150">Diaries.</genreform>
-        <persname source="lcnaf" encodinganalog="600">Bryan, William Jennings, 1860-1925.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32907">Bryan, William Jennings, 1860-1925.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8976">Chickamauga, Battle of, Ga., 1863.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2308">United States--Foreign relations--Chile.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2309">Chile--Foreign relations--United States.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731">Democratic Party (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731" ref="/agents/corporate_entities/12900">Democratic Party (Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2310">United States--Foreign relations--Dominican Republic.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2311">Dominican Republic--Foreign relations--United States.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1022">Fenton (Mich.)</geogname>
-        <famname source="lcnaf" encodinganalog="600">Fenton family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/398">Fenton family.</famname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82166396.html" ref="/subjects/893">Flint (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8853">Fredericksburg (Va.), Battle of, 1862.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1023">Genesee County (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2312">United States--Foreign relations--Honduras.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2313">Honduras--Foreign relations--United States.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1323">Latin America.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79109758">Libby Prison.</corpname>
-        <famname source="lcnaf" encodinganalog="600">McCreery family.</famname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79109758" ref="/agents/corporate_entities/10776">Libby Prison.</corpname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/326">McCreery family.</famname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2314">Mexico--Foreign relations--United States.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Military Academy.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10671">Michigan Military Academy.</corpname>
         <geogname source="local" encodinganalog="691" ref="/subjects/824">Michigan--Politics and government--1845-1860.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/795">Michigan--Social life and customs--1841-1850.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/796">Michigan--Social life and customs--1851-1860.</geogname>
@@ -136,12 +137,12 @@
         <geogname source="local" encodinganalog="691" ref="/subjects/818">Michigan--Social life and customs--1911-1920.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/790">Michigan--Social life and customs--1921-1930.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/791">Michigan--Social life and customs--1931-1940.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81074669">Michigan. Supreme Court.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81074669" ref="/agents/corporate_entities/10286">Michigan. Supreme Court.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6002">Presidents--United States--Election--1896.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6003">Silver question.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n91104519">United States. Army. Michigan Infantry Regiment, 7th (1861-1865)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n91016725">United States. Army. Michigan Infantry Regiment, 8th (1861-1865)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2011086693">United States. Army. Michigan Infantry Regiment, 21st (1862-1865)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n91104519" ref="/agents/corporate_entities/9807">United States. Army. Michigan Infantry Regiment, 7th (1861-1865)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n91016725" ref="/agents/corporate_entities/9464">United States. Army. Michigan Infantry Regiment, 8th (1861-1865)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2011086693" ref="/agents/corporate_entities/11226">United States. Army. Michigan Infantry Regiment, 21st (1862-1865)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/909">United States--History--Civil War, 1861-1865.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1402">United States--Politics and government--1845-1861.</geogname>
       </controlaccess>
@@ -153,13 +154,13 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3622">Children.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/957">Chile.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4756">Diplomats.</subject>
-        <persname source="lcnaf" encodinganalog="600">Fenton, William M., 1808-1871.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28725">Fenton, William M., 1808-1871.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8979">Streets--Michigan--Flint.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2315">Honduras.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4757">Interiors--Michigan--Flint--1883.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8978">Lookout Mountain (Tenn.), Battle of, 1863.</subject>
-        <persname source="lcnaf" encodinganalog="600">McCreery, Fenton R. (Fenton Reuben), 1866-1940.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2013021883">McCreery, William B. (William Barker), 1836-1896.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/27830">McCreery, Fenton R. (Fenton Reuben), 1866-1940.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2013021883" ref="/agents/people/34056">McCreery, William B. (William Barker), 1836-1896.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/978">Mexico.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1743">Missouri.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2169">New Mexico.</geogname>
@@ -169,37 +170,37 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008116613">Begole, Josiah Williams, 1815-1896.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88667420">Belknap, Charles Eugene, 1846-1929.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no97005930">Blair, Austin, 1818-1894.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008188971">Bliss, Aaron Thomas, 1837-1906.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50034113">Cass, Lewis, 1782-1866.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr92004277">Clayton, Powell, 1833-1914.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88159838">Crapo, Henry Howland, 1804-1869.</persname>
-        <persname source="lcnaf" encodinganalog="700">Díaz, Porfirio, 1830-1915.</persname>
-        <persname source="lcnaf" encodinganalog="700">Egan, Patrick.</persname>
-        <persname source="lcnaf" encodinganalog="700">Fenton, William M., 1808-1871.</persname>
-        <persname source="lcnaf" encodinganalog="700">Goodrich, Enos, 1813-1897.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50031486">Grew, Joseph C. (Joseph Clark), 1880-1965.</persname>
-        <persname source="lcnaf" encodinganalog="700">Hall, Charles P.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80002568">Hay, John, 1838-1905.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86053399">Knox, Philander C. (Philander Chase), 1853-1921.</persname>
-        <persname source="lcnaf" encodinganalog="700">McCreery, Fenton R. (Fenton Reuben), 1866-1940.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2013021883">McCreery, William B. (William Barker), 1836-1896.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no00000505">Pepper, Charles Melville, 1859-1930.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85185518">Putnam, Herbert, 1861-1955.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008186715">Rich, John Treadway, 1841-1926.</persname>
-        <persname source="lcnaf" encodinganalog="700">Ridgely, Benjamin H., 1861-1908.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88675632">Robertson, Jno. (John), 1814-1887.</persname>
-        <persname source="lcnaf" encodinganalog="700">Rosencrans, William Starke, 1819-1898.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n89125978">Schley, Winfield Scott, 1839-1911.</persname>
-        <persname source="lcnaf" encodinganalog="700">Sheridan, George Augustus, 1840-1896.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50023075">Sherman, John, 1823-1900.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n98059960">Taliaferro, James Piper, 1847-1934.</persname>
-        <persname source="lcnaf" encodinganalog="700">Taylor, George Washington, 1849-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50010168">Thomas, George Henry, 1816-1870.</persname>
-        <persname source="lcnaf" encodinganalog="700">Ward, Eber Brock, d. 1873.</persname>
-        <persname source="lcnaf" encodinganalog="700">Wilcox, Orland B.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008116613" ref="/agents/people/30029">Begole, Josiah Williams, 1815-1896.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88667420" ref="/agents/people/30093">Belknap, Charles Eugene, 1846-1929.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no97005930" ref="/agents/people/35676">Blair, Austin, 1818-1894.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008188971" ref="/agents/people/36123">Bliss, Aaron Thomas, 1837-1906.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50034113" ref="/agents/people/28482">Cass, Lewis, 1782-1866.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr92004277" ref="/agents/people/35792">Clayton, Powell, 1833-1914.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88159838" ref="/agents/people/33944">Crapo, Henry Howland, 1804-1869.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35021">Díaz, Porfirio, 1830-1915.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35679">Egan, Patrick.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28725">Fenton, William M., 1808-1871.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30585">Goodrich, Enos, 1813-1897.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50031486" ref="/agents/people/30350">Grew, Joseph C. (Joseph Clark), 1880-1965.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30352">Hall, Charles P.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80002568" ref="/agents/people/29566">Hay, John, 1838-1905.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86053399" ref="/agents/people/30938">Knox, Philander C. (Philander Chase), 1853-1921.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27830">McCreery, Fenton R. (Fenton Reuben), 1866-1940.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2013021883" ref="/agents/people/34056">McCreery, William B. (William Barker), 1836-1896.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no00000505" ref="/agents/people/35917">Pepper, Charles Melville, 1859-1930.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85185518" ref="/agents/people/30705">Putnam, Herbert, 1861-1955.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008186715" ref="/agents/people/30880">Rich, John Treadway, 1841-1926.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29710">Ridgely, Benjamin H., 1861-1908.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88675632" ref="/agents/people/31675">Robertson, Jno. (John), 1814-1887.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27288">Rosencrans, William Starke, 1819-1898.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n89125978" ref="/agents/people/31969">Schley, Winfield Scott, 1839-1911.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30349">Sheridan, George Augustus, 1840-1896.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50023075" ref="/agents/people/36222">Sherman, John, 1823-1900.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n98059960" ref="/agents/people/30738">Taliaferro, James Piper, 1847-1934.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35072">Taylor, George Washington, 1849-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50010168" ref="/agents/people/33640">Thomas, George Henry, 1816-1870.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28294">Ward, Eber Brock, d. 1873.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27324">Wilcox, Orland B.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

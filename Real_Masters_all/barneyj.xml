@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Barney, Jane Lockwood.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28760">Barney, Jane Lockwood.</persname>
       </origination>
       <unittitle encodinganalog="245">Jane Lockwood Barney Papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1937/2009">1937-2009</unitdate>
@@ -87,13 +88,13 @@ Jane Lockwood Barney Papers, Bentley Historical Library, University of Michigan.
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Barney, Jane Lockwood.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Avalon Housing (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Institute of Gerontology (University of Michigan-Wayne State University)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Shelter Association of Washtenaw County.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. Andrew's Episcopal Church (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Turner African American Services Council.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Washtenaw Housing Alliance.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28760">Barney, Jane Lockwood.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10662">Avalon Housing (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9883">Institute of Gerontology (University of Michigan-Wayne State University)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11406">Shelter Association of Washtenaw County.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12951">St. Andrew's Episcopal Church (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14576">Turner African American Services Council.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13985">Washtenaw Housing Alliance.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5659">African Americans--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5676">Housing--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6096">Minorities--Michigan--Washtenaw County.</subject>

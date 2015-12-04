@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -40,7 +41,7 @@ Michael Swanson, 2007-2008 <lb/>J. K. Purdom Lindblad, 2010</author>
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Michigan Interscholastic Forensic Association</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/11417">Michigan Interscholastic Forensic Association</corpname>
       </origination>
       <unittitle encodinganalog="245">Michigan Interscholastic Forensic Association records</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1897/2006">1897-2006</unitdate>
@@ -103,7 +104,7 @@ Michigan Interscholastic Forensic Association records, Bentley Historical Librar
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname encodinganalog="610" source="lcnaf">Michigan High School Forensic Association.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/10306">Michigan High School Forensic Association.</corpname>
         <subject encodinganalog="650" source="lcsh" ref="/subjects/9337">Forensic oratory.</subject>
       </controlaccess>
       <controlaccess>

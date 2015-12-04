@@ -32,7 +32,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -43,7 +44,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Ladies Library Association of Ann Arbor.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/10269">Ladies Library Association of Ann Arbor.</corpname>
       </origination>
       <unittitle encodinganalog="245">Ladies Library Association of Ann Arbor records <unitdate type="inclusive" encodinganalog="245$f" normal="1866/2011">1866-2011</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85612 Bz 2</unitid>
@@ -88,8 +89,8 @@ Ladies Library Association of Ann Arbor records, Bentley Historical Library, Uni
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Public Library.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Ladies Library Association of Ann Arbor.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14553">Ann Arbor Public Library.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10269">Ladies Library Association of Ann Arbor.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6305">Libraries--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5672">Women--Michigan--Ann Arbor--Societies and clubs.</subject>
       </controlaccess>
@@ -97,7 +98,7 @@ Ladies Library Association of Ann Arbor records, Bentley Historical Library, Uni
         <head>Subjects - Visual Materials:</head>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/214">Ann Arbor (Mich.)--Buildings.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3588">Buildings--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Ladies Library Association of Ann Arbor.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10269">Ladies Library Association of Ann Arbor.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3894">Libraries--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>

@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Oncology Nursing Society. Ann Arbor Chapter.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/12702">Oncology Nursing Society. Ann Arbor Chapter.</corpname>
       </origination>
       <unittitle encodinganalog="245">Oncology Nursing Society, Ann Arbor Chapter records <unitdate type="inclusive" encodinganalog="245$f" normal="1980/2004">1980-2004</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">03129 Bf 2</unitid>
@@ -76,7 +77,7 @@ Oncology Nursing Society, Ann Arbor Chapter Records, Bentley Historical Library,
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Oncology Nursing Society. Ann Arbor Chapter.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12702">Oncology Nursing Society. Ann Arbor Chapter.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6962">Cancer--Nursing.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6089">Nursing--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6088">Nurses--Michigan--Ann Arbor.</subject>

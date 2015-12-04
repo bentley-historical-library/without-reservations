@@ -35,7 +35,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Cathedral Church of St. Paul (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/11188">Cathedral Church of St. Paul (Detroit, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">Cathedral Church of St. Paul (Detroit, Mich.) Records <unitdate type="inclusive" encodinganalog="245$f" normal="1824/2002">1824-2002</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">89503 Ba 2 BA oversize</unitid>
@@ -94,8 +95,8 @@ Cathedral Church of St. Paul (Detroit, Mich.) Records, Bentley Historical Librar
       <controlaccess>
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/952">Detroit (Mich.)--Church history.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Episcopal Church--Michigan--Detroit.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Cathedral Church of St. Paul (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9954">Episcopal Church--Michigan--Detroit.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11188">Cathedral Church of St. Paul (Detroit, Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5960">Registers of births, etc.--Michigan--Detroit.</subject>
       </controlaccess>
     </controlaccess>

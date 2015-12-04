@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Stasheff, Edward, 1909-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32867">Stasheff, Edward, 1909-</persname>
       </origination>
       <unittitle encodinganalog="245">Edward Stasheff papers <unitdate type="inclusive" encodinganalog="245$f" normal="1942/1981">1942-1981</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">91433 Aa 2</unitid>
@@ -78,11 +79,11 @@ Edward Stasheff Papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79066596">Stasheff, Edward.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79066596" ref="/agents/people/31267">Stasheff, Edward.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7895">Television broadcasting--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7896">Television in education--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Speech.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10644">University of Michigan. Dept. of Speech.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">St. Timothy’s Episcopal Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/12303">St. Timothy’s Episcopal Church (Detroit, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">St. Timothy’s Episcopal Church, Detroit, Mich., records <unitdate type="inclusive" encodinganalog="245$f" normal="1928/2010">1928-2010</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2012126 Ba 2; Ba Outsize</unitid>
@@ -89,13 +90,13 @@ St. Timothy’s Episcopal Church, Detroit, Mich., records, Bentley Historical Li
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6290">African American churches--Michigan--Detroit.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/952">Detroit (Mich.)--Church history.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Episcopal Church--Michigan--Detroit.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. Augustine's Episcopal Church (Detroit, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. Timothy's Episcopal Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9954">Episcopal Church--Michigan--Detroit.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14416">St. Augustine's Episcopal Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10355">St. Timothy's Episcopal Church (Detroit, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <corpname source="lcnaf" encodinganalog="710">St. Augustine's Episcopal Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/14416">St. Augustine's Episcopal Church (Detroit, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

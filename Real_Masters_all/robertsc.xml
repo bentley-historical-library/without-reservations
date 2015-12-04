@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Roberts, Carmen A.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/35567">Roberts, Carmen A.</persname>
       </origination>
       <unittitle encodinganalog="245">Carmen A. Roberts Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1972/1981">1972-1981</unitdate></unittitle>
       <abstract>Member of the Detroit school board and a leader of the anti-busing movement in Detroit. Correspondence, speeches, clippings, legal brief, organizational miscellanea, and collected pro- and anti-busing materials; also photographs and motion picture film.</abstract>
@@ -79,7 +80,7 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9892">Busing for school integration--Michigan--Detroit.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81036026">Detroit (Mich.). Board of Education.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81036026" ref="/agents/corporate_entities/13716">Detroit (Mich.). Board of Education.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6484">Education--Michigan--Detroit.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6876">Segregation in education--Michigan--Detroit.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9893">Women in education--Michigan--Detroit.</subject>
@@ -92,7 +93,7 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3755">Demonstrations.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539.html" ref="/subjects/933">Detroit (Mich.)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3598">Political parades and rallies.</subject>
-        <persname source="lcnaf" encodinganalog="600">Roberts, Carmen A.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35567">Roberts, Carmen A.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3858">Women--Political life.</subject>
       </controlaccess>
       <controlaccess>

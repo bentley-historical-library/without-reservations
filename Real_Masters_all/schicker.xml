@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Schicker, Louis E., 1896?-1964.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28904">Schicker, Louis E., 1896?-1964.</persname>
       </origination>
       <unittitle encodinganalog="245">Louis E. Schicker photograph album <unitdate type="inclusive" encodinganalog="245$f" normal="1910/1939" certainty="approximate">1910s-1930s</unitdate></unittitle>
       <abstract>Resident of Detroit, Mich., who served as a photographer with the 310th Engineers during the Allied intervention in Russia, 1918-1920, the "Polar Bear Expedition." Collection includes photographs of 310th Engineers training at Camp Custer, Mich., and in Russia, Detroit Fire Dept. personnel and equipment, Detroit waterfront, farming in Roscommon County, hunting and fishing in Roscommon County, logging in Baraga County.</abstract>
@@ -83,7 +84,7 @@
       </p>
       <controlaccess>
         <head>Subjects</head>
-        <persname source="lcnaf" encodinganalog="600">Schicker, Louis E., 1896?-1964.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28904">Schicker, Louis E., 1896?-1964.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/883">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
         <subject source="local" encodinganalog="690" authfilenumber="http://id.loc.gov/authorities/names/n2008059426" ref="/subjects/3518">Polar Bear Expedition.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6000">World War, 1914-1918--Michigan.</subject>
@@ -116,8 +117,8 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4661">Warships--American--Russia (Federation)</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5248">Warships--British--Russia (Federation)</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5249">Waterfronts--Michigan--Detroit.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Detroit (Mich.). Fire Dept.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Engineer Regiment, 310th.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11885">Detroit (Mich.). Fire Dept.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10968">United States. Army. Engineer Regiment, 310th.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

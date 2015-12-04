@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">McLellan, Richard D.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32731">McLellan, Richard D.</persname>
       </origination>
       <unittitle encodinganalog="245">Richard D. McLellan papers <unitdate type="inclusive" encodinganalog="245$f" normal="1978/2012">1978-2012</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2012060 Aa 2</unitid>
@@ -87,10 +88,10 @@ Richard D. McLellan papers, Bentley Historical Library, University of Michigan</
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">McLellan, Richard D.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2008043816">Dykema Gossett (Firm)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Center for Charter Schools.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">TEACH Michigan.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32731">McLellan, Richard D.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2008043816" ref="/agents/corporate_entities/10587">Dykema Gossett (Firm)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12515">Michigan Center for Charter Schools.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9645">TEACH Michigan.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8998">Charter schools--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8999">School choice--Michigan.</subject>
       </controlaccess>

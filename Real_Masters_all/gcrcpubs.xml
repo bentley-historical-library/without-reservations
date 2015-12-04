@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. General Clinical Research Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/14552">University of Michigan. General Clinical Research Center.</corpname>
       </origination>
       <unittitle encodinganalog="245">General Clinical Research Center (University of Michigan) publications <unitdate type="inclusive" encodinganalog="245$f" normal="1961/1993">1961-1993</unitdate></unittitle>
       <abstract>Reprints of medical journal articles describing medical cases and treatment protocols based upon clinical trials in the University of Michigan General Clinical Research Center.</abstract>
@@ -85,7 +86,7 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. General Clinical Research Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14552">University of Michigan. General Clinical Research Center.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

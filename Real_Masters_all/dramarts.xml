@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Dramatic Arts Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/14277">Dramatic Arts Center.</corpname>
       </origination>
       <unittitle encodinganalog="245">Dramatic Arts Center Records</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1954/1966">1954-1966</unitdate>
@@ -87,19 +88,19 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Dramatic Arts Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14277">Dramatic Arts Center.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7307">Repertory theater--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6869">Theater--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <corpname source="lcnaf" encodinganalog="610">Dramatic Arts Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14277">Dramatic Arts Center.</corpname>
         <subject source="aat" encodinganalog="650" ref="/subjects/10852">Theatrical productions--Michigan--Ann Arbor.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4207">Children--Performances &amp; portrayals.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50044993">Kaplan, Wilfred, 1915-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50044993" ref="/agents/people/32487">Kaplan, Wilfred, 1915-</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

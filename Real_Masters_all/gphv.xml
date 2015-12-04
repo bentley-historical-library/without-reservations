@@ -39,7 +39,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -50,7 +51,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Gray Panthers of Huron Valley.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/13833">Gray Panthers of Huron Valley.</corpname>
       </origination>
       <unittitle encodinganalog="245">Gray Panthers of Huron Valley Records <unitdate type="inclusive" encodinganalog="245$f" normal="1979/2008">1979-2008</unitdate></unittitle>
       <abstract>Ann Arbor, Michigan-based chapter of the Gray Panthers. Subject files pertaining to chapter activities; administrative files include annual reports, correspondence, and newsletters.</abstract>
@@ -94,8 +95,8 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8023">Aged--Michigan--Political activities.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82085272">Gray Panthers.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Gray Panthers of Huron Valley.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82085272" ref="/agents/corporate_entities/13838">Gray Panthers.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13833">Gray Panthers of Huron Valley.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre</head>

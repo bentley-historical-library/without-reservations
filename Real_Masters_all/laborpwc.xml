@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Labor Party of Washtenaw County.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/9121">Labor Party of Washtenaw County.</corpname>
       </origination>
       <unittitle encodinganalog="245">Labor Party of Washtenaw County records <unitdate type="inclusive" encodinganalog="245$f" normal="1995/1999">1995-1999</unitdate></unittitle>
       <abstract>Administrative records include bylaws, correspondence, meeting minutes, and newsletters. Topical files concern various political groups and issues such as the Detroit newspaper strike, the appearance of the Ku Klux Klan in Ann Arbor in 1996, and other labor matters.</abstract>
@@ -81,17 +82,17 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Labor Party of Washtenaw County.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9121">Labor Party of Washtenaw County.</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539.html" ref="/subjects/933">Detroit (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80076145">Ku Klux Klan (1915- )</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no93023110">Labor Party Advocates (U.S.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80076145" ref="/agents/corporate_entities/11604">Ku Klux Klan (1915- )</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no93023110" ref="/agents/corporate_entities/14317">Labor Party Advocates (U.S.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8710">Strikes and lockouts--Newspapers--Michigan.</subject>
         <geogname source="lcnaf" encodinganalog="651" ref="/subjects/772">Washtenaw County (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8711">Working class--Michigan--Washtenaw County.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <corpname source="lcnaf" encodinganalog="610">Labor Party of Washtenaw County.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9121">Labor Party of Washtenaw County.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3901">Strikes--Michigan--Detroit.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4647">Newspaper industry--Michigan--Detroit.</subject>
       </controlaccess>

@@ -35,7 +35,8 @@
         <item>Original encoding in EAD Vers. 1.0 from Word 6.0 file using Word macros and some hand tagging.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Novy, Frederick G., 1864-1957.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30647">Novy, Frederick G., 1864-1957.</persname>
       </origination>
       <unittitle encodinganalog="245$a">Frederick G. Novy Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1890/1954">1890-1954</unitdate></unittitle>
       <abstract>University of Michigan microbiologist; correspondence, student notebooks, San Francisco Plague Commission records, research files and laboratory notebooks, visual materials</abstract>
@@ -108,28 +109,28 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7002">Epidemics.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9100">Fever.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7165">Medicine--Study and teaching--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n2007182157">Novy, Frederick George, 1864-1957.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85369282">Pettee, William Henry, 1838-1904.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n2007182157" ref="/agents/people/29264">Novy, Frederick George, 1864-1957.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85369282" ref="/agents/people/27659">Pettee, William Henry, 1838-1904.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6031">Physicians--Michigan--Ann Arbor.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n86867624">Prescott, A. B. (Albert Benjamin), 1832-1905.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n86867624" ref="/agents/people/27957">Prescott, A. B. (Albert Benjamin), 1832-1905.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9175">Sanitation.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n84803218">Sewall, Henry, 1855-1936.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79067259">University of Michigan. Dept. of Chemistry.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Geology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Physics.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2014188351">University of Michigan. Hygienic Laboratory.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151">University of Michigan. Medical School.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Pasteur Institute.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Student notebooks.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85828861">Winchell, Alexander, 1824-1891.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n84803218" ref="/agents/people/34627">Sewall, Henry, 1855-1936.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79067259" ref="/agents/corporate_entities/13469">University of Michigan. Dept. of Chemistry.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11286">University of Michigan. Dept. of Geology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9869">University of Michigan. Dept. of Physics.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2014188351" ref="/agents/corporate_entities/8869">University of Michigan. Hygienic Laboratory.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151" ref="/agents/corporate_entities/11381">University of Michigan. Medical School.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13959">University of Michigan. Pasteur Institute.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Student notebooks.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85828861" ref="/agents/people/33071">Winchell, Alexander, 1824-1891.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9215">Yellow fever.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/207">Ann Arbor (Mich.)--Dwellings.</geogname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/209">Ann Arbor (Mich.)--Streets.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Astor House (Mackinac Island, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9329">Astor House (Mackinac Island, Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5077">Camping--1907.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3572">Dwellings--Michigan--Ann Arbor.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1284">England.</geogname>
@@ -142,53 +143,53 @@
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/627">Mackinac Island (Mich.)--Hotels and taverns.</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81139923.html" ref="/subjects/949">Mackinac Island (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/949">Mackinac Island (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n2007182157">Novy, Frederick George, 1864-1957.</persname>
-        <famname source="lcnaf" encodinganalog="600">Novy family.</famname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n2007182157" ref="/agents/people/29264">Novy, Frederick George, 1864-1957.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/223">Novy family.</famname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3941">Photography.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81003784.html" ref="/subjects/936">Sault Sainte Marie (Mich.)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4109">Scientific equipment.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4745">Sculpture.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Smith House (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10267">Smith House (Ann Arbor, Mich.)</corpname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/628">Streets--Michigan--Ann Arbor.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3859">Travel.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Alumni and alumnae.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Medicine and Surgery. Class of 1886.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Medicine and Surgery. Class of 1891.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Medicine and Surgery. Class of 1906.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Medicine and Surgery. Class of 1912.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Medical School--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Alumni and alumnae.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14652">University of Michigan. Dept. of Medicine and Surgery. Class of 1886.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10906">University of Michigan. Dept. of Medicine and Surgery. Class of 1891.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11836">University of Michigan. Dept. of Medicine and Surgery. Class of 1906.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12970">University of Michigan. Dept. of Medicine and Surgery. Class of 1912.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11381">University of Michigan. Medical School--Faculty.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84804534">Ashford, Bailey K. (Bailey Kelly), 1873-1934.</persname>
-        <persname source="lcnaf" encodinganalog="700">Behrens, Charles August, 1885-1950.</persname>
-        <persname source="lcnaf" encodinganalog="700">Breakey, William Fleming, 1835-1915.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nb99035143">Bruce, David, 1855-1931.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82262767">Calmette, Gaston, 1858-1914.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79079611">De Kruif, Paul, 1890-1971.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n83164445">Ehrlich, Paul, 1854-1915.</persname>
-        <persname source="lcnaf" encodinganalog="700">Fraenkel, Karl, 1861-1916.</persname>
-        <persname source="lcnaf" encodinganalog="700">Greene, Albert Emerson.</persname>
-        <persname source="lcnaf" encodinganalog="700">Johnson, Otis C. (Otis Coe), 1839-1912.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2007095432">Jordan, Edwin Oakes, 1866-1936.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no96025159">Kahn, Reuben L. (Reuben Leon), 1887-1979.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50043984">Koch, Robert, 1843-1910.</persname>
-        <persname source="lcnaf" encodinganalog="700">Langley, John Williams, 1841-1918.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n2011187081">McKinley, Earl Baldwin, 1894-1938.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2002107165">Marshall, Charles Edward, 1866-1927.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84803115">Nicolle, Charles, 1866-1936.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2014059853">Norris, Charles, 1867-1935.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85213207">Nuttall, George Henry Falkiner, 1862-1937.</persname>
-        <persname source="lcnaf" encodinganalog="700">Osler, William, Sir, 1849-1919.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81103522">Reed, Walter, 1851-1902.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008186715">Rich, John Treadway, 1841-1926.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no98020298">Ricketts, Howard Taylor, 1871-1910.</persname>
-        <persname source="lcnaf" encodinganalog="700">Ross, Ronald, Sir, 1857-1932.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84805383">Roux, Pierre Paul Emile, 1853-1933.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n96019749">Schaudinn, Fritz, 1871-1906.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88274023">Smith, Theobald, 1859-1934.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85804361">Vaughan, Victor C. (Victor Clarence), 1851-1929.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84804910">Welch, William Henry, 1850-1934.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84804534" ref="/agents/people/31958">Ashford, Bailey K. (Bailey Kelly), 1873-1934.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32938">Behrens, Charles August, 1885-1950.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32684">Breakey, William Fleming, 1835-1915.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nb99035143" ref="/agents/people/35105">Bruce, David, 1855-1931.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82262767" ref="/agents/people/29454">Calmette, Gaston, 1858-1914.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79079611" ref="/agents/people/27277">De Kruif, Paul, 1890-1971.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n83164445" ref="/agents/people/33185">Ehrlich, Paul, 1854-1915.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31408">Fraenkel, Karl, 1861-1916.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29487">Greene, Albert Emerson.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33326">Johnson, Otis C. (Otis Coe), 1839-1912.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2007095432" ref="/agents/people/34049">Jordan, Edwin Oakes, 1866-1936.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no96025159" ref="/agents/people/30799">Kahn, Reuben L. (Reuben Leon), 1887-1979.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50043984" ref="/agents/people/31336">Koch, Robert, 1843-1910.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27292">Langley, John Williams, 1841-1918.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n2011187081" ref="/agents/people/29020">McKinley, Earl Baldwin, 1894-1938.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2002107165" ref="/agents/people/31495">Marshall, Charles Edward, 1866-1927.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84803115" ref="/agents/people/33447">Nicolle, Charles, 1866-1936.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2014059853" ref="/agents/people/35396">Norris, Charles, 1867-1935.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85213207" ref="/agents/people/31732">Nuttall, George Henry Falkiner, 1862-1937.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32250">Osler, William, Sir, 1849-1919.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81103522" ref="/agents/people/33595">Reed, Walter, 1851-1902.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008186715" ref="/agents/people/30880">Rich, John Treadway, 1841-1926.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no98020298" ref="/agents/people/35726">Ricketts, Howard Taylor, 1871-1910.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34595">Ross, Ronald, Sir, 1857-1932.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84805383" ref="/agents/people/31602">Roux, Pierre Paul Emile, 1853-1933.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n96019749" ref="/agents/people/33765">Schaudinn, Fritz, 1871-1906.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88274023" ref="/agents/people/35955">Smith, Theobald, 1859-1934.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85804361" ref="/agents/people/33952">Vaughan, Victor C. (Victor Clarence), 1851-1929.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84804910" ref="/agents/people/29548">Welch, William Henry, 1850-1934.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

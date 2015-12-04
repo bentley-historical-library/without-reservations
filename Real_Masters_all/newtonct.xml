@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Newton, Charles Tyley, 1893-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/34414">Newton, Charles Tyley, 1893-</persname>
       </origination>
       <unittitle encodinganalog="245">Charles Tyley Newton Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1907/1947">1907-1947</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">852014 Aa 2</unitid>
@@ -76,12 +77,12 @@ Charles Tyley Newton Papers, Bentley Historical Library, University of Michigan<
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6544">Automobile industry and trade--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80085248">Ford Motor Company.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50023175">Foster, Stephen Collins, 1826-1864.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79126993">Henry Ford Museum and Greenfield Village.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50007831">McGuffey, William Holmes, 1800-1873.</persname>
-        <persname source="lcnaf" encodinganalog="600">Newton, Charles Tyley, 1893-</persname>
-        <corpname source="lcnaf" encodinganalog="610">Willow Run Bomber Plant.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80085248" ref="/agents/corporate_entities/9550">Ford Motor Company.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50023175" ref="/agents/people/33997">Foster, Stephen Collins, 1826-1864.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79126993" ref="/agents/corporate_entities/14366">Henry Ford Museum and Greenfield Village.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50007831" ref="/agents/people/31892">McGuffey, William Holmes, 1800-1873.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34414">Newton, Charles Tyley, 1893-</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12177">Willow Run Bomber Plant.</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80006284.html" ref="/subjects/999">Ypsilanti (Mich.)</geogname>
       </controlaccess>
       <controlaccess>
@@ -92,7 +93,7 @@ Charles Tyley Newton Papers, Bentley Historical Library, University of Michigan<
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5045">Airplanes--1908.</subject>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/207">Ann Arbor (Mich.)--Dwellings.</geogname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/618">Ann Arbor (Mich.)--Farms.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Club.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9661">Ann Arbor Club.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3869">Architecture.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2432">Arnold Lake (Clare County, Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1833">Au Sable River (Mich.)</geogname>
@@ -100,8 +101,8 @@ Charles Tyley Newton Papers, Bentley Historical Library, University of Michigan<
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5046">Automobile service stations--Michigan--Marshall.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5047">Automobile service stations--Michigan--Ypsilanti.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4145">Automobiles.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Baptist Parsonage (Saline, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Baraga Lumber Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12050">Baptist Parsonage (Saline, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12566">Baraga Lumber Company.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5048">Barbershops.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3760">Barns.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5049">Beaches.</subject>
@@ -136,11 +137,11 @@ Charles Tyley Newton Papers, Bentley Historical Library, University of Michigan<
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5060">Farms--Michigan--Ypsilanti.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5061">Fireplaces.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3937">Fishing--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79055385">Ford, Henry, 1863-1947.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80085248">Ford Motor Company.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79055385" ref="/agents/people/29096">Ford, Henry, 1863-1947.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80085248" ref="/agents/corporate_entities/9550">Ford Motor Company.</corpname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/621">Gilbert Lake (Oakland County, Mich.)--Dwellings.</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n95021139.html" ref="/subjects/2434">Glennie (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79126993">Henry Ford Museum and Greenfield Village.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79126993" ref="/agents/corporate_entities/14366">Henry Ford Museum and Greenfield Village.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3746">Horses.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5062">Hotels and taverns--Michigan--Ypsilanti.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5063">Hunting--United States.</subject>
@@ -149,14 +150,14 @@ Charles Tyley Newton Papers, Bentley Historical Library, University of Michigan<
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1128">Irish Hills (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091870.html" ref="/subjects/2095">Kalkaska County (Mich.)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5028">Kitchens--1941-1950.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n95109682">Kneeland-Bigelow Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n95109682" ref="/agents/corporate_entities/14337">Kneeland-Bigelow Company.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3665">Laborers.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85081921.html" ref="/subjects/1137">L'Anse (Mich.)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4168">Living rooms.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1304">Livingston County (Mich.)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4142">Log cabins.</subject>
-        <corpname source="lcnaf" encodinganalog="610">H.M. Loud and Sons Lumber Company (Oscoda, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Lucking Farm (Ypsilanti, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11860">H.M. Loud and Sons Lumber Company (Oscoda, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12133">Lucking Farm (Ypsilanti, Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3666">Lumber industry.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85149703.html" ref="/subjects/1154">Manchester (Mich.)</geogname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/622">Marshall (Mich.)--Automobile service stations.</geogname>
@@ -164,15 +165,15 @@ Charles Tyley Newton Papers, Bentley Historical Library, University of Michigan<
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79151080.html" ref="/subjects/2435">Metamora (Mich.)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5064">Mills--Michigan--Dundee.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3692">Music ensembles.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Nash Distributing Company.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Newkirk, Birkett.</persname>
-        <famname source="lcnaf" encodinganalog="600">Newkirk family.</famname>
-        <persname source="lcnaf" encodinganalog="600">Newton, Charles Tyley, 1893-</persname>
-        <famname source="lcnaf" encodinganalog="600">Newton family.</famname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11678">Nash Distributing Company.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33237">Newkirk, Birkett.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/307">Newkirk family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34414">Newton, Charles Tyley, 1893-</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/253">Newton family.</famname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091869.html" ref="/subjects/1856">Oakland County (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1943">Oscoda (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2436">Pine River (Mich. : River)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Porter-Hicks Farm (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11225">Porter-Hicks Farm (Ann Arbor, Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5065">Privies.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4592">Railroad stations.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3839">Railroads--Michigan.</subject>
@@ -186,7 +187,7 @@ Charles Tyley Newton Papers, Bentley Historical Library, University of Michigan<
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5067">Steam engines.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5068">Street-railroads--Michigan.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4918">Trucks.</subject>
-        <persname source="lcnaf" encodinganalog="600">Ward, David, 1822-1900.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28459">Ward, David, 1822-1900.</persname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/293">Willow Run (Mich.)--Dwellings.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3619">Women.</subject>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/322">Ypsilanti (Mich.)--Business enterprises.</geogname>

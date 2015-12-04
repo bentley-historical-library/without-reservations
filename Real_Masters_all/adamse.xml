@@ -24,7 +24,8 @@
         <item>Complete re-coding encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Adams, Elizabeth S.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/35474">Adams, Elizabeth S.</persname>
       </origination>
       <unittitle encodinganalog="245">Elizabeth Sparks Adams papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1861/2001">1861-2001</unitdate>
@@ -89,16 +90,16 @@ Elizabeth Sparks Adams papers, Bentley Historical Library, University of Michiga
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Adams, Elizabeth S.</persname>
-        <famname source="lcnaf" encodinganalog="600">Adams family.</famname>
-        <persname source="lcnaf" encodinganalog="600">Adams, Jayno W.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Historical Collections.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79068496">Michigan Historical Commission.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35474">Adams, Elizabeth S.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/330">Adams family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33178">Adams, Jayno W.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14547">Michigan Historical Collections.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79068496" ref="/agents/corporate_entities/12329">Michigan Historical Commission.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/884">Michigan--Politics and government--1837-1950.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/885">Oakland County (Mich.)--History.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731">Democratic Party (Mich.)</corpname>
-        <famname source="lcnaf" encodinganalog="600">Sparks family.</famname>
-        <persname source="lcnaf" encodinganalog="600">Van Wagoner, Murray Delos, 1898-</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731" ref="/agents/corporate_entities/12900">Democratic Party (Mich.)</corpname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/136">Sparks family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28156">Van Wagoner, Murray Delos, 1898-</persname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n91051573.html" ref="/subjects/886">Waterford (Mich. : Township)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5735">Women in politics--Michigan.</subject>
       </controlaccess>

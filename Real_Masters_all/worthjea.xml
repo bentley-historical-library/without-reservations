@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Worth, Jean, 1904-1987.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/35073">Worth, Jean, 1904-1987.</persname>
       </origination>
       <unittitle encodinganalog="245">Jean Worth Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1869/1986" certainty="approximate">circa 1869-1986</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">89137 Aa 2</unitid>
@@ -80,19 +81,19 @@ Jean Worth Papers, Bentley Historical Library, University of Michigan</p>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10805">Breweries.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2494">Cedar River (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n83009259.html" ref="/subjects/1088">Escanaba (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Grand Army of the Republic. Lyon Post, No. 266 (Menominee, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14042">Grand Army of the Republic. Lyon Post, No. 266 (Menominee, Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6072">Indians of North America--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6083">Logging--Michigan--Upper Peninsula.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6084">Lumbering--Michigan--Upper Peninsula.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1671">Menominee (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Menominee River Brewing Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12746">Menominee River Brewing Company.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/938">Upper Peninsula (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5887">Veterans--Michigan--Societies, etc.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4679">Banks.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79053967">Boy Scouts of America.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79053967" ref="/agents/corporate_entities/11045">Boy Scouts of America.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5622">Business enterprises--Michigan--Cedar River.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5623">Business enterprises--Michigan--Menominee.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4214">Carts and wagons.</subject>
@@ -104,7 +105,7 @@ Jean Worth Papers, Bentley Historical Library, University of Michigan</p>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5624">Dwellings--Michigan--Cedar River.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7762">Finnish Americans.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5625">Fires--Michigan--Menominee.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Grand Army of the Republic. Lyon Post, No. 266 (Menominee, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14042">Grand Army of the Republic. Lyon Post, No. 266 (Menominee, Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3791">Hotels and taverns.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3689">Interiors.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4883">Kitchens.</subject>
@@ -123,7 +124,7 @@ Jean Worth Papers, Bentley Historical Library, University of Michigan</p>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5628">Stilts.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5405">Tracklaying vehicles.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/938">Upper Peninsula (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Wisconsin Land &amp; Lumber Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12347">Wisconsin Land &amp; Lumber Company.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

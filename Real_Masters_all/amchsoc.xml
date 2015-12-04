@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">American Chemical Society. University of Michigan Section.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/14288">American Chemical Society. University of Michigan Section.</corpname>
       </origination>
       <unittitle encodinganalog="245">American Chemical Society, University of Michigan Section records</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1900/1962">1900-1962</unitdate>
@@ -83,9 +84,9 @@ American Chemical Society, University of Michigan Section records, Bentley Histo
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79067259">University of Michigan. Dept. of Chemistry.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79067259" ref="/agents/corporate_entities/13469">University of Michigan. Dept. of Chemistry.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5712">World War, 1914-1918.</subject>
-        <corpname source="lcnaf" encodinganalog="610">American Chemical Society. University of Michigan Section.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14288">American Chemical Society. University of Michigan Section.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

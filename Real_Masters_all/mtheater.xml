@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Michigan Theater Foundation.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/11976">Michigan Theater Foundation.</corpname>
       </origination>
       <unittitle encodinganalog="245">Michigan Theater Foundation records</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1981/2002">1981-2002</unitdate>
@@ -92,8 +93,8 @@ Michigan Theater Foundation records, Bentley Historical Library, University of M
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Theater (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Theater Foundation.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10274">Michigan Theater (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11976">Michigan Theater Foundation.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9452">Fund raising--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9453">Historic buildings--Conservation and restoration--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9454">Motion picture theaters--Michigan--Ann Arbor.</subject>
@@ -102,7 +103,7 @@ Michigan Theater Foundation records, Bentley Historical Library, University of M
       </controlaccess>
       <controlaccess>
         <head>Subjects: Visual Materials</head>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Theater (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10274">Michigan Theater (Ann Arbor, Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4990">Motion pictures.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4991">Motion picture theaters--Michigan--Ann Arbor.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4992">Organs--Michigan--Ann Arbor.</subject>
@@ -110,7 +111,7 @@ Michigan Theater Foundation records, Bentley Historical Library, University of M
       </controlaccess>
       <controlaccess>
         <head>Contributors</head>
-        <persname source="lcnaf" encodinganalog="700">Collins, Russell B.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31053">Collins, Russell B.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

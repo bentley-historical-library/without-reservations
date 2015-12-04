@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Hudson, Joseph L. (Joseph Lowthian), 1931-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30137">Hudson, Joseph L. (Joseph Lowthian), 1931-</persname>
       </origination>
       <unittitle encodinganalog="245">Joseph L. Hudson Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1967/1983">1967-1983</unitdate></unittitle>
       <abstract>Detroit (Mich.) businessman and chairman of New Detroit Committee, organization established after the 1967 Detroit Riot to investigate and remedy the causes of that civil disturbance. Correspondence, reports, speeches, articles, photographs, and printed material relating to the riot and to his work with New Detroit.</abstract>
@@ -86,14 +87,14 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5756">African Americans--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1691">Detroit (Mich.)--Race relations.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5907">Riots--Michigan--Detroit.</subject>
-        <persname source="lcnaf" encodinganalog="600">Hudson, Joseph L. (Joseph Lowthian), 1931-</persname>
-        <corpname source="lcnaf" encodinganalog="610">New Detroit Committee.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30137">Hudson, Joseph L. (Joseph Lowthian), 1931-</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13653">New Detroit Committee.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Hudson, Joseph L. (Joseph Lowthian), 1931-</persname>
-        <corpname source="lcnaf" encodinganalog="610">New Detroit Committee.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50048290">Romney, George W., 1907-1995.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30137">Hudson, Joseph L. (Joseph Lowthian), 1931-</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13653">New Detroit Committee.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50048290" ref="/agents/people/31627">Romney, George W., 1907-1995.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

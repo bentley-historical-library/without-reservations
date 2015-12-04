@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Edwards, Ann, d. 1962.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/29300">Edwards, Ann, d. 1962.</persname>
       </origination>
       <unittitle encodinganalog="245">Ann Edwards papers <unitdate type="inclusive" encodinganalog="245$f" normal="1946/1957">1946-1957</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851189 Aa 2</unitid>
@@ -82,7 +83,7 @@ Ann Edwards papers, Bentley Historical Library, University of Michigan</p>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1743">Missouri.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/827">Missouri--Politics and government.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7393">Prohibition--Missouri.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Prohibition Party (Mo.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10285">Prohibition Party (Mo.)</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79041725.html" ref="/subjects/1744">Saint Louis (Mo.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7394">Women in politics--Missouri.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7395">Women in politics--Indiana.</subject>

@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Lemmer, Elizabeth, collector.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32908">Lemmer, Elizabeth, collector.</persname>
       </origination>
       <unittitle encodinganalog="245">Elizabeth Lemmer papers <unitdate type="inclusive" encodinganalog="245$f" normal="1969/1978">1969-1978</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851870 Aa 2</unitid>
@@ -79,8 +80,8 @@ Elizabeth Lemmer papers, Bentley Historical Library, University of Michigan</p>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6739">Pro-life movement--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6884">Elections--Michigan--1972.</subject>
         <geogname source="local" encodinganalog="691" ref="/subjects/801">Michigan--Politics and government--1971-1980.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Right-to-Life Committee.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr92006190">Right to Life of Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13150">Michigan Right-to-Life Committee.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr92006190" ref="/agents/corporate_entities/12804">Right to Life of Michigan.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6223">Women's rights--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6575">Women in politics--Michigan--Ann Arbor.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/910">Michigan--Politics and government--1951-</geogname>

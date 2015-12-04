@@ -39,7 +39,8 @@
         <item>Original encoding from Word 6.0 file</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -50,7 +51,7 @@
   <archdesc level="collection" type="inventory" audience="external" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n92802898">Dingell, John D. (John David), 1894-1955.</persname>
+        <persname encodinganalog="100" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n92802898" ref="/agents/people/33288">Dingell, John D. (John David), 1894-1955.</persname>
       </origination>
       <unittitle encodinganalog="245">John D. Dingell Papers <unitdate encodinganalog="245$f" type="inclusive" normal="1932/1956">1932-1956</unitdate></unittitle>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">861021 Aa/2</unitid>
@@ -97,9 +98,9 @@
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7242">Civil service.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6379">Courts--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Democratic Party (U.S.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11734">Democratic Party (U.S.)</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539.html" ref="/subjects/933">Detroit (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n92802898">Dingell, John D. (John David), 1894-1955.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n92802898" ref="/agents/people/33288">Dingell, John D. (John David), 1894-1955.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/866">United States--Emigration and immigration.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7243">Insurance--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7244">Judges--United States.</subject>
@@ -108,7 +109,7 @@
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1634">Saint Lawrence Seaway.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6065">Tariff--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6446">Taxation--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79107874">United States. Congress. House.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79107874" ref="/agents/corporate_entities/11232">United States. Congress. House.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/966">United States--Politics and government--1929-1933.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1271">United States--Politics and government--1933-1953.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1272">United States--Politics and government--1953-1961.</geogname>

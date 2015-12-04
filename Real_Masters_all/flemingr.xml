@@ -36,7 +36,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -47,7 +48,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Fleming, R.W. (Robben Wright), 1916-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30358">Fleming, R.W. (Robben Wright), 1916-</persname>
       </origination>
       <unittitle encodinganalog="245">R. W. Fleming papers <unitdate type="inclusive" encodinganalog="245$f" normal="1920/2010">1920-2010</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85232 Aa 2; UAm</unitid>
@@ -106,18 +107,18 @@ R. W. Fleming papers, Bentley Historical Library, University of Michigan</p>
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7778">Arbitration, Industrial.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no94015663">Annenberg/CPB Project.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79032200">Corporation for Public Broadcasting.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no89013050">Fleming, R. W. (Robben Wright), 1916-2010.</persname>
-        <persname source="lcnaf" encodinganalog="600">Fleming, Sally.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83223656">John D. and Catherine T. MacArthur Foundation.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79046073">Johnson Foundation (Racine, Wis.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n84069234">National Institute for Dispute Resolution (U.S.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2012125438">United States. Army. Corps of Military Police.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79049103">University of Illinois (Urbana-Champaign campus)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--History.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. President.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80126277">University of Wisconsin.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no94015663" ref="/agents/corporate_entities/10417">Annenberg/CPB Project.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79032200" ref="/agents/corporate_entities/9565">Corporation for Public Broadcasting.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no89013050" ref="/agents/people/28515">Fleming, R. W. (Robben Wright), 1916-2010.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31068">Fleming, Sally.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83223656" ref="/agents/corporate_entities/14480">John D. and Catherine T. MacArthur Foundation.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79046073" ref="/agents/corporate_entities/13455">Johnson Foundation (Racine, Wis.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n84069234" ref="/agents/corporate_entities/9802">National Institute for Dispute Resolution (U.S.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2012125438" ref="/agents/corporate_entities/10121">United States. Army. Corps of Military Police.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79049103" ref="/agents/corporate_entities/13639">University of Illinois (Urbana-Champaign campus)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--History.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11737">University of Michigan. President.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80126277" ref="/agents/corporate_entities/9887">University of Wisconsin.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5681">World War, 1939-1945.</subject>
       </controlaccess>
       <controlaccess>
@@ -129,17 +130,17 @@ R. W. Fleming papers, Bentley Historical Library, University of Michigan</p>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3625">Costumes.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/984">Europe.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3923">Families.</subject>
-        <famname source="lcnaf" encodinganalog="600">Fleming family.</famname>
-        <persname source="lcnaf" encodinganalog="600">Fleming, Sally.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no89013050">Fleming, R. W. (Robben Wright), 1916-2010.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/268">Fleming family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31068">Fleming, Sally.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no89013050" ref="/agents/people/28515">Fleming, R. W. (Robben Wright), 1916-2010.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3924">Leisure.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4320">Living rooms--1961-1970.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4321">Military uniforms--United States.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4322">Music.</subject>
-        <famname source="lcnaf" encodinganalog="600">Quixley family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/366">Quixley family.</famname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3686">Weddings.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1862">Wisconsin.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79063202">United States. Army.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79063202" ref="/agents/corporate_entities/10349">United States. Army.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5681">World War, 1939-1945.</subject>
       </controlaccess>
       <controlaccess>

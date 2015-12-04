@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="marc21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/no2002015616">Michigan Botanical Club.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/no2002015616" ref="/agents/corporate_entities/10240">Michigan Botanical Club.</corpname>
       </origination>
       <unittitle encodinganalog="245">Michigan Botanical Club Records <unitdate type="inclusive" encodinganalog="245$f" normal="1941/2009">1941-2009</unitdate></unittitle>
       <physdesc altrender="whole">
@@ -89,7 +90,7 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2002015616">Michigan Botanical Club.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2002015616" ref="/agents/corporate_entities/10240">Michigan Botanical Club.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6190">Conservation of natural resources--Michigan.</subject>
       </controlaccess>
     </controlaccess>

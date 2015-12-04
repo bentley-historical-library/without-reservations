@@ -27,7 +27,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Barbour Scholarship for Oriental Women Committee.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/10794">University of Michigan. Barbour Scholarship for Oriental Women Committee.</corpname>
       </origination>
       <unittitle encodinganalog="245">Barbour Scholarship for Oriental Women Committee (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1914/1983">1914-1983</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">861142 UBImum BImu B17 2</unitid>
@@ -86,17 +87,17 @@ Barbour Scholarship for Oriental Women Committee (University of Michigan) Record
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Scholarships, fellowships, etc.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Students.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Students--Scholarships, fellowships, etc.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5739">Women--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6087">Students, Foreign--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5837">Women college students--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85809443">Barbour, Levi L. (Levi Lewis), 1840-1925.</persname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Barbour Scholarships for Oriental Women Committee.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85809443" ref="/agents/people/33137">Barbour, Levi L. (Levi Lewis), 1840-1925.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12357">University of Michigan. Barbour Scholarships for Oriental Women Committee.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Students.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3619">Women.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6087">Students, Foreign--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5837">Women college students--Michigan--Ann Arbor.</subject>

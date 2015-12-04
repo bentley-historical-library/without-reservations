@@ -38,7 +38,8 @@ Olga Virakhovskaya
         <item>Original encoding from Word 10.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -53,7 +54,7 @@ Tyson Koenig in October, 2011 <lb/> Claire De Witt in September, 2015.
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Morrissey, Lewis A.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/people/32941">Morrissey, Lewis A.</corpname>
       </origination>
       <unittitle encodinganalog="245">
 Lewis A. Morrissey papers
@@ -136,11 +137,11 @@ Lewis A. Morrissey papers, Bentley Historical Library, University of Michigan</p
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Morrissey, Lewis A.</persname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Vice-President for Government Relations.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Activity programs.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Public relations.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32941">Morrissey, Lewis A.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12892">University of Michigan. Vice-President for Government Relations.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Activity programs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Public relations.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9442">Freedom of information--Law and legislation--Michigan.</subject>
       </controlaccess>
     </controlaccess>

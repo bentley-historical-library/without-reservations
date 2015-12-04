@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Michigan Silversmiths Guild.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/13854">Michigan Silversmiths Guild.</corpname>
       </origination>
       <unittitle encodinganalog="245">Michigan Silversmiths Guild Records <unitdate type="inclusive" encodinganalog="245$f" normal="1948/2001">1948-2001</unitdate></unittitle>
       <abstract>The Michigan Silversmiths Guild was established in 1948 to provide support to silversmiths and those artisans who work in other metals through workshops, exhibitions, and other activities. Articles of incorporation and constitutions, history, minutes of executive board, membership lists, announcements and other mailings to members, and photographs.</abstract>
@@ -79,14 +80,14 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Silversmiths Guild.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13854">Michigan Silversmiths Guild.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9385">Silversmiths--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9386">Silverwork--Michigan--Societies, etc.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4970">Metalworking--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Silversmiths Guild.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13854">Michigan Silversmiths Guild.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4971">Silverwork.</subject>
       </controlaccess>
       <controlaccess>

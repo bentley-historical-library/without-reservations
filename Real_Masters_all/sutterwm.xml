@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2010 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="110">Sutter, William F.</persname>
+        <persname source="lcnaf" encodinganalog="110" ref="/agents/people/34325">Sutter, William F.</persname>
       </origination>
       <unittitle encodinganalog="245">William F. Sutter papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1950/1954">1950-1954</unitdate>
@@ -84,9 +85,9 @@ William F. Sutter papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname encodinganalog="600" source="lcnaf">Sutter, William F.</persname>
-        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n81055151">University of Michigan. Medical School.</corpname>
-        <corpname encodinganalog="610" source="lcnaf">University of Michigan--Student notebooks.</corpname>
+        <persname encodinganalog="600" source="lcnaf" ref="/agents/people/34325">Sutter, William F.</persname>
+        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n81055151" ref="/agents/corporate_entities/11381">University of Michigan. Medical School.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/9632">University of Michigan--Student notebooks.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Dept. of Ophthalmology.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/13466">University of Michigan. Dept. of Ophthalmology.</corpname>
       </origination>
       <unittitle encodinganalog="245">Dept. of Ophthalmology (University of Michigan) records</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1951/2003">1951-2003</unitdate>
@@ -138,10 +139,10 @@
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6030">Medicine--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7220">Ophthalmology--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Ophthalmology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151">University of Michigan. Medical School.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr90002302">University of Michigan. W. K. Kellogg Eye Center.</corpname>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/nr90002302">University of Michigan. W. K. Kellogg Eye Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13466">University of Michigan. Dept. of Ophthalmology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151" ref="/agents/corporate_entities/11381">University of Michigan. Medical School.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr90002302" ref="/agents/corporate_entities/11516">University of Michigan. W. K. Kellogg Eye Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/nr90002302" ref="/agents/corporate_entities/11516">University of Michigan. W. K. Kellogg Eye Center.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

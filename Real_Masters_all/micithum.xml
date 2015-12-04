@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Michigan Citizens for Humphrey and Muskie.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/9526">Michigan Citizens for Humphrey and Muskie.</corpname>
       </origination>
       <unittitle encodinganalog="245">Michigan Citizens for Humphrey and Muskie records <unitdate type="inclusive" encodinganalog="245$f" normal="1968">1968</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85279 Bt 2</unitid>
@@ -79,24 +80,24 @@ Michigan Citizens for Humphrey and Muskie records, Bentley Historical Library, U
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731">Democratic Party (Mich.)</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79026910">Humphrey, Hubert H. (Hubert Horatio), 1911-1978.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Citizens for Humphrey and Muskie.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731" ref="/agents/corporate_entities/12900">Democratic Party (Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79026910" ref="/agents/people/27671">Humphrey, Hubert H. (Hubert Horatio), 1911-1978.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9526">Michigan Citizens for Humphrey and Muskie.</corpname>
         <geogname source="local" encodinganalog="691" ref="/subjects/810">Michigan--Politics and government--1961-1970.</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79118912">Muskie, Edmund S., 1914-1996</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79118912" ref="/agents/people/27619">Muskie, Edmund S., 1914-1996</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6617">Presidents--United States--Election--1968.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/942">United States--Politics and government--1963-1969.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/910">Michigan--Politics and government--1951-</geogname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79026910">Humphrey, Hubert H. (Hubert Horatio), 1911-1978.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79026910" ref="/agents/people/27671">Humphrey, Hubert H. (Hubert Horatio), 1911-1978.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4936">Political elections--1968.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3875">Politics and government--1961-1970.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Sound Recordings:</head>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Citizens for Humphrey and Muskie.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9526">Michigan Citizens for Humphrey and Muskie.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6617">Presidents--United States--Election--1968.</subject>
         <geogname source="local" encodinganalog="691" ref="/subjects/810">Michigan--Politics and government--1961-1970.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/910">Michigan--Politics and government--1951-</geogname>

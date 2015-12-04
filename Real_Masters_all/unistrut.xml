@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Unistrut Corporation (Wayne, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/14107">Unistrut Corporation (Wayne, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">Unistrut Corporation (Wayne, Mich.) records</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1922/1990">1922-1990</unitdate>
@@ -88,12 +89,12 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5832">Architecture.</subject>
-        <persname source="lcnaf" encodinganalog="700">Attwood, Charles.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34980">Attwood, Charles.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10481">Building, Iron and steel.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10482">Construction industry--Michigan--Wayne.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Deceleco Corporation.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13197">Deceleco Corporation.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10483">Framing (Building)</subject>
-        <corpname source="lcnaf" encodinganalog="610">Unistrut Corporation (Wayne, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14107">Unistrut Corporation (Wayne, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
@@ -101,12 +102,12 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5495">Building construction.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5496">Building systems.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3691">Construction industry.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Deceleco Corporation.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Unistrut Corporation (Wayne, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13197">Deceleco Corporation.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14107">Unistrut Corporation (Wayne, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Attwood, Charles.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34980">Attwood, Charles.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

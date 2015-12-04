@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Eaton, Leonard K., 1922-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/34453">Eaton, Leonard K., 1922-</persname>
       </origination>
       <unittitle encodinganalog="245">Leonard K. Eaton papers <unitdate type="inclusive" encodinganalog="245$f" normal="1950/2004">1950-2004</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">8910 Aa/2; UAm</unitid>
@@ -95,13 +96,13 @@ Leonard K. Eaton papers, Bentley Historical Library, University of Michigan</p>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1459">Grand Rapids (Mich.)--Buildings, structures, etc.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1740">Holland (Mich.)--Buildings, structures, etc.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1741">Manchester (Mich.)--Buildings, structures, etc.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82166292">University of Michigan. College of Architecture and Urban Planning.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79032932">Wright, Frank Lloyd, 1867-1959.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82166292" ref="/agents/corporate_entities/10526">University of Michigan. College of Architecture and Urban Planning.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79032932" ref="/agents/people/31591">Wright, Frank Lloyd, 1867-1959.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6426">Dwellings--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Palmer-Ryan House (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13005">Palmer-Ryan House (Ann Arbor, Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/849">Ann Arbor (Mich.)--Buildings, structures, etc.</geogname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82087712">Purcell, William Gray, 1880-1965.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82087712" ref="/agents/people/33101">Purcell, William Gray, 1880-1965.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
@@ -114,9 +115,9 @@ Leonard K. Eaton papers, Bentley Historical Library, University of Michigan</p>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/283">Grand Rapids (Mich.)--Buildings.</geogname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/284">Holland (Mich.)--Buildings.</geogname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/285">Manchester (Mich.)--Buildings.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Palmer-Ryan House (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13005">Palmer-Ryan House (Ann Arbor, Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3572">Dwellings--Michigan--Ann Arbor.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79032932">Wright, Frank Lloyd, 1867-1959.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79032932" ref="/agents/people/31591">Wright, Frank Lloyd, 1867-1959.</persname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/214">Ann Arbor (Mich.)--Buildings.</geogname>
       </controlaccess>
       <controlaccess>

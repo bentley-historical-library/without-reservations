@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Luther, E. Hardy, 1898-1982.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33143">Luther, E. Hardy, 1898-1982.</persname>
       </origination>
       <unittitle encodinganalog="245">E. Hardy Luther papers <unitdate type="inclusive" encodinganalog="245$f" normal="1945/1982">1945-1982</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85275 Aa 2</unitid>
@@ -81,10 +82,10 @@ E. Hardy Luther papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Consumers Power Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13713">Consumers Power Company.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6754">Electric industries.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2275">Jackson County (Mich.)--History.</geogname>
-        <persname source="lcnaf" encodinganalog="600">Luther, E. Hardy, 1898-1982.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33143">Luther, E. Hardy, 1898-1982.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7781">Public utilities--Michigan.</subject>
         <title source="aacr2" encodinganalog="740" ref="/subjects/82">Song of service.</title>
       </controlaccess>
@@ -92,7 +93,7 @@ E. Hardy Luther papers, Bentley Historical Library, University of Michigan</p>
         <head>Subjects - Visual Materials:</head>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1833">Au Sable River (Mich.)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3855">Business enterprises--Michigan--Kalamazoo.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Consumers Power Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13713">Consumers Power Company.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4725">Fishing--Michigan--Au Sable River.</subject>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/223">Kalamazoo (Mich.)--Business enterprises.</geogname>
         <subject source="local" encodinganalog="690" ref="/subjects/3543">Wanigans.</subject>

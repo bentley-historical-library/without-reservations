@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">St. Matthew's and St. Joseph's Episcopal Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/11440">St. Matthew's and St. Joseph's Episcopal Church (Detroit, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">St. Matthew's and St. Joseph's Episcopal Church (Detroit, Mich.) Records <unitdate type="inclusive" encodinganalog="245$f" normal="1884/2006">1884-2006</unitdate></unittitle>
       <abstract>Church formed in 1971 from the merger of two Detroit, Michigan, Episcopal parishes. Records include historical and informational files; vestry minutes and treasurer's records; records of church organizations; publications and church bulletins; subject files; scrapbooks; and photographs.</abstract>
@@ -151,10 +152,10 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8957">Afro-American churches.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7363">Afro-Americans--Michigan--Detroit.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/952">Detroit (Mich.)--Church history.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Episcopal Church--Michigan--Detroit.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. Joseph's Episcopal Church (Detroit, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. Matthew's and St. Joseph's Episcopal Church (Detroit, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. Matthew's Episcopal Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9954">Episcopal Church--Michigan--Detroit.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9412">St. Joseph's Episcopal Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11440">St. Matthew's and St. Joseph's Episcopal Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10783">St. Matthew's Episcopal Church (Detroit, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
@@ -162,10 +163,10 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7363">Afro-Americans--Michigan--Detroit.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3949">Churches.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2300">Detroit (Mich.)--Churches.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Episcopal Church--Michigan--Detroit.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">National Association for the Advancement of Colored People. Great Lakes Conference (2nd : 1917 : Detroit, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. Joseph's Episcopal Church (Detroit, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. Matthew's Episcopal Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9954">Episcopal Church--Michigan--Detroit.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13261">National Association for the Advancement of Colored People. Great Lakes Conference (2nd : 1917 : Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9412">St. Joseph's Episcopal Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10783">St. Matthew's Episcopal Church (Detroit, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

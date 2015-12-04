@@ -50,7 +50,8 @@
         <item>headings removed and other changes made to conform to new style, GK</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -61,7 +62,7 @@
   <archdesc level="recordgrp" relatedencoding="MARC21" type="inventory">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Science Research Club (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/11859">Science Research Club (University of Michigan)</corpname>
       </origination>
       <unittitle encodinganalog="245">Science Research Club (University of Michigan) Records</unittitle>
       <unitdate encodinganalog="245$f" type="inclusive" normal="1902/2004">1902-2004</unitdate>
@@ -106,10 +107,10 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Junior Research Club (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11382">Junior Research Club (University of Michigan)</corpname>
         <subject source="lcsh" encodinganalog="610" ref="/subjects/6466">University of Michigan--Faculty.</subject>
         <subject source="lcsh" encodinganalog="610" ref="/subjects/10014">University of Michigan--Research.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Science Research Club (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11859">Science Research Club (University of Michigan)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5739">Women--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10015">Women in science--Michigan--Ann Arbor.</subject>
       </controlaccess>

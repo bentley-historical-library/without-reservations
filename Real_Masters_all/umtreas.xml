@@ -28,7 +28,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Treasurer.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/10031">University of Michigan. Treasurer.</corpname>
       </origination>
       <unittitle encodinganalog="245">Treasurer (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1839/1920">1839-1920</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">87333 BImu Bimu B8 2</unitid>
@@ -170,11 +171,11 @@ Treasurer (University of Michigan) records, Bentley Historical Library, Universi
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname encodinganalog="610" source="lcnaf">University of Michigan--Administration.</corpname>
-        <corpname encodinganalog="610" source="lcnaf">University of Michigan--Finance.</corpname>
-        <corpname encodinganalog="610" source="lcnaf">University of Michigan--Gifts and loans.</corpname>
-        <corpname encodinganalog="610" source="lcnaf">University of Michigan--Students--Scholarships, fellowships, etc.</corpname>
-        <corpname encodinganalog="610" source="lcnaf">University of Michigan. Treasurer.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/9632">University of Michigan--Administration.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/9632">University of Michigan--Finance.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/9632">University of Michigan--Gifts and loans.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/9632">University of Michigan--Students--Scholarships, fellowships, etc.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/10031">University of Michigan. Treasurer.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

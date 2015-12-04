@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Kennedy, Frank R., 1914-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32642">Kennedy, Frank R., 1914-</persname>
       </origination>
       <unittitle encodinganalog="245">Frank R. Kennedy Papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1936/1999">1936-1999</unitdate>
@@ -92,18 +93,18 @@
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8636">Bankruptcy--Law and legislation--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8637">Bankruptcy--United States.</subject>
-        <persname source="lcnaf" encodinganalog="600">Kennedy, Frank R., 1914-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32642">Kennedy, Frank R., 1914-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8638">Law--Study and teaching.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Law School.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Law School.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79056157">Countryman, Vern.</persname>
-        <persname source="lcnaf" encodinganalog="700">King, Lawrence.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87837691">MacLachlan, James Angell, 1891-1967</persname>
-        <persname source="lcnaf" encodinganalog="700">Horsky, Charles Antone.</persname>
-        <persname source="lcnaf" encodinganalog="700">Durfee, Edgar Noble, 1882-1952.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79056157" ref="/agents/people/33115">Countryman, Vern.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/36097">King, Lawrence.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87837691" ref="/agents/people/28941">MacLachlan, James Angell, 1891-1967</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35956">Horsky, Charles Antone.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27689">Durfee, Edgar Noble, 1882-1952.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Taylor family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/260">Taylor family.</famname>
       </origination>
       <unittitle encodinganalog="245">Taylor family papers <unitdate type="inclusive" encodinganalog="245$f" normal="1827/1908">1827-1908</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">86227 Aa 2</unitid>
@@ -87,13 +88,13 @@ Taylor family papers, Bentley Historical Library, University of Michigan</p>
       <controlaccess>
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85046905.html" ref="/subjects/1029">Albion (Calhoun County, Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Academy.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11542">Ann Arbor Academy.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10326">Clergy--Michigan--Albion (Calhoun County)</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/935">Houghton (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10327">Justices of the peace--Michigan--Wayne County.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79006779">Lincoln, Abraham, 1809-1865.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Literary Circle (Saint Clair, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Methodist Episcopal Church--Michigan.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79006779" ref="/agents/people/33521">Lincoln, Abraham, 1809-1865.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12125">Literary Circle (Saint Clair, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9020">Methodist Episcopal Church--Michigan.</corpname>
         <geogname source="local" encodinganalog="691" ref="/subjects/796">Michigan--Social life and customs--1851-1860.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/797">Michigan--Social life and customs--1861-1870.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/798">Michigan--Social life and customs--1871-1880.</geogname>
@@ -102,7 +103,7 @@ Taylor family papers, Bentley Historical Library, University of Michigan</p>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/944">Philippines--History--1898-1946.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1217">Saginaw (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5781">Antislavery movements--United States.</subject>
-        <persname source="lcnaf" encodinganalog="600">Taylor, Philo.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30019">Taylor, Philo.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5854">Temperance--United States.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1251">Wayne County (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10328">Women--Michigan--Albion (Calhoun County)</subject>
@@ -114,10 +115,10 @@ Taylor family papers, Bentley Historical Library, University of Michigan</p>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Taylor, Barton S., b. 1820.</persname>
-        <persname source="lcnaf" encodinganalog="700">Taylor, Elizabeth Ann Gurney.</persname>
-        <persname source="lcnaf" encodinganalog="700">Taylor, Ralph Wendell.</persname>
-        <persname source="lcnaf" encodinganalog="700">Taylor, Wallace.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27236">Taylor, Barton S., b. 1820.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27640">Taylor, Elizabeth Ann Gurney.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34488">Taylor, Ralph Wendell.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29502">Taylor, Wallace.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

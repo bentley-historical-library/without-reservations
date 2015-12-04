@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. University Committee on Computer Policy and Utilization.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/9652">University of Michigan. University Committee on Computer Policy and Utilization.</corpname>
       </origination>
       <unittitle encodinganalog="245">University Committee on Computer Policy and Utilization (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1964/1979">1964-1979</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">91470 Bimu C565 2</unitid>
@@ -84,10 +85,10 @@ University Committee on Computer Policy and Utilization (University of Michigan)
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6560">Computers.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79018111">Educom.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79018111" ref="/agents/corporate_entities/12486">Educom.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10419">Universities and colleges--Data processing.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88650382">University of Michigan. Computing Center.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. University Committee on Computer Policy and Utilization.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88650382" ref="/agents/corporate_entities/12198">University of Michigan. Computing Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9652">University of Michigan. University Committee on Computer Policy and Utilization.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

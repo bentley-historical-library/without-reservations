@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Brewer General Store (Marshall, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/14526">Brewer General Store (Marshall, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">Brewer General Store (Marshall, Mich.) records <unitdate type="inclusive" encodinganalog="245$f" normal="1836/1927">1836-1927</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85516 Bb 2</unitid>
@@ -94,11 +95,11 @@ Brewer General Store (Marshall, Mich.) records, Bentley Historical Library, Univ
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Brewer, Chauncy M. (Chauncy Marble), 1814-1889.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33184">Brewer, Chauncy M. (Chauncy Marble), 1814-1889.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5784">Business records.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Fink and Butler Store (Marshall, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12882">Fink and Butler Store (Marshall, Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6456">General stores--Michigan--Marshall.</subject>
-        <persname source="lcnaf" encodinganalog="600">Gorham, Charles T., 1812-1901.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32310">Gorham, Charles T., 1812-1901.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6457">Business enterprises--Michigan--Marshall.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1360">Marshall (Mich.)--History.</geogname>
       </controlaccess>

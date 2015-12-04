@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n99005909">Angus, David L.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n99005909" ref="/agents/people/27793">Angus, David L.</persname>
       </origination>
       <unittitle encodinganalog="245">David L. Angus Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1956/1999">1956-1999</unitdate></unittitle>
       <abstract>Professor of education at the University of Michigan. Biographical information; correspondence; writings and conference papers; course materials; files pertaining to education in China; and photographs.</abstract>
@@ -81,13 +82,13 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n99005909">Angus, David L.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n99005909" ref="/agents/people/27793">Angus, David L.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/939">China--History--1976-</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5915">Education--Study and teaching.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5916">Education--China.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5917">Education--History.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82098946">University of Michigan. School of Education.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82098946" ref="/agents/corporate_entities/12505">University of Michigan. School of Education.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>

@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Michigan. Board of State Tax Commissioners.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/10618">Michigan. Board of State Tax Commissioners.</corpname>
       </origination>
       <unittitle encodinganalog="245">Michigan Board of State Tax Commissioners, Michigan Railroad Appraisal record books <unitdate type="inclusive" encodinganalog="245$f" normal="1900">1900</unitdate></unittitle>
       <abstract>Reports of comprehensive Michigan Railroad Appraisal, providing evaluations of every railroad in the state, directed by Mortimer E. Cooley at the request of Governor Hazen Pingree; also appraisals of plank roads and canals built in Michigan.</abstract>
@@ -80,7 +81,7 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9374">Canals--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6680">Railroads--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8248">Plank roads--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84804477">Cooley, Mortimer E. (Mortimer Elwyn), 1855-1944.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84804477" ref="/agents/people/36018">Cooley, Mortimer E. (Mortimer Elwyn), 1855-1944.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

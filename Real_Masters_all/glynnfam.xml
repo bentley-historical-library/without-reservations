@@ -27,7 +27,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Glynn family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/228">Glynn family.</famname>
       </origination>
       <unittitle encodinganalog="245">Glynn Family papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1870/1879" certainty="approximate">1870s</unitdate>
@@ -84,9 +85,9 @@ Glynn Family Papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Glynn, Alphrett.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no93016924">Glynn, Mary Ann.</persname>
-        <famname source="lcnaf" encodinganalog="600">Glynn family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35796">Glynn, Alphrett.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no93016924" ref="/agents/people/31780">Glynn, Mary Ann.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/228">Glynn family.</famname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n2005034911.html" ref="/subjects/1914">Millington (Mich. : Township)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091941.html" ref="/subjects/1915">Tuscola County (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5681">World War, 1939-1945.</subject>
@@ -94,7 +95,7 @@ Glynn Family Papers, Bentley Historical Library, University of Michigan</p>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <famname source="lcnaf" encodinganalog="600">Glynn family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/228">Glynn family.</famname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

@@ -24,7 +24,8 @@
         <item>Original encoding from Word 10.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Brewer, Dwight J.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/people/27618">Brewer, Dwight J.</corpname>
       </origination>
       <unittitle encodinganalog="245"> Dwight J. Brewer papers <unitdate type="inclusive" encodinganalog="245$f"> 1862-1898 </unitdate> <unitdate type="bulk" encodinganalog="245$g"> 1862-1865 </unitdate></unittitle>
       <physdesc altrender="part">
@@ -90,11 +91,11 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Brewer, Dwight J.</persname>
-        <famname source="lcnaf" encodinganalog="600">Brewer family.</famname>
-        <persname source="lcnaf" encodinganalog="600">Stearns, Edwin.</persname>
-        <famname source="lcnaf" encodinganalog="600">Stearns family.</famname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Michigan Infantry Regiment, 20th (1862-1865)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/27618">Brewer, Dwight J.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/376">Brewer family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30245">Stearns, Edwin.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/119">Stearns family.</famname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14400">United States. Army. Michigan Infantry Regiment, 20th (1862-1865)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/909">United States--History--Civil War, 1861-1865.</geogname>
       </controlaccess>
       <controlaccess>

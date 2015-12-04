@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Parker, Franklin Leonidas, 1820-1894.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30487">Parker, Franklin Leonidas, 1820-1894.</persname>
       </origination>
       <unittitle encodinganalog="245">Franklin L. Parker papers <unitdate type="inclusive" encodinganalog="245$f" normal="1816/1911">1816-1911</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">852043 Aa 2; AC</unitid>
@@ -97,7 +98,7 @@ Franklin L. Parker papers, Bentley Historical Library, University of Michigan</p
         <geogname source="local" encodinganalog="691" ref="/subjects/799">Michigan--Social life and customs--1881-1890.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/800">Michigan--Social life and customs--1891-1900.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1398">New York (State)</geogname>
-        <famname source="lcnaf" encodinganalog="600">Parker family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/45">Parker family.</famname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1302">Michigan--Social life and customs--19th century.</geogname>
       </controlaccess>
       <controlaccess>

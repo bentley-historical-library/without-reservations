@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Ladies Literary Club (Ypsilanti, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/14079">Ladies Literary Club (Ypsilanti, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">Ladies Literary Club, Ypsilanti, Michigan, Records <unitdate type="inclusive" encodinganalog="245$f" normal="1882/2008">1882-2008</unitdate></unittitle>
       <abstract>Minutes of meetings, scrapbooks, financial records, reports, and other papers; and photographs.</abstract>
@@ -87,13 +88,13 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8719">Arts--Michigan--Ypsilanti--Societies, etc.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Ladies Literary Club (Ypsilanti, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14079">Ladies Literary Club (Ypsilanti, Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7132">Women--Michigan--Ypsilanti--Societies and clubs.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80006284.html" ref="/subjects/999">Ypsilanti (Mich.)</geogname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <corpname source="lcnaf" encodinganalog="610">Ladies Literary Club (Ypsilanti, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14079">Ladies Literary Club (Ypsilanti, Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3871">Theatrical productions.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3631">Women--Organizations.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80006284.html" ref="/subjects/999">Ypsilanti (Mich.)</geogname>

@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">McCord, Carey Pratt, 1886-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/36200">McCord, Carey Pratt, 1886-</persname>
       </origination>
       <unittitle encodinganalog="245">Carey Pratt McCord Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1913/1978">1913-1978</unitdate></unittitle>
       <abstract>Industrial hygienist, consultant and lecturer in environmental and industrial health in the School of Public Health of the University of Michigan. Logs of daily activities, 1936-1961, correspondence relating to consulting projects, speech and lecture material, and research files on lead poisoning and the effects of air conditioning on workers; history of occupational health at the University of Michigan, 1873-1970, history of the American Academy of Occupational Medicine, 1946-1956; history of the Bernardino Ramazzini Society, 1942-1978; study of automobile body industry in Detroit, 1936; and related photographs.</abstract>
@@ -85,14 +86,14 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8972">Air conditioning.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83054837">American Academy of Occupational Medicine.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83054837" ref="/agents/corporate_entities/12572">American Academy of Occupational Medicine.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7107">Automobile industry and trade--Michigan--Detroit.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8973">Work environment--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8974">Lead poisoning.</subject>
-        <persname source="lcnaf" encodinganalog="600">McCord, Carey Pratt, 1886-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/36200">McCord, Carey Pratt, 1886-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8975">Occupational diseases.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80020716">University of Michigan. School of Public Health.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80020716" ref="/agents/corporate_entities/13834">University of Michigan. School of Public Health.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>

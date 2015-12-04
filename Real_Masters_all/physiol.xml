@@ -32,7 +32,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -43,7 +44,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Department of Physiology.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/8993">University of Michigan. Department of Physiology.</corpname>
       </origination>
       <unittitle encodinganalog="245">Department of Physiology (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1884/1979">1884-1979</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">87163 Bimu C46 2</unitid>
@@ -185,22 +186,22 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname encodinganalog="610" source="lcnaf">University of Michigan--Faculty.</corpname>
-        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n86071802">University of Michigan. Institute for Human Adjustment.</corpname>
-        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n81055151">University of Michigan. Medical School.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n86071802" ref="/agents/corporate_entities/12102">University of Michigan. Institute for Human Adjustment.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n81055151" ref="/agents/corporate_entities/11381">University of Michigan. Medical School.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname encodinganalog="600" source="lcnaf">Bean, John William, 1901-1987.</persname>
+        <persname encodinganalog="600" source="lcnaf" ref="/agents/people/27364">Bean, John William, 1901-1987.</persname>
         <subject encodinganalog="650" source="lctgm" ref="/subjects/3792">Laboratories.</subject>
         <subject encodinganalog="650" source="lctgm" ref="/subjects/5156">Meetings.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname encodinganalog="700" source="lcnaf">Bean, John William, 1901-1987.</persname>
-        <persname encodinganalog="700" source="lcnaf">Gesell, Robert, 1886-1954.</persname>
-        <persname encodinganalog="700" source="lcnaf">Lombard, Warren P. (Warren Plimpton), 1855-1939.</persname>
-        <persname encodinganalog="700" source="lcnaf">Sewall, Henry, 1855-1936.</persname>
+        <persname encodinganalog="700" source="lcnaf" ref="/agents/people/27364">Bean, John William, 1901-1987.</persname>
+        <persname encodinganalog="700" source="lcnaf" ref="/agents/people/33308">Gesell, Robert, 1886-1954.</persname>
+        <persname encodinganalog="700" source="lcnaf" ref="/agents/people/35316">Lombard, Warren P. (Warren Plimpton), 1855-1939.</persname>
+        <persname encodinganalog="700" source="lcnaf" ref="/agents/people/34627">Sewall, Henry, 1855-1936.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

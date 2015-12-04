@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n87907120">Butterfield, Ira William, 1915-</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n87907120" ref="/agents/people/33167">Butterfield, Ira William, 1915-</persname>
       </origination>
       <unittitle encodinganalog="245">Ira W. Butterfield (1915-1995) papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1875/1990">1875-1990</unitdate>
@@ -107,10 +108,10 @@
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6607">Archaeology.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6608">Church buildings--Michigan--Bay City.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Bay County Council on Juvenile Delinquency (Mich.)</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87907120">Butterfield, Ira William, 1915-</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10758">Bay County Council on Juvenile Delinquency (Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87907120" ref="/agents/people/33167">Butterfield, Ira William, 1915-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6609">Congregational churches--Michigan--Bay City.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n98023666">First Congregational Church (Bay City, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n98023666" ref="/agents/corporate_entities/13333">First Congregational Church (Bay City, Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6610">Juvenile delinquency--Michigan--Bay County.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6611">Petroglyphs--Michigan--Sanilac County.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6612">World War, 1939-1945--Philippines.</subject>
@@ -123,7 +124,7 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Butterfield, George Ernest, 1883-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29885">Butterfield, George Ernest, 1883-</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

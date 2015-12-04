@@ -27,7 +27,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Church Women United In Ann Arbor.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/13054">Church Women United In Ann Arbor.</corpname>
       </origination>
       <unittitle encodinganalog="245">Church Women United In Ann Arbor records <unitdate type="inclusive" encodinganalog="245$f" normal="1941/2004">1941-2004</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">88166 Bk 2</unitid>
@@ -80,9 +81,9 @@ Church Women United In Ann Arbor Records, Bentley Historical Library, University
       <controlaccess>
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html" ref="/subjects/860">Ann Arbor (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">United Church Women of Ann Arbor.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11171">United Church Women of Ann Arbor.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5672">Women--Michigan--Ann Arbor--Societies and clubs.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Church Women United In Ann Arbor.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13054">Church Women United In Ann Arbor.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6301">Women--Religious life--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>

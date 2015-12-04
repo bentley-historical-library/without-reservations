@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">International Organization of Good Templars.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/10651">International Organization of Good Templars.</corpname>
       </origination>
       <unittitle encodinganalog="245">International Organization of Good Templars records <unitdate type="inclusive" encodinganalog="245$f" normal="1855/1970">1855-1970</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851519 Bd 2; BD Outsize</unitid>
@@ -101,7 +102,7 @@ International Organization of Good Templars records, Bentley Historical Library,
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4295">Fraternal organizations.</subject>
-        <corpname source="lcnaf" encodinganalog="610">International Organization of Good Templars.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10651">International Organization of Good Templars.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7725">Scandinavian Americans.</subject>
       </controlaccess>
       <controlaccess>

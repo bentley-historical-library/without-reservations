@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Brigham, George Bickford, 1889-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28745">Brigham, George Bickford, 1889-</persname>
       </origination>
       <unittitle encodinganalog="245">George B. Brigham papers <unitdate type="inclusive" encodinganalog="245$f" normal="1925/1967">1925-1967</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">9634 Aa 2</unitid>
@@ -90,7 +91,7 @@ George B. Brigham papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Brigham, George Bickford, 1889-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28745">Brigham, George Bickford, 1889-</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/849">Ann Arbor (Mich.)--Buildings, structures, etc.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6459">Architects--California--Pasadena.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6460">Architects--Michigan--Ann Arbor.</subject>
@@ -103,12 +104,12 @@ George B. Brigham papers, Bentley Historical Library, University of Michigan</p>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6465">Dwellings--California.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6426">Dwellings--Michigan--Ann Arbor.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1362">Pasadena (Calif.)--Buildings, structures, etc.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85050285">Youtz, Philip Newell, 1895-1972.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85050285" ref="/agents/people/27829">Youtz, Philip Newell, 1895-1972.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600">Brigham, George Bickford, 1889-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28745">Brigham, George Bickford, 1889-</persname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/207">Ann Arbor (Mich.)--Dwellings.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3572">Dwellings--Michigan--Ann Arbor.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3969">Dwellings--California--Pasadena.</subject>

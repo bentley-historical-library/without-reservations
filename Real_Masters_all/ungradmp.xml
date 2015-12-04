@@ -28,7 +28,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Office of Undergraduate Admissions.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/9189">University of Michigan. Office of Undergraduate Admissions.</corpname>
       </origination>
       <unittitle encodinganalog="245">Office of Undergraduate Admissions (University of Michigan) publications</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1911/2001">1911-2001</unitdate>
@@ -89,7 +90,7 @@ Office of Undergraduate Admissions (University of Michigan) publications, Bentle
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname encodinganalog="610" source="lcnaf">University of Michigan. Office of Undergraduate Admissions.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/9189">University of Michigan. Office of Undergraduate Admissions.</corpname>
         <subject encodinganalog="650" source="lcsh" ref="/subjects/10474">Transfer students--Michigan--Ann Arbor.</subject>
         <subject encodinganalog="650" source="lcsh" ref="/subjects/10475">International students--Michigan--Ann Arbor.</subject>
         <subject encodinganalog="650" source="lcsh" ref="/subjects/10476">College students--Recruiting.</subject>

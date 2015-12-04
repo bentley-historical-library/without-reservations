@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Hathaway, Mary.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/34271">Hathaway, Mary.</persname>
       </origination>
       <unittitle encodinganalog="245">Mary Hathaway papers <unitdate type="inclusive" encodinganalog="245$f" normal="1980/2003">1980-2003</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">07117 Aa 2</unitid>
@@ -87,12 +88,12 @@ Mary Hathaway papers, Bentley Historical Library, University of Michigan</p>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8137">Antinuclear movement--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8138">Church work with refugees--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">First Presbyterian Church (Ann Arbor, Mich.)</corpname>
-        <persname source="lcnaf" encodinganalog="600">Hathaway, Mary.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Interfaith Council for Peace and Justice (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10889">First Presbyterian Church (Ann Arbor, Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34271">Hathaway, Mary.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13072">Interfaith Council for Peace and Justice (Ann Arbor, Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5750">Pacifism.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8139">Pacifists--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Peace and Environmental Coalition Against Nuclear Weapons.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13349">Peace and Environmental Coalition Against Nuclear Weapons.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8140">Political participation--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8141">Shelters for the homeless--Michigan--Ann Arbor.</subject>
       </controlaccess>

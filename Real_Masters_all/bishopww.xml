@@ -31,7 +31,8 @@
         <item>Original encoding from Word 6.0 file with some hand-tagging</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n93084315">Bishop, William Warner, 1871-1955.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n93084315" ref="/agents/people/32848">Bishop, William Warner, 1871-1955.</persname>
       </origination>
       <unittitle encodinganalog="245">William Warner Bishop Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1891/1955">1891-1955</unitdate></unittitle>
       <abstract>Internationally recognized librarian; director of the University of Michigan Library. Correspondence and subject files relating to professional activities.</abstract>
@@ -104,25 +105,25 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79062941">American Library Association.</corpname>
-        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n93084315">Bishop, William Warner, 1871-1955.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2001004578">Carnegie Corporation of New York. Advisory Group on College Libraries.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79145348">Carnegie Endowment for International Peace.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79062941" ref="/agents/corporate_entities/13161">American Library Association.</corpname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n93084315" ref="/agents/people/32848">Bishop, William Warner, 1871-1955.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2001004578" ref="/agents/corporate_entities/13134">Carnegie Corporation of New York. Advisory Group on College Libraries.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79145348" ref="/agents/corporate_entities/10864">Carnegie Endowment for International Peace.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6347">Libraries--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Library.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10442">University of Michigan. Library.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <corpname source="lcnaf" encodinganalog="610">Hiera Monē Iōannou tou Theologou Patmou.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11453">Hiera Monē Iōannou tou Theologou Patmou.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3911">Librarians.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3912">Libraries.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6348">Monasteries--Greece--Patmos.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n78095482">Mussolini, Benito, 1883-1945.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n78095482" ref="/agents/people/29383">Mussolini, Benito, 1883-1945.</persname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80046343.html" ref="/subjects/1316">Patmos (Greece)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Quadrangle Club (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Library Science.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n84017513">William L. Clements Library.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14300">Quadrangle Club (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11003">University of Michigan. Dept. of Library Science.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n84017513" ref="/agents/corporate_entities/9919">William L. Clements Library.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

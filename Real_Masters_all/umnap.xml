@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Program of Nurse Anesthesia.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/14675">University of Michigan. Program of Nurse Anesthesia.</corpname>
       </origination>
       <unittitle encodinganalog="245">Program of Nurse Anesthesia (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1919/1987">1919-1987</unitdate></unittitle>
       <abstract>University of Michigan program established in 1919 for the graduate training of nurses in anesthesia, closed in 1987. Records include Correspondence, newspaper clippings, and other papers containing some general information about the history and administration of the program (especially during the 1970s and 1980s), and the eventual closure of the program in 1987.</abstract>
@@ -83,7 +84,7 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Program of Nurse Anesthesia.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14675">University of Michigan. Program of Nurse Anesthesia.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10451">Anesthesiology--Study and teaching--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9006">Nursing--Study and teaching.</subject>
       </controlaccess>

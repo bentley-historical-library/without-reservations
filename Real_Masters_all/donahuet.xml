@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n91055338">Donahue, Thomas M.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n91055338" ref="/agents/people/28659">Donahue, Thomas M.</persname>
       </origination>
       <unittitle encodinganalog="245">Thomas M. Donahue papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1939/2002">1939-2002</unitdate>
@@ -98,10 +99,10 @@ Thomas M. Donahue papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n91055338">Donahue, Thomas M.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n91055338" ref="/agents/people/28659">Donahue, Thomas M.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7259">Space sciences.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Atmospheric, Oceanic and Space Sciences.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13108">University of Michigan. Dept. of Atmospheric, Oceanic and Space Sciences.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1708">Venus (Planet)--Atmosphere.</geogname>
       </controlaccess>
       <controlaccess>

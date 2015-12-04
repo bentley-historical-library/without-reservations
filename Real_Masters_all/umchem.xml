@@ -42,7 +42,8 @@
         <item>headings removed and other changes made to conform to new style, GK</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -53,7 +54,7 @@
   <archdesc level="recordgrp" type="inventory" audience="external" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79067259">University of Michigan. Dept. of Chemistry.</corpname>
+        <corpname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79067259" ref="/agents/corporate_entities/13469">University of Michigan. Dept. of Chemistry.</corpname>
       </origination>
       <unittitle encodinganalog="245">Dept. of Chemistry (University of Michigan) records</unittitle>
       <unitdate type="inclusive" normal="1866/2013">1866-2013</unitdate>
@@ -176,10 +177,10 @@
       </p>
       <controlaccess>
         <head>Subject</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2003107796">Gomberg, Moses, 1866-1947.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n86867624">Prescott, A. B. (Albert Benjamin), 1832-1905.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79067259">University of Michigan. Dept. of Chemistry.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Chemistry Building (University of Michigan)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2003107796" ref="/agents/people/27832">Gomberg, Moses, 1866-1947.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n86867624" ref="/agents/people/27957">Prescott, A. B. (Albert Benjamin), 1832-1905.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79067259" ref="/agents/corporate_entities/13469">University of Michigan. Dept. of Chemistry.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10398">Chemistry Building (University of Michigan)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10433">Catalysis.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6019">Chemistry.</subject>
       </controlaccess>

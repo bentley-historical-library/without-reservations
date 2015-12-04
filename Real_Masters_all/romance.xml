@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n82143110">University of Michigan. Dept. of Romance Languages.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n82143110" ref="/agents/corporate_entities/13103">University of Michigan. Dept. of Romance Languages.</corpname>
       </origination>
       <unittitle encodinganalog="245">Dept. of Romance Languages and Literatures (University of Michigan) records</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1907/2003">1907-2003</unitdate>
@@ -95,25 +96,25 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82143110">University of Michigan. Dept. of Romance Languages.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82143110" ref="/agents/corporate_entities/13103">University of Michigan. Dept. of Romance Languages.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7939">Language and languages--Study and teaching.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6120">Language and education.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9904">Romance languages--Study and teaching.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9905">Romance literature--Study and teaching.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Cercle Français.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2006074800">Sigma Delta Pi.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Sociedad Hispanica (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12995">University of Michigan. Cercle Français.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2006074800" ref="/agents/corporate_entities/10404">Sigma Delta Pi.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13744">Sociedad Hispanica (University of Michigan)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9906">Spanish language--Societies, etc.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9907">French language--Societies, etc.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82143110">University of Michigan. Dept. of Romance Languages.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82143110" ref="/agents/corporate_entities/13103">University of Michigan. Dept. of Romance Languages.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9907">French language--Societies, etc.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9906">Spanish language--Societies, etc.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Cercle Français.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Sociedad Hispanica (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2006074800">Sigma Delta Pi.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12995">University of Michigan. Cercle Français.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13744">Sociedad Hispanica (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2006074800" ref="/agents/corporate_entities/10404">Sigma Delta Pi.</corpname>
         <genreform source="aat" encodinganalog="655" ref="/subjects/3141">Photographs.</genreform>
       </controlaccess>
       <controlaccess>

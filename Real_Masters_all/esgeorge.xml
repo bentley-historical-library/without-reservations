@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Edwin S. George Reserve (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/14046">Edwin S. George Reserve (Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">Edwin S. George Reserve (Mich.) records</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1924/2013">1924-2013</unitdate>
@@ -106,8 +107,8 @@ Edwin S. George Reserve (Mich.) records, Bentley Historical Library, University 
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7548">Insects--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1304">Livingston County (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7549">Natural history--Michigan--Edwin S. George Reserve.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Department of Ecology and Evolutionary Biology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79115934">University of Michigan. Museum of Zoology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9684">University of Michigan. Department of Ecology and Evolutionary Biology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79115934" ref="/agents/corporate_entities/14301">University of Michigan. Museum of Zoology.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7550">White-tailed deer--Michigan--Edwin S. George Reserve.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7551">Wildlife management--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7552">Zoology--Michigan--Edwin S. George Reserve.</subject>

@@ -23,7 +23,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" encodinganalog="110" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Ann Arbor (Mich.). Human Rights Commission.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/14570">Ann Arbor (Mich.). Human Rights Commission.</corpname>
       </origination>
       <unittitle encodinganalog="245">Ann Arbor Human Rights Commission Records <unitdate type="inclusive" encodinganalog="245$f" normal="1957/1993">1957-1993</unitdate></unittitle>
       <abstract>Agency of the city of Ann Arbor established in 1957 as the Human Relations Commission to investigate and deal with issues of racial discrimination in housing and employment. The name of the agency was changed in 1970 to the Human Rights Commission. The scope of the Commission came to include complaints of discrimination against women, gays, and the disabled. The record group provides substantial documentation of issues of racial discrimination in employment and housing in Ann Arbor, Michigan in the period of 1957 to 1993. Included are files relating to the establishment of the commission, minutes (through 1993 with some gaps), memoranda (1968-1970), topical files, early case files (1965-1970), and student intern projects and reports of members of the community practice program within the University of Michigan School of Social Work.</abstract>
@@ -75,9 +76,9 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor (Mich.). Human Rights Commission.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14570">Ann Arbor (Mich.). Human Rights Commission.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5659">African Americans--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Black Action Movement (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13181">Black Action Movement (University of Michigan)</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html" ref="/subjects/860">Ann Arbor (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5677">Discrimination in education--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5678">Discrimination in housing--Michigan--Ann Arbor.</subject>
@@ -85,7 +86,7 @@
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor (Mich.). Human Rights Commission.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14570">Ann Arbor (Mich.). Human Rights Commission.</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html" ref="/subjects/860">Ann Arbor (Mich.)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3580">Building deterioration--Michigan--Ann Arbor.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3581">Poverty--Michigan--Ann Arbor.</subject>

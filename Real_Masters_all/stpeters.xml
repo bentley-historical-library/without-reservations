@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">St. Peter's Evangelical Lutheran Church (Plymouth, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/14455">St. Peter's Evangelical Lutheran Church (Plymouth, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">St. Peter's Evangelical Lutheran Church (Plymouth, Mich.) records <unitdate type="inclusive" encodinganalog="245$f" normal="1856/1985">1856-1985</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">89507 Ba 2</unitid>
@@ -88,11 +89,11 @@ St. Peter's Evangelical Lutheran Church (Plymouth, Mich.) records, Bentley Histo
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10261">Lutheran Church--Michigan--Plymouth.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10262">Church buildings--Michigan--Plymouth (Mich.)--Churches.</subject>
-        <corpname source="lcnaf" encodinganalog="610">St. Peter's Evangelical Lutheran Church (Plymouth, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14455">St. Peter's Evangelical Lutheran Church (Plymouth, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname source="lcnaf" encodinganalog="610">Berdan House (Plymouth, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9680">Berdan House (Plymouth, Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4506">Business enterprises.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3949">Churches.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3776">Classrooms.</subject>
@@ -106,7 +107,7 @@ St. Peter's Evangelical Lutheran Church (Plymouth, Mich.) records, Bentley Histo
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10263">Business enterprises--Michigan--Plymouth.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10264">Church buildings--Michigan--Plymouth.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10265">Streets--Michigan--Plymouth.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Plymouth Marble Works.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10505">Plymouth Marble Works.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5408">Schools--Michigan--Plymouth.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3978">Tombs and sepulchral monuments.</subject>
       </controlaccess>

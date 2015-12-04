@@ -24,7 +24,8 @@
         <item>Original encoding from Word 10.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Beth Israel Congregation (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/13098">Beth Israel Congregation (Ann Arbor, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245"> Beth Israel Congregation Jewish Life in Ann Arbor Oral History Project records <unitdate type="inclusive" encodinganalog="245$f"> 2013 </unitdate></unittitle>
       <physdesc altrender="part">
@@ -106,7 +107,7 @@
       <controlaccess>
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1297">Ann Arbor (Mich.)--Religion.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Beth Israel Congregation (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13098">Beth Israel Congregation (Ann Arbor, Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6296">Conservative Judaism--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6297">Jews--History.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6294">Jews--Michigan--Ann Arbor.</subject>

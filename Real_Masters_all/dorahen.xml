@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Dora, Henry, 1893-1977.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30703">Dora, Henry, 1893-1977.</persname>
       </origination>
       <unittitle encodinganalog="245">Henry Dora papers <unitdate type="inclusive" encodinganalog="245$f" normal="1900/1979" certainty="approximate">circa 1900-1979 (scattered dates)</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85148 Aa 2</unitid>
@@ -80,7 +81,7 @@ Henry Dora papers, Bentley Historical Library, University of Michigan</p>
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6757">Aeronautics.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Bay City Airport (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11315">Bay City Airport (Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
@@ -92,15 +93,15 @@ Henry Dora papers, Bentley Historical Library, University of Michigan</p>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81037331.html" ref="/subjects/1038">Bay City (Mich.)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4203">Beauty contests.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3743">Boats.</subject>
-        <persname source="lcnaf" encodinganalog="600">Dora, Henry, 1893-1977.</persname>
-        <persname source="lcnaf" encodinganalog="600">Dora, Lillian.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30703">Dora, Henry, 1893-1977.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28396">Dora, Lillian.</persname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82066556.html" ref="/subjects/1709">Essexville (Mich.)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3666">Lumber industry.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7270">Snowmobiles.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Dora, Lillian.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28396">Dora, Lillian.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

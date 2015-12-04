@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Duty, Charles L.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/29922">Duty, Charles L.</persname>
       </origination>
       <unittitle encodinganalog="245">Charles L. Duty papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1997/2000">1997-2000</unitdate>
@@ -93,11 +94,11 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Duty, Charles L.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29922">Duty, Charles L.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7364">Elections--Michigan--Ypsilanti.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7365">Gay rights--Michigan--Ypsilanti.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1735">Ypsilanti (Mich.)--Politics and government--20th century.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Citizens for Community.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9531">Citizens for Community.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

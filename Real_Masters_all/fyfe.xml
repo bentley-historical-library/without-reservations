@@ -37,7 +37,8 @@
         <item>Original encoding in EAD beta, hand tagged by Bill Landis in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -48,7 +49,7 @@
   <archdesc level="collection" type="inventory" audience="external" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Fyfe family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/282">Fyfe family.</famname>
       </origination>
       <unittitle encodinganalog="245">Fyfe Family Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1864/1942">1864-1942</unitdate></unittitle>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">851395 Aa/1 UAs</unitid>
@@ -88,15 +89,15 @@
       </p>
       <controlaccess>
         <head>Subject Terms</head>
-        <persname source="lcnaf" encodinganalog="600">Bertch, Della Miles, 1861-</persname>
-        <famname source="lcnaf" encodinganalog="600">Fyfe family.</famname>
-        <famname source="lcnaf" encodinganalog="600">Gilbert family.</famname>
-        <famname source="lcnaf" encodinganalog="600">Gray family.</famname>
-        <persname source="lcnaf" encodinganalog="100">Miles, Mary A., d. 1904.</persname>
-        <famname source="lcnaf" encodinganalog="600">Miles family.</famname>
-        <famname source="lcnaf" encodinganalog="600">Perry family.</famname>
-        <famname source="lcnaf" encodinganalog="600">Prescott family.</famname>
-        <famname source="lcnaf" encodinganalog="600">Strong family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28522">Bertch, Della Miles, 1861-</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/282">Fyfe family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/186">Gilbert family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/278">Gray family.</famname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/35556">Miles, Mary A., d. 1904.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/305">Miles family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/173">Perry family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/256">Prescott family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/193">Strong family.</famname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5999">Afro-Americans.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6667">Nurses--Kentucky.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6671">Women teachers--Kentucky.</subject>
@@ -111,8 +112,8 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors</head>
-        <persname source="lcnaf" encodinganalog="700">Fyfe, Jennie.</persname>
-        <persname source="lcnaf" encodinganalog="700">Mott, Ellen.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32284">Fyfe, Jennie.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34622">Mott, Ellen.</persname>
       </controlaccess>
     </controlaccess>
     <dsc>

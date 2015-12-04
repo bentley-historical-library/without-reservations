@@ -27,7 +27,8 @@
         <item>Edited for style LAC</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Duink, Harry.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32939">Duink, Harry.</persname>
       </origination>
       <unittitle encodinganalog="245">Harry Duink papers <unitdate type="inclusive" encodinganalog="245$f" normal="1918/1919">1918-1919</unitdate></unittitle>
       <abstract>Papers of a soldier in the Allied intervention in Russia, 1918-1920, the "Polar Bear Expedition."</abstract>
@@ -78,7 +79,7 @@
       </p>
       <controlaccess>
         <head>Subjects</head>
-        <persname source="lcnaf" encodinganalog="600">Duink, Harry.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32939">Duink, Harry.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/883">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5712">World War, 1914-1918.</subject>
         <subject source="local" encodinganalog="690" authfilenumber="http://id.loc.gov/authorities/names/n2008059426" ref="/subjects/3518">Polar Bear Expedition.</subject>

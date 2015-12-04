@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Van Coevering, Jack.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/31810">Van Coevering, Jack.</persname>
       </origination>
       <unittitle encodinganalog="245">Jack Van Coevering Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1928/1978">1928-1978</unitdate></unittitle>
       <abstract>Detroit Free Press outdoor writer and later faculty member in the University of Michigan School of Natural Resources. Files of <title render="italic">Detroit Free Press</title> outdoor pages and conservation articles, clippings, and photographs, correspondence, and notes on Michigan conservation history, pesticides, pollution, plants and animals, hunting and fishing, parks, rivers and lakes, conservation writing, and ecology; also manuscript of history of conservation in Michigan with background information; and materials gathered for intended biographical study of Michigan conservationists.</abstract>
@@ -93,40 +94,40 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7368">Fishing--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6733">Forests and forestry--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1994">Great Lakes.</geogname>
-        <persname source="lcnaf" encodinganalog="600">Hoffmaster, Percy James, 1892-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32229">Hoffmaster, Percy James, 1892-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7369">Hunting--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1491">Isle Royale National Park (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5908">Journalists--Michigan--Detroit.</subject>
-        <persname source="lcnaf" encodinganalog="600">Lovejoy, Parrish Storrs, 1884-1942.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31448">Lovejoy, Parrish Storrs, 1884-1942.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10515">Mammals--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. Dept. of Conservation.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50071732">Michigan. Water Resources Commission.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12929">Michigan. Dept. of Conservation.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50071732" ref="/agents/corporate_entities/12598">Michigan. Water Resources Commission.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8720">Natural resources--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7969">Parks--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10516">Pesticides.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1907">Porcupine Mountains State Park (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8244">Public lands--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1009">Sleeping Bear Dunes National Lakeshore (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81003782">University of Michigan. School of Natural Resources.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Van Coevering, Jack, 1900-</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81003782" ref="/agents/corporate_entities/10319">University of Michigan. School of Natural Resources.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31430">Van Coevering, Jack, 1900-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10517">Water pollution.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3652">Camping.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79099497">Civilian Conservation Corps (U.S.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79099497" ref="/agents/corporate_entities/12492">Civilian Conservation Corps (U.S.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4008">Conservation of natural resources--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1912">Detroit River (Mich. and Ont.)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4649">Fish hatcheries.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3937">Fishing--Michigan.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4182">Forests.</subject>
-        <persname source="lcnaf" encodinganalog="600">Gillette, Genevieve, 1898-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/27539">Gillette, Genevieve, 1898-</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3664">Hunting--Michigan.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5501">Ponds.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4468">Lakes.</subject>
-        <persname source="lcnaf" encodinganalog="600">Leonard, Justin W., 1909-1975.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30281">Leonard, Justin W., 1909-1975.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3834">Lighthouses--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. Dept. of Conservation.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12929">Michigan. Dept. of Conservation.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1006">Sleeping Bear Dunes (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1728">Lower Falls (Chippewa County, Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1729">Upper Falls (Luce County, Mich.)</geogname>
@@ -135,41 +136,41 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Allen, Shirley Walter, 1883-</persname>
-        <persname source="lcnaf" encodinganalog="700">Bartlett, Ilo H.</persname>
-        <persname source="lcnaf" encodinganalog="700">Clark, Horace.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79076721">Bear, Fred.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79056016">Dana, Samuel Trask, 1883-1978</persname>
-        <persname source="lcnaf" encodinganalog="700">Earle, G. Harold.</persname>
-        <persname source="lcnaf" encodinganalog="700">East, Ben.</persname>
-        <persname source="lcnaf" encodinganalog="700">Glassen, Harold W., 1906-</persname>
-        <persname source="lcnaf" encodinganalog="700">Gunia, Larry.</persname>
-        <persname source="lcnaf" encodinganalog="700">Harris, William.</persname>
-        <persname source="lcnaf" encodinganalog="700">Johnson, Carl T.</persname>
-        <persname source="lcnaf" encodinganalog="700">Lovejoy, Parrish Storrs, 1884-1942.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2009009638">Millar, C. E. (Charles Ernest), 1885-1955</persname>
-        <persname source="lcnaf" encodinganalog="700">Pirnie, Miles David, 1898-</persname>
-        <persname source="lcnaf" encodinganalog="700">Raff, George.</persname>
-        <persname source="lcnaf" encodinganalog="700">Rahilly, Joseph B.</persname>
-        <persname source="lcnaf" encodinganalog="700">Ruhl, H. D.</persname>
-        <persname source="lcnaf" encodinganalog="700">Saunders, Carl M. (Carl Maxon), 1890-1974.</persname>
-        <persname source="lcnaf" encodinganalog="700">Slater, Kenneth.</persname>
-        <persname source="lcnaf" encodinganalog="700">Smits, Lee J.</persname>
-        <persname source="lcnaf" encodinganalog="700">Stephenson, Joe.</persname>
-        <persname source="lcnaf" encodinganalog="700">Stewart, Gilbert Ireland, 1897-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2007031315">Stoll, Albert, 1884-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008175553">Titus, Harold, 1888-1967.</persname>
-        <persname source="lcnaf" encodinganalog="700">Westerman, Fred.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35942">Allen, Shirley Walter, 1883-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34266">Bartlett, Ilo H.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35860">Clark, Horace.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79076721" ref="/agents/people/29802">Bear, Fred.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79056016" ref="/agents/people/33342">Dana, Samuel Trask, 1883-1978</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31262">Earle, G. Harold.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30317">East, Ben.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34679">Glassen, Harold W., 1906-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27752">Gunia, Larry.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35159">Harris, William.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35390">Johnson, Carl T.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31448">Lovejoy, Parrish Storrs, 1884-1942.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2009009638" ref="/agents/people/28001">Millar, C. E. (Charles Ernest), 1885-1955</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31853">Pirnie, Miles David, 1898-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31243">Raff, George.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27989">Rahilly, Joseph B.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28144">Ruhl, H. D.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29119">Saunders, Carl M. (Carl Maxon), 1890-1974.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28609">Slater, Kenneth.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34157">Smits, Lee J.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33983">Stephenson, Joe.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33672">Stewart, Gilbert Ireland, 1897-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2007031315" ref="/agents/people/31904">Stoll, Albert, 1884-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008175553" ref="/agents/people/35383">Titus, Harold, 1888-1967.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30236">Westerman, Fred.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects--Sound Recordings</head>
-        <persname source="lcnaf" encodinganalog="600">Van Coevering, Jack, 1900-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31430">Van Coevering, Jack, 1900-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6190">Conservation of natural resources--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81003782">University of Michigan. School of Natural Resources.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81003782" ref="/agents/corporate_entities/10319">University of Michigan. School of Natural Resources.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors--Sound Recordings</head>
-        <persname source="lcnaf" encodinganalog="700">Arnold, Keith.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31766">Arnold, Keith.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

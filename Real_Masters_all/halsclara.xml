@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Halstead, Claribel Baird, 1904-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30744">Halstead, Claribel Baird, 1904-</persname>
       </origination>
       <unittitle encodinganalog="245">Claribel Baird Halstead papers <unitdate type="inclusive" encodinganalog="245$f" normal="1920/2000">1920-2000</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2008018 Aa 2</unitid>
@@ -91,10 +92,10 @@ Claribel Baird Halstead papers, Bentley Historical Library, University of Michig
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8095">Actresses--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8096">College theater--Michigan--Ann Arbor.</subject>
-        <persname source="lcnaf" encodinganalog="600">Halstead, Claribel Baird, 1904-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30744">Halstead, Claribel Baird, 1904-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8097">Theater--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Speech.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10644">University of Michigan. Dept. of Speech.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8098">Women in the theater.</subject>
       </controlaccess>
       <controlaccess>

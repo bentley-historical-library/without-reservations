@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Howell, Seymour, 1841-1909.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32400">Howell, Seymour, 1841-1909.</persname>
       </origination>
       <unittitle encodinganalog="245">Seymour Howell papers [microform] <unitdate type="inclusive" encodinganalog="245$f" normal="1864/1912">1864-1912</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851482 mf 472c-mf473c</unitid>
@@ -82,13 +83,13 @@ Seymour Howell papers [microform], Bentley Historical Library, University of Mic
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Howell, Seymour, 1841-1909.</persname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Michigan Artillery Regiment, 6th (1863-1865). Company F.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32400">Howell, Seymour, 1841-1909.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9691">United States. Army. Michigan Artillery Regiment, 6th (1863-1865). Company F.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/909">United States--History--Civil War, 1861-1865.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Howell, Charles S., d. 1903.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35604">Howell, Charles S., d. 1903.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

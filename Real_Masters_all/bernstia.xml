@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n87807224">Bernstein, I. A.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n87807224" ref="/agents/people/34826">Bernstein, I. A.</persname>
       </origination>
       <unittitle encodinganalog="245">I. A. Bernstein Papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1950/1989">1950-1989</unitdate>
@@ -89,14 +90,14 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87807224">Bernstein, I. A.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87807224" ref="/agents/people/34826">Bernstein, I. A.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6276">Biochemistry--Study and teaching.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6277">Polybrominated biphenyls--Toxicology--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87807224">Bernstein, I. A.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87807224" ref="/agents/people/34826">Bernstein, I. A.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

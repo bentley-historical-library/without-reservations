@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Medical-Surgical Nursing Area.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/11639">University of Michigan. Medical-Surgical Nursing Area.</corpname>
       </origination>
       <unittitle encodinganalog="245">Medical-Surgical Nursing Area (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1960/1990">1960-1990</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">87264 Bimu C266 2</unitid>
@@ -200,14 +201,14 @@ Medical-Surgical Nursing Area (University of Michigan) Records, Bentley Historic
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6088">Nurses--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6089">Nursing--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no96022006">University of Michigan. School of Nursing.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Medical-Surgical Nursing Area.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no96022006" ref="/agents/corporate_entities/9388">University of Michigan. School of Nursing.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11639">University of Michigan. Medical-Surgical Nursing Area.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Hegedus, Arleen.</persname>
-        <persname source="lcnaf" encodinganalog="700">McCain, R. Faye.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82118552">Sana, Josephine M.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28276">Hegedus, Arleen.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31129">McCain, R. Faye.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82118552" ref="/agents/people/35256">Sana, Josephine M.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

@@ -36,7 +36,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -47,7 +48,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Neighborhood Renewal Services of Saginaw.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/12864">Neighborhood Renewal Services of Saginaw.</corpname>
       </origination>
       <unittitle encodinganalog="245">Neighborhood Renewal Services of Saginaw records <unitdate type="inclusive" encodinganalog="245$f" normal="1988/2011">1988-2011</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2010149 Aa 2</unitid>
@@ -101,7 +102,7 @@ Neighborhood Renewal Services of Saginaw records, Bentley Historical Library, Un
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9511">Neighborhoods--Michigan--Saginaw.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1217">Saginaw (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9512">Urban renewal--Michigan--Saginaw.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Neighborhood Renewal Services of Saginaw.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12864">Neighborhood Renewal Services of Saginaw.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

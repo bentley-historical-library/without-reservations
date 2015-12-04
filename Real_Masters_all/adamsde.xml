@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Adams, Donald Earl, 1912-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/29048">Adams, Donald Earl, 1912-</persname>
       </origination>
       <unittitle encodinganalog="245">Donald E. Adams papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1930/1998">1930-1998</unitdate>
@@ -86,10 +87,10 @@ Donald E. Adams papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Adams, Donald Earl, 1912-</persname>
-        <persname source="lcnaf" encodinganalog="600">Adams, Elizabeth S.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29048">Adams, Donald Earl, 1912-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35474">Adams, Elizabeth S.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5734">Mental health--Michigan--Oakland County.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Oakland County Community Mental Health Services Board.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9063">Oakland County Community Mental Health Services Board.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

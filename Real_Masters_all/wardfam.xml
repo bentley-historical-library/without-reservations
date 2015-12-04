@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="marc21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Ward family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/149">Ward family.</famname>
       </origination>
       <unittitle encodinganalog="245">Ward Family Papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1860/1964">1860-1964</unitdate>
@@ -108,7 +109,7 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6245">Logging--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6246">Lumbering--United States.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n88054816.html" ref="/subjects/2263">Orchard Lake (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Orchard Lake Country Club.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14048">Orchard Lake Country Club.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10586">Suburbs--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1326">Vancouver Island (B.C.)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n91064826.html" ref="/subjects/2286">West Bloomfield (Mich. : Township)</geogname>
@@ -120,15 +121,15 @@
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1281">California.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2193">Deward (Mich.)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3666">Lumber industry.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Orchard Lake Country Club.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14048">Orchard Lake Country Club.</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n88054816.html" ref="/subjects/2263">Orchard Lake (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/3016">Richmond (Mich.)--Dwellings.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5529">Roads--Michigan--Oakland County.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79058686">Williams College.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79058686" ref="/agents/corporate_entities/14168">Williams College.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3942">Winter.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10587">Winter sports.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79043367">Yale University.</corpname>
-        <famname source="lcnaf" encodinganalog="600">Ward family.</famname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79043367" ref="/agents/corporate_entities/11478">Yale University.</corpname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/149">Ward family.</famname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Maps</head>

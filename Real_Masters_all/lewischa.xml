@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Lewis, Charles E.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30665">Lewis, Charles E.</persname>
       </origination>
       <unittitle encodinganalog="245">Charles E. Lewis papers <unitdate type="inclusive" encodinganalog="245$f" normal="1917/1958" certainty="approximate">1917-1958 (scattered dates)</unitdate></unittitle>
       <abstract>Lawyer in Detroit, Mich., who served as adjutant and judge advocate in the U.S. 339th Infantry during the Allied Intervention in Russia, 1918-1920, the "Polar Bear Expedition." Collection includes biographical and genealogical information, family correspondence, a history of the Manchester, Mich., High School class of 1907; war diary, July-Nov. 1918; correspondence, financial material and memorabilia relating to his war service and veterans' activities; and photographs.</abstract>
@@ -82,14 +83,14 @@
       </p>
       <controlaccess>
         <head>Subjects</head>
-        <persname source="lcnaf" encodinganalog="600">Lewis, Charles E.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30665">Lewis, Charles E.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/883">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5712">World War, 1914-1918.</subject>
         <subject source="local" encodinganalog="690" authfilenumber="http://id.loc.gov/authorities/names/n2008059426" ref="/subjects/3518">Polar Bear Expedition.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5887">Veterans--Michigan--Societies, etc.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Polar Bear Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11041">Polar Bear Association.</corpname>
         <subject source="lcsh" encodinganalog="600" ref="/subjects/8774">Lewis family.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Manchester High School (Manchester, Mich.). Class of 1907.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12475">Manchester High School (Manchester, Mich.). Class of 1907.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

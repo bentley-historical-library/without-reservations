@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Bay View Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/13057">Bay View Association.</corpname>
       </origination>
       <unittitle encodinganalog="245">Bay View Association records <unitdate type="inclusive" encodinganalog="245$f" normal="1875/1997">1875-1997</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">8571 Bp 2</unitid>
@@ -82,15 +83,15 @@ Bay View Association records, Bentley Historical Library, University of Michigan
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Bay View Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13057">Bay View Association.</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/no89002733.html" ref="/subjects/1024">Bay View (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6178">Chautauquas--Michigan--Bay View.</subject>
-        <corpname source="lcnaf" encodinganalog="610">United Methodist Church (U.S.)--Michigan--Bay View.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9891">United Methodist Church (U.S.)--Michigan--Bay View.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/no89002733.html" ref="/subjects/1024">Bay View (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Bay View Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13057">Bay View Association.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3818">Beaches--Michigan--Bay View.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3819">Campmeetings--Michigan--Bay View.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3820">Chautauquas--Michigan--Bay View.</subject>

@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n79106282">Halstead, William Perdue.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n79106282" ref="/agents/people/31144">Halstead, William Perdue.</persname>
       </origination>
       <unittitle encodinganalog="245">William Perdue Halstead papers <unitdate type="inclusive" encodinganalog="245$f" normal="1935/1975">1935-1975</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">921107 Aa 2</unitid>
@@ -81,16 +82,16 @@ William Perdue Halstead papers, Bentley Historical Library, University of Michig
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79106282">Halstead, William Perdue.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79106282" ref="/agents/people/31144">Halstead, William Perdue.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6869">Theater--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Speech.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Dramatics.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10644">University of Michigan. Dept. of Speech.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Dramatics.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79106282">Halstead, William Perdue.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Indiana University--Students.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79106282" ref="/agents/people/31144">Halstead, William Perdue.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9346">Indiana University--Students.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3871">Theatrical productions.</subject>
       </controlaccess>
       <controlaccess>

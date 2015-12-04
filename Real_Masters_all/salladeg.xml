@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Sallade, George Wahr, 1922-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/29697">Sallade, George Wahr, 1922-</persname>
       </origination>
       <unittitle encodinganalog="245">George Wahr Sallade papers <unitdate type="inclusive" encodinganalog="245$f" normal="1952/1993">1952-1993</unitdate></unittitle>
       <abstract>Ann Arbor, Michigan, attorney and local Democratic Party activist. Political files relating to his various campaigns for office (Ann Arbor city council, Michigan House of Representatives, U.S. Congress, and Michigan State Senate among others); papers relating to his service in the state House, 1955-1958; his activities with Washtenaw County, Michigan, and Second Congressional District Democratic affairs; also letters received from Lt. Lee M. Cecil, 1952-1954, describing his experiences as a soldier during the Korean War; and photographs.</abstract>
@@ -82,15 +83,15 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor (Mich.). Common Council.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9660">Ann Arbor (Mich.). Common Council.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/857">Ann Arbor (Mich.)--Politics and government.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731">Democratic Party (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731" ref="/agents/corporate_entities/12900">Democratic Party (Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9948">Korean War, 1950-1953--Personal narratives, American.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. Legislature. House of Representatives.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13376">Michigan. Legislature. House of Representatives.</corpname>
         <geogname source="local" encodinganalog="691" ref="/subjects/809">Michigan--Politics and government--1946-1960.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/810">Michigan--Politics and government--1961-1970.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/801">Michigan--Politics and government--1971-1980.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13160">Republican Party (Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/847">Washtenaw County (Mich.)</geogname>
       </controlaccess>
       <controlaccess>
@@ -99,11 +100,11 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5228">Police--Michigan--Ann Arbor.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3874">Politics and government--1946-1960.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3875">Politics and government--1961-1970.</subject>
-        <persname source="lcnaf" encodinganalog="600">Sallade, George Wahr, 1922-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29697">Sallade, George Wahr, 1922-</persname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Cecil, Lee M.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34660">Cecil, Lee M.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Balch, Nathaniel A. (Nathaniel Aldrich), 1808-1894.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32694">Balch, Nathaniel A. (Nathaniel Aldrich), 1808-1894.</persname>
       </origination>
       <unittitle encodinganalog="245">Nathaniel A. Balch papers <unitdate type="inclusive" encodinganalog="245$f" normal="1797/1884">1797-1884</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85905 Aa 2 Ac</unitid>
@@ -82,14 +83,14 @@ Nathaniel A. Balch papers, Bentley Historical Library, University of Michigan</p
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">First Presbyterian Church (Kalamazoo, Mich. : 1836-1842)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14381">First Presbyterian Church (Kalamazoo, Mich. : 1836-1842)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/980">Kalamazoo (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Kalamazoo College.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Marshall College (Marshall, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50049404">Middlebury College.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79022061">Pike, Zebulon Montgomery, 1779-1813.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Presbyterian Church--Michigan--Kalamazoo.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Ransom, James W.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11762">Kalamazoo College.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/8972">Marshall College (Marshall, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50049404" ref="/agents/corporate_entities/11058">Middlebury College.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79022061" ref="/agents/people/27264">Pike, Zebulon Montgomery, 1779-1813.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10309">Presbyterian Church--Michigan--Kalamazoo.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34179">Ransom, James W.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6043">Temperance--Michigan--Kalamazoo.</subject>
       </controlaccess>
       <controlaccess>

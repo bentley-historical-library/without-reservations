@@ -36,7 +36,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal. Includes new accessions and replaces earlier version of finding aid.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -47,7 +48,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Singer, J. David (Joel David), 1925-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28812">Singer, J. David (Joel David), 1925-</persname>
       </origination>
       <unittitle encodinganalog="245">J. David Singer papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1947/2009">1947-2009</unitdate>
@@ -112,18 +113,18 @@ J. David Singer papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Citizens Exchange Corps.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9901">Citizens Exchange Corps.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6976">Conflict management.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6112">Disarmament.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6344">International law.</subject>
         <subject source="lcsh" encodinganalog="630" ref="/subjects/9782">Journal of conflict resolution.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79076600">Singer, J. David (Joel David), 1925-2009</persname>
-        <corpname source="lcnaf" encodinganalog="610">United World Federalists (U.S.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n84205456">University of Michigan. Center for Research on Conflict Resolution.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Political Science.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs--1961-1970.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs--1971-1980.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79076600" ref="/agents/people/30302">Singer, J. David (Joel David), 1925-2009</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11495">United World Federalists (U.S.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n84205456" ref="/agents/corporate_entities/10089">University of Michigan. Center for Research on Conflict Resolution.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11214">University of Michigan. Dept. of Political Science.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Students--Social life and customs--1961-1970.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Students--Social life and customs--1971-1980.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

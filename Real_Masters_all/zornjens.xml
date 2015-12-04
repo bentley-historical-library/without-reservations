@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Zorn, Jens C., 1931-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/31306">Zorn, Jens C., 1931-</persname>
       </origination>
       <unittitle encodinganalog="245">Jens C. Zorn papers <unitdate type="inclusive" encodinganalog="245$f" normal="1956/1995">1956-1995</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">0389 Aa 2</unitid>
@@ -81,10 +82,10 @@ Jens C. Zorn papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">International Conference on Atomic Physics.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Physics.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n92032172">Zorn, Jens C.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11236">International Conference on Atomic Physics.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9869">University of Michigan. Dept. of Physics.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n92032172" ref="/agents/people/34143">Zorn, Jens C.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Conference of Deans.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/9809">University of Michigan. Conference of Deans.</corpname>
       </origination>
       <unittitle encodinganalog="245">Conference of Deans (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1920/1968">1920-1968</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">87126 Bimu B31e 2</unitid>
@@ -78,8 +79,8 @@ Conference of Deans (University of Michigan) Records, Bentley Historical Library
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname encodinganalog="610" source="lcnaf">University of Michigan--Administration.</corpname>
-        <corpname encodinganalog="610" source="lcnaf">University of Michigan. Conference of Deans.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/9632">University of Michigan--Administration.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/9809">University of Michigan. Conference of Deans.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

@@ -27,7 +27,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Hoffius family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/372">Hoffius family.</famname>
       </origination>
       <unittitle encodinganalog="245">Hoffius Family Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1919/2003">1919-2003</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">04130 Aa 2; UAm</unitid>
@@ -89,18 +90,18 @@ Hoffius Family Papers
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <famname source="lcnaf" encodinganalog="600">Hoffius family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/372">Hoffius family.</famname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1920">Grand Rapids (Mich.)--Politics and government.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2041">Kent County (Mich.)--Politics and government.</geogname>
-        <persname source="lcnaf" encodinganalog="600">Hoffius, Cornelius, 1881-1943.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34138">Hoffius, Cornelius, 1881-1943.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8283">Lawyers--Michigan--Grand Rapids.</subject>
-        <persname source="lcnaf" encodinganalog="600">Hoffius, Stuart, 1914-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33693">Hoffius, Stuart, 1914-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8284">Judges--Michigan--Kent County.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Hoffius, Cornelius, 1881-1943.</persname>
-        <persname source="lcnaf" encodinganalog="700">Hoffius, Stuart, 1914-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34138">Hoffius, Cornelius, 1881-1943.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33693">Hoffius, Stuart, 1914-</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Ginsberg, Edward, 1917-1997.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/34997">Ginsberg, Edward, 1917-1997.</persname>
       </origination>
       <unittitle encodinganalog="245">Edward Ginsberg papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1950/1997">1950-1997</unitdate>
@@ -92,23 +93,23 @@ Edward Ginsberg papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50007677">Ben-Gurion, David, 1886-1973.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79099011">Dayan, Moshe, 1915-1981.</persname>
-        <persname source="lcnaf" encodinganalog="600">Ginsberg, Edward, 1917-1997.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50013594">Meir, Golda, 1898-1978.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50007677" ref="/agents/people/31462">Ben-Gurion, David, 1886-1973.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79099011" ref="/agents/people/34136">Dayan, Moshe, 1915-1981.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34997">Ginsberg, Edward, 1917-1997.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50013594" ref="/agents/people/35829">Meir, Golda, 1898-1978.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7985">Jews--Israel.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7986">Jews, American--Travel--Israel.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50079799">American Jewish Joint Distribution Committee.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United Jewish Appeal.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50079799" ref="/agents/corporate_entities/11320">American Jewish Joint Distribution Committee.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11603">United Jewish Appeal.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/970">Israel.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80014371">Allon, Yigal 1918-1980.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50007677">Ben-Gurion, David, 1886-1973.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79099011">Dayan, Moshe, 1915-1981.</persname>
-        <persname source="lcnaf" encodinganalog="600">Ginsberg, Edward, 1917-1997.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50013594">Meir, Golda, 1898-1978.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80014371" ref="/agents/people/28043">Allon, Yigal 1918-1980.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50007677" ref="/agents/people/31462">Ben-Gurion, David, 1886-1973.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79099011" ref="/agents/people/34136">Dayan, Moshe, 1915-1981.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34997">Ginsberg, Edward, 1917-1997.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50013594" ref="/agents/people/35829">Meir, Golda, 1898-1978.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7985">Jews--Israel.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4398">Travel--Ethiopia.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4399">Travel--Iran.</subject>
@@ -116,8 +117,8 @@ Edward Ginsberg papers, Bentley Historical Library, University of Michigan</p>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4401">Travel--Morocco.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4402">Zionism.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/970">Israel.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50079799">American Jewish Joint Distribution Committee.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United Jewish Appeal.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50079799" ref="/agents/corporate_entities/11320">American Jewish Joint Distribution Committee.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11603">United Jewish Appeal.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

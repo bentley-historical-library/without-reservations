@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Bethlehem United Church of Christ (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/14564">Bethlehem United Church of Christ (Ann Arbor, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">Bethlehem United Church of Christ (Ann Arbor, Mich.) Records <unitdate type="inclusive" encodinganalog="245$f" normal="1833/1980">1833-1980</unitdate></unittitle>
       <abstract>Formerly the Bethlehem Evangelical Church. Minutes of annual congregational meetings, church council and board of trustees meetings, and treasurer's reports; records of the Frauen Vereines, or Ladies Aid Society, and Verein, or the Bethlehem Brotherhood, and the Jugend Vereins, or Youth Fellowship; fundraising materials, miscellaneous printed programs and newsletters, correspondence and clippings; treasurer's book, 1909-1916; and photographs.</abstract>
@@ -91,13 +92,13 @@
       <controlaccess>
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html" ref="/subjects/860">Ann Arbor (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Bethlehem Evangelical Church (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Evangelical and Reformed Church--Michigan--Ann Arbor.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14274">Bethlehem Evangelical Church (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12628">Evangelical and Reformed Church--Michigan--Ann Arbor.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5827">German Americans--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">United Church of Christ--Michigan--Ann Arbor.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10114">United Church of Christ--Michigan--Ann Arbor.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5672">Women--Michigan--Ann Arbor--Societies and clubs.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6300">Youth--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Bethlehem United Church of Christ (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14564">Bethlehem United Church of Christ (Ann Arbor, Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6301">Women--Religious life--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6302">Youth--Religious life--Michigan--Ann Arbor.</subject>
       </controlaccess>
@@ -107,10 +108,10 @@
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/211">Ann Arbor (Mich.)--Churches.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3622">Children.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3591">Churches--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Evangelical and Reformed Church--Michigan--Ann Arbor.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12628">Evangelical and Reformed Church--Michigan--Ann Arbor.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6303">German Americans--Michigan--Ann Arbor.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3892">Religion.</subject>
-        <corpname source="lcnaf" encodinganalog="610">United Church of Christ--Michigan--Ann Arbor.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10114">United Church of Christ--Michigan--Ann Arbor.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

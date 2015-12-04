@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Hathaway, Will.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/34215">Hathaway, Will.</persname>
       </origination>
       <unittitle encodinganalog="245">Will Hathaway papers <unitdate type="inclusive" encodinganalog="245$f" normal="1980/2000">1980-2000</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">0758 Aa 2</unitid>
@@ -81,13 +82,13 @@ Will Hathaway papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Hathaway, Will.</persname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Political activity.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Guild House (Ann Arbor, Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34215">Hathaway, Will.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Students--Political activity.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14339">Guild House (Ann Arbor, Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8134">Peace movements--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8135">Nuclear disarmament--Citizen participation.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8136">MX (Weapons system)</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82139467">Pursell, Carl D.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82139467" ref="/agents/people/30847">Pursell, Carl D.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

@@ -43,7 +43,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -54,7 +55,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Hartford Memorial Baptist Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/9083">Hartford Memorial Baptist Church (Detroit, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">Hartford Memorial Baptist Church, Detroit, Mich. Records <unitdate type="inclusive" encodinganalog="245$f" normal="1922/2011">1922-2011</unitdate></unittitle>
       <abstract>Detroit, Michigan, African American church. Files concern church governance and policies; church committees and other organizations; and church events, celebrations, and services; also include publications and topical files with information on pastors Charles Hill and Charles Adams.</abstract>
@@ -98,12 +99,12 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Hartford Memorial Baptist Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9083">Hartford Memorial Baptist Church (Detroit, Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6290">African American churches--Michigan--Detroit.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5910">African Americans--Michigan--Detroit.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7858">Baptists, Black--Michigan--Detroit.</subject>
-        <persname source="lcnaf" encodinganalog="600">Hill, Charles A. (Charles Andrew), 1893-1970.</persname>
-        <persname source="lcnaf" encodinganalog="600">Adams, Charles G. (Charles Gilchrist), 1936-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28826">Hill, Charles A. (Charles Andrew), 1893-1970.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35807">Adams, Charles G. (Charles Gilchrist), 1936-</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

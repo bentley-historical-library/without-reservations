@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n79144658">Frankena, William K.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n79144658" ref="/agents/people/32257">Frankena, William K.</persname>
       </origination>
       <unittitle encodinganalog="245">William K. Frankena papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1927/1991">1927-1991</unitdate>
@@ -85,13 +86,13 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79144658">Frankena, William K.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79144658" ref="/agents/people/32257">Frankena, William K.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7853">Ethical problems.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6436">Ethics.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7854">Ethicists.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7855">Education--Philosophy.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Philosophy.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10259">University of Michigan. Dept. of Philosophy.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Summer Session.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/11137">University of Michigan. Summer Session.</corpname>
       </origination>
       <unittitle encodinganalog="245">Summer Session (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1902/1965">1902-1965</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">8732 Bimu C361 2</unitid>
@@ -85,8 +86,8 @@ Summer Session (University of Michigan) records, Bentley Historical Library, Uni
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1609">Camp Davis (University of Michigan)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1471">Camp Filibert Roth (University of Michigan)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Fresh Air Camp (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80149747">University of Michigan. Biological Station.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13760">Fresh Air Camp (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80149747" ref="/agents/corporate_entities/9977">University of Michigan. Biological Station.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

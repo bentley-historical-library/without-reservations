@@ -39,7 +39,8 @@
         <item>original encoding from Word 6.0 file</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -50,7 +51,7 @@
   <archdesc level="recordgrp" type="inventory" audience="external" relatedencoding="MARC21">
     <did>
       <origination encodinganalog="110">
-        <corpname source="lcnaf">Michigan Initiative for Women's Health.</corpname>
+        <corpname source="lcnaf" ref="/agents/corporate_entities/9850">Michigan Initiative for Women's Health.</corpname>
       </origination>
       <unittitle encodinganalog="245">Michigan Initiative for Women's Health records <unitdate encodinganalog="245$f" type="inclusive" normal="1993/1997">1993-1997</unitdate></unittitle>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">9818 Bimu 2</unitid>
@@ -90,10 +91,10 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Initiative for Women's Health.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9850">Michigan Initiative for Women's Health.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9214">Women--Health and hygiene.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Research.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Research grants.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Research.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Research grants.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

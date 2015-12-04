@@ -43,7 +43,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -54,7 +55,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan--Law School.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/9632">University of Michigan--Law School.</corpname>
       </origination>
       <unittitle encodinganalog="245">[Law School (University of Michigan) publications] <unitdate type="inclusive" encodinganalog="245$f" normal="1859/2011">1859-2011</unitdate></unittitle>
       <abstract>Includes addresses and lectures, annual reports, bibliographies, brochures and pamphlets, bulletins and college catalogs, and directories. Also includes histories such as <title render="italic">The Law School, 1940-1973</title>; <title render="italic">Legal Education at Michigan</title>, 1859-1959; and <title render="italic">A Short History and Some of the Graduate of the Department</title>. Also contains journals such as the <title render="italic">Michigan Journal of International Law</title></abstract>
@@ -105,12 +106,12 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Law School.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Law.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Barristers Society (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Law Quadrangle (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Dept. of Law.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">Barristers Society (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Law School.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10881">University of Michigan. Dept. of Law.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12676">Barristers Society (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11761">Law Quadrangle (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/10881">University of Michigan. Dept. of Law.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/12676">Barristers Society (University of Michigan)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Publications</head>

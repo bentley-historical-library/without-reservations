@@ -27,7 +27,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Plant Extension Services.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/12747">University of Michigan. Plant Extension Services.</corpname>
       </origination>
       <unittitle encodinganalog="245">Plant Extension Services (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1907/1996">1907-1996</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">87327 Bimu B27 2</unitid>
@@ -86,14 +87,14 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Administration.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Buildings.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Campus.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2004021043">University of Michigan. Detroit Observatory.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Plant Extension Services.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Natural Science Building (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Administration.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Buildings.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Campus.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2004021043" ref="/agents/corporate_entities/13394">University of Michigan. Detroit Observatory.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12747">University of Michigan. Plant Extension Services.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9830">Natural Science Building (University of Michigan)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/968">North Campus (University of Michigan)</geogname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50016251">Saarinen, Eero, 1910-1961.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50016251" ref="/agents/people/32825">Saarinen, Eero, 1910-1961.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

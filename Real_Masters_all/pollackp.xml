@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Pollack, Peter, 1939-2010.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/35129">Pollack, Peter, 1939-2010.</persname>
       </origination>
       <unittitle encodinganalog="245">Peter Pollack papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1965/2009">1965-2009</unitdate>
@@ -95,14 +96,14 @@ Peter Pollack papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Pollack, Peter, 1939-2010.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88670977">Ann Arbor Downtown Development Authority.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n99036933">Ann Arbor Farmer's Market (Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n86112085">Herman Miller, Inc.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79055859">Pfizer Inc.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n90657280">Pollack Design Associates.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81003782">University of Michigan. School of Natural Resources.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35129">Pollack, Peter, 1939-2010.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88670977" ref="/agents/corporate_entities/14636">Ann Arbor Downtown Development Authority.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n99036933" ref="/agents/corporate_entities/13396">Ann Arbor Farmer's Market (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n86112085" ref="/agents/corporate_entities/13891">Herman Miller, Inc.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79055859" ref="/agents/corporate_entities/10172">Pfizer Inc.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n90657280" ref="/agents/corporate_entities/12246">Pollack Design Associates.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81003782" ref="/agents/corporate_entities/10319">University of Michigan. School of Natural Resources.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6403">Landscape architecture--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9775">Landscape design--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9776">Rail-trails--Michigan.</subject>

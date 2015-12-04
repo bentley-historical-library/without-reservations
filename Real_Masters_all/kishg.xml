@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Kish, George, 1914-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30746">Kish, George, 1914-</persname>
       </origination>
       <unittitle encodinganalog="245">George Kish papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1932/1989">1932-1989</unitdate>
@@ -90,21 +91,21 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">American Geographical Union.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79006582">Association of American Geographers.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14316">American Geographical Union.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79006582" ref="/agents/corporate_entities/10444">Association of American Geographers.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7930">Geography.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79092483">International Geographical Union.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79045185">Kish, George, 1914-1989</persname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Geography.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79092483" ref="/agents/corporate_entities/9470">International Geographical Union.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79045185" ref="/agents/people/28352">Kish, George, 1914-1989</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12411">University of Michigan. Dept. of Geography.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4628">Geography.</subject>
-        <corpname source="lcnaf" encodinganalog="611">Henry Russel Award (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="611" ref="/agents/corporate_entities/10401">Henry Russel Award (University of Michigan)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1003">Italy.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4629">Map making--History.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

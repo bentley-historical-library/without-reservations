@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Birkerts, Gunnar.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/34586">Birkerts, Gunnar.</persname>
       </origination>
       <unittitle encodinganalog="245">Gunnar Birkerts papers <unitdate type="inclusive" encodinganalog="245$f" normal="1930/2002">1930-2002</unitdate></unittitle>
       <abstract>Michigan-based architect, founder of Gunnar Birkerts and Associates, professor in the University of Michigan College of Architecture and Urban Planning. The collection is comprised of four series: Personal papers, Professional papers, Faculty papers, and Project files. Personal papers includes biographical information, family photographs, early architectural drawings, and course notebooks and project drawings completed while a student at the Technische Hochschule Stuttgart. Professional papers includes transcripts and notes of speeches, lectures and seminars (many of these are also available on audiotapes; some are available on videocassettes). Also included are correspondence, awards, travel diaries with conceptual drawings, newspaper and journal articles and photographs. Faculty papers include course and other materials relating to his career as professor at the University of Michigan College of Architecture and Urban Planning. Project files contains textual files, photographs, and conceptual drawings associated with 122 of the buildings and projects designed by Birkerts. Scanned images of some conceptual drawings are available on-line.</abstract>
@@ -106,15 +107,15 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Birkerts, Gunnar.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34586">Birkerts, Gunnar.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5759">Architects--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Gunnar Birkerts &amp; Associates.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12269">Gunnar Birkerts &amp; Associates.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6335">Architecture--Design and plans.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6336">Architecture--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6337">Architecture, Modern--20th century.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6338">Architectural design.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82166292">University of Michigan. College of Architecture and Urban Planning.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82166292" ref="/agents/corporate_entities/10526">University of Michigan. College of Architecture and Urban Planning.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

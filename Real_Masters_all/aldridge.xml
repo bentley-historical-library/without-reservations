@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Aldridge, John W.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30724">Aldridge, John W.</persname>
       </origination>
       <unittitle encodinganalog="245">John W. Aldridge papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1943/2007">1943-2007</unitdate>
@@ -102,9 +103,9 @@ John W. Aldridge papers, Bentley Historical Library, University of Michigan</p>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5792">American literature--20th century--History and criticism.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5793">Criticism--United States.</subject>
-        <corpname encodinganalog="610" source="lcnaf">University of Michigan. Dept. of English Language and Literature.</corpname>
-        <corpname encodinganalog="610" source="lcnaf">University of Michigan. Avery Hopwood and Jule Hopwood Prizes.</corpname>
-        <corpname encodinganalog="610" source="lcnaf">University of Michigan--Faculty.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/9650">University of Michigan. Dept. of English Language and Literature.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/9782">University of Michigan. Avery Hopwood and Jule Hopwood Prizes.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
@@ -112,26 +113,26 @@ John W. Aldridge papers, Bentley Historical Library, University of Michigan</p>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5793">Criticism--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5794">Authors, American--20th century.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5681">World War, 1939-1945.</subject>
-        <corpname encodinganalog="610" source="lcnaf">University of Michigan--Faculty.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Sound Recordings:</head>
-        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79084818">Mailer, Norman.</persname>
-        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79022959">Styron, William, 1925-2006.</persname>
+        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79084818" ref="/agents/people/34886">Mailer, Norman.</persname>
+        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79022959" ref="/agents/people/33437">Styron, William, 1925-2006.</persname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n80013420">Blackmur, R.P. (Richard P.), 1904-1965.</persname>
-        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79065205">Buckley, William F. (William Frank), Jr., 1925-2008.</persname>
-        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79081720">Cowley, Malcolm, 1898-1989.</persname>
-        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n50010027">Ellison, Ralph.</persname>
-        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n81043116">Gaddis, William, 1922-1998.</persname>
-        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79100545">Heller, Joseph.</persname>
-        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79084818">Mailer, Norman.</persname>
-        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79045521">Miller, Arthur, 1915-2005.</persname>
-        <persname encodinganalog="700" source="lcnaf">Nin, Anaís, 1903-1977.</persname>
-        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79063109">Morris, Wright, 1910-1998.</persname>
-        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79022959">Styron, William, 1925-2006.</persname>
+        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n80013420" ref="/agents/people/31961">Blackmur, R.P. (Richard P.), 1904-1965.</persname>
+        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79065205" ref="/agents/people/33594">Buckley, William F. (William Frank), Jr., 1925-2008.</persname>
+        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79081720" ref="/agents/people/28797">Cowley, Malcolm, 1898-1989.</persname>
+        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n50010027" ref="/agents/people/30314">Ellison, Ralph.</persname>
+        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n81043116" ref="/agents/people/29490">Gaddis, William, 1922-1998.</persname>
+        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79100545" ref="/agents/people/30655">Heller, Joseph.</persname>
+        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79084818" ref="/agents/people/34886">Mailer, Norman.</persname>
+        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79045521" ref="/agents/people/35194">Miller, Arthur, 1915-2005.</persname>
+        <persname encodinganalog="700" source="lcnaf" ref="/agents/people/35957">Nin, Anaís, 1903-1977.</persname>
+        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79063109" ref="/agents/people/36063">Morris, Wright, 1910-1998.</persname>
+        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79022959" ref="/agents/people/33437">Styron, William, 1925-2006.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

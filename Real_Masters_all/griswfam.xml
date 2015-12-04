@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Griswold family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/91">Griswold family.</famname>
       </origination>
       <unittitle encodinganalog="245">Griswold family papers [microform] <unitdate type="inclusive" encodinganalog="245$f" normal="1837/1915">1837-1915</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851377 Aa 2</unitid>
@@ -86,24 +87,24 @@ Griswold family papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <famname source="lcnaf" encodinganalog="600">Griswold family.</famname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2009095185">Military Order of the Loyal Legion of the United States. Michigan Commandery.</corpname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/91">Griswold family.</famname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2009095185" ref="/agents/corporate_entities/12168">Military Order of the Loyal Legion of the United States. Michigan Commandery.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8069">Musicians--Michigan--Vermontville.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2006066700">United States. Army. Michigan Cavalry Regiment, 2nd (1861-1865)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2004083973">United States. Army. Michigan Infantry Regiment, 4th (1864-1866)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2006066700" ref="/agents/corporate_entities/10350">United States. Army. Michigan Cavalry Regiment, 2nd (1861-1865)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2004083973" ref="/agents/corporate_entities/12456">United States. Army. Michigan Infantry Regiment, 4th (1864-1866)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/909">United States--History--Civil War, 1861-1865.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1247">Vermontville (Mich.)</geogname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname source="lcnaf" encodinganalog="610">Grand Army of the Republic--Michigan.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Griswold, Joseph Bascom, 1842-1915.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11448">Grand Army of the Republic--Michigan.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35202">Griswold, Joseph Bascom, 1842-1915.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3769">Veterans--Michigan.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Griswold, Joseph Bascom, 1842-1915.</persname>
-        <persname source="lcnaf" encodinganalog="700">Griswold, Roger W., 1812-1886.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35202">Griswold, Joseph Bascom, 1842-1915.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31127">Griswold, Roger W., 1812-1886.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

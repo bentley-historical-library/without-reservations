@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Applegate, Albert A.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30180">Applegate, Albert A.</persname>
       </origination>
       <unittitle encodinganalog="245">Albert A. Applegate papers <unitdate type="inclusive" encodinganalog="245$f" normal="1963/1973">1963-1973</unitdate></unittitle>
       <abstract>Administrative assistant to George Romney, governor of Michigan and U. S. Secretary of Housing and Urban Development. papers include correspondence, personnel reports, memoranda, and background files concerning Applegate's work as Romney's aide and speech writer.</abstract>
@@ -82,9 +83,9 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Applegate, Albert A.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50048290">Romney, George W., 1907-1995.</persname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Dept. of Housing and Urban Development.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30180">Applegate, Albert A.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50048290" ref="/agents/people/31627">Romney, George W., 1907-1995.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13927">United States. Dept. of Housing and Urban Development.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5928">Voluntarism.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5929">Governors--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/912">United States--Politics and government--1969-1974.</geogname>

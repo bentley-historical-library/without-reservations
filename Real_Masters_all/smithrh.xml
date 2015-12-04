@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Smith, Roberta Holland.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/29783">Smith, Roberta Holland.</persname>
       </origination>
       <unittitle encodinganalog="245">Roberta Holland Smith papers <unitdate type="inclusive" encodinganalog="245$f" normal="1900/2000" certainty="approximate">circa 1900-2000</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2010084 Aa 2; UAm</unitid>
@@ -81,14 +82,14 @@ Roberta Holland Smith papers, Bentley Historical Library, University of Michigan
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor High School (Mich.). Class of 1939.</corpname>
-        <famname source="lcnaf" encodinganalog="600">Holland family.</famname>
-        <famname source="lcnaf" encodinganalog="600">Kingsbury family.</famname>
-        <persname source="lcnaf" encodinganalog="600">Smith, Roberta Holland.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12550">Ann Arbor High School (Mich.). Class of 1939.</corpname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/397">Holland family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/60">Kingsbury family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29783">Smith, Roberta Holland.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor High School (Mich.). Washington Club.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10810">Ann Arbor High School (Mich.). Washington Club.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

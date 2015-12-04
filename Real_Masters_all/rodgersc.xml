@@ -31,7 +31,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Rodgers, Curtis E.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28524">Rodgers, Curtis E.</persname>
       </origination>
       <unittitle encodinganalog="245">Curtis E. Rodgers papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1953">1953</unitdate>
@@ -87,8 +88,8 @@ Curtis E. Rodgers Papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Rodgers, Curtis E.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n90622974">Detroit (Mich.). Commission on Community Relations.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28524">Rodgers, Curtis E.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n90622974" ref="/agents/corporate_entities/10955">Detroit (Mich.). Commission on Community Relations.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9900">Discrimination in employment--Michigan--Detroit.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9901">Discrimination in housing--Michigan--Detroit.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5910">African Americans--Michigan--Detroit.</subject>

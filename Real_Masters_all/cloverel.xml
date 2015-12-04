@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Clover, Elzada Urseba, 1897-1980.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32751">Clover, Elzada Urseba, 1897-1980.</persname>
       </origination>
       <unittitle encodinganalog="245">Elzada U. Clover papers <unitdate type="inclusive" encodinganalog="245$f" normal="1938/1944">1938-1944</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85109 Aa 2; UAl</unitid>
@@ -98,12 +99,12 @@ Elzada U. Clover papers, Bentley Historical Library, University of Michigan</p>
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6128">Botany.</subject>
-        <persname source="lcnaf" encodinganalog="600">Clover, Elzada Urseba, 1897-1980.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32751">Clover, Elzada Urseba, 1897-1980.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1604">Colorado River (Colo.-Mexico)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Botany.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Matthaei Botanical Gardens.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88005200">Nevills, Norman D., 1908-1949.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9733">University of Michigan. Dept. of Botany.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11458">University of Michigan. Matthaei Botanical Gardens.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88005200" ref="/agents/people/33516">Nevills, Norman D., 1908-1949.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6860">Scientific expeditions--Colorado River (Colo.-Mexico)</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6861">Botanists--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6862">Women botanists--Michigan--Ann Arbor.</subject>
@@ -114,12 +115,12 @@ Elzada U. Clover papers, Bentley Historical Library, University of Michigan</p>
         <head>Subjects - Visual Materials:</head>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1605">Arizona.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3809">Botany.</subject>
-        <persname source="lcnaf" encodinganalog="600">Clover, Elzada Urseba, 1897-1980.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32751">Clover, Elzada Urseba, 1897-1980.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1604">Colorado River (Colo.-Mexico)</geogname>
         <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3464">Drawings.</genreform>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3862">Expeditions and surveys.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6747">Indians of North America.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88005200">Nevills, Norman D., 1908-1949.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88005200" ref="/agents/people/33516">Nevills, Norman D., 1908-1949.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1606">Utah.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3619">Women.</subject>
       </controlaccess>

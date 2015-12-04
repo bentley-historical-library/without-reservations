@@ -31,7 +31,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Blume, William Wirt, 1893-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28213">Blume, William Wirt, 1893-</persname>
       </origination>
       <unittitle encodinganalog="245">William W. Blume papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1811/1825">1811-1825</unitdate>
@@ -92,16 +93,16 @@ William W. Blume Papers, Bentley Historical Library, University of Michigan</p>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6378">Court records.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6379">Courts--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/948">Japan.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81074669">Michigan. Supreme Court.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Law School.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Regulations.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Discipline.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81074669" ref="/agents/corporate_entities/10286">Michigan. Supreme Court.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Law School.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Regulations.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Students--Discipline.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Judicial Council.</corpname>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n98002706">Michigan. Probate Court (Wayne County)</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/10075">University of Michigan. Judicial Council.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n98002706" ref="/agents/corporate_entities/11587">Michigan. Probate Court (Wayne County)</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

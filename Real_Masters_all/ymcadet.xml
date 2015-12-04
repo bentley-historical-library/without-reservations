@@ -40,7 +40,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -51,7 +52,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">YMCA of Metropolitan Detroit. Metropolitan Offices.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/9226">YMCA of Metropolitan Detroit. Metropolitan Offices.</corpname>
       </origination>
       <unittitle encodinganalog="245">YMCA of Metropolitan Detroit, Metropolitan Offices records <unitdate type="inclusive" encodinganalog="245$f" normal="1877/2012">1877-2012</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">90124 Bk 2</unitid>
@@ -107,8 +108,8 @@
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539.html" ref="/subjects/933">Detroit (Mich.)</geogname>
         <title source="aacr2" ref="/subjects/197">Detroit young men</title>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10829">Physical fitness.</subject>
-        <corpname source="lcnaf" encodinganalog="610">YMCA of Metropolitan Detroit.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">YMCA of Metropolitan Detroit. Metropolitan Offices.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10556">YMCA of Metropolitan Detroit.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9226">YMCA of Metropolitan Detroit. Metropolitan Offices.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6554">Young Men's Christian Associations.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10830">Youth--Religious life.</subject>
       </controlaccess>

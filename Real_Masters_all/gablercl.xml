@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Gabler, Cornelius L. T., 1902-1988.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33449">Gabler, Cornelius L. T., 1902-1988.</persname>
       </origination>
       <unittitle encodinganalog="245">Cornelius L. T. Gabler papers <unitdate type="inclusive" encodinganalog="245$f" normal="1939/1988">1939-1988</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">921112 Aa 2</unitid>
@@ -85,8 +86,8 @@ Cornelius L. T. Gabler papers, Bentley Historical Library, University of Michiga
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6266">Architects.</subject>
-        <persname source="lcnaf" encodinganalog="600">Gabler, Cornelius L. T., 1902-1988.</persname>
-        <corpname encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80090279" source="lcnaf">United States Strategic Bombing Survey.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33449">Gabler, Cornelius L. T., 1902-1988.</persname>
+        <corpname encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80090279" source="lcnaf" ref="/agents/corporate_entities/12025">United States Strategic Bombing Survey.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5681">World War, 1939-1945.</subject>
       </controlaccess>
       <controlaccess>
@@ -97,12 +98,12 @@ Cornelius L. T. Gabler papers, Bentley Historical Library, University of Michiga
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1259">Hawaii.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1892">Jaluit Atoll (Marshall Islands)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1893">Majuro Atoll (Marshall Islands)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n84055147">Michigan Memorial Phoenix Project.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n84055147" ref="/agents/corporate_entities/14244">Michigan Memorial Phoenix Project.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1894">New Britain Island (Papua New Guinea)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4361">Nuclear reactors.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Phoenix Memorial Laboratory.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13652">Phoenix Memorial Laboratory.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4362">Recruiting and enlistment.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n78095328">United States. Marine Corps.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n78095328" ref="/agents/corporate_entities/14665">United States. Marine Corps.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1895">Wake Island.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4219">War casualties.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4363">War damage--Oceania.</subject>

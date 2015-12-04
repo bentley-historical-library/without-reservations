@@ -27,7 +27,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/nr92044565">Parkinson, William Charles, 1918-</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/nr92044565" ref="/agents/people/35030">Parkinson, William Charles, 1918-</persname>
       </origination>
       <unittitle encodinganalog="245">William Charles Parkinson Papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1950/1997">1950-1997</unitdate>
@@ -94,11 +95,11 @@ William Charles Parkinson Papers, Bentley Historical Library, University of Mich
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9670">Automatic timers.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9671">Cyclotrons.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7031">Nuclear physics.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr92044565">Parkinson, William Charles, 1918-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr92044565" ref="/agents/people/35030">Parkinson, William Charles, 1918-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6878">Physics.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9672">Swimming.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Physics.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9869">University of Michigan. Dept. of Physics.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>

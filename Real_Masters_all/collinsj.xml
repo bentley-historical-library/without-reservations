@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Collins, John J. (John Joseph), 1935-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32668">Collins, John J. (John Joseph), 1935-</persname>
       </origination>
       <unittitle encodinganalog="245">John J. Collins Papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1953/1962">1953-1962</unitdate>
@@ -80,13 +81,13 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Collins, John J. (John Joseph), 1935-</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731">Democratic Party (Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n94090783">Democratic Party (Mich.). State Central Committee.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32668">Collins, John J. (John Joseph), 1935-</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731" ref="/agents/corporate_entities/12900">Democratic Party (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n94090783" ref="/agents/corporate_entities/11332">Democratic Party (Mich.). State Central Committee.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6892">Elections--Michigan--1962.</subject>
         <geogname source="local" encodinganalog="691" ref="/subjects/810">Michigan--Politics and government--1961-1970.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/910">Michigan--Politics and government--1951-</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n2003087794">Swainson, John B. (John Burley), 1925-1994.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n2003087794" ref="/agents/people/32738">Swainson, John B. (John Burley), 1925-1994.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

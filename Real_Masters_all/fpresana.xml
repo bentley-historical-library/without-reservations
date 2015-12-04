@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">First Presbyterian Church (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/10889">First Presbyterian Church (Ann Arbor, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">First Presbyterian Church (Ann Arbor, Mich.) records <unitdate type="inclusive" encodinganalog="245$f" normal="1872/1972">1872-1972</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">86799 Ba 2; UBAm; Ba Microcopy</unitid>
@@ -86,9 +87,9 @@ First Presbyterian Church (Ann Arbor, Mich.) records, Bentley Historical Library
       <controlaccess>
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html" ref="/subjects/860">Ann Arbor (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">United Presbyterian Church in the U.S.A.--Michigan--Ann Arbor.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Presbyterian Corporation of the University of Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Religion.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10109">United Presbyterian Church in the U.S.A.--Michigan--Ann Arbor.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13129">Presbyterian Corporation of the University of Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Religion.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5672">Women--Michigan--Ann Arbor--Societies and clubs.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6300">Youth--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6301">Women--Religious life--Michigan--Ann Arbor.</subject>
@@ -98,7 +99,7 @@ First Presbyterian Church (Ann Arbor, Mich.) records, Bentley Historical Library
         <head>Subjects - Visual Materials:</head>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/211">Ann Arbor (Mich.)--Churches.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3591">Churches--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">First Presbyterian Church (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10889">First Presbyterian Church (Ann Arbor, Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4337">Presbyterian churches--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>

@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Michigan Women’s Athletic Association</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/10332">University of Michigan. Michigan Women’s Athletic Association</corpname>
       </origination>
       <unittitle encodinganalog="245">M Women publications <unitdate type="inclusive" encodinganalog="245$f" normal="1980/2006">1980-2006</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">97118 Bimu 2</unitid>
@@ -83,7 +84,7 @@ M Women publications, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Women's Athletic Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13677">University of Michigan. Women's Athletic Association.</corpname>
         <title source="aacr2" encodinganalog="740" ref="/subjects/95">M women.</title>
         <title source="aacr2" encodinganalog="740" ref="/subjects/96">M women newsletter.</title>
         <title source="aacr2" encodinganalog="740" ref="/subjects/97">University of Michigan women's athletic association newsletter.</title>

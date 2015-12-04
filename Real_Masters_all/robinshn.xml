@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Robinson, Hubert Nelson, 1909-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30058">Robinson, Hubert Nelson, 1909-</persname>
       </origination>
       <unittitle encodinganalog="245">Hubert N. Robinson Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1948/1984">1948-1984</unitdate></unittitle>
       <abstract>Bishop of the African Methodist Episcopal Church. Scattered correspondence, and clippings detailing his career, church programs and printed material; also photographs.</abstract>
@@ -87,19 +88,19 @@
     <controlaccess>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80060458">African Methodist Episcopal Church.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80060458" ref="/agents/corporate_entities/8944">African Methodist Episcopal Church.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5756">African Americans--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6369">Clergy--United States.</subject>
-        <persname source="lcnaf">Robinson, Hubert Nelson, 1909-</persname>
+        <persname source="lcnaf" ref="/agents/people/30058">Robinson, Hubert Nelson, 1909-</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80060458">African Methodist Episcopal Church.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80060458" ref="/agents/corporate_entities/8944">African Methodist Episcopal Church.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9897">African Americans--Spiritual life.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3741">Clergymen.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3767">Graduation ceremonies.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4260">Religious services.</subject>
-        <persname source="lcnaf">Robinson, Hubert Nelson, 1909-</persname>
+        <persname source="lcnaf" ref="/agents/people/30058">Robinson, Hubert Nelson, 1909-</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2760">South Africa.</geogname>
       </controlaccess>
       <controlaccess>

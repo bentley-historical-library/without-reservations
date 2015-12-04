@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Frost, Wallace, 1892-1962.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/29041">Frost, Wallace, 1892-1962.</persname>
       </origination>
       <unittitle encodinganalog="245">Wallace Frost papers <unitdate type="inclusive" encodinganalog="245$f" normal="1939/1962" certainty="approximate">circa 1939-1962</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85162 Aa 2; AA microcopy</unitid>
@@ -88,7 +89,7 @@ Wallace Frost papers, Bentley Historical Library, University of Michigan</p>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6266">Architects.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5832">Architecture.</subject>
-        <persname source="lcnaf" encodinganalog="600">Frost, Wallace, 1892-1962.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29041">Frost, Wallace, 1892-1962.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1887">Pittsfield Village (Ann Arbor, Mich.)</geogname>
       </controlaccess>
       <controlaccess>
@@ -102,7 +103,7 @@ Wallace Frost papers, Bentley Historical Library, University of Michigan</p>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4029">Buildings--Michigan--Detroit.</subject>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/239">Detroit (Mich.)--Buildings.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3689">Interiors.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Pittsfield School (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9154">Pittsfield School (Ann Arbor, Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1887">Pittsfield Village (Ann Arbor, Mich.)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3603">Schools--Michigan--Ann Arbor.</subject>
       </controlaccess>

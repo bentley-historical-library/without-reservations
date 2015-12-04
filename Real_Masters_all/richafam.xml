@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Richardson family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/369">Richardson family.</famname>
       </origination>
       <unittitle encodinganalog="245">Richardson Family Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1864/1966">1864-1966</unitdate></unittitle>
       <abstract>Owosso, Shiawassee County, Michigan, family. Correspondence and other materials relating to daily life and family activities; collection of sheet music; and photographs.</abstract>
@@ -95,7 +96,7 @@
         <geogname source="local" encodinganalog="691" ref="/subjects/815">Michigan--Social life and customs--1901-1910.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/818">Michigan--Social life and customs--1911-1920.</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85081790.html" ref="/subjects/1190">Owosso (Mich.)</geogname>
-        <famname source="lcnaf" encodinganalog="600">Richardson family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/369">Richardson family.</famname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9882">Women--Michigan--Owosso.</subject>
       </controlaccess>
       <controlaccess>
@@ -106,9 +107,9 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5209">Hospitals--Michigan--Owosso.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3664">Hunting--Michigan.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3689">Interiors.</subject>
-        <famname source="lcnaf" encodinganalog="600">Richardson family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/369">Richardson family.</famname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5210">Schools--Michigan--Owosso.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Washington School (Owosso, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14113">Washington School (Owosso, Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3619">Women.</subject>
       </controlaccess>
       <controlaccess>

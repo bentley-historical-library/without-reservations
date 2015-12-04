@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Brucker, Robert Hawn, 1888-1967.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32838">Brucker, Robert Hawn, 1888-1967.</persname>
       </origination>
       <unittitle encodinganalog="245">Robert H. Brucker papers <unitdate type="inclusive" encodinganalog="245$f" normal="1914/1967">1914-1967</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85897 Aa 2</unitid>
@@ -79,13 +80,13 @@ Robert H. Brucker papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Brucker, Robert Hawn, 1888-1967.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n94105471">Brucker, Wilber Marion, 1894-1968.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32838">Brucker, Robert Hawn, 1888-1967.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n94105471" ref="/agents/people/31431">Brucker, Wilber Marion, 1894-1968.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6203">Elections--Michigan--1930.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6524">Lawyers--Michigan--Saginaw.</subject>
         <geogname source="local" encodinganalog="691" ref="/subjects/803">Michigan--Politics and government--1929-1938.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/809">Michigan--Politics and government--1946-1960.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13160">Republican Party (Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1217">Saginaw (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5712">World War, 1914-1918.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5929">Governors--Michigan.</subject>
@@ -93,14 +94,14 @@ Robert H. Brucker papers, Bentley Historical Library, University of Michigan</p>
       </controlaccess>
       <controlaccess>
         <head>Subjects: Visual Materials</head>
-        <persname source="lcnaf" encodinganalog="600">Brucker, Ferdinand, 1858-1904.</persname>
-        <persname source="lcnaf" encodinganalog="600">Brucker, Robert Hawn, 1888-1967.</persname>
-        <persname source="lcnaf" encodinganalog="600">Brucker, Wallace H.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n94105471">Brucker, Wilber Marion, 1894-1968.</persname>
-        <famname source="lcnaf" encodinganalog="600">Brucker family.</famname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79066408">Eisenhower, Dwight D. (Dwight David), 1890-1969.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79021421">Hoover, Herbert, 1874-1964.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79054196">MacArthur, Douglas, 1880-1964.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29901">Brucker, Ferdinand, 1858-1904.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32838">Brucker, Robert Hawn, 1888-1967.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28865">Brucker, Wallace H.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n94105471" ref="/agents/people/31431">Brucker, Wilber Marion, 1894-1968.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/127">Brucker family.</famname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79066408" ref="/agents/people/30968">Eisenhower, Dwight D. (Dwight David), 1890-1969.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79021421" ref="/agents/people/31177">Hoover, Herbert, 1874-1964.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79054196" ref="/agents/people/27941">MacArthur, Douglas, 1880-1964.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3772">Military officers.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3985">Law offices--Michigan--Saginaw.</subject>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/234">Saginaw (Mich.)--Law offices.</geogname>

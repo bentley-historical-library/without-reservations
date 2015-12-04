@@ -24,7 +24,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Smyser family</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/294">Smyser family</famname>
       </origination>
       <unittitle encodinganalog="245">Smyser family papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1889/1984">1889-1984</unitdate>
@@ -92,10 +93,10 @@ Smyser family papers
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Disciples of Christ--Japan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9245">Disciples of Christ--Japan.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/948">Japan.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8482">Missionaries--Japan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Disciples of Christ--Missions--Japan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9245">Disciples of Christ--Missions--Japan.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10136">Women--Japan.</subject>
       </controlaccess>
       <controlaccess>
@@ -106,14 +107,14 @@ Smyser family papers
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4244">Missions--Japan.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4585">Missionaries--Japan.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4260">Religious services.</subject>
-        <persname source="lcnaf" encodinganalog="600">Smyser, Carme Hostetter, 1869-1945.</persname>
-        <persname source="lcnaf" encodinganalog="600">Smyser, Martin Mosser, 1875-1955.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Disciples of Christ--Missions--Japan.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32107">Smyser, Carme Hostetter, 1869-1945.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29840">Smyser, Martin Mosser, 1875-1955.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9245">Disciples of Christ--Missions--Japan.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Smyser, Carme Hostetter, 1869-1945.</persname>
-        <persname source="lcnaf" encodinganalog="700">Smyser, Martin Mosser, 1875-1955.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32107">Smyser, Carme Hostetter, 1869-1945.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29840">Smyser, Martin Mosser, 1875-1955.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

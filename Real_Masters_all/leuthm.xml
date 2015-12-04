@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" role="collector">Leutheuser, Margaret.</persname>
+        <persname source="lcnaf" encodinganalog="100" role="collector" ref="/agents/people/29709">Leutheuser, Margaret.</persname>
       </origination>
       <unittitle encodinganalog="245">Margaret Leutheuser Collected Papers [microform] <unitdate type="inclusive" encodinganalog="245$f" normal="1853/1935">1853-1935</unitdate></unittitle>
       <abstract>Papers collected by Margaret Leutheuser of Ann Arbor, Michigan, relating to ancestor families, notably the Leach, Waterman, and Armstrong families. Civil War materials of Morgan L. Leach, member of the 1st and 9th Michigan Cavalry; farm account books of Edgar and William Armstrong of Mundy Township, Genesee County, Michigan; correspondence of other family members; and scrapbooks containing newspaper accounts of settlement of Leach family in Genesee County, and account of trip of Morgan Leach to Traverse Bay, Michigan, in the 1860s.</abstract>
@@ -84,20 +85,20 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <famname source="lcnaf" encodinganalog="700">Armstrong family.</famname>
+        <famname source="lcnaf" encodinganalog="700" ref="/agents/families/160">Armstrong family.</famname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7887">Farm life--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1023">Genesee County (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2211">Grand Traverse Bay Region (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2010031326">Leach, M. L. (Morgan Lewis), 1821-</persname>
-        <famname source="lcnaf" encodinganalog="700">Leach family.</famname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2010031326" ref="/agents/people/27237">Leach, M. L. (Morgan Lewis), 1821-</persname>
+        <famname source="lcnaf" encodinganalog="700" ref="/agents/families/252">Leach family.</famname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n88276972.html" ref="/subjects/2212">Mundy (Mich.)</geogname>
         <geogname source="lcsh" ref="/subjects/2010">Nebraska.</geogname>
         <subject source="lcsh" ref="/subjects/8773">Temperance.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6010">Travelers.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n92061975">United States. Army. Michigan Cavalry Regiment, 1st (1861-1866)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2011086515">United States. Army. Michigan Cavalry Regiment, 9th (1863-1865)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n92061975" ref="/agents/corporate_entities/13085">United States. Army. Michigan Cavalry Regiment, 1st (1861-1866)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2011086515" ref="/agents/corporate_entities/9040">United States. Army. Michigan Cavalry Regiment, 9th (1863-1865)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/909">United States--History--Civil War, 1861-1865.</geogname>
-        <famname source="lcnaf" encodinganalog="700">Waterman family.</famname>
+        <famname source="lcnaf" encodinganalog="700" ref="/agents/families/237">Waterman family.</famname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

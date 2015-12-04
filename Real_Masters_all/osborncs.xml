@@ -43,7 +43,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -54,7 +55,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Osborn, Chase S. (Chase Salmon), b. 1860.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/29688">Osborn, Chase S. (Chase Salmon), b. 1860.</persname>
       </origination>
       <unittitle encodinganalog="245">Chase S. Osborn Papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1870/1949" certainty="approximate">circa 1870-1949</unitdate>
@@ -121,7 +122,7 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6204">Elections--Michigan--1932.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6206">Elections--Michigan--1936.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7021">Elections--Michigan--1940.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79005644">Frost, Robert, 1874-1963.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79005644" ref="/agents/people/31903">Frost, Robert, 1874-1963.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5929">Governors--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5929">Governors--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2454">Madagascar.</geogname>
@@ -133,7 +134,7 @@
         <geogname source="local" encodinganalog="691" ref="/subjects/812">Michigan--Politics and government--1939-1945.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/809">Michigan--Politics and government--1946-1960.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7735">Mines and mineral resources--United States.</subject>
-        <persname source="lcnaf" encodinganalog="600">Osborn, Chase S. (Chase Salmon), b. 1860.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29688">Osborn, Chase S. (Chase Salmon), b. 1860.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6002">Presidents--United States--Election--1896.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9614">Presidents--United States--Election--1900.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6063">Presidents--United States--Election--1908.</subject>
@@ -142,17 +143,17 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6639">Presidents--United States--Election--1932.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6494">Presidents--United States--Election--1936.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7024">Presidents--United States--Election--1940.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Progressive Party (1912)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14030">Progressive Party (1912)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13160">Republican Party (Mich.)</corpname>
         <subject source="lcsh" encodinganalog="611" ref="/subjects/9615">Saginaw courier herald.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81003784.html" ref="/subjects/936">Sault Sainte Marie (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8716">Sit-down strikes--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6208">Temperance--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79029742">Truman, Harry S., 1884-1972.</persname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Congress--Elections, 1932.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79029742" ref="/agents/people/28119">Truman, Harry S., 1884-1972.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9731">United States. Congress--Elections, 1932.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2455">United States--Politics and government--1865-1933.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/965">United States--Politics and government--1933-1945.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998">University of Michigan. Board of Regents.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998" ref="/agents/corporate_entities/10883">University of Michigan. Board of Regents.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/938">Upper Peninsula (Mich.)</geogname>
       </controlaccess>
       <controlaccess>
@@ -175,137 +176,137 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3666">Lumber industry.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85149707.html" ref="/subjects/1176">Newberry (Mich.)</geogname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/630">Offices.</geogname>
-        <persname source="lcnaf" encodinganalog="600">Osborn, Chase S. (Chase Salmon), b. 1860.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n92118551">Osborn, Stellanova, 1894-1988.</persname>
-        <famname source="lcnaf" encodinganalog="600">Osborn family.</famname>
-        <corpname source="lcnaf" encodinganalog="610">Petoskey Portland Cement Company.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29688">Osborn, Chase S. (Chase Salmon), b. 1860.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n92118551" ref="/agents/people/30247">Osborn, Stellanova, 1894-1988.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/169">Osborn family.</famname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12763">Petoskey Portland Cement Company.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1727">Pictured Rocks (Mich.)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5097">Political elections--1911-1912.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3598">Political parades and rallies.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2457">Ramsay (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.). State Convention (1912 : Bay City, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Rockland High School (Rockland, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10467">Republican Party (Mich.). State Convention (1912 : Bay City, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9344">Rockland High School (Rockland, Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81003784.html" ref="/subjects/936">Sault Sainte Marie (Mich.)</geogname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/631">Sault Sainte Marie (Mich.)--Dwellings.</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79022244">Taft, William H. (William Howard), 1857-1930.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79022244" ref="/agents/people/30120">Taft, William H. (William Howard), 1857-1930.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2146">Tahquamenon River (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n91016725">United States. Army. Michigan Infantry Regiment, 8th (1861-1865)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n91016725" ref="/agents/corporate_entities/9464">United States. Army. Michigan Infantry Regiment, 8th (1861-1865)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/909">United States--History--Civil War, 1861-1865.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998">University of Michigan. Board of Regents.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998" ref="/agents/corporate_entities/10883">University of Michigan. Board of Regents.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3769">Veterans--Michigan.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50036849">Adams, Henry Carter, 1851-1921.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81099052">Alger, R. A. (Russell Alexander), 1836-1907.</persname>
-        <persname source="lcnaf" encodinganalog="700">Andrews, Roger, 1874-</persname>
-        <persname source="lcnaf" encodinganalog="700">Angell, Carleton Watson, 1887-1963.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no90002065">Angell, James Burrill, 1829-1916.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008186663">Beal, Junius E. (Junius Emery), 1860-1942.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50009527">Beveridge, Albert Jeremiah, 1862-1927.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008188971">Bliss, Aaron Thomas, 1837-1906.</persname>
-        <persname source="lcnaf" encodinganalog="700">Booth, Edmund Wood, 1866-1927.</persname>
-        <persname source="lcnaf" encodinganalog="700">Brewster, Ralph O.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n94105471">Brucker, Wilber Marion, 1894-1968.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no95042265">Burrows, Julius C. (Julius Caesar), 1837-1915.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86114210">Chapin, Roy D. (Roy Dikeman), 1880-1936.</persname>
-        <persname source="lcnaf" encodinganalog="700">Codd, George Pierre, 1869-1927.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008182100">Comstock, William Alfred, 1877-1949.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84804477">Cooley, Mortimer E. (Mortimer Elwyn), 1855-1944.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50043492">Coolidge, Calvin, 1872-1933.</persname>
-        <persname source="lcnaf" encodinganalog="700">Cotter, William Edward, 1893-1957.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86070545">Couzens, James, 1872-1936.</persname>
-        <persname source="lcnaf" encodinganalog="700">Curtis, Charles.</persname>
-        <persname source="lcnaf" encodinganalog="700">Dame, Gilman Marston, 1866-1939.</persname>
-        <persname source="lcnaf" encodinganalog="700">Davidson, O. C.</persname>
-        <persname source="lcnaf" encodinganalog="700">DeFoe, Murl Holcomb, 1879-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79079611">De Kruif, Paul, 1890-1971.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n97046996">Denby, Edwin, 1870-1929.</persname>
-        <persname source="lcnaf" encodinganalog="700">Dewey, Edmund Otis, 1861-1921.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79021469">Dewey, Thomas E. (Thomas Edmund), 1902-1971.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008187778">Dickinson, Luren Dudley, 1859-1943.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50029859">Dix, Dorothea Lynde, 1802-1887.</persname>
-        <persname source="lcnaf" encodinganalog="700">Doyle, Edward H., 1849-1919.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n96085441">Ferris, Woodbridge N., 1853-1928.</persname>
-        <persname source="lcnaf" encodinganalog="700">Fletcher, Frank Ward, 1853-1922.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79055385">Ford, Henry, 1863-1947.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88274247">Fordney, Joseph W. (Joseph Warren), 1853-1932.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008183293">Green, Fred W. (Fred Warren), 1872-1936.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008187813">Groesbeck, Alexander J. (Alexander Joseph), 1873-1953.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86137853">Guest, Edgar A. (Edgar Albert), 1881-1959.</persname>
-        <persname source="lcnaf" encodinganalog="700">Hanchett, Benjamin Sawtell, 1868-1933.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50023001">Harding, Warren G. (Warren Gamaliel), 1865-1923.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85007838">Hoard, W. D. (William Dempster), 1836-1918.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86869592">Hobbs, William Herbert, 1864-1952.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79021421">Hoover, Herbert, 1874-1964.</persname>
-        <persname source="lcnaf" encodinganalog="700">Horton, George B.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50029243">Hough, Emerson, 1857-1923.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr97041173">Hubbard, Lucius L. (Lucius Lee), 1849-1933.</persname>
-        <persname source="lcnaf" encodinganalog="700">Humphrey, Watts S.</persname>
-        <persname source="lcnaf" encodinganalog="700">Hunsaker, Walter Jerome, 1857-1939.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88002366">Hutchins, Harry B. (Harry Burns), 1847-1930.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008031481">Kelley, Patrick Henry, 1867-1925.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50060957">Kellogg, John Harvey, 1852-1943.</persname>
-        <persname source="lcnaf" encodinganalog="700">Kemp, Edward Gearing, 1887-1962.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86034285">Knox, Frank, 1874-1944.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50041743">La Follette, Robert M. (Robert Marion), 1855-1925.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86111015">Landon, Alfred M. (Alfred Mossman), 1887-1987.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr97041447">Lorch, Emil, 1870-1963.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86022210">Loveman, Amy.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80079701">McKinley, William, 1843-1901.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n2005173297">McMillan, James, 1838-1902.</persname>
-        <persname source="lcnaf" encodinganalog="700">MacNoughton, James.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008189047">Mapes, Carl Edgar, 1874-1939.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n93019870">Mather, William Gwinn, 1857-1951.</persname>
-        <persname source="lcnaf" encodinganalog="700">May, Thomas, 1860-1927.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80036702">Mencken, H. L. (Henry Louis), 1880-1956.</persname>
-        <persname source="lcnaf" encodinganalog="700">Mershon, William Briggs.</persname>
-        <persname source="lcnaf" encodinganalog="700">Montgomery, Robert M., 1849-1920.</persname>
-        <persname source="lcnaf" encodinganalog="700">Morley, George Bidwell, 1857-1935.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008183306">Murfin, James Orin, 1875-1940.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86025928">Murphy, Frank, 1890-1949.</persname>
-        <persname source="lcnaf" encodinganalog="700">Musselman, Amos S., b. 1851.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n89125977">Newberry, Truman Handy, 1864-1945.</persname>
-        <persname source="lcnaf" encodinganalog="700">Palmer, Calvin A.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86001732">Pegler, Westbrook, 1894-1969.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50047693">Phelps, William Lyon, 1865-1943.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n78097059">Pinchot, Gifford, 1865-1946.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86868022">Pingree, Hazen S., 1840-1901.</persname>
-        <persname source="lcnaf" encodinganalog="700">Powers, Perry Francis, 1857-1945.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79060197">Pyle, Ernie, 1900-1945.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008186715">Rich, John Treadway, 1841-1926.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79022932">Roosevelt, Franklin D. (Franklin Delano), 1882-1945.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no88000115">Roosevelt, Kermit, 1889-1943.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79027239">Roosevelt, Theodore, 1858-1919.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85137023">Russell, Richard B. (Richard Brevard), 1897-1971.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87828171">Ruthven, Alexander Grant, 1882-1971.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008183271">Sawyer, Walter H. (Walter Hulme), 1861-1931.</persname>
-        <persname source="lcnaf" encodinganalog="700">Schermerhorn, James, 1865-1942.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50003979">Scott, Fred Newton, 1860-1931.</persname>
-        <persname source="lcnaf" encodinganalog="700">Shafer, John C.</persname>
-        <persname source="lcnaf" encodinganalog="700">Shields, Robert Hazen, 1905-</persname>
-        <persname source="lcnaf" encodinganalog="700">Sigler, Kim, b. 1894.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008187792">Sink, Charles A. (Charles Albert), 1879-1972.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008187860">Sleeper, Albert E., 1862-1934.</persname>
-        <persname source="lcnaf" encodinganalog="700">Sligh, Charles Robert, 1850-1927.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008187805">Smith, Shirley Wheeler, 1875-1959.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no98099507">Smith, William Alden, 1859-1932.</persname>
-        <persname source="lcnaf" encodinganalog="700">Sparks, Frank Melville, 1877-1950.</persname>
-        <persname source="lcnaf" encodinganalog="700">Stair, W. D.</persname>
-        <persname source="lcnaf" encodinganalog="700">Stone, Ralph, 1868-1956.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n90626615">Sullivan, Mark, 1874-1952.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79022244">Taft, William H. (William Howard), 1857-1930.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80002583">Talmadge, Herman E. (Herman Eugene), 1913-2002.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008188960">Townsend, Charles E. (Charles Elroy), 1856-1924.</persname>
-        <persname source="lcnaf" encodinganalog="700">Underwood, Frederick Douglas, d. 1942.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50045033">Vandenberg, Arthur H. (Arthur Hendrick), 1884-1951.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85334158">Van Hise, Charles Richard, 1857-1918.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88022440">Warner, Frederick Maltby, 1865-1923.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79078167">White, William A. (William Alanson), 1870-1937.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n91041670">Willard, Daniel, 1861-1942.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79046299">Wilson, Woodrow, 1856-1924.</persname>
-        <persname source="lcnaf" encodinganalog="700">Wood, Leonard, 1860-1927.</persname>
-        <persname source="lcnaf" encodinganalog="700">Zimmerman, Fred R.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50036849" ref="/agents/people/34913">Adams, Henry Carter, 1851-1921.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81099052" ref="/agents/people/29292">Alger, R. A. (Russell Alexander), 1836-1907.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28737">Andrews, Roger, 1874-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33435">Angell, Carleton Watson, 1887-1963.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no90002065" ref="/agents/people/29978">Angell, James Burrill, 1829-1916.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008186663" ref="/agents/people/35020">Beal, Junius E. (Junius Emery), 1860-1942.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50009527" ref="/agents/people/29891">Beveridge, Albert Jeremiah, 1862-1927.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008188971" ref="/agents/people/36123">Bliss, Aaron Thomas, 1837-1906.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33215">Booth, Edmund Wood, 1866-1927.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31725">Brewster, Ralph O.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n94105471" ref="/agents/people/31431">Brucker, Wilber Marion, 1894-1968.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no95042265" ref="/agents/people/29619">Burrows, Julius C. (Julius Caesar), 1837-1915.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86114210" ref="/agents/people/33174">Chapin, Roy D. (Roy Dikeman), 1880-1936.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/36082">Codd, George Pierre, 1869-1927.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008182100" ref="/agents/people/27602">Comstock, William Alfred, 1877-1949.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84804477" ref="/agents/people/36018">Cooley, Mortimer E. (Mortimer Elwyn), 1855-1944.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50043492" ref="/agents/people/32356">Coolidge, Calvin, 1872-1933.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33259">Cotter, William Edward, 1893-1957.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86070545" ref="/agents/people/29540">Couzens, James, 1872-1936.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30533">Curtis, Charles.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30305">Dame, Gilman Marston, 1866-1939.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27572">Davidson, O. C.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32765">DeFoe, Murl Holcomb, 1879-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79079611" ref="/agents/people/27277">De Kruif, Paul, 1890-1971.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n97046996" ref="/agents/people/34847">Denby, Edwin, 1870-1929.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33914">Dewey, Edmund Otis, 1861-1921.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79021469" ref="/agents/people/34601">Dewey, Thomas E. (Thomas Edmund), 1902-1971.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008187778" ref="/agents/people/35799">Dickinson, Luren Dudley, 1859-1943.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50029859" ref="/agents/people/27540">Dix, Dorothea Lynde, 1802-1887.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33427">Doyle, Edward H., 1849-1919.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n96085441" ref="/agents/people/34533">Ferris, Woodbridge N., 1853-1928.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28426">Fletcher, Frank Ward, 1853-1922.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79055385" ref="/agents/people/29096">Ford, Henry, 1863-1947.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88274247" ref="/agents/people/31730">Fordney, Joseph W. (Joseph Warren), 1853-1932.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008183293" ref="/agents/people/29308">Green, Fred W. (Fred Warren), 1872-1936.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008187813" ref="/agents/people/27953">Groesbeck, Alexander J. (Alexander Joseph), 1873-1953.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86137853" ref="/agents/people/33391">Guest, Edgar A. (Edgar Albert), 1881-1959.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29455">Hanchett, Benjamin Sawtell, 1868-1933.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50023001" ref="/agents/people/33350">Harding, Warren G. (Warren Gamaliel), 1865-1923.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85007838" ref="/agents/people/30434">Hoard, W. D. (William Dempster), 1836-1918.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86869592" ref="/agents/people/30295">Hobbs, William Herbert, 1864-1952.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79021421" ref="/agents/people/31177">Hoover, Herbert, 1874-1964.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32188">Horton, George B.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50029243" ref="/agents/people/35319">Hough, Emerson, 1857-1923.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr97041173" ref="/agents/people/34034">Hubbard, Lucius L. (Lucius Lee), 1849-1933.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34468">Humphrey, Watts S.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33369">Hunsaker, Walter Jerome, 1857-1939.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88002366" ref="/agents/people/28801">Hutchins, Harry B. (Harry Burns), 1847-1930.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008031481" ref="/agents/people/32455">Kelley, Patrick Henry, 1867-1925.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50060957" ref="/agents/people/33636">Kellogg, John Harvey, 1852-1943.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32810">Kemp, Edward Gearing, 1887-1962.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86034285" ref="/agents/people/27669">Knox, Frank, 1874-1944.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50041743" ref="/agents/people/35719">La Follette, Robert M. (Robert Marion), 1855-1925.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86111015" ref="/agents/people/28586">Landon, Alfred M. (Alfred Mossman), 1887-1987.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr97041447" ref="/agents/people/31918">Lorch, Emil, 1870-1963.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86022210" ref="/agents/people/35716">Loveman, Amy.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80079701" ref="/agents/people/35946">McKinley, William, 1843-1901.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n2005173297" ref="/agents/people/31060">McMillan, James, 1838-1902.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29284">MacNoughton, James.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008189047" ref="/agents/people/32050">Mapes, Carl Edgar, 1874-1939.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n93019870" ref="/agents/people/31158">Mather, William Gwinn, 1857-1951.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33778">May, Thomas, 1860-1927.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80036702" ref="/agents/people/32687">Mencken, H. L. (Henry Louis), 1880-1956.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29967">Mershon, William Briggs.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27673">Montgomery, Robert M., 1849-1920.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30328">Morley, George Bidwell, 1857-1935.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008183306" ref="/agents/people/35403">Murfin, James Orin, 1875-1940.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86025928" ref="/agents/people/32539">Murphy, Frank, 1890-1949.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29158">Musselman, Amos S., b. 1851.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n89125977" ref="/agents/people/28497">Newberry, Truman Handy, 1864-1945.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/36122">Palmer, Calvin A.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86001732" ref="/agents/people/33723">Pegler, Westbrook, 1894-1969.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50047693" ref="/agents/people/32478">Phelps, William Lyon, 1865-1943.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n78097059" ref="/agents/people/32887">Pinchot, Gifford, 1865-1946.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86868022" ref="/agents/people/29932">Pingree, Hazen S., 1840-1901.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29812">Powers, Perry Francis, 1857-1945.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79060197" ref="/agents/people/30078">Pyle, Ernie, 1900-1945.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008186715" ref="/agents/people/30880">Rich, John Treadway, 1841-1926.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79022932" ref="/agents/people/34012">Roosevelt, Franklin D. (Franklin Delano), 1882-1945.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no88000115" ref="/agents/people/36206">Roosevelt, Kermit, 1889-1943.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79027239" ref="/agents/people/28045">Roosevelt, Theodore, 1858-1919.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85137023" ref="/agents/people/30493">Russell, Richard B. (Richard Brevard), 1897-1971.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87828171" ref="/agents/people/30981">Ruthven, Alexander Grant, 1882-1971.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008183271" ref="/agents/people/31900">Sawyer, Walter H. (Walter Hulme), 1861-1931.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29976">Schermerhorn, James, 1865-1942.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50003979" ref="/agents/people/34559">Scott, Fred Newton, 1860-1931.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30819">Shafer, John C.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32175">Shields, Robert Hazen, 1905-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29938">Sigler, Kim, b. 1894.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008187792" ref="/agents/people/34999">Sink, Charles A. (Charles Albert), 1879-1972.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008187860" ref="/agents/people/27298">Sleeper, Albert E., 1862-1934.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33282">Sligh, Charles Robert, 1850-1927.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008187805" ref="/agents/people/31974">Smith, Shirley Wheeler, 1875-1959.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no98099507" ref="/agents/people/32266">Smith, William Alden, 1859-1932.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32799">Sparks, Frank Melville, 1877-1950.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32515">Stair, W. D.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28131">Stone, Ralph, 1868-1956.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n90626615" ref="/agents/people/30856">Sullivan, Mark, 1874-1952.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79022244" ref="/agents/people/30120">Taft, William H. (William Howard), 1857-1930.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80002583" ref="/agents/people/27511">Talmadge, Herman E. (Herman Eugene), 1913-2002.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008188960" ref="/agents/people/30735">Townsend, Charles E. (Charles Elroy), 1856-1924.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33373">Underwood, Frederick Douglas, d. 1942.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50045033" ref="/agents/people/30858">Vandenberg, Arthur H. (Arthur Hendrick), 1884-1951.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85334158" ref="/agents/people/31319">Van Hise, Charles Richard, 1857-1918.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88022440" ref="/agents/people/28398">Warner, Frederick Maltby, 1865-1923.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79078167" ref="/agents/people/30849">White, William A. (William Alanson), 1870-1937.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n91041670" ref="/agents/people/31282">Willard, Daniel, 1861-1942.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79046299" ref="/agents/people/27340">Wilson, Woodrow, 1856-1924.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29767">Wood, Leonard, 1860-1927.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35678">Zimmerman, Fred R.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

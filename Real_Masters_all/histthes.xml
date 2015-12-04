@@ -39,7 +39,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -50,7 +51,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Dept. of History.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/10101">University of Michigan. Dept. of History.</corpname>
       </origination>
       <unittitle encodinganalog="245">Dept. of History (University of Michigan) senior honors theses <unitdate type="inclusive" encodinganalog="245$f" normal="1969/9999">1969-[ongoing]</unitdate></unittitle>
       <physloc>Portions of the collection are stored offsite; two days notice required for retrieval.</physloc>
@@ -95,7 +96,7 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8130">Academic freedom.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50036849">Adams, Henry Carter, 1851-1921.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50036849" ref="/agents/people/34913">Adams, Henry Carter, 1851-1921.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8254">Afro-Americans--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7363">Afro-Americans--Michigan--Detroit.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6033">Agriculture--Michigan.</subject>
@@ -106,50 +107,50 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8256">Child abuse.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8257">Child development.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8258">Crematoriums.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50018203">Coughlin, Charles E. (Charles Edward), 1891-1979.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50018203" ref="/agents/people/30625">Coughlin, Charles E. (Charles Edward), 1891-1979.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7275">Death.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7236">Demography.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539.html" ref="/subjects/933">Detroit (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2017">Detroit (Mich.)--Politics and government.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n92054296">Detroit Urban League.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Dieterle, Enoch, 1865-</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n92054296" ref="/agents/corporate_entities/14282">Detroit Urban League.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35091">Dieterle, Enoch, 1865-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6285">Elections--United States--1968.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8259">Fertility, Human.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79022087">Ford, Gerald R., 1913-2006.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79055385">Ford, Henry, 1863-1947.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79079577">General Motors Corporation.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79022087" ref="/agents/people/31340">Ford, Gerald R., 1913-2006.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79055385" ref="/agents/people/29096">Ford, Henry, 1863-1947.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79079577" ref="/agents/corporate_entities/10876">General Motors Corporation.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5676">Housing--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8260">Indians of North America--Michigan--Claims.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80073732">International Union, United Automobile, Aircraft and Agricultural Implement Workers of America.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80079695">Industrial Workers of the World.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80073732" ref="/agents/corporate_entities/11583">International Union, United Automobile, Aircraft and Agricultural Implement Workers of America.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80079695" ref="/agents/corporate_entities/12338">Industrial Workers of the World.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8261">Jews--Michigan--Detroit.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6718">Labor--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Lakewood Crematory.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10145">Lakewood Crematory.</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81056721.html" ref="/subjects/1151">Ludington (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1544">Mason County (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82147959">Merrill-Palmer Institute.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82147959" ref="/agents/corporate_entities/10000">Merrill-Palmer Institute.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/981">Michigan--History.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5942">New Deal, 1933-1939--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6749">American newspapers--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2033">Northwest, Old.</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n86868022">Pingree, Hazen S., 1840-1901.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n86868022" ref="/agents/people/29932">Pingree, Hazen S., 1840-1901.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8262">Presidents--United States--Election--1840.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6617">Presidents--United States--Election--1968.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50045219">Reuther, Walter, 1907-1970.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50048290">Romney, George W., 1907-1995.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008098165">Sligh, Charles R., Jr. (Charles Robert), 1906-1997</persname>
-        <persname source="lcnaf" encodinganalog="600">Stone, Ralph, 1868-1956.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50045219" ref="/agents/people/31218">Reuther, Walter, 1907-1970.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50048290" ref="/agents/people/31627">Romney, George W., 1907-1995.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008098165" ref="/agents/people/27312">Sligh, Charles R., Jr. (Charles Robert), 1906-1997</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28131">Stone, Ralph, 1868-1956.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8251">Strikes and lockouts--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50010551">Students for a Democratic Society (U.S.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50010551" ref="/agents/corporate_entities/14139">Students for a Democratic Society (U.S.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8263">Trade-unions--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8264">Undertakers and undertaking--Michigan--Ann Arbor.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/909">United States--History--Civil War, 1861-1865.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Sports.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Band.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--History.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Sports.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14255">University of Michigan. Band.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--History.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Students.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/938">Upper Peninsula (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50045033">Vandenberg, Arthur H. (Arthur Hendrick), 1884-1951.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50045033" ref="/agents/people/30858">Vandenberg, Arthur H. (Arthur Hendrick), 1884-1951.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/847">Washtenaw County (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2034">Washtenaw County (Mich.)--Politics and government.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5838">Minority college students--Michigan--Ann Arbor.</subject>
@@ -164,19 +165,19 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8270">Women--Massachusetts--Attitudes.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8271">Women--Education--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8272">Marriage--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n99270164">Sunrise Cooperative Farm Community.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n99270164" ref="/agents/corporate_entities/11643">Sunrise Cooperative Farm Community.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1942">Saline Valley Farms (Saline, Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5831">Cooperative societies--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8273">Immigrants--Michigan--Detroit.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8274">Irish Americans--Michigan--Ann Arbor.</subject>
         <subject source="local" encodinganalog="690" authfilenumber="http://id.loc.gov/authorities/names/n2008059426" ref="/subjects/3518">Polar Bear Expedition.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Planned Parenthood League, Inc. (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14237">Planned Parenthood League, Inc. (Detroit, Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/883">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Admission.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Admission.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6820">Recombinant DNA--Research.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Political activity.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81095986">Word of God (Religious community)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Central Railroad Depot (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Students--Political activity.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81095986" ref="/agents/corporate_entities/9875">Word of God (Religious community)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10397">Michigan Central Railroad Depot (Detroit, Mich.)</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

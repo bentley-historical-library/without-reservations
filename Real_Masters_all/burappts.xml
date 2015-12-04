@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Bureau of Appointments and Occupational Information.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/12529">University of Michigan. Bureau of Appointments and Occupational Information.</corpname>
       </origination>
       <unittitle encodinganalog="245">Bureau of Appointments and Occupational Information (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1905/1930">1905-1930</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">8735 Bimu C476 2</unitid>
@@ -79,16 +80,16 @@ Bureau of Appointments and Occupational Information (University of Michigan) Rec
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Bureau of Appointments.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Bureau of Appointments and Occupational Information.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Committee on Vocational Counsel and Placement.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Employment.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9476">University of Michigan. Bureau of Appointments.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12529">University of Michigan. Bureau of Appointments and Occupational Information.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9630">University of Michigan. Committee on Vocational Counsel and Placement.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Students--Employment.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Students.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6559">College placement services--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Alumni and alumnae.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Alumni and alumnae.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

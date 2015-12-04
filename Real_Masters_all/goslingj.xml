@@ -43,7 +43,8 @@
         <item>Original encoding from Word 6.0 file</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -54,7 +55,7 @@
   <archdesc level="collection" type="inventory" audience="external" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">Gosling, John R.G., 1926-1992</persname>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/28561">Gosling, John R.G., 1926-1992</persname>
       </origination>
       <unittitle encodinganalog="245">John R.G. Gosling Papers</unittitle>
       <unitdate encodinganalog="245$f" type="inclusive" normal="1897/1984">1897-1984</unitdate>
@@ -105,14 +106,14 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Gosling, John R. G.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35609">Gosling, John R. G.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8018">Obstetrics.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5693">Gynecology.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7165">Medicine--Study and teaching--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Obstetrics and Gynecology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151">University of Michigan. Medical School.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Student notebooks.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Miller, Norman Fritz, 1894-</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12431">University of Michigan. Dept. of Obstetrics and Gynecology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151" ref="/agents/corporate_entities/11381">University of Michigan. Medical School.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Student notebooks.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28196">Miller, Norman Fritz, 1894-</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

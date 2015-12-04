@@ -31,7 +31,8 @@ Xmetal</item>
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -44,7 +45,7 @@ aid prepared by: <lb/>John P. Doyle</author>
   <archdesc audience="external" type="inventory" level="recordgrp" encodinganalog="110" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Pleasant Lakes Club.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/14172">Pleasant Lakes Club.</corpname>
       </origination>
       <unittitle encodinganalog="245">Pleasant Lakes Club Records</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1899/2000">1899-2000</unitdate>
@@ -138,8 +139,8 @@ Miscellaneous.</p>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9763">Hunting and fishing clubs--Michigan--Livingston County.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1304">Livingston County (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Pleasant Lakes Club.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14172">Pleasant Lakes Club.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Allen, D. C., collector.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30031">Allen, D. C., collector.</persname>
       </origination>
       <unittitle encodinganalog="245">D.C. Allen House of David Collection</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1795/1980">1795-1980</unitdate>
@@ -136,16 +137,16 @@ D.C. Allen House of David Collection, Bentley Historical Library, University of 
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Allen, D. C.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35243">Allen, D. C.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8280">Cults--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8281">Baseball teams--Michigan--Benton Harbor.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2038">Benton Harbor (Mich.)--Church history.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8282">Business enterprises--Michigan--Benton Harbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81116257">House of David.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Mary's City of David.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81116257" ref="/agents/corporate_entities/12451">House of David.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9451">Mary's City of David.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2039">Benton Harbor (Mich.)--History.</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n91023470">Purnell, Benjamin Franklin, 1861-1927.</persname>
-        <persname source="lcnaf" encodinganalog="600">Purnell, Mary Stollard, 1862?-1953.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n91023470" ref="/agents/people/29627">Purnell, Benjamin Franklin, 1861-1927.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28871">Purnell, Mary Stollard, 1862?-1953.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
@@ -155,19 +156,19 @@ D.C. Allen House of David Collection, Bentley Historical Library, University of 
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4522">Business enterprises--Michigan--Benton Harbor.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4523">Collective settlements--Michigan--Benton Harbor.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4524">Buildings--Michigan--Benton Harbor.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80024557">Louis, Joe, 1914-1981.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81116257">House of David.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Mary's City of David.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80024557" ref="/agents/people/34629">Louis, Joe, 1914-1981.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81116257" ref="/agents/corporate_entities/12451">House of David.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9451">Mary's City of David.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4525">Amusement parks--Michigan--Benton Harbor.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4526">Miniature railroads--Michigan--Benton Harbor.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n91023470">Purnell, Benjamin Franklin, 1861-1927.</persname>
-        <persname source="lcnaf" encodinganalog="600">Purnell, Mary Stollard, 1862?-1953.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n91023470" ref="/agents/people/29627">Purnell, Benjamin Franklin, 1861-1927.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28871">Purnell, Mary Stollard, 1862?-1953.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4527">Automobile dealerships--Michigan--Benton Harbor.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4528">Ice industry--Michigan--Benton Harbor.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname encodinganalog="700" source="lcnaf">Allen, D. C.</persname>
+        <persname encodinganalog="700" source="lcnaf" ref="/agents/people/35243">Allen, D. C.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

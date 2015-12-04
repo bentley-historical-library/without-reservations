@@ -39,7 +39,8 @@
         <item>Original encoding from Word 6.0 file.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -50,7 +51,7 @@
   <archdesc level="collection" type="inventory" audience="external" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">Gajec, Edward, 1918-</persname>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/35017">Gajec, Edward, 1918-</persname>
       </origination>
       <unittitle encodinganalog="245">Edward Gajec Papers</unittitle>
       <unitdate encodinganalog="245$f" type="inclusive" normal="1935/1995">1935-1995</unitdate>
@@ -92,7 +93,7 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Gajec, Edward, 1918-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35017">Gajec, Edward, 1918-</persname>
         <geogname source="lcsh" encodinganalog="650" ref="/subjects/1897">Detroit (Mich.)--Population.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7885">Ethnic festivals--Michigan--Detroit.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7886">Ethnography--Michigan--Detroit.</subject>

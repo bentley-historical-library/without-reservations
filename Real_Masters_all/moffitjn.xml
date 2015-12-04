@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Moffit, John Ted, 1862-1947.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33546">Moffit, John Ted, 1862-1947.</persname>
       </origination>
       <unittitle encodinganalog="245">John Ted Moffit papers <unitdate type="inclusive" encodinganalog="245$f" normal="1884/1947">1884-1947</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">87100 Aa 2</unitid>
@@ -79,8 +80,8 @@ John Ted Moffit papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Law.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Law. Class of 1886.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10881">University of Michigan. Dept. of Law.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13133">University of Michigan. Dept. of Law. Class of 1886.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

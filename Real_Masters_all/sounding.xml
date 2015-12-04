@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Soundings (Organization)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/12539">Soundings (Organization)</corpname>
       </origination>
       <unittitle encodinganalog="245">Soundings records</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1977/1998">1977-1998</unitdate>
@@ -91,21 +92,21 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10159">Displaced homemakers--Services for--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10160">Divorced women--Michigan--Life skills guides.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10161">Family violence--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Soundings (Organization)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12539">Soundings (Organization)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10162">Unemployed women workers--Michigan--Washtenaw County.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10163">Vocational guidance for women--Michigan--Washtenaw County.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10164">Women's shelters--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10165">Women--Employment re-entry--Michigan--Washtenaw County.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5869">Women--Michigan--Washtenaw County.</subject>
-        <persname source="lcnaf" encodinganalog="600">Brown, Glenora W.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Domestic Violence Project, Inc.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Donahue, Esther.</persname>
-        <persname source="lcnaf" encodinganalog="600">Phelan, Bessie.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Safe House (Ann Arbor, Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29865">Brown, Glenora W.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10985">Domestic Violence Project, Inc.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34868">Donahue, Esther.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34749">Phelan, Bessie.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11255">Safe House (Ann Arbor, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <corpname source="lcnaf" encodinganalog="610">Soundings (Organization)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12539">Soundings (Organization)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10166">Displaced homemakers--Michigan.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5351">Divorced women.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5352">Widows.</subject>
@@ -114,7 +115,7 @@
       </controlaccess>
       <controlaccess>
         <head>Subjects - Sound Recordings</head>
-        <corpname source="lcnaf" encodinganalog="610">Soundings (Organization)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12539">Soundings (Organization)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10166">Displaced homemakers--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5869">Women--Michigan--Washtenaw County.</subject>
       </controlaccess>

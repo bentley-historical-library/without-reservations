@@ -31,7 +31,8 @@
         <item>Original encoding from Word 6.0 file</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Fuller, Ella G. (Ella Grace), 1872-1968.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/29128">Fuller, Ella G. (Ella Grace), 1872-1968.</persname>
       </origination>
       <unittitle encodinganalog="245">Ella Fuller Photograph Collection <unitdate type="inclusive" encodinganalog="245$f" normal="1895/1912" certainty="approximate">circa 1895-1912</unitdate></unittitle>
       <abstract>Resident of Ypsilanti Township, Michigan. Collection consists of glass negatives and contact prints depicting farm life, the Fuller family and their neighbors and relatives, recreation, houses, and barns</abstract>
@@ -92,8 +93,8 @@
       <controlaccess>
         <head>Subjects - Visual Material:</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4347">Agriculture--Michigan--Washtenaw County.</subject>
-        <famname source="lcnaf" encodinganalog="600">Arbogast family.</famname>
-        <famname source="lcnaf" encodinganalog="600">Ballard family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/347">Arbogast family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/251">Ballard family.</famname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4348">Barns--Michigan--Ypsilanti (Township)</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4214">Carts and wagons.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4349">Cattle.</subject>
@@ -101,13 +102,13 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4350">Dwellings--Michigan--Ypsilanti (Township)</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3923">Families.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4351">Farms--Michigan--Ypsilanti (Township)</subject>
-        <famname source="lcnaf" encodinganalog="600">Fletcher family.</famname>
-        <persname source="lcnaf" encodinganalog="600">Fuller, Ella G. (Ella Grace), 1872-1968.</persname>
-        <famname source="lcnaf" encodinganalog="600">Fuller family.</famname>
-        <famname source="lcnaf" encodinganalog="600">Heath family.</famname>
-        <famname source="lcnaf" encodinganalog="600">Hewens family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/47">Fletcher family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29128">Fuller, Ella G. (Ella Grace), 1872-1968.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/303">Fuller family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/202">Heath family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/247">Hewens family.</famname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3689">Interiors.</subject>
-        <famname source="lcnaf" encodinganalog="600">Newton family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/253">Newton family.</famname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3941">Photography.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4352">Quarrying.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3629">Recreation.</subject>

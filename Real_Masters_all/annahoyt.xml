@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0, manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Hoyt, Anna.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28222">Hoyt, Anna.</persname>
       </origination>
       <unittitle encodinganalog="245">Anna Hoyt Memorandum Book <unitdate type="inclusive" encodinganalog="245$f" normal="1864/1950" certainty="approximate">circa 1864-1950</unitdate></unittitle>
       <abstract>Volume first used for poetry and notes by an unidentified Civil War soldier, then either sold or given to Hoyt's father, who used it briefly for farm accounts. It was then taken up by Anna Hoyt and used for poetry, arithmetic calculations, and various notes and sketches.</abstract>
@@ -82,7 +83,7 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Hoyt, Anna.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28222">Hoyt, Anna.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/940">Mount Morris (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5921">Women--Michigan--Mount Morris.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5922">United States--Civil War, 1861-1865.</subject>

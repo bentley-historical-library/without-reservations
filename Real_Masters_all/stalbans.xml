@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">St. Alban's Episcopal Church (Highland Park, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/13732">St. Alban's Episcopal Church (Highland Park, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">St. Alban's Episcopal Church, Highland Park, Mich., Records</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1907/1976">1907-1976</unitdate>
@@ -87,15 +88,15 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Episcopal Church--Michigan--Highland Park.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9954">Episcopal Church--Michigan--Highland Park.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2839">Highland Park (Mich.)--Church history.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">St. Alban's Episcopal Church (Highland Park, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13732">St. Alban's Episcopal Church (Highland Park, Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10196">Registers of births, etc.--Michigan--Highland Park.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5373">Churches--Michigan--Highland Park.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Episcopal Church--Michigan--Highland Park.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9954">Episcopal Church--Michigan--Highland Park.</corpname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/449">Highland Park (Mich.)--Churches.</geogname>
       </controlaccess>
       <controlaccess>

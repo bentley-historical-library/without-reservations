@@ -27,7 +27,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Whittemore Family (Tawas City, Mich.)</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/144">Whittemore Family (Tawas City, Mich.)</famname>
       </origination>
       <unittitle encodinganalog="245">Whittemore Family Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1817/1978">1817-1978</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">86261 Aa 2; AC; Ac</unitid>
@@ -91,23 +92,23 @@ Whittemore Family Papers
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Band of the Broken Pipes (University of Michigan)</corpname>
-        <persname source="lcnaf" encodinganalog="600">Coonent, James.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Detroit and Pontiac Railroad Company.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Hatch, Henry.</persname>
-        <persname source="lcnaf" encodinganalog="600">Hatch, Rufus, 1785-1825.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11909">Band of the Broken Pipes (University of Michigan)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/27397">Coonent, James.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13348">Detroit and Pontiac Railroad Company.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/27680">Hatch, Henry.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32696">Hatch, Rufus, 1785-1825.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1118">Hillsdale (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091931.html" ref="/subjects/1560">Iosco County (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10700">Land use--Michigan--Iosco County.</subject>
-        <persname source="lcnaf" encodinganalog="600">Leach, DeWitt C., b. 1832.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/27881">Leach, DeWitt C., b. 1832.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10701">Logging--Michigan--Tawas City.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10702">Lumbering--Michigan--Tawas City.</subject>
-        <persname source="lcnaf" encodinganalog="600">Mack, John M.</persname>
-        <persname source="lcnaf" encodinganalog="600">Mack, Stephen, 1762-1826.</persname>
-        <persname source="lcnaf" encodinganalog="600">Mack, Temperance, d. 1850.</persname>
-        <persname source="lcnaf" encodinganalog="600">Mathews, Abram B.</persname>
-        <persname source="lcnaf" encodinganalog="600">Mathews, Harriet Francis, d. 1866.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan State University--History.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29959">Mack, John M.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32926">Mack, Stephen, 1762-1826.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35406">Mack, Temperance, d. 1850.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33148">Mathews, Abram B.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32879">Mathews, Harriet Francis, d. 1866.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9966">Michigan State University--History.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10703">Mormons.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80125534.html" ref="/subjects/3098">Nauvoo (Ill.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1204">Pontiac (Mich.)</geogname>
@@ -124,20 +125,20 @@ Whittemore Family Papers
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10106">Teachers--Michigan--Hillsdale.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10620">Temperance--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9195">Tobacco.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2011013753">United States. Army. New York Cavalry Regiment, 20th (1863-1865)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2011013753" ref="/agents/corporate_entities/10112">United States. Army. New York Cavalry Regiment, 20th (1863-1865)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/909">United States--History--Civil War, 1861-1865.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998">University of Michigan. Board of Regents.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. College of Natural History.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. College Temperance Society.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Correspondence.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Societies, etc.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998" ref="/agents/corporate_entities/10883">University of Michigan. Board of Regents.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10577">University of Michigan. College of Natural History.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14488">University of Michigan. College Temperance Society.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Students--Correspondence.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Students--Societies, etc.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1606">Utah.</geogname>
-        <famname source="lcnaf" encodinganalog="600">Whitmore family.</famname>
-        <persname source="lcnaf" encodinganalog="600">Whittemore, Charles Hanover, b. 1833.</persname>
-        <persname source="lcnaf" encodinganalog="600">Whittemore, George, 1831-1844.</persname>
-        <persname source="lcnaf" encodinganalog="600">Whittemore, Gideon Olin, 1800-1863.</persname>
-        <persname source="lcnaf" encodinganalog="600">Whittemore, William B., b. 1835.</persname>
-        <persname source="lcnaf" encodinganalog="600">Wisner, Moses, 1815-1863.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/389">Whitmore family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28858">Whittemore, Charles Hanover, b. 1833.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35392">Whittemore, George, 1831-1844.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30491">Whittemore, Gideon Olin, 1800-1863.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35214">Whittemore, William B., b. 1835.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32540">Wisner, Moses, 1815-1863.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10707">Women--Michigan--Tawas City.</subject>
       </controlaccess>
       <controlaccess>
@@ -147,26 +148,26 @@ Whittemore Family Papers
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3994">Dwellings.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5579">Dwellings--Michigan--Ovid.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5580">Dwellings--Michigan--Tawas City.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Iosco County Courthouse (Tawas City, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11687">Iosco County Courthouse (Tawas City, Mich.)</corpname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/731">Ovid (Mich.)--Dwellings.</geogname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/732">Tawas City (Mich.)--Courthouses.</geogname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/733">Tawas City (Mich.)--Dwellings.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5581">Tombs &amp; sepulchral monuments.</subject>
-        <famname source="lcnaf" encodinganalog="600">Whitmore family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/389">Whitmore family.</famname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Harlow, Charles.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81076840">Mason, Stevens Thomson, 1811-1843.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n90605058">Mayhew, Ira, 1814-1894.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85220659">Meade, George Gordon, 1815-1872.</persname>
-        <persname source="lcnaf" encodinganalog="700">Morgan, Gilbert.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88159840">Pitcher, Zina, 1797-1872.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr88012180">Smith, Hyrum, 1800-1844.</persname>
-        <persname source="lcnaf" encodinganalog="700">Trowbridge, Rowland E., 1821-1881.</persname>
-        <persname source="lcnaf" encodinganalog="700">Whipple, Charles Whiley, 1805-1855.</persname>
-        <persname source="lcnaf" encodinganalog="700">Whittemore, James Olin, 1828-1889.</persname>
-        <persname source="lcnaf" encodinganalog="700">Whittemore, W. Frank.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28661">Harlow, Charles.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81076840" ref="/agents/people/31651">Mason, Stevens Thomson, 1811-1843.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n90605058" ref="/agents/people/30385">Mayhew, Ira, 1814-1894.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85220659" ref="/agents/people/29979">Meade, George Gordon, 1815-1872.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33450">Morgan, Gilbert.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88159840" ref="/agents/people/28791">Pitcher, Zina, 1797-1872.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr88012180" ref="/agents/people/35933">Smith, Hyrum, 1800-1844.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33753">Trowbridge, Rowland E., 1821-1881.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/36233">Whipple, Charles Whiley, 1805-1855.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32880">Whittemore, James Olin, 1828-1889.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34428">Whittemore, W. Frank.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

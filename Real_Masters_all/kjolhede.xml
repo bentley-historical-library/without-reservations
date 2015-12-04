@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Kjølhede, Peder</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/27875">Kjølhede, Peder</persname>
       </origination>
       <unittitle encodinganalog="245">Peder Kjølhede papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1800/1935">1800-1935</unitdate>
@@ -84,8 +85,8 @@ Peder Kjølhede papers, Bentley Historical Library, University of Michigan</p>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5682">Clergy--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5683">Danish Americans--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2163">Grayling (Mich.)--Religion.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Lutheran Church--Michigan--Grayling.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Lutheran Church--Michigan--Muskegon.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9274">Lutheran Church--Michigan--Grayling.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9274">Lutheran Church--Michigan--Muskegon.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2164">Muskegon (Mich.)--Religion.</geogname>
       </controlaccess>
       <controlaccess>

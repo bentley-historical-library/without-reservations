@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Michigan Medical Self-Determination Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/12028">Michigan Medical Self-Determination Association.</corpname>
       </origination>
       <unittitle encodinganalog="245">Michigan Medical Self-Determination Association Records <unitdate type="inclusive" encodinganalog="245$f" normal="1984/1992">1984-1992</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">9539 Bj 2</unitid>
@@ -83,7 +84,7 @@ Michigan Medical Self-Determination Association Records
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Medical Self-Determination Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12028">Michigan Medical Self-Determination Association.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9396">Right to die--Law and legislation--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9397">Patients--Legal status, laws, etc.--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8176">Right to die--Michigan.</subject>

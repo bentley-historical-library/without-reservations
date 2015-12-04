@@ -31,7 +31,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Byrd, Letitia J.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32127">Byrd, Letitia J.</persname>
       </origination>
       <unittitle encodinganalog="245">Letitia J. Byrd Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1932/2009">1932-2009</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">05132 Aa 2</unitid>
@@ -83,9 +84,9 @@ Letitia J. Byrd Papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Byrd, Letitia J.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32127">Byrd, Letitia J.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6621">African American women educators--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n91022356">Ann Arbor Public Schools.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n91022356" ref="/agents/corporate_entities/9992">Ann Arbor Public Schools.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6622">Social service--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6623">Women educators--Michigan--Ann Arbor.</subject>
       </controlaccess>

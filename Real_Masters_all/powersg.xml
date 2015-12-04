@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Power, Sarah Goddard, 1935-1987.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28955">Power, Sarah Goddard, 1935-1987.</persname>
       </origination>
       <unittitle encodinganalog="245">Sarah Goddard Power Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1953/1987">1953-1987</unitdate></unittitle>
       <abstract>Regent of the University of Michigan; public figure concerned with national and international women's rights issues. Files relating to her public life, especially her interest in the University of Michigan, notably during the presidency of Harold T. Shapiro, the work of the United Nations Educational, Scientific, and Cultural Organization, and state and local Democratic Party matters.</abstract>
@@ -85,12 +86,12 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9364">Civic leaders--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731">Democratic Party (Mich.)</corpname>
-        <persname source="lcnaf" encodinganalog="600">Power, Sarah Goddard, 1935-1987.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n84041141">Shapiro, Harold T., 1935-</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79054523">UNESCO.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Administration.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998">University of Michigan. Board of Regents.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731" ref="/agents/corporate_entities/12900">Democratic Party (Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28955">Power, Sarah Goddard, 1935-1987.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n84041141" ref="/agents/people/27625">Shapiro, Harold T., 1935-</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79054523" ref="/agents/corporate_entities/13195">UNESCO.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Administration.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998" ref="/agents/corporate_entities/10883">University of Michigan. Board of Regents.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9365">Women civic leaders--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5735">Women in politics--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7408">Women's rights.</subject>
@@ -98,30 +99,30 @@
       <controlaccess>
         <head>Subjects - Visual Material:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5685">African Americans.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50024808">Ford, Betty, 1918-2011.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79022087">Ford, Gerald R., 1913-2006.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50024063">Friedan, Betty.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82018373">Griffiths, Martha W. (Martha Wright), 1912-2003.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82102536">Iacocca, Lee A.</persname>
-        <persname source="lcnaf" encodinganalog="600">Mondale, Joan Adams, 1930-</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79077424">Mondale, Walter F., 1928-</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79118912">Muskie, Edmund S., 1914-1996</persname>
-        <persname source="lcnaf" encodinganalog="600">Power, Philip H.</persname>
-        <persname source="lcnaf" encodinganalog="600">Power, Sarah Goddard, 1935-1987.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n84041141">Shapiro, Harold T., 1935-</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79054523">UNESCO.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998">University of Michigan. Board of Regents.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Commencements.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50024808" ref="/agents/people/33809">Ford, Betty, 1918-2011.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79022087" ref="/agents/people/31340">Ford, Gerald R., 1913-2006.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50024063" ref="/agents/people/31207">Friedan, Betty.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82018373" ref="/agents/people/31752">Griffiths, Martha W. (Martha Wright), 1912-2003.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82102536" ref="/agents/people/30848">Iacocca, Lee A.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30048">Mondale, Joan Adams, 1930-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79077424" ref="/agents/people/31466">Mondale, Walter F., 1928-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79118912" ref="/agents/people/27619">Muskie, Edmund S., 1914-1996</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32483">Power, Philip H.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28955">Power, Sarah Goddard, 1935-1987.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n84041141" ref="/agents/people/27625">Shapiro, Harold T., 1935-</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79054523" ref="/agents/corporate_entities/13195">UNESCO.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998" ref="/agents/corporate_entities/10883">University of Michigan. Board of Regents.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Commencements.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Students.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3858">Women--Political life.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3679">Women's rights.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects--Sound Recordings</head>
-        <persname source="lcnaf" encodinganalog="600">Power, Sarah Goddard, 1935-1987.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998">University of Michigan. Board of Regents.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Commencements--1976.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Commencements--1979.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28955">Power, Sarah Goddard, 1935-1987.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998" ref="/agents/corporate_entities/10883">University of Michigan. Board of Regents.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Commencements--1976.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Commencements--1979.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

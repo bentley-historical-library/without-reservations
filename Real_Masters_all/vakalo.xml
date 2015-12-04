@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n90646194">Vakalo, Kathleen L.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n90646194" ref="/agents/people/29183">Vakalo, Kathleen L.</persname>
       </origination>
       <unittitle encodinganalog="245">Kathleen L. Vakalo Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1971/1991">1971-1991</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">04102 Aa 2</unitid>
@@ -77,10 +78,10 @@ Kathleen L. Vakalo Papers
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n90646194">Vakalo, Kathleen L.</persname>
-        <corpname source="lcnaf" encodinganalog="610">International Low-Level Radioactive Waste Research and Education Institute.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no91017867">Michigan Low-Level Radioactive Waste Authority.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2001000715">Midwest Interstate Low-Level Radioactive Waste Commission (U.S.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n90646194" ref="/agents/people/29183">Vakalo, Kathleen L.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13402">International Low-Level Radioactive Waste Research and Education Institute.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no91017867" ref="/agents/corporate_entities/10845">Michigan Low-Level Radioactive Waste Authority.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2001000715" ref="/agents/corporate_entities/9173">Midwest Interstate Low-Level Radioactive Waste Commission (U.S.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10505">Low level radioactive waste disposal facilities--Location--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10506">Radioactive waste sites--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7268">Radioactive waste disposal--Michigan.</subject>

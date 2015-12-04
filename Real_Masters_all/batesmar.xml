@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n50006342">Bates, Marston, 1906-1974.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n50006342" ref="/agents/people/29675">Bates, Marston, 1906-1974.</persname>
       </origination>
       <unittitle encodinganalog="245">Marston Bates Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1913/1974">1913-1974</unitdate></unittitle>
       <abstract>Professor of zoology at the University of Michigan, scientist for the Rockefeller Foundation, and scientific writer for both professional and popular publications. Correspondence, journals, manuscripts of writings, and class materials, including papers detailing his work with the United Fruit Company in Central America, 1928-1931, his later activities with the International Health Division of the Rockefeller Foundation, especially his interest in mosquito research and malaria control programs during the 1930's and 1940's, and his demographic studies of the people of the Ifalik Atoll in the South Pacific in 1953; and photographs.</abstract>
@@ -80,24 +81,24 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50006342">Bates, Marston, 1906-1974.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50006342" ref="/agents/people/29675">Bates, Marston, 1906-1974.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1014">Central America.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50017138">Cranbrook Institute of Science.</corpname>
-        <corpname source="lcnaf" encodinganalog="611" authfilenumber="http://id.loc.gov/authorities/names/n91127240">Darwin Centennial Celebration (1959 : University of Chicago)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50017138" ref="/agents/corporate_entities/11294">Cranbrook Institute of Science.</corpname>
+        <corpname source="lcnaf" encodinganalog="611" authfilenumber="http://id.loc.gov/authorities/names/n91127240" ref="/agents/corporate_entities/13758">Darwin Centennial Celebration (1959 : University of Chicago)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1015">Ifalik Atoll (Micronesia)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6151">Malaria.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6152">Mosquitoes--Control.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81032749">Rockefeller Foundation. International Health Division.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79006852">United Fruit Company.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Zoology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81032749" ref="/agents/corporate_entities/12226">Rockefeller Foundation. International Health Division.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79006852" ref="/agents/corporate_entities/12077">United Fruit Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11303">University of Michigan. Dept. of Zoology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6153">Zoology.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1016">Albania.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3813">Animals.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50006342">Bates, Marston, 1906-1974.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50006342" ref="/agents/people/29675">Bates, Marston, 1906-1974.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3814">Birds.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1014">Central America.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3593">Classrooms--Michigan--Ann Arbor.</subject>
@@ -106,63 +107,63 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3815">Mosquitoes.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3816">Teaching methods.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6154">Television in education.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79006852">United Fruit Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79006852" ref="/agents/corporate_entities/12077">United Fruit Company.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3817">Zoology.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81042314">Abbott, Donald Putnam.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88682582">Benítez, Jaime, 1908-2001</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81063208">Boulding, Kenneth E. (Kenneth Ewart), 1910-1993</persname>
-        <persname source="lcnaf" encodinganalog="700">Brown, Dugald E. S., 1901-</persname>
-        <persname source="lcnaf" encodinganalog="700">Bugher, John Clifford, 1901-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n83148797">Burrows, Edwin G. (Edwin Grant), 1891-1958.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50032847">Cain, Stanley A. (Stanley Adair), 1902-1995</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79120914">Childe, V. Gordon (Vere Gordon), 1892-1957.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87851606">Crist, Raymond E.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79138634">Darlington, Philip Jackson, 1904-1983.</persname>
-        <persname source="lcnaf" encodinganalog="700">DeVinney, Leland Collins, 1906-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50040421">De Voto, Bernard Augustine, 1897-1955.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2015027529">Dice, Lee Raymond, 1887-1977.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50027506">Douglas, Paul H. (Paul Howard), 1892-1976</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2010068034">Dunn, Emmett Reid, 1894-1956.</persname>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n79095265">Ecological Society of America.</corpname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85335475">Fairchild, David, 1869-1954.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82232653">Fairchild, G. B.</persname>
-        <persname source="lcnaf" encodinganalog="700">Fairchild, Marian H.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no89013050">Fleming, R. W. (Robben Wright), 1916-2010.</persname>
-        <persname source="lcnaf" encodinganalog="700">Gaige, Frederick M.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n93011642">Gerlach, Lee.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86025505">Grosvenor, Gilbert Hovey, 1875-1966.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50032967">Grosvenor, Melville Bell, 1901-1982.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr90022702">Haber, William, 1899-1988.</persname>
-        <persname source="lcnaf" encodinganalog="700">Hackett, Lewis Wendell, 1884-1962.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50033375">Hatcher, Harlan, 1898-1998.</persname>
-        <persname source="lcnaf" encodinganalog="700">Hicks, Welmer K., 1909-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no00039433">Hubbell, Theodore Huntington, 1897-1989.</persname>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n50082525">John Simon Guggenheim Memorial Foundation.</corpname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2010204545">Just, Theodor Karl, 1904-1960.</persname>
-        <persname source="lcnaf" encodinganalog="700">Kennedy, John S.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79065235">Kinsey, Alfred C. (Alfred Charles), 1894-1956.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr99034098">Kumm, Henry William, 1901-</persname>
-        <persname source="lcnaf" encodinganalog="700">Logan, John A.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n78093416">Mead, Margaret, 1901-1978.</persname>
-        <persname source="lcnaf" encodinganalog="700">Muñoz Marín, Luis, 1898-1980.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n94057548">Pollock, James K. (James Kerr), 1898-1968</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n92038725">Popenoe, Wilson, 1892-1975</persname>
-        <persname source="lcnaf" encodinganalog="700">Rahn, Sheldon Lloyd, 1918-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86825319">Rockefeller, David, 1915-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no00039450">Rogers, J. Speed (James Speed), 1892-1955</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80013000">Rusk, Dean, 1909-1994</persname>
-        <persname source="lcnaf" encodinganalog="700">Russell, Diarmuid.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80002532">Sauer, Carl Ortwin, 1889-1975</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85814346">Sawyer, Ralph A. (Ralph Alanson), 1895-1978.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82013184">Scribner, Charles, Jr., 1921-1995</persname>
-        <persname source="lcnaf" encodinganalog="700">Soop, Everett J., 1901-</persname>
-        <persname source="lcnaf" encodinganalog="700">Trapido, Harold.</persname>
-        <persname source="lcnaf" encodinganalog="700">Twente, John W.</persname>
-        <persname source="lcnaf" encodinganalog="700">Wagman, Frederick H.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50017308">Wilgus, A. Curtis (Alva Curtis), 1897-1981.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81042314" ref="/agents/people/29609">Abbott, Donald Putnam.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88682582" ref="/agents/people/28686">Benítez, Jaime, 1908-2001</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81063208" ref="/agents/people/35137">Boulding, Kenneth E. (Kenneth Ewart), 1910-1993</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28487">Brown, Dugald E. S., 1901-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35305">Bugher, John Clifford, 1901-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n83148797" ref="/agents/people/28405">Burrows, Edwin G. (Edwin Grant), 1891-1958.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50032847" ref="/agents/people/34767">Cain, Stanley A. (Stanley Adair), 1902-1995</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79120914" ref="/agents/people/32035">Childe, V. Gordon (Vere Gordon), 1892-1957.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87851606" ref="/agents/people/34152">Crist, Raymond E.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79138634" ref="/agents/people/27820">Darlington, Philip Jackson, 1904-1983.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35228">DeVinney, Leland Collins, 1906-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50040421" ref="/agents/people/36106">De Voto, Bernard Augustine, 1897-1955.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2015027529" ref="/agents/people/32892">Dice, Lee Raymond, 1887-1977.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50027506" ref="/agents/people/28291">Douglas, Paul H. (Paul Howard), 1892-1976</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2010068034" ref="/agents/people/29615">Dunn, Emmett Reid, 1894-1956.</persname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n79095265" ref="/agents/corporate_entities/12193">Ecological Society of America.</corpname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85335475" ref="/agents/people/30999">Fairchild, David, 1869-1954.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82232653" ref="/agents/people/31612">Fairchild, G. B.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32709">Fairchild, Marian H.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no89013050" ref="/agents/people/28515">Fleming, R. W. (Robben Wright), 1916-2010.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/36103">Gaige, Frederick M.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n93011642" ref="/agents/people/35468">Gerlach, Lee.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86025505" ref="/agents/people/33068">Grosvenor, Gilbert Hovey, 1875-1966.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50032967" ref="/agents/people/28231">Grosvenor, Melville Bell, 1901-1982.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr90022702" ref="/agents/people/28919">Haber, William, 1899-1988.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34267">Hackett, Lewis Wendell, 1884-1962.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50033375" ref="/agents/people/29390">Hatcher, Harlan, 1898-1998.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33020">Hicks, Welmer K., 1909-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no00039433" ref="/agents/people/34998">Hubbell, Theodore Huntington, 1897-1989.</persname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n50082525" ref="/agents/corporate_entities/10729">John Simon Guggenheim Memorial Foundation.</corpname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2010204545" ref="/agents/people/32894">Just, Theodor Karl, 1904-1960.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34581">Kennedy, John S.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79065235" ref="/agents/people/28542">Kinsey, Alfred C. (Alfred Charles), 1894-1956.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr99034098" ref="/agents/people/31880">Kumm, Henry William, 1901-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32389">Logan, John A.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n78093416" ref="/agents/people/34386">Mead, Margaret, 1901-1978.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31699">Muñoz Marín, Luis, 1898-1980.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n94057548" ref="/agents/people/31076">Pollock, James K. (James Kerr), 1898-1968</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n92038725" ref="/agents/people/34736">Popenoe, Wilson, 1892-1975</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31899">Rahn, Sheldon Lloyd, 1918-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86825319" ref="/agents/people/27757">Rockefeller, David, 1915-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no00039450" ref="/agents/people/32955">Rogers, J. Speed (James Speed), 1892-1955</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80013000" ref="/agents/people/27524">Rusk, Dean, 1909-1994</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33899">Russell, Diarmuid.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80002532" ref="/agents/people/28116">Sauer, Carl Ortwin, 1889-1975</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85814346" ref="/agents/people/34206">Sawyer, Ralph A. (Ralph Alanson), 1895-1978.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82013184" ref="/agents/people/29702">Scribner, Charles, Jr., 1921-1995</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28763">Soop, Everett J., 1901-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35830">Trapido, Harold.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30780">Twente, John W.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34146">Wagman, Frederick H.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50017308" ref="/agents/people/27809">Wilgus, A. Curtis (Alva Curtis), 1897-1981.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

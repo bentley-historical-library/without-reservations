@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Lehman, Evangeline Marie, 1896-1975.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/34566">Lehman, Evangeline Marie, 1896-1975.</persname>
       </origination>
       <unittitle encodinganalog="245">Evangeline Marie Lehman and Maurice Dumesnil papers <unitdate type="inclusive" encodinganalog="245$f" normal="1916/1974">1916-1974</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">861125 Aa 2; UAm</unitid>
@@ -98,20 +99,20 @@ Evangeline Marie Lehman and Maurice Dumesnil papers, Bentley Historical Library,
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Lehman, Evangeline Marie, 1896-1975.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34566">Lehman, Evangeline Marie, 1896-1975.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8757">Music--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8758">Musicians--United States.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no88000701">Dumesnil, Maurice, 1886-1974.</persname>
-        <persname source="lcnaf" encodinganalog="600">Lehman, Evangeline Marie, 1896-1975.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no88000701" ref="/agents/people/35215">Dumesnil, Maurice, 1886-1974.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34566">Lehman, Evangeline Marie, 1896-1975.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4678">Music--United States.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4011">Musicians--United States.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no88000701">Dumesnil, Maurice, 1886-1974.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no88000701" ref="/agents/people/35215">Dumesnil, Maurice, 1886-1974.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Office of International Academic Affairs.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/10466">University of Michigan. Office of International Academic Affairs.</corpname>
       </origination>
       <unittitle encodinganalog="245">Office of International Academic Affairs (University of Michigan), records</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1968/1993">1968-1993</unitdate>
@@ -96,13 +97,13 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9588">Exchange of persons programs.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9589">International education--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9590">Teacher exchange programs.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Office of International Academic Affairs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10466">University of Michigan. Office of International Academic Affairs.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85153068">Mandela, Nelson, 1918-2013</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85153068" ref="/agents/people/30760">Mandela, Nelson, 1918-2013</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2448">South Africa--Description and travel.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Office of International Academic Affairs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10466">University of Michigan. Office of International Academic Affairs.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

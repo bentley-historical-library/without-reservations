@@ -39,7 +39,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E., the "papers" sections scanned and OCRed from Avery Library finding aid and converted to Bentley Historical Library format. Item level descriptions of Avery drawings taken from RLIN records.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Avery Architectural and Fine Arts Library <lb/>Columbia University <lb/> and <lb/>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -50,7 +51,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Muschenheim, William, 1902-1990.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/31789">Muschenheim, William, 1902-1990.</persname>
       </origination>
       <unittitle encodinganalog="245">Muschenheim, William. Architectural drawings and papers. <unitdate type="inclusive" encodinganalog="245$f" normal="1923/1990">1923-1990</unitdate></unittitle>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
@@ -153,7 +154,7 @@
     <controlaccess>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no97032876">Muschenheim, William.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no97032876" ref="/agents/people/29780">Muschenheim, William.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/849">Ann Arbor (Mich.)--Buildings, structures, etc.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6460">Architects--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9471">Architects--New York (State)</subject>
@@ -166,8 +167,8 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9474">Housing--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9475">New York (State)--Buildings, structures, etc.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1463">Saline (Mich.)--Buildings, structures, etc.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82166171">University of Michigan. College of Architecture and Design.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82166171" ref="/agents/corporate_entities/9167">University of Michigan. College of Architecture and Design.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9476">Architecture--Study and teaching.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6461">Architectural practice--Michigan--Ann Arbor.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2414">Hampton Bays (N.Y.)--Buildings, structures, etc.</geogname>

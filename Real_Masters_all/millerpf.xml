@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Miller, Philip F. (Philip Fall), 1915-1970.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30782">Miller, Philip F. (Philip Fall), 1915-1970.</persname>
       </origination>
       <unittitle encodinganalog="245">Philip F. Miller papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1932/1938">1932-1938</unitdate>
@@ -89,7 +90,7 @@ Philip F. Miller papers, Bentley Historical Library, University of Michigan</p>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <famname source="lcnaf" encodinganalog="600">Miller family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/238">Miller family.</famname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4929">Newspaper carriers.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4960">Newspaper industry--Michigan--Oakland County.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n50069670.html" ref="/subjects/1215">Royal Oak (Mich.)</geogname>

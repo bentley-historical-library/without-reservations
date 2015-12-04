@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Brownson, William T.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/31561">Brownson, William T.</persname>
       </origination>
       <unittitle encodinganalog="245">William T. Brownson papers <unitdate type="inclusive" encodinganalog="245$f" normal="1949/1975">1949-1975</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">8549 Aa 2</unitid>
@@ -83,19 +84,19 @@ William T. Brownson papers, Bentley Historical Library, University of Michigan</
       <controlaccess>
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html" ref="/subjects/860">Ann Arbor (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600">Brownson, William T.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79058450">International Brotherhood of Teamsters, Chauffeurs, Warehousemen, and Helpers of America.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31561">Brownson, William T.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79058450" ref="/agents/corporate_entities/14463">International Brotherhood of Teamsters, Chauffeurs, Warehousemen, and Helpers of America.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6505">Industrial relations--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6506">Land use--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Concrete Pipe Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11485">Michigan Concrete Pipe Association.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6507">Citizens' associations--Michigan.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/210">Ann Arbor (Mich.)--Business enterprises.</geogname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/209">Ann Arbor (Mich.)--Streets.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Arborland (Shopping mall : Ann Arbor, Mich.)</corpname>
-        <persname source="lcnaf" encodinganalog="600">Brownson, William T.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13877">Arborland (Shopping mall : Ann Arbor, Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31561">Brownson, William T.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6508">Shopping malls--Michigan--Ann Arbor.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1375">Stadium Boulevard (Ann Arbor, Mich.)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3845">Streets--Michigan--Ann Arbor.</subject>

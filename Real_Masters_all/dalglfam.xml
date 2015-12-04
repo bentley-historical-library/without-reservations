@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Dalgleish family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/285">Dalgleish family.</famname>
       </origination>
       <unittitle encodinganalog="245">Dalgleish family business records</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1929/2013">1929-2013</unitdate>
@@ -87,12 +88,12 @@ Dalgleish family business records, Bentley Historical Library, University of Mic
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <famname source="lcnaf" encodinganalog="600">Dalgleish family.</famname>
-        <persname source="lcnaf" encodinganalog="600">Dalgleish, Charles.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/285">Dalgleish family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32670">Dalgleish, Charles.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7106">Automobile dealers--Michigan--Detroit.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7107">Automobile industry and trade--Michigan--Detroit.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7108">Cadillac automobile.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Dalgleish Cadillac.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11124">Dalgleish Cadillac.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7109">Family-owned business enterprises--Michigan--Detroit.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7110">Nash automobiles.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7111">Oldsmobile automobile.</subject>
@@ -105,7 +106,7 @@ Dalgleish family business records, Bentley Historical Library, University of Mic
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Dalgleish, Charles.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32670">Dalgleish, Charles.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

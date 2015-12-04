@@ -23,7 +23,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Program in American Culture.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/8967">University of Michigan. Program in American Culture.</corpname>
       </origination>
       <unittitle encodinganalog="245">Program in American Culture (University of Michigan) records</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1964/1997">1964-1997</unitdate>
@@ -121,13 +122,13 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Program in American Culture.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/8967">University of Michigan. Program in American Culture.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5861">National Characteristics, American.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5862">Popular culture--Study and teaching (Higher)--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5863">Culture--Study and teaching (Higher)--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5864">Multiculturalism--Study and teaching (Higher)--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/925">United States--Intellectual life--20th century.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/926">United States--Social life and customs--Study and teaching (Higher)--Michigan.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/927">United States--Civilization--Study and teaching (Higher)--Michigan.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5865">Hispanic Americans--Study and teaching (Higher)--Michigan--Ann Arbor.</subject>

@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Chand, Rup, 1902-1994.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32388">Chand, Rup, 1902-1994.</persname>
       </origination>
       <unittitle encodinganalog="245">Rup Chand papers <unitdate type="inclusive" encodinganalog="245$f" normal="1930/1994">1930-1994</unitdate></unittitle>
       <abstract>Rup Chand was associated with the University of Michigan for over forty years as a collector and labeler of plant and bird specimens from India, Iran, Afghanistan, Tibet, and other parts of the Middle East and South Asia. The collection documents his travels and his work as a collector of plant and bird specimens, his association with Walter Koelz, collector of plants for the University of Michigan. The collection includes biographical information; correspondence; journals for the period 1934-1994 documenting his travels and specimen collecting; and photographs and slides of South Asia and the Middle East, and of his life and travels in the United States.</abstract>
@@ -86,19 +87,19 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Chand, Rup, 1902-1994.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32388">Chand, Rup, 1902-1994.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2168">Afghanistan.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8688">Birds--Collection and preservation.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/969">India.</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82028490">Koelz, Walter, 1895-1989</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82028490" ref="/agents/people/34728">Koelz, Walter, 1895-1989</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1434">Iran.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8692">Plants--Collection and preservation.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2772">Tibet (China)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80019632">University of Michigan. University Herbarium.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80019632" ref="/agents/corporate_entities/13957">University of Michigan. University Herbarium.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Chand, Rup, 1902-1994.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32388">Chand, Rup, 1902-1994.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2168">Afghanistan.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2773">Baltistan (Pakistan)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html" ref="/subjects/860">Ann Arbor (Mich.)</geogname>

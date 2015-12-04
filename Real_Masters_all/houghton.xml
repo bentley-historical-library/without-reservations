@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/nr92024162">Houghton, Douglass, 1809-1845.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/nr92024162" ref="/agents/people/35844">Houghton, Douglass, 1809-1845.</persname>
       </origination>
       <unittitle encodinganalog="245">Douglass Houghton Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1829/1845">1829-1845</unitdate></unittitle>
       <abstract>State geologist of Michigan. Field notes, 1837-1841, of his geological survey of the state, including some original drawings [original and typescript copies, and microfilm of pages 197-291]; letter book, 1841-1845; miscellaneous correspondence and field notes, including letter, May 31, 1841, to Abram Sager; notes and other papers collected by Mrs. John Ehlers for her book on Houghton, including copies of papers of Bela Hubbard; and photographs.</abstract>
@@ -100,15 +101,15 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Ehlers, John, Mrs.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29370">Ehlers, John, Mrs.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8314">Geology--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr92024162">Houghton, Douglass, 1809-1845.</persname>
-        <persname source="lcnaf" encodinganalog="600">Sager, Abram, 1810-1877.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr92024162" ref="/agents/people/35844">Houghton, Douglass, 1809-1845.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31736">Sager, Abram, 1810-1877.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6657">Surveyors--Michigan.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr92024162">Houghton, Douglass, 1809-1845.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr92024162" ref="/agents/people/35844">Houghton, Douglass, 1809-1845.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Maps</head>
@@ -161,9 +162,9 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n83196231">Hubbard, Bela, 1814-1896.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81076840">Mason, Stevens Thomson, 1811-1843.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88159841">Woodbridge, William, 1780-1861.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n83196231" ref="/agents/people/27790">Hubbard, Bela, 1814-1896.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81076840" ref="/agents/people/31651">Mason, Stevens Thomson, 1811-1843.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88159841" ref="/agents/people/28607">Woodbridge, William, 1780-1861.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

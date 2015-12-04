@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Coleman, Mary S., 1914-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32353">Coleman, Mary S., 1914-</persname>
       </origination>
       <unittitle encodinganalog="245">Mary S. Coleman Papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1938/1984">1938-1984</unitdate>
@@ -87,22 +88,22 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6259">Apportionment (Election law)--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/ns2012004784">Coleman, Mary S. (Mary Stallings), 1914-2001</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/ns2012004784" ref="/agents/people/34927">Coleman, Mary S. (Mary Stallings), 1914-2001</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6884">Elections--Michigan--1972.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5797">Elections--Michigan--1980.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5732">Judges--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6442">Juvenile delinquency--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6885">Lawyers--Michigan--Battle Creek.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81074669">Michigan. Supreme Court.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81074669" ref="/agents/corporate_entities/10286">Michigan. Supreme Court.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6886">Women judges--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6887">Women lawyers--Michigan--Battle Creek.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Coleman, Creighton R., 1912-</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/ns2012004784">Coleman, Mary S. (Mary Stallings), 1914-2001</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/27914">Coleman, Creighton R., 1912-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/ns2012004784" ref="/agents/people/34927">Coleman, Mary S. (Mary Stallings), 1914-2001</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/919">Germany.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81074669">Michigan. Supreme Court.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81074669" ref="/agents/corporate_entities/10286">Michigan. Supreme Court.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4078">Prison facilities.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3619">Women.</subject>
       </controlaccess>

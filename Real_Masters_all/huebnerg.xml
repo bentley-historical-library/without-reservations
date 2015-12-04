@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Huebner, George J., 1910-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33974">Huebner, George J., 1910-</persname>
       </origination>
       <unittitle encodinganalog="245">George J. Huebner papers <unitdate type="inclusive" encodinganalog="245$f" normal="1954/1976">1954-1976</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85211 Aa 2</unitid>
@@ -80,18 +81,18 @@ George J. Huebner papers, Bentley Historical Library, University of Michigan</p>
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6544">Automobile industry and trade--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Chrysler Corporation.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9472">Chrysler Corporation.</corpname>
         <subject source="local" encodinganalog="690" ref="/subjects/3524">Engineering.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6831">Engineers--Michigan.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4048">Automobile industry.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Chrysler Corporation.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9472">Chrysler Corporation.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4549">Engines.</subject>
-        <persname source="lcnaf" encodinganalog="600">Huebner, Gertrude, 1915-</persname>
-        <persname source="lcnaf" encodinganalog="600">Huebner, George J., 1910-</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79114065">Von Braun, Wernher, 1912-1977.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28585">Huebner, Gertrude, 1915-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33974">Huebner, George J., 1910-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79114065" ref="/agents/people/28794">Von Braun, Wernher, 1912-1977.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

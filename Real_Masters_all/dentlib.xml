@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Dentistry Library.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/10126">University of Michigan. Dentistry Library.</corpname>
       </origination>
       <unittitle encodinganalog="245">Dentistry Library (University of Michigan) records</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1925/2006">1925-2006</unitdate>
@@ -133,9 +134,9 @@ Dentistry Library (University of Michigan) records, Bentley Historical Library, 
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7203">Dentistry--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6305">Libraries--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dentistry Library.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85129645">University of Michigan. School of Dentistry.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10126">University of Michigan. Dentistry Library.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85129645" ref="/agents/corporate_entities/12675">University of Michigan. School of Dentistry.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Students.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

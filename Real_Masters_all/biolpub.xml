@@ -24,7 +24,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Department of Biology.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/12461">University of Michigan. Department of Biology.</corpname>
       </origination>
       <unittitle encodinganalog="245">Department of Biology (University of Michigan) publications</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1945/2002">1945-2002</unitdate>
@@ -89,16 +90,16 @@ Department of Biology (University of Michigan) publications, Bentley Historical 
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Biology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Division of Biological Sciences.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Botany.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13383">University of Michigan. Dept. of Biology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/8943">University of Michigan. Division of Biological Sciences.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9733">University of Michigan. Dept. of Botany.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6333">Biology--Study and teaching (Higher)--Curricula.</subject>
         <title source="aacr2" encodinganalog="740" ref="/subjects/12">Gnat's eye gnus.</title>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Division of Biological Sciences.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Dept. of Botany.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/8943">University of Michigan. Division of Biological Sciences.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/9733">University of Michigan. Dept. of Botany.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

@@ -39,7 +39,8 @@
         <item>original encoding from Word 6.0 file</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -50,7 +51,7 @@
   <archdesc level="collection" type="inventory" audience="external" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Bolt, Jay A. (1911- )</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32321">Bolt, Jay A. (1911- )</persname>
       </origination>
       <unittitle encodinganalog="245">Jay A. Bolt papers</unittitle>
       <unitdate encodinganalog="245$f" type="inclusive" normal="1931/1998">1931-1998</unitdate>
@@ -103,10 +104,10 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr92023085">Bolt, Jay A.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr92023085" ref="/agents/people/31398">Bolt, Jay A.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6390">Mechanical engineering.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83062297">University of Michigan. Dept. of Mechanical Engineering.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83062297" ref="/agents/corporate_entities/14657">University of Michigan. Dept. of Mechanical Engineering.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

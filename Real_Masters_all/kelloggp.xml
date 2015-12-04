@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Kellogg, John Harvey, 1852-1943.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33636">Kellogg, John Harvey, 1852-1943.</persname>
       </origination>
       <unittitle encodinganalog="245">[Published works of John Harvey Kellogg including books, pamphlets, and periodicals] <unitdate type="inclusive" encodinganalog="245$f" normal="1874/1953">1874-1953</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">0046 Aa 2</unitid>
@@ -83,11 +84,11 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Battle Creek Sanitarium.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13423">Battle Creek Sanitarium.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6180">Food.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6181">Hygiene.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8615">Hygiene--Periodicals.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50060957">Kellogg, John Harvey, 1852-1943.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50060957" ref="/agents/people/33636">Kellogg, John Harvey, 1852-1943.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6182">Medicine--Michigan--Battle Creek.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5995">Public health--United States.</subject>
       </controlaccess>

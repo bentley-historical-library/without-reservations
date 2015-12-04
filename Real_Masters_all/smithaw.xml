@@ -24,7 +24,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n85800554">Smith, Arthur Whitmore, 1874-1954.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n85800554" ref="/agents/people/35884">Smith, Arthur Whitmore, 1874-1954.</persname>
       </origination>
       <unittitle encodinganalog="245">Arthur Whitmore Smith papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1893/1954">1893-1954</unitdate>
@@ -84,18 +85,18 @@ The papers are arranged in four series: Biographical Information, Genealogical A
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10122">Genealogy.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6878">Physics.</subject>
-        <famname source="lcnaf" encodinganalog="600">Smith family.</famname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85800554">Smith, Arthur Whitmore, 1874-1954.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85247186">Sons of the American Revolution. Michigan Society.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Physics.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/360">Smith family.</famname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85800554" ref="/agents/people/35884">Smith, Arthur Whitmore, 1874-1954.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85247186" ref="/agents/corporate_entities/11450">Sons of the American Revolution. Michigan Society.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9869">University of Michigan. Dept. of Physics.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/207">Ann Arbor (Mich.)--Dwellings.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3572">Dwellings--Michigan--Ann Arbor.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85800554">Smith, Arthur Whitmore, 1874-1954.</persname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Buildings.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85800554" ref="/agents/people/35884">Smith, Arthur Whitmore, 1874-1954.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Buildings.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

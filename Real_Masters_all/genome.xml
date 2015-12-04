@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Molecular Medicine and Human Genetics Division.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/12278">University of Michigan. Molecular Medicine and Human Genetics Division.</corpname>
       </origination>
       <unittitle encodinganalog="245">Human Gene Therapy Initiative records <unitdate type="inclusive" encodinganalog="245$f" normal="1988/1992">1988-1992</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">9426 Bimu 2</unitid>
@@ -121,12 +122,12 @@ Human Gene Therapy Initiative records, Bentley Historical Library, University of
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7922">Gene mapping--Research--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88044943">Human Genome Project.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88044943" ref="/agents/corporate_entities/11430">Human Genome Project.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7923">Human genetics.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80013262">Kelley, William N. 1939-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80013262" ref="/agents/people/33717">Kelley, William N. 1939-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7924">Medical genetics.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Internal Medicine.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Molecular Medicine and Genetics Division.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13024">University of Michigan. Dept. of Internal Medicine.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14157">University of Michigan. Molecular Medicine and Genetics Division.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

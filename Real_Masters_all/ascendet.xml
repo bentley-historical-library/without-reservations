@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Church of the Ascension (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/13711">Church of the Ascension (Detroit, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">Church of the Ascension, Detroit, Mich., records <unitdate type="inclusive" encodinganalog="245$f" normal="1911/1988">1911-1988</unitdate></unittitle>
       <abstract>Episcopal church located in Detroit, Michigan; church records include church histories, vestry minutes, annual parish meeting minutes and reports, membership directories and card indexes, scattered correspondence and bulletins, records of church women's organization, and photographs.; also register of baptisms, marriages, burials, and communicants; and registers of church services.</abstract>
@@ -85,15 +86,15 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Church of the Ascension (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13711">Church of the Ascension (Detroit, Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5959">Church buildings--Michigan--Detroit.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/952">Detroit (Mich.)--Church history.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Episcopal Church--Michigan--Detroit.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9954">Episcopal Church--Michigan--Detroit.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5960">Registers of births, etc.--Michigan--Detroit.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <corpname source="lcnaf" encodinganalog="610">Church of the Ascension (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13711">Church of the Ascension (Detroit, Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3724">Churches--Michigan--Detroit.</subject>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/218">Detroit (Mich.)--Churches.</geogname>
       </controlaccess>

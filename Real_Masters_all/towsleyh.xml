@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n88038325">Towsley, Harry A.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n88038325" ref="/agents/people/35976">Towsley, Harry A.</persname>
       </origination>
       <unittitle encodinganalog="245">Harry A. Towsley papers <unitdate type="inclusive" encodinganalog="245$f" normal="1876/1990">1876-1990</unitdate></unittitle>
       <abstract>Pediatrician, professor and philanthropist, joined University of Michigan Dept. of Pediatrics and Communicable Diseases in 1934, and served with the 298th General Hospital Unit during World War II. Papers include medical school lecture notes, class of 1931 files, medical research files; correspondence, histories, photographs and motion pictures relating to the 298th General Hospital Unit, family history materials including Frank A. Towsley's diary, 1876, and family correspondence, 1878-1926 and photographs.</abstract>
@@ -101,24 +102,24 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Alpha Kappa Kappa Fraternity. Alpha Iota Chapter (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13702">Alpha Kappa Kappa Fraternity. Alpha Iota Chapter (University of Michigan)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9105">Goiter.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10388">Hospitals.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9123">Iodine.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7165">Medicine--Study and teaching--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9156">Pediatrics.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6031">Physicians--Michigan--Ann Arbor.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88038325">Towsley, Harry A.</persname>
-        <famname source="lcnaf" encodinganalog="600">Towsley family.</famname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. General Hospital Unit, 298th.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Development Council.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151">University of Michigan. Medical School.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Medical School. Class of 1931.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88038325" ref="/agents/people/35976">Towsley, Harry A.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/313">Towsley family.</famname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11533">United States. Army. General Hospital Unit, 298th.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12659">University of Michigan. Development Council.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151" ref="/agents/corporate_entities/11381">University of Michigan. Medical School.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12513">University of Michigan. Medical School. Class of 1931.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10389">World War, 1939-1945--Medical care.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <corpname source="lcnaf" encodinganalog="610">Alpha Kappa Kappa Fraternity. Alpha Iota Chapter (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13702">Alpha Kappa Kappa Fraternity. Alpha Iota Chapter (University of Michigan)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4083">Fishing.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5380">Hospitals.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4240">Hunting.</subject>
@@ -127,23 +128,23 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4216">Military life.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4499">Nurses.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4123">Physicians--Michigan--Ann Arbor.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88038325">Towsley, Harry A.</persname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. General Hospital Unit, 298th.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Medical School. Class of 1931.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88038325" ref="/agents/people/35976">Towsley, Harry A.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11533">United States. Army. General Hospital Unit, 298th.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12513">University of Michigan. Medical School. Class of 1931.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4220">War damage.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5446">Women--Military service.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5681">World War, 1939-1945.</subject>
-        <persname source="lcnaf" encodinganalog="700">Towsley, Frank A., 1858-1919.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88038325">Towsley, Harry A.</persname>
-        <persname source="lcnaf" encodinganalog="700">Towsley, Margaret Dow, 1906-1994.</persname>
-        <persname source="lcnaf" encodinganalog="700">Towsley, Wilbur D., 1897-1971.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27551">Towsley, Frank A., 1858-1919.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88038325" ref="/agents/people/35976">Towsley, Harry A.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29588">Towsley, Margaret Dow, 1906-1994.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35999">Towsley, Wilbur D., 1897-1971.</persname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Towsley, Frank A., 1858-1919.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88038325">Towsley, Harry A.</persname>
-        <persname source="lcnaf" encodinganalog="700">Towsley, Margaret Dow, 1906-1994.</persname>
-        <persname source="lcnaf" encodinganalog="700">Towsley, Wilbur D., 1897-1971.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27551">Towsley, Frank A., 1858-1919.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88038325" ref="/agents/people/35976">Towsley, Harry A.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29588">Towsley, Margaret Dow, 1906-1994.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35999">Towsley, Wilbur D., 1897-1971.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

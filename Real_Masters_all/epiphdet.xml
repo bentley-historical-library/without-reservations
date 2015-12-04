@@ -27,7 +27,8 @@
         <item>Original encoding in EAD Vers. 1.0 from Word 6.0 file using Word macros and some hand tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Epiphany Episcopal Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/11375">Epiphany Episcopal Church (Detroit, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245$a">Epiphany Episcopal Church (Detroit, Mich.) Records</unittitle>
       <unitdate type="inclusive" normal="1895/1975">1895-1975</unitdate>
@@ -91,8 +92,8 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Epiphany Episcopal Church (Detroit, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Episcopal Church--Michigan--Detroit.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11375">Epiphany Episcopal Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9954">Episcopal Church--Michigan--Detroit.</corpname>
         <geogname source="lcsh" encodinganalog="650" ref="/subjects/952">Detroit (Mich.)--Church history.</geogname>
       </controlaccess>
     </controlaccess>

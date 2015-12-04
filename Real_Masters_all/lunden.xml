@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Lunden, Herman, 1859-1929.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/34621">Lunden, Herman, 1859-1929.</persname>
       </origination>
       <unittitle encodinganalog="245">Herman Lunden Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1896/1929">1896-1929</unitdate></unittitle>
       <abstract>Timber manager of the Kneeland Bigelow Company of Bay City, Michigan. Autobiography; correspondence, 1899-1924 (scattered); Kneeland-Bigelow Company records, 1912 and 1923-1929; subject files relating to his interest in conservation, reforestation, forest fire prevention, local Republican party affairs, road improvement, and the development of the northern Lower Peninsula as a tourist and recreational region.</abstract>
@@ -94,12 +95,12 @@
         <geogname source="local" encodinganalog="691" ref="/subjects/833">Bay City (Mich.)--Businesses.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5784">Business records.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6190">Conservation of natural resources--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n95109682">Kneeland-Bigelow Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n95109682" ref="/agents/corporate_entities/14337">Kneeland-Bigelow Company.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6772">Logging--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6773">Lumbering--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="600">Lunden, Herman, 1859-1929.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34621">Lunden, Herman, 1859-1929.</persname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091880.html" ref="/subjects/1564">Montmorency County (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13160">Republican Party (Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6404">Roads--Michigan.</subject>
       </controlaccess>
       <controlaccess>
@@ -110,13 +111,13 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3578">Exhibitions.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n84150579.html" ref="/subjects/1489">Gaylord (Mich.)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4720">Industrial buildings--Michigan--Lewiston.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n95109682">Kneeland-Bigelow Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n95109682" ref="/agents/corporate_entities/14337">Kneeland-Bigelow Company.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3665">Laborers.</subject>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/377">Lewiston (Mich.)--Industrial buildings.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3706">Lumber industry--Michigan.</subject>
-        <famname source="lcnaf" encodinganalog="600">Lunden family.</famname>
-        <corpname source="lcnaf" encodinganalog="610">Michaelson and Hanson Lumber Company.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan State Normal College--Students.</corpname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/197">Lunden family.</famname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11804">Michaelson and Hanson Lumber Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9741">Michigan State Normal College--Students.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3839">Railroads--Michigan.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3799">Roads--Michigan.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3719">Woodcutting.</subject>

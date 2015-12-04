@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Penn Central Transportation Company</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/8895">Penn Central Transportation Company</corpname>
       </origination>
       <unittitle encodinganalog="245">Penn Central Transportation Company Records</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1835/1981">1835-1981</unitdate>
@@ -170,39 +171,39 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Railroad Company.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Bay View, Little Traverse and Mackinac Rail Road Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13911">Ann Arbor Railroad Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14602">Bay View, Little Traverse and Mackinac Rail Road Company.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5784">Business records.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Canada Southern Bridge Company.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n94013415">Canada Southern Railway Company.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Caro and Lake Huron Railroad Company.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Chicago River and Indiana Railroad Company.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Detroit and Bay City Railroad Company.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Detroit Manufacturers' Railroad Company.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Detroit, Monroe &amp; Toledo Short Line Railway.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2011197835">Detroit River Tunnel Company.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Detroit Terminal Railroad Company.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Detroit, Toledo, and Ironton Railroad.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Detroit Union Railroad, Depot &amp; Station Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12131">Canada Southern Bridge Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n94013415" ref="/agents/corporate_entities/11714">Canada Southern Railway Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13580">Caro and Lake Huron Railroad Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10242">Chicago River and Indiana Railroad Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12734">Detroit and Bay City Railroad Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12267">Detroit Manufacturers' Railroad Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10782">Detroit, Monroe &amp; Toledo Short Line Railway.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2011197835" ref="/agents/corporate_entities/10705">Detroit River Tunnel Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13520">Detroit Terminal Railroad Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13357">Detroit, Toledo, and Ironton Railroad.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9232">Detroit Union Railroad, Depot &amp; Station Company.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9700">Ferries--Great Lakes.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Grand Rapids and Indiana Railroad Company.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Jackson, Lansing and Saginaw Railroad Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10448">Grand Rapids and Indiana Railroad Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12297">Jackson, Lansing and Saginaw Railroad Company.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9013">Railroads--Michigan--Employees.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Lake Shore &amp; Michigan Southern Railway.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Mackinac Transportation Company.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2004101917">Manistique and Lake Superior Railroad Company.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Manistique, Marquette and Northern Railroad Company.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Air Line Railroad Company.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n86134555">Michigan Central Railroad Company.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88277380">Michigan Southern and Northern Indiana Railroad Company.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Muskegon, Grand Rapids and Indiana Railroad Company.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">New York Central and Hudson River Railroad Company.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">New York Central Railroad Company.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82258320">Pennsylvania Railroad.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14343">Lake Shore &amp; Michigan Southern Railway.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9363">Mackinac Transportation Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2004101917" ref="/agents/corporate_entities/10868">Manistique and Lake Superior Railroad Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11811">Manistique, Marquette and Northern Railroad Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9072">Michigan Air Line Railroad Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n86134555" ref="/agents/corporate_entities/9220">Michigan Central Railroad Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88277380" ref="/agents/corporate_entities/12976">Michigan Southern and Northern Indiana Railroad Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13549">Muskegon, Grand Rapids and Indiana Railroad Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14147">New York Central and Hudson River Railroad Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14536">New York Central Railroad Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82258320" ref="/agents/corporate_entities/10406">Pennsylvania Railroad.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7313">Railroads--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6680">Railroads--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Traverse City Railroad Company.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Western Transit Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10509">Traverse City Railroad Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12807">Western Transit Company.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
@@ -212,7 +213,7 @@
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79119217.html" ref="/subjects/2477">Milwaukee (Wis.)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5128">Railroads--Wisconsin--Milwaukee.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5129">Railroads--Michigan--Manistee.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr99035136">Wisconsin and Michigan Transportation Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr99035136" ref="/agents/corporate_entities/12647">Wisconsin and Michigan Transportation Company.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Aprill, Theophil.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30273">Aprill, Theophil.</persname>
       </origination>
       <unittitle encodinganalog="245">Theophil Aprill papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1914/2000">1914-2000</unitdate>
@@ -87,16 +88,16 @@ Theophil Aprill papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Aprill, Theophil.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30273">Aprill, Theophil.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/882">Ann Arbor (Mich.)--Church history.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5930">Lutheran Church--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Zion Lutheran Church (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13684">Zion Lutheran Church (Ann Arbor, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Visual Materials</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3715">Construction--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Foresters Camp.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Koch Building and Supply Co.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12235">Foresters Camp.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14098">Koch Building and Supply Co.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre</head>

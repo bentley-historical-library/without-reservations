@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Marzolf, Marion T.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/31628">Marzolf, Marion T.</persname>
       </origination>
       <unittitle encodinganalog="245">Marion T. Marzolf papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1961/1995" certainty="approximate">circa 1961-1995</unitdate>
@@ -88,12 +89,12 @@ Marion T. Marzolf papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Marzolf, Marion.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34276">Marzolf, Marion.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8953">Journalism--Study and teaching--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Communication.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n84205455">University of Michigan. Dept. of Journalism.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50081264">Women in Communications, Inc.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12894">University of Michigan. Dept. of Communication.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n84205455" ref="/agents/corporate_entities/10640">University of Michigan. Dept. of Journalism.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50081264" ref="/agents/corporate_entities/12191">Women in Communications, Inc.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8954">Women journalists--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7888">Journalists--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5723">Women college teachers--Michigan--Ann Arbor.</subject>

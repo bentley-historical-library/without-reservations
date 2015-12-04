@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Kleinman, Rose Parker, 1914-1977.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30156">Kleinman, Rose Parker, 1914-1977.</persname>
       </origination>
       <unittitle encodinganalog="245">Rose Parker Kleinman papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1947/1977">1947-1977</unitdate>
@@ -91,12 +92,12 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7356">Housing--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8685">Social reformers--Michigan--Detroit.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8686">Women social reformers--Michigan--Detroit.</subject>
-        <persname source="lcnaf" encodinganalog="600">Kleinman, Rose Parker, 1914-1977.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30156">Kleinman, Rose Parker, 1914-1977.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4634">Activists.</subject>
-        <persname source="lcnaf" encodinganalog="600">Kleinman, Rose Parker, 1914-1977.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30156">Kleinman, Rose Parker, 1914-1977.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3619">Women.</subject>
       </controlaccess>
       <controlaccess>

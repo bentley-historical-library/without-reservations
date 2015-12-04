@@ -27,7 +27,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Women in Science and Engineering Program.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/8860">University of Michigan. Women in Science and Engineering Program.</corpname>
       </origination>
       <unittitle encodinganalog="245">Women in Science and Engineering Program (University of Michigan) records</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1974/2007">1974-2007</unitdate>
@@ -102,7 +103,7 @@ Women in Science and Engineering Program (University of Michigan) Records, Bentl
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Women in Science and Engineering Program.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/8860">University of Michigan. Women in Science and Engineering Program.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10767">Women in engineering.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10768">Women in science.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10769">Women scientists.</subject>

@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Federbush, Marcia.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28654">Federbush, Marcia.</persname>
       </origination>
       <unittitle encodinganalog="245">Marcia Federbush papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1967/2005">1967-2005</unitdate>
@@ -83,13 +84,13 @@ Marcia Federbush papers
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Federbush, Marcia.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28654">Federbush, Marcia.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7727">Sex discrimination in education.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7728">Sex discrimination in employment.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7729">Sex discrimination in sports.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7730">Physical education for women.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5974">Sports for women--Michigan--Ann Arbor.</subject>
-        <corpname>University of Michigan--Sports--History.</corpname>
+        <corpname ref="/agents/corporate_entities/9632">University of Michigan--Sports--History.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">St. John’s Episcopal Church (Temperance, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/11956">St. John’s Episcopal Church (Temperance, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">St. John’s Episcopal Church, Temperance, Mich. records <unitdate type="inclusive" encodinganalog="245$f" normal="1963/1997">1963-1997</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">0242 Ba 2</unitid>
@@ -79,9 +80,9 @@ St. John’s Episcopal Church, Temperance, Mich. records, Bentley Historical Lib
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">St. John's Episcopal Church (Temperance, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12132">St. John's Episcopal Church (Temperance, Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10240">Registers of births, etc.--Michigan--Temperance.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Episcopal Church--Michigan--Temperance.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9954">Episcopal Church--Michigan--Temperance.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2856">Temperance (Mich.)--Church history.</geogname>
       </controlaccess>
       <controlaccess>

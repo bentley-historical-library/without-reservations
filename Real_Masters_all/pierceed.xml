@@ -27,7 +27,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Pierce, Edward, 1930-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32173">Pierce, Edward, 1930-</persname>
       </origination>
       <unittitle encodinganalog="245">Edward Pierce Papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1960/1987" certainty="approximate">1960s-1987</unitdate>
@@ -84,7 +85,7 @@ Edward Pierce Papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Pierce, Edward, 1930-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32173">Pierce, Edward, 1930-</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/857">Ann Arbor (Mich.)--Politics and government.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7196">Elections--Michigan--1974.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5795">Elections--Michigan--1976.</subject>
@@ -97,13 +98,13 @@ Edward Pierce Papers, Bentley Historical Library, University of Michigan</p>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Farmers' Market.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12837">Ann Arbor Farmers' Market.</corpname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/643">Ann Arbor (Mich.)--Markets.</geogname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/343">Ann Arbor (Mich.)--Mayors.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3763">Legislators--Michigan.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5157">Markets--Michigan--Ann Arbor.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4112">Mayors--Michigan--Ann Arbor.</subject>
-        <persname source="lcnaf" encodinganalog="600">Pierce, Edward, 1930-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32173">Pierce, Edward, 1930-</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3915">Political elections--Michigan.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3889">Politics and government--Michigan.</subject>
       </controlaccess>

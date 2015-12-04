@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Center for Middle Eastern and North African Studies.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/12992">University of Michigan. Center for Middle Eastern and North African Studies.</corpname>
       </origination>
       <unittitle encodinganalog="245">Center for Middle Eastern and North African Studies (University of Michigan) Publications <unitdate type="inclusive" encodinganalog="245$f" normal="1961/1999">1961-1999</unitdate></unittitle>
       <abstract>Interdisciplinary area studies center at the University of Michigan. Publications miscellaneous annual reports, brochures, calendars, catalogs listing scholarly publications from the center, flyers, and newsletters which describe the activities of the faculty and students. Also includes publications from the Curriculum Development Group, Middle East Outreach Council, and the Middle East Studies Association of North America.</abstract>
@@ -88,14 +89,14 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Center for Near Eastern &amp; North African Studies.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13491">University of Michigan. Center for Near Eastern &amp; North African Studies.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Students--Social life and customs.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Center for Near Eastern &amp; North African Studies.</corpname>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n50049401">Middle East Studies Association of North America.</corpname>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n82223916">Middle East Outreach Council.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/13491">University of Michigan. Center for Near Eastern &amp; North African Studies.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n50049401" ref="/agents/corporate_entities/10871">Middle East Studies Association of North America.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n82223916" ref="/agents/corporate_entities/12448">Middle East Outreach Council.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

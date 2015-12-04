@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Ann Arbor Film Festival.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/14272">Ann Arbor Film Festival.</corpname>
       </origination>
       <unittitle encodinganalog="245">Ann Arbor Film Festival records <unitdate type="inclusive" encodinganalog="245$f" normal="1961/2012">1961-2012</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2011122 Bp 2 UBPl</unitid>
@@ -90,13 +91,13 @@ Ann Arbor Film Festival records, Bentley Historical Library, University of Michi
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Film Festival.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14272">Ann Arbor Film Festival.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5668">Film festivals--Michigan--Ann Arbor.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2004086603">Manupelli, George.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2004086603" ref="/agents/people/31989">Manupelli, George.</persname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">J. Jasmine.--My new music.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35206">J. Jasmine.--My new music.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Jones, Volney Hurt, 1903-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30867">Jones, Volney Hurt, 1903-</persname>
       </origination>
       <unittitle encodinganalog="245">Volney H. Jones papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1909/1979">1909-1979</unitdate>
@@ -100,11 +101,11 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n95031387">Jones, Volney H. (Volney Hurt), 1903-1982</persname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Anthropology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79063899">University of Michigan. Museum of Anthropology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2007011798">University of Michigan. Ethnobotanical Laboratory.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n95031387" ref="/agents/people/36213">Jones, Volney H. (Volney Hurt), 1903-1982</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13528">University of Michigan. Dept. of Anthropology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79063899" ref="/agents/corporate_entities/12114">University of Michigan. Museum of Anthropology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2007011798" ref="/agents/corporate_entities/11128">University of Michigan. Ethnobotanical Laboratory.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7804">Ethnobotany.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7808">Paleoethnobotany.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8497">Anthropology--Bio-bibliography.</subject>
@@ -115,14 +116,14 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86025928">Murphy, Frank, 1890-1949.</persname>
-        <persname source="lcnaf" encodinganalog="700">Osborn, Chase S. (Chase Salmon), b. 1860.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n92118551">Osborn, Stellanova, 1894-1988.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79093112">Quaife, Milo Milton, 1880-1959.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85186040">Gilmore, Melvin R. (Melvin Randolph), 1868-1940.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87932009">Bank, Ted.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80112951">Castetter, Edward Franklin, 1896-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50020232">White, Leslie A., 1900-1975.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86025928" ref="/agents/people/32539">Murphy, Frank, 1890-1949.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29688">Osborn, Chase S. (Chase Salmon), b. 1860.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n92118551" ref="/agents/people/30247">Osborn, Stellanova, 1894-1988.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79093112" ref="/agents/people/31669">Quaife, Milo Milton, 1880-1959.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85186040" ref="/agents/people/28754">Gilmore, Melvin R. (Melvin Randolph), 1868-1940.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87932009" ref="/agents/people/29021">Bank, Ted.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80112951" ref="/agents/people/28453">Castetter, Edward Franklin, 1896-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50020232" ref="/agents/people/31709">White, Leslie A., 1900-1975.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

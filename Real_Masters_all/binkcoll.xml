@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Binkowski, Don, 1929-, collector.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/31353">Binkowski, Don, 1929-, collector.</persname>
       </origination>
       <unittitle encodinganalog="245">Don Binkowski collected materials <unitdate type="inclusive" encodinganalog="245$f" normal="1825/2013">1825-2013</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2011046 Aa 2; Ac</unitid>
@@ -109,18 +110,18 @@ Don Binkowski collected materials, Bentley Historical Library, University of Mic
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no95022095">Binkowski, Don, 1929-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no95022095" ref="/agents/people/31353">Binkowski, Don, 1929-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6040">Polish Americans--Michigan.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3901">Strikes--Michigan--Detroit.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3902">Strikes--Michigan--Flint.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3903">Strikes--Michigan--Monroe.</subject>
-        <corpname source="lcnaf" encodinganalog="610">American Brass Company--Strikes.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Chrysler Corporation--Strikes.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Federal Screw Works--Strikes.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Ford Motor Company--Strikes.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">General Motors Corporation--Strikes.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Newton Packing Company--Strikes.</corpname>
-        <corpname encodinganalog="610">Yale &amp; Towne Manufacturing Company--Strikes.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14595">American Brass Company--Strikes.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9472">Chrysler Corporation--Strikes.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9151">Federal Screw Works--Strikes.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9550">Ford Motor Company--Strikes.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10876">General Motors Corporation--Strikes.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13555">Newton Packing Company--Strikes.</corpname>
+        <corpname encodinganalog="610" ref="/agents/corporate_entities/10554">Yale &amp; Towne Manufacturing Company--Strikes.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

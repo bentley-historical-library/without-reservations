@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf">Learning Disabilities Association of Michigan.</corpname>
+        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/9642">Learning Disabilities Association of Michigan.</corpname>
       </origination>
       <unittitle encodinganalog="245">Learning Disabilities Association of Michigan Records</unittitle>
       <unitdate encodinganalog="245$f" type="inclusive" normal="1965/2003">1965-2003</unitdate>
@@ -212,10 +213,10 @@ Learning Disabilities Association of Michigan Records, Bentley Historical Librar
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Learning Disabilities Association of Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no90025973">Citizens Alliance to Uphold Special Education.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9642">Learning Disabilities Association of Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no90025973" ref="/agents/corporate_entities/9069">Citizens Alliance to Uphold Special Education.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8753">Learning disabilities--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. Special Education Advisory Committee.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13592">Michigan. Special Education Advisory Committee.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6162">Special education--Michigan.</subject>
       </controlaccess>
     </controlaccess>

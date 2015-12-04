@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">St. James Episcopal Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/10034">St. James Episcopal Church (Detroit, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">St. James Episcopal Church, Detroit, Mich., records <unitdate type="inclusive" encodinganalog="245$f" normal="1923/1993">1923-1993</unitdate></unittitle>
       <abstract>Church located in the Brightmoor area of Detroit, Michigan. Vestry meeting minutes; administrative files; registers of services; registers of baptisms, burials, marriages, etc.; records of different church organizations; bulletins of special church services; yearly files of collected clippings, photos, and other materials regarding church activities.</abstract>
@@ -86,16 +87,16 @@
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2855">Brightmoor (Detroit, Mich.)</geogname>
         <genreform source="aat" encodinganalog="655" ref="/subjects/3373">Church records.</genreform>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/952">Detroit (Mich.)--Church history.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Episcopal Church--Michigan--Detroit.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9954">Episcopal Church--Michigan--Detroit.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5960">Registers of births, etc.--Michigan--Detroit.</subject>
-        <corpname source="lcnaf" encodinganalog="610">St. James Episcopal Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10034">St. James Episcopal Church (Detroit, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3724">Churches--Michigan--Detroit.</subject>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/218">Detroit (Mich.)--Churches.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Episcopal Church--Michigan--Detroit.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. James Episcopal Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9954">Episcopal Church--Michigan--Detroit.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10034">St. James Episcopal Church (Detroit, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

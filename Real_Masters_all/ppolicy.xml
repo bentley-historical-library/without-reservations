@@ -43,7 +43,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -54,7 +55,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Gerald R. Ford School of Public Policy.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/12682">University of Michigan. Gerald R. Ford School of Public Policy.</corpname>
       </origination>
       <unittitle encodinganalog="245">Gerald R. Ford School of Public Policy (University of Michigan) records</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1917/2013">1917-2013</unitdate>
@@ -193,25 +194,25 @@
       <controlaccess>
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/946">China--History--Republic, 1912-1949.</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79056623">Gramlich, Edward M.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79021718">Heady, Ferrel.</persname>
-        <persname source="lcnaf" encodinganalog="600">Lederle, John William, 1912-</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n91059253">Michigan. Constitutional Convention (1961-1962)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79056623" ref="/agents/people/33192">Gramlich, Edward M.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79021718" ref="/agents/people/34323">Heady, Ferrel.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/27731">Lederle, John William, 1912-</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n91059253" ref="/agents/corporate_entities/10318">Michigan. Constitutional Convention (1961-1962)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/943">Philippines--History--1946-1986.</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n94057548">Pollock, James K. (James Kerr), 1898-1968</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n94057548" ref="/agents/people/31076">Pollock, James K. (James Kerr), 1898-1968</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6504">Public administration.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Institute of Public Administration.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87826795">University of Michigan. Institute of Public Policy Studies.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. School of Public Policy.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2004120931">University of Michigan. Gerald R. Ford School of Public Policy.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11411">University of Michigan. Institute of Public Administration.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87826795" ref="/agents/corporate_entities/9145">University of Michigan. Institute of Public Policy Studies.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/8848">University of Michigan. School of Public Policy.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2004120931" ref="/agents/corporate_entities/12682">University of Michigan. Gerald R. Ford School of Public Policy.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82048848">Magsaysay, Ramon, 1907-1957.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82048848" ref="/agents/people/28251">Magsaysay, Ramon, 1907-1957.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/943">Philippines--History--1946-1986.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Institute of Public Administration.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87826795">University of Michigan. Institute of Public Policy Studies.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of the Philippines.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11411">University of Michigan. Institute of Public Administration.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87826795" ref="/agents/corporate_entities/9145">University of Michigan. Institute of Public Policy Studies.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11779">University of the Philippines.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
@@ -220,7 +221,7 @@
       </controlaccess>
       <controlaccess>
         <head>Sound Recordings</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87826795">University of Michigan. Institute of Public Policy Studies.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87826795" ref="/agents/corporate_entities/9145">University of Michigan. Institute of Public Policy Studies.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6504">Public administration.</subject>
       </controlaccess>
     </controlaccess>

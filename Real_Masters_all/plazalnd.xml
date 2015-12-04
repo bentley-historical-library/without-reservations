@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Plaza Land Corporation.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/12698">Plaza Land Corporation.</corpname>
       </origination>
       <unittitle encodinganalog="245">Plaza Land Corporation records <unitdate type="inclusive" encodinganalog="245$f" normal="1955/1962">1955-1962</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2012010 Bb 2</unitid>
@@ -82,15 +83,15 @@ Plaza Land Corporation records, Bentley Historical Library, University of Michig
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Hotel Pontchartrain (Detroit, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Plaza Land Corporation.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008190241">Cobo, Albert E. (Albert Eugene), 1893-1957.</persname>
-        <persname source="lcnaf" encodinganalog="600">Grace, Edward R.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85299089">Hilton, Conrad N. (Conrad Nicholson), 1887-1979.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008190020">Matthaei, Frederick C. (Frederick Carl), 1892-1973.</persname>
-        <persname source="lcnaf" encodinganalog="600">Pierson, H. Lynn.</persname>
-        <persname source="lcnaf" encodinganalog="600">Roby, Douglas F. (Douglas Fergusson), 1898-1992.</persname>
-        <persname source="lcnaf" encodinganalog="600">Webber, Oscar.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9395">Hotel Pontchartrain (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12698">Plaza Land Corporation.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008190241" ref="/agents/people/35456">Cobo, Albert E. (Albert Eugene), 1893-1957.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35475">Grace, Edward R.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85299089" ref="/agents/people/35273">Hilton, Conrad N. (Conrad Nicholson), 1887-1979.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008190020" ref="/agents/people/35085">Matthaei, Frederick C. (Frederick Carl), 1892-1973.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34189">Pierson, H. Lynn.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33716">Roby, Douglas F. (Douglas Fergusson), 1898-1992.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30605">Webber, Oscar.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9762">Hotels--Michigan--Detroit.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1343">Detroit (Mich.)--Commerce.</geogname>
       </controlaccess>

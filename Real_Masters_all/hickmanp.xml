@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Price, Hickman, 1911-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/29298">Price, Hickman, 1911-</persname>
       </origination>
       <unittitle encodinganalog="245">Hickman Price, Jr. Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1918/1968">1918-1968</unitdate></unittitle>
       <abstract>Executive with the Kaiser-Frazer Corp., later with Willys Motor Inc. Corporate correspondence, including files concerning his work with Willys-Overland in Brazil; also materials relating to his interest in Latin America, including summary reports prepared for President-elect Kennedy in 1960; miscellaneous correspondence with Adlai Stevenson; and photographs.</abstract>
@@ -85,12 +86,12 @@
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8188">Automobile industry and trade--Brazil.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1280">Brazil.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Kaiser-Frazer Corp.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79055297">Kennedy, John F. (John Fitzgerald), 1917-1963.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12197">Kaiser-Frazer Corp.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79055297" ref="/agents/people/30269">Kennedy, John F. (John Fitzgerald), 1917-1963.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1323">Latin America.</geogname>
-        <persname source="lcnaf" encodinganalog="600">Price, Hickman, 1911-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29298">Price, Hickman, 1911-</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1010">South America.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n90698016">Willys-Overland Motors, Inc.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n90698016" ref="/agents/corporate_entities/13027">Willys-Overland Motors, Inc.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
@@ -101,13 +102,13 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4056">Industrial buildings.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3689">Interiors.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3665">Laborers.</subject>
-        <persname source="lcnaf" encodinganalog="600">Price, Hickman, 1911-</persname>
-        <persname source="lcnaf" encodinganalog="600">Ramos, Joóao Farias.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n90698016">Willys-Overland Motors, Inc.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29298">Price, Hickman, 1911-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30307">Ramos, Joóao Farias.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n90698016" ref="/agents/corporate_entities/13027">Willys-Overland Motors, Inc.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79055618">Stevenson, Adlai E. (Adlai Ewing), 1900-1965.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79055618" ref="/agents/people/32146">Stevenson, Adlai E. (Adlai Ewing), 1900-1965.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

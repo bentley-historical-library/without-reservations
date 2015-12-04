@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Southeastern Michigan Jazz Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/10142">Southeastern Michigan Jazz Association.</corpname>
       </origination>
       <unittitle encodinganalog="245">Southeastern Michigan Jazz Association records <unitdate type="inclusive" encodinganalog="245$f" normal="1987/2008">1987-2008</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2010092 Aa 2</unitid>
@@ -84,8 +85,8 @@ Southeastern Michigan Jazz Association records, Bentley Historical Library, Univ
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10024">Jazz--Performances--Michigan, Southeastern.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10025">Jazz festivals--Michigan, Southeastern.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10026">Jazz musicians--Michigan, Southeastern.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Southeastern Michigan Jazz Association.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">Southeastern Michigan Jazz Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10142">Southeastern Michigan Jazz Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/10142">Southeastern Michigan Jazz Association.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
@@ -93,7 +94,7 @@ Southeastern Michigan Jazz Association records, Bentley Historical Library, Univ
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10025">Jazz festivals--Michigan, Southeastern.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5279">Jazz musicians--Michigan, Southeastern.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10027">Musicians--Michigan, Southeastern.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Southeastern Michigan Jazz Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10142">Southeastern Michigan Jazz Association.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

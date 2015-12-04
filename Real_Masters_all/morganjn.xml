@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Morgan, James N.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/35575">Morgan, James N.</persname>
       </origination>
       <unittitle encodinganalog="245">James N. Morgan papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1939/2010">1939-2010</unitdate>
@@ -83,9 +84,9 @@ James N. Morgan papers, Bentley Historical Library, University of Michigan</p>
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9441">Consumer behavior--Study and teaching--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79138747">Morgan, James N., 1918-</persname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Institute for Social Research.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79138747" ref="/agents/people/34700">Morgan, James N., 1918-</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11789">University of Michigan. Institute for Social Research.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Health System. Volunteer Services.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/10656">University of Michigan. Health System. Volunteer Services.</corpname>
       </origination>
       <unittitle encodinganalog="245">Health System Volunteer Services (University of Michigan) records</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1937/2006">1937-2006</unitdate>
@@ -91,9 +92,9 @@ Health System Volunteer Services (University of Michigan) records, Bentley Histo
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9030">Hospitals--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10441">Student volunteers in medical care--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Health System. Volunteer Services.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2006184133">University of Michigan. Health System.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Medical Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10656">University of Michigan. Health System. Volunteer Services.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2006184133" ref="/agents/corporate_entities/13050">University of Michigan. Health System.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/8953">University of Michigan. Medical Center.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10442">Volunteer workers in medical care--Michigan.</subject>
       </controlaccess>
     </controlaccess>

@@ -35,7 +35,8 @@
         <item>Converted to EAD version 1.0 using WORD 6 macro and some hand tagging.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc level="collection" type="inventory" audience="external" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Lovejoy, Parrish Storrs, 1884-1992</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/29882">Lovejoy, Parrish Storrs, 1884-1992</persname>
       </origination>
       <unittitle encodinganalog="245">P.S. Lovejoy Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1918/1941">1918-1941</unitdate></unittitle>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">851738 Aa 2</unitid>
@@ -97,14 +98,14 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6033">Agriculture--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6190">Conservation of natural resources--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6733">Forests and forestry--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n89651495">Michigan Farm Bureau.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81003782">University of Michigan. School of Natural Resources.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n89651495" ref="/agents/corporate_entities/11973">Michigan Farm Bureau.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81003782" ref="/agents/corporate_entities/10319">University of Michigan. School of Natural Resources.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50049888">Leopold, Aldo, 1886-1948.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n78097059">Pinchot, Gifford, 1865-1946.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50049888" ref="/agents/people/34042">Leopold, Aldo, 1886-1948.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n78097059" ref="/agents/people/32887">Pinchot, Gifford, 1865-1946.</persname>
       </controlaccess>
       <controlaccess>
         <head>Visual Materials - Subjects:</head>

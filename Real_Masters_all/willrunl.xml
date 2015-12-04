@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Willow Run Public School Library.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/14467">Willow Run Public School Library.</corpname>
       </origination>
       <unittitle encodinganalog="245">Willow Run Public School Library records <unitdate type="inclusive" encodinganalog="245$f" normal="1944/1969">1944-1969</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">86304 Bz 2; BZ Outsize</unitid>
@@ -84,7 +85,7 @@ Willow Run Public School Library records, Bentley Historical Library, University
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10731">Libraries--Michigan--Willow Run.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10732">Schools--Michigan--Willow Run.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Washtenaw Area Library Association (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14087">Washtenaw Area Library Association (Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n00086557.html" ref="/subjects/1851">Willow Run (Mich.)</geogname>
       </controlaccess>
       <controlaccess>
@@ -105,12 +106,12 @@ Willow Run Public School Library records, Bentley Historical Library, University
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/293">Willow Run (Mich.)--Dwellings.</geogname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/737">Willow Run (Mich.)--Fires.</geogname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/738">Willow Run (Mich.)--Schools.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Willow Run Public School Library.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n00086556">Willow Run Community Schools (Willow Run, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14467">Willow Run Public School Library.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n00086556" ref="/agents/corporate_entities/9846">Willow Run Community Schools (Willow Run, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Barrett, Nell.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32066">Barrett, Nell.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

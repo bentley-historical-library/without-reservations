@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Fulcher, Earl, 1892-1979.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/27815">Fulcher, Earl, 1892-1979.</persname>
       </origination>
       <unittitle encodinganalog="245">Earl Fulcher papers <unitdate type="inclusive" encodinganalog="245$f" normal="1919">1919</unitdate></unittitle>
       <abstract>Soldier from Sanilac County, Mich., member of Co. H, 339th U.S. Infantry who served in the Allied intervention in Russia, 1918-1920, the "Polar Bear Expedition." Collection includes typescript of his statement relating his experience as a prisoner of war and copies of his enlistment and discharge records.</abstract>
@@ -79,7 +80,7 @@
       </p>
       <controlaccess>
         <head>Subjects</head>
-        <persname source="lcnaf" encodinganalog="600">Fulcher, Earl, 1892-1979.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/27815">Fulcher, Earl, 1892-1979.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/883">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5712">World War, 1914-1918.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7880">Prisoners of war--Russia (Federation)</subject>

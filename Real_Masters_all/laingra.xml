@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Laing, Richard A.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33302">Laing, Richard A.</persname>
       </origination>
       <unittitle encodinganalog="245">Richard A. Laing papers <unitdate type="inclusive" encodinganalog="245$f" normal="1953/2000">1953-2000</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">07100 Aa 2</unitid>
@@ -83,13 +84,13 @@ Richard A. Laing papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Laing, Richard A.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33302">Laing, Richard A.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7073">Artificial intelligence.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7890">Computers--Study and teaching.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7891">Computer science.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8721">Machine theory.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr92017052">University of Michigan. Logic of Computers Group.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr92017052" ref="/agents/corporate_entities/13288">University of Michigan. Logic of Computers Group.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

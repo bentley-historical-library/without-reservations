@@ -27,7 +27,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">First Presbyterian Church (Saline, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/9243">First Presbyterian Church (Saline, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">First Presbyterian Church, Saline, Mich., records <unitdate type="inclusive" encodinganalog="245$f" normal="1831/2005">1831-2005</unitdate> <unitdate type="bulk" normal="1831/1985">1831-1985</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">86865 Ba 2</unitid>
@@ -79,8 +80,8 @@ First Presbyterian Church, Saline, Mich., Records, Bentley Historical Library, U
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">First Presbyterian Church (Saline, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Presbyterian Church (U.S.A.)--Michigan--Saline.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9243">First Presbyterian Church (Saline, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9549">Presbyterian Church (U.S.A.)--Michigan--Saline.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1223">Saline (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7763">Women--Michigan--Saline--Societies and clubs.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7764">Youth--Michigan--Saline.</subject>
@@ -90,10 +91,10 @@ First Presbyterian Church, Saline, Mich., Records, Bentley Historical Library, U
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600">Caldwell, William E.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30545">Caldwell, William E.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4153">Cemeteries--Michigan--Saline.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4039">Churches--Michigan--Saline.</subject>
-        <corpname source="lcnaf" encodinganalog="610">First Presbyterian Church (Saline, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9243">First Presbyterian Church (Saline, Mich.)</corpname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/292">Saline (Mich.)--Cemeteries.</geogname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/251">Saline (Mich.)--Churches.</geogname>
       </controlaccess>

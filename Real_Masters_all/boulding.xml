@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Boulding, Kenneth Ewart, 1910-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/34420">Boulding, Kenneth Ewart, 1910-</persname>
       </origination>
       <unittitle encodinganalog="245">Kenneth Ewart Boulding Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1880/1968">1880-1968</unitdate></unittitle>
       <abstract>Professor of economics at the University of Michigan, director of the Center for Research on Conflict Resolution, fellow of the Center for Advanced Study in the Behavioral Sciences, and participant in the Society of Friends, the National Council of Churches Department of the Church and Economic Life, and peace and disarmament groups. Correspondence, notes, writings, photographs, recordings, and topical files; also materials concerning his wife, Elise Boulding, and his parents, William and Elizabeth Boulding.</abstract>
@@ -123,26 +124,26 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79066082">American Friends Service Committee.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81063208">Boulding, Kenneth E. (Kenneth Ewart), 1910-1993</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79066082" ref="/agents/corporate_entities/12660">American Friends Service Committee.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81063208" ref="/agents/people/35137">Boulding, Kenneth E. (Kenneth Ewart), 1910-1993</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1281">California.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50046558">Center for Advanced Study in the Behavioral Sciences (Stanford, Calif.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50046558" ref="/agents/corporate_entities/9794">Center for Advanced Study in the Behavioral Sciences (Stanford, Calif.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6112">Disarmament.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5725">Economics.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79110396">National Council of the Churches of Christ in the United States of America.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79110396" ref="/agents/corporate_entities/8872">National Council of the Churches of Christ in the United States of America.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5751">Peace--Societies, etc.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Society for General Systems Research.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Society of Friends--Michigan--Ann Arbor.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n84205456">University of Michigan. Center for Research on Conflict Resolution.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Economics.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11265">Society for General Systems Research.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9595">Society of Friends--Michigan--Ann Arbor.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n84205456" ref="/agents/corporate_entities/10089">University of Michigan. Center for Research on Conflict Resolution.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10945">University of Michigan. Dept. of Economics.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6400">Water-supply.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/207">Ann Arbor (Mich.)--Dwellings.</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79021676">Boulding, Elise.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81063208">Boulding, Kenneth E. (Kenneth Ewart), 1910-1993</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79021676" ref="/agents/people/35904">Boulding, Elise.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81063208" ref="/agents/people/35137">Boulding, Kenneth E. (Kenneth Ewart), 1910-1993</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3932">Camps--Great Britain.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3572">Dwellings--Michigan--Ann Arbor.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1344">Great Britain.</geogname>
@@ -151,7 +152,7 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79021676">Boulding, Elise.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79021676" ref="/agents/people/35904">Boulding, Elise.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

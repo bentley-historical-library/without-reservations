@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Schwarz, John J. H.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/31390">Schwarz, John J. H.</persname>
       </origination>
       <unittitle encodinganalog="245">John J. H. Schwarz Papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1987/2002">1987-2002</unitdate>
@@ -83,15 +84,15 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Schwarz, John J. H.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31390">Schwarz, John J. H.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10012">Higher education and state--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6219">Legislators--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. Legislature. Senate.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9225">Michigan. Legislature. Senate.</corpname>
         <geogname source="local" encodinganalog="691" ref="/subjects/816">Michigan--Politics and government--1991-2000.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/817">Michigan--Politics and government--2001-2010.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/910">Michigan--Politics and government--1951-</geogname>
-        <corpname source="lcnaf" encodinganalog="610">People Protecting Kids and the Constitution.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13135">People Protecting Kids and the Constitution.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13160">Republican Party (Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10013">Tobacco industry--Law and legislation--Michigan.</subject>
       </controlaccess>
       <controlaccess>

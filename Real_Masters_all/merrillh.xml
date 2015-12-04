@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Merrill, Howard E.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/29166">Merrill, Howard E.</persname>
       </origination>
       <unittitle encodinganalog="245">Howard E. Merrill papers <unitdate type="inclusive" encodinganalog="245$f" normal="1917/1924">1917-1924</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851818 Aa 2</unitid>
@@ -88,21 +89,21 @@ Howard E. Merrill papers, 1917-1924, Bentley Historical Library, University of M
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname encodinganalog="600" source="lcnaf">Merrill, Howard E.</persname>
-        <persname encodinganalog="600" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n91088667">Lowrie, Donald A., (Donald Alexander), 1889-1974.</persname>
-        <corpname encodinganalog="610" source="lcnaf">Young Men's Christian Associations.</corpname>
+        <persname encodinganalog="600" source="lcnaf" ref="/agents/people/29166">Merrill, Howard E.</persname>
+        <persname encodinganalog="600" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n91088667" ref="/agents/people/31457">Lowrie, Donald A., (Donald Alexander), 1889-1974.</persname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/10337">Young Men's Christian Associations.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4795">Prisoners of war--Germany.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4495">Prisoners of war--Russia (Federation)</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4796">World War, 1914-1918--Russia.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4797">World War, 1914-1918--Prisoners and prisons, German.</subject>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/571">Soviet Union--History--Revolution, 1917-1921.</geogname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/572">Poland--History--Wars of 1918-1921.</geogname>
-        <corpname encodinganalog="690" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n2008059426">Polar Bear Expedition.</corpname>
+        <corpname encodinganalog="690" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n2008059426" ref="/agents/corporate_entities/14771">Polar Bear Expedition.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n91088667">Lowrie, Donald A., (Donald Alexander), 1889-1974.</persname>
-        <persname encodinganalog="700" source="lcnaf">Merrill, Edith.</persname>
+        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n91088667" ref="/agents/people/31457">Lowrie, Donald A., (Donald Alexander), 1889-1974.</persname>
+        <persname encodinganalog="700" source="lcnaf" ref="/agents/people/28164">Merrill, Edith.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

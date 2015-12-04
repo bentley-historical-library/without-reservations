@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">NSFNET 20th Anniversary Committee</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/12224">NSFNET 20th Anniversary Committee</corpname>
       </origination>
       <unittitle encodinganalog="245">NSFNET 20th Anniversary collection <unitdate type="inclusive" encodinganalog="245$f" normal="2007">2007</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2012078 Aa2</unitid>
@@ -161,17 +162,17 @@ NSFNET 20th Anniversary collection, Bentley Historical Library, University of Mi
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">NSFNET (Computer Network)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12162">NSFNET (Computer Network)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9563">Computer networks--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5803">Information technology.</subject>
-        <corpname source="lcnaf" encodinganalog="610">MERIT Computer Network.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9719">MERIT Computer Network.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr92016715">Aupperle, Eric M.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no90000557">Brown, John Seely.</persname>
-        <persname encodinganalog="700" source="lcnaf">Cerf, Vinton G., 1940-</persname>
-        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n93110219">Van Houweling, Douglas E.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr92016715" ref="/agents/people/33951">Aupperle, Eric M.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no90000557" ref="/agents/people/32862">Brown, John Seely.</persname>
+        <persname encodinganalog="700" source="lcnaf" ref="/agents/people/34522">Cerf, Vinton G., 1940-</persname>
+        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n93110219" ref="/agents/people/27252">Van Houweling, Douglas E.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

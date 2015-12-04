@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Geddes family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/73">Geddes family.</famname>
       </origination>
       <unittitle encodinganalog="245">Geddes and Randall Families Papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1771/1950">1771-1950</unitdate>
@@ -83,19 +84,19 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <famname source="lcnaf" encodinganalog="600">Geddes family.</famname>
-        <persname source="lcnaf" encodinganalog="600">Geddes, John.</persname>
-        <persname source="lcnaf" encodinganalog="600">Geddes, William.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/73">Geddes family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34395">Geddes, John.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31502">Geddes, William.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7917">Millwrights--Michigan.</subject>
-        <famname source="lcnaf" encodinganalog="600">Randall family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/375">Randall family.</famname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1900">Washtenaw County (Mich.)--History.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no91017295">Bidlack, Russell E. (Russell Eugene), 1920-</persname>
-        <persname source="lcnaf" encodinganalog="700">Geddes, John.</persname>
-        <persname source="lcnaf" encodinganalog="700">Geddes, William.</persname>
-        <persname source="lcnaf" encodinganalog="700">Randall, William T.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no91017295" ref="/agents/people/33491">Bidlack, Russell E. (Russell Eugene), 1920-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34395">Geddes, John.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31502">Geddes, William.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34602">Randall, William T.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

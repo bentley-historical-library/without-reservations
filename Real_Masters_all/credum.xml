@@ -35,7 +35,8 @@
         <item>Original encoding from Word 6.0 file</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n80067294" source="lcnaf">University of Michigan. Center for Research on Economic Development.</corpname>
+        <corpname encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n80067294" source="lcnaf" ref="/agents/corporate_entities/9773">University of Michigan. Center for Research on Economic Development.</corpname>
       </origination>
       <unittitle encodinganalog="245">University of Michigan Center for Research on Economic Development records</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1956/1993">1956-1993</unitdate>
@@ -137,8 +138,8 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80067294">University of Michigan. Center for Research on Economic Development.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Research.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80067294" ref="/agents/corporate_entities/9773">University of Michigan. Center for Research on Economic Development.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Research.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1647">Africa--Economic policy.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7050">Economic Development.</subject>
       </controlaccess>

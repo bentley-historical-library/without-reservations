@@ -39,7 +39,8 @@
         <item>Original encoding from Word 6.0 file</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -50,7 +51,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">North Central Association of Colleges and Schools. Michigan State Office.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/10586">North Central Association of Colleges and Schools. Michigan State Office.</corpname>
       </origination>
       <unittitle encodinganalog="245$a">North Central Association of Colleges and Schools, Michigan State Office, Records</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1895/1994">1895-1994</unitdate>
@@ -104,7 +105,7 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9506">High Schools--Accreditation.</subject>
         <geogname source="lcsh" encodinganalog="650" authfilenumber="http://id.loc.gov/authorities/names/n81091939.html" ref="/subjects/1559">Houghton County (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1366">Kent County (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">North Central Association of Colleges and Schools. Michigan State Office.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10586">North Central Association of Colleges and Schools. Michigan State Office.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6458">Schools--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9507">Schools--Michigan--Houghton County.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9508">Schools--Michigan--Kent County.</subject>

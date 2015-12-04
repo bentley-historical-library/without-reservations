@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Den Bleyker family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/302">Den Bleyker family.</famname>
       </origination>
       <unittitle encodinganalog="245">den Bleyker Family papers <unitdate type="inclusive" encodinganalog="245$f" normal="1828/1936">1828-1936</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851056 Aa 2; UAx</unitid>
@@ -82,13 +83,13 @@ den Bleyker Family papers, Bentley Historical Library, University of Michigan</p
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <famname source="lcnaf" encodinganalog="600">Den Bleyker family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/302">Den Bleyker family.</famname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6035">Dutch Americans--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/863">Michigan--Emigration and immigration.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/980">Kalamazoo (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6009">Voyages and travels.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6010">Travelers.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no93011331">Van Raalte, Albertus C. (Albertus Christiaan), 1811-1876.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no93011331" ref="/agents/people/28228">Van Raalte, Albertus C. (Albertus Christiaan), 1811-1876.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1692">Netherlands--Emigration and immigration.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5684">Immigrants--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/972">Europe--Description and travel.</geogname>
@@ -96,16 +97,16 @@ den Bleyker Family papers, Bentley Historical Library, University of Michigan</p
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600">Den Bleyker, Martha, d. 1930.</persname>
-        <famname source="lcnaf" encodinganalog="600">Den Bleyker family.</famname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2007003134">Stone, Lucinda Hinsdale, 1814-1900.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28860">Den Bleyker, Martha, d. 1930.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/302">Den Bleyker family.</famname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2007003134" ref="/agents/people/31532">Stone, Lucinda Hinsdale, 1814-1900.</persname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Den Bleyker, Anna Balch, b. 1840.</persname>
-        <persname source="lcnaf" encodinganalog="700">Den Bleyker, John, b. 1839.</persname>
-        <persname source="lcnaf" encodinganalog="700">Den Bleyker, Martha, d. 1930.</persname>
-        <persname source="lcnaf" encodinganalog="700">Den Bleyker, Paulus, 1804-1872.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32116">Den Bleyker, Anna Balch, b. 1840.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35134">Den Bleyker, John, b. 1839.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28860">Den Bleyker, Martha, d. 1930.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32672">Den Bleyker, Paulus, 1804-1872.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

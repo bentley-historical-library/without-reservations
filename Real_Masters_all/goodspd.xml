@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Goodspeed, Robert</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33722">Goodspeed, Robert</persname>
       </origination>
       <unittitle encodinganalog="245">Robert Goodspeed papers <unitdate type="inclusive" encodinganalog="245$f" normal="2000/2004">2000-2004</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">05125 Aa2</unitid>
@@ -77,12 +78,12 @@ Robert Goodspeed Papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs--2001-2010.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs--1991-2000.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Students--Social life and customs--2001-2010.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Students--Social life and customs--1991-2000.</corpname>
         <subject source="lcsh" encodinganalog="630" ref="/subjects/6185">Michigan daily.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8007">Urban renewal--Michigan--Detroit.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Michigamua.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Vulcans (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10964">Michigamua.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9848">Vulcans (University of Michigan)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5655">Affirmative action programs--Michigan--Ann Arbor.</subject>
       </controlaccess>
     </controlaccess>

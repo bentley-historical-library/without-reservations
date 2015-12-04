@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Fox, George R., 1880-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/35116">Fox, George R., 1880-</persname>
       </origination>
       <unittitle encodinganalog="245">George R. Fox papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1915/1973">1915-1973</unitdate>
@@ -90,7 +91,7 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Fox, George R., 1880-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35116">Fox, George R., 1880-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6607">Archaeology.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1877">Cass County (Mich.)--History.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1878">Michigan--Antiquities.</geogname>
@@ -98,7 +99,7 @@
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Fox, George R., 1880-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35116">Fox, George R., 1880-</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3926">Archaeology.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/978">Mexico.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1878">Michigan--Antiquities.</geogname>

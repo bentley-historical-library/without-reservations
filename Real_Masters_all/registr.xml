@@ -39,7 +39,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -50,7 +51,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/nr90028381">University of Michigan. Office of the Registrar.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/nr90028381" ref="/agents/corporate_entities/12914">University of Michigan. Office of the Registrar.</corpname>
       </origination>
       <unittitle encodinganalog="245">Office of the Registrar (University of Michigan), records</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1840/2003">1840-2003</unitdate>
@@ -220,12 +221,12 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7322">Education, Higher--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9859">Student registration.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5656">Universities and colleges--Admission.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Administration.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Admission.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82020424">University of Michigan. College of Literature, Science, and the Arts.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Examinations.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr90028381">University of Michigan. Office of the Registrar.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Administration.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Admission.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82020424" ref="/agents/corporate_entities/9006">University of Michigan. College of Literature, Science, and the Arts.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Examinations.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr90028381" ref="/agents/corporate_entities/12914">University of Michigan. Office of the Registrar.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

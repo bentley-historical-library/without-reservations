@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Foster, Mark, collector.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/27813">Foster, Mark, collector.</persname>
       </origination>
       <unittitle encodinganalog="245">Mark Foster Collection <unitdate type="inclusive" encodinganalog="245$f" normal="1967/1979">1967-1979</unitdate></unittitle>
       <abstract>Papers collected by Mark Foster of Ypsilanti, Michigan. Printed material relating to the founding and growth of the Catholic charismatic movement; also survey taken among Catholic students at the University of Michigan and Michigan State University.</abstract>
@@ -78,10 +79,10 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Catholic Church--Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan State University--Religion.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9698">Catholic Church--Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9966">Michigan State University--Religion.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7831">Pentecostalism--Catholic Church.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Religion.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Religion.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

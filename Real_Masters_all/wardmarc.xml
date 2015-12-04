@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Ward, Marcus Llewellyn, 1875-1963.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/29650">Ward, Marcus Llewellyn, 1875-1963.</persname>
       </origination>
       <unittitle encodinganalog="245">Marcus Llewellyn Ward Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1906/1962">1906-1962</unitdate></unittitle>
       <abstract>Professor of dentistry and dean of the School of Dentistry at University of Michigan. Personal files primarily concerning his professional interests and activities; and university files detailing his relationship with various officials.</abstract>
@@ -85,10 +86,10 @@
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7206">Dentistry--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7207">Dentists--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n86076218">Michigan Dental Association.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85129645">University of Michigan. School of Dentistry.</corpname>
-        <persname source="lcnaf">Ward, Marcus Llewellyn, 1875-1963.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n86076218" ref="/agents/corporate_entities/11146">Michigan Dental Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85129645" ref="/agents/corporate_entities/12675">University of Michigan. School of Dentistry.</corpname>
+        <persname source="lcnaf" ref="/agents/people/29650">Ward, Marcus Llewellyn, 1875-1963.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

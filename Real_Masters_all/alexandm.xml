@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Alexander, Michael T.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/34194">Alexander, Michael T.</persname>
       </origination>
       <unittitle encodinganalog="245">Michael T. Alexander papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1968/1994">1968-1994</unitdate>
@@ -110,14 +111,14 @@ Michael T. Alexander papers, Bentley Historical Library, University of Michigan<
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Alexander, Michael T.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34194">Alexander, Michael T.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5802">Computer networks.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5803">Information technology.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5804">MTS (Computer system)</subject>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Terminal System.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr92011114">University of Michigan. Information Technology Division.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88650382">University of Michigan. Computing Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13917">Michigan Terminal System.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr92011114" ref="/agents/corporate_entities/9674">University of Michigan. Information Technology Division.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88650382" ref="/agents/corporate_entities/12198">University of Michigan. Computing Center.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -40,7 +41,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n85210459">Galbraith, D. James.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n85210459" ref="/agents/people/30151">Galbraith, D. James.</persname>
       </origination>
       <unittitle encodinganalog="245">D. James Galbraith photographic collection</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1955/2012">1955-2012</unitdate>
@@ -98,8 +99,8 @@ D. James Galbraith Photographic Collection, Bentley Historical Library, Universi
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85210459">Galbraith, D. James.</persname>
-        <persname source="lcnaf" encodinganalog="600">Galbraith, D. James.--Hartland : change in the heart of America.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85210459" ref="/agents/people/30151">Galbraith, D. James.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30151">Galbraith, D. James.--Hartland : change in the heart of America.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3923">Families.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7887">Farm life--Michigan.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3686">Weddings.</subject>

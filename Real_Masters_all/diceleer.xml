@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/no2015027529">Dice, Lee Raymond, 1887-1977.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/no2015027529" ref="/agents/people/32892">Dice, Lee Raymond, 1887-1977.</persname>
       </origination>
       <unittitle encodinganalog="245">Lee Raymond Dice papers <unitdate type="inclusive" encodinganalog="245$f" normal="1903/1964">1903-1964</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851106 Aa 2</unitid>
@@ -86,10 +87,10 @@ The papers are organized of the following series: Professional Correspondence; I
       <controlaccess>
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1705">Alaska.</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2015027529">Dice, Lee Raymond, 1887-1977.</persname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Zoology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82037749">University of Michigan. Institute of Human Biology.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2015027529" ref="/agents/people/32892">Dice, Lee Raymond, 1887-1977.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11303">University of Michigan. Dept. of Zoology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82037749" ref="/agents/corporate_entities/13550">University of Michigan. Institute of Human Biology.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6153">Zoology.</subject>
       </controlaccess>
       <controlaccess>

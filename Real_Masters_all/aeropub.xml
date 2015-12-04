@@ -23,7 +23,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Department of Aerospace Engineering.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/14117">University of Michigan. Department of Aerospace Engineering.</corpname>
       </origination>
       <unittitle encodinganalog="245">Department of Aerospace Engineering (University of Michigan) publications <unitdate type="inclusive" encodinganalog="245$f" normal="1963/1994">1963-1994</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">9714; Bimu; C146; 2</unitid>
@@ -86,7 +87,7 @@ Department of Aerospace Engineering (University of Michigan) publications, Bentl
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Aerospace Engineering.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14103">University of Michigan. Dept. of Aerospace Engineering.</corpname>
         <genreform source="aat" encodinganalog="655" ref="/subjects/3152">Pamphlets.</genreform>
         <genreform source="aat" encodinganalog="655" ref="/subjects/3153">Bulletins.</genreform>
         <genreform source="aat" encodinganalog="655" ref="/subjects/3154">Prospectuses.</genreform>

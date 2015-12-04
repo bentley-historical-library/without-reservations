@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Larue, George R. (George Roger), b. 1882.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/31749">Larue, George R. (George Roger), b. 1882.</persname>
       </origination>
       <unittitle encodinganalog="245">George R. LaRue papers <unitdate type="inclusive" encodinganalog="245$f" normal="1910/1951">1910-1951</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851656 Aa 2</unitid>
@@ -81,19 +82,19 @@ George R. LaRue papers, Bentley Historical Library, University of Michigan</p>
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6190">Conservation of natural resources--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Zoology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11303">University of Michigan. Dept. of Zoology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6153">Zoology.</subject>
-        <persname source="lcnaf" encodinganalog="600">Larue, George R. (George Roger), b. 1882.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31749">Larue, George R. (George Roger), b. 1882.</persname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n2002022232">Michener, Earl C. (Earl Cory), 1876-1957.</persname>
-        <corpname source="lcnaf" encodinganalog="710">Michigan. Dept. of Conservation.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">Michigan. Dept. of Health.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">Michigan. Stream Control Commission.</corpname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50045033">Vandenberg, Arthur H. (Arthur Hendrick), 1884-1951.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n91072074">Vestal, Albert Henry, 1875-1932.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n2002022232" ref="/agents/people/35982">Michener, Earl C. (Earl Cory), 1876-1957.</persname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/12929">Michigan. Dept. of Conservation.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/10639">Michigan. Dept. of Health.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/13340">Michigan. Stream Control Commission.</corpname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50045033" ref="/agents/people/30858">Vandenberg, Arthur H. (Arthur Hendrick), 1884-1951.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n91072074" ref="/agents/people/31819">Vestal, Albert Henry, 1875-1932.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

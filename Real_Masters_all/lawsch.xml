@@ -43,7 +43,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -54,7 +55,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan--Law School.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/9632">University of Michigan--Law School.</corpname>
       </origination>
       <unittitle encodinganalog="245">Law School (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1852/2010">1852-2010</unitdate></unittitle>
       <abstract>Records of the Law School document the evolution of legal education at the University of Michigan as well as tenures of various deans and faculty. Documentation includes historical and class files; student organizations and activities; planning and construction of Law School buildings; information on William W. Cook and his bequest; topical files; deans' correspondence; reports and minutes. Also included are materials related to the Thomas M Cooley and William W. Cook lecture series and portraits of faculty and students, photographs of activities of the Judge Advocate General's School held at the Law School during World War II, the construction of the Law Quadrangle and Law Library addition, and student activities.</abstract>
@@ -341,26 +342,26 @@
     <controlaccess>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Hutchins Hall (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Lawyers' Club (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Administration.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Buildings.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Law School.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14429">Hutchins Hall (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9744">Lawyers' Club (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Administration.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Buildings.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Law School.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5825">Law.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79043447">Acheson, Dean, 1893-1971.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Dominick's (Restaurant: Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Law Quadrangle (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Judge Advocate General's School (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Buildings.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87101574">University of Michigan. Law Library.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Law School.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79043447" ref="/agents/people/28528">Acheson, Dean, 1893-1971.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13470">Dominick's (Restaurant: Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11761">Law Quadrangle (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14133">United States. Judge Advocate General's School (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Buildings.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87101574" ref="/agents/corporate_entities/9540">University of Michigan. Law Library.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Law School.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Students--Social life and customs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Students.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2191">Ann Arbor (Mich.)--Restaurants.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5685">African Americans.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8747">Restaurants--Michigan--Ann Arbor.</subject>
@@ -380,15 +381,15 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Allen, Frances Alfred, 1919-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2001090656">Bates, Henry Moore, 1869-1949.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80062320">Bollinger, Lee C., 1946-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88002366">Hutchins, Harry B. (Harry Burns), 1847-1930.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no97025557">Joiner, Charles Wycliffe, 1916-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82153768">Sandalow, Terrance, 1934-</persname>
-        <persname source="lcnaf" encodinganalog="700">Smith, Allan Frederick, 1911-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80098082">Stason, E. Blythe (Edwin Blythe), 1891-1972.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81120959">St. Antoine, Theodore J., 1929-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33170">Allen, Frances Alfred, 1919-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2001090656" ref="/agents/people/36036">Bates, Henry Moore, 1869-1949.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80062320" ref="/agents/people/31307">Bollinger, Lee C., 1946-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88002366" ref="/agents/people/28801">Hutchins, Harry B. (Harry Burns), 1847-1930.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no97025557" ref="/agents/people/27263">Joiner, Charles Wycliffe, 1916-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82153768" ref="/agents/people/27347">Sandalow, Terrance, 1934-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30406">Smith, Allan Frederick, 1911-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80098082" ref="/agents/people/28488">Stason, E. Blythe (Edwin Blythe), 1891-1972.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81120959" ref="/agents/people/34967">St. Antoine, Theodore J., 1929-</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

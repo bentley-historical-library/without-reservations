@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2010 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Jones, LaVerne</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/34841">Jones, LaVerne</persname>
       </origination>
       <unittitle encodinganalog="245">LaVerne Jones Collection</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1878/1966">1878-1966</unitdate>
@@ -88,7 +89,7 @@ LaVerne Jones Collection, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Bell Telephone Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10648">Michigan Bell Telephone Company.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8487">Telephone companies--Michigan.</subject>
       </controlaccess>
       <controlaccess>

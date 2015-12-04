@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Women's Action for Nuclear Disarmament. Washtenaw County Chapter.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/14633">Women's Action for Nuclear Disarmament. Washtenaw County Chapter.</corpname>
       </origination>
       <unittitle encodinganalog="245">Women's Action for Nuclear Disarmament, Washtenaw County Chapter records <unitdate type="inclusive" encodinganalog="245$f" normal="1985/1991">1985-1991</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">89161 Bj 2</unitid>
@@ -83,12 +84,12 @@ The WAND records are organized into four series: Administrative Records, Newslet
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5751">Peace--Societies, etc.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/847">Washtenaw County (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7992">Women--Michigan--Washtenaw County--Societies and clubs.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Women's Action for Nuclear Disarmament. Washtenaw County Chapter (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14407">Women's Action for Nuclear Disarmament. Washtenaw County Chapter (Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5841">Women and peace.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname source="lcnaf" encodinganalog="610">Women's Action for Nuclear Disarmament. Washtenaw County Chapter (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14407">Women's Action for Nuclear Disarmament. Washtenaw County Chapter (Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3641">Demonstrations--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8134">Peace movements--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10584">Persian Gulf War, 1991--Protest movements.</subject>
@@ -96,7 +97,7 @@ The WAND records are organized into four series: Administrative Records, Newslet
       </controlaccess>
       <controlaccess>
         <head>Contributors - Videotapes:</head>
-        <persname source="lcnaf" encodinganalog="700">Pollack, Lana, 1942-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34837">Pollack, Lana, 1942-</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Muehlig Funeral Chapel.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/8959">Muehlig Funeral Chapel.</corpname>
       </origination>
       <unittitle encodinganalog="245">Muehlig Funeral Chapel records</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1846/1867">1846-1867</unitdate>
@@ -75,7 +76,7 @@ Muehlig Funeral Chapel records, Bentley Historical Library, University of Michig
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Muehlig Funeral Chapel.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/8959">Muehlig Funeral Chapel.</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html" ref="/subjects/860">Ann Arbor (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6303">German Americans--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7752">Registers of births, etc.--Michigan--Ann Arbor.</subject>

@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Camp Davis (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/14205">Camp Davis (University of Michigan)</corpname>
       </origination>
       <unittitle encodinganalog="245">Camp Davis (University of Michigan) records</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1874/1964">1874-1964</unitdate>
@@ -89,14 +90,14 @@
       <controlaccess>
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1607">Bogardus Engineering Camp (University of Michigan)</geogname>
-        <persname source="lcnaf" encodinganalog="600">Davis, Joseph Baker, 1845-1920.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31211">Davis, Joseph Baker, 1845-1920.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1608">Douglas Lake (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2004052855">Johnston, Clarence Thomas, 1872-1970.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2004052855" ref="/agents/people/29649">Johnston, Clarence Thomas, 1872-1970.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6867">Surveyors--Wyoming.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6657">Surveyors--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80094504">University of Michigan. College of Engineering.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Geodesy and Surveying.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Summer Session.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80094504" ref="/agents/corporate_entities/9252">University of Michigan. College of Engineering.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10598">University of Michigan. Dept. of Geodesy and Surveying.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11137">University of Michigan. Summer Session.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1609">Camp Davis (University of Michigan)</geogname>
       </controlaccess>
       <controlaccess>
@@ -110,8 +111,8 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4076">Surveying--Wyoming.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4077">Surveying--Michigan.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3729">Swimming.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80094504">University of Michigan. College of Engineering.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Summer Session.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80094504" ref="/agents/corporate_entities/9252">University of Michigan. College of Engineering.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11137">University of Michigan. Summer Session.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1610">Wyoming.</geogname>
       </controlaccess>
       <controlaccess>

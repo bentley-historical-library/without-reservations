@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Andresen, Rachel Josephine, 1907-1988.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30262">Andresen, Rachel Josephine, 1907-1988.</persname>
       </origination>
       <unittitle encodinganalog="245">Rachel Josephine Andresen papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1948/1986">1948-1986</unitdate>
@@ -96,16 +97,16 @@ Rachel Josephine Andresen papers, Bentley Historical Library, University of Mich
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5902">Youth.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Youth for Understanding (Organization)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9043">Youth for Understanding (Organization)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600">Andresen, Rachel Josephine, 1907-1988.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30262">Andresen, Rachel Josephine, 1907-1988.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3611">Concerts.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Chorale.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9100">Michigan Chorale.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3698">Rites and ceremonies.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5903">Tourism.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Youth for Understanding (Organization)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9043">Youth for Understanding (Organization)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

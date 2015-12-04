@@ -39,7 +39,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -50,7 +51,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. School of Natural Resources and Environment.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/14080">University of Michigan. School of Natural Resources and Environment.</corpname>
       </origination>
       <unittitle encodinganalog="245">School of Natural Resources and Environment (University of Michigan) records <unitdate type="inclusive" normal="1903/2012" encodinganalog="245$f">1903-2012</unitdate></unittitle>
       <abstract>Academic unit of the University of Michigan established in 1903 as the Department of Forestry. Records include dean's administrative files, correspondence, minutes, reports and photographs documenting the administration of the school as well as classroom and field activities.</abstract>
@@ -128,16 +129,16 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2009055731">Baxter, Dow Vawter, 1898-1965.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2009055731" ref="/agents/people/35019">Baxter, Dow Vawter, 1898-1965.</persname>
         <genreform source="lcsh" encodinganalog="655" ref="/subjects/3431">College publications.</genreform>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6190">Conservation of natural resources--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10137">Ecology--Study and teaching.</subject>
-        <persname source="lcnaf" encodinganalog="600">Marquis, Stewart.</persname>
-        <persname source="lcnaf" encodinganalog="600">Tealdi, Aubrey.</persname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Landscape Architecture.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85004127">University of Michigan. Great Lakes and Marine Waters Center.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81003782">University of Michigan. School of Natural Resources.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Whittemore, Harlow Olin, 1889-1986.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31295">Marquis, Stewart.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/27718">Tealdi, Aubrey.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10077">University of Michigan. Dept. of Landscape Architecture.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85004127" ref="/agents/corporate_entities/9483">University of Michigan. Great Lakes and Marine Waters Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81003782" ref="/agents/corporate_entities/10319">University of Michigan. School of Natural Resources.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30563">Whittemore, Harlow Olin, 1889-1986.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
@@ -146,7 +147,7 @@
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81103576.html" ref="/subjects/1555">Benzie County (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81129557.html" ref="/subjects/1049">Cadillac (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1972">Clinton River (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Cobbs &amp; Mitchell.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11349">Cobbs &amp; Mitchell.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2823">Eberwhite Woods (Ann Arbor, Mich.)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5344">Fire fighters--Michigan.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5345">Forest fires--Michigan.</subject>
@@ -166,14 +167,14 @@
         <genreform source="aat" encodinganalog="655" ref="/subjects/3145">Slides.</genreform>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2826">Stinchfield Woods (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2146">Tahquamenon River (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81003782">University of Michigan. School of Natural Resources.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Forestry Club.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. School of Natural Resources--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81003782" ref="/agents/corporate_entities/10319">University of Michigan. School of Natural Resources.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9705">University of Michigan. Forestry Club.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10319">University of Michigan. School of Natural Resources--Faculty.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/938">Upper Peninsula (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2006053018">Woodlawn Cemetery (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2006053018" ref="/agents/corporate_entities/13772">Woodlawn Cemetery (Detroit, Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1729">Upper Falls (Luce County, Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1728">Lower Falls (Chippewa County, Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="700">Nevue, Wilfred, 1886-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33650">Nevue, Wilfred, 1886-</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

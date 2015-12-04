@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Kelly, Everett Lowell, 1905-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/35132">Kelly, Everett Lowell, 1905-</persname>
       </origination>
       <unittitle encodinganalog="245">Everett L. Kelly Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1926/1986">1926-1986</unitdate></unittitle>
       <abstract>Professor of psychology at the University of Michigan. Papers include an unpublished autobiography; files relating to his work with the Civil Aeronautics Administration during World War II in developing a pilot aptitude test and a flight training manual; and correspondence and subject files relating to his professional activities and research on such subjects as color-hearing, extrasensory perception, a marriage longitudinal study, and predictors for student success; also papers detailing his work on the Thalia Massie rape case; and photographs.</abstract>
@@ -84,18 +85,18 @@
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8616">Color-hearing.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8617">Extrasensory perception.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2004086597">Kelly, E. Lowell (Everett Lowell), 1905-1986</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2004086597" ref="/agents/people/31706">Kelly, E. Lowell (Everett Lowell), 1905-1986</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8618">Longitudinal method.</subject>
-        <persname source="lcnaf" encodinganalog="600">Massie, Thalia Fortescue, 1910 or 11-1963.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28416">Massie, Thalia Fortescue, 1910 or 11-1963.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8619">Psychology.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Psychology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11288">University of Michigan. Dept. of Psychology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5681">World War, 1939-1945.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2004086597">Kelly, E. Lowell (Everett Lowell), 1905-1986</persname>
-        <famname source="lcnaf" encodinganalog="600">Kelly family.</famname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2004086597" ref="/agents/people/31706">Kelly, E. Lowell (Everett Lowell), 1905-1986</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/62">Kelly family.</famname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

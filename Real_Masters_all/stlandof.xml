@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Michigan. State Land Office Board.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/10975">Michigan. State Land Office Board.</corpname>
       </origination>
       <unittitle encodinganalog="245">Michigan State Land Office Board records <unitdate type="inclusive" encodinganalog="245$f" normal="1816/1924">1816-1924</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851856 Ca 2; CA Outsize</unitid>
@@ -93,9 +94,9 @@ Michigan State Land Office Board records, Bentley Historical Library, University
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <corpname source="lcnaf" encodinganalog="710">United States. Grayling Land Office.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">United States. Marquette Land Office.</corpname>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n80125848">United States. General Land Office.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/10544">United States. Grayling Land Office.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/12898">United States. Marquette Land Office.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n80125848" ref="/agents/corporate_entities/9716">United States. General Land Office.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

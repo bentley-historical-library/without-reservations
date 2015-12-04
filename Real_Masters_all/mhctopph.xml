@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf">Michigan Historical Collection</corpname>
+        <corpname source="lcnaf" ref="/agents/corporate_entities/12941">Michigan Historical Collection</corpname>
       </origination>
       <unittitle encodinganalog="245">Michigan Historical Collections topical photograph collection <unitdate type="inclusive" encodinganalog="245$f" normal="1860/1959" certainty="approximate">circa 1860-1959</unitdate></unittitle>
       <abstract>The Michigan Historical Collections Topical Photograph Collection offer a broad and varied glimpse into nearly one hundred years of Michigan history, from the 1860s into the 1950s. The provenance of most of the photographs has been lost and therefore these images have been grouped together by subject into an artificial accumulation. Subjects depicted range from industry and transportation to clothing styles and social customs.</abstract>
@@ -83,7 +84,7 @@
       </p>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor No. 3 (Car ferry)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11426">Ann Arbor No. 3 (Car ferry)</corpname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/576">Ann Arbor (Mich.)--Street-railroads.</geogname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/209">Ann Arbor (Mich.)--Streets.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3869">Architecture.</subject>
@@ -91,7 +92,7 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4145">Automobiles.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3648">Baseball.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4807">Bathing suits.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no97001892">Bicknell, W. H. W. (William Harry Warren), 1860-1947</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no97001892" ref="/agents/people/33613">Bicknell, W. H. W. (William Harry Warren), 1860-1947</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2155">Blue Water Bridge (Port Huron, Mich. and Sarnia, Ont.)</geogname>
         <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3502">Bookplates.</genreform>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4808">Bridges--Michigan--Port Huron.</subject>
@@ -99,7 +100,7 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4809">Cadillac (Mich.)--Living rooms.</subject>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/577">Cadillac (Mich.)--Offices.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3652">Camping.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Calumet and Hecla Mining Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9602">Calumet and Hecla Mining Company.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4810">Cargo ships.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3654">Carriages and coaches.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4214">Carts and wagons.</subject>
@@ -108,7 +109,7 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3622">Children.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4812">Children's clothing and dress.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3724">Churches--Michigan--Detroit.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82247865">Cleveland-Cliffs Iron Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82247865" ref="/agents/corporate_entities/13798">Cleveland-Cliffs Iron Company.</corpname>
         <subject source="aat" encodinganalog="650" ref="/subjects/10857">Clothing and dress--1860-1920.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2350">Congress Street (Ypsilanti, Mich.)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4813">Cookery.</subject>
@@ -116,46 +117,46 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4451">Cutover lands.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4815">Dams--Michigan--Mio.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9244">Danish Americans.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Dansk Soldaterforening Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10508">Dansk Soldaterforening Michigan.</corpname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/578">Dearborn (Mich.)--Street-railroads.</geogname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/579">Dearborn (Mich.)--Streets.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4816">Deer hunting.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Detroit, Jackson &amp; Chicago Railway.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Detroit (Mich.). Dept. of Street Railways.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12380">Detroit, Jackson &amp; Chicago Railway.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14068">Detroit (Mich.). Dept. of Street Railways.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4817">Detroit (Mich.)--Churches.</subject>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/219">Detroit (Mich.)--Streets.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4818">Diving.</subject>
         <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3464">Drawings.</genreform>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no98080205">Duluth (Ship)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no98080205" ref="/agents/corporate_entities/9658">Duluth (Ship)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3831">Dwellings--Michigan.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4457">Eating and drinking.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4819">Electric railroads.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4636">Emigration and immigration.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4820">Ethnic groups.</subject>
-        <persname source="lcnaf" encodinganalog="600">Faber, E.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31025">Faber, E.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3923">Families.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4333">Farms.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3787">Ferries.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7762">Finnish Americans.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3844">Forestry.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4146">Forests--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Fontana (Ship)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9425">Fontana (Ship)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3699">Funeral rites and ceremonies.</subject>
-        <persname source="lcnaf" encodinganalog="600">Gallop, Horace Milton.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28177">Gallop, Horace Milton.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4821">General stores--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5687">German Americans.</subject>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/580">Harbor Springs (Mich.)--Harbors.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4822">Harbors--Michigan--Harbor Springs.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4823">Historical markers--Michigan--Negaunee.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Holy Cross Hungarian Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10014">Holy Cross Hungarian Church (Detroit, Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3746">Horses.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3664">Hunting--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1949">Huron, Lake (Mich. and Ont.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9245">Indians of North America--Michigan, Western.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4581">Iron mining.</subject>
-        <persname source="lcnaf" encodinganalog="600">Krieger, Louis C.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33554">Krieger, Louis C.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3665">Laborers.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Lagonda (Ship)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14538">Lagonda (Ship)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4824">Living rooms--Michigan--Cadillac.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4825">Logs.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3666">Lumber industry.</subject>
@@ -173,7 +174,7 @@
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/582">Mio (Mich.)--Dams.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3615">Musical instruments.</subject>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/583">Negaunee (Mich.)--Historical markers.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Neshoto (Ship)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12044">Neshoto (Ship)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4828">Offices--Michigan--Cadillac.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4829">Ox teams.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3574">Parades and processions.</subject>
@@ -184,14 +185,14 @@
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/584">Port Huron (Mich.)--Bridges.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4831">Port Huron (Mich.)--Street-railroads.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4832">Port Huron (Mich.)--Streets.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Quincy A. Shaw (Ship)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9835">Quincy A. Shaw (Ship)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3670">Railroad accidents.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4833">Railroad employees.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4834">Railroad facilities.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4835">Railroad locomotives.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3839">Railroads--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="600">Senseney, George Eyster, 1874-1943.</persname>
-        <persname source="lcnaf" encodinganalog="600">Shaw, Wilfred Byron, 1881-1959.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34122">Senseney, George Eyster, 1874-1943.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34442">Shaw, Wilfred Byron, 1881-1959.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9246">Shay (Steam locomotive)</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4836">Ship accidents.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4070">Shipping--Great Lakes.</subject>
@@ -201,7 +202,7 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3674">Soldiers--American.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/883">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6011">Spanish-American War, 1898.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Specular (Ship)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14208">Specular (Ship)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3630">Sports.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4839">Steamboats.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4840">Street-railroads--Michigan--Ann Arbor.</subject>
@@ -213,14 +214,14 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3756">Streets--Michigan--Detroit.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4845">Streets--Michigan--Ypsilanti.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3729">Swimming.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82129076">United States. Army. Infantry, 339th.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Library.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82129076" ref="/agents/corporate_entities/13060">United States. Army. Infantry, 339th.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10442">University of Michigan. Library.</corpname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/585">Upper Peninsula (Mich.)--Forests.</geogname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/586">Upper Peninsula (Mich.)--Mining.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Victory (Freighter)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Walter Scranton (Ship)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">William C. Atwater (Ship)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n84017513">William L. Clements Library.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10952">Victory (Freighter)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14056">Walter Scranton (Ship)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13999">William C. Atwater (Ship)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n84017513" ref="/agents/corporate_entities/9919">William L. Clements Library.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3942">Winter.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2352">Wolverine (Mich.)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3619">Women.</subject>

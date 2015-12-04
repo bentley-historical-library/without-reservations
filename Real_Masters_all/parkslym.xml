@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/no99028816">Parks, Lyman S., 1917-</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/no99028816" ref="/agents/people/29141">Parks, Lyman S., 1917-</persname>
       </origination>
       <unittitle encodinganalog="245">Lyman S. Parks papers <unitdate type="inclusive" encodinganalog="245$f" normal="1962/1977">1962-1977</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">85370 Aa 2; UAm</unitid>
@@ -84,14 +85,14 @@ Lyman S. Parks Papers, Bentley Historical Library, University of Michigan</p>
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6841">African Americans--Michigan--Grand Rapids.</subject>
-        <corpname source="lcnaf" encodinganalog="610">African Methodist Episcopal Church--Michigan--Grand Rapids.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">First Community Church (A. M. E.) (Grand Rapids, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/8944">African Methodist Episcopal Church--Michigan--Grand Rapids.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11029">First Community Church (A. M. E.) (Grand Rapids, Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79133151.html" ref="/subjects/1102">Grand Rapids (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7989">Mayors--Michigan--Grand Rapids.</subject>
         <geogname source="local" encodinganalog="691" ref="/subjects/801">Michigan--Politics and government--1971-1980.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/910">Michigan--Politics and government--1951-</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7990">Municipal government--Michigan--Grand Rapids.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no99028816">Parks, Lyman S., 1917-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no99028816" ref="/agents/people/29141">Parks, Lyman S., 1917-</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
@@ -100,8 +101,8 @@ Lyman S. Parks Papers, Bentley Historical Library, University of Michigan</p>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3622">Children.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3657">City and town life.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4511">Dwellings--Michigan--Grand Rapids.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83071452">Ferris State College.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79022087">Ford, Gerald R., 1913-2006.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83071452" ref="/agents/corporate_entities/11466">Ferris State College.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79022087" ref="/agents/people/31340">Ford, Gerald R., 1913-2006.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3767">Graduation ceremonies.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79133151.html" ref="/subjects/1102">Grand Rapids (Mich.)</geogname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/333">Grand Rapids (Mich.)--Dwellings.</geogname>

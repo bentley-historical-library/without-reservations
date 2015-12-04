@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Tower Family</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/3">Tower Family</famname>
       </origination>
       <unittitle encodinganalog="245">Tower Family papers <unitdate type="inclusive" encodinganalog="245$f" normal="1841/1937">1841-1937</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">86127 Aa 2</unitid>
@@ -88,16 +89,16 @@ Tower Family papers, Bentley Historical Library, University of Michigan</p>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10386">Lumber trade--Washington (State)</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/909">United States--History--Civil War, 1861-1865.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10387">Veterans--Michigan--Ionia.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87891115">United States. Army. Michigan Cavalry Regiment, 6th (1862-1865). Company E.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87891115" ref="/agents/corporate_entities/10779">United States. Army. Michigan Cavalry Regiment, 6th (1862-1865). Company E.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Heath, William B.</persname>
-        <persname source="lcnaf" encodinganalog="700">Lovell, Louis S., b. 1816.</persname>
-        <persname source="lcnaf" encodinganalog="700">Morse, Allen Benton, 1839-1921.</persname>
-        <persname source="lcnaf" encodinganalog="700">Tower, Angelo Emery.</persname>
-        <persname source="lcnaf" encodinganalog="700">Tower, Osmond Selwyn, 1839-1910.</persname>
-        <persname source="lcnaf" encodinganalog="700">Webber, George W., b. 1825.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33597">Heath, William B.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27226">Lovell, Louis S., b. 1816.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35788">Morse, Allen Benton, 1839-1921.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28201">Tower, Angelo Emery.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34126">Tower, Osmond Selwyn, 1839-1910.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27244">Webber, George W., b. 1825.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

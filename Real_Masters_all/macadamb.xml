@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">MacAdam, Barbara</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28543">MacAdam, Barbara</persname>
       </origination>
       <unittitle encodinganalog="245">Barbara MacAdam papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1957/2011">1957-2011</unitdate>
@@ -85,11 +86,11 @@ Barbara MacAdam papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n93015403">MacAdam, Barbara, 1947-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n93015403" ref="/agents/people/27566">MacAdam, Barbara, 1947-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6305">Libraries--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Library.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no97022740">University of Michigan. School of Information.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Undergraduate Library.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10442">University of Michigan. Library.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no97022740" ref="/agents/corporate_entities/9289">University of Michigan. School of Information.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12745">University of Michigan. Undergraduate Library.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

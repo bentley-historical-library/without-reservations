@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Kenny R.E.H.A.B.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/9876">Kenny R.E.H.A.B.</corpname>
       </origination>
       <unittitle encodinganalog="245">Kenny R.E.H.A.B. Records</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1945/1997">1945-1997</unitdate>
@@ -86,19 +87,19 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Kenny R.E.H.A.B.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80037749">Kenny, Elizabeth, 1886-1952.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9876">Kenny R.E.H.A.B.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80037749" ref="/agents/people/27525">Kenny, Elizabeth, 1886-1952.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6493">Poliomyelitis.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Sister Elizabeth Kenny Foundation.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11070">Sister Elizabeth Kenny Foundation.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <corpname source="lcnaf" encodinganalog="610">Kenny R.E.H.A.B.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9876">Kenny R.E.H.A.B.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5317">Children--Health and welfare--Michigan.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5318">Iron lungs.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5319">Poliomyelitis--Michigan.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5320">Sick children.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Sister Elizabeth Kenny Polio Hospital (Farmington Hills, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13042">Sister Elizabeth Kenny Polio Hospital (Farmington Hills, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

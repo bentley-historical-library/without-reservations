@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Subcommittee on Human Use of Radioisotopes.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/11878">University of Michigan. Subcommittee on Human Use of Radioisotopes.</corpname>
       </origination>
       <unittitle encodinganalog="245">Subcommittee on Human Use of Radioisotopes (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1951/1985">1951-1985</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">87364 Bimu B31 2</unitid>
@@ -90,15 +91,15 @@ Subcommittee on Human Use of Radioisotopes (University of Michigan) records, Ben
         <head>Subjects:</head>
         <subject encodinganalog="650" source="lcsh" ref="/subjects/6482">Radiation.</subject>
         <subject encodinganalog="650" source="lcsh" ref="/subjects/9278">Radioisotopes.</subject>
-        <corpname encodinganalog="610" source="lcnaf">University of Michigan. Radiation Policy Committee.</corpname>
-        <corpname encodinganalog="610" source="lcnaf">University of Michigan--Research.</corpname>
-        <corpname encodinganalog="610" source="lcnaf">University of Michigan. Subcommittee on Human Use of Radioisotopes.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/12416">University of Michigan. Radiation Policy Committee.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/9632">University of Michigan--Research.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/11878">University of Michigan. Subcommittee on Human Use of Radioisotopes.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname encodinganalog="700" source="lcnaf">Bishop, Ronald.</persname>
-        <persname encodinganalog="700" source="lcnaf">Lampe, Isadore, 1906-</persname>
-        <persname encodinganalog="700" source="lcnaf">Simons, Charles S.</persname>
+        <persname encodinganalog="700" source="lcnaf" ref="/agents/people/27660">Bishop, Ronald.</persname>
+        <persname encodinganalog="700" source="lcnaf" ref="/agents/people/31809">Lampe, Isadore, 1906-</persname>
+        <persname encodinganalog="700" source="lcnaf" ref="/agents/people/27646">Simons, Charles S.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

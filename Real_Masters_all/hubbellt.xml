@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Hubbell, Theodore H.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33164">Hubbell, Theodore H.</persname>
       </origination>
       <unittitle encodinganalog="245">Theodore H. Hubbell papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1833/1988">1833-1988</unitdate>
@@ -92,17 +93,17 @@
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7088">Agriculture--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8334">Entomology.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no00039433">Hubbell, Theodore Huntington, 1897-1989.</persname>
-        <famname source="lcnaf" encodinganalog="600">Hubbell family.</famname>
-        <famname source="lcnaf" encodinganalog="600">Hussey family.</famname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no00039433" ref="/agents/people/34998">Hubbell, Theodore Huntington, 1897-1989.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/96">Hubbell family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/367">Hussey family.</famname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1578">Ohio.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2105">Ohio--Social life and customs.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50082367">National Grange.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50082367" ref="/agents/corporate_entities/13679">National Grange.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/944">Philippines--History--1898-1946.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/909">United States--History--Civil War, 1861-1865.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Zoology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79115934">University of Michigan. Museum of Zoology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11303">University of Michigan. Dept. of Zoology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79115934" ref="/agents/corporate_entities/14301">University of Michigan. Museum of Zoology.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5739">Women--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
@@ -113,24 +114,24 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3994">Dwellings.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n83069938.html" ref="/subjects/2107">Fort Sill (Okla.)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82137791.html" ref="/subjects/1094">Frankfort (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no00039433">Hubbell, Theodore Huntington, 1897-1989.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no00039433" ref="/agents/people/34998">Hubbell, Theodore Huntington, 1897-1989.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1978">Milford (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">University Museums Building (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12243">University Museums Building (University of Michigan)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/944">Philippines--History--1898-1946.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">University Hall (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14546">University Hall (University of Michigan)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5712">World War, 1914-1918.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Hubbell, Clarence, 1870-1950.</persname>
-        <persname source="lcnaf" encodinganalog="700">Hubbell, Grace Griffin.</persname>
-        <persname source="lcnaf" encodinganalog="700">Hubbell, Winifred.</persname>
-        <persname source="lcnaf" encodinganalog="700">Hussey, John Milton.</persname>
-        <persname source="lcnaf" encodinganalog="700">Hussey, Mary C.</persname>
-        <persname source="lcnaf" encodinganalog="700">Hussey, Roland F.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008189002">Hussey, William Joseph, 1862-1926.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no00039450">Rogers, J. Speed (James Speed), 1892-1955</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2007120169">Steere, Joseph Beal, 1842-1940.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31190">Hubbell, Clarence, 1870-1950.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35058">Hubbell, Grace Griffin.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35951">Hubbell, Winifred.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28539">Hussey, John Milton.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30812">Hussey, Mary C.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34493">Hussey, Roland F.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008189002" ref="/agents/people/27759">Hussey, William Joseph, 1862-1926.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no00039450" ref="/agents/people/32955">Rogers, J. Speed (James Speed), 1892-1955</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2007120169" ref="/agents/people/35336">Steere, Joseph Beal, 1842-1940.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Carman, George N., 1856-1941.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33366">Carman, George N., 1856-1941.</persname>
       </origination>
       <unittitle encodinganalog="245">George N. Carman papers <unitdate type="inclusive" encodinganalog="245$f" normal="1839/1941">1839-1941</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85875 Aa 2</unitid>
@@ -82,18 +83,18 @@ George N. Carman papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Carman, George N., 1856-1941.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33366">Carman, George N., 1856-1941.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6672">Education--Illinois--Chicago.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Lewis Institute.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14218">Lewis Institute.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6673">Schools--Illinois--Chicago.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6674">Teachers--Illinois--Chicago.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs--1871-1880.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Students--Social life and customs--1871-1880.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600">Carman, Ada MacVicar.</persname>
-        <persname source="lcnaf" encodinganalog="600">Carman, George N., 1856-1941.</persname>
-        <famname source="lcnaf" encodinganalog="600">Carman family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34687">Carman, Ada MacVicar.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33366">Carman, George N., 1856-1941.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/185">Carman family.</famname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3622">Children.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4018">Offices--1891-1900.</subject>
       </controlaccess>

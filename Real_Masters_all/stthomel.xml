@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">St. Thomas Evangelical Lutheran Church (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/8833">St. Thomas Evangelical Lutheran Church (Ann Arbor, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">St. Thomas Evangelical Lutheran Church (Ann Arbor, Mich.) records <unitdate type="inclusive" encodinganalog="245$f" normal="1844/2000">1844-2000</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2008004 Ba 2</unitid>
@@ -87,12 +88,12 @@ St. Thomas Evangelical Lutheran Church (Ann Arbor, Mich.) records, Bentley Histo
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/882">Ann Arbor (Mich.)--Church history.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5827">German Americans--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2910">Freedom (Mich. : Township)--Church history.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Lutheran Church--Missouri Synod--Michigan--Freedom (Township)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Lutheran Church--Missouri Synod--Michigan--Ann Arbor.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9274">Lutheran Church--Missouri Synod--Michigan--Freedom (Township)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9274">Lutheran Church--Missouri Synod--Michigan--Ann Arbor.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7752">Registers of births, etc.--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10266">Registers of births, etc.--Michigan--Freedom (Township)</subject>
-        <persname source="lcnaf" encodinganalog="600">Schmid, Friedrich, 1807-1883</persname>
-        <corpname source="lcnaf" encodinganalog="610">St. Thomas Evangelical Lutheran Church (Ann Arbor, Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/36045">Schmid, Friedrich, 1807-1883</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/8833">St. Thomas Evangelical Lutheran Church (Ann Arbor, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

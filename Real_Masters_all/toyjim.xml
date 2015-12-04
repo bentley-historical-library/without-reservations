@@ -43,7 +43,8 @@
         <item>-Original encoding in EAD Vers. 1.0 from Word 6.0 file using Word macros and some hand tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -54,7 +55,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Toy, James W., 1930-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/27482">Toy, James W., 1930-</persname>
       </origination>
       <unittitle encodinganalog="245$a">James W. Toy Papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1963/2009">1963-2009</unitdate>
@@ -116,13 +117,13 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Toy, James W., 1930-</persname>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Gay Liberation Front.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/27482">Toy, James W., 1930-</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9350">Ann Arbor Gay Liberation Front.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10390">AIDS (Disease)</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html" ref="/subjects/860">Ann Arbor (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8784">Coming out (Sexual orientation)--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85813454">Episcopal Church. Diocese of Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Episcopal Church--Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85813454" ref="/agents/corporate_entities/9071">Episcopal Church. Diocese of Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9954">Episcopal Church--Michigan.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6380">Gay college students--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5926">Gay liberation movement--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5742">Gay men--Michigan.</subject>
@@ -131,16 +132,16 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6381">Homosexuality--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10391">Homosexuality--Religious aspects--Episcopal Church.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5743">Lesbians--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr91006418">Michigan Organization for Human Rights.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr91006418" ref="/agents/corporate_entities/11456">Michigan Organization for Human Rights.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7396">Sexual orientation--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Human Sexuality Office.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Lesbian-Gay Male Programs Office.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr91034577">University of Michigan. Study Committee on the Status of Lesbians and Gay Men.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Task Force on Sexual Orientation.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11768">University of Michigan. Human Sexuality Office.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9938">University of Michigan. Lesbian-Gay Male Programs Office.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr91034577" ref="/agents/corporate_entities/10853">University of Michigan. Study Committee on the Status of Lesbians and Gay Men.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13809">University of Michigan. Task Force on Sexual Orientation.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Toy, James W., 1930-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/27482">Toy, James W., 1930-</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4698">Gay rights--Michigan--Ann Arbor.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4699">Gays--Michigan--Ann Arbor.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3641">Demonstrations--Michigan--Ann Arbor.</subject>

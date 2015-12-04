@@ -23,7 +23,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Affirmative Action Office.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/13489">University of Michigan. Affirmative Action Office.</corpname>
       </origination>
       <unittitle encodinganalog="245">Affirmative Action Office (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1969/1993">1969-1993</unitdate></unittitle>
       <abstract>University of Michigan administrative office responsible for developing and coordinating affirmative action programs for women, minorities and disabled faculty, staff, and students. Records include topical files, minutes, reports, photographs and audio and video tapes. This record group also includes records of the Commission for Minority Affairs and the Commission for Women, organizations originally independent, but since 1976 integrated within the Affirmative Action Office.</abstract>
@@ -86,19 +87,19 @@
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5655">Affirmative action programs--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5738">Discrimination in employment--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Administration.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Affirmative Action Office.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Commission for Minority Affairs.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Commission for Women.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Administration.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13489">University of Michigan. Affirmative Action Office.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9647">University of Michigan. Commission for Minority Affairs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9678">University of Michigan. Commission for Women.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5739">Women--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5722">College teachers--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5723">Women college teachers--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5655">Affirmative action programs--Michigan--Ann Arbor.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50024063">Friedan, Betty.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50024063" ref="/agents/people/31207">Friedan, Betty.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3640">Handicapped persons.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5740">International Women's Year, 1975.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5741">Rowing.</subject>
@@ -106,11 +107,11 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3619">Women.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5722">College teachers--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5723">Women college teachers--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Varner, Nellie M.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35610">Varner, Nellie M.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

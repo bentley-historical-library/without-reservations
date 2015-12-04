@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Cooley, Lyman Edgar, 1850-1917.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30287">Cooley, Lyman Edgar, 1850-1917.</persname>
       </origination>
       <unittitle encodinganalog="245">Lyman E. Cooley papers <unitdate type="inclusive" encodinganalog="245$f" normal="1865/1917">1865-1917</unitdate></unittitle>
       <abstract>Chicago, Illinois engineer, editor The American Engineer, member of the International Deep Waterways Commission. Professional correspondence relating to the Chicago Drainage Canal, the St. Lawrence Waterway, the Lakes-to-the-Gulf Deep Waterway Association, the controversy over the location of an isthmian canal between the Atlantic and Pacific Oceans, 1897-1898, and other public works consulting projects.</abstract>
@@ -82,7 +83,7 @@
         <subject source="lcsh" encodinganalog="611" ref="/subjects/6990">The American engineer.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6988">Engineers--Illinois--Chicago.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/853">Huron River (Oakland County-Monroe County, Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">International Deep Waterways Commission.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10066">International Deep Waterways Commission.</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82004295" ref="/subjects/1598">Panama Canal (Panama)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1634">Saint Lawrence Seaway.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1635">Chicago Sanitary and Ship Canal (Ill.)</geogname>
@@ -90,14 +91,14 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50021477">Altgeld, John Peter, 1847-1902.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no90002065">Angell, James Burrill, 1829-1916.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84804477">Cooley, Mortimer E. (Mortimer Elwyn), 1855-1944.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no89019979">Cullom, Shelby Moore, 1829-1914.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no98123404">Lorimer, William, 1861-1934.</persname>
-        <persname source="lcnaf" encodinganalog="700">Madden, Martin Barnaby, 1855-1928.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86808253">Morgan, John Tyler, 1824-1907.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n91087096">Waddell, J. A. L. (John Alexander Low), 1854-1938.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50021477" ref="/agents/people/35197">Altgeld, John Peter, 1847-1902.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no90002065" ref="/agents/people/29978">Angell, James Burrill, 1829-1916.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84804477" ref="/agents/people/36018">Cooley, Mortimer E. (Mortimer Elwyn), 1855-1944.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no89019979" ref="/agents/people/30099">Cullom, Shelby Moore, 1829-1914.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no98123404" ref="/agents/people/29261">Lorimer, William, 1861-1934.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34416">Madden, Martin Barnaby, 1855-1928.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86808253" ref="/agents/people/32567">Morgan, John Tyler, 1824-1907.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n91087096" ref="/agents/people/33140">Waddell, J. A. L. (John Alexander Low), 1854-1938.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Steeh, George C., 1919-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/36237">Steeh, George C., 1919-</persname>
       </origination>
       <unittitle encodinganalog="245">George C. Steeh Papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1946/2009">1946-2009</unitdate>
@@ -86,15 +87,15 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Steeh, George C., 1919-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/36237">Steeh, George C., 1919-</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2845">Macomb County (Mich.)--Politics and government.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10209">Legislators--Michigan--Macomb County.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. Legislature. House of Representatives.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. Legislature. Senate.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13376">Michigan. Legislature. House of Representatives.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9225">Michigan. Legislature. Senate.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Steeh, George C., 1919-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/36237">Steeh, George C., 1919-</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2845">Macomb County (Mich.)--Politics and government.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5384">Legislators--Michigan--Macomb County.</subject>
       </controlaccess>

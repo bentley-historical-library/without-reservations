@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Louis Sands Salt and Lumber Company (Manistee, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/9603">Louis Sands Salt and Lumber Company (Manistee, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">Louis Sands Salt and Lumber Company (Manistee, Mich.) records <unitdate type="inclusive" encodinganalog="245$f" normal="1863/1932">1863-1932</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851810 Bb. 2</unitid>
@@ -92,10 +93,10 @@ Louis Sands Salt and Lumber Company (Manistee, Mich.) records, Bentley Historica
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9928">Lumbering--Michigan--Manistee.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/865">Manistee (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9929">Salt industry and trade--Michigan--Manistee.</subject>
-        <persname source="lcnaf" encodinganalog="600">Sands, Louis, 1825-1905.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Sands and Burr (Bankers : Manistee, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Louis Sands Salt and Lumber Company (Manistee, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Manistee River Improvement Company (Manistee, Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31027">Sands, Louis, 1825-1905.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12615">Sands and Burr (Bankers : Manistee, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9603">Louis Sands Salt and Lumber Company (Manistee, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10879">Manistee River Improvement Company (Manistee, Mich.)</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

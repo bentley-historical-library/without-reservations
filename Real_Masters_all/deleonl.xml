@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">DeLeon, Linda.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30934">DeLeon, Linda.</persname>
       </origination>
       <unittitle encodinganalog="245">Linda DeLeon papers <unitdate type="inclusive" encodinganalog="245$f" normal="1981/2013">1981-2013</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2013100 Aa 2</unitid>
@@ -81,10 +82,10 @@ Linda DeLeon papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">DeLeon, Linda.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30934">DeLeon, Linda.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7181">African Americans--Michigan--Inkster.</subject>
-        <corpname source="lcnaf" encodinganalog="610">American Family Association.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Christians for Decency.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12306">American Family Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12500">Christians for Decency.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1690">Inskter (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7182">Pornography--Law and legislation--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6739">Pro-life movement--Michigan.</subject>

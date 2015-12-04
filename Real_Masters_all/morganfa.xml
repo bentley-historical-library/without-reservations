@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Morgan Family</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/126">Morgan Family</famname>
       </origination>
       <unittitle encodinganalog="245">Morgan Family Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1821/1893">1821-1893</unitdate></unittitle>
       <abstract>Ann Arbor, Michigan family. Ledger, of Elijah W. Morgan, attorney and businessman, compiled in the 1840's containing his comments and evaluations of business and professional abilities of early businessmen of Washtenaw County, Michigan; correspondence, autobiography, and other miscellaneous business papers and deeds; also correspondence, drawings, and writings of his wife Lucy Stow Morgan, including letter describing life and customs in Ann Arbor, Michigan, in 1831; and other papers of Elijah's parents, including autobiographies of Elisha Morgan and Polly Babcock Morgan.</abstract>
@@ -105,11 +106,11 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Kingsley, James, 1797-1878.</persname>
-        <persname source="lcnaf" encodinganalog="700">Morgan, Elijah William, b. 1805.</persname>
-        <persname source="lcnaf" encodinganalog="700">Morgan, Elisha.</persname>
-        <persname source="lcnaf" encodinganalog="700">Morgan, Lucy Stow.</persname>
-        <persname source="lcnaf" encodinganalog="700">Morgan, Polly Babcock.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34820">Kingsley, James, 1797-1878.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27215">Morgan, Elijah William, b. 1805.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34747">Morgan, Elisha.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32718">Morgan, Lucy Stow.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29617">Morgan, Polly Babcock.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

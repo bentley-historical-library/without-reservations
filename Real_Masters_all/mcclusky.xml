@@ -28,7 +28,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">McClusky, Howard Y. (Howard Yale), 1890-1982.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/31136">McClusky, Howard Y. (Howard Yale), 1890-1982.</persname>
       </origination>
       <unittitle encodinganalog="245">Howard Y. McClusky Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1921/1982">1921-1982</unitdate></unittitle>
       <abstract>Professor of community and adult education at the University of Michigan; correspondence, writings, teaching material, subject files relating in part to his university activities, the Adult Education Association, and the American Youth Commission; also photographs and sound tapes.</abstract>
@@ -89,25 +90,25 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6274">Adult education.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Adult Education Association.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr91039328">American Council on Education. American Youth Commission.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12551">Adult Education Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr91039328" ref="/agents/corporate_entities/13538">American Council on Education. American Youth Commission.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8829">Community organization.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6116">Education--United States.</subject>
-        <persname source="lcnaf" encodinganalog="600">McClusky, Howard Y. (Howard Yale), 1900-1982.</persname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Community Adult Education.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82098946">University of Michigan. School of Education.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28310">McClusky, Howard Y. (Howard Yale), 1900-1982.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13654">University of Michigan. Community Adult Education.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82098946" ref="/agents/corporate_entities/12505">University of Michigan. School of Education.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">McClusky, Howard Y. (Howard Yale), 1900-1982.</persname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28310">McClusky, Howard Y. (Howard Yale), 1900-1982.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3593">Classrooms--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
         <head>Sound recordings</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8968">Adult education--United States.</subject>
-        <persname source="lcnaf" encodinganalog="600">McClusky, Howard Y. (Howard Yale), 1900-1982.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28310">McClusky, Howard Y. (Howard Yale), 1900-1982.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

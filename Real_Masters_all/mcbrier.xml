@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">McBrier, Edwin Merton, 1865-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30313">McBrier, Edwin Merton, 1865-</persname>
       </origination>
       <unittitle encodinganalog="245">Edwin M. McBrier papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1926">1926</unitdate>
@@ -85,8 +86,8 @@ Edwin M. McBrier papers, Bentley Historical Library, University of Michigan</p>
       <controlaccess>
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/984">Europe.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no95038590">Methodist Episcopal Church. Board of Foreign Missions.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Methodist Episcopal Church--Missions.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no95038590" ref="/agents/corporate_entities/11086">Methodist Episcopal Church. Board of Foreign Missions.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9020">Methodist Episcopal Church--Missions.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6010">Travelers.</subject>
       </controlaccess>
       <controlaccess>
@@ -96,7 +97,7 @@ Edwin M. McBrier papers, Bentley Historical Library, University of Michigan</p>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1285">Finland.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1768">France.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/919">Germany.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no95038590">Methodist Episcopal Church. Board of Foreign Missions.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no95038590" ref="/agents/corporate_entities/11086">Methodist Episcopal Church. Board of Foreign Missions.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4752">Missions--Europe.</subject>
         <genreform source="aat" encodinganalog="655" ref="/subjects/3141">Photographs.</genreform>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1599">Romania.</geogname>

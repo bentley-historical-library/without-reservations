@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Balogh, Tivadar.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/27851">Balogh, Tivadar.</persname>
       </origination>
       <unittitle encodinganalog="245">Tivadar Balogh papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1946/1998">1946-1998</unitdate>
@@ -100,10 +101,10 @@ Tivadar Balogh papers, Bentley Historical Library, University of Michigan</p>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6055">Architecture--Illinois.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6056">Architecture--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6057">Architecture, Domestic--Designs and plans.</subject>
-        <persname source="lcnaf" encodinganalog="600">Balogh, Tivadar.</persname>
-        <persname source="lcnaf" encodinganalog="600">Metcalf, Robert Clarence, 1923-</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82166171">University of Michigan. College of Architecture and Design.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/27851">Balogh, Tivadar.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33155">Metcalf, Robert Clarence, 1923-</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82166171" ref="/agents/corporate_entities/9167">University of Michigan. College of Architecture and Design.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

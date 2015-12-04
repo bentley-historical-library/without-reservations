@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Redford Avenue Presbyterian Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/9334">Redford Avenue Presbyterian Church (Detroit, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">Redford Avenue Presbyterian Church records <unitdate type="inclusive" encodinganalog="245$f" normal="1906/2009">1906-2009</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2009150 Ba 2</unitid>
@@ -94,7 +95,7 @@ Redford Avenue Presbyterian Church records, Bentley Historical Library, Universi
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/952">Detroit (Mich.)--Church history.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9854">Presbyterian Church--Michigan--Detroit.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Redford Avenue Presbyterian Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9334">Redford Avenue Presbyterian Church (Detroit, Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2750">Redford (Detroit, Mich.)--Church history.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5960">Registers of births, etc.--Michigan--Detroit.</subject>
       </controlaccess>

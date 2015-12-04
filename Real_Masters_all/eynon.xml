@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Eynon, Bret.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/27462">Eynon, Bret.</persname>
       </origination>
       <unittitle encodinganalog="245">Bret Eynon papers <unitdate type="inclusive" encodinganalog="245$f" normal="1966/1977">1966-1977</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85166 Aa 2</unitid>
@@ -80,15 +81,15 @@ Bret Eynon papers, Bentley Historical Library, University of Michigan</p>
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5756">African Americans--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Black Action Movement (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13181">Black Action Movement (University of Michigan)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7674">Feminism--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5749">Draft.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5801">Radicalism--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs--1961-1970.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs--1971-1980.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Students--Social life and customs--1961-1970.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Students--Social life and customs--1971-1980.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5820">Vietnam War, 1961-1975.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7675">Welfare rights movement--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85050309">Sinclair, John, 1941-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85050309" ref="/agents/people/35698">Sinclair, John, 1941-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5724">Women's rights--Michigan--Ann Arbor.</subject>
       </controlaccess>
     </controlaccess>

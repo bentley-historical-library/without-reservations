@@ -32,7 +32,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -43,7 +44,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">BenDor, Jan.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32970">BenDor, Jan.</persname>
       </origination>
       <unittitle encodinganalog="245">Jan BenDor papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1974/2005">1974-2005</unitdate>
@@ -98,12 +99,12 @@ Jan BenDor papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">BenDor, Jan.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85283052">Monaghan, Tom, 1937-</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85283057">Domino's Pizza (Firm)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80003982">Eastern Michigan University.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Safe House (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no00005617">Women's Crisis Center (Ann Arbor, Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32970">BenDor, Jan.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85283052" ref="/agents/people/30816">Monaghan, Tom, 1937-</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85283057" ref="/agents/corporate_entities/11564">Domino's Pizza (Firm)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80003982" ref="/agents/corporate_entities/11220">Eastern Michigan University.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11255">Safe House (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no00005617" ref="/agents/corporate_entities/10754">Women's Crisis Center (Ann Arbor, Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6255">Abused women--Services for--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6256">Labor disputes--Michigan--Ypsilanti.</subject>
       </controlaccess>

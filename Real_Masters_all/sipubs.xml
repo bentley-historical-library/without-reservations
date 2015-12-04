@@ -39,7 +39,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -50,7 +51,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/no97022740">University of Michigan. School of Information.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/no97022740" ref="/agents/corporate_entities/9289">University of Michigan. School of Information.</corpname>
       </origination>
       <unittitle encodinganalog="245">School of Information (University of Michigan) publications <unitdate type="inclusive" encodinganalog="245$f" normal="1916/2006">1916-2006</unitdate></unittitle>
       <abstract>Contains addresses, annual reports, bulletins and course catalogs, directories, proceedings, and reports including the Library Science Study series. Also includes newsletters such as the Doctoral Students' Memo, the Insider, New Edition, News and Notes, News from the School of Library Science, Placement Bulletin, and SILS Update. Also contains a history of the Association of library science alumni and issues of their newsletter Alumni Notes. Also includes the publications of Beta Phi Mu - Beta Phi Mu Newsletter and Musings. Contains the Dept. of Library Science summer session bulletin.</abstract>
@@ -103,11 +104,11 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Alumni and alumnae.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no97022740">University of Michigan. School of Information.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr91040392">University of Michigan. School of Information and Library Studies.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81144007">University of Michigan. School of Library Science.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Library Science.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Alumni and alumnae.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no97022740" ref="/agents/corporate_entities/9289">University of Michigan. School of Information.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr91040392" ref="/agents/corporate_entities/11359">University of Michigan. School of Information and Library Studies.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81144007" ref="/agents/corporate_entities/9813">University of Michigan. School of Library Science.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11003">University of Michigan. Dept. of Library Science.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Publications:</head>
@@ -126,10 +127,10 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Dept. of Library Science.</corpname>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n81144007">University of Michigan. School of Library Science.</corpname>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/nr91040392">University of Michigan. School of Information and Library Studies.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Summer Session.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/11003">University of Michigan. Dept. of Library Science.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n81144007" ref="/agents/corporate_entities/9813">University of Michigan. School of Library Science.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/nr91040392" ref="/agents/corporate_entities/11359">University of Michigan. School of Information and Library Studies.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/11137">University of Michigan. Summer Session.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

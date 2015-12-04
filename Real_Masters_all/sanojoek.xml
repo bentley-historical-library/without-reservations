@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Sano, Joseph K.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33684">Sano, Joseph K.</persname>
       </origination>
       <unittitle encodinganalog="245">Joseph K. Sano papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1923/1951">1923-1951</unitdate>
@@ -88,13 +89,13 @@ Joseph K. Sano papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Sano, Joseph K.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33684">Sano, Joseph K.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9956">Japanese Americans--Evaluation and relocation, 1942-1945.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9957">Tokyo Trial, Tokyo, Japan, 1946-1948.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9958">War crime trials--Japan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2781">Japan--History--Allied occupation, 1945-1952.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n95004212">Army Intensive Japanese Language School (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n95004212" ref="/agents/corporate_entities/13437">Army Intensive Japanese Language School (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
       </controlaccess>
       <controlaccess>
         <genreform source="aat" encodinganalog="655" ref="/subjects/3139">Scrapbooks.</genreform>

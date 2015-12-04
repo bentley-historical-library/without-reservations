@@ -39,7 +39,8 @@
         <item>Original encoding in EAD from Word 6.0 file using Word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -50,7 +51,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf">Emmanuel-Bethel United Church of Christ (Royal Oak, Mich.)</corpname>
+        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/10659">Emmanuel-Bethel United Church of Christ (Royal Oak, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245$a">Emmanuel-Bethel United Church of Christ (Royal Oak, Mich.) Records <unitdate type="inclusive" encodinganalog="245 $f" normal="1880/1974">1880-1974</unitdate></unittitle>
       <abstract>Royal Oak, Michigan church formed in 1974 through merger of Emmanuel United Church of Christ (Royal Oak) and Bethel Evangelical and Reformed Church (Detroit, Mich.). Reinhold Niebuhr served as pastor of the latter from 1925-1928. Records</abstract>
@@ -206,10 +207,10 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79018599">Niebuhr, Reinhold, 1892-1971.</persname>
-        <corpname source="lcnaf">Emmanuel United Church of Christ (Royal Oak, Mich.)</corpname>
-        <corpname source="lcnaf">Bethel Evangelical and Reformed Church (Detroit, Mich.)</corpname>
-        <corpname source="lcnaf">Emmanuel-Bethel United Church of Christ (Royal Oak, Mich.)</corpname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79018599" ref="/agents/people/32607">Niebuhr, Reinhold, 1892-1971.</persname>
+        <corpname source="lcnaf" ref="/agents/corporate_entities/13801">Emmanuel United Church of Christ (Royal Oak, Mich.)</corpname>
+        <corpname source="lcnaf" ref="/agents/corporate_entities/14518">Bethel Evangelical and Reformed Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" ref="/agents/corporate_entities/10659">Emmanuel-Bethel United Church of Christ (Royal Oak, Mich.)</corpname>
         <geogname source="lcsh" ref="/subjects/952">Detroit (Mich.)--Church history.</geogname>
         <geogname source="lcsh" ref="/subjects/1296">Royal Oak (Mich.)--Church history.</geogname>
         <subject source="lcsh" ref="/subjects/6292">Churches--Michigan--Detroit.</subject>
@@ -218,10 +219,10 @@
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79018599">Niebuhr, Reinhold, 1892-1971.</persname>
-        <corpname source="lcnaf">Emmanuel United Church of Christ (Royal Oak, Mich.)</corpname>
-        <corpname source="lcnaf">Bethel Evangelical and Reformed Church (Detroit, Mich.)</corpname>
-        <corpname source="lcnaf">Emmanuel-Bethel United Church of Christ (Royal Oak, Mich.)</corpname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79018599" ref="/agents/people/32607">Niebuhr, Reinhold, 1892-1971.</persname>
+        <corpname source="lcnaf" ref="/agents/corporate_entities/13801">Emmanuel United Church of Christ (Royal Oak, Mich.)</corpname>
+        <corpname source="lcnaf" ref="/agents/corporate_entities/14518">Bethel Evangelical and Reformed Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" ref="/agents/corporate_entities/10659">Emmanuel-Bethel United Church of Christ (Royal Oak, Mich.)</corpname>
         <geogname source="lcsh" ref="/subjects/952">Detroit (Mich.)--Church history.</geogname>
         <geogname source="lcsh" ref="/subjects/1296">Royal Oak (Mich.)--Church history.</geogname>
         <subject source="lctgm" ref="/subjects/3724">Churches--Michigan--Detroit.</subject>

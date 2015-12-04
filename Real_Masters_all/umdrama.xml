@@ -28,7 +28,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Drama Season.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/14618">University of Michigan. Drama Season.</corpname>
       </origination>
       <unittitle encodinganalog="245">Drama Season (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1929/1966">1929-1966</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85643 Bimu N5 2</unitid>
@@ -93,10 +94,10 @@ Drama Season (University of Michigan) records, Bentley Historical Library, Unive
         <head>Subjects:</head>
         <subject encodinganalog="650" source="lcsh" ref="/subjects/7824">Actors.</subject>
         <geogname encodinganalog="651" source="lcsh" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html" ref="/subjects/860">Ann Arbor (Mich.)</geogname>
-        <corpname encodinganalog="610" source="lcnaf">Ann Arbor Drama Season.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/11550">Ann Arbor Drama Season.</corpname>
         <subject encodinganalog="650" source="lcsh" ref="/subjects/6869">Theater--Michigan--Ann Arbor.</subject>
-        <corpname encodinganalog="610" source="lcnaf">University of Michigan--Dramatics.</corpname>
-        <corpname encodinganalog="610" source="lcnaf">University of Michigan. Drama Season.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/9632">University of Michigan--Dramatics.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/14618">University of Michigan. Drama Season.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
@@ -104,9 +105,9 @@ Drama Season (University of Michigan) records, Bentley Historical Library, Unive
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname encodinganalog="700" source="lcnaf">Henderson, Robert.</persname>
-        <persname encodinganalog="700" source="lcnaf">O'Shaughnessy, John.</persname>
-        <persname encodinganalog="700" source="lcnaf">Windt, Valentine, 1901-1955.</persname>
+        <persname encodinganalog="700" source="lcnaf" ref="/agents/people/32104">Henderson, Robert.</persname>
+        <persname encodinganalog="700" source="lcnaf" ref="/agents/people/31152">O'Shaughnessy, John.</persname>
+        <persname encodinganalog="700" source="lcnaf" ref="/agents/people/28069">Windt, Valentine, 1901-1955.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

@@ -27,7 +27,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Hannah and Lay Company (Traverse City, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/12964">Hannah and Lay Company (Traverse City, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">Hannah and Lay Company (Traverse City, Mich.) Records <unitdate type="inclusive" encodinganalog="245$f" normal="1846/1931">1846-1931</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">85547 Bb.2/2; BB.2 Outsize</unitid>
@@ -90,8 +91,8 @@ Hannah and Lay Company (Traverse City, Mich.) Records
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1451">Chicago (Ill.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8105">General stores--Michigan--Traverse City.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1994">Great Lakes.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Hannah and Lay Company.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Hannah and Lay Mercantile Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11921">Hannah and Lay Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12405">Hannah and Lay Mercantile Company.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8106">Labor--Michigan--Traverse City.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7039">Land use--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6772">Logging--Michigan.</subject>
@@ -103,9 +104,9 @@ Hannah and Lay Company (Traverse City, Mich.) Records
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8107">Business enterprises--Michigan--Traverse City.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Hannah and Lay Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11921">Hannah and Lay Company.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4470">Interiors--Michigan--Traverse City.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Hannah and Lay Merchandising Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12293">Hannah and Lay Merchandising Company.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

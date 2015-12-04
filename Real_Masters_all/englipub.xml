@@ -39,7 +39,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -50,7 +51,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Dept. of English Language and Literature.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/9650">University of Michigan. Dept. of English Language and Literature.</corpname>
       </origination>
       <unittitle encodinganalog="245">Dept. of English Language and Literature (University of Michigan) Publications</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1930/2002">1930-2002</unitdate>
@@ -95,8 +96,8 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of English Language and Literature.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Avery Hopwood and Jule Hopwood Prizes.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9650">University of Michigan. Dept. of English Language and Literature.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9782">University of Michigan. Avery Hopwood and Jule Hopwood Prizes.</corpname>
         <title source="aacr2" encodinganalog="740" ref="/subjects/46">Blue ox review.</title>
         <title source="aacr2" encodinganalog="740" ref="/subjects/47">Xylem.</title>
         <title source="aacr2" encodinganalog="740" ref="/subjects/48">Avery Hopwood and Jule Hopwood awards in creative writing, reports on the contests and statement of rules.</title>

@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Kincaid, Joseph E.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/35539">Kincaid, Joseph E.</persname>
       </origination>
       <unittitle encodinganalog="245">Joseph E. Kincaid Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1967/1999">1967-1999</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2012135 Aa 2</unitid>
@@ -82,12 +83,12 @@ Joseph E. Kincaid Papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Kincaid, Joseph E.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35539">Kincaid, Joseph E.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8663">Abortion--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8664">Pro-life movement--Michigan--Kalamazoo.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Kalamazoo Right to Life Committee.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Citizens for Life.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr92006190">Right to Life of Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12149">Kalamazoo Right to Life Committee.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10833">Michigan Citizens for Life.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr92006190" ref="/agents/corporate_entities/12804">Right to Life of Michigan.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

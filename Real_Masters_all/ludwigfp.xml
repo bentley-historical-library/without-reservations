@@ -35,7 +35,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Ludwig family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/40">Ludwig family.</famname>
       </origination>
       <unittitle encodinganalog="245">Ludwig Family Papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1838/1985">1838-1985</unitdate>
@@ -98,25 +99,25 @@
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8886">Baptists--Michigan--Lansing.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8887">Bird banding.</subject>
-        <corpname source="lcnaf" encodinganalog="610">First Baptist Church (Lansing, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10521">First Baptist Church (Lansing, Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6061">Freemasonry--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80073587.html" ref="/subjects/1737">Ingham County (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1140">Lansing (Mich.)</geogname>
-        <famname source="lcnaf" encodinganalog="600">Ludwig family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/40">Ludwig family.</famname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8888">Medicine--Michigan--Port Huron.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8889">Physicians--Michigan--Port Huron.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n83030021.html" ref="/subjects/1206">Port Huron (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85064190.html" ref="/subjects/1207">Portland (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50081260">Woman's Christian Temperance Union.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50081260" ref="/agents/corporate_entities/9665">Woman's Christian Temperance Union.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8890">Women--Michigan--Lansing.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5681">World War, 1939-1945.</subject>
-        <persname source="lcnaf" encodinganalog="700">Ludwig, Frederick Edwin, 1909-</persname>
-        <persname source="lcnaf" encodinganalog="700">Ludwig, Ruby.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31596">Ludwig, Frederick Edwin, 1909-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/36219">Ludwig, Ruby.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/376">Albion (Calhoun County, Mich.)--Business enterprises.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">B.E. Ludwig Store.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11656">B.E. Ludwig Store.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3743">Boats.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4719">Business enterprises--Michigan--Albion.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1057">Charlevoix (Mich.)</geogname>
@@ -124,12 +125,12 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3923">Families.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1107">Grosse Ile (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1140">Lansing (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600">Ludwig, Frederick Edwin, 1909-</persname>
-        <famname source="lcnaf" encodinganalog="600">Ludwig family.</famname>
-        <corpname source="lcnaf" encodinganalog="610">Industrial School for Boys (Lansing, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79054541">Michigan State University.</corpname>
-        <famname source="lcnaf" encodinganalog="600">Newman family.</famname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n97065397">Olds, Ransom Eli, 1864-1950.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31596">Ludwig, Frederick Edwin, 1909-</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/40">Ludwig family.</famname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14681">Industrial School for Boys (Lansing, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79054541" ref="/agents/corporate_entities/9175">Michigan State University.</corpname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/270">Newman family.</famname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n97065397" ref="/agents/people/29924">Olds, Ransom Eli, 1864-1950.</persname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n83030021.html" ref="/subjects/1206">Port Huron (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85064190.html" ref="/subjects/1207">Portland (Mich.)</geogname>
       </controlaccess>

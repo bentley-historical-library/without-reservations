@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Ouradnik, Francis W.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/35428">Ouradnik, Francis W.</persname>
       </origination>
       <unittitle encodinganalog="245">Francis W. Ouradnik photographs <unitdate type="inclusive" encodinganalog="245$f" normal="1928/1968">1928-1968</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">92661 Aa 2</unitid>
@@ -85,9 +86,9 @@ Francis W. Ouradnik photographs, Bentley Historical Library, University of Michi
         <head>Subjects - Visual Materials:</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3941">Photography.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3871">Theatrical productions.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Dramatics.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Play Production.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University Players (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Dramatics.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9165">University of Michigan. Play Production.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11106">University Players (University of Michigan)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

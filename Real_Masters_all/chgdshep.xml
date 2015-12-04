@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Church of the Good Shepherd (Dearborn Heights, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/11336">Church of the Good Shepherd (Dearborn Heights, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">Church Of The Good Shepherd (Dearborn Heights, Mich.) records <unitdate type="inclusive" encodinganalog="245$f" normal="1953/1998">1953-1998</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">06112 Ba 2</unitid>
@@ -81,7 +82,7 @@ Church Of The Good Shepherd (Dearborn Heights, Mich.) records, Bentley Historica
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Church of the Good Shepherd (Dearborn Heights, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11336">Church of the Good Shepherd (Dearborn Heights, Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6785">Episcopal Church--Michigan--Dearborn Heights.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1571">Dearborn Heights (Mich.)--Church history.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6786">Registers of births, etc.--Michigan--Dearborn Heights.</subject>

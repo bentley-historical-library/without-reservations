@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n00098827">Heaton, Paul C.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n00098827" ref="/agents/people/34445">Heaton, Paul C.</persname>
       </origination>
       <unittitle encodinganalog="245">Paul C. Heaton papers <unitdate type="inclusive" encodinganalog="245$f" normal="1997/2001">1997-2001</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">0679 Aa 2</unitid>
@@ -79,10 +80,10 @@ Paul C. Heaton Papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n00098827">Heaton, Paul C.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Ypsilanti Campaign for Equality.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Traverse City Campaign Against Discrimination.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Equality (Organization)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n00098827" ref="/agents/people/34445">Heaton, Paul C.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11378">Ypsilanti Campaign for Equality.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10844">Traverse City Campaign Against Discrimination.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14415">Michigan Equality (Organization)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7365">Gay rights--Michigan--Ypsilanti.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8172">Gay rights--Michigan--Traverse City.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1012">Ypsilanti (Mich.)--Politics and government.</geogname>

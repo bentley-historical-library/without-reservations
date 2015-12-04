@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Ehrmann, Howard Meredith, 1898-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/27505">Ehrmann, Howard Meredith, 1898-</persname>
       </origination>
       <unittitle encodinganalog="245">Howard M. Ehrmann papers <unitdate type="inclusive" encodinganalog="245$f" normal="1927/1968">1927-1968</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851197 Aa 2</unitid>
@@ -78,15 +79,15 @@ Howard M. Ehrmann papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr99003347">Delta Kappa Epsilon. Omicron Chapter (University of Michigan)</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2006017183">Ehrmann, Howard M. (Howard Meredith), 1898-1989</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr99003347" ref="/agents/corporate_entities/13105">Delta Kappa Epsilon. Omicron Chapter (University of Michigan)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2006017183" ref="/agents/people/35003">Ehrmann, Howard M. (Howard Meredith), 1898-1989</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1745">Europe--History--Study and teaching.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5834">Greek letter societies--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5765">Historians--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of History.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Societies, etc.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. War Seminar.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10101">University of Michigan. Dept. of History.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Students--Societies, etc.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9648">University of Michigan. War Seminar.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

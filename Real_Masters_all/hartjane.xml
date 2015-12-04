@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Hart, Jane Briggs.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/27360">Hart, Jane Briggs.</persname>
       </origination>
       <unittitle encodinganalog="245">Jane Briggs Hart papers <unitdate type="inclusive" encodinganalog="245$f" normal="1925/1996" certainty="approximate">circa 1925-1996</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2010191 Aa 2</unitid>
@@ -88,8 +89,8 @@ Jane Briggs Hart papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Hart, Jane Briggs.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87870675">Hart, Philip A. (Philip Aloysius), 1912-1976.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/27360">Hart, Jane Briggs.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87870675" ref="/agents/people/31450">Hart, Philip A. (Philip Aloysius), 1912-1976.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8113">Legislators' spouses.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1997">Michigan--Politics and government--1941-1950.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1998">Michigan--Politics and government--1951-1960.</geogname>
@@ -100,8 +101,8 @@ Jane Briggs Hart papers, Bentley Historical Library, University of Michigan</p>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4477">Air pilots--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="600">Hart, Jane Briggs.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87870675">Hart, Philip A. (Philip Aloysius), 1912-1976.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/27360">Hart, Jane Briggs.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87870675" ref="/agents/people/31450">Hart, Philip A. (Philip Aloysius), 1912-1976.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3980">Legislators--United States.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4478">Legislators' spouses.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4479">Politics and government--United States.</subject>

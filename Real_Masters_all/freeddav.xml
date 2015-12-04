@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Freedman, David Noel, 1922-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30991">Freedman, David Noel, 1922-</persname>
       </origination>
       <unittitle encodinganalog="245">Freedman, David Noel (1922-2008) <unitdate type="inclusive" encodinganalog="245$f" normal="1932/1983">1932-1983</unitdate></unittitle>
       <abstract>Biblical scholar, professor of Near Eastern Studies, and director of the Program on Studies in Religion at the University of Michigan. Subject files relating to his scholarly and organizational activities, notably with the American Schools of Oriental Research and as editor of the journal <title render="italic">Biblical Archeologist</title>; class notes from courses at Johns Hopkins, including courses taught by William F. Albright; and material concerning his personal and professional relationship with Albright (and Albright's literary estate).</abstract>
@@ -88,24 +89,24 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80087702">American Schools of Oriental Research.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80087702" ref="/agents/corporate_entities/10652">American Schools of Oriental Research.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6607">Archaeology.</subject>
         <subject source="lcsh" encodinganalog="611" ref="/subjects/7862">Bible--Criticism, interpretation, etc.</subject>
         <subject source="lcsh" encodinganalog="611" ref="/subjects/7863">Bible. English. Anchor Bible. 1964.</subject>
         <subject source="lcsh" encodinganalog="611" ref="/subjects/7864">Bible--Evidences, authority, etc.</subject>
         <subject source="lcsh" encodinganalog="611" ref="/subjects/7865">Biblical archaeologist.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79136364">Genesis Project, Inc.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79061226">Johns Hopkins University.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79136364" ref="/agents/corporate_entities/14770">Genesis Project, Inc.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79061226" ref="/agents/corporate_entities/13565">Johns Hopkins University.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6371">Religion.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Religious Films Development Project.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Task Force on Biblical Authority.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2010124332">University of Michigan. Dept. of Near Eastern Studies.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Program on Studies in Religion.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13991">Religious Films Development Project.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9653">Task Force on Biblical Authority.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2010124332" ref="/agents/corporate_entities/14768">University of Michigan. Dept. of Near Eastern Studies.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10665">University of Michigan. Program on Studies in Religion.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50041030">Albright, William Foxwell, 1891-1971.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50041030" ref="/agents/people/33855">Albright, William Foxwell, 1891-1971.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

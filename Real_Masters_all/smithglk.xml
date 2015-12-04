@@ -39,7 +39,8 @@
         <item>original encoding from word 6.0 file</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -50,7 +51,7 @@
   <archdesc level="collection" type="inventory" audience="external" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Smith, Gerald L. K. (Gerald Lyman Kenneth), 1898-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/35996">Smith, Gerald L. K. (Gerald Lyman Kenneth), 1898-</persname>
       </origination>
       <unittitle encodinganalog="245">Gerald L. K. Smith Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1922/1976">1922-1976</unitdate></unittitle>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">85818 Aa 2</unitid>
@@ -176,8 +177,8 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8504">Antisemitism.</subject>
-        <corpname source="lcnaf" encodinganalog="610">America First Party.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80034828">Christian Nationalist Crusade.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/8897">America First Party.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80034828" ref="/agents/corporate_entities/12998">Christian Nationalist Crusade.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10126">Christianity and antisemitism.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6369">Clergy--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8013">Communism.</subject>
@@ -191,26 +192,26 @@
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/965">United States--Politics and government--1933-1945.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1275">United States--Politics and government--1945-1989.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5681">World War, 1939-1945.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Christian Veterans of America.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14197">Christian Veterans of America.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8158">Presidents--United States--Election--1948.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6854">Presidents--United States--Election--1952.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6855">Presidents--United States--Election--1956.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6374">Presidents--United States--Election--1960.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6658">Presidents--United States--Election--1964.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85185550">Bricker, John W. (John William), 1893-1986.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85185550" ref="/agents/people/36164">Bricker, John W. (John William), 1893-1986.</persname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85339555.html" ref="/subjects/2819">Eureka Springs (Ark.)</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79054196">MacArthur, Douglas, 1880-1964.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79043290">McCarthy, Joseph, 1908-1957.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n83065961">Smith, Gerald L. K. (Gerald Lyman Kenneth), 1898-1976</persname>
-        <corpname source="lcnaf" encodinganalog="610">United Farmers of America.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82048664">Wallace, George C. (George Corley), 1919-1998.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79054196" ref="/agents/people/27941">MacArthur, Douglas, 1880-1964.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79043290" ref="/agents/people/28008">McCarthy, Joseph, 1908-1957.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n83065961" ref="/agents/people/28869">Smith, Gerald L. K. (Gerald Lyman Kenneth), 1898-1976</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13173">United Farmers of America.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82048664" ref="/agents/people/35230">Wallace, George C. (George Corley), 1919-1998.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5328">Afro-Americans--Civil rights.</subject>
-        <corpname source="lcnaf" encodinganalog="610">America First Party.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/8897">America First Party.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5328">Afro-Americans--Civil rights.</subject>
-        <corpname source="lcnaf" encodinganalog="610">America First Party.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/8897">America First Party.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5329">Evangelists.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10127">Passion-plays.</subject>
         <genreform source="aat" encodinganalog="655" ref="/subjects/3141">Photographs.</genreform>
@@ -221,97 +222,97 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5331">Revivals.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4688">Riots.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5080">Slogans.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n86822868">Smith, Elna M.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n83065961">Smith, Gerald L. K. (Gerald Lyman Kenneth), 1898-1976</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n86822868" ref="/agents/people/31104">Smith, Elna M.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n83065961" ref="/agents/people/28869">Smith, Gerald L. K. (Gerald Lyman Kenneth), 1898-1976</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3871">Theatrical productions.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80126026">United States. Army Air Corps.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80126026" ref="/agents/corporate_entities/8892">United States. Army Air Corps.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5332">Wars.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n89607523">Allen, Marilyn R.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2011175387">Allstorm, Oliver.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2001093423">Armstrong, George Washington, 1866-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n91091331">Asher, Court.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87856762">Bealle, Morris A. (Morris Allison), 1891-1972</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80117283">Beaty, John O. (John Owen), 1890-1961</persname>
-        <persname source="lcnaf" encodinganalog="700">Blake, Aldrich.</persname>
-        <persname source="lcnaf" encodinganalog="700">Britton, Frank.</persname>
-        <persname source="lcnaf" encodinganalog="700">Brown, Catherine.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79065205">Buckley, William F. (William Frank), Jr., 1925-2008.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2015017019">Burke, Emory.</persname>
-        <persname source="lcnaf" encodinganalog="700">Carlson, John Roy.</persname>
-        <persname source="lcnaf" encodinganalog="700">Clark, Max A. X.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no91018130">Close, Upton, 1894-1960</persname>
-        <persname source="lcnaf" encodinganalog="700">Comparet, Bertrand.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n90666966">Stokes, Elizabeth Dilling, 1894-1966.</persname>
-        <persname source="lcnaf" encodinganalog="700">Doman, Bernard A.</persname>
-        <persname source="lcnaf" encodinganalog="700">Essig, Edith.</persname>
-        <persname source="lcnaf" encodinganalog="700">Fagan, Myron C. (Myron Coureval), b. 1887.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no00087571">Fields, Edward R.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50005249">Fish, Hamilton, 1888-1991</persname>
-        <persname source="lcnaf" encodinganalog="700">Goff, Kenneth.</persname>
-        <persname source="lcnaf" encodinganalog="700">Gostick, Ron.</persname>
-        <persname source="lcnaf" encodinganalog="700">Green, G. F.</persname>
-        <persname source="lcnaf" encodinganalog="700">Hamilton, John W.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88172297">Hart, Merwin Kimball, 1881-1962.</persname>
-        <persname source="lcnaf" encodinganalog="700">Haushalter, Walter.</persname>
-        <persname source="lcnaf" encodinganalog="700">Hoffman, Clare Eugene, 1875-1967.</persname>
-        <persname source="lcnaf" encodinganalog="700">Hudson, Charles B.</persname>
-        <persname source="lcnaf" encodinganalog="700">Jaques, Norman.</persname>
-        <persname source="lcnaf" encodinganalog="700">Kister, Frederick.</persname>
-        <persname source="lcnaf" encodinganalog="700">Liebold, Ernest G., 1884-</persname>
-        <persname source="lcnaf" encodinganalog="700">Lohbeck, Donald, 1917-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85042061">Long, Earl Kemp, 1895-1960.</persname>
-        <persname source="lcnaf" encodinganalog="700">Loomis, Homer.</persname>
-        <persname source="lcnaf" encodinganalog="700">McAllister, Andrew B.</persname>
-        <persname source="lcnaf" encodinganalog="700">McClanahan, Meade.</persname>
-        <persname source="lcnaf" encodinganalog="700">MacFarland, W. Henry.</persname>
-        <persname source="lcnaf" encodinganalog="700">McGinley, Conde, d. 1963.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80076472">Maier, Walter Arthur, 1893-1950.</persname>
-        <persname source="lcnaf" encodinganalog="700">Marion, Leland L., 1895-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80036702">Mencken, H. L. (Henry Louis), 1880-1956.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n97002331">Moseley, George Van Horn, 1874-1960.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2002056119">Mote, Carl Henry, 1884-1946.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50044808">Mullins, Eustace, 1923-2010</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr89007257">Murray, William Henry, 1869-1956.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80093577">Nasser, Gamal Abdel, 1918-1970.</persname>
-        <corpname source="lcnaf" encodinganalog="710">National Blue Star Mothers of America.</corpname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88015046">Norris, J. Frank (John Frank), 1877-1952.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80065716">Nye, Gerald Prentice, 1892-1971.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86001732">Pegler, Westbrook, 1894-1969.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n83065963">Pelley, William Dudley, 1890-1965</persname>
-        <persname source="lcnaf" encodinganalog="700">Perkins, Jonathon Ellsworth.</persname>
-        <persname source="lcnaf" encodinganalog="700">Reilly, Lawrence.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n00032059">Reynolds, Robert Rice, 1884-1963.</persname>
-        <persname source="lcnaf" encodinganalog="700">Robertson, Charles.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79055074">Rockwell, George Lincoln, 1918-1967.</persname>
-        <persname source="lcnaf" encodinganalog="700">Romer, Harry, 1895-1953.</persname>
-        <persname source="lcnaf" encodinganalog="700">St.-George, Maximilian, b. 1885.</persname>
-        <persname source="lcnaf" encodinganalog="700">Schickedanz, Forrest.</persname>
-        <persname source="lcnaf" encodinganalog="700">Shuler, Robert Pierce, 1880-1966.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86822868">Smith, Elna M.</persname>
-        <persname source="lcnaf" encodinganalog="700">Smith, L. Z.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no95004291">Sokolsky, George Ephraim, 1893-1962.</persname>
-        <persname source="lcnaf" encodinganalog="700">Southard, Earl.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2007083352">Springer, Harvey H., 1907-1969</persname>
-        <persname source="lcnaf" encodinganalog="700">Stadsklev, C. O.</persname>
-        <persname source="lcnaf" encodinganalog="700">Stanley, David, Mrs.</persname>
-        <persname source="lcnaf" encodinganalog="700">Stoffel, Joseph H.</persname>
-        <persname source="lcnaf" encodinganalog="700">Swift, Wesley.</persname>
-        <persname source="lcnaf" encodinganalog="700">Tenney, Jack B.</persname>
-        <persname source="lcnaf" encodinganalog="700">Terminiello, Arthur W.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50045033">Vandenberg, Arthur H. (Arthur Hendrick), 1884-1951.</persname>
-        <persname source="lcnaf" encodinganalog="700">Vose, George.</persname>
-        <persname source="lcnaf" encodinganalog="700">Waybright, Edgar.</persname>
-        <persname source="lcnaf" encodinganalog="700">Welch, Robert.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87890337">Wheeler, Burton K. (Burton Kendall), 1882-1975.</persname>
-        <persname source="lcnaf" encodinganalog="700">White, Opal Tanner.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80086237">Winchell, Walter, 1897-1972.</persname>
-        <persname source="lcnaf" encodinganalog="700">Winegarner, Charles W.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n83065962">Winrod, Gerald B. (Gerald Burton)</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2009003300">Woodruff, Roy Orchard, 1876-1953.</persname>
-        <persname source="lcnaf" encodinganalog="700">Worrell, Margaret H.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n89607523" ref="/agents/people/27481">Allen, Marilyn R.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2011175387" ref="/agents/people/35520">Allstorm, Oliver.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2001093423" ref="/agents/people/35060">Armstrong, George Washington, 1866-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n91091331" ref="/agents/people/30749">Asher, Court.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87856762" ref="/agents/people/29444">Bealle, Morris A. (Morris Allison), 1891-1972</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80117283" ref="/agents/people/29576">Beaty, John O. (John Owen), 1890-1961</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35545">Blake, Aldrich.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28691">Britton, Frank.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29811">Brown, Catherine.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79065205" ref="/agents/people/33594">Buckley, William F. (William Frank), Jr., 1925-2008.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2015017019" ref="/agents/people/29985">Burke, Emory.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27591">Carlson, John Roy.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34992">Clark, Max A. X.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no91018130" ref="/agents/people/29409">Close, Upton, 1894-1960</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35695">Comparet, Bertrand.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n90666966" ref="/agents/people/30181">Stokes, Elizabeth Dilling, 1894-1966.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32852">Doman, Bernard A.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33739">Essig, Edith.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28700">Fagan, Myron C. (Myron Coureval), b. 1887.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no00087571" ref="/agents/people/31901">Fields, Edward R.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50005249" ref="/agents/people/31868">Fish, Hamilton, 1888-1991</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31820">Goff, Kenneth.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32775">Gostick, Ron.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/36196">Green, G. F.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28462">Hamilton, John W.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88172297" ref="/agents/people/35411">Hart, Merwin Kimball, 1881-1962.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34827">Haushalter, Walter.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29432">Hoffman, Clare Eugene, 1875-1967.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34683">Hudson, Charles B.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35111">Jaques, Norman.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31963">Kister, Frederick.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28628">Liebold, Ernest G., 1884-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33814">Lohbeck, Donald, 1917-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85042061" ref="/agents/people/28317">Long, Earl Kemp, 1895-1960.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31521">Loomis, Homer.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28777">McAllister, Andrew B.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35370">McClanahan, Meade.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35496">MacFarland, W. Henry.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33207">McGinley, Conde, d. 1963.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80076472" ref="/agents/people/32275">Maier, Walter Arthur, 1893-1950.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30072">Marion, Leland L., 1895-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80036702" ref="/agents/people/32687">Mencken, H. L. (Henry Louis), 1880-1956.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n97002331" ref="/agents/people/29419">Moseley, George Van Horn, 1874-1960.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2002056119" ref="/agents/people/31103">Mote, Carl Henry, 1884-1946.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50044808" ref="/agents/people/32590">Mullins, Eustace, 1923-2010</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr89007257" ref="/agents/people/33428">Murray, William Henry, 1869-1956.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80093577" ref="/agents/people/31125">Nasser, Gamal Abdel, 1918-1970.</persname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/14065">National Blue Star Mothers of America.</corpname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88015046" ref="/agents/people/34984">Norris, J. Frank (John Frank), 1877-1952.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80065716" ref="/agents/people/30080">Nye, Gerald Prentice, 1892-1971.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86001732" ref="/agents/people/33723">Pegler, Westbrook, 1894-1969.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n83065963" ref="/agents/people/31037">Pelley, William Dudley, 1890-1965</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27896">Perkins, Jonathon Ellsworth.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33138">Reilly, Lawrence.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n00032059" ref="/agents/people/28355">Reynolds, Robert Rice, 1884-1963.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33861">Robertson, Charles.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79055074" ref="/agents/people/27633">Rockwell, George Lincoln, 1918-1967.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32276">Romer, Harry, 1895-1953.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35259">St.-George, Maximilian, b. 1885.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30818">Schickedanz, Forrest.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32271">Shuler, Robert Pierce, 1880-1966.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86822868" ref="/agents/people/31104">Smith, Elna M.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33005">Smith, L. Z.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no95004291" ref="/agents/people/31311">Sokolsky, George Ephraim, 1893-1962.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27489">Southard, Earl.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2007083352" ref="/agents/people/30685">Springer, Harvey H., 1907-1969</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31600">Stadsklev, C. O.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28612">Stanley, David, Mrs.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31611">Stoffel, Joseph H.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34685">Swift, Wesley.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34866">Tenney, Jack B.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32093">Terminiello, Arthur W.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50045033" ref="/agents/people/30858">Vandenberg, Arthur H. (Arthur Hendrick), 1884-1951.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29416">Vose, George.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35692">Waybright, Edgar.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30538">Welch, Robert.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87890337" ref="/agents/people/28146">Wheeler, Burton K. (Burton Kendall), 1882-1975.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30841">White, Opal Tanner.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80086237" ref="/agents/people/29114">Winchell, Walter, 1897-1972.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35165">Winegarner, Charles W.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n83065962" ref="/agents/people/33756">Winrod, Gerald B. (Gerald Burton)</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2009003300" ref="/agents/people/31214">Woodruff, Roy Orchard, 1876-1953.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34027">Worrell, Margaret H.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

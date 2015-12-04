@@ -28,7 +28,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Behee, John Richard.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/35502">Behee, John Richard.</persname>
       </origination>
       <unittitle encodinganalog="245">John Richard Behee sound recordings <unitdate type="inclusive" encodinganalog="245$f" normal="1969/1974">1969-1974</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">95100 Aa 2</unitid>
@@ -83,10 +84,10 @@ John Richard Behee Sound Recordings, Bentley Historical Library, University of M
       </p>
       <controlaccess>
         <head>Subjects - Sound Recordings:</head>
-        <persname source="lcnaf" encodinganalog="600">Behee, John Richard.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35502">Behee, John Richard.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6238">African American athletes--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6239">Discrimination in sports.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Sports.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Sports.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

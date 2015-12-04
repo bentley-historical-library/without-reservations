@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n85363436">Haven, E. O. (Erastus Otis), 1820-1881.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n85363436" ref="/agents/people/33673">Haven, E. O. (Erastus Otis), 1820-1881.</persname>
       </origination>
       <unittitle encodinganalog="245">E. O. Haven pamphlets and reprints <unitdate type="inclusive" encodinganalog="245$f" normal="1838/1881">1838-1881</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">[723] DA 2; H385; P186</unitid>
@@ -83,8 +84,8 @@ E. O. Haven pamphlets and reprints, Bentley Historical Library, University of Mi
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname encodinganalog="600" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n85363436">Haven, E. O. (Erastus Otis), 1820-1881.</persname>
-        <corpname encodinganalog="610" source="lcnaf">University of Michigan--History.</corpname>
+        <persname encodinganalog="600" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n85363436" ref="/agents/people/33673">Haven, E. O. (Erastus Otis), 1820-1881.</persname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/9632">University of Michigan--History.</corpname>
         <geogname encodinganalog="650" source="lcsh" ref="/subjects/1999">Universities and colleges--Michigan--Religion.</geogname>
         <geogname encodinganalog="650" source="lcsh" ref="/subjects/2000">Methodism.</geogname>
       </controlaccess>

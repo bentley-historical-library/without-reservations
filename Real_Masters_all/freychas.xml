@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Frey, Charles F., 1929-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32910">Frey, Charles F., 1929-</persname>
       </origination>
       <unittitle encodinganalog="245">Charles F. Frey papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1968/2013">1968-2013</unitdate>
@@ -93,13 +94,13 @@ Charles F. Frey papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88660763">Frey, Charles F., 1929-</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82011728">American College of Surgeons. Committee on Trauma.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87145256">Michigan Committee on Trauma.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University Association for Emergency Medical Services.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80133211">University of Michigan. Highway Safety Research Institute.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Department of Surgery.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88660763" ref="/agents/people/32910">Frey, Charles F., 1929-</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82011728" ref="/agents/corporate_entities/12308">American College of Surgeons. Committee on Trauma.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87145256" ref="/agents/corporate_entities/13493">Michigan Committee on Trauma.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12236">University Association for Emergency Medical Services.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80133211" ref="/agents/corporate_entities/10317">University of Michigan. Highway Safety Research Institute.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12749">University of Michigan. Department of Surgery.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

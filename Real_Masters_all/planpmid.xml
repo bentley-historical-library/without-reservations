@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Planned Parenthood of Mid-Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/8909">Planned Parenthood of Mid-Michigan.</corpname>
       </origination>
       <unittitle encodinganalog="245">Planned Parenthood of Mid-Michigan Records</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1911/2007">1911-2007</unitdate>
@@ -96,11 +97,11 @@
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7235">Abortion.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6368">Birth control.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Planned Parenthood Association of Southwestern Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Planned Parenthood Federation of America.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Planned Parenthood of Mid-Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Planned Parenthood of Southeast Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Washtenaw County League for Planned Parenthood.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11122">Planned Parenthood Association of Southwestern Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10345">Planned Parenthood Federation of America.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/8909">Planned Parenthood of Mid-Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14250">Planned Parenthood of Southeast Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10232">Washtenaw County League for Planned Parenthood.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9248">Pro-choice movement--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9759">Reproductive health.</subject>
       </controlaccess>
@@ -111,14 +112,14 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4750">Demonstrations--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9248">Pro-choice movement--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6739">Pro-life movement--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Planned Parenthood Association of Southwestern Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Planned Parenthood of Mid-Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Planned Parenthood of Southeastern Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Washtenaw County League for Planned Parenthood.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11122">Planned Parenthood Association of Southwestern Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/8909">Planned Parenthood of Mid-Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10257">Planned Parenthood of Southeastern Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10232">Washtenaw County League for Planned Parenthood.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <corpname source="lcnaf" encodinganalog="710">Washtenaw County League for Planned Parenthood.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/10232">Washtenaw County League for Planned Parenthood.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

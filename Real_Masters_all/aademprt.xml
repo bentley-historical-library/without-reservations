@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Democratic Party (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/11222">Democratic Party (Ann Arbor, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">Democratic Party (Ann Arbor, Mich.) records</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1959/2002">1959-2002</unitdate>
@@ -82,12 +83,12 @@ Democratic Party (Ann Arbor, Mich.) records, Bentley Historical Library, Univers
       <controlaccess>
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/857">Ann Arbor (Mich.)--Politics and government.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Democratic Party (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11222">Democratic Party (Ann Arbor, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600">Hunter, Larry.</persname>
-        <persname source="lcnaf" encodinganalog="600">Pierce, Edward, 1930-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34535">Hunter, Larry.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32173">Pierce, Edward, 1930-</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

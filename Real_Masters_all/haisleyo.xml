@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Haisley, Otto Webster, 1884-1959.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/35335">Haisley, Otto Webster, 1884-1959.</persname>
       </origination>
       <unittitle encodinganalog="245">Otto Webster Haisley Papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1917/1959">1917-1959</unitdate>
@@ -79,7 +80,7 @@ Otto Webster Haisley Papers
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n91022356">Ann Arbor Public Schools.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n91022356" ref="/agents/corporate_entities/9992">Ann Arbor Public Schools.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5679">Education--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5698">Schools--Michigan--Ann Arbor.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1294">Soviet Union.</geogname>
@@ -87,9 +88,9 @@ Otto Webster Haisley Papers
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n86851070">Ann Arbor (Mich.). Board of Education.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Haisley, Otto Webster, 1884-1959.</persname>
-        <famname source="lcnaf" encodinganalog="600">Haisley family.</famname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n86851070" ref="/agents/corporate_entities/10936">Ann Arbor (Mich.). Board of Education.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35335">Haisley, Otto Webster, 1884-1959.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/19">Haisley family.</famname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

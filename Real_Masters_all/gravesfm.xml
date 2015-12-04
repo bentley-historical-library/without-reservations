@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Graves family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/191">Graves family.</famname>
       </origination>
       <unittitle encodinganalog="245">Graves family papers <unitdate type="inclusive" encodinganalog="245$f" normal="1833/1874">1833-1874</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85173 Aa 2</unitid>
@@ -85,7 +86,7 @@ Graves family papers, Bentley Historical Library, University of Michigan</p>
         <geogname source="local" encodinganalog="691" ref="/subjects/796">Michigan--Social life and customs--1851-1860.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/797">Michigan--Social life and customs--1861-1870.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/798">Michigan--Social life and customs--1871-1880.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Michigan Engineers and Mechanics Regiment, 1st (1861-1865). Company B.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11160">United States. Army. Michigan Engineers and Mechanics Regiment, 1st (1861-1865). Company B.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/909">United States--History--Civil War, 1861-1865.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6452">Women--Michigan--Grand Rapids.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8039">Military spouses--Michigan--Grand Rapids.</subject>
@@ -93,8 +94,8 @@ Graves family papers, Bentley Historical Library, University of Michigan</p>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Graves, Albert, 1825-1865.</persname>
-        <persname source="lcnaf" encodinganalog="700">Graves, Martha Calhoun, 1826-1904.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31289">Graves, Albert, 1825-1865.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35631">Graves, Martha Calhoun, 1826-1904.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

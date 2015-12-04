@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Eskimo Art, Inc.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/10576">Eskimo Art, Inc.</corpname>
       </origination>
       <unittitle encodinganalog="245">Eskimo Art, Inc. Records <unitdate type="inclusive" encodinganalog="245$f" normal="1953/1994">1953-1994</unitdate></unittitle>
       <abstract>Agency established by Eugene Power to provide market for Inuit art, also gallery for Inuit art. Correspondence, scrapbooks, and office files detailing the company's activities.</abstract>
@@ -87,9 +88,9 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7553">Eskimo art.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6566">Artists.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7554">Eskimo artists.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Eskimo Art, Inc.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10576">Eskimo Art, Inc.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7555">Eskimo sculpture.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n90608817">Power, Eugene B., 1905-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n90608817" ref="/agents/people/28221">Power, Eugene B., 1905-</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

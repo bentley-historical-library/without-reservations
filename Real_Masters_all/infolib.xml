@@ -39,7 +39,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -50,7 +51,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. School of Information.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/9289">University of Michigan. School of Information.</corpname>
       </origination>
       <unittitle encodinganalog="245">School of Information (University of Michigan) records</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1904/2012">1904-2012</unitdate>
@@ -137,27 +138,27 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8387">Librarians--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Library Science.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr91040392">University of Michigan. School of Information and Library Studies.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81144007">University of Michigan. School of Library Science.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Summer Session.</corpname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n93084315">Bishop, William Warner, 1871-1955.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84166117">Bonk, Wallace John, 1923-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr00036451">Gjelsness, Rudolph H. (Rudolph Hjalmar), 1894-1968.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82037904">Koch, Theodore Wesley, 1871-1941.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no91017295">Bidlack, Russell E. (Russell Eugene), 1920-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80030604">Warner, Robert M. (Robert Mark), 1927-2007.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11003">University of Michigan. Dept. of Library Science.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr91040392" ref="/agents/corporate_entities/11359">University of Michigan. School of Information and Library Studies.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81144007" ref="/agents/corporate_entities/9813">University of Michigan. School of Library Science.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11137">University of Michigan. Summer Session.</corpname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n93084315" ref="/agents/people/32848">Bishop, William Warner, 1871-1955.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84166117" ref="/agents/people/32960">Bonk, Wallace John, 1923-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr00036451" ref="/agents/people/32883">Gjelsness, Rudolph H. (Rudolph Hjalmar), 1894-1968.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82037904" ref="/agents/people/28171">Koch, Theodore Wesley, 1871-1941.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no91017295" ref="/agents/people/33491">Bidlack, Russell E. (Russell Eugene), 1920-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80030604" ref="/agents/people/27366">Warner, Robert M. (Robert Mark), 1927-2007.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no91017295">Bidlack, Russell E. (Russell Eugene), 1920-</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n93084315">Bishop, William Warner, 1871-1955.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no91017295" ref="/agents/people/33491">Bidlack, Russell E. (Russell Eugene), 1920-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n93084315" ref="/agents/people/32848">Bishop, William Warner, 1871-1955.</persname>
         <genreform source="aat" encodinganalog="655" ref="/subjects/3141">Photographs.</genreform>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Classes.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr91040392">University of Michigan. School of Information and Library Studies.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80030604">Warner, Robert M. (Robert Mark), 1927-2007.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Classes.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr91040392" ref="/agents/corporate_entities/11359">University of Michigan. School of Information and Library Studies.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Students.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80030604" ref="/agents/people/27366">Warner, Robert M. (Robert Mark), 1927-2007.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n85186040">Gilmore, Melvin R. (Melvin Randolph), 1868-1940.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n85186040" ref="/agents/people/28754">Gilmore, Melvin R. (Melvin Randolph), 1868-1940.</persname>
       </origination>
       <unittitle encodinganalog="245">Melvin R. Gilmore papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1905/1938">1905-1938</unitdate>
@@ -93,10 +94,10 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85186040">Gilmore, Melvin R. (Melvin Randolph), 1868-1940.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2007011798">University of Michigan. Ethnobotanical Laboratory.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79063899">University of Michigan. Museum of Anthropology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Museum of the American Indian, Heye Foundation.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85186040" ref="/agents/people/28754">Gilmore, Melvin R. (Melvin Randolph), 1868-1940.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2007011798" ref="/agents/corporate_entities/11128">University of Michigan. Ethnobotanical Laboratory.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79063899" ref="/agents/corporate_entities/12114">University of Michigan. Museum of Anthropology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12383">Museum of the American Indian, Heye Foundation.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6212">Anthropology.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7804">Ethnobotany.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7977">Arikara Indians.</subject>
@@ -108,9 +109,9 @@
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85186040">Gilmore, Melvin R. (Melvin Randolph), 1868-1940.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Museum of the American Indian, Heye Foundation.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. Francis Mission (Saint Francis, S.D.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85186040" ref="/agents/people/28754">Gilmore, Melvin R. (Melvin Randolph), 1868-1940.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12383">Museum of the American Indian, Heye Foundation.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14346">St. Francis Mission (Saint Francis, S.D.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4391">Anthropology.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4392">Ethnographic photographs.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7804">Ethnobotany.</subject>

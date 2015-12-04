@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Gehring, Carl Ernest, 1897-1966.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32504">Gehring, Carl Ernest, 1897-1966.</persname>
       </origination>
       <unittitle encodinganalog="245">Carl E. Gehring papers <unitdate type="inclusive" encodinganalog="245$f" normal="1926/1965">1926-1965</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851279 Aa 2; AC</unitid>
@@ -86,7 +87,7 @@
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html" ref="/subjects/860">Ann Arbor (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="630" ref="/subjects/6470">Ann Arbor news.</subject>
-        <persname source="lcnaf" encodinganalog="600">Gehring, Carl Ernest, 1897-1966.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32504">Gehring, Carl Ernest, 1897-1966.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5706">Music--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5707">Musicians--Michigan--Ann Arbor.</subject>
       </controlaccess>
@@ -95,7 +96,7 @@
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html" ref="/subjects/860">Ann Arbor (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="630" ref="/subjects/6470">Ann Arbor news.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3648">Baseball.</subject>
-        <persname source="lcnaf" encodinganalog="600">Gehring, Carl Ernest, 1897-1966.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32504">Gehring, Carl Ernest, 1897-1966.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Sound Recordings:</head>
@@ -106,10 +107,10 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors: Sound Recordings</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no98036370">Krimm, Marilyn.</persname>
-        <persname source="lcnaf" encodinganalog="700">Austin, Carolyn.</persname>
-        <persname source="lcnaf" encodinganalog="700">Jacobson, Elaine.</persname>
-        <corpname source="lcnaf" encodinganalog="710">WUOM (Radio station : Ann Arbor, Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no98036370" ref="/agents/people/27434">Krimm, Marilyn.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32545">Austin, Carolyn.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34352">Jacobson, Elaine.</persname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/11778">WUOM (Radio station : Ann Arbor, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

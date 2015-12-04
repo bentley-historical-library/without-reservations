@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Williamson, Edward Bruce, 1878-1933.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28452">Williamson, Edward Bruce, 1878-1933.</persname>
       </origination>
       <unittitle encodinganalog="245">Edward Bruce Williamson papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1891/1950">1891-1950</unitdate>
@@ -84,15 +85,15 @@ Edward Bruce Williamson papers, Bentley Historical Library, University of Michig
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Williamson, Edward Bruce, 1878-1933.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79115934">University of Michigan. Museum of Zoology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Zoology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. University Museum.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28452">Williamson, Edward Bruce, 1878-1933.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79115934" ref="/agents/corporate_entities/14301">University of Michigan. Museum of Zoology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11303">University of Michigan. Dept. of Zoology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10503">University of Michigan. University Museum.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10728">Dragonflies.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600">Williamson, Edward Bruce, 1878-1933.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28452">Williamson, Edward Bruce, 1878-1933.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5593">Expeditions and surverys--Colombia.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5594">Expeditions and surveys--Venezuela.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5595">Expeditions and surveys--Southern States.</subject>

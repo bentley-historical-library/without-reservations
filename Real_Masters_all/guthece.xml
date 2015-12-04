@@ -39,7 +39,8 @@
         <item>Original encoding in EAD Vers. 1.0 from finding aid scanned into Word 6.0</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -50,7 +51,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Guthe, Carl Eugen, 1893-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/29328">Guthe, Carl Eugen, 1893-</persname>
       </origination>
       <unittitle encodinganalog="245$a">Carl Eugen Guthe Papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1905/1974">1905-1974</unitdate>
@@ -104,20 +105,20 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6607">Archaeology.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6212">Anthropology.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/944">Philippines--History--1898-1946.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Anniversaries, etc.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Archaeological expeditions.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Centennial Celebration Committee on University Exhibits.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Committee on Educational Policies.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Anthropology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n86071802">University of Michigan. Institute for Human Adjustment.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Institute of Archaeological Research.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Linguistic Institute.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79063899">University of Michigan. Museum of Anthropology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Museums.</corpname>
-        <persname source="lcnaf" encodinganalog="700">Kelsey, Francis W. (Francis Willey), b. 1858.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87828171">Ruthven, Alexander Grant, 1882-1971.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86828116">Worcester, Dean C. (Dean Conant), 1866-1924.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Anniversaries, etc.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Archaeological expeditions.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10861">University of Michigan. Centennial Celebration Committee on University Exhibits.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13143">University of Michigan. Committee on Educational Policies.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13528">University of Michigan. Dept. of Anthropology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n86071802" ref="/agents/corporate_entities/12102">University of Michigan. Institute for Human Adjustment.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10329">University of Michigan. Institute of Archaeological Research.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9447">University of Michigan. Linguistic Institute.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79063899" ref="/agents/corporate_entities/12114">University of Michigan. Museum of Anthropology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/8911">University of Michigan. Museums.</corpname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27676">Kelsey, Francis W. (Francis Willey), b. 1858.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87828171" ref="/agents/people/30981">Ruthven, Alexander Grant, 1882-1971.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86828116" ref="/agents/people/29322">Worcester, Dean C. (Dean Conant), 1866-1924.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
@@ -127,8 +128,8 @@
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1578">Ohio.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/944">Philippines--History--1898-1946.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3918">Ships.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan Philippine Expedition (1922-1925)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Scientific expeditions.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11184">University of Michigan Philippine Expedition (1922-1925)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Scientific expeditions.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

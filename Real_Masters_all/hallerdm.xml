@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/no99054928">Haller, Douglas M.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/no99054928" ref="/agents/people/31458">Haller, Douglas M.</persname>
       </origination>
       <unittitle encodinganalog="245">Douglas M. Haller papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1978/2011">1978-2011</unitdate>
@@ -85,8 +86,8 @@ Douglas M. Haller papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no99054928">Haller, Douglas M.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Association of Suburban People.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no99054928" ref="/agents/people/31458">Haller, Douglas M.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11162">Association of Suburban People.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5926">Gay liberation movement--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5742">Gay men--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5745">Gay rights--Michigan.</subject>

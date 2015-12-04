@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Brecken family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/365">Brecken family.</famname>
       </origination>
       <unittitle encodinganalog="245">Brecken Family papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1894/1937">1894-1937</unitdate>
@@ -84,9 +85,9 @@ Brecken Family papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Brecken, Clarence E., 1893-1983.</persname>
-        <persname source="lcnaf" encodinganalog="600">Brecken, Jennie Bentley, 1892-1988.</persname>
-        <famname source="lcnaf" encodinganalog="600">Brecken family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32807">Brecken, Clarence E., 1893-1983.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31041">Brecken, Jennie Bentley, 1892-1988.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/365">Brecken family.</famname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79133151.html" ref="/subjects/1102">Grand Rapids (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6452">Women--Michigan--Grand Rapids.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5712">World War, 1914-1918.</subject>
@@ -94,8 +95,8 @@ Brecken Family papers, Bentley Historical Library, University of Michigan</p>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1037">Baldwin (Mich.)</geogname>
-        <famname source="lcnaf" encodinganalog="600">Bentley family.</famname>
-        <famname source="lcnaf" encodinganalog="600">Brecken family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/403">Bentley family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/365">Brecken family.</famname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6453">Camping.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3654">Carriages and coaches.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85025648.html" ref="/subjects/1357">Cedar Springs (Mich.)</geogname>

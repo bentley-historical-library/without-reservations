@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Wealthy Park Baptist Church (Grand Rapids, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/10821">Wealthy Park Baptist Church (Grand Rapids, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">Wealthy Park Baptist Church (Grand Rapids, Mich.) records <unitdate type="inclusive" encodinganalog="245$f" normal="1892/1982">1892-1982</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">9636 Ba 2</unitid>
@@ -80,11 +81,11 @@ Wealthy Park Baptist Church (Grand Rapids, Mich.) records, Bentley Historical Li
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Wealthy Park Baptist Church (Grand Rapids, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80106946">Association of Baptists for World Evangelism.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Baptists--Michigan--Grand Rapids.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10821">Wealthy Park Baptist Church (Grand Rapids, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80106946" ref="/agents/corporate_entities/14634">Association of Baptists for World Evangelism.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10134">Baptists--Michigan--Grand Rapids.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1911">Grand Rapids (Mich.)--Church history.</geogname>
-        <persname source="lcnaf" encodinganalog="600">Fuller, David Otis.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32432">Fuller, David Otis.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6738">Evangelicalism--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10626">Fundamentalism--History.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10627">Missions, American--Belgium.</subject>
@@ -100,17 +101,17 @@ Wealthy Park Baptist Church (Grand Rapids, Mich.) records, Bentley Historical Li
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname source="lcnaf" encodinganalog="610">Wealthy Park Baptist Church (Grand Rapids, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10821">Wealthy Park Baptist Church (Grand Rapids, Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4334">Baptist churches--Michigan--Grand Rapids.</subject>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/229">Grand Rapids (Mich.)--Churches.</geogname>
-        <persname source="lcnaf" encodinganalog="600">Fuller, David Otis.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32432">Fuller, David Otis.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3722">Missions--China.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4959">Missions--Africa.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4263">Missions--India.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Fuller, David Otis.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32432">Fuller, David Otis.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

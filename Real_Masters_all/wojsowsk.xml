@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Wojsowski, Anthony.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30375">Wojsowski, Anthony.</persname>
       </origination>
       <unittitle encodinganalog="245">Anthony Wojsowski papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1921/1978">1921-1978</unitdate>
@@ -92,16 +93,16 @@ Anthony Wojsowski papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87818792">Committee for Protection of the Foreign Born.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nb2008004783">Polish-American Labor Council.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87818792" ref="/agents/corporate_entities/14742">Committee for Protection of the Foreign Born.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nb2008004783" ref="/agents/corporate_entities/10649">Polish-American Labor Council.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6040">Polish Americans--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Polish Mechanics Company, Inc.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Sadowski, George Gregory, 1903-1961.</persname>
-        <persname source="lcnaf" encodinganalog="600">Wojsowski, Anthony.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10548">Polish Mechanics Company, Inc.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34764">Sadowski, George Gregory, 1903-1961.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30375">Wojsowski, Anthony.</persname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n87818792">Committee for Protection of the Foreign Born.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n87818792" ref="/agents/corporate_entities/14742">Committee for Protection of the Foreign Born.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

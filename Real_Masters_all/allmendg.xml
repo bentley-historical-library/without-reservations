@@ -31,7 +31,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Allmendinger family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/138">Allmendinger family.</famname>
       </origination>
       <unittitle encodinganalog="245">Allmendinger Family Papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1824/2006">1824-2006</unitdate>
@@ -91,9 +92,9 @@ Allmendinger Family Papers, Bentley Historical Library, University of Michigan</
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <famname source="lcnaf" encodinganalog="600">Allmendinger family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/138">Allmendinger family.</famname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html" ref="/subjects/860">Ann Arbor (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Organ Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10120">Ann Arbor Organ Company.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5827">German Americans--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/919">Germany.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5706">Music--Michigan--Ann Arbor.</subject>
@@ -105,19 +106,19 @@ Allmendinger Family Papers, Bentley Historical Library, University of Michigan</
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600">Allmendinger, David Fredrich, 1848-1916.</persname>
-        <persname source="lcnaf" encodinganalog="600">Allmendinger, Helen Sophie, 1878-1973.</persname>
-        <famname source="lcnaf" encodinganalog="600">Allmendinger family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29966">Allmendinger, David Fredrich, 1848-1916.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/27305">Allmendinger, Helen Sophie, 1878-1973.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/138">Allmendinger family.</famname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html" ref="/subjects/860">Ann Arbor (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Arbeiter Verein.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Organ Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10303">Ann Arbor Arbeiter Verein.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10120">Ann Arbor Organ Company.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3622">Children.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3572">Dwellings--Michigan--Ann Arbor.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3681">Families--Michigan--Ann Arbor.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3682">Gardens--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5827">German Americans--Michigan.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3683">Interiors--Michigan--Ann Arbor.</subject>
-        <persname source="lcnaf" encodinganalog="600">Kolberg, Marie Allmendinger, 1875-1973.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30431">Kolberg, Marie Allmendinger, 1875-1973.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3684">Laboring classes.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3685">Offices--Michigan--Ann Arbor.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3686">Weddings.</subject>
@@ -125,10 +126,10 @@ Allmendinger Family Papers, Bentley Historical Library, University of Michigan</
       </controlaccess>
       <controlaccess>
         <head>Contributors: Manuscripts</head>
-        <persname source="lcnaf" encodinganalog="700">Allmendinger, Ina.</persname>
-        <persname source="lcnaf" encodinganalog="700">Allmendinger, David Friedrich, 1848-1916.</persname>
-        <persname source="lcnaf" encodinganalog="700">Allmendinger, Helene Sophie, 1878-1973.</persname>
-        <persname source="lcnaf" encodinganalog="700">Birch, Harriet A.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30928">Allmendinger, Ina.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27748">Allmendinger, David Friedrich, 1848-1916.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34545">Allmendinger, Helene Sophie, 1878-1973.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27758">Birch, Harriet A.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

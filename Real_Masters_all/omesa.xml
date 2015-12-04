@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Office of Multi-Ethnic Student Affairs.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/11119">University of Michigan. Office of Multi-Ethnic Student Affairs.</corpname>
       </origination>
       <unittitle encodinganalog="245">Office of Multi-Ethnic Student Affairs (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1983/1997">1983-1997</unitdate></unittitle>
       <abstract>University of Michigan office established to meet the academic and social needs of the university's minority students. Records include administrative files; materials relating to various programs and activities; and topical files. The topical files include extensive information on the yearly Hispanic Heritage Celebrations.</abstract>
@@ -86,8 +87,8 @@
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9596">Hispanic American college students--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5838">Minority college students--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Office of Multi-Ethnic Student Affairs.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11119">University of Michigan. Office of Multi-Ethnic Student Affairs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Students.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Staebler, Michael, 1843-1928.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/31544">Staebler, Michael, 1843-1928.</persname>
       </origination>
       <unittitle encodinganalog="245">Michael Staebler Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1872/1934">1872-1934</unitdate></unittitle>
       <physloc>Portions of the collection are located offsite; two days notice required for retrieval.</physloc>
@@ -92,12 +93,12 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10192">Business records--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10193">Coal trade--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10194">Cycling--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">League of American Wheelmen. Michigan Division.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan and Indiana Retail Coal Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14264">League of American Wheelmen. Michigan Division.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10327">Michigan and Indiana Retail Coal Association.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10195">Bicycle industry--Michigan--Ann Arbor.</subject>
-        <persname source="lcnaf" encodinganalog="700">Staebler, Edward William, 1872-1946.</persname>
-        <corpname source="lcnaf" encodinganalog="710">Staebler and Elmer.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">Staebler and Sons.</corpname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29309">Staebler, Edward William, 1872-1946.</persname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/9734">Staebler and Elmer.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/13947">Staebler and Sons.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

@@ -39,7 +39,8 @@
         <item>original encoding from Word 6.0 file</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -50,7 +51,7 @@
   <archdesc level="recordgrp" type="inventory" audience="external" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Michigan Synodical Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/14029">Michigan Synodical Association.</corpname>
       </origination>
       <unittitle encodinganalog="245">Michigan Synodical Association Records</unittitle>
       <unitdate encodinganalog="245$f" type="inclusive" normal="1873/1973">1873-1973</unitdate>
@@ -97,9 +98,9 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Synodical Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14029">Michigan Synodical Association.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6328">Women--Religious life--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">United Presbyterian Church in the U.S.A.--Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10109">United Presbyterian Church in the U.S.A.--Michigan.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9387">Women in the Presbyterian Church--Michigan.</subject>
       </controlaccess>
     </controlaccess>

@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Kish, Leslie, 1910-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28951">Kish, Leslie, 1910-</persname>
       </origination>
       <unittitle encodinganalog="245">Leslie Kish Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1952/2001">1952-2001</unitdate></unittitle>
       <abstract>Sociologist, a founder of the University of Michigan Institute for Social Research, specialist in scientific population sampling. Biographical and autobiographical information; including some details on service with Abraham Lincoln Brigade; University of Michigan administrative files; department of sociology course materials; files relating to summer programs in sampling techniques for foreign statisticians; papers on sampling and related topics; files from his association with the Institute for Social Research; organizational files and correspondence.</abstract>
@@ -85,19 +86,19 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81119591">Kish, Leslie, 1910-2000.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Spain. Ejército Popular de la República. Brigada Internacional, XV.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81119591" ref="/agents/people/33849">Kish, Leslie, 1910-2000.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12111">Spain. Ejército Popular de la República. Brigada Internacional, XV.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8679">Sampling (Statistics)</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8680">Social sciences--Statistical methods.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6656">Social surveys.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8681">Sociology--Study and teaching.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Sociology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Institute for Social Research.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13825">University of Michigan. Dept. of Sociology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11789">University of Michigan. Institute for Social Research.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81119591">Kish, Leslie, 1910-2000.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81119591" ref="/agents/people/33849">Kish, Leslie, 1910-2000.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8679">Sampling (Statistics)</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6087">Students, Foreign--Michigan--Ann Arbor.</subject>
       </controlaccess>

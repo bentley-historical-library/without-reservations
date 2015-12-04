@@ -43,7 +43,8 @@
         <item>Original encoding from Word 6.0 file.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -54,7 +55,7 @@
   <archdesc level="collection" type="inventory" audience="external" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">Williams, Robert F., 1925-1996</persname>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/33806">Williams, Robert F., 1925-1996</persname>
       </origination>
       <unittitle encodinganalog="245">Robert F. Williams papers <unitdate encodinganalog="245$f" type="inclusive" normal="1948/2014">1948-2014</unitdate></unittitle>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">85506 Aa 2, UAl</unitid>
@@ -109,8 +110,8 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n98064955">Williams, Robert F. (Robert Franklin), 1925-1996.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Republic of New Afrika.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n98064955" ref="/agents/people/29855">Williams, Robert F. (Robert Franklin), 1925-1996.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9408">Republic of New Afrika.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1391">China--History--1949-1976.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1282">Cuba.</geogname>
         <geogname encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539.html" source="lcsh" ref="/subjects/933">Detroit (Mich.)</geogname>
@@ -121,7 +122,7 @@
       </controlaccess>
       <controlaccess>
         <head>Subject - Visual materials:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n98064955">Williams, Robert F. (Robert Franklin), 1925-1996.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n98064955" ref="/agents/people/29855">Williams, Robert F. (Robert Franklin), 1925-1996.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1278">Africa.</geogname>
         <geogname encodinganalog="651" source="lcsh" ref="/subjects/1750">Vietnam.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5685">African Americans.</subject>

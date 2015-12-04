@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Bingham family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/35">Bingham family.</famname>
       </origination>
       <unittitle encodinganalog="245">Abel Bingham Family Papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1817/1910">1817-1910</unitdate>
@@ -80,13 +81,13 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Baptists--Michigan--Grand Rapids.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Baptists--Michigan--Sault Sainte Marie.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10134">Baptists--Michigan--Grand Rapids.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10134">Baptists--Michigan--Sault Sainte Marie.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6321">Baptists--Missions--Michigan.</subject>
-        <famname source="lcnaf" encodinganalog="600">Bingham family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/35">Bingham family.</famname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6322">Clergy--Michigan--Grand Rapids.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6323">Clergy--Michigan--Sault Sainte Marie.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Fountain Street Baptist Church (Grand Rapids, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10203">Fountain Street Baptist Church (Grand Rapids, Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79133151.html" ref="/subjects/1102">Grand Rapids (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6072">Indians of North America--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6324">Indians of North America--Missions--Michigan.</subject>
@@ -105,14 +106,14 @@
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Bingham, Abel, 1786-1865.</persname>
-        <persname source="lcnaf" encodinganalog="600">Bingham, Hannah, 1794-1868.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35157">Bingham, Abel, 1786-1865.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31257">Bingham, Hannah, 1794-1868.</persname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Bingham, Abel, 1786-1865.</persname>
-        <persname source="lcnaf" encodinganalog="700">Bingham, Hannah, 1794-1868.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n89626569">Sherman, James Schoolcraft, 1855-1912.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35157">Bingham, Abel, 1786-1865.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31257">Bingham, Hannah, 1794-1868.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n89626569" ref="/agents/people/31485">Sherman, James Schoolcraft, 1855-1912.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

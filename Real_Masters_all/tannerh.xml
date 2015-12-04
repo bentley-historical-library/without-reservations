@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Tanner, Helen Hornbeck</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30116">Tanner, Helen Hornbeck</persname>
       </origination>
       <unittitle encodinganalog="245">Helen Hornbeck Tanner papers <unitdate type="inclusive" encodinganalog="245$f" normal="1930/2009" certainty="approximate">1930s-2009</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">8679 Aa 2</unitid>
@@ -90,8 +91,8 @@ Helen Hornbeck Tanner papers, Bentley Historical Library, University of Michigan
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9377">Fishing--Great Lakes (North America)</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6072">Indians of North America--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10310">Caddo Indians.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82007940">Keewaydinoquay.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n84034690">Michigan Commission on Indian Affairs.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82007940" ref="/agents/people/31728">Keewaydinoquay.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n84034690" ref="/agents/corporate_entities/9737">Michigan Commission on Indian Affairs.</corpname>
         <controlaccess>
           <head>Genre:</head>
           <genreform source="aat" encodinganalog="655" ref="/subjects/3141">Photographs.</genreform>

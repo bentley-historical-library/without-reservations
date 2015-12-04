@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Hill family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/11">Hill family.</famname>
       </origination>
       <unittitle encodinganalog="245">Charles A. Hill Family Papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1917/1981">1917-1981</unitdate>
@@ -88,11 +89,11 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7363">Afro-Americans--Michigan--Detroit.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7858">Baptists, Black--Michigan--Detroit.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1691">Detroit (Mich.)--Race relations.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Hartford Memorial Baptist Church (Detroit, Mich.)</corpname>
-        <famname source="lcnaf" encodinganalog="600">Hill family.</famname>
-        <persname source="lcnaf" encodinganalog="600">Hill, Charles A. (Charles Andrew), 1893-1970.</persname>
-        <persname source="lcnaf" encodinganalog="600">Hill, Georgia.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2010060456">National Association for the Advancement of Colored People. Detroit Branch.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9083">Hartford Memorial Baptist Church (Detroit, Mich.)</corpname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/11">Hill family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28826">Hill, Charles A. (Charles Andrew), 1893-1970.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28681">Hill, Georgia.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2010060456" ref="/agents/corporate_entities/14528">National Association for the Advancement of Colored People. Detroit Branch.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8202">Police--Michigan--Detroit--Records and correspondence.</subject>
       </controlaccess>
       <controlaccess>
@@ -104,14 +105,14 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7858">Baptists, Black--Michigan--Detroit.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3724">Churches--Michigan--Detroit.</subject>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/218">Detroit (Mich.)--Churches.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Hartford Memorial Baptist Church (Detroit, Mich.)</corpname>
-        <famname source="lcnaf" encodinganalog="600">Hill family.</famname>
-        <persname source="lcnaf" encodinganalog="600">Hill, Charles A. (Charles Andrew), 1893-1970.</persname>
-        <persname source="lcnaf" encodinganalog="600">Hill, Georgia.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9083">Hartford Memorial Baptist Church (Detroit, Mich.)</corpname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/11">Hill family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28826">Hill, Charles A. (Charles Andrew), 1893-1970.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28681">Hill, Georgia.</persname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Hill, Charles A. (Charles Andrew), 1893-1970.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28826">Hill, Charles A. (Charles Andrew), 1893-1970.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

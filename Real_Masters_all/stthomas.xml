@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">St. Thomas Episcopal Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/12948">St. Thomas Episcopal Church (Detroit, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">St. Thomas Episcopal Church, Detroit, Mich., Records <unitdate type="inclusive" encodinganalog="245$f" normal="1885/1998">1885-1998</unitdate></unittitle>
       <abstract>Church established as mission Sunday School in 1884 and disbanded in 1988 because of declining membership. Registers of baptisms, marriages, burials and communicants; registers of church services; vestry minutes, annual parish meeting minutes, bishop's committee minutes, correspondence, budgets and treasurer's annual reports, and photograph albums.</abstract>
@@ -85,15 +86,15 @@
         <head>Subjects:</head>
         <genreform source="aat" encodinganalog="655" ref="/subjects/3373">Church records.</genreform>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/952">Detroit (Mich.)--Church history.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Episcopal Church--Michigan--Detroit.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9954">Episcopal Church--Michigan--Detroit.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5960">Registers of births, etc.--Michigan--Detroit.</subject>
-        <corpname source="lcnaf" encodinganalog="610">St. Thomas Episcopal Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12948">St. Thomas Episcopal Church (Detroit, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3724">Churches--Michigan--Detroit.</subject>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/218">Detroit (Mich.)--Churches.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Episcopal Church--Michigan--Detroit.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9954">Episcopal Church--Michigan--Detroit.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

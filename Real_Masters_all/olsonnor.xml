@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Olson, Norman.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33382">Olson, Norman.</persname>
       </origination>
       <unittitle encodinganalog="245">Norman Olson Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1950/2001">1950-2001</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2010208 Aa 2</unitid>
@@ -86,10 +87,10 @@ Norman Olson Papers, Bentley Historical Library, University of Michigan</p>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9592">Firearms ownership--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9593">Government, Resistance to--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no95054612">Michigan Militia Corps.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no95054612" ref="/agents/corporate_entities/12990">Michigan Militia Corps.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8164">Militia movements--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Northern Michigan Regional Militia.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Olson, Norman.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12159">Northern Michigan Regional Militia.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33382">Olson, Norman.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8165">Right-wing extremists--Michigan.</subject>
       </controlaccess>
     </controlaccess>

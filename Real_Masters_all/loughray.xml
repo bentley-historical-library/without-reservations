@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2010 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Loughray, John J., collector</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28780">Loughray, John J., collector</persname>
       </origination>
       <unittitle encodinganalog="245">John J. Loughray collection <unitdate type="inclusive" encodinganalog="245$f" normal="1885/2009">1885-2009</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2014067 Aa 2 UAM</unitid>
@@ -84,7 +85,7 @@ John J. Loughray collection, Bentley Historical Library, University of Michigan<
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1903">Houghton Lake (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6772">Logging--Michigan.</subject>
-        <famname source="lcnaf" encodinganalog="600">Loughray family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/232">Loughray family.</famname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6773">Lumbering--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2243">Prudenville (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8859">Resorts--Michigan--Roscommon County.</subject>

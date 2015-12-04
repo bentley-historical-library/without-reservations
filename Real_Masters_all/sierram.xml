@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Sierra Club. Michigan Chapter.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/9122">Sierra Club. Michigan Chapter.</corpname>
       </origination>
       <unittitle encodinganalog="245">Sierra Club. Michigan Chapter records</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1964/2007">1964-2007</unitdate>
@@ -91,9 +92,9 @@ Sierra Club. Michigan Chapter records, Bentley Historical Library, University of
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6190">Conservation of natural resources--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6628">Environmental protection--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7039">Land use--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. Dept. of Natural Resources.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11372">Michigan. Dept. of Natural Resources.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9333">Refuse and refuse disposal--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Sierra Club. Michigan Chapter.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9122">Sierra Club. Michigan Chapter.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9500">Salvage (Waste, etc.)--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8468">Wetlands--Michigan.</subject>
       </controlaccess>

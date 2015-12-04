@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Holmes family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/104">Holmes family.</famname>
       </origination>
       <unittitle encodinganalog="245">Holmes Family papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1883/1957">1883-1957</unitdate>
@@ -87,8 +88,8 @@ Holmes Family Papers, Bentley Historical Library, University of Michigan</p>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Holmes, Harry.</persname>
-        <persname source="lcnaf" encodinganalog="700">Holmes, Susie.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34782">Holmes, Harry.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35156">Holmes, Susie.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

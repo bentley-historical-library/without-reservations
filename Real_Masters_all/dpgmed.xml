@@ -23,7 +23,8 @@
         <item>Original encoding from W2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Dept. of Postgraduate Medicine and Health Professions Education.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/11027">University of Michigan. Dept. of Postgraduate Medicine and Health Professions Education.</corpname>
       </origination>
       <unittitle encodinganalog="245">Dept. of Postgraduate Medicine and Health Professions Education (University of Michigan) records</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1919/1993">1919-1993</unitdate>
@@ -158,16 +159,16 @@ Dept. of Postgraduate Medicine and Health Professions Education (University of M
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Postgraduate Medicine and Health Professions Education.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50077855">Henry Ford Hospital.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Veterans Administration Hospital (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Wayne County General Hospital.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88220853">St. Joseph Mercy Hospital (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11027">University of Michigan. Dept. of Postgraduate Medicine and Health Professions Education.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50077855" ref="/agents/corporate_entities/13698">Henry Ford Hospital.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9059">Veterans Administration Hospital (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11620">Wayne County General Hospital.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88220853" ref="/agents/corporate_entities/11595">St. Joseph Mercy Hospital (Ann Arbor, Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7302">Medicine--Study and teaching (Graduate)</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7303">Residents (Medicine)--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7304">Interns (Medicine)--Michigan--Ann Arbor.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88038325">Towsley, Harry A.</persname>
-        <persname source="lcnaf" encodinganalog="600">Bruce, James D. (James Deacon), 1872-1946.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88038325" ref="/agents/people/35976">Towsley, Harry A.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35334">Bruce, James D. (James Deacon), 1872-1946.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

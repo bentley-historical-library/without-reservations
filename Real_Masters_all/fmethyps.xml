@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">First United Methodist Church of Ypsilanti (Ypsilanti, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/13045">First United Methodist Church of Ypsilanti (Ypsilanti, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">First United Methodist Church of Ypsilanti (Ypsilanti, Mich.) records <unitdate type="inclusive" encodinganalog="245$f" normal="1831/1995">1831-1995</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">86798 Ba 2; UBAm</unitid>
@@ -85,8 +86,8 @@ First United Methodist Church of Ypsilanti (Ypsilanti, Mich.) records, Bentley H
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">First United Methodist Church of Ypsilanti (Ypsilanti, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United Methodist Church (U.S.)--Michigan--Ypsilanti.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13045">First United Methodist Church of Ypsilanti (Ypsilanti, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9891">United Methodist Church (U.S.)--Michigan--Ypsilanti.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7132">Women--Michigan--Ypsilanti--Societies and clubs.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7798">Registers of births, etc.--Michigan--Ypsilanti.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1864">Ypsilanti (Mich.)--Church history.</geogname>
@@ -95,7 +96,7 @@ First United Methodist Church of Ypsilanti (Ypsilanti, Mich.) records, Bentley H
       <controlaccess>
         <head>Subjects: Visual Materials</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4012">Churches--Michigan--Ypsilanti.</subject>
-        <corpname source="lcnaf" encodinganalog="610">First United Methodist Church of Ypsilanti (Ypsilanti, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13045">First United Methodist Church of Ypsilanti (Ypsilanti, Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4329">Methodist churches--Michigan--Ypsilanti.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1865">Ypsilanti (Mich.)--Churches.</geogname>
       </controlaccess>

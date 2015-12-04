@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">National Housewives' League of America.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/13921">National Housewives' League of America.</corpname>
       </origination>
       <unittitle encodinganalog="245">National Housewives' League of America Records</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1918/1996" certainty="approximate">circa 1918-1996</unitdate>
@@ -101,30 +102,30 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9492">Afro-American consumers--Michigan--Detroit.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9493">Afro-American consumers--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7363">Afro-Americans--Michigan--Detroit.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Booker T. Washington Trade Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13370">Booker T. Washington Trade Association.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1811">Detroit (Mich.)--Economic conditions.</geogname>
-        <persname source="lcnaf" encodinganalog="600">Fuqua, Christina.</persname>
-        <persname source="lcnaf" encodinganalog="600">Hibbert, Lydia.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34560">Fuqua, Christina.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33106">Hibbert, Lydia.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9494">Housewives as consumers--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9495">Housewives as consumers--Michigan--Detroit.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n92054525">Housewives' League of Detroit.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">National Housewives' League of America.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n94101004">National Negro Business League (U.S.)</corpname>
-        <persname source="lcnaf" encodinganalog="600">Peck, Fannie.</persname>
-        <persname source="lcnaf" encodinganalog="600">Peck, William H.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n92054525" ref="/agents/corporate_entities/13251">Housewives' League of Detroit.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13921">National Housewives' League of America.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n94101004" ref="/agents/corporate_entities/10641">National Negro Business League (U.S.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32772">Peck, Fannie.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33538">Peck, William H.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5033">Afro-Americans--Organizations--Michigan--Detroit.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4503">Afro-Americans--Michigan--Detroit.</subject>
-        <persname source="lcnaf" encodinganalog="600">Fuqua, Christina.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n92054525">Housewives' League of Detroit.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">National Housewives' League of America.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Peck, Fannie.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34560">Fuqua, Christina.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n92054525" ref="/agents/corporate_entities/13251">Housewives' League of Detroit.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13921">National Housewives' League of America.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32772">Peck, Fannie.</persname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n92054525">Housewives' League of Detroit.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n92054525" ref="/agents/corporate_entities/13251">Housewives' League of Detroit.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

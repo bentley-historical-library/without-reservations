@@ -23,7 +23,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Ann Arbor Community Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/10970">Ann Arbor Community Center.</corpname>
       </origination>
       <unittitle encodinganalog="245">Ann Arbor Community Center Records <unitdate type="inclusive" encodinganalog="245$f" normal="1920/1998" certainty="approximate">1920s-1998</unitdate></unittitle>
       <abstract>Organization established to promote civic, cultural, and recreational interests and activities of Ann Arbor's African American community. Administrative reports, informational brochures, collected information, and photographs.</abstract>
@@ -82,13 +83,13 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Community Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10970">Ann Arbor Community Center.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5659">African Americans--Michigan--Ann Arbor.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/848">Ann Arbor (Mich.)--Race relations.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Community Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10970">Ann Arbor Community Center.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3567">African Americans--Michigan--Ann Arbor.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3568">African Americans--Children--Michigan--Ann Arbor.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/849">Ann Arbor (Mich.)--Buildings, structures, etc.</geogname>

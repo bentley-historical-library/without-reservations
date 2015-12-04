@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Atwell, Helen M.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/34532">Atwell, Helen M.</persname>
       </origination>
       <unittitle encodinganalog="245">Helen M. Atwell Papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1965/1994">1965-1994</unitdate>
@@ -89,11 +90,11 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Atwell, Helen M.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34532">Atwell, Helen M.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5964">Arab Americans--Michigan--Dearborn.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n99046417">Arab Community Center for Economic and Social Services.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n99046417" ref="/agents/corporate_entities/14468">Arab Community Center for Economic and Social Services.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/954">Dearborn (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Southeast Dearborn Community Council.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9896">Southeast Dearborn Community Council.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

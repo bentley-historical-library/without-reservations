@@ -27,7 +27,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Borman family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/222">Borman family.</famname>
       </origination>
       <unittitle encodinganalog="245">Borman Family Papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1923/1991">1923-1991</unitdate>
@@ -89,32 +90,32 @@ Borman Family Papers
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <famname source="lcnaf" encodinganalog="600">Borman family.</famname>
-        <corpname source="lcnaf" encodinganalog="610">Borman's Inc.</corpname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/222">Borman family.</famname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9836">Borman's Inc.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6397">Charities--Michigan--Detroit Metropolitan Area.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1343">Detroit (Mich.)--Commerce.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Farmer Jack (Grocery stores)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12165">Farmer Jack (Grocery stores)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6398">Grocery stores--Michigan--Detroit Metropolitan Area.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5858">Jews--Michigan--Detroit Metropolitan Area.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <famname source="lcnaf" encodinganalog="600">Borman family.</famname>
-        <corpname source="lcnaf" encodinganalog="610">Borman's Inc.</corpname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/222">Borman family.</famname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9836">Borman's Inc.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3928">Commercial facilities--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539.html" ref="/subjects/933">Detroit (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Farmer Jack (Grocery stores)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12165">Farmer Jack (Grocery stores)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3929">Grocery stores--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="600">John Paul II, Pope, 1920-2005--Travel--Michigan--Detroit.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87927953">Parks, Rosa, 1913-2005.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29850">John Paul II, Pope, 1920-2005--Travel--Michigan--Detroit.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87927953" ref="/agents/people/34218">Parks, Rosa, 1913-2005.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3930">Parades--Michigan--Detroit.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3931">Shopping--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="611">Thanksgiving Day Parade (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="611" ref="/agents/corporate_entities/14008">Thanksgiving Day Parade (Detroit, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Borman, Abraham.</persname>
-        <persname source="lcnaf" encodinganalog="700">Borman, Paul.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30057">Borman, Abraham.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30471">Borman, Paul.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

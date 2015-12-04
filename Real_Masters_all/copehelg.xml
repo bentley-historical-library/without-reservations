@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Cope, Helen Gibson, collector</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32891">Cope, Helen Gibson, collector</persname>
       </origination>
       <unittitle encodinganalog="245">Helen Gibson Cope Collection <unitdate type="inclusive" encodinganalog="245$f" normal="1867/1987">1867-1987</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2013142 Aa 2 AUl</unitid>
@@ -85,10 +86,10 @@ Helen Gibson Cope collection, Bentley Historical Library, University of Michigan
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Cope, Helen Gibson.</persname>
-        <famname source="lcnaf" encodinganalog="600">Gibson family.</famname>
-        <famname source="lcnaf" encodinganalog="600">Jones family.</famname>
-        <famname source="lcnaf" encodinganalog="600">McDonald family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32689">Cope, Helen Gibson.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/131">Gibson family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/107">Jones family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/77">McDonald family.</famname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1637">Ann Arbor (Mich.)--Genealogy.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1638">Macomb County (Mich.)--Genealogy.</geogname>
       </controlaccess>

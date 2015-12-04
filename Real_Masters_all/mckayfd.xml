@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">McKay, Frank D., 1883-1965.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/36203">McKay, Frank D., 1883-1965.</persname>
       </origination>
       <unittitle encodinganalog="245">Frank D. McKay Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1909/1965">1909-1965</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851800 Aa 2; AC</unitid>
@@ -83,9 +84,9 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5784">Business records.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6132">Elections--Michigan--1958.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79133151.html" ref="/subjects/1102">Grand Rapids (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008183293">Green, Fred W. (Fred Warren), 1872-1936.</persname>
-        <persname source="lcnaf" encodinganalog="600">McKay, Frank D., 1883-</persname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. Dept. of Treasury.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008183293" ref="/agents/people/29308">Green, Fred W. (Fred Warren), 1872-1936.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28233">McKay, Frank D., 1883-</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13762">Michigan. Dept. of Treasury.</corpname>
         <geogname source="local" encodinganalog="691" ref="/subjects/806">Michigan--Politics and government--1899-1916.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/807">Michigan--Politics and government--1917-1921.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/808">Michigan--Politics and government--1922-1928.</geogname>
@@ -94,8 +95,8 @@
         <geogname source="local" encodinganalog="691" ref="/subjects/809">Michigan--Politics and government--1946-1960.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7024">Presidents--United States--Election--1940.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6854">Presidents--United States--Election--1952.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Republican National Committee (U.S.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9513">Republican National Committee (U.S.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13160">Republican Party (Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1271">United States--Politics and government--1933-1953.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1272">United States--Politics and government--1953-1961.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/884">Michigan--Politics and government--1837-1950.</geogname>
@@ -103,7 +104,7 @@
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname source="lcnaf" encodinganalog="610">Bal Harbour Hotel (Miami Beach, Fla.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13958">Bal Harbour Hotel (Miami Beach, Fla.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4245">Buildings--Michigan--Grand Rapids.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4761">Business enterprises--Michigan--Grand Rapids.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3657">City and town life.</subject>
@@ -119,7 +120,7 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4763">Hotels and taverns--Florida--Miami Beach.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3689">Interiors.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4764">Manners and customs.</subject>
-        <persname source="lcnaf" encodinganalog="600">McKay, Frank D., 1883-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28233">McKay, Frank D., 1883-</persname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/560">Miami Beach (Fla.)--Hotels and taverns.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3941">Photography.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4765">Street-railroads--Michigan--Grand Rapids.</subject>
@@ -128,25 +129,25 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81005141">Adams, Sherman, 1899-1986.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2009000162">Brake, D. Hale, 1891-1979</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n94105471">Brucker, Wilber Marion, 1894-1968.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008182100">Comstock, William Alfred, 1877-1949.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79021469">Dewey, Thomas E. (Thomas Edmund), 1902-1971.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008187778">Dickinson, Luren Dudley, 1859-1943.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79135041">Farley, James A. (James Aloysius), 1888-1976.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008183317">Fitzgerald, Frank Dwight, 1885-1939.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008187813">Groesbeck, Alexander J. (Alexander Joseph), 1873-1953.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87870675">Hart, Philip A. (Philip Aloysius), 1912-1976.</persname>
-        <persname source="lcnaf" encodinganalog="700">Hoffman, Clare Eugene, 1875-1967.</persname>
-        <persname source="lcnaf" encodinganalog="700">Jenkins, Guy H.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80005801">Johnson, Lyndon B. (Lyndon Baines), 1908-1973.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008189047">Mapes, Carl Edgar, 1874-1939.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86012082">Martin, Joseph William, 1884-1968.</persname>
-        <persname source="lcnaf" encodinganalog="700">Osborn, Chase S. (Chase Salmon), b. 1860.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2004028534">Summerfield, Arthur Ellsworth, 1899-1972.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50045033">Vandenberg, Arthur H. (Arthur Hendrick), 1884-1951.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50019256">Willkie, Wendell L. (Wendell Lewis), 1892-1944.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81005141" ref="/agents/people/35682">Adams, Sherman, 1899-1986.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2009000162" ref="/agents/people/32085">Brake, D. Hale, 1891-1979</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n94105471" ref="/agents/people/31431">Brucker, Wilber Marion, 1894-1968.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008182100" ref="/agents/people/27602">Comstock, William Alfred, 1877-1949.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79021469" ref="/agents/people/34601">Dewey, Thomas E. (Thomas Edmund), 1902-1971.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008187778" ref="/agents/people/35799">Dickinson, Luren Dudley, 1859-1943.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79135041" ref="/agents/people/34903">Farley, James A. (James Aloysius), 1888-1976.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008183317" ref="/agents/people/35613">Fitzgerald, Frank Dwight, 1885-1939.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008187813" ref="/agents/people/27953">Groesbeck, Alexander J. (Alexander Joseph), 1873-1953.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87870675" ref="/agents/people/31450">Hart, Philip A. (Philip Aloysius), 1912-1976.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29432">Hoffman, Clare Eugene, 1875-1967.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32680">Jenkins, Guy H.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80005801" ref="/agents/people/28541">Johnson, Lyndon B. (Lyndon Baines), 1908-1973.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008189047" ref="/agents/people/32050">Mapes, Carl Edgar, 1874-1939.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86012082" ref="/agents/people/33874">Martin, Joseph William, 1884-1968.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29688">Osborn, Chase S. (Chase Salmon), b. 1860.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2004028534" ref="/agents/people/32419">Summerfield, Arthur Ellsworth, 1899-1972.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50045033" ref="/agents/people/30858">Vandenberg, Arthur H. (Arthur Hendrick), 1884-1951.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50019256" ref="/agents/people/33755">Willkie, Wendell L. (Wendell Lewis), 1892-1944.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

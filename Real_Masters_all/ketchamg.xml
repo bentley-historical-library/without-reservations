@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Ketcham, Gilbert.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/29118">Ketcham, Gilbert.</persname>
       </origination>
       <unittitle encodinganalog="245">Gilbert and Jean Seeley Ketcham papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1937/1947">1937-1947</unitdate>
@@ -86,8 +87,8 @@ Gilbert and Jean Seeley Ketcham papers, Bentley Historical Library, University o
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Ketcham, Gilbert.</persname>
-        <persname source="lcnaf" encodinganalog="600">Ketcham, Jean Seeley.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29118">Ketcham, Gilbert.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29707">Ketcham, Jean Seeley.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6536">Soldiers--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8646">World War, 1939-1945--Correspondence.</subject>
       </controlaccess>

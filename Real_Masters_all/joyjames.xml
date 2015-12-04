@@ -35,7 +35,8 @@
         <item>Encoded finding aid from Word 6.0 file with some hand tagging</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Henry B. Joy Historical Research (Organization)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/9986">Henry B. Joy Historical Research (Organization)</corpname>
       </origination>
       <unittitle encodinganalog="245$a">Henry B. Joy Historical Research Records <unitdate type="inclusive" encodinganalog="245$f" normal="1812/1937" certainty="approximate">circa 1812-1937</unitdate></unittitle>
       <abstract>The Henry B. Joy Historical Research (HBJHR) was an office established and funded by Detroit businessman Henry B. Joy in 1928 to do original research into the life and career of James F. Joy; the series in the collection are James F. Joy Papers, Railroad Enterprises, John W. Brooks Papers, Abraham Lincoln Research, and Office Correspondence.</abstract>
@@ -96,25 +97,25 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Chicago, Burlington &amp; Quincy Railroad Company.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50000516">Illinois Central Railroad Company.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr2004005807">Joy, James F. (James Frederick), 1810-1896.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79006779">Lincoln, Abraham, 1809-1865.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n86134555">Michigan Central Railroad Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13264">Chicago, Burlington &amp; Quincy Railroad Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50000516" ref="/agents/corporate_entities/9931">Illinois Central Railroad Company.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr2004005807" ref="/agents/people/27857">Joy, James F. (James Frederick), 1810-1896.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79006779" ref="/agents/people/33521">Lincoln, Abraham, 1809-1865.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n86134555" ref="/agents/corporate_entities/9220">Michigan Central Railroad Company.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7313">Railroads--United States.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr2004005807">Joy, James F. (James Frederick), 1810-1896.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr2004005807" ref="/agents/people/27857">Joy, James F. (James Frederick), 1810-1896.</persname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf">Brooks, John W.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr90009135">Chandler, Zachariah, 1813-1879.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50029300">Fillmore, Millard, 1800-1874.</persname>
-        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/nr2004005807">Joy, James F. (James Frederick), 1810-1896.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr92043399">Ledyard, Henry, 1812-1880.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50010851">Story, Joseph, 1779-1845.</persname>
+        <persname source="lcnaf" ref="/agents/people/27951">Brooks, John W.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr90009135" ref="/agents/people/31058">Chandler, Zachariah, 1813-1879.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50029300" ref="/agents/people/27963">Fillmore, Millard, 1800-1874.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/nr2004005807" ref="/agents/people/27857">Joy, James F. (James Frederick), 1810-1896.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr92043399" ref="/agents/people/29970">Ledyard, Henry, 1812-1880.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50010851" ref="/agents/people/32240">Story, Joseph, 1779-1845.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

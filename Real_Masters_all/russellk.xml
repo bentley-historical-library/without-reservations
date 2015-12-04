@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Russell, Kathleen.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28499">Russell, Kathleen.</persname>
       </origination>
       <unittitle encodinganalog="245">Kathleen Russell papers <unitdate type="inclusive" encodinganalog="245$f" normal="1997/2006">1997-2006</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2009149 Aa 2</unitid>
@@ -79,12 +80,12 @@ Kathleen Russell papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Eastern Michigan University. Lesbian, Gay, Bisexual and Transgendered Resource Center.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Eastern Michigan University--Students.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11605">Eastern Michigan University. Lesbian, Gay, Bisexual and Transgendered Resource Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11220">Eastern Michigan University--Students.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9932">Gay men--Michigan--Ypsilanti.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9933">Homophobia--Michigan--Ypsilanti.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6143">Lesbians--Michigan--Ypsilanti.</subject>
-        <persname source="lcnaf" encodinganalog="600">Russell, Kathleen.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28499">Russell, Kathleen.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9934">Transgender people--Michigan--Ypsilanti.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2780">Ypsilanti Campaign for Equality.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1012">Ypsilanti (Mich.)--Politics and government.</geogname>

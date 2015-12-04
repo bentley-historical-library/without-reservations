@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" encodinganalog="110" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">American Civil Liberties Union of Washtenaw County.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/10311">American Civil Liberties Union of Washtenaw County.</corpname>
       </origination>
       <unittitle encodinganalog="245">American Civil Liberties Union of Washtenaw County Records <unitdate type="inclusive" encodinganalog="245$f" normal="1961/2000">1961-2000</unitdate></unittitle>
       <abstract>Washtenaw County, Michigan branch of the American Civil Liberties Union; correspondence, minutes of meetings, and subject files.</abstract>
@@ -79,14 +80,14 @@
     <controlaccess>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">American Civil Liberties Union of Washtenaw County.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10311">American Civil Liberties Union of Washtenaw County.</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html" ref="/subjects/860">Ann Arbor (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5726">Civil rights--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5727">Education--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n91059253">Michigan. Constitutional Convention (1961-1962)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n91059253" ref="/agents/corporate_entities/10318">Michigan. Constitutional Convention (1961-1962)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5728">Police-community relations--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/847">Washtenaw County (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">American Civil Liberties Union of Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11110">American Civil Liberties Union of Michigan.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

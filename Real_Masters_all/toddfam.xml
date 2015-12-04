@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Todd family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/54">Todd family.</famname>
       </origination>
       <unittitle encodinganalog="245">Todd Family Papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1862/1980">1862-1980</unitdate>
@@ -86,9 +87,9 @@ Todd Family Papers, Bentley Historical Library, University of Michigan</p>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1574">Berrien County (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5784">Business records.</subject>
         <geogname source="local" encodinganalog="691" ref="/subjects/835">Detroit (Mich.)--Commerce.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">National Loan and Investment Company.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Surety Federal Savings and Loan Association.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Michigan Infantry Regiment, 25th (1862-1865). Company C.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9575">National Loan and Investment Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11114">Surety Federal Savings and Loan Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9651">United States. Army. Michigan Infantry Regiment, 25th (1862-1865). Company C.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/909">United States--History--Civil War, 1861-1865.</geogname>
       </controlaccess>
       <controlaccess>
@@ -103,17 +104,17 @@ Todd Family Papers, Bentley Historical Library, University of Michigan</p>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10378">Business enterprises--Michigan--Southfield.</subject>
         <subject source="local" encodinganalog="690" ref="/subjects/3563">Interiors--Banks.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81139923.html" ref="/subjects/949">Mackinac Island (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">National Loan and Investment Company.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n84088248">Sunday, Billy, 1862-1935.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Surety Federal Savings and Loan Association.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Todd, Fred P.</persname>
-        <persname source="lcnaf" encodinganalog="600">Todd, J. Beecher.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9575">National Loan and Investment Company.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n84088248" ref="/agents/people/32905">Sunday, Billy, 1862-1935.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11114">Surety Federal Savings and Loan Association.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34373">Todd, Fred P.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30479">Todd, J. Beecher.</persname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Carlisle, Joseph L.</persname>
-        <persname source="lcnaf" encodinganalog="700">Todd, Fred P.</persname>
-        <persname source="lcnaf" encodinganalog="700">Todd, J. Beecher.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28510">Carlisle, Joseph L.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34373">Todd, Fred P.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30479">Todd, J. Beecher.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

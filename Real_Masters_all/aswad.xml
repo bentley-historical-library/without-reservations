@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/nr95026222">Aswad, Barbara C.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/nr95026222" ref="/agents/people/27530">Aswad, Barbara C.</persname>
       </origination>
       <unittitle encodinganalog="245">Barbara C. Aswad Papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1962/2000">1962-2000</unitdate>
@@ -86,11 +87,11 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83154850">American-Arab Anti-Discrimination Committee.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n99046417">Arab Community Center for Economic and Social Services.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83154850" ref="/agents/corporate_entities/9288">American-Arab Anti-Discrimination Committee.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n99046417" ref="/agents/corporate_entities/14468">Arab Community Center for Economic and Social Services.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5767">Arab Americans--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5964">Arab Americans--Michigan--Dearborn.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr95026222">Aswad, Barbara C.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr95026222" ref="/agents/people/27530">Aswad, Barbara C.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/954">Dearborn (Mich.)</geogname>
       </controlaccess>
     </controlaccess>

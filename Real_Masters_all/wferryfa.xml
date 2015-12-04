@@ -39,7 +39,8 @@
         <item>original encoding from Word 6.0 file using Word Macros and hand tagging in A/E</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -50,7 +51,7 @@
   <archdesc level="collection" type="inventory" audience="external" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Ferry Family (William Montague Ferry family)</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/16">Ferry Family (William Montague Ferry family)</famname>
       </origination>
       <unittitle encodinganalog="245">Ferry Family Papers (William Montague Ferry family) <unitdate type="inclusive" encodinganalog="245$f" normal="1823/1904">1823-1904</unitdate></unittitle>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">851272 Aa 2; Ac</unitid>
@@ -98,8 +99,8 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <famname source="lcnaf" encodinganalog="600">Ferry family.</famname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2009095177">United States. Army. Michigan Infantry Regiment, 14th (1862-1865)</corpname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/349">Ferry family.</famname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2009095177" ref="/agents/corporate_entities/9214">United States. Army. Michigan Infantry Regiment, 14th (1862-1865)</corpname>
         <subject encodinganalog="650" source="lcsh" ref="/subjects/6324">Indians of North America--Missions--Michigan.</subject>
         <subject encodinganalog="650" source="lcsh" ref="/subjects/6072">Indians of North America--Michigan.</subject>
         <subject encodinganalog="650" source="lcsh" ref="/subjects/10677">Missionaries--Michigan--Mackinac Island.</subject>
@@ -115,19 +116,19 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82096260">Anthony, Susan B. (Susan Brownell), 1820-1906.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no91021187">Baldwin, Henry P. (Henry Porter), 1814-1892.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr90009135">Chandler, Zachariah, 1813-1879.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85335914">Colfax, Schuyler, 1823-1885.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84124640">Evarts, William Maxwell, 1818-1901.</persname>
-        <persname source="lcnaf" encodinganalog="700">Ferry, Amanda White.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no97068089">Ferry, Thomas White, 1827-1896.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr96044864">Ferry, William Montague, 1796-1867.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2011131243">Ferry, William Montague, 1824-1905.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50005249">Fish, Hamilton, 1888-1991</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50025146">Hayes, Rutherford Birchard, 1822-1893.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50050931">Reid, Whitelaw, 1837-1912.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80001140">Stanton, Elizabeth Cady, 1815-1902.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82096260" ref="/agents/people/34628">Anthony, Susan B. (Susan Brownell), 1820-1906.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no91021187" ref="/agents/people/29394">Baldwin, Henry P. (Henry Porter), 1814-1892.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr90009135" ref="/agents/people/31058">Chandler, Zachariah, 1813-1879.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85335914" ref="/agents/people/27637">Colfax, Schuyler, 1823-1885.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84124640" ref="/agents/people/31617">Evarts, William Maxwell, 1818-1901.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30321">Ferry, Amanda White.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no97068089" ref="/agents/people/36031">Ferry, Thomas White, 1827-1896.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr96044864" ref="/agents/people/35045">Ferry, William Montague, 1796-1867.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2011131243" ref="/agents/people/27256">Ferry, William Montague, 1824-1905.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50005249" ref="/agents/people/31868">Fish, Hamilton, 1888-1991</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50025146" ref="/agents/people/33958">Hayes, Rutherford Birchard, 1822-1893.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50050931" ref="/agents/people/34593">Reid, Whitelaw, 1837-1912.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80001140" ref="/agents/people/29580">Stanton, Elizabeth Cady, 1815-1902.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">St. Margaret’s Episcopal Church (Hazel Park, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/13292">St. Margaret’s Episcopal Church (Hazel Park, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">St. Margaret’s Episcopal Church (Hazel Park, Mich.) records <unitdate type="inclusive" encodinganalog="245$f" normal="1927/2007">1927-2007</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2008074 Ba 2</unitid>
@@ -86,10 +87,10 @@ St. Margaret’s Episcopal Church (Hazel Park, Mich.) records, Bentley Historica
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Episcopal Church--Michigan--Hazel Park.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9954">Episcopal Church--Michigan--Hazel Park.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2857">Hazel Park (Mich.)--History.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10242">Registers of births, etc.--Michigan--Hazel Park.</subject>
-        <corpname source="lcnaf" encodinganalog="610">St. Margaret's Episcopal Church (Hazel Park, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11244">St. Margaret's Episcopal Church (Hazel Park, Mich.)</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Griffiths, Martha Wright, 1912-2003.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/31906">Griffiths, Martha Wright, 1912-2003.</persname>
       </origination>
       <unittitle encodinganalog="245">Martha Wright Griffiths papers <unitdate type="inclusive" encodinganalog="245$f" normal="1956/1976">1956-1976</unitdate></unittitle>
       <abstract>Detroit, Michigan, attorney, Democratic member of the U.S. House of Representatives, 1955-1974, and member of the House Ways and Means Committee. Congressional papers, arranged by term, include legislative files, bills files, topical files, schedules, sound recordings, photographs, motion pictures, and scrapbooks. The collection details relationship with colleagues and constituents and pertains to committee activities, legislation sponsored, and issues of the day. Topics of interest include civil rights, the war in Vietnam, Sleeping Bear Dunes, the humane slaughtering of animals, the economy and the fiscal policy of the federal government, women's rights, the Equal Rights Amendment, economic problems of women, and the need for national health insurance legislation.</abstract>
@@ -103,7 +104,7 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8061">Animal industry--Law and legislation--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8062">Busing for school integration--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6842">Civil rights--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731">Democratic Party (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731" ref="/agents/corporate_entities/12900">Democratic Party (Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5806">Equal Rights Amendments--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8029">Fiscal policy--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7814">Legislators--United States.</subject>
@@ -115,10 +116,10 @@
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1009">Sleeping Bear Dunes National Lakeshore (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8064">Social security--Law and legislation--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8065">Taxation--Law and legislation--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79107874">United States. Congress. House.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79049171">United States. Congress. House. Committee on Banking and Currency.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79041912">United States. Congress. House. Committee on Government Operations.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79017982">United States. Congress. House. Committee on Ways and Means.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79107874" ref="/agents/corporate_entities/11232">United States. Congress. House.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79049171" ref="/agents/corporate_entities/10925">United States. Congress. House. Committee on Banking and Currency.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79041912" ref="/agents/corporate_entities/10858">United States. Congress. House. Committee on Government Operations.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79017982" ref="/agents/corporate_entities/13123">United States. Congress. House. Committee on Ways and Means.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1962">United States--Economic policy.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1275">United States--Politics and government--1945-1989.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8066">Vietnamese Conflict, 1961-1975--Public opinion--Michigan.</subject>
@@ -127,26 +128,26 @@
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82018373">Griffiths, Martha W. (Martha Wright), 1912-2003.</persname>
-        <persname source="lcnaf" encodinganalog="600">Tufty, Esther Van Wagoner, d. 1986.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82018373" ref="/agents/people/31752">Griffiths, Martha W. (Martha Wright), 1912-2003.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28338">Tufty, Esther Van Wagoner, d. 1986.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3619">Women.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Sound Recordings</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5806">Equal Rights Amendments--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79107874">United States. Congress. House.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79107874" ref="/agents/corporate_entities/11232">United States. Congress. House.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7265">Insurance, Health--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8068">Sex discrimination--Law and legislation--United States.</subject>
-        <persname source="lcnaf" encodinganalog="600">Kennedy, John F. (John Fitzgerald), 1917-1963--Death and burial.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30269">Kennedy, John F. (John Fitzgerald), 1917-1963--Death and burial.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5805">Women's rights--United States.</subject>
       </controlaccess>
       <controlaccess>
         <head>Sound Recordings - Contributors</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85057581">Curtis, Carl T. (Carl Thomas), 1905-2000</persname>
-        <persname source="lcnaf" encodinganalog="700">DuPont, Pierre Samuel, 1935-</persname>
-        <persname source="lcnaf" encodinganalog="700">Hayward, Charles F.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n77007280">Mink, Patsy T., 1927-2002</persname>
-        <persname source="lcnaf" encodinganalog="700">George, Emily.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85057581" ref="/agents/people/33422">Curtis, Carl T. (Carl Thomas), 1905-2000</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30940">DuPont, Pierre Samuel, 1935-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34294">Hayward, Charles F.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n77007280" ref="/agents/people/36092">Mink, Patsy T., 1927-2002</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27352">George, Emily.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

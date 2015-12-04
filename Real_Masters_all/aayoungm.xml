@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Ann Arbor Young Men’s - Young Women's Christian Association (Mich.).</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="">Ann Arbor Young Men’s - Young Women's Christian Association (Mich.).</corpname>
       </origination>
       <unittitle encodinganalog="245">Ann Arbor Young Men’s - Young Women's Christian Association (Mich.) records <unitdate type="inclusive" encodinganalog="245$f" normal="1894/1956">1894-1956</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851787 Ba 2; UBAm</unitid>
@@ -89,7 +90,7 @@ Ann Arbor Young Men’s - Young Women's Christian Association (Mich.) records, B
         <head>Subjects - Visual Materials:</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3620">African Americans--Children.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html" ref="/subjects/860">Ann Arbor (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Young Men's-Young Women's Christian Association (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11910">Ann Arbor Young Men's-Young Women's Christian Association (Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3621">Camps--1941-1950.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3622">Children.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3623">Children playing with marbles.</subject>
@@ -104,8 +105,8 @@ Ann Arbor Young Men’s - Young Women's Christian Association (Mich.) records, B
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <corpname source="lcnaf" encodinganalog="710">Young Men's Christian Association (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="710">Young Women's Christian Association (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/14615">Young Men's Christian Association (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/12635">Young Women's Christian Association (Ann Arbor, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

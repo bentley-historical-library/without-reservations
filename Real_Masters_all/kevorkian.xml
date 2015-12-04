@@ -36,7 +36,8 @@ Greg Kinney
         <item>Original encoding from Word 2010 file using Word macros and Xmetal and exports from BEAL audio and video dtaabases.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -49,7 +50,7 @@ Olga Virakhovskaya, 2014-2015</author>
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Kevorkian, Jack.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/29345">Kevorkian, Jack.</persname>
       </origination>
       <unittitle encodinganalog="245">
 Jack Kevorkian papers<unitdate type="inclusive" encodinganalog="245$f">
@@ -191,8 +192,8 @@ The Jack Kevorkian papers are arranged into five series: Kevorkian Family; Resea
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8652">Death row inmates.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8653">Donation of organs, tissues, etc.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8579">Euthanasia.</subject>
-        <persname source="lcnaf" encodinganalog="600">Kevorkian, Jack.</persname>
-        <famname source="lcnaf" encodinganalog="600">Kevorkian family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29345">Kevorkian, Jack.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/99">Kevorkian family.</famname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8654">Right to die.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8655">Terminally ill.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8656">Transplantation of organs, etc.</subject>
@@ -204,7 +205,7 @@ The Jack Kevorkian papers are arranged into five series: Kevorkian Family; Resea
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname encodinganalog="700" source="lcnaf">Morganroth, Mayer.</persname>
+        <persname encodinganalog="700" source="lcnaf" ref="/agents/people/28111">Morganroth, Mayer.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

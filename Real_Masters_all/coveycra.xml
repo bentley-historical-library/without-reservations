@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Covey, Craig.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30578">Covey, Craig.</persname>
       </origination>
       <unittitle encodinganalog="245">Craig Covey papers <unitdate type="inclusive" encodinganalog="245$f" normal="1987/2010">1987-2010</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">9610 Aa 2</unitid>
@@ -80,13 +81,13 @@ Craig Covey papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Covey, Craig.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30578">Covey, Craig.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7014">Elections--Michigan--Ferndale.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1011">Ferndale (Mich.)--Politics and government.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7015">Gay men--Michigan--Ferndale--Political activity.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7016">AIDS (Disease)--Michigan--Prevention.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr91006418">Michigan Organization for Human Rights.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Midwest AIDS Prevention Project.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr91006418" ref="/agents/corporate_entities/11456">Michigan Organization for Human Rights.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9714">Midwest AIDS Prevention Project.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

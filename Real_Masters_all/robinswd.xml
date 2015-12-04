@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Robinson, William Dodd, 1911-1988.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33272">Robinson, William Dodd, 1911-1988.</persname>
       </origination>
       <unittitle encodinganalog="245">William Dodd Robinson Papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1933/1989">1933-1989</unitdate>
@@ -87,21 +88,21 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7692">Medicine--Study and teaching.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Rackham Arthritis Research Unit (University of Michigan)</corpname>
-        <persname source="lcnaf" encodinganalog="600">Robinson, William Dodd, 1911-1988.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81032749">Rockefeller Foundation. International Health Division.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Internal Medicine.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151">University of Michigan. Medical School.</corpname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no97056817">Newburgh, Louis Harry, 1883-1956.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9686">Rackham Arthritis Research Unit (University of Michigan)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33272">Robinson, William Dodd, 1911-1988.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81032749" ref="/agents/corporate_entities/12226">Rockefeller Foundation. International Health Division.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13024">University of Michigan. Dept. of Internal Medicine.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151" ref="/agents/corporate_entities/11381">University of Michigan. Medical School.</corpname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no97056817" ref="/agents/people/29167">Newburgh, Louis Harry, 1883-1956.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5214">Laboratories--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Rackham Arthritis Research Unit (University of Michigan)</corpname>
-        <persname source="lcnaf" encodinganalog="600">Robinson, William Dodd, 1911-1988.</persname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Medical School. Class of 1934.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9686">Rackham Arthritis Research Unit (University of Michigan)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33272">Robinson, William Dodd, 1911-1988.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14611">University of Michigan. Medical School. Class of 1934.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

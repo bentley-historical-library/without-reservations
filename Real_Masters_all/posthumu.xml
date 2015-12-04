@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Posthumus, Dick, 1950-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28384">Posthumus, Dick, 1950-</persname>
       </origination>
       <unittitle encodinganalog="245">Dick Posthumus papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1972/2002">1972-2002</unitdate>
@@ -81,12 +82,12 @@ Dick Posthumus papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Posthumus, Dick, 1950-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28384">Posthumus, Dick, 1950-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9798">Lieutenant governors--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. Lieutenant Governor.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. Legislature. Senate.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11535">Michigan. Lieutenant Governor.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9225">Michigan. Legislature. Senate.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/910">Michigan--Politics and government--1951-</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13160">Republican Party (Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5798">Elections--Michigan--1982.</subject>
         <geogname source="local" encodinganalog="691" ref="/subjects/802">Michigan--Politics and government--1981-1990.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/816">Michigan--Politics and government--1991-2000.</geogname>
@@ -94,13 +95,13 @@ Dick Posthumus papers, Bentley Historical Library, University of Michigan</p>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600">Posthumus, Dick, 1950-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28384">Posthumus, Dick, 1950-</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3915">Political elections--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. Lieutenant Governor.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. Legislature. Senate.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11535">Michigan. Lieutenant Governor.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9225">Michigan. Legislature. Senate.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/910">Michigan--Politics and government--1951-</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n91103937">Engler, John, 1948-</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13160">Republican Party (Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n91103937" ref="/agents/people/31604">Engler, John, 1948-</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5185">Political conventions--Michigan.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5186">Politics &amp; government--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9799">Elections--Michigan--2002.</subject>

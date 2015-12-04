@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   </frontmatter>
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
-      <origination><corpname source="lcnaf" encodinganalog="110">Pioneer Band Association.</corpname> Michigan Historical Collections staff</origination>
+      <origination><corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/11906">Pioneer Band Association.</corpname> Michigan Historical Collections staff</origination>
       <unittitle encodinganalog="245">Pioneer Band Association records</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1912/2011">1912-2011</unitdate>
       <unitdate type="bulk" encodinganalog="245$g" normal="1960/2011" certainty="approximate">1960s-2011</unitdate>
@@ -85,9 +86,9 @@ Pioneer Band Association records, Bentley Historical Library, University of Mich
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor High School (Mich.)--Bands.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Pioneer Band Association.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Pioneer High School (Ann Arbor, Mich.)--Bands.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10045">Ann Arbor High School (Mich.)--Bands.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11906">Pioneer Band Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11073">Pioneer High School (Ann Arbor, Mich.)--Bands.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9751">Bands (Music)--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9752">School music--Michigan--Ann Arbor.</subject>
       </controlaccess>

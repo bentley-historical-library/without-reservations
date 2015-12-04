@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Flounders (Club)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/11078">Flounders (Club)</corpname>
       </origination>
       <unittitle encodinganalog="245">Flounders (Club) records</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1935/2003">1935-2003</unitdate>
@@ -77,13 +78,13 @@ Flounders (Club) Records, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Flounders (Club)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty--Societies, etc.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11078">Flounders (Club)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty--Societies, etc.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7797">Water polo--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname source="lcnaf" encodinganalog="610">Flounders (Club)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11078">Flounders (Club)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7797">Water polo--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>

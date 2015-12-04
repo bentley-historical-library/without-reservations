@@ -35,7 +35,8 @@
         <item>Original encoding from word 6.0 file</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc level="recordgrp" type="inventory" audience="external" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Traverse City Refrigerator Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/10740">Traverse City Refrigerator Company.</corpname>
       </origination>
       <unittitle encodinganalog="245">Traverse City Refrigerator Company records</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1909/1919">1909-1919</unitdate>
@@ -92,7 +93,7 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Traverse City Refrigerator Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10740">Traverse City Refrigerator Company.</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79006537.html" ref="/subjects/890">Traverse City (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10336">Refrigerator industry--Michigan--Traverse City.</subject>
       </controlaccess>

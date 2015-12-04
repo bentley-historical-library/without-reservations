@@ -31,7 +31,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Warner, Robert Mark, 1927-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33976">Warner, Robert Mark, 1927-</persname>
       </origination>
       <unittitle encodinganalog="245">Robert M. Warner papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1945/2007">1945-2007</unitdate>
@@ -100,15 +101,15 @@ Robert M. Warner Papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50007422">Bentley Historical Library.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50007422" ref="/agents/corporate_entities/8932">Bentley Historical Library.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6072">Indians of North America--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7039">Land use--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Historical Collections.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79091535">Society of American Archivists.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80066192">United States. Indian Claims Commission.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79091762">United States. National Archives and Records Service.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr91040392">University of Michigan. School of Information and Library Studies.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80030604">Warner, Robert M. (Robert Mark), 1927-2007.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14547">Michigan Historical Collections.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79091535" ref="/agents/corporate_entities/13998">Society of American Archivists.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80066192" ref="/agents/corporate_entities/14558">United States. Indian Claims Commission.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79091762" ref="/agents/corporate_entities/13899">United States. National Archives and Records Service.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr91040392" ref="/agents/corporate_entities/11359">University of Michigan. School of Information and Library Studies.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80030604" ref="/agents/people/27366">Warner, Robert M. (Robert Mark), 1927-2007.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10593">Land use--Ohio.</subject>
       </controlaccess>
     </controlaccess>

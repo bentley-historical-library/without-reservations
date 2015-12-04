@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Kent, W. Wallace (William Wallace), 1916-1973.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/27616">Kent, W. Wallace (William Wallace), 1916-1973.</persname>
       </origination>
       <unittitle encodinganalog="245">W. Wallace Kent papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1954/1973">1954-1973</unitdate>
@@ -83,16 +84,16 @@ W. Wallace Kent papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Davis, Chandler.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32781">Davis, Chandler.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6061">Freemasonry--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8643">Indians of North America--Treaties.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5732">Judges--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/980">Kalamazoo (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600">Kent, W. Wallace (William Wallace), 1916-1973.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/27616">Kent, W. Wallace (William Wallace), 1916-1973.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5825">Law.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8644">School integration--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80097979">United States. Court of Appeals (6th Circuit)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no98083658">United States. District Court (Michigan : Western District)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80097979" ref="/agents/corporate_entities/12091">United States. Court of Appeals (6th Circuit)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no98083658" ref="/agents/corporate_entities/8886">United States. District Court (Michigan : Western District)</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

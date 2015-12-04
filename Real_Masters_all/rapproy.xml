@@ -27,7 +27,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Rappaport, Roy A., 1926-1997.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/31333">Rappaport, Roy A., 1926-1997.</persname>
       </origination>
       <unittitle encodinganalog="245">Roy A. Rappaport Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1959/1997">1959-1997</unitdate></unittitle>
       <abstract>Professor of anthropology at the University of Michigan (1965-1997); chairman of Department of Anthropology (1975-1980); president of American Anthropological Association (1987-1989). Papers include biographical files, correspondence, writings, speeches, lectures, course materials, and files pertaining to various academic programs and environmental projects for which he served as a consultant.</abstract>
@@ -80,9 +81,9 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Rappaport, Roy A., 1926-1997.</persname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Anthropology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31333">Rappaport, Roy A., 1926-1997.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13528">University of Michigan. Dept. of Anthropology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2739">Yucca Mountain (Nev.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7209">Anthropology--Study and teaching.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9840">Radioactive waste disposal.</subject>

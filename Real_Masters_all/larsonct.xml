@@ -27,7 +27,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Larson, Carl Theodore, 1903-1988.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/29759">Larson, Carl Theodore, 1903-1988.</persname>
       </origination>
       <unittitle encodinganalog="245">C. Theodore Larson papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1930/1985">1930-1985</unitdate>
@@ -88,12 +89,12 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5759">Architects--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6056">Architecture--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8734">Buildings, Prefabricated--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="600">Larson, Carl Theodore, 1903-</persname>
-        <corpname source="lcnaf" encodinganalog="610">Unistrut Corporation (Wayne, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82166171">University of Michigan. College of Architecture and Design.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34124">Larson, Carl Theodore, 1903-</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14107">Unistrut Corporation (Wayne, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82166171" ref="/agents/corporate_entities/9167">University of Michigan. College of Architecture and Design.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8735">Architecture--Research.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82166172">University of Michigan. Architectural Research Laboratory.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82166172" ref="/agents/corporate_entities/14774">University of Michigan. Architectural Research Laboratory.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
@@ -101,12 +102,12 @@
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/371">Ann Arbor (Mich.)--Buildings, Prefabricated.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3572">Dwellings--Michigan--Ann Arbor.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4660">Buildings, Prefabricated--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Unistrut Corporation (Wayne, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82166172">University of Michigan. Architectural Research Laboratory.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14107">Unistrut Corporation (Wayne, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82166172" ref="/agents/corporate_entities/14774">University of Michigan. Architectural Research Laboratory.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Lönberg-Holm, Knud, 1895-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31814">Lönberg-Holm, Knud, 1895-</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

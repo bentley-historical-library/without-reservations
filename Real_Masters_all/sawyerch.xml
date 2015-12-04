@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal, replacing earlier version of finding aid.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Sawyer, Charles Henry, 1906-2005</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28829">Sawyer, Charles Henry, 1906-2005</persname>
       </origination>
       <unittitle encodinganalog="245">Charles Henry Sawyer papers <unitdate type="inclusive" encodinganalog="245$f" normal="1930/1997">1930-1997</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">89146 Aa2</unitid>
@@ -88,10 +89,10 @@ Charles Henry Sawyer papers, Bentley Historical Library, University of Michigan<
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9979">Art museums.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n99833626">Sawyer, Charles Henry, 1906-</persname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of History of Art.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80040326">University of Michigan. Museum of Art.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n99833626" ref="/agents/people/32354">Sawyer, Charles Henry, 1906-</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13400">University of Michigan. Dept. of History of Art.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80040326" ref="/agents/corporate_entities/10371">University of Michigan. Museum of Art.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>

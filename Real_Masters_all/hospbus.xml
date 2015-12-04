@@ -27,7 +27,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Hospitals. Business Office.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/10221">University of Michigan. Hospitals. Business Office.</corpname>
       </origination>
       <unittitle encodinganalog="245">Hospitals. Business office. (University of Michigan) records</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1926/1977">1926-1977</unitdate>
@@ -181,9 +182,9 @@ Hospitals. Business office. (University of Michigan) Records, Bentley Historical
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname encodinganalog="610" source="lcnaf">University of Michigan. Hospitals. Business Office.</corpname>
-        <corpname encodinganalog="610" source="lcnaf">University of Michigan. Hospitals.</corpname>
-        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n83201574">University of Michigan--Finance.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/10221">University of Michigan. Hospitals. Business Office.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/11098">University of Michigan. Hospitals.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n83201574" ref="/agents/corporate_entities/9632">University of Michigan--Finance.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8306">Hospitals--Finance--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8307">Hospitals--Administration.</subject>
       </controlaccess>

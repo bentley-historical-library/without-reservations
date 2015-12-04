@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Gargoyle (Organization)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/13976">Gargoyle (Organization)</corpname>
       </origination>
       <unittitle encodinganalog="245">Gargoyle records</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1910/2012">1910-2012</unitdate>
@@ -85,18 +86,18 @@ Gargoyle records, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Periodicals.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Students--Periodicals.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7894">College wit and humor.</subject>
-        <corpname encodinganalog="610" source="lcnaf">University of Michigan--Alumni and alumnae.</corpname>
-        <corpname encodinganalog="610" source="lcnaf">University of Michigan--Students--Social life and customs.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/9632">University of Michigan--Alumni and alumnae.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/9632">University of Michigan--Students--Social life and customs.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname encodinganalog="700" source="lcnaf">Dobbertin, John.</persname>
-        <persname encodinganalog="700" source="lcnaf">Hodge, Max.</persname>
-        <persname encodinganalog="700" source="lcnaf">Schulz, Charles M.</persname>
-        <persname encodinganalog="700" source="lcnaf">Smith, Doris Ann.</persname>
-        <persname encodinganalog="700" source="lcnaf">Zatret, Phil.</persname>
+        <persname encodinganalog="700" source="lcnaf" ref="/agents/people/28667">Dobbertin, John.</persname>
+        <persname encodinganalog="700" source="lcnaf" ref="/agents/people/33917">Hodge, Max.</persname>
+        <persname encodinganalog="700" source="lcnaf" ref="/agents/people/32506">Schulz, Charles M.</persname>
+        <persname encodinganalog="700" source="lcnaf" ref="/agents/people/34180">Smith, Doris Ann.</persname>
+        <persname encodinganalog="700" source="lcnaf" ref="/agents/people/33364">Zatret, Phil.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

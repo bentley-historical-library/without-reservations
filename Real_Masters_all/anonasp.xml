@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Anonymous officer of the Association of Suburban People.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30201">Anonymous officer of the Association of Suburban People.</persname>
       </origination>
       <unittitle encodinganalog="245">Anonymous Association of Suburban People officer’s papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1973/2004">1973-2004</unitdate>
@@ -87,7 +88,7 @@ Anonymous Association of Suburban People officer’s papers, Bentley Historical 
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Association of Suburban People.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11162">Association of Suburban People.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5926">Gay liberation movement--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5742">Gay men--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5745">Gay rights--Michigan.</subject>
@@ -95,7 +96,7 @@ Anonymous Association of Suburban People officer’s papers, Bentley Historical 
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname source="lcnaf" encodinganalog="610">Association of Suburban People.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11162">Association of Suburban People.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3711">Contests--Michigan.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3712">Female impersonators--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5927">Gay bars--Michigan.</subject>

@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -41,7 +42,7 @@
   </frontmatter>
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
-      <origination><famname source="lcnaf" encodinganalog="100">Upjohn family.</famname> [Robert U. Redpath, collector]</origination>
+      <origination><famname source="lcnaf" encodinganalog="100" ref="/agents/families/43">Upjohn family.</famname> [Robert U. Redpath, collector]</origination>
       <unittitle encodinganalog="245">Upjohn Family Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1795/1974">1795-1974</unitdate></unittitle>
       <abstract>Papers of the Upjohn family of Hastings and Kalamazoo, Michigan, collected by Dr. E. Gifford Upjohn. Papers and genealogical materials of Upjohn and related families, especially the Mills family, Kirby family, and Clough family; include materials concerning family activities, medical practice, and daily life; also papers concerning the work of Clough family members as missionaries to southern India; and selected Upjohn Pharmaceutical Company historical records; and photographs.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">85579 Aa 2 AC</unitid>
@@ -82,45 +83,45 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10493">Baptists--Missions--India.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n90624203">Clough, J. E. (John Everett), 1836-1910.</persname>
-        <famname source="lcnaf" encodinganalog="600">Clough family.</famname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n90624203" ref="/agents/people/35458">Clough, J. E. (John Everett), 1836-1910.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/245">Clough family.</famname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85081913.html" ref="/subjects/1115">Hastings (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/969">India.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/980">Kalamazoo (Mich.)</geogname>
-        <famname source="lcnaf" encodinganalog="600">Kirby family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/27">Kirby family.</famname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6030">Medicine--Michigan.</subject>
-        <famname source="lcnaf" encodinganalog="600">Mills family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/395">Mills family.</famname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6314">Missionaries--India.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10494">Pharmacy.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10248">Physicians--Michigan--Kalamazoo.</subject>
-        <persname source="lcnaf" encodinganalog="600">Upjohn, E. Gifford.</persname>
-        <persname source="lcnaf" encodinganalog="600">Upjohn, Gratia Clough, 1874-1957.</persname>
-        <persname source="lcnaf" encodinganalog="600">Upjohn, Henry Uriah, 1843-1887.</persname>
-        <persname source="lcnaf" encodinganalog="600">Upjohn, Lawrence Northcote, 1873-1967.</persname>
-        <persname source="lcnaf" encodinganalog="600">Upjohn, Millie Kirby, 1852-1920.</persname>
-        <persname source="lcnaf" encodinganalog="600">Upjohn, Uriah, 1808-1896.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr96020838">Upjohn, William, 1770-1847.</persname>
-        <persname source="lcnaf" encodinganalog="600">Upjohn, William, 1807-1887.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Upjohn Company.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29972">Upjohn, E. Gifford.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29748">Upjohn, Gratia Clough, 1874-1957.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34943">Upjohn, Henry Uriah, 1843-1887.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33959">Upjohn, Lawrence Northcote, 1873-1967.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/36113">Upjohn, Millie Kirby, 1852-1920.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30486">Upjohn, Uriah, 1808-1896.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr96020838" ref="/agents/people/33864">Upjohn, William, 1770-1847.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30673">Upjohn, William, 1807-1887.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14600">Upjohn Company.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10493">Baptists--Missions--India.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n90624203">Clough, J. E. (John Everett), 1836-1910.</persname>
-        <famname source="lcnaf" encodinganalog="600">Clough family.</famname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n90624203" ref="/agents/people/35458">Clough, J. E. (John Everett), 1836-1910.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/245">Clough family.</famname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/969">India.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Kalamazoo High School (Kalamazoo, Mich.). Class of 1892.</corpname>
-        <famname source="lcnaf" encodinganalog="600">Kirby family.</famname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9135">Kalamazoo High School (Kalamazoo, Mich.). Class of 1892.</corpname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/27">Kirby family.</famname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3895">Missionaries--India.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4263">Missions--India.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Medicine and Surgery. Class of 1900.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Upjohn, Gratia Clough, 1874-1957.</persname>
-        <persname source="lcnaf" encodinganalog="600">Upjohn, Henry Uriah, 1843-1887.</persname>
-        <persname source="lcnaf" encodinganalog="600">Upjohn, Lawrence Northcote, 1873-1967.</persname>
-        <persname source="lcnaf" encodinganalog="600">Upjohn, Millie Kirby, 1852-1920.</persname>
-        <persname source="lcnaf" encodinganalog="600">Upjohn, Uriah, 1808-1896.</persname>
-        <persname source="lcnaf" encodinganalog="600">Upjohn, William, 1807-1887.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Upjohn Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11654">University of Michigan. Dept. of Medicine and Surgery. Class of 1900.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29748">Upjohn, Gratia Clough, 1874-1957.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34943">Upjohn, Henry Uriah, 1843-1887.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33959">Upjohn, Lawrence Northcote, 1873-1967.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/36113">Upjohn, Millie Kirby, 1852-1920.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30486">Upjohn, Uriah, 1808-1896.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30673">Upjohn, William, 1807-1887.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14600">Upjohn Company.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

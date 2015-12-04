@@ -32,7 +32,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -43,7 +44,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Hankinson, Thomas Leroy, 1876-1935</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/31349">Hankinson, Thomas Leroy, 1876-1935</persname>
       </origination>
       <unittitle encodinganalog="245">Thomas L. Hankinson Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1899/1935">1899-1935</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851398 Aa 2</unitid>
@@ -92,9 +93,9 @@ Thomas L. Hankinson papers, Bentley Historical Library, University of Michigan</
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Hankinson, Thomas L. (Thomas Leroy), 1876-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28529">Hankinson, Thomas L. (Thomas Leroy), 1876-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5811">Conservation of natural resources--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Michigan State Normal College.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9741">Michigan State Normal College.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8103">Fishes--United States.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1989">Illinois.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5813">Natural resources.</subject>
@@ -106,8 +107,8 @@ Thomas L. Hankinson papers, Bentley Historical Library, University of Michigan</
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3622">Children.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/996">Chippewa County (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1608">Douglas Lake (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600">Hankinson, Thomas Leroy, 1876-1937.</persname>
-        <famname source="lcnaf" encodinganalog="600">Hankinson family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34761">Hankinson, Thomas Leroy, 1876-1937.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/297">Hankinson family.</famname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/853">Huron River (Oakland County-Monroe County, Mich.)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4468">Lakes.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1398">New York (State)</geogname>

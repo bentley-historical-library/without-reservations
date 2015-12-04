@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Evaluation and Examinations Division.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/10475">University of Michigan. Evaluation and Examinations Division.</corpname>
       </origination>
       <unittitle encodinganalog="245">Evaluation and Examinations Division (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1927/1971">1927-1971</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2012085 Bimu 2</unitid>
@@ -95,13 +96,13 @@ Evaluation and Examinations Division (University of Michigan) records, Bentley H
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2001100913">Fricke, Benno G.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2001100913" ref="/agents/people/33916">Fricke, Benno G.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7663">Education--Evaluation.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6119">Educational tests and measurements.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7664">Grades and marking (Students)</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7665">Prediction of scholastic success.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Evaluation and Examinations Division.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Examinations.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10475">University of Michigan. Evaluation and Examinations Division.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Examinations.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

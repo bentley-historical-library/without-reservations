@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Knox, Frank, 1874-1944.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/27669">Knox, Frank, 1874-1944.</persname>
       </origination>
       <unittitle encodinganalog="245">Frank Knox papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1907/1910">1907-1910</unitdate>
@@ -84,12 +85,12 @@ Frank Knox Papers
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6196">Elections--Michigan--1910.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n86111015">Landon, Alfred M. (Alfred Mossman), 1887-1987.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n86111015" ref="/agents/people/28586">Landon, Alfred M. (Alfred Mossman), 1887-1987.</persname>
         <geogname source="local" encodinganalog="691" ref="/subjects/806">Michigan--Politics and government--1899-1916.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/803">Michigan--Politics and government--1929-1938.</geogname>
-        <persname source="lcnaf" encodinganalog="600">Osborn, Chase S. (Chase Salmon), b. 1860.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29688">Osborn, Chase S. (Chase Salmon), b. 1860.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6494">Presidents--United States--Election--1936.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13160">Republican Party (Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/965">United States--Politics and government--1933-1945.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5929">Governors--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/884">Michigan--Politics and government--1837-1950.</geogname>

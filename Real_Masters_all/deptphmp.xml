@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Department of Physical Medicine and Rehabilitation.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/10491">University of Michigan. Department of Physical Medicine and Rehabilitation.</corpname>
       </origination>
       <unittitle encodinganalog="245">Department of Physical Medicine and Rehabilitation (University of Michigan) publications <unitdate type="inclusive" encodinganalog="245$f" normal="1988/1991">1988-1991</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">0361 Bimu C46 2</unitid>
@@ -84,13 +85,13 @@ Department of Physical Medicine and Rehabilitation (University of Michigan) publ
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Physical Medicine and Rehabilitation.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Parkview Rehabilitation Unit.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12282">University of Michigan. Dept. of Physical Medicine and Rehabilitation.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12773">University of Michigan. Parkview Rehabilitation Unit.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7213">Rehabilitation--Michigan.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Parkview Rehabilitation Unit.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/12773">University of Michigan. Parkview Rehabilitation Unit.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

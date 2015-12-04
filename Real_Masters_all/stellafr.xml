@@ -32,7 +32,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -43,7 +44,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Stella, Frank D.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/34456">Stella, Frank D.</persname>
       </origination>
       <unittitle encodinganalog="245">Frank D. Stella papers <unitdate type="inclusive" encodinganalog="245$f" normal="1940/2010" certainty="approximate">circa 1940-2010</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2012094 Aa 2</unitid>
@@ -98,15 +99,15 @@ Frank D. Stella papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Stella, Frank D.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Detroit (Mich.). Casino Gaming Study Commission.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2012099194">Detroit Educational Television Foundation.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34456">Stella, Frank D.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14078">Detroit (Mich.). Casino Gaming Study Commission.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2012099194" ref="/agents/corporate_entities/11958">Detroit Educational Television Foundation.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10221">Italian Americans.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2011086566">Legatus (Organization)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79115849">National Italian American Foundation.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Orchestra Hall (Detroit, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr00015872">Republican National Heritage Groups Council.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2011086566" ref="/agents/corporate_entities/13444">Legatus (Organization)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79115849" ref="/agents/corporate_entities/11258">National Italian American Foundation.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13688">Orchestra Hall (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr00015872" ref="/agents/corporate_entities/13205">Republican National Heritage Groups Council.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13160">Republican Party (Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

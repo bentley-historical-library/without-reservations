@@ -32,7 +32,8 @@
         <item>Original encoding from Word 2010 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -43,7 +44,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Oksenberg, Michael, 1938-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/27916">Oksenberg, Michael, 1938-</persname>
       </origination>
       <unittitle encodinganalog="245">Michel Oksenberg papers <unitdate type="inclusive" encodinganalog="245$f" normal="1960/2001">1960-2001</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">861112 Aa 2</unitid>
@@ -95,9 +96,9 @@
       <controlaccess>
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1466">China--History--1949-</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50048457">Oksenberg, Michel, 1938-</persname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Political Science.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50048457" ref="/agents/people/32384">Oksenberg, Michel, 1938-</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11214">University of Michigan. Dept. of Political Science.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1393">United States--Foreign relations--China.</geogname>
       </controlaccess>
     </controlaccess>

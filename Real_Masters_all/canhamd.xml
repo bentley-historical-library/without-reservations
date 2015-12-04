@@ -34,7 +34,8 @@
         <item>headings removed and other changes made to conform to new style, GK</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -45,7 +46,7 @@
   <archdesc level="collection" type="inventory" audience="external" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">Canham, Don.</persname>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/28634">Canham, Don.</persname>
       </origination>
       <unittitle encodinganalog="245">Don Canham Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1968/1988">1968-1988</unitdate></unittitle>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">89172 Aa 2</unitid>
@@ -96,18 +97,18 @@
       <controlaccess>
         <head>Subject Terms</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5965">Athletics--Michigan--Ann Arbor.</subject>
-        <persname source="lcnaf" encodinganalog="600">Canham, Don.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Intercollegiate Conference of Faculty Representatives.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79058449">National Collegiate Athletic Association.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Sports.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Board in Control of Intercollegiate Athletics.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Athletic Dept.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Football.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28634">Canham, Don.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13934">Intercollegiate Conference of Faculty Representatives.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79058449" ref="/agents/corporate_entities/9066">National Collegiate Athletic Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Sports.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10178">University of Michigan. Board in Control of Intercollegiate Athletics.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12631">University of Michigan. Athletic Dept.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Football.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600">Canham, Don.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28634">Canham, Don.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Phi Delta Chi. Alpha Chapter. (University of Michigan).</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="">Phi Delta Chi. Alpha Chapter. (University of Michigan).</corpname>
       </origination>
       <unittitle encodinganalog="245">Phi Delta Chi, Alpha Chapter (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1924/1995">1924-1995</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2013024 Bimu F41 2</unitid>
@@ -83,17 +84,17 @@ Phi Delta Chi, Alpha Chapter (University of Michigan) records, Bentley Historica
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Phi Delta Chi Fraternity. Alpha Chapter (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. College of Pharmacy.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Societies, etc.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12068">Phi Delta Chi Fraternity. Alpha Chapter (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/8994">University of Michigan. College of Pharmacy.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Students--Societies, etc.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7306">Pharmacy--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname source="lcnaf" encodinganalog="610">Phi Delta Chi Fraternity. Alpha Chapter (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. College of Pharmacy.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Societies, etc.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs--1991-2000.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12068">Phi Delta Chi Fraternity. Alpha Chapter (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/8994">University of Michigan. College of Pharmacy.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Students--Societies, etc.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Students--Social life and customs--1991-2000.</corpname>
       </controlaccess>
       <controlaccess>
         <genreform source="aat" encodinganalog="655" ref="/subjects/3141">Photographs.</genreform>

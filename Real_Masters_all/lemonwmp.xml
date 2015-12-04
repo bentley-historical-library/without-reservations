@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Lemon, William Philip, 1882-1967.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32169">Lemon, William Philip, 1882-1967.</persname>
       </origination>
       <unittitle encodinganalog="245">William P. Lemon papers <unitdate type="inclusive" encodinganalog="245$f" normal="1908/1966">1908-1966</unitdate></unittitle>
       <abstract>Presbyterian clergyman, longtime pastor of the First Presbyterian Church of Ann Arbor, Michigan, 1934-1951; correspondence, copies of essays and book reviews written for religious periodicals, sermons and addresses, mimeographed study notes of talks given in Detroit before the Men's Club for the Study of Religion, religious and literary notebooks, and travel journals.</abstract>
@@ -87,31 +88,31 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Andrew Church (Minneapolis, Minn.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10602">Andrew Church (Minneapolis, Minn.)</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html" ref="/subjects/860">Ann Arbor (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Calvary Presbyterian Church (Newark, N.J.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10559">Calvary Presbyterian Church (Newark, N.J.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6369">Clergy--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6441">Clergy--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">First Presbyterian Church (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n94005455">First Presbyterian Church (Iowa City, Iowa)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10889">First Presbyterian Church (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n94005455" ref="/agents/corporate_entities/8964">First Presbyterian Church (Iowa City, Iowa)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2202">Iowa City (Iowa)</geogname>
-        <persname source="lcnaf" encodinganalog="600">Lemon, William Philip, 1882-1967.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Men's Club for the Study of Religion (Detroit, Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32169">Lemon, William Philip, 1882-1967.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9693">Men's Club for the Study of Religion (Detroit, Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79003965.html" ref="/subjects/2203">Minneapolis (Minn.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2204">Newark (N.J.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Presbyterian Church.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Presbyterian Church--Michigan--Ann Arbor.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10309">Presbyterian Church.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10309">Presbyterian Church--Michigan--Ann Arbor.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6010">Travelers.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6009">Voyages and travels.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <corpname source="lcnaf" encodinganalog="610">Andrews Presbyterian Church (Minneapolis, Minn.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13384">Andrews Presbyterian Church (Minneapolis, Minn.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4684">Christmas.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3741">Clergymen.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3625">Costumes.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4685">Easter.</subject>
-        <persname source="lcnaf" encodinganalog="600">Lemon, William Philip, 1882-1967.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32169">Lemon, William Philip, 1882-1967.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3627">Pageants.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4686">Tableaux.</subject>
       </controlaccess>

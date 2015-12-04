@@ -31,7 +31,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Macomb-Oakland Regional Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/10184">Macomb-Oakland Regional Center.</corpname>
       </origination>
       <unittitle encodinganalog="245">Macomb-Oakland Regional Center Records</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1972/2001">1972-2001</unitdate>
@@ -84,7 +85,7 @@
     <controlaccess>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Macomb-Oakland Regional Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10184">Macomb-Oakland Regional Center.</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091933.html" ref="/subjects/1309">Macomb County (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9220">Mental health--Services--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9219">Mental health--Facilities--Michigan.</subject>
@@ -93,12 +94,12 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9438">Mentally ill--Deinstitutionalization--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7960">Mentally ill--Michigan.</subject>
         <geogname authfilenumber="http://id.loc.gov/authorities/names/n81091869.html" source="lcsh" ref="/subjects/1856">Oakland County (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Plymouth Center for Human Development (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11881">Plymouth Center for Human Development (Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4328">Handicapped persons--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Macomb-Oakland Regional Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10184">Macomb-Oakland Regional Center.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3793">Mental institutions--Michigan.</subject>
       </controlaccess>
       <controlaccess>

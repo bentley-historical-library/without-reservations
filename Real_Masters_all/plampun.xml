@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2010 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Plamondon, Pun.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/34300">Plamondon, Pun.</persname>
       </origination>
       <unittitle encodinganalog="245">Pun Plamondon Papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1968/2003">1968-2003</unitdate>
@@ -95,18 +96,18 @@ Pun Plamondon papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Blazier, Craig.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Kiss (Musical group)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32724">Blazier, Craig.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10411">Kiss (Musical group)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2555">Michigan--Politics and government--1969-1974.</geogname>
-        <persname source="lcnaf" encodinganalog="600">Plamondon, Pun.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34300">Plamondon, Pun.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9756">Political activists--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5755">Prisons--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7832">Radicalism--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Rainbow Peoples Party (Ann Arbor, Mich.)</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87103554">Seger, Bob.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85050309">Sinclair, John, 1941-</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11278">Rainbow Peoples Party (Ann Arbor, Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87103554" ref="/agents/people/30947">Seger, Bob.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85050309" ref="/agents/people/35698">Sinclair, John, 1941-</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/912">United States--Politics and government--1969-1974.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr95008874">White Panther Party.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr95008874" ref="/agents/corporate_entities/10132">White Panther Party.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9757">Wiretapping--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9758">Wiretapping--United States.</subject>
       </controlaccess>

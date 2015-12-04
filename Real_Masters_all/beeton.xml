@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n80164331">Beeton, Alfred Merle, 1927-</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n80164331" ref="/agents/people/33495">Beeton, Alfred Merle, 1927-</persname>
       </origination>
       <unittitle encodinganalog="245">Alfred Merle Beeton Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1952/1994">1952-1994</unitdate></unittitle>
       <abstract>Alfred M. Beeton was a professor at the University of Michigan specializing in limnology, the study of the biology, chemistry, and physics of freshwater lakes. The papers reflect Beeton's primary interest in the limnology and preservation of the St. Lawrence Great Lakes, with an emphasis on factors affecting water quality and eutrophication, i.e. the lack of oxygen--and concomitant death of fish--in lakes due to over-enrichment. The papers also highlight Beeton's ongoing interests in the opossum shrimp, Mysis Relicta, and his extensive work as a consultant and administrator on projects relating to these topics.</abstract>
@@ -80,14 +81,14 @@
     <controlaccess>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80164331">Beeton, Alfred Merle, 1927-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80164331" ref="/agents/people/33495">Beeton, Alfred Merle, 1927-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6226">Limnology--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6227">Limnology--Great Lakes.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6228">Limnologists.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n89619641">Michigan. Toxic Substance Control Commission.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Wisconsin--Milwaukee--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79069640">United States. Army. Corps of Engineers.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n89619641" ref="/agents/corporate_entities/13691">Michigan. Toxic Substance Control Commission.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9887">University of Wisconsin--Milwaukee--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79069640" ref="/agents/corporate_entities/11880">United States. Army. Corps of Engineers.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6229">Water--Pollution--Great Lakes.</subject>
       </controlaccess>
     </controlaccess>

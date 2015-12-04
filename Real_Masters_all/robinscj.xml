@@ -27,7 +27,8 @@
         <item>Edited to reflect migration of content from CD-ROM to Deep Blue JMBG</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Robinson, C. J.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/27534">Robinson, C. J.</persname>
       </origination>
       <unittitle encodinganalog="245">C. J. Robinson photograph collection <unitdate type="inclusive" encodinganalog="245$f" normal="1918">1918</unitdate></unittitle>
       <abstract>Scanned copy of photograph of C. J. Robinson, who served as private, Royal Army Medical Corps, 1916-1919, and served on HM Hospital Ship Kalyan, which transported injured troops from the Allied intervention at Archangel, Russia, to Britain.</abstract>
@@ -83,8 +84,8 @@ original materials.</p>
       </p>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Robinson, C. J.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Kalyan (Hospital ship)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/27534">Robinson, C. J.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12663">Kalyan (Hospital ship)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9896">Pierrot (Fictitious character)</subject>
         <geogname source="lcnaf" encodinganalog="651" ref="/subjects/760">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
         <subject source="local" encodinganalog="690" authfilenumber="http://id.loc.gov/authorities/names/n2008059426" ref="/subjects/3518">Polar Bear Expedition.</subject>

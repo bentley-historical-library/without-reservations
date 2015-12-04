@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Association of Universities for Research in Astronomy.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/13883">Association of Universities for Research in Astronomy.</corpname>
       </origination>
       <unittitle encodinganalog="245">Association of Universities for Research in Astronomy Records <unitdate type="inclusive" encodinganalog="245$f" normal="1953/1974">1953-1974</unitdate></unittitle>
       <abstract>Records of the Association of Universities for Research in Astronomy, Tucson, Arizona. Correspondence files of Robert R. McMath, Leo Goldberg, and Orren C. Mohler, reports, minutes, financial and budgetary materials, and technical reports relating to the development of AURA and its predecessor organization, the Advisory Panel for the National Astronomical Observatory, and concerning observatories at Kitt Peak, Arizona, and Cerro Tololo, Chile; also material concerning political developments in Chile; and photographs.</abstract>
@@ -85,65 +86,65 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Association of Universities for Research in Astronomy.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13883">Association of Universities for Research in Astronomy.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5991">Astronomy--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85001063">Cerro Tololo Inter-American Observatory.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85001063" ref="/agents/corporate_entities/14081">Cerro Tololo Inter-American Observatory.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/957">Chile.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80152888">Kitt Peak National Observatory.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80152888" ref="/agents/corporate_entities/13053">Kitt Peak National Observatory.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5992">McMath Solar Telescope.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79005681">National Science Foundation (U.S.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Astronomy.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">National Science Foundation (U.S.). Advisory Panel for the National Astronomical Observatory.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2004021042">University of Michigan. Observatory.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79005681" ref="/agents/corporate_entities/13052">National Science Foundation (U.S.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11833">University of Michigan. Dept. of Astronomy.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9084">National Science Foundation (U.S.). Advisory Panel for the National Astronomical Observatory.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2004021042" ref="/agents/corporate_entities/10214">University of Michigan. Observatory.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <corpname source="lcnaf" encodinganalog="610">Association of Universities for Research in Astronomy.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13883">Association of Universities for Research in Astronomy.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3735">Astronomical observatories.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3736">Astronomy.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85001063">Cerro Tololo Inter-American Observatory.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80152888">Kitt Peak National Observatory.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">McMath Solar Telescope.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Portage Lake Observatory (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85001063" ref="/agents/corporate_entities/14081">Cerro Tololo Inter-American Observatory.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80152888" ref="/agents/corporate_entities/13053">Kitt Peak National Observatory.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10909">McMath Solar Telescope.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12396">Portage Lake Observatory (University of Michigan)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79054378">Goldberg, Leo.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008190169">McMath, Robert R. (Robert Raynolds), 1891-1962.</persname>
-        <persname source="lcnaf" encodinganalog="700">Mohler, Orren, 1908-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no96049328">Adams, Walter Sydney, 1876-1956.</persname>
-        <persname source="lcnaf" encodinganalog="700">Blanco, Victor Manuel.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr93028278">Bowen, Ira Sprague, 1898-1973.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n96033501">Brode, Robert B. (Robert Bigham), 1900-1986</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50032465">Carmichael, Leonard, 1898-1973</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n94063919">Cisler, Walker L. (Walker Lee), 1897-1994</persname>
-        <persname source="lcnaf" encodinganalog="700">Dunham, Theodore J., 1897-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n96089993">Edmondson, Frank K. (Frank Kelly), 1912-</persname>
-        <persname source="lcnaf" encodinganalog="700">Evans, John Wainwright, 1909-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2001080035">Harvill, Richard Anderson, 1905-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n83156945">Hayden, Carl Trumbull, 1877-1972.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85802523">Hiltner, W. A. (William Albert), 1914-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n97064036">Irwin, John B.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84152755">Johnson, Harold L. (Harold Lester), 1921-1980.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2015019594">Keller, Geoffrey, 1918-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87896716">Klopsteg, Paul E. (Paul Ernest), 1889-</persname>
-        <persname source="lcnaf" encodinganalog="700">Lee, Gilbert Lamont, 1919-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86861269">Mayall, N. U. (Nicholas Ulrich), 1906-1993</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n83044218">Meinel, Aden B.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50036999">Menzel, Donald H. (Donald Howard), 1901-1976</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n89611470">Miller, Freeman D. (Freeman Devold), 1909-2000</persname>
-        <persname source="lcnaf" encodinganalog="700">Pierce, Austin Keith, 1918-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2009001428">Rabaut, Louis Charles, 1886-1961.</persname>
-        <persname source="lcnaf" encodinganalog="700">Röosch, Jean.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50005388">Seeger, Raymond John, 1906-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n2011018878">Shane, Charles Donald, 1895-1983</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50022197">Shapley, Harlow, 1885-1972.</persname>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n50012009">Skidmore, Owings and Merrill.</corpname>
-        <persname source="lcnaf" encodinganalog="700">Ströomgren, Bengt, 1908-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50010523">Struve, Otto, 1897-1963.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n83001582">Tuve, Merle Antony, 1901-1982.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n96091562">Waterman, Alan Tower, 1892-1967</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n2011017568">Whitford, Albert E. (Albert Edward), 1905-2002</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79054378" ref="/agents/people/30284">Goldberg, Leo.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008190169" ref="/agents/people/29175">McMath, Robert R. (Robert Raynolds), 1891-1962.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29174">Mohler, Orren, 1908-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no96049328" ref="/agents/people/34408">Adams, Walter Sydney, 1876-1956.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27624">Blanco, Victor Manuel.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr93028278" ref="/agents/people/34132">Bowen, Ira Sprague, 1898-1973.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n96033501" ref="/agents/people/27833">Brode, Robert B. (Robert Bigham), 1900-1986</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50032465" ref="/agents/people/27695">Carmichael, Leonard, 1898-1973</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n94063919" ref="/agents/people/31310">Cisler, Walker L. (Walker Lee), 1897-1994</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33426">Dunham, Theodore J., 1897-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n96089993" ref="/agents/people/29192">Edmondson, Frank K. (Frank Kelly), 1912-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27653">Evans, John Wainwright, 1909-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2001080035" ref="/agents/people/28076">Harvill, Richard Anderson, 1905-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n83156945" ref="/agents/people/30745">Hayden, Carl Trumbull, 1877-1972.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85802523" ref="/agents/people/32226">Hiltner, W. A. (William Albert), 1914-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n97064036" ref="/agents/people/35721">Irwin, John B.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84152755" ref="/agents/people/29071">Johnson, Harold L. (Harold Lester), 1921-1980.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2015019594" ref="/agents/people/27453">Keller, Geoffrey, 1918-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87896716" ref="/agents/people/35041">Klopsteg, Paul E. (Paul Ernest), 1889-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27775">Lee, Gilbert Lamont, 1919-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86861269" ref="/agents/people/33482">Mayall, N. U. (Nicholas Ulrich), 1906-1993</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n83044218" ref="/agents/people/30332">Meinel, Aden B.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50036999" ref="/agents/people/29683">Menzel, Donald H. (Donald Howard), 1901-1976</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n89611470" ref="/agents/people/27632">Miller, Freeman D. (Freeman Devold), 1909-2000</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34514">Pierce, Austin Keith, 1918-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2009001428" ref="/agents/people/29919">Rabaut, Louis Charles, 1886-1961.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35397">Röosch, Jean.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50005388" ref="/agents/people/30965">Seeger, Raymond John, 1906-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n2011018878" ref="/agents/people/32662">Shane, Charles Donald, 1895-1983</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50022197" ref="/agents/people/29681">Shapley, Harlow, 1885-1972.</persname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n50012009" ref="/agents/corporate_entities/13642">Skidmore, Owings and Merrill.</corpname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30198">Ströomgren, Bengt, 1908-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50010523" ref="/agents/people/35312">Struve, Otto, 1897-1963.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n83001582" ref="/agents/people/36005">Tuve, Merle Antony, 1901-1982.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n96091562" ref="/agents/people/35797">Waterman, Alan Tower, 1892-1967</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n2011017568" ref="/agents/people/27843">Whitford, Albert E. (Albert Edward), 1905-2002</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

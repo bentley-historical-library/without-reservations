@@ -31,7 +31,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="marc21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Hull family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/130">Hull family.</famname>
       </origination>
       <unittitle encodinganalog="245"> Hull Family Papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1869/1984">1869-1984</unitdate>
@@ -96,20 +97,20 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8337">Agriculture--Michigan--Livingston County.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8338">Fruit.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2110">Hamburg (Mich. : Township)</geogname>
-        <persname source="lcnaf" encodinganalog="600">Hull, Eliza Darling.</persname>
-        <famname source="lcnaf" encodinganalog="600">Hull family.</famname>
-        <persname source="lcnaf" encodinganalog="600">Hull, Frances Ball.</persname>
-        <persname source="lcnaf" encodinganalog="600">Hull, George L.</persname>
-        <persname source="lcnaf" encodinganalog="600">Hull, George M.</persname>
-        <persname source="lcnaf" encodinganalog="600">Hull, Isabelle MacFarlane.</persname>
-        <persname source="lcnaf" encodinganalog="600">Hull, Lawrence Cameron, d. 1916.</persname>
-        <persname source="lcnaf" encodinganalog="600">Hull, Leroy.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Lawrenceville School.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35341">Hull, Eliza Darling.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/130">Hull family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/36004">Hull, Frances Ball.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34594">Hull, George L.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/27588">Hull, George M.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35421">Hull, Isabelle MacFarlane.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28062">Hull, Lawrence Cameron, d. 1916.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33890">Hull, Leroy.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13768">Lawrenceville School.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1304">Livingston County (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8339">Orchards.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8340">Physicians--Michigan--Wayne County.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2111">Pleasant Lake (Livingston County, Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600">Ruhman, Jean Hull.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34681">Ruhman, Jean Hull.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5837">Women college students--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5712">World War, 1914-1918.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8341">Physicians' spouses--Michigan--Wayne County.</subject>
@@ -120,7 +121,7 @@
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <famname source="lcnaf" encodinganalog="600">Hull family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/130">Hull family.</famname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1750">Vietnam.</geogname>
       </controlaccess>
       <controlaccess>

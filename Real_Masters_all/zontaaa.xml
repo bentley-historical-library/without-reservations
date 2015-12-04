@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Zonta Club of Ann Arbor, Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/14421">Zonta Club of Ann Arbor, Michigan.</corpname>
       </origination>
       <unittitle encodinganalog="245">Zonta Club of Ann Arbor, Michigan records</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1972/1990">1972-1990</unitdate>
@@ -85,8 +86,8 @@ Zonta Club of Ann Arbor, Michigan records, Bentley Historical Library, Universit
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html" ref="/subjects/860">Ann Arbor (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5672">Women--Michigan--Ann Arbor--Societies and clubs.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Zonta Club of Ann Arbor, Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82277089">Zonta International.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14421">Zonta Club of Ann Arbor, Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82277089" ref="/agents/corporate_entities/10743">Zonta International.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

@@ -27,7 +27,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Palmer family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/72">Palmer family.</famname>
       </origination>
       <unittitle encodinganalog="245">Palmer Family Architectural Drawings</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1950">1950</unitdate>
@@ -85,7 +86,7 @@ Palmer Family Architectural Drawings, Bentley Historical Library, University of 
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6426">Dwellings--Michigan--Ann Arbor.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79032932">Wright, Frank Lloyd, 1867-1959.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79032932" ref="/agents/people/31591">Wright, Frank Lloyd, 1867-1959.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

@@ -27,7 +27,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Human Rights Party (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/11745">Human Rights Party (Ann Arbor, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">Human Rights Party (Ann Arbor, Mich.) records</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1970/1979">1970-1979</unitdate>
@@ -88,20 +89,20 @@ Human Rights Party (Ann Arbor, Mich.) Records, Bentley Historical Library, Unive
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Human Rights Party (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor (Mich.). Common Council.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11745">Human Rights Party (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9660">Ann Arbor (Mich.). Common Council.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/857">Ann Arbor (Mich.)--Politics and government.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7072">Elections--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Radical Independent Party (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14672">Radical Independent Party (Ann Arbor, Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5801">Radicalism--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Socialist Human Rights Party (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14041">Socialist Human Rights Party (Ann Arbor, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname source="lcnaf" encodinganalog="610">Human Rights Party (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n86804889">Ann Arbor Tenants Union.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11745">Human Rights Party (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n86804889" ref="/agents/corporate_entities/11870">Ann Arbor Tenants Union.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3641">Demonstrations--Michigan--Ann Arbor.</subject>
-        <persname source="lcnaf" encodinganalog="600">Carroll, Phil.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/27330">Carroll, Phil.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4542">Political elections--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>

@@ -44,7 +44,8 @@
         <item>initial version of encoded finding aid</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -55,7 +56,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Ecology Center of Ann Arbor.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/12935">Ecology Center of Ann Arbor.</corpname>
       </origination>
       <unittitle encodinganalog="245">Ecology Center of Ann Arbor records <unitdate type="inclusive" encodinganalog="245$f" normal="1969/2010">1969-2010</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">88272 Bw 2; Bw Outsize</unitid>
@@ -109,22 +110,22 @@ Ecology Center of Ann Arbor records, Bentley Historical Library, University of M
       <controlaccess>
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html" ref="/subjects/860">Ann Arbor (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Tomorrow Council.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Citizens Association for Area Planning.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9193">Ann Arbor Tomorrow Council.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10915">Citizens Association for Area Planning.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6190">Conservation of natural resources--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Ecology Center of Ann Arbor.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12935">Ecology Center of Ann Arbor.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7017">Ecology--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7384">Energy conservation--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Recycle Ann Arbor.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9115">Recycle Ann Arbor.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7385">Recycling (Waste, etc.)--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/847">Washtenaw County (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Washtenaw Environmental Council.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14683">Washtenaw Environmental Council.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html" ref="/subjects/860">Ann Arbor (Mich.)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3742">Bicycles and tricycles.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Bike-a-thon (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11049">Bike-a-thon (Ann Arbor, Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4249">Recycling--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>

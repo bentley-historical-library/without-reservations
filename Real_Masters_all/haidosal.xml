@@ -23,7 +23,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Haidostian, Alice Berberian.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/29280">Haidostian, Alice Berberian.</persname>
       </origination>
       <unittitle encodinganalog="245">Alice Berberian Haidostian papers <unitdate type="inclusive" encodinganalog="245$f" normal="1970/2006" certainty="approximate">1970s-2006</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">0697 Aa 2</unitid>
@@ -76,7 +77,7 @@ Alice Berberian Haidostian papers, Bentley Historical Library, University of Mic
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname encodinganalog="600" source="lcnaf">Haidostian, Alice Berberian.</persname>
+        <persname encodinganalog="600" source="lcnaf" ref="/agents/people/29280">Haidostian, Alice Berberian.</persname>
         <subject encodinganalog="650" source="lcsh" ref="/subjects/8086">Armenian Americans--Michigan.</subject>
         <subject encodinganalog="650" source="lcsh" ref="/subjects/8087">Armenian American women--Michigan.</subject>
         <subject encodinganalog="650" source="lcsh" ref="/subjects/8088">Armenian Americans--Societies, etc.</subject>

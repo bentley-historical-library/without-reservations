@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Van Dusen, Richard C. (Richard Campbell), 1925-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/31356">Van Dusen, Richard C. (Richard Campbell), 1925-</persname>
       </origination>
       <unittitle encodinganalog="245">Richard C. Van Dusen Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1954/1972">1954-1972</unitdate></unittitle>
       <abstract>State Republican politician, aide and political advisor to George Romney, legal advisor to the governor and later undersecretary of Housing and Urban Development. Material concerning his campaign for the state attorney general's office in 1956, the elections of 1960, 1962, 1964, and 1968, and the state constitutional convention, 1961-1963; and files detailing his career in Washington at HUD.</abstract>
@@ -90,13 +91,13 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6892">Elections--Michigan--1962.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6616">Elections--Michigan--1964.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7194">Elections--Michigan--1968.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n91059253">Michigan. Constitutional Convention (1961-1962)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n91059253" ref="/agents/corporate_entities/10318">Michigan. Constitutional Convention (1961-1962)</corpname>
         <geogname source="local" encodinganalog="691" ref="/subjects/809">Michigan--Politics and government--1946-1960.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/810">Michigan--Politics and government--1961-1970.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50048290">Romney, George W., 1907-1995.</persname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Dept. of Housing and Urban Development.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2010047315">Van Dusen, Richard C. (Richard Campbell), 1925-1991</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13160">Republican Party (Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50048290" ref="/agents/people/31627">Romney, George W., 1907-1995.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13927">United States. Dept. of Housing and Urban Development.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2010047315" ref="/agents/people/28403">Van Dusen, Richard C. (Richard Campbell), 1925-1991</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">MacDonald, Kenneth H. (Kenneth Hugh), 1921-1989.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/34040">MacDonald, Kenneth H. (Kenneth Hugh), 1921-1989.</persname>
       </origination>
       <unittitle encodinganalog="245">Kenneth H. MacDonald Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1932/1989">1932-1989</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">90135 Aa 2; Ac</unitid>
@@ -86,11 +87,11 @@ Kenneth H. MacDonald Papers, Bentley Historical Library, University of Michigan<
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8538">Advertising.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html" ref="/subjects/860">Ann Arbor (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">MacDonald Broadcasting Company.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50063703">National Association of Broadcasters.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9462">MacDonald Broadcasting Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50063703" ref="/agents/corporate_entities/13034">National Association of Broadcasters.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8523">Radio broadcasting--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1217">Saginaw (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">WSAM (Radio station : Saginaw, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10590">WSAM (Radio station : Saginaw, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
@@ -98,12 +99,12 @@ Kenneth H. MacDonald Papers, Bentley Historical Library, University of Michigan<
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82060963.html" ref="/subjects/1036">Bad Axe (Mich.)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4290">Broadcasting.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4731">Fairs--Michigan--Saginaw County.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79018757">Nixon, Richard M. (Richard Milhous), 1913-1994.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79018757" ref="/agents/people/31052">Nixon, Richard M. (Richard Milhous), 1913-1994.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4732">Radio industry--Michigan--Saginaw.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1217">Saginaw (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Saginaw County Fair (Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">WLEW (Radio station : Bad Axe, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">WSAM (Radio station : Saginaw, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12184">Saginaw County Fair (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13590">WLEW (Radio station : Bad Axe, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10590">WSAM (Radio station : Saginaw, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Schoening, Robert W.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30186">Schoening, Robert W.</persname>
       </origination>
       <unittitle encodinganalog="245">Robert W. Schoening papers <unitdate type="inclusive" encodinganalog="245$f" normal="1919/1923" certainty="approximate">circa 1919-1923</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2013014 Aa2</unitid>
@@ -96,7 +97,7 @@ Robert W. Schoening papers, Bentley Historical Library, University of Michigan</
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Schoening, Robert W., b. 1878.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35288">Schoening, Robert W., b. 1878.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10003">Automobile travel--West (U.S.)</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10004">Buick automobile.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10005">Business ethics--Fiction.</subject>

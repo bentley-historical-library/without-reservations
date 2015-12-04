@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Feuerwerker, Albert.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33505">Feuerwerker, Albert.</persname>
       </origination>
       <unittitle encodinganalog="245">Albert Feuerwerker papers <unitdate type="inclusive" encodinganalog="245$f" normal="1968/1992">1968-1992</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">86997 Aa 2</unitid>
@@ -78,10 +79,10 @@ Albert Feuerwerker papers, Bentley Historical Library, University of Michigan</p
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1466">China--History--1949-</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1467">China--Study and teaching.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Committee on Scholarly Communication with the Peoples Republic of China (U.S.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Joint Committee on Contemporary China.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of History.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12141">Committee on Scholarly Communication with the Peoples Republic of China (U.S.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12315">Joint Committee on Contemporary China.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10101">University of Michigan. Dept. of History.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

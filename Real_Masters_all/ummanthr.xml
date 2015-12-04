@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n79063899">University of Michigan. Museum of Anthropology.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n79063899" ref="/agents/corporate_entities/12114">University of Michigan. Museum of Anthropology.</corpname>
       </origination>
       <unittitle encodinganalog="245">Museum of Anthropology (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1894/1990">1894-1990</unitdate></unittitle>
       <abstract>Established in 1922, the Museum of Anthropology is one of the major research facilities in the United States for the collection and study of archaeological and ethnological materials. The record group includes budget information, executive committee meeting minutes, topical files, and curator files.</abstract>
@@ -140,17 +141,17 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79063899">University of Michigan. Museum of Anthropology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79063899" ref="/agents/corporate_entities/12114">University of Michigan. Museum of Anthropology.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6212">Anthropology.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6607">Archaeology.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10446">Anthropological museums and collections.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50031636">Griffin, James B. (James Bennett), 1905-1997</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80109844">Guthe, Carl E. (Carl Eugen), 1893-1974</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84231716">Ford, Richard I.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr2002017577">Spaulding, Albert C. (Albert Clanton), 1914-1990</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50031636" ref="/agents/people/35873">Griffin, James B. (James Bennett), 1905-1997</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80109844" ref="/agents/people/34600">Guthe, Carl E. (Carl Eugen), 1893-1974</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84231716" ref="/agents/people/33217">Ford, Richard I.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr2002017577" ref="/agents/people/31870">Spaulding, Albert C. (Albert Clanton), 1914-1990</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

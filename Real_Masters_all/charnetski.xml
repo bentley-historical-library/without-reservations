@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2010 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Charnetski, Clark J.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28909">Charnetski, Clark J.</persname>
       </origination>
       <unittitle encodinganalog="245">Clark J. Charnetski papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1955/1971">1955-1971</unitdate>
@@ -84,8 +85,8 @@ Clark J. Charnetski papers, Bentley Historical Library, University of Michigan</
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Charnetski, Clark J.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Conductron Corporation--Michigan--Ann Arbor.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28909">Charnetski, Clark J.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12683">Conductron Corporation--Michigan--Ann Arbor.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6768">Holography--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6769">Holography industry--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6770">Research and development projects--Holography.</subject>

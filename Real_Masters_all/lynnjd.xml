@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Lynn, Janet D.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/31407">Lynn, Janet D.</persname>
       </origination>
       <unittitle encodinganalog="245">Janet D. Lynn Papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1970/1998">1970-1998</unitdate>
@@ -86,10 +87,10 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6716">Social action--Michigan--Societies, etc.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Citizens Council for Land Use Research and Education.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11496">Citizens Council for Land Use Research and Education.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8922">Highway planning--Michigan--Citizen participation.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7039">Land use--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="600">Lynn, Janet D.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31407">Lynn, Janet D.</persname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82066559.html" ref="/subjects/2285">Novi (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8923">Shopping centers.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n91064826.html" ref="/subjects/2286">West Bloomfield (Mich. : Township)</geogname>

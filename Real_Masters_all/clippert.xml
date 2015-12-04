@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Clippert family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/264">Clippert family.</famname>
       </origination>
       <unittitle encodinganalog="245">Clippert Family papers <unitdate type="inclusive" encodinganalog="245$f" normal="1863/1962">1863-1962</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2008162 Aa 2; Ac</unitid>
@@ -87,19 +88,19 @@ Clippert Family papers, Bentley Historical Library, University of Michigan</p>
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6859">Brick trade--Michigan--Detroit.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n97038324">Clippert Brick Company.</corpname>
-        <famname source="lcnaf" encodinganalog="600">Clippert family.</famname>
-        <corpname source="lcnaf" encodinganalog="610">Delta Tau Delta Fraternity. University of Michigan Chapter.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n97038324" ref="/agents/corporate_entities/14138">Clippert Brick Company.</corpname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/264">Clippert family.</famname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9234">Delta Tau Delta Fraternity. University of Michigan Chapter.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1343">Detroit (Mich.)--Commerce.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Coast Artillery Regiment, 65th.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12012">United States. Army. Coast Artillery Regiment, 65th.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Students.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5712">World War, 1914-1918.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Clippert, Conrad J., 1834-1901.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n97038331">Clippert, George H.</persname>
-        <persname source="lcnaf" encodinganalog="700">Clippert, Harry, 1888-1972.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32664">Clippert, Conrad J., 1834-1901.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n97038331" ref="/agents/people/27281">Clippert, George H.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32207">Clippert, Harry, 1888-1972.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

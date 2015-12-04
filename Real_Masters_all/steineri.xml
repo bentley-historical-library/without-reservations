@@ -35,7 +35,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Stein, Eric (1913- )</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/35623">Stein, Eric (1913- )</persname>
       </origination>
       <unittitle encodinganalog="245">Eric Stein Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1955/2002">1955-2002</unitdate></unittitle>
       <abstract>Professor at the University of Michigan Law School. Specialized in International Law, having served in the U.S. Department of State. Stein was born in the Czech and Slovak Federal Republic in 1913. The bulk of the Eric Stein collection relates to his research and writings, and his career as a law professor at the University of Michigan. The papers, dated from 1955 through 1996, have been arranged topically into six series: Biographical, Ford Foundation, Correspondence, Courses, Topical Files and Writings.</abstract>
@@ -92,10 +93,10 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79066088">Ford Foundation.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Grants.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Law School.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79066088" ref="/agents/corporate_entities/14215">Ford Foundation.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Grants.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Law School.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6344">International law.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6112">Disarmament.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10217">Constitutional law--Michigan.</subject>

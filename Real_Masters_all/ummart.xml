@@ -27,7 +27,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Museum of Art.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/10371">University of Michigan. Museum of Art.</corpname>
       </origination>
       <unittitle encodinganalog="245">Museum of Art (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1946/2003">1946-2003</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">0475 Bimu C450 2</unitid>
@@ -173,9 +174,9 @@ The records include correspondence, committee minutes, publicity material and ph
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname encodinganalog="610" source="lcnaf">University of Michigan. Museum of Art.</corpname>
-        <corpname encodinganalog="610" source="lcnaf">University of Michigan. Museum Practice Program.</corpname>
-        <corpname encodinganalog="610" source="lcnaf">University of Michigan. Graduate Seminar in Museum Practice.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/10371">University of Michigan. Museum of Art.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/8870">University of Michigan. Museum Practice Program.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/9443">University of Michigan. Graduate Seminar in Museum Practice.</corpname>
         <subject encodinganalog="650" source="aat" ref="/subjects/10859">Art.</subject>
         <subject encodinganalog="650" source="aat" ref="/subjects/10860">Art--Exhibitions.</subject>
         <subject encodinganalog="650" source="aat" ref="/subjects/10861">Artists.</subject>

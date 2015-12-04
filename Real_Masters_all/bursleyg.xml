@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Bursley, Gilbert E.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28210">Bursley, Gilbert E.</persname>
       </origination>
       <unittitle encodinganalog="245">Gilbert E. Bursley papers <unitdate type="inclusive" encodinganalog="245$f" normal="1960/1981">1960-1981</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">8548 Aa 2</unitid>
@@ -79,10 +80,10 @@ Gilbert E. Bursley papers, Bentley Historical Library, University of Michigan</p
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6218">Abortion--Law and legislation--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6584">Birth control--Law and legislation--Michigan.</subject>
-        <corpname source="lcnaf">Cleary College (Ypsilanti, Mich.)</corpname>
+        <corpname source="lcnaf" ref="/agents/corporate_entities/11568">Cleary College (Ypsilanti, Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5727">Education--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79059059">Michigan. Legislature.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79059059" ref="/agents/corporate_entities/13715">Michigan. Legislature.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13160">Republican Party (Mich.)</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

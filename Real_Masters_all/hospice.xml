@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Hospice of Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/10869">Hospice of Michigan.</corpname>
       </origination>
       <unittitle encodinganalog="245">Hospice of Michigan Records</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1975/2003">1975-2003</unitdate>
@@ -78,14 +79,14 @@ Hospice of Michigan Records
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Hospice of Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10869">Hospice of Michigan.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8308">Hospices (Terminal care)--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8309">Hospice care--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8310">Terminal care--Michigan.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname source="lcnaf" encodinganalog="610">Hospice of Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10869">Hospice of Michigan.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8309">Hospice care--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8311">AIDS patients--Hospice care.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4531">Sick persons.</subject>

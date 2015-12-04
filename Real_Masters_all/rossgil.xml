@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Ross, Gilbert, 1903-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/35921">Ross, Gilbert, 1903-</persname>
       </origination>
       <unittitle encodinganalog="245">Gilbert Ross Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1911/1975">1911-1975</unitdate></unittitle>
       <abstract>Professor of music at the University of Michigan, and founder and first violinist with the Stanley Quartet. Correspondence relating to music and musical performance and to his career at the University of Michigan; publications; photographs; scrapbooks containing clippings, programs, correspondence, and an occasional photograph; files relating to his violin performances and work with the Stanley Quartet.</abstract>
@@ -91,32 +92,32 @@
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5706">Music--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5707">Musicians--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no92010538">Stanley Quartet.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82063886">University of Michigan. School of Music.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no92010538" ref="/agents/corporate_entities/14387">Stanley Quartet.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82063886" ref="/agents/corporate_entities/10529">University of Michigan. School of Music.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4062">Musicians.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Smith College. String Quartet--1937.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no92010538">Stanley Quartet.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Symphony Orchestra--1943.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13615">Smith College. String Quartet--1937.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no92010538" ref="/agents/corporate_entities/14387">Stanley Quartet.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9767">University of Michigan. Symphony Orchestra--1943.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5219">Violins.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81026496">Auer, Leopold, 1845-1930.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81062079">Bassett, Leslie, 1923-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80053118">Creston, Paul, 1906-1985</persname>
-        <persname source="lcnaf" encodinganalog="700">Crumb, George.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80057037">Finney, Ross Lee, 1906-1997</persname>
-        <persname source="lcnaf" encodinganalog="700">Haas, Karl.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82025113">Heifetz, Jascha, 1901-1987</persname>
-        <persname source="lcnaf" encodinganalog="700">Hermann, Emil.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81047594">Piston, Walter, 1894-1976.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84183226">Porter, Quincy, 1897-1966.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79127862">Sinclair, Upton, 1878-1968.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84046797">Szigeti, Joseph, 1892-1973.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81026496" ref="/agents/people/32333">Auer, Leopold, 1845-1930.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81062079" ref="/agents/people/32661">Bassett, Leslie, 1923-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80053118" ref="/agents/people/29708">Creston, Paul, 1906-1985</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35413">Crumb, George.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80057037" ref="/agents/people/35457">Finney, Ross Lee, 1906-1997</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34791">Haas, Karl.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82025113" ref="/agents/people/32889">Heifetz, Jascha, 1901-1987</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29902">Hermann, Emil.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81047594" ref="/agents/people/35201">Piston, Walter, 1894-1976.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84183226" ref="/agents/people/33699">Porter, Quincy, 1897-1966.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79127862" ref="/agents/people/32611">Sinclair, Upton, 1878-1968.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84046797" ref="/agents/people/31988">Szigeti, Joseph, 1892-1973.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

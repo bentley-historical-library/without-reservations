@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Vogel, Elvira.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28868">Vogel, Elvira.</persname>
       </origination>
       <unittitle encodinganalog="245">Elvira Vogel papers <unitdate type="inclusive" encodinganalog="245$f" normal="1952/1990">1952-1990</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">9474 Aa 2</unitid>
@@ -80,12 +81,12 @@ Elvira Vogel papers, Bentley Historical Library, University of Michigan</p>
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5727">Education--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Congress of Parents and Teachers.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10807">Michigan Congress of Parents and Teachers.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9373">Parents' and teachers' associations--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="600">Vogel, Elvira.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Washtenaw County School Officers Association.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88621517">Washtenaw Intermediate School District.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Western Washtenaw Area PTA (Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28868">Vogel, Elvira.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12651">Washtenaw County School Officers Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88621517" ref="/agents/corporate_entities/11034">Washtenaw Intermediate School District.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9633">Western Washtenaw Area PTA (Mich.)</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

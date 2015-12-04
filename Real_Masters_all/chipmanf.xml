@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Chipman family</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/334">Chipman family</famname>
       </origination>
       <unittitle encodinganalog="245">Chipman family papers <unitdate type="inclusive" encodinganalog="245$f" normal="1925/1964">1925-1964</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">86990 Aa 2</unitid>
@@ -79,13 +80,13 @@ Chipman family papers, Bentley Historical Library, University of Michigan</p>
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5739">Women--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. University School.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11246">University of Michigan. University School.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Chipman, Dorothy, 1896-</persname>
-        <persname source="lcnaf" encodinganalog="700">Chipman, Hope, 1900-1982.</persname>
-        <persname source="lcnaf" encodinganalog="700">Chipman, Janet.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32945">Chipman, Dorothy, 1896-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30161">Chipman, Hope, 1900-1982.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/36149">Chipman, Janet.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

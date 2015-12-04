@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Leonard, Justin W., 1909-1975.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30281">Leonard, Justin W., 1909-1975.</persname>
       </origination>
       <unittitle encodinganalog="245">Justin W. Leonard Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1937/1975">1937-1975</unitdate></unittitle>
       <abstract>Conservationist, professor of natural resources at the University of Michigan. Professional files, including correspondence, speeches, and newspaper clippings; letters to his wife, 1943-1946, while in military service stationed in the Solomon Islands during World War II; and photographs.</abstract>
@@ -92,17 +93,17 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5811">Conservation of natural resources--United States.</subject>
-        <persname source="lcnaf" encodinganalog="600">Leonard, Justin W., 1909-1975.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30281">Leonard, Justin W., 1909-1975.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7967">Natural resources--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81003782">University of Michigan. School of Natural Resources.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81003782" ref="/agents/corporate_entities/10319">University of Michigan. School of Natural Resources.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5681">World War, 1939-1945.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Leonard, Justin W., 1909-1975.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30281">Leonard, Justin W., 1909-1975.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4104">Conservation of natural resources--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81003782">University of Michigan. School of Natural Resources.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81003782" ref="/agents/corporate_entities/10319">University of Michigan. School of Natural Resources.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

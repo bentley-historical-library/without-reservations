@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Filipino-American Presbyterian Church (Southfield, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/9790">Filipino-American Presbyterian Church (Southfield, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">Filipino-American Presbyterian Church, Southfield, Mich., records <unitdate type="inclusive" encodinganalog="245$f" normal="2000/2005">2000-2005</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">06118 Ba 2</unitid>
@@ -76,9 +77,9 @@ Filipino-American Presbyterian Church, Southfield, Mich., records, Bentley Histo
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Filipino-American Presbyterian Church (Southfield, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9790">Filipino-American Presbyterian Church (Southfield, Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6911">Filipino Americans--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Presbyterian Church (U.S.A.)--Michigan--Southfield.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9549">Presbyterian Church (U.S.A.)--Michigan--Southfield.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1858">Southfield (Mich.)--Church history.</geogname>
       </controlaccess>
       <controlaccess>

@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Michigan Alzheimer's Disease Research Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/9000">Michigan Alzheimer's Disease Research Center.</corpname>
       </origination>
       <unittitle encodinganalog="245">Michigan Alzheimer's Disease Research Center records, <unitdate type="inclusive" encodinganalog="245$f" normal="1988/1999">1988-1999</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">0112 Bimu 2</unitid>
@@ -87,11 +88,11 @@ Michigan Alzheimer's Disease Research Center records, Bentley Historical Library
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Alzheimer's Disease Research Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9000">Michigan Alzheimer's Disease Research Center.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8931">Alzheimer's disease.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8932">Alzheimer's disease--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8933">Senile dementia.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Research.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Research.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">First Presbyterian Church (Birmingham, Mich.).</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="">First Presbyterian Church (Birmingham, Mich.).</corpname>
       </origination>
       <unittitle encodinganalog="245">First Presbyterian Church (Birmingham, Mich.) records <unitdate type="inclusive" encodinganalog="245$f" normal="1834/1985">1834-1985</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">86826 Ba Microcopy</unitid>
@@ -81,8 +82,8 @@ First Presbyterian Church (Birmingham, Mich.) records, Bentley Historical Librar
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1880">Birmingham (Mich.)--Church history.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6352">Missionaries.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Presbyterian Church (U.S.A.)--Missions--Societies, etc.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Presbyterian Church (U.S.A.)--Michigan--Birmingham.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9549">Presbyterian Church (U.S.A.)--Missions--Societies, etc.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9549">Presbyterian Church (U.S.A.)--Michigan--Birmingham.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7838">Registers of births, etc.--Michigan--Birmingham.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7839">Women--Michigan--Birmingham--Societies and clubs.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7840">Women--Religious life--Michigan--Birmingham.</subject>

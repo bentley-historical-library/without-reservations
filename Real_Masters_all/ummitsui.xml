@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Life Financial Research Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/12345">Life Financial Research Center.</corpname>
       </origination>
       <unittitle encodinganalog="245">Mitsui Life Financial Research Center (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1990/2010">1990-2010</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2013159 Bimu 2</unitid>
@@ -91,8 +92,8 @@ Mitsui Life Financial Research Center (University of Michigan) records, Bentley 
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no95005547">Mitsui Life Financial Research Center.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Ross School of Business.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no95005547" ref="/agents/corporate_entities/10972">Mitsui Life Financial Research Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12313">Michigan Ross School of Business.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10447">International economic relations.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10448">International finance.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10449">Finance.</subject>
@@ -100,13 +101,13 @@ Mitsui Life Financial Research Center (University of Michigan) records, Bentley 
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no95005547">Mitsui Life Financial Research Center.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Ross School of Business.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no95005547" ref="/agents/corporate_entities/10972">Mitsui Life Financial Research Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12313">Michigan Ross School of Business.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10447">International economic relations.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10448">International finance.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n84033115">Kim, U-jung.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82077061">Prahalad, C. K.</persname>
-        <persname source="lcnaf" encodinganalog="600">Sakata, Koshiro.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n84033115" ref="/agents/people/28592">Kim, U-jung.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82077061" ref="/agents/people/34084">Prahalad, C. K.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33354">Sakata, Koshiro.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Museums.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/8911">University of Michigan. Museums.</corpname>
       </origination>
       <unittitle encodinganalog="245">Museums (University of Michigan) records</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1863/1976">1863-1976</unitdate>
@@ -100,7 +101,7 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Museums.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/8911">University of Michigan. Museums.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9478">United States. Works Progress Administration. Statewide Museum Survey.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7328">University of Michigan--Buildings.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9479">University of Michigan--Exhibitions.</subject>
@@ -110,10 +111,10 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80109844">Guthe, Carl E. (Carl Eugen), 1893-1974</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88163469">Kahn, Albert, 1869-1942.</persname>
-        <persname source="lcnaf" encodinganalog="700">Reimann, Irving G.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87828171">Ruthven, Alexander Grant, 1882-1971.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80109844" ref="/agents/people/34600">Guthe, Carl E. (Carl Eugen), 1893-1974</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88163469" ref="/agents/people/34606">Kahn, Albert, 1869-1942.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29355">Reimann, Irving G.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87828171" ref="/agents/people/30981">Ruthven, Alexander Grant, 1882-1971.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Washtenaw Abstract Company (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/8954">Washtenaw Abstract Company (Ann Arbor, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">Washtenaw Abstract Company records <unitdate type="inclusive" encodinganalog="245$f" normal="1824/1954" certainty="approximate">circa 1824-1954</unitdate></unittitle>
       <abstract>Land title company based in Ann Arbor, Michigan. Abstracts of mortgages, deeds, and other legal papers recorded in Washtenaw County; and plat maps for Washtenaw County additions and subdivisions.</abstract>
@@ -90,7 +91,7 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10600">Land use--Michigan--Washtenaw County.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/956">Washtenaw County (Mich.)--Maps.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5983">Real property--Michigan--Washtenaw County--Maps.</subject>
-        <corpname source="lcnaf" encodinganalog="710">Peoples Abstract Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/11747">Peoples Abstract Company.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

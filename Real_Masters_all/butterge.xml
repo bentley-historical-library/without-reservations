@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Butterfield, George Ernest, 1883-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/29885">Butterfield, George Ernest, 1883-</persname>
       </origination>
       <unittitle encodinganalog="245">George E. Butterfield papers <unitdate type="inclusive" encodinganalog="245$f" normal="1902/1969" certainty="approximate">circa 1902-1969</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">88121 Aa 2</unitid>
@@ -76,25 +77,25 @@ George E. Butterfield papers, Bentley Historical Library, University of Michigan
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Allied Citizens for Prohibition.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">American Businessmen's Prohibition Foundation.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">American Businessmen's Research Foundation.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9314">Allied Citizens for Prohibition.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12366">American Businessmen's Prohibition Foundation.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11001">American Businessmen's Research Foundation.</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81037331.html" ref="/subjects/1038">Bay City (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Bay City Council of Churches (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13447">Bay City Council of Churches (Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1430">Bay County (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600">Butterfield, George Ernest, 1883-</persname>
-        <corpname source="lcnaf" encodinganalog="610">Central Association of Congregational Christian Churches (Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Congregational churches--Michigan--Bay City.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29885">Butterfield, George Ernest, 1883-</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9939">Central Association of Congregational Christian Churches (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10010">Congregational churches--Michigan--Bay City.</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/no97054505.html" ref="/subjects/1069">Crystal Falls (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n98023666">First Congregational Church (Bay City, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2001016700">Intercollegiate Prohibition Association.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Association of Junior Colleges.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n98023666" ref="/agents/corporate_entities/13333">First Congregational Church (Bay City, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2001016700" ref="/agents/corporate_entities/12637">Intercollegiate Prohibition Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9147">Michigan Association of Junior Colleges.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5853">Prohibition--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Prohibition Amendment Advocates.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9929">Prohibition Amendment Advocates.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600">Butterfield, George Ernest, 1883-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29885">Butterfield, George Ernest, 1883-</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4005">Courthouses.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/no97054505.html" ref="/subjects/1069">Crystal Falls (Mich.)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3670">Railroad accidents.</subject>

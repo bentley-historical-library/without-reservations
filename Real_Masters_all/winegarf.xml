@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Winegar family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/115">Winegar family.</famname>
       </origination>
       <unittitle encodinganalog="245">Smith-Parker-Hicks-Winegar Family Papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1821/2012">1821-2012</unitdate>
@@ -81,18 +82,18 @@ Smith-Parker-Hicks-Winegar Family Papers, Bentley Historical Library, University
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <famname source="lcnaf" encodinganalog="600">Hicks family.</famname>
-        <persname source="lcnaf" encodinganalog="600">Hicks, Louis V.</persname>
-        <persname source="lcnaf" encodinganalog="600">Hicks, W. J. Bryan.</persname>
-        <famname source="lcnaf" encodinganalog="600">Parker family.</famname>
-        <persname source="lcnaf" encodinganalog="600">Parker, Blanche.</persname>
-        <famname source="lcnaf" encodinganalog="600">Smith family.</famname>
-        <persname source="lcnaf" encodinganalog="600">Smith, Robert R., 1847-</persname>
-        <famname source="lcnaf" encodinganalog="600">Winegar family.</famname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n93098942">Winegar, George O.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Fowlerville High School.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Cavalry, 17th.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2003098962">Michigan State Fair.</corpname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/262">Hicks family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33490">Hicks, Louis V.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32132">Hicks, W. J. Bryan.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/45">Parker family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28937">Parker, Blanche.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/360">Smith family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35952">Smith, Robert R., 1847-</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/115">Winegar family.</famname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n93098942" ref="/agents/people/29399">Winegar, George O.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11327">Fowlerville High School.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12076">United States. Army. Cavalry, 17th.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2003098962" ref="/agents/corporate_entities/9467">Michigan State Fair.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6033">Agriculture--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10762">Furniture industry and trade--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10763">World War I, 1914-1918.</subject>
@@ -101,11 +102,11 @@ Smith-Parker-Hicks-Winegar Family Papers, Bentley Historical Library, University
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Hicks, Louis V.</persname>
-        <persname source="lcnaf" encodinganalog="700">Hicks, W. J. Bryan.</persname>
-        <persname source="lcnaf" encodinganalog="700">Parker, Blanche.</persname>
-        <persname source="lcnaf" encodinganalog="700">Smith, Robert R.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n93098942">Winegar, George O.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33490">Hicks, Louis V.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32132">Hicks, W. J. Bryan.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28937">Parker, Blanche.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27726">Smith, Robert R.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n93098942" ref="/agents/people/29399">Winegar, George O.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

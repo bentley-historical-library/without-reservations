@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Program in Conflict Management Alternatives.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/9333">University of Michigan. Program in Conflict Management Alternatives.</corpname>
       </origination>
       <unittitle encodinganalog="245">Program in Conflict Management Alternatives (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1983/1996">1983-1996</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">9783 Bimu 2</unitid>
@@ -86,9 +87,9 @@ Program in Conflict Management Alternatives (University of Michigan) records, Be
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Program in Conflict Management Alternatives.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12716">Program in Conflict Management Alternatives.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6976">Conflict management.</subject>
-        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n86079456">Highlander Folk School (Monteagle, Tenn.)</corpname>
+        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n86079456" ref="/agents/corporate_entities/13606">Highlander Folk School (Monteagle, Tenn.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9697">Interpersonal conflict.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6628">Environmental protection--Michigan.</subject>
       </controlaccess>

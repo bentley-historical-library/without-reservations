@@ -43,7 +43,8 @@
         <item>Encoded finding aid from Word 6.0 file.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -55,7 +56,7 @@
   <archdesc level="recordgrp" type="inventory" audience="external" relatedencoding="MARC21">
     <did>
       <origination encodinganalog="100">
-        <corpname source="lcnaf">Detroit Japanese American Citizens League.</corpname>
+        <corpname source="lcnaf" ref="/agents/corporate_entities/9207">Detroit Japanese American Citizens League.</corpname>
       </origination>
       <unittitle encodinganalog="245">Detroit Japanese American Citizens League Records <unitdate encodinganalog="245$f" type="inclusive" normal="1943/2005">1943-2005</unitdate></unittitle>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">9836 Bd 2, UBDm, UBDl</unitid>
@@ -106,14 +107,14 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Detroit Japanese American Citizens League.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9207">Detroit Japanese American Citizens League.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7248">Japanese Americans--Ethnic identity.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7249">Japanese Americans--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7250">Japanese Americans--Evacuation and relocation, 1942-1945.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <corpname source="lcnaf" encodinganalog="610">Detroit Japanese American Citizens League.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9207">Detroit Japanese American Citizens League.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7249">Japanese Americans--Michigan.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4195">Japanese Americans--Organizations--Michigan.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4196">Japanese Americans--Social life and customs--Michigan.</subject>

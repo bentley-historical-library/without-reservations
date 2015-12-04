@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n92082117">Sheppard, Glen, 1936-</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n92082117" ref="/agents/people/30148">Sheppard, Glen, 1936-</persname>
       </origination>
       <unittitle encodinganalog="245">Glen Sheppard Papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1940/2010" certainty="approximate">1940s-2010</unitdate>
@@ -87,9 +88,9 @@ Glen Sheppard Papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n92082117">Sheppard, Glen, 1936-</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n91103937">Engler, John, 1948-</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2005059175">Granholm, Jennifer.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n92082117" ref="/agents/people/30148">Sheppard, Glen, 1936-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n91103937" ref="/agents/people/31604">Engler, John, 1948-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2005059175" ref="/agents/people/32524">Granholm, Jennifer.</persname>
         <subject source="lcsh" encodinganalog="630" ref="/subjects/10050">Northern Woods Call.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6190">Conservation of natural resources--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10051">Environmental legislation--United States.</subject>
@@ -99,7 +100,7 @@ Glen Sheppard Papers, Bentley Historical Library, University of Michigan</p>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10053">Pollution--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10054">State parks and reserves--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1833">Au Sable River (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. Dept. of Natural Resources.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11372">Michigan. Dept. of Natural Resources.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>

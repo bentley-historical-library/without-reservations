@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Douglass family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/217">Douglass family.</famname>
       </origination>
       <unittitle encodinganalog="245">Douglass family (Newaygo County, Mich.) papers <unitdate type="inclusive" encodinganalog="245$f" normal="1862/1900">1862-1900</unitdate></unittitle>
       <abstract>Papers of the Douglass family and the Nellis family of Newaygo County, Michigan. Courtship letters of Joseph and Matilda Douglass, also of their daughter Belle and William Anderson; letters of Joseph Douglass and George Nellis about their cavalry service during the Civil War; letters of relatives and friends who emigrated to Iowa, Dakota Territory, Colorado, and California.</abstract>
@@ -82,21 +83,21 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <famname source="lcnaf" encodinganalog="600">Anderson family.</famname>
-        <famname source="lcnaf" encodinganalog="600">Barton family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/287">Anderson family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/356">Barton family.</famname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1043">Big Rapids (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1716">Bridgeton (Mich.)</geogname>
-        <famname source="lcnaf" encodinganalog="600">Buchanan family.</famname>
-        <famname source="lcnaf" encodinganalog="600">Burshaw family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/266">Buchanan family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/33">Burshaw family.</famname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1281">California.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1717">Colorado.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1068">Croton (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1718">Dakota Territory.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7275">Death.</subject>
-        <persname source="lcnaf" encodinganalog="600">Douglass, Joseph.</persname>
-        <persname source="lcnaf" encodinganalog="600">Douglass, Martha Matilda Nellis.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28615">Douglass, Joseph.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35888">Douglass, Martha Matilda Nellis.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7276">Education--Michigan--Newaygo County.</subject>
-        <famname source="lcnaf" encodinganalog="600">Hunter family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/352">Hunter family.</famname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1719">Iowa.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7277">Logging--Michigan--Newaygo County.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7278">Lumbering--Michigan--Newaygo County.</subject>
@@ -105,20 +106,20 @@
         <geogname source="local" encodinganalog="691" ref="/subjects/798">Michigan--Social life and customs--1871-1880.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/799">Michigan--Social life and customs--1881-1890.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/800">Michigan--Social life and customs--1891-1900.</geogname>
-        <famname source="lcnaf" encodinganalog="600">Nellis family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/311">Nellis family.</famname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81006519.html" ref="/subjects/1565">Newaygo County (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2009095221">United States. Army. Michigan Cavalry Regiment, 6th (1862-1865). Company A.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2011088302">United States. Army. Michigan Cavalry Regiment, 10th (1863-1865)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2009095221" ref="/agents/corporate_entities/9293">United States. Army. Michigan Cavalry Regiment, 6th (1862-1865). Company A.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2011088302" ref="/agents/corporate_entities/10895">United States. Army. Michigan Cavalry Regiment, 10th (1863-1865)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/909">United States--History--Civil War, 1861-1865.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1720">United States--Social life and customs--19th century.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7280">Women--Michigan--Newaygo County.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1302">Michigan--Social life and customs--19th century.</geogname>
-        <famname source="lcnaf" encodinganalog="600">Douglas family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/22">Douglas family.</famname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Anderson, Belle Douglass.</persname>
-        <persname source="lcnaf" encodinganalog="700">Hunter, Nelly Nellis.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33683">Anderson, Belle Douglass.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33191">Hunter, Nelly Nellis.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

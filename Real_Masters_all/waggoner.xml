@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Waggoner, Raymond W. (Raymond Walter), 1901-2000.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/31005">Waggoner, Raymond W. (Raymond Walter), 1901-2000.</persname>
       </origination>
       <unittitle encodinganalog="245">Raymond W. Waggoner Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1926/1977">1926-1977</unitdate></unittitle>
       <abstract>Neuropsychiatrist, professor of psychiatry and chair of the department at the University of Michigan. Professional papers, chairman's files of department of psychiatry.</abstract>
@@ -90,17 +91,17 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79049301">American Psychiatric Association.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79142854">Group for the Advancement of Psychiatry.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79049301" ref="/agents/corporate_entities/12276">American Psychiatric Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79142854" ref="/agents/corporate_entities/10450">Group for the Advancement of Psychiatry.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6113">Psychiatry.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10566">Psychiatrists--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81042704">Reproductive Biology Research Foundation (U.S.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Children's Psychiatric Hospital.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87842574">University of Michigan. Department of Psychiatry.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83029012">University of Michigan. Mental Health Research Institute.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Neuropsychiatric Institute.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Waggoner, Raymond W. (Raymond Walter), 1901-2000.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81042704" ref="/agents/corporate_entities/13430">Reproductive Biology Research Foundation (U.S.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11469">University of Michigan. Children's Psychiatric Hospital.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87842574" ref="/agents/corporate_entities/8882">University of Michigan. Department of Psychiatry.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83029012" ref="/agents/corporate_entities/13832">University of Michigan. Mental Health Research Institute.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13436">University of Michigan. Neuropsychiatric Institute.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31005">Waggoner, Raymond W. (Raymond Walter), 1901-2000.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

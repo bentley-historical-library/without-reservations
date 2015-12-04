@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Olmsted, Martha Louise Kinsey</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/31395">Olmsted, Martha Louise Kinsey</persname>
       </origination>
       <unittitle encodinganalog="245">Martha Louise Kinsey Olmsted papers <unitdate type="inclusive" encodinganalog="245$f" normal="1972/1976">1972-1976</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">861070 Aa 2</unitid>
@@ -81,11 +82,11 @@ Martha Louise Kinsey Olmsted papers, Bentley Historical Library, University of M
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6557">Aging.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6558">Gerontology.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Psychology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82098946">University of Michigan. School of Education.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81033118">University of Michigan. School of Social Work.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Student notebooks.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Washtenaw County Council on Aging.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11288">University of Michigan. Dept. of Psychology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82098946" ref="/agents/corporate_entities/12505">University of Michigan. School of Education.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81033118" ref="/agents/corporate_entities/8901">University of Michigan. School of Social Work.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Student notebooks.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13973">Washtenaw County Council on Aging.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

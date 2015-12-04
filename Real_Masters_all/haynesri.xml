@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/no2006092083">Haynes, Rick.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/no2006092083" ref="/agents/people/34403">Haynes, Rick.</persname>
       </origination>
       <unittitle encodinganalog="245">Rick Haynes Michigan Militia collection <unitdate type="inclusive" encodinganalog="245$f" normal="1993/1999">1993-1999</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">0440 Aa 2</unitid>
@@ -79,9 +80,9 @@ Rick Haynes Michigan Militia collection, Bentley Historical Library, University 
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2006092083">Haynes, Rick.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2006092083" ref="/agents/people/34403">Haynes, Rick.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8164">Militia movements--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no95054612">Michigan Militia Corps.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no95054612" ref="/agents/corporate_entities/12990">Michigan Militia Corps.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8165">Right-wing extremists--Michigan.</subject>
       </controlaccess>
     </controlaccess>

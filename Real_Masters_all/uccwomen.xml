@@ -39,7 +39,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -50,7 +51,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">United Church of Christ Women of Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/13982">United Church of Christ Women of Michigan.</corpname>
       </origination>
       <unittitle encodinganalog="245">United Church of Christ Women of Michigan Records</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1915/2013">1915-2013</unitdate>
@@ -96,10 +97,10 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10420">Congregational churches--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Evangelical and Reformed Church--Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United Church of Christ--Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United Church of Christ Women of Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Woman's Home Missionary Union of Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12628">Evangelical and Reformed Church--Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10114">United Church of Christ--Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13982">United Church of Christ Women of Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12207">Woman's Home Missionary Union of Michigan.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6649">Women--Michigan--Societies and clubs.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6328">Women--Religious life--Michigan.</subject>
       </controlaccess>

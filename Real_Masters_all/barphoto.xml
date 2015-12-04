@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Barnett, Leroy, collector.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30614">Barnett, Leroy, collector.</persname>
       </origination>
       <unittitle encodinganalog="245">Leroy Barnett Photograph Collection <unitdate type="inclusive" encodinganalog="245$f" normal="1928/1965">1928-1965</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">89547 Aa 2</unitid>
@@ -98,12 +99,12 @@ Leroy Barnett Photograph Collection, Bentley Historical Library, University of M
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3791">Hotels and taverns.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6108">Streets--Michigan--Howell.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3792">Laboratories.</subject>
-        <persname source="lcnaf" encodinganalog="600">Mackie, John C.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31843">Mackie, John C.</persname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n88268193.html" ref="/subjects/1005">Mackinaw City (Mich.)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3793">Mental institutions--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. State Dept. of Agriculture.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2003098962">Michigan State Fair.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. State Highway Dept.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10976">Michigan. State Dept. of Agriculture.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2003098962" ref="/agents/corporate_entities/9467">Michigan State Fair.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12377">Michigan. State Highway Dept.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6109">Streets--Michigan--Paw Paw.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3794">Police stations--Michigan.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3795">Prison facilities--Michigan.</subject>
@@ -114,7 +115,7 @@ Leroy Barnett Photograph Collection, Bentley Historical Library, University of M
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3799">Roads--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6110">Streets--Michigan--Rochester.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1006">Sleeping Bear Dunes (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">State Line Dance.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10797">State Line Dance.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3800">Theaters--Michigan.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3801">Universities and colleges--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/976">Woodward Avenue (Detroit, Mich.)</geogname>

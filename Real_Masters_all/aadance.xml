@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Ann Arbor Dance Theatre.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/10387">Ann Arbor Dance Theatre.</corpname>
       </origination>
       <unittitle encodinganalog="245">Ann Arbor Dance Theatre records <unitdate type="inclusive" encodinganalog="245$f" normal="1963/1977">1963-1977</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">8527 Bp 2</unitid>
@@ -85,8 +86,8 @@ Ann Arbor Dance Theatre records, Bentley Historical Library, University of Michi
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n92006465">Ailey, Alvin.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Dance Theatre.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n92006465" ref="/agents/people/33011">Ailey, Alvin.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10387">Ann Arbor Dance Theatre.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3575">Ballet.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3576">Dance.</subject>
       </controlaccess>

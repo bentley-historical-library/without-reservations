@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Tisch, Robert.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33986">Tisch, Robert.</persname>
       </origination>
       <unittitle encodinganalog="245">Robert Tisch Papers</unittitle>
       <unitdate type="inclusive" encodinganalog="245$f" normal="1978/1997">1978-1997</unitdate>
@@ -90,7 +91,7 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Tisch, Robert.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33986">Tisch, Robert.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5796">Elections--Michigan--1978.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5797">Elections--Michigan--1980.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5798">Elections--Michigan--1982.</subject>
@@ -99,14 +100,14 @@
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/910">Michigan--Politics and government--1951-</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8171">Tax and expenditure limitations--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10371">Property tax--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Tisch Independent Citizens Party.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">U.S. Taxpayers Party of Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14164">Tisch Independent Citizens Party.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10054">U.S. Taxpayers Party of Michigan.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Tisch, Robert.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33986">Tisch, Robert.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4566">Political elections--Michigan--1982.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Shiawassee County (Mich.). Drain Commission.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11996">Shiawassee County (Mich.). Drain Commission.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

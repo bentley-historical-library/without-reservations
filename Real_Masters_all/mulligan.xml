@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Mulligan, Joan Elizabeth, 1922-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30686">Mulligan, Joan Elizabeth, 1922-</persname>
       </origination>
       <unittitle encodinganalog="245">Joan Elizabeth Mulligan papers <unitdate type="inclusive" encodinganalog="245$f" normal="1971/1973">1971-1973</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85318 Aa 2</unitid>
@@ -77,11 +78,11 @@ Joan Elizabeth Mulligan papers, Bentley Historical Library, University of Michig
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8663">Abortion--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Nurses Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11342">Michigan Nurses Association.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6088">Nurses--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6089">Nursing--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80020716">University of Michigan. School of Public Health.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80020716" ref="/agents/corporate_entities/13834">University of Michigan. School of Public Health.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6223">Women's rights--Michigan.</subject>
       </controlaccess>
     </controlaccess>
