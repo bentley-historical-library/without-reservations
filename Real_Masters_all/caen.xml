@@ -32,11 +32,10 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-    <classification ref="/repositories/2/classifications/2"/>
   </eadheader>
   <frontmatter>
     <titlepage>
-      <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
       <titleproper>Finding aid for <lb/>Computer-Aided Engineering Network <lb/>(University of Michigan) <lb/>records, 1983-2008</titleproper>
       <author>Finding aid created by <lb/>Elise Reynolds, 2011; <lb/>Michael Shallcross, November, 2012</author>
     </titlepage>
@@ -44,11 +43,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/14360">University of Michigan. Computer-Aided Engineering Network.</corpname>
+        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Computer-Aided Engineering Network.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Computer-Aided Engineering Network (University of Michigan) records</unittitle>
-      <unitdate type="inclusive" encodinganalog="245$f" normal="1983/2008">1983-2008</unitdate>
-      <unitdate type="bulk" encodinganalog="245$g" normal="1986/2005">1986-2005</unitdate>
+      <unittitle encodinganalog="245">Computer-Aided Engineering Network (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1983/2008">1983-2008</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1986/2005">1986-2005</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2011123 BIU 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Division of the University of Michigan College of Engineering; offers comprehensive information technology services and resources to faculty, staff, and students of the College. Includes visual materials documenting people, facilities, and events associated with the organization as well as content produced for its 25th anniversary celebration in 2008.</abstract>
@@ -103,24 +100,24 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/14360">University of Michigan. Computer-Aided Engineering Network.</corpname>
-        <subject source="lcsh" encodinganalog="650" ref="/subjects/6560">Computers.</subject>
-        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28282">Frank, Randy.</persname>
+        <corpname encodinganalog="610" source="lcnaf">University of Michigan. Computer-Aided Engineering Network.</corpname>
+        <subject source="lcsh" encodinganalog="650">Computers.</subject>
+        <persname source="lcnaf" encodinganalog="600">Frank, Randy.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/14360">University of Michigan. Computer-Aided Engineering Network.</corpname>
-        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/9527">Duderstadt Center.</corpname>
-        <subject source="lcsh" encodinganalog="650" ref="/subjects/6560">Computers.</subject>
+        <corpname encodinganalog="610" source="lcnaf">University of Michigan. Computer-Aided Engineering Network.</corpname>
+        <corpname encodinganalog="610" source="lcnaf">Duderstadt Center.</corpname>
+        <subject source="lcsh" encodinganalog="650">Computers.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname encodinganalog="700" source="lcnaf" ref="/agents/people/28866">Killey, Pul.</persname>
+        <persname encodinganalog="700" source="lcnaf">Killey, Pul.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform encodinganalog="655" source="aat" ref="/subjects/3141">Photographs.</genreform>
-        <genreform encodinganalog="655" source="aat" ref="/subjects/3220">Digital files.</genreform>
+        <genreform encodinganalog="655" source="aat">Photographs.</genreform>
+        <genreform encodinganalog="655" source="aat">Digital files.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -135,7 +132,7 @@
           <did>
             <physloc>Online</physloc>
             <unittitle>Placards and signs <unitdate type="inclusive" normal="2008">2008</unitdate></unittitle>
-            <dao href="http://hdl.handle.net/2027.42/86713" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/10469">
+            <dao href="http://hdl.handle.net/2027.42/86713" show="new" actuate="onrequest">
               <daodesc>
                 <p>[download zip files]</p>
               </daodesc>
@@ -149,7 +146,7 @@
           <did>
             <physloc>Online</physloc>
             <unittitle>Posters <unitdate type="inclusive" normal="2008">2008</unitdate></unittitle>
-            <dao href="http://hdl.handle.net/2027.42/86716" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/10470">
+            <dao href="http://hdl.handle.net/2027.42/86716" show="new" actuate="onrequest">
               <daodesc>
                 <p>[download zip files]</p>
               </daodesc>
@@ -163,7 +160,7 @@
           <did>
             <physloc>Online</physloc>
             <unittitle>Timeline <unitdate type="inclusive" normal="2008">2008</unitdate></unittitle>
-            <dao href="http://hdl.handle.net/2027.42/86714" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/10471">
+            <dao href="http://hdl.handle.net/2027.42/86714" show="new" actuate="onrequest">
               <daodesc>
                 <p>[download file]</p>
               </daodesc>
@@ -177,7 +174,7 @@
           <did>
             <physloc>Online</physloc>
             <unittitle>Video <unitdate type="inclusive" normal="2008">2008</unitdate></unittitle>
-            <dao href="http://hdl.handle.net/2027.42/86715" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/10472">
+            <dao href="http://hdl.handle.net/2027.42/86715" show="new" actuate="onrequest">
               <daodesc>
                 <p>[download mov file]</p>
               </daodesc>
@@ -201,7 +198,7 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [693909254108371458234659]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>CAEN buildings and computing sites <unitdate type="inclusive" normal="1985/1990" certainty="approximate">circa 1985-1990</unitdate></unittitle>
               <physdesc>
                 <physfacet>VHS</physfacet>
@@ -210,7 +207,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [693909254108371458234659]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>CAEN Laboratories <unitdate type="inclusive" normal="1985/1995" certainty="approximate">circa 1985-1995</unitdate></unittitle>
               <physdesc>
                 <physfacet>VHS tape</physfacet>
@@ -222,7 +219,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [693909254108371458234659]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>CAEN Quiz Show <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
             </did>
             <odd>
@@ -233,7 +230,7 @@
             <did>
               <physloc>Online</physloc>
               <unittitle>Camp CAEN promotional video <unitdate type="inclusive" normal="2005">2005</unitdate></unittitle>
-              <dao href="http://hdl.handle.net/2027.42/94305" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/10473">
+              <dao href="http://hdl.handle.net/2027.42/94305" show="new" actuate="onrequest">
                 <daodesc>
                   <p>[download zip file]</p>
                 </daodesc>
@@ -245,7 +242,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [693909254108371458234659]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>Interior Views of Integrated Technology Instructional Center (ITIC) Building <unitdate type="inclusive" normal="1994" certainty="approximate">circa 1994</unitdate></unittitle>
               <physdesc>
                 <physfacet>VHS tape</physfacet>
@@ -257,7 +254,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [693909254108371458234659]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>Michigan Computer Labs Raw Footage <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
               <physdesc>
                 <physfacet>U-matic Tape</physfacet>
@@ -269,7 +266,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [693909254108371458234659]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>Tribute to Randy Frank <unitdate type="inclusive" normal="1998" certainty="approximate">circa 1998</unitdate></unittitle>
               <physdesc>
                 <physfacet>VHS tape</physfacet>
@@ -293,7 +290,7 @@
             </odd>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [693909254108371458234659]" altrender="box">1</container>
+                <container type="box" label="Box">1</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1983/1988">1983-1988</unitdate>
                 </unittitle>
@@ -301,7 +298,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [693909254108371458234659]" altrender="box">1</container>
+                <container type="box" label="Box">1</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1989">1989</unitdate>
                 </unittitle>
@@ -309,7 +306,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [693909254108371458234659]" altrender="box">1</container>
+                <container type="box" label="Box">1</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1990/1992">1990-1992</unitdate>
                 </unittitle>
@@ -317,7 +314,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [693909254108371458234659]" altrender="box">1</container>
+                <container type="box" label="Box">1</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate>
                 </unittitle>
@@ -325,7 +322,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [693909254108371458234659]" altrender="box">1</container>
+                <container type="box" label="Box">1</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1995/1997">1995-1997</unitdate>
                 </unittitle>
@@ -333,7 +330,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6677042946141684896]" altrender="box">2</container>
+                <container type="box" label="Box">2</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1998/1999">1998-1999</unitdate>
                 </unittitle>
@@ -341,7 +338,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6677042946141684896]" altrender="box">2</container>
+                <container type="box" label="Box">2</container>
                 <unittitle>2000-</unittitle>
               </did>
             </c04>
@@ -352,13 +349,13 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6677042946141684896]" altrender="box">2</container>
+                <container type="box" label="Box">2</container>
                 <unittitle>CAEN Staff Photos</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6677042946141684896]" altrender="box">2</container>
+                <container type="box" label="Box">2</container>
                 <unittitle>Old Staff Photos</unittitle>
               </did>
             </c04>
@@ -372,7 +369,7 @@
             </odd>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6677042946141684896]" altrender="box">2</container>
+                <container type="box" label="Box">2</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate>
                 </unittitle>
@@ -380,7 +377,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6677042946141684896]" altrender="box">2</container>
+                <container type="box" label="Box">2</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="2002/2006">2002-2006</unitdate>
                 </unittitle>
@@ -398,7 +395,7 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6677042946141684896]" altrender="box">2</container>
+                <container type="box" label="Box">2</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1989" certainty="approximate">circa 1989</unitdate>
                 </unittitle>
@@ -409,7 +406,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6677042946141684896]" altrender="box">2</container>
+                <container type="box" label="Box">2</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1988/1989" certainty="approximate">circa 1988-1989</unitdate>
                 </unittitle>
@@ -423,7 +420,7 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6677042946141684896]" altrender="box">2</container>
+              <container type="box" label="Box">2</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1986/1995">1986-1995</unitdate>
               </unittitle>
@@ -434,7 +431,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5995817440591968709]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1996/1998">1996-1998</unitdate>
               </unittitle>
@@ -453,7 +450,7 @@
           <did>
             <physloc>Online</physloc>
             <unittitle>1997-[ONGOING]</unittitle>
-            <dao href="20111123-w-1" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/10474">
+            <dao href="20111123-w-1" show="new" actuate="onrequest">
               <daodesc>
                 <p>[view item]</p>
               </daodesc>

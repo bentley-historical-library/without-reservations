@@ -23,11 +23,10 @@
         <item>Original encoding from MARC record using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
-      <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
       <titleproper>Finding aid for <lb/>Evans Holbrook Student Notebook, 1899-1900</titleproper>
       <author>Finding aid created by <lb/>Bentley Historical Library Staff</author>
     </titlepage>
@@ -35,7 +34,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/34643">Holbrook, Evans, 1875-1932.</persname>
+        <persname source="lcnaf" encodinganalog="100">Holbrook, Evans, 1875-1932.</persname>
       </origination>
       <unittitle encodinganalog="245">Evans Holbrook student notebook <unitdate type="inclusive" encodinganalog="245$f" normal="1899/1900">1899-1900</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">88395 Bimu C74</unitid>
@@ -75,9 +74,9 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2002048914" ref="/agents/people/29115">Lane, Victor Hugo, 1852-1930.</persname>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10881">University of Michigan. Dept. of Law.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Student notebooks.<term type="topical">Student notebooks.</term></corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2002048914">Lane, Victor Hugo, 1852-1930.</persname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Law.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Student notebooks.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -87,7 +86,7 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="volume" label="Volume [6681106347903745362]" altrender="volume">1</container>
+            <container type="volume" label="Volume">1</container>
             <unittitle>Notes on the law lectures of Victor H. Lane relating in part to extraordinary legal remedies</unittitle>
           </did>
         </c02>

@@ -32,11 +32,10 @@
         <item>Edited to reflect migration of content from CD-ROM to Deep Blue JMBG</item>
       </change>
     </revisiondesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
-      <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
       <titleproper>Finding aid for <lb/>Frank E. Lauer papers, 1918-1919</titleproper>
       <author>Finding aid created by <lb/>Len Coombs, 2010</author>
     </titlepage>
@@ -44,7 +43,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/36009">Lauer, Frank E.</persname>
+        <persname source="lcnaf" encodinganalog="100">Lauer, Frank E.</persname>
       </origination>
       <unittitle encodinganalog="245">Frank E. Lauer papers <unitdate type="inclusive" encodinganalog="245$f" normal="1918/1919">1918-1919</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2008154 Aa 2</unitid>
@@ -90,18 +89,18 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/36009">Lauer, Frank E.</persname>
-        <geogname source="lcnaf" encodinganalog="651." ref="/subjects/760">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <subject source="lcsh" encodinganalog="650" ref="/subjects/5712">World War, 1914-1918.</subject>
-        <corpname encodinganalog="690" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n2008059426" ref="/agents/corporate_entities/11392">Polar Bear Expedition.</corpname>
-        <geogname source="lcnaf" encodinganalog="651." ref="/subjects/773">Arkhangel'sk (Russia)</geogname>
-        <geogname source="lcnaf" encodinganalog="651." ref="/subjects/774">Murmansk (Russia)</geogname>
-        <subject source="lctgm" encodinganalog="650" ref="/subjects/3770">Soldiers--American--Russia (Federation)</subject>
-        <subject source="lctgm" encodinganalog="650" ref="/subjects/4661">Warships--American--Russia (Federation)</subject>
+        <persname source="lcnaf" encodinganalog="600">Lauer, Frank E.</persname>
+        <geogname source="lcnaf" encodinganalog="651.">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <subject source="lcsh" encodinganalog="650">World War, 1914-1918.</subject>
+        <corpname encodinganalog="690" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n2008059426">Polar Bear Expedition.</corpname>
+        <geogname source="lcnaf" encodinganalog="651.">Arkhangel'sk (Russia)</geogname>
+        <geogname source="lcnaf" encodinganalog="651.">Murmansk (Russia)</geogname>
+        <subject source="lctgm" encodinganalog="650">Soldiers--American--Russia (Federation)</subject>
+        <subject source="lctgm" encodinganalog="650">Warships--American--Russia (Federation)</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655" ref="/subjects/3141">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -111,12 +110,12 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [0168574667012020009]" altrender="folder">1</container>
+            <container type="folder" label="Folder">1</container>
             <unittitle>Correspondence</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">59 digital files</extent>
             </physdesc>
-            <dao show="new" actuate="onRequest" href="lauer0001" ref="/repositories/2/digital_objects/12481">
+            <dao show="new" actuate="onrequest" href="lauer0001">
               <daodesc>
                 <p>[view items]</p>
               </daodesc>
@@ -125,13 +124,13 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [526874474420757]" altrender="folder">2</container>
+            <container type="folder" label="Folder">2</container>
             <unittitle>Miscellaneous articles</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">7 digital files</extent>
               <physfacet>JPG files</physfacet>
             </physdesc>
-            <dao show="new" actuate="onRequest" href="lauer0002" ref="/repositories/2/digital_objects/12482">
+            <dao show="new" actuate="onrequest" href="lauer0002">
               <daodesc>
                 <p>[view items]</p>
               </daodesc>
@@ -143,13 +142,13 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [425903348793313006993]" altrender="folder">3</container>
+            <container type="folder" label="Folder">3</container>
             <unittitle>Reunion programs</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">48 digital files</extent>
               <physfacet>JPG files</physfacet>
             </physdesc>
-            <dao show="new" actuate="onRequest" href="lauer0003" ref="/repositories/2/digital_objects/12483">
+            <dao show="new" actuate="onrequest" href="lauer0003">
               <daodesc>
                 <p>[view items]</p>
               </daodesc>
@@ -166,12 +165,12 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [523114049782090024]" altrender="folder">4</container>
+            <container type="folder" label="Folder">4</container>
             <unittitle>Photographs and Commentary</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">97 digital files</extent>
             </physdesc>
-            <dao show="new" actuate="onRequest" href="lauer0004" ref="/repositories/2/digital_objects/12484">
+            <dao show="new" actuate="onrequest" href="lauer0004">
               <daodesc>
                 <p>[view items]</p>
               </daodesc>

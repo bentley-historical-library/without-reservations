@@ -24,11 +24,10 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-    <classification ref="/repositories/2/classifications/2"/>
   </eadheader>
   <frontmatter>
     <titlepage>
-      <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
       <titleproper>Finding aid for <lb/>Committee on Student Discipline <lb/>(University of Michigan) <lb/>records, 1914-1961</titleproper>
       <author>Finding aid created by <lb/>Lance Stuchell, 2008</author>
     </titlepage>
@@ -36,11 +35,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/13579">University of Michigan. Committee on Student Discipline.</corpname>
+        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Committee on Student Discipline.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Committee on Student Discipline (University of Michigan) records</unittitle>
-      <unitdate type="inclusive" encodinganalog="245$f" normal="1914/1961">1914-1961</unitdate>
-      <unitdate type="bulk" encodinganalog="245$g" normal="1922/1961">1922-1961</unitdate>
+      <unittitle encodinganalog="245">Committee on Student Discipline (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1914/1961">1914-1961</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1922/1961">1922-1961</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">87112 Bimu C15 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>The Committee on Student Discipline records document how the University of Michigan set non-academic student policy and how it enforced those policies during the early and mid twentieth century. The collection includes records created by the Committee on Student Discipline, the Subcommittee on Student Discipline, the Committee on Student Conduct, and the Joint Judiciary Council, and contains records from individual student cases and correspondence dealing with university policy.</abstract>
@@ -70,8 +67,7 @@
         <p>Copyright is held by the Regents of the University of Michigan.</p>
       </userestrict>
       <prefercite encodinganalog="524">
-        <p>[item], folder, box,
-Committee on Student Discipline (University of Michigan) records, Bentley Historical Library, University of Michigan</p>
+        <p>[item], folder, box, Committee on Student Discipline (University of Michigan) records, Bentley Historical Library, University of Michigan</p>
       </prefercite>
     </descgrp>
     <bioghist encodinganalog="545">
@@ -89,12 +85,12 @@ Committee on Student Discipline (University of Michigan) records, Bentley Histor
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11269">University of Michigan. Office of Student Affairs.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Students--Social life and customs--1921-1930.<term type="topical">Students</term><term type="topical">Social life and customs</term><term type="temporal">1921-1930.</term></corpname>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Students--Social life and customs--1931-1940.<term type="topical">Students</term><term type="topical">Social life and customs</term><term type="temporal">1931-1940.</term></corpname>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Students--Social life and customs--1941-1950.<term type="topical">Students</term><term type="topical">Social life and customs</term><term type="temporal">1941-1950.</term></corpname>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Students--Social life and customs--1951-1960.<term type="topical">Students</term><term type="topical">Social life and customs</term><term type="temporal">1951-1960.</term></corpname>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13579">University of Michigan. Committee on Student Discipline.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Office of Student Affairs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs--1921-1930.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs--1931-1940.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs--1941-1950.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs--1951-1960.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Committee on Student Discipline.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -107,10 +103,8 @@ Committee on Student Discipline (University of Michigan) records, Bentley Histor
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2726419592173598583]" altrender="box">1</container>
-            <unittitle>University Committee on Student Conduct</unittitle>
-            <unitdate type="inclusive" normal="1914">1914</unitdate>
-            <unitdate type="inclusive" normal="1922/1948">1922-1948</unitdate>
+            <container type="box" label="Box">1</container>
+            <unittitle>University Committee on Student Conduct <unitdate type="inclusive" normal="1914">1914</unitdate>, <unitdate type="inclusive" normal="1922/1948">1922-1948</unitdate></unittitle>
           </did>
           <accessrestrict>
             <p>[SR RESTRICTED until July 1 <date type="restriction" normal="2023-07-01">2023</date>]</p>
@@ -122,7 +116,7 @@ Committee on Student Discipline (University of Michigan) records, Bentley Histor
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2726419592173598583]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1934/1938">1934-1938</unitdate>
               </unittitle>
@@ -130,7 +124,7 @@ Committee on Student Discipline (University of Michigan) records, Bentley Histor
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2726419592173598583]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1938/1946">1938-1946</unitdate>
               </unittitle>
@@ -141,7 +135,7 @@ Committee on Student Discipline (University of Michigan) records, Bentley Histor
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2726419592173598583]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1946/1947">1946-1947</unitdate>
               </unittitle>
@@ -152,7 +146,7 @@ Committee on Student Discipline (University of Michigan) records, Bentley Histor
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2726419592173598583]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1947/1948">1947-1948</unitdate>
               </unittitle>
@@ -163,7 +157,7 @@ Committee on Student Discipline (University of Michigan) records, Bentley Histor
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [2726419592173598583]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1948/1949">1948-1949</unitdate>
               </unittitle>
@@ -174,7 +168,7 @@ Committee on Student Discipline (University of Michigan) records, Bentley Histor
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [395148844498194944985]" altrender="box">2</container>
+              <container type="box" label="Box">2</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1949/1950">1949-1950</unitdate>
               </unittitle>
@@ -190,7 +184,7 @@ Committee on Student Discipline (University of Michigan) records, Bentley Histor
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [395148844498194944985]" altrender="box">2</container>
+              <container type="box" label="Box">2</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1950/1951">1950-1951</unitdate>
               </unittitle>
@@ -201,7 +195,7 @@ Committee on Student Discipline (University of Michigan) records, Bentley Histor
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [395148844498194944985]" altrender="box">2</container>
+              <container type="box" label="Box">2</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1951/1952">1951-1952</unitdate>
               </unittitle>
@@ -212,7 +206,7 @@ Committee on Student Discipline (University of Michigan) records, Bentley Histor
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [395148844498194944985]" altrender="box">2</container>
+              <container type="box" label="Box">2</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1952/1953">1952-1953</unitdate>
               </unittitle>
@@ -223,7 +217,7 @@ Committee on Student Discipline (University of Michigan) records, Bentley Histor
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5835311204048259125564]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1953/1954">1953-1954</unitdate>
               </unittitle>
@@ -234,7 +228,7 @@ Committee on Student Discipline (University of Michigan) records, Bentley Histor
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5835311204048259125564]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1955/1955">1955-1955</unitdate>
               </unittitle>
@@ -250,7 +244,7 @@ Committee on Student Discipline (University of Michigan) records, Bentley Histor
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5835311204048259125564]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1955/1956">1955-1956</unitdate>
               </unittitle>
@@ -261,7 +255,7 @@ Committee on Student Discipline (University of Michigan) records, Bentley Histor
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [5835311204048259125564]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate>
               </unittitle>
@@ -272,7 +266,7 @@ Committee on Student Discipline (University of Michigan) records, Bentley Histor
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [710369246564070132]" altrender="box">4</container>
+              <container type="box" label="Box">4</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate>
               </unittitle>
@@ -283,7 +277,7 @@ Committee on Student Discipline (University of Michigan) records, Bentley Histor
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [710369246564070132]" altrender="box">4</container>
+              <container type="box" label="Box">4</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1958/1959">1958-1959</unitdate>
               </unittitle>
@@ -294,7 +288,7 @@ Committee on Student Discipline (University of Michigan) records, Bentley Histor
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [710369246564070132]" altrender="box">4</container>
+              <container type="box" label="Box">4</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1959/1960">1959-1960</unitdate>
               </unittitle>
@@ -305,7 +299,7 @@ Committee on Student Discipline (University of Michigan) records, Bentley Histor
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [710369246564070132]" altrender="box">4</container>
+              <container type="box" label="Box">4</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate>
               </unittitle>
@@ -317,31 +311,31 @@ Committee on Student Discipline (University of Michigan) records, Bentley Histor
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9567426420880111982]" altrender="box">5</container>
+            <container type="box" label="Box">5</container>
             <unittitle>Hearings <unitdate type="inclusive" normal="1921/1922">1921-1922</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9567426420880111982]" altrender="box">5</container>
+            <container type="box" label="Box">5</container>
             <unittitle>Case of Louis T. Orr Hazing/Case of Andrew Greer <unitdate type="inclusive" normal="1922">1922</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9567426420880111982]" altrender="box">5</container>
+            <container type="box" label="Box">5</container>
             <unittitle>Meeting Minutes <unitdate type="inclusive" normal="1923/1924">1923-1924</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9567426420880111982]" altrender="box">5</container>
+            <container type="box" label="Box">5</container>
             <unittitle>University Committee on Student Discipline <unitdate type="inclusive" normal="1923/1933">1923-1933</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9567426420880111982]" altrender="box">5</container>
+            <container type="box" label="Box">5</container>
             <unittitle>Report of the University Committee on Student Discipline <unitdate type="inclusive" normal="1924" certainty="approximate">circa 1924</unitdate></unittitle>
           </did>
         </c02>
@@ -355,7 +349,7 @@ Committee on Student Discipline (University of Michigan) records, Bentley Histor
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9567426420880111982]" altrender="box">5</container>
+            <container type="box" label="Box">5</container>
             <unittitle>
               <unitdate type="inclusive" normal="1939/1948">1939-1948</unitdate>
             </unittitle>
@@ -363,7 +357,7 @@ Committee on Student Discipline (University of Michigan) records, Bentley Histor
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [9567426420880111982]" altrender="box">5</container>
+            <container type="box" label="Box">5</container>
             <unittitle>
               <unitdate type="inclusive" normal="1948/1954">1948-1954</unitdate>
             </unittitle>

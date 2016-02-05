@@ -27,11 +27,10 @@
         <item>Edited to reflect migration of content from CD-ROM to Deep Blue JMBG</item>
       </change>
     </revisiondesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
-      <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
       <titleproper>Finding Aid for <lb/>C. J. Robinson photograph collection, <date>1918</date></titleproper>
       <author>Finding aid prepared by: <lb/>Len Coombs</author>
     </titlepage>
@@ -39,7 +38,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/27534">Robinson, C. J.</persname>
+        <persname source="lcnaf" encodinganalog="100">Robinson, C. J.</persname>
       </origination>
       <unittitle encodinganalog="245">C. J. Robinson photograph collection <unitdate type="inclusive" encodinganalog="245$f" normal="1918">1918</unitdate></unittitle>
       <abstract>Scanned copy of photograph of C. J. Robinson, who served as private, Royal Army Medical Corps, 1916-1919, and served on HM Hospital Ship Kalyan, which transported injured troops from the Allied intervention at Archangel, Russia, to Britain.</abstract>
@@ -56,15 +55,13 @@
     </did>
     <descgrp type="admin">
       <acqinfo encodinganalog="541">
-        <p>The collection was donated by Steve Robinson in 2011
-(Donor no.: <num type="donor" encodinganalog="541$e">10515</num>).</p>
+        <p>The collection was donated by Steve Robinson in 2011 (Donor no.: <num type="donor" encodinganalog="541$e">10515</num>).</p>
       </acqinfo>
       <accessrestrict encodinganalog="506">
         <p>The collection is open for research.</p>
       </accessrestrict>
       <originalsloc>
-        <p>The collection was scanned by the donor who retained the
-original materials.</p>
+        <p>The collection was scanned by the donor who retained the original materials.</p>
       </originalsloc>
       <prefercite encodinganalog="524">
         <p>item, folder title, box no., C. J. Robinson photograph collection, Bentley Historical Library, University of Michigan</p>
@@ -84,16 +81,16 @@ original materials.</p>
       </p>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/27534">Robinson, C. J.</persname>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12663">Kalyan (Hospital ship)</corpname>
-        <subject source="lcsh" encodinganalog="650" ref="/subjects/9896">Pierrot (Fictitious character)</subject>
-        <geogname source="lcnaf" encodinganalog="651" ref="/subjects/760">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <subject source="local" encodinganalog="690" authfilenumber="http://id.loc.gov/authorities/names/n2008059426" ref="/subjects/3518">Polar Bear Expedition.</subject>
-        <subject source="lctgm" encodinganalog="650" ref="/subjects/3583">Clowns.</subject>
+        <persname source="lcnaf" encodinganalog="600">Robinson, C. J.</persname>
+        <corpname source="lcnaf" encodinganalog="610">Kalyan (Hospital ship)</corpname>
+        <subject source="lcsh" encodinganalog="650">Pierrot (Fictitious character)</subject>
+        <geogname source="lcnaf" encodinganalog="651">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <subject source="local" encodinganalog="690" authfilenumber="http://id.loc.gov/authorities/names/n2008059426">Polar Bear Expedition.</subject>
+        <subject source="lctgm" encodinganalog="650">Clowns.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655" ref="/subjects/3141">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -103,12 +100,12 @@ original materials.</p>
         </did>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [0347771146841334718880]" altrender="folder">1</container>
+            <container type="folder" label="Folder">1</container>
             <unittitle>Photograph</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">1 digital files</extent>
             </physdesc>
-            <dao show="new" actuate="onRequest" href="robinson0001" ref="/repositories/2/digital_objects/17335">
+            <dao show="new" actuate="onrequest" href="robinson0001">
               <daodesc>
                 <p>[view items]</p>
               </daodesc>

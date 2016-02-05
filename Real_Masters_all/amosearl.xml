@@ -32,11 +32,10 @@
         <item>Edited to reflect migration of content from CD-ROM to Deep Blue JMBG</item>
       </change>
     </revisiondesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
-      <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
       <titleproper>Finding aid for <lb/>Earl V. Amos papers, 1918-1919</titleproper>
       <author>Finding aid created by <lb/>Christa Lemelin, 2008</author>
     </titlepage>
@@ -44,7 +43,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/29176">Amos, Earl V.</persname>
+        <persname source="lcnaf" encodinganalog="100">Amos, Earl V.</persname>
       </origination>
       <unittitle encodinganalog="245">Earl V. Amos papers <unitdate type="inclusive" encodinganalog="245$f" normal="1918/1919">1918-1919</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">05143 Aa 2</unitid>
@@ -90,22 +89,22 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29176">Amos, Earl V.</persname>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10968">United States. Army. Engineer Regiment, 310th.</corpname>
-        <geogname source="lcsh" encodinganalog="651" ref="/subjects/883">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <subject encodinganalog="690" source="local" authfilenumber="http://id.loc.gov/authorities/names/n2008059426" ref="/subjects/3518">Polar Bear Expedition.</subject>
+        <persname source="lcnaf" encodinganalog="600">Amos, Earl V.</persname>
+        <corpname source="lcnaf" encodinganalog="610">United States. Army. Engineer Regiment, 310th.</corpname>
+        <geogname source="lcsh" encodinganalog="651">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <subject encodinganalog="690" source="local" authfilenumber="http://id.loc.gov/authorities/names/n2008059426">Polar Bear Expedition.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" ref="/subjects/3150">Diaries.</genreform>
+        <genreform source="aat">Diaries.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <container type="folder" label="Folder [03798556419189695514769909]" altrender="folder">1</container>
+          <container type="folder" label="Folder">1</container>
           <unittitle>Papers</unittitle>
-          <dao show="new" actuate="onRequest" href="amos0001" ref="/repositories/2/digital_objects/9923">
+          <dao show="new" actuate="onrequest" href="amos0001">
             <daodesc>
               <p>[view items]</p>
             </daodesc>
@@ -150,9 +149,9 @@
       </c01>
       <c01 level="series">
         <did>
-          <container type="folder" label="Folder [61967359897455387565250405]" altrender="folder">2</container>
+          <container type="folder" label="Folder">2</container>
           <unittitle>Visual Materials</unittitle>
-          <dao show="new" actuate="onRequest" href="amos0002" ref="/repositories/2/digital_objects/9924">
+          <dao show="new" actuate="onrequest" href="amos0002">
             <daodesc>
               <p>[view items]</p>
             </daodesc>

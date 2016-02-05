@@ -27,11 +27,10 @@
         <item>Edited to reflect migration of content from CD-ROM to Deep Blue JMBG</item>
       </change>
     </revisiondesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
-      <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
       <titleproper>Finding Aid for <lb/>James F. O'Brien papers, <date>1918-1945</date></titleproper>
       <author>Finding aid prepared by: <lb/>Len Coombs</author>
     </titlepage>
@@ -39,7 +38,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/34931">O'Brien, James F.</persname>
+        <persname source="lcnaf" encodinganalog="100">O'Brien, James F.</persname>
       </origination>
       <unittitle encodinganalog="245">James F. O'Brien papers <unitdate type="inclusive" encodinganalog="245$f" normal="1918/1945">1918-1945</unitdate></unittitle>
       <abstract>Digital copies of materials relating to the military service of James F. O'Brien, who served as 2nd lieutenant in Company E, 339th Infantry, sent to Archangel, Russia at the end of World War I, the "Polar Bear Expedition."</abstract>
@@ -82,25 +81,25 @@
       </p>
       <controlaccess>
         <head>Subjects</head>
-        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34931">O'Brien, James F.</persname>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11041">Polar Bear Association.</corpname>
-        <geogname source="lcsh" encodinganalog="651" ref="/subjects/883">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13846">United States. Army. Infantry, 339th. Company E.</corpname>
-        <subject source="lcsh" encodinganalog="650" ref="/subjects/5712">World War, 1914-1918.</subject>
-        <subject source="local" encodinganalog="690" authfilenumber="http://id.loc.gov/authorities/names/n2008059426" ref="/subjects/3518">Polar Bear Expedition.</subject>
+        <persname source="lcnaf" encodinganalog="600">O'Brien, James F.</persname>
+        <corpname source="lcnaf" encodinganalog="610">Polar Bear Association.</corpname>
+        <geogname source="lcsh" encodinganalog="651">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <corpname source="lcnaf" encodinganalog="610">United States. Army. Infantry, 339th. Company E.</corpname>
+        <subject source="lcsh" encodinganalog="650">World War, 1914-1918.</subject>
+        <subject source="local" encodinganalog="690" authfilenumber="http://id.loc.gov/authorities/names/n2008059426">Polar Bear Expedition.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11553">United States. Army. Ordnance Dept. Detroit Ordnance District.</corpname>
-        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34931">O'Brien, James F.</persname>
-        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31196">Odjard, Otto Arthur.</persname>
-        <geogname source="lcnaf" encodinganalog="651" ref="/subjects/760">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <subject source="local" encodinganalog="690" authfilenumber="http://id.loc.gov/authorities/names/n2008059426" ref="/subjects/3518">Polar Bear Expedition.</subject>
+        <corpname source="lcnaf" encodinganalog="610">United States. Army. Ordnance Dept. Detroit Ordnance District.</corpname>
+        <persname source="lcnaf" encodinganalog="600">O'Brien, James F.</persname>
+        <persname source="lcnaf" encodinganalog="600">Odjard, Otto Arthur.</persname>
+        <geogname source="lcnaf" encodinganalog="651">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <subject source="local" encodinganalog="690" authfilenumber="http://id.loc.gov/authorities/names/n2008059426">Polar Bear Expedition.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655" ref="/subjects/3150">Diaries.</genreform>
-        <genreform source="aat" encodinganalog="655" ref="/subjects/3141">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655">Diaries.</genreform>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -110,12 +109,12 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [426208400893632]" altrender="folder">1</container>
+            <container type="folder" label="Folder">1</container>
             <unittitle>Papers</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">11 digital files</extent>
             </physdesc>
-            <dao show="new" actuate="onRequest" href="obrien0001" ref="/repositories/2/digital_objects/16896">
+            <dao show="new" actuate="onrequest" href="obrien0001">
               <daodesc>
                 <p>[view items]</p>
               </daodesc>
@@ -129,12 +128,12 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [47358241879407919]" altrender="folder">2</container>
+            <container type="folder" label="Folder">2</container>
             <unittitle>Photographs</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 digital files</extent>
             </physdesc>
-            <dao show="new" actuate="onRequest" href="obrien0002" ref="/repositories/2/digital_objects/16897">
+            <dao show="new" actuate="onrequest" href="obrien0002">
               <daodesc>
                 <p>[view items]</p>
               </daodesc>

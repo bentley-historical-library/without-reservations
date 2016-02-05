@@ -22,11 +22,10 @@
         <item>Original encoding from MARC record using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
-      <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
       <titleproper>Finding aid for <lb/>William Palmer Wells Papers, 1879</titleproper>
       <author>Finding aid created by <lb/>Bentley Historical Library Staff</author>
     </titlepage>
@@ -34,11 +33,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/29335">Wells, William Palmer, 1831-1891.</persname>
+        <persname source="lcnaf" encodinganalog="100">Wells, William Palmer, 1831-1891.</persname>
       </origination>
-      <unittitle encodinganalog="245">William Palmer Wells papers</unittitle>
-      <unitdate type="inclusive" encodinganalog="245$f" normal="1879">1879</unitdate>
-      <unitdate type="inclusive" encodinganalog="245$f">undated</unitdate>
+      <unittitle encodinganalog="245">William Palmer Wells papers <unitdate type="inclusive" encodinganalog="245$f" normal="1879">1879</unitdate>, <unitdate type="inclusive" encodinganalog="245$f">undated</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">86234 Aa/2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Professor of Law at University of Michigan. Papers consist of a communication to University of Michigan Board of Regents requesting leave of absence; doctor's report on his health; and four volumes of notes for his law lectures.</abstract>
@@ -62,8 +59,7 @@
         <p>Copyright is held by the Regents of the University of Michigan.</p>
       </userestrict>
       <prefercite encodinganalog="524">
-        <p>[item], folder, box,
-William Palmer Wells Papers, Bentley Historical Library, University of Michigan</p>
+        <p>[item], folder, box, William Palmer Wells Papers, Bentley Historical Library, University of Michigan</p>
       </prefercite>
     </descgrp>
     <bioghist encodinganalog="545">
@@ -78,9 +74,9 @@ William Palmer Wells Papers, Bentley Historical Library, University of Michigan<
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650" ref="/subjects/6478">Lawyers--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10881">University of Michigan. Dept. of Law.</corpname>
+        <subject source="lcsh" encodinganalog="650">Lawyers--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Law.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -90,7 +86,7 @@ William Palmer Wells Papers, Bentley Historical Library, University of Michigan<
         </did>
         <c02 level="file">
           <did>
-            <container label="Box [1784421827400842]" type="box" altrender="box">1</container>
+            <container label="Box" type="box">1</container>
             <unittitle>Correspondence re. health <unitdate type="inclusive" normal="1879">1879</unitdate></unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 items</extent>
@@ -103,25 +99,25 @@ William Palmer Wells Papers, Bentley Historical Library, University of Michigan<
           </did>
           <c03 level="item">
             <did>
-              <container label="Box [1784421827400842]" type="box" altrender="box">1</container>
+              <container label="Box" type="box">1</container>
               <unittitle>Lectures on Notes and Bills, vol. 1</unittitle>
             </did>
           </c03>
           <c03 level="item">
             <did>
-              <container label="Box [1784421827400842]" type="box" altrender="box">1</container>
+              <container label="Box" type="box">1</container>
               <unittitle>Lectures on Notes and Bills, vol. 2</unittitle>
             </did>
           </c03>
           <c03 level="item">
             <did>
-              <container label="Box [1784421827400842]" type="box" altrender="box">1</container>
+              <container label="Box" type="box">1</container>
               <unittitle>Lectures on Partnerships</unittitle>
             </did>
           </c03>
           <c03 level="item">
             <did>
-              <container label="Box [1784421827400842]" type="box" altrender="box">1</container>
+              <container label="Box" type="box">1</container>
               <unittitle>Lectures on Agency</unittitle>
             </did>
           </c03>

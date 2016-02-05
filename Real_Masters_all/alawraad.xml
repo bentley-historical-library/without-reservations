@@ -28,11 +28,10 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
-      <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
       <titleproper>Finding aid for <lb/>Raad Alawan video collection, 1960-2005</titleproper>
       <author>Finding aid created by <lb/>Michigan Historical Collections staff.</author>
     </titlepage>
@@ -40,11 +39,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/35176">Alawan, Raad.</persname>
+        <persname source="lcnaf" encodinganalog="100">Alawan, Raad.</persname>
       </origination>
-      <unittitle encodinganalog="245">Raad Alawan video collection</unittitle>
-      <unitdate type="inclusive" encodinganalog="245$f" normal="1960/2005">1960-2005</unitdate>
-      <unitdate type="bulk" encodinganalog="245$g" normal="2004/2005">2004-2005</unitdate>
+      <unittitle encodinganalog="245">Raad Alawan video collection <unitdate type="inclusive" encodinganalog="245$f" normal="1960/2005">1960-2005</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="2004/2005">2004-2005</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2009103 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>A Dearborn, Michigan writer and television producer. Collection includes DVDs of the interviews and film footage used in the production of his documentary, "New beginnings: the story of the Islamic Center of America."</abstract>
@@ -71,8 +68,7 @@
         <p>Copyright is held by the Regents of the University of Michigan.</p>
       </userestrict>
       <prefercite encodinganalog="524">
-        <p>[item], folder, box,
-Raad Alawan video collection, Bentley Historical Library, University of Michigan</p>
+        <p>[item], folder, box, Raad Alawan video collection, Bentley Historical Library, University of Michigan</p>
       </prefercite>
     </descgrp>
     <bioghist encodinganalog="545">
@@ -87,19 +83,19 @@ Raad Alawan video collection, Bentley Historical Library, University of Michigan
       </p>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35176">Alawan, Raad.</persname>
-        <subject source="lcsh" encodinganalog="650" ref="/subjects/5770">Islam--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/14492">Islamic Center of America (Dearborn, Mich.)</corpname>
-        <title source="aacr2" encodinganalog="740" ref="/subjects/2">New beginnings.</title>
+        <persname source="lcnaf" encodinganalog="600">Alawan, Raad.</persname>
+        <subject source="lcsh" encodinganalog="650">Islam--United States.</subject>
+        <corpname source="lcnaf" encodinganalog="610">Islamic Center of America (Dearborn, Mich.)</corpname>
+        <title source="aacr2" encodinganalog="740">New beginnings.</title>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n2007016972" ref="/agents/people/33284">Qazwini, Hassan, 1964-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n2007016972">Qazwini, Hassan, 1964-</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655" ref="/subjects/3160">DVDs.</genreform>
-        <genreform source="aat" encodinganalog="655" ref="/subjects/3161">Oral histories.</genreform>
+        <genreform source="aat" encodinganalog="655">DVDs.</genreform>
+        <genreform source="aat" encodinganalog="655">Oral histories.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -107,14 +103,13 @@ Raad Alawan video collection, Bentley Historical Library, University of Michigan
         <did>
           <unittitle>New Beginnings Documentary: Interviews and film footage</unittitle>
           <physdesc>
-            <physfacet>
-              <genreform normal="DVDs">DVDs</genreform>
-            </physfacet>
+            <extent>18 optical disks</extent>
+            <physfacet>DVDs</physfacet>
           </physdesc>
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0915180471781308000]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>Interviews: Hussein Makled, Rev. William Gepford, Sadone 'Sid' Mashike</unittitle>
           </did>
           <odd>
@@ -123,7 +118,7 @@ Raad Alawan video collection, Bentley Historical Library, University of Michigan
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0915180471781308000]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>Sadone 'Sid' Mashike, Ron Amen, Ali Makled</unittitle>
           </did>
           <odd>
@@ -132,7 +127,7 @@ Raad Alawan video collection, Bentley Historical Library, University of Michigan
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0915180471781308000]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>Charles Khalil Alawan</unittitle>
           </did>
           <odd>
@@ -141,7 +136,7 @@ Raad Alawan video collection, Bentley Historical Library, University of Michigan
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0915180471781308000]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>Nabiha Makki, Hussein Hamood</unittitle>
           </did>
           <odd>
@@ -150,7 +145,7 @@ Raad Alawan video collection, Bentley Historical Library, University of Michigan
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0915180471781308000]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>Nayef Samhat; Paul Bertin, David Donnellon (Designer &amp; Architect of Ford Road Mosque), Alan Abbas</unittitle>
           </did>
           <odd>
@@ -159,7 +154,7 @@ Raad Alawan video collection, Bentley Historical Library, University of Michigan
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0915180471781308000]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>Mohammad Turfe, Walid Harb, Joy Road Mosque/prayer, Nassib Fawaz</unittitle>
           </did>
           <odd>
@@ -168,7 +163,7 @@ Raad Alawan video collection, Bentley Historical Library, University of Michigan
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0915180471781308000]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>Adnan Chirri, Nadia Bazzy, Nouridine Saab</unittitle>
           </did>
           <odd>
@@ -177,7 +172,7 @@ Raad Alawan video collection, Bentley Historical Library, University of Michigan
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0915180471781308000]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>Imam Sayed Hassen Al-Qazwini</unittitle>
           </did>
           <odd>
@@ -186,7 +181,7 @@ Raad Alawan video collection, Bentley Historical Library, University of Michigan
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0915180471781308000]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>Jim Jouney, Various site locations, Hussein Makled</unittitle>
           </did>
           <odd>
@@ -195,7 +190,7 @@ Raad Alawan video collection, Bentley Historical Library, University of Michigan
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0915180471781308000]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>Various Locations: Women Baking, Ramadan, Joy Road Mosque <unitdate type="inclusive" normal="2004">2004</unitdate>; Ford Road Mosque new construction; Warren Ave. .</unittitle>
           </did>
           <odd>
@@ -204,7 +199,7 @@ Raad Alawan video collection, Bentley Historical Library, University of Michigan
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0915180471781308000]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>Various: Ford road site: winter day/night, interior, tour/Eide Alawan</unittitle>
           </did>
           <odd>
@@ -213,7 +208,7 @@ Raad Alawan video collection, Bentley Historical Library, University of Michigan
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0915180471781308000]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>Joy road site: Baking, Board of Trustees meeting, classrooms, Fellowship Breakfast; interviews/Hassen Restum &amp; Taher Mansour</unittitle>
           </did>
           <odd>
@@ -222,7 +217,7 @@ Raad Alawan video collection, Bentley Historical Library, University of Michigan
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0915180471781308000]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>Emad 'Eddie' Beydoun, Nassib Fawaz, Ford Road Mosque Interior</unittitle>
           </did>
           <odd>
@@ -231,7 +226,7 @@ Raad Alawan video collection, Bentley Historical Library, University of Michigan
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0915180471781308000]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>Nassib Fawaz; Exterior: Ford Road site/YMA, Littlefield Presbyterian Church, Dearborn</unittitle>
           </did>
           <odd>
@@ -240,7 +235,7 @@ Raad Alawan video collection, Bentley Historical Library, University of Michigan
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0915180471781308000]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>Ford Road construction; Old Hashmie Hall, Dearborn; Interviews: Allan Abass, Chafic Moussa, Moussa and Shadia Hamka</unittitle>
           </did>
           <odd>
@@ -249,7 +244,7 @@ Raad Alawan video collection, Bentley Historical Library, University of Michigan
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0915180471781308000]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>Islamic Center of Toledo; Ford Road construction; Hamka wedding, 4/29/05; Chandeliers, New Mosque Sanctuary, Ford Road</unittitle>
           </did>
           <odd>
@@ -258,7 +253,7 @@ Raad Alawan video collection, Bentley Historical Library, University of Michigan
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0915180471781308000]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>Altar Road/Ford Road; Roseland Park Cemetery; United Memorial Gardens, Islamic Section, M-14 &amp; Beck Road</unittitle>
           </did>
           <odd>
@@ -267,7 +262,7 @@ Raad Alawan video collection, Bentley Historical Library, University of Michigan
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0915180471781308000]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>Video Lectures of Imam Mohammad Jawad Chirri and miscellaneous footage. <unitdate type="inclusive" normal="1960/1970" certainty="approximate">circa 1960-1970</unitdate>;</unittitle>
           </did>
           <odd>

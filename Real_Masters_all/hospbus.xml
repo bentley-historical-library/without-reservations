@@ -27,11 +27,10 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-    <classification ref="/repositories/2/classifications/2"/>
   </eadheader>
   <frontmatter>
     <titlepage>
-      <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
       <titleproper>Finding aid for <lb/>Hospitals. Business office. <lb/>(University of Michigan) <lb/>Records, 1926-1977</titleproper>
       <author>Finding aid created by <lb/>Adriane Hanson, August 2005</author>
     </titlepage>
@@ -39,11 +38,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/10221">University of Michigan. Hospitals. Business Office.</corpname>
+        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Hospitals. Business Office.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Hospitals. Business office. (University of Michigan) records</unittitle>
-      <unitdate type="inclusive" encodinganalog="245$f" normal="1926/1977">1926-1977</unitdate>
-      <unitdate type="bulk" encodinganalog="245$g" normal="1950/1970">1950-1970</unitdate>
+      <unittitle encodinganalog="245">Hospitals. Business office. (University of Michigan) records, <unitdate type="inclusive" encodinganalog="245$f" normal="1926/1977">1926-1977</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1950/1970">1950-1970</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">05103 Bimu C500 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>The collection contains financial reports, budget information and patient statistics for the major divisions of the University of Michigan Hospitals. The major divisions include the General Hospital/General Division, Neuropsychiatric Institute, Veterans Readjustment Center, Clinical Research Unit, and Psychiatric Division.</abstract>
@@ -69,8 +66,7 @@
         <p>Copyright is held by the Regents of the University of Michigan.</p>
       </userestrict>
       <prefercite encodinganalog="524">
-        <p>[item], folder, box,
-Hospitals. Business office. (University of Michigan) Records, Bentley Historical Library, University of Michigan</p>
+        <p>[item], folder, box, Hospitals. Business office. (University of Michigan) Records, Bentley Historical Library, University of Michigan</p>
       </prefercite>
     </descgrp>
     <bioghist encodinganalog="545">
@@ -182,15 +178,15 @@ Hospitals. Business office. (University of Michigan) Records, Bentley Historical
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/10221">University of Michigan. Hospitals. Business Office.</corpname>
-        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/11098">University of Michigan. Hospitals.</corpname>
-        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n83201574" ref="/agents/corporate_entities/9632">University of Michigan--Finance.<term type="topical">Finance.</term></corpname>
-        <subject source="lcsh" encodinganalog="650" ref="/subjects/8306">Hospitals--Finance--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650" ref="/subjects/8307">Hospitals--Administration.</subject>
+        <corpname encodinganalog="610" source="lcnaf">University of Michigan. Hospitals. Business Office.</corpname>
+        <corpname encodinganalog="610" source="lcnaf">University of Michigan. Hospitals.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n83201574">University of Michigan--Finance.</corpname>
+        <subject source="lcsh" encodinganalog="650">Hospitals--Finance--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Hospitals--Administration.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655" ref="/subjects/3292">Budgets.</genreform>
+        <genreform source="aat" encodinganalog="655">Budgets.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -204,7 +200,7 @@ Hospitals. Business office. (University of Michigan) Records, Bentley Historical
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0388524884600034207161449]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>
               <unitdate type="inclusive" normal="1926/1936">1926-1936</unitdate>
             </unittitle>
@@ -215,7 +211,7 @@ Hospitals. Business office. (University of Michigan) Records, Bentley Historical
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [8274024192580190151]" altrender="box">2</container>
+            <container type="box" label="Box">2</container>
             <unittitle>
               <unitdate type="inclusive" normal="1936/1948">1936-1948</unitdate>
             </unittitle>
@@ -226,7 +222,7 @@ Hospitals. Business office. (University of Michigan) Records, Bentley Historical
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [05482516481486689245873246]" altrender="box">3</container>
+            <container type="box" label="Box">3</container>
             <unittitle>
               <unitdate type="inclusive" normal="1948/1973">1948-1973</unitdate>
             </unittitle>
@@ -245,37 +241,37 @@ Hospitals. Business office. (University of Michigan) Records, Bentley Historical
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [845675474192597144607]" altrender="box">4</container>
+            <container type="box" label="Box">4</container>
             <unittitle>Accounting Bulletins <unitdate type="inclusive" normal="1948/1950">1948-1950</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [845675474192597144607]" altrender="box">4</container>
+            <container type="box" label="Box">4</container>
             <unittitle>Analysis of Unpaid Accounts <unitdate type="inclusive" normal="1930/1932">1930-1932</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [845675474192597144607]" altrender="box">4</container>
+            <container type="box" label="Box">4</container>
             <unittitle>Board of Trustees of the Psychopathic Hospital Meeting Minutes <unitdate type="inclusive" normal="1928/1936">1928-1936</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [845675474192597144607]" altrender="box">4</container>
+            <container type="box" label="Box">4</container>
             <unittitle>Budget, General Hospital Budget Progress and Psychiatric Division <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [845675474192597144607]" altrender="box">4</container>
+            <container type="box" label="Box">4</container>
             <unittitle>Financial Statements, General Hospital and Psychiatric Division Expenses and Incomes <unitdate type="inclusive" normal="1961/1965">1961-1965</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [845675474192597144607]" altrender="box">4</container>
+            <container type="box" label="Box">4</container>
             <unittitle>Rate Schedules <unitdate type="inclusive" normal="1950/1956">1950-1956</unitdate></unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 volumes</extent>
@@ -284,19 +280,19 @@ Hospitals. Business office. (University of Michigan) Records, Bentley Historical
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [596786946081597627162]" altrender="box">5</container>
+            <container type="box" label="Box">5</container>
             <unittitle>A Report on the General Ledger of the University Hospital <unitdate type="inclusive" normal="1928">1928</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [596786946081597627162]" altrender="box">5</container>
+            <container type="box" label="Box">5</container>
             <unittitle>Salary and Wage Ranges and Guidelines <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [596786946081597627162]" altrender="box">5</container>
+            <container type="box" label="Box">5</container>
             <unittitle>Standard Practices <unitdate type="inclusive" normal="1933/1955">1933-1955</unitdate></unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
@@ -313,7 +309,7 @@ Hospitals. Business office. (University of Michigan) Records, Bentley Historical
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [3700145260804881434]" altrender="box">6</container>
+            <container type="box" label="Box">6</container>
             <unittitle>
               <unitdate type="inclusive" normal="1947/1954">1947-1954</unitdate>
             </unittitle>
@@ -327,7 +323,7 @@ Hospitals. Business office. (University of Michigan) Records, Bentley Historical
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [808015648693825]" altrender="box">7</container>
+            <container type="box" label="Box">7</container>
             <unittitle>
               <unitdate type="inclusive" normal="1954/1960">1954-1960</unitdate>
             </unittitle>
@@ -341,7 +337,7 @@ Hospitals. Business office. (University of Michigan) Records, Bentley Historical
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [19303733174301609947361]" altrender="box">8</container>
+            <container type="box" label="Box">8</container>
             <unittitle>
               <unitdate type="inclusive" normal="1960/1966">1960-1966</unitdate>
             </unittitle>
@@ -355,7 +351,7 @@ Hospitals. Business office. (University of Michigan) Records, Bentley Historical
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [501219743966711381532]" altrender="box">9</container>
+            <container type="box" label="Box">9</container>
             <unittitle>
               <unitdate type="inclusive" normal="1966/1972">1966-1972</unitdate>
             </unittitle>
@@ -369,7 +365,7 @@ Hospitals. Business office. (University of Michigan) Records, Bentley Historical
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [43615526473939504472]" altrender="box">10</container>
+            <container type="box" label="Box">10</container>
             <unittitle>
               <unitdate type="inclusive" normal="1972/1977">1972-1977</unitdate>
             </unittitle>
@@ -392,7 +388,7 @@ Hospitals. Business office. (University of Michigan) Records, Bentley Historical
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4409445188762163]" altrender="box">11</container>
+            <container type="box" label="Box">11</container>
             <unittitle>
               <unitdate type="inclusive" normal="1949/1955">1949-1955</unitdate>
             </unittitle>
@@ -403,7 +399,7 @@ Hospitals. Business office. (University of Michigan) Records, Bentley Historical
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [418011529749290336543866366]" altrender="box">12</container>
+            <container type="box" label="Box">12</container>
             <unittitle>
               <unitdate type="inclusive" normal="1955/1959">1955-1959</unitdate>
             </unittitle>
@@ -414,7 +410,7 @@ Hospitals. Business office. (University of Michigan) Records, Bentley Historical
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4466748887813824]" altrender="box">13</container>
+            <container type="box" label="Box">13</container>
             <unittitle>
               <unitdate type="inclusive" normal="1959/1963">1959-1963</unitdate>
             </unittitle>
@@ -425,7 +421,7 @@ Hospitals. Business office. (University of Michigan) Records, Bentley Historical
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [617688824568913012403]" altrender="box">14</container>
+            <container type="box" label="Box">14</container>
             <unittitle>
               <unitdate type="inclusive" normal="1963/1966">1963-1966</unitdate>
             </unittitle>
@@ -436,7 +432,7 @@ Hospitals. Business office. (University of Michigan) Records, Bentley Historical
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [02307553445391291025]" altrender="box">15</container>
+            <container type="box" label="Box">15</container>
             <unittitle>
               <unitdate type="inclusive" normal="1966/1971">1966-1971</unitdate>
             </unittitle>
@@ -456,7 +452,7 @@ Hospitals. Business office. (University of Michigan) Records, Bentley Historical
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [994044794537436]" altrender="box">16</container>
+            <container type="box" label="Box">16</container>
             <unittitle>
               <unitdate type="inclusive" normal="1948/1959">1948-1959</unitdate>
             </unittitle>
@@ -467,7 +463,7 @@ Hospitals. Business office. (University of Michigan) Records, Bentley Historical
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [24745729419349066]" altrender="box">17</container>
+            <container type="box" label="Box">17</container>
             <unittitle>
               <unitdate type="inclusive" normal="1959/1970">1959-1970</unitdate>
             </unittitle>
@@ -478,7 +474,7 @@ Hospitals. Business office. (University of Michigan) Records, Bentley Historical
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [903178141587830308812]" altrender="box">18</container>
+            <container type="box" label="Box">18</container>
             <unittitle>
               <unitdate type="inclusive" normal="1970/1973">1970-1973</unitdate>
             </unittitle>
@@ -489,7 +485,7 @@ Hospitals. Business office. (University of Michigan) Records, Bentley Historical
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [903178141587830308812]" altrender="box">18</container>
+            <container type="box" label="Box">18</container>
             <unittitle>
               <unitdate type="inclusive" normal="1973/1975">1973-1975</unitdate>
             </unittitle>
@@ -508,7 +504,7 @@ Hospitals. Business office. (University of Michigan) Records, Bentley Historical
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [500639277458298681678851]" altrender="box">19</container>
+            <container type="box" label="Box">19</container>
             <unittitle>
               <unitdate type="inclusive" normal="1961/1966">1961-1966</unitdate>
             </unittitle>
@@ -519,7 +515,7 @@ Hospitals. Business office. (University of Michigan) Records, Bentley Historical
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6546674604094026975027]" altrender="box">20</container>
+            <container type="box" label="Box">20</container>
             <unittitle>
               <unitdate type="inclusive" normal="1966/1970">1966-1970</unitdate>
             </unittitle>
@@ -538,7 +534,7 @@ Hospitals. Business office. (University of Michigan) Records, Bentley Historical
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6546674604094026975027]" altrender="box">20</container>
+            <container type="box" label="Box">20</container>
             <unittitle>
               <unitdate type="inclusive" normal="1967/1969">1967-1969</unitdate>
             </unittitle>

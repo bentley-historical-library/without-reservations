@@ -27,11 +27,10 @@
         <item>Edited to reflect migration of content from CD-ROM to Deep Blue JMBG</item>
       </change>
     </revisiondesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
-      <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
       <titleproper>Finding Aid for <lb/>Martin Rasmussen photograph collection, <date>[1918?]</date></titleproper>
       <author>Finding aid prepared by: <lb/>Len Coombs</author>
     </titlepage>
@@ -39,7 +38,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33158">Rasmussen, Martin.</persname>
+        <persname source="lcnaf" encodinganalog="100">Rasmussen, Martin.</persname>
       </origination>
       <unittitle encodinganalog="245">Martin Rasmussen photograph collection <unitdate type="inclusive" encodinganalog="245$f" normal="1918" certainty="approximate">circa 1918</unitdate></unittitle>
       <abstract>Scanned copy of photograph of Martin Rasmussen, who served in Headquarters Company, 339th U.S. Infantry, during the American intervention in North Russia, the "Polar Bear Expedition."</abstract>
@@ -56,8 +55,7 @@
     </did>
     <descgrp type="admin">
       <acqinfo encodinganalog="541">
-        <p>The collection was donated by Marty Rasmussen in 2010
-(Donor no.: <num type="donor" encodinganalog="541$e">10442</num>).</p>
+        <p>The collection was donated by Marty Rasmussen in 2010 (Donor no.: <num type="donor" encodinganalog="541$e">10442</num>).</p>
       </acqinfo>
       <accessrestrict encodinganalog="506">
         <p>The collection is open for research.</p>
@@ -80,14 +78,14 @@
       </p>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33158">Rasmussen, Martin.</persname>
-        <geogname source="lcnaf" encodinganalog="651" ref="/subjects/760">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82129076" ref="/agents/corporate_entities/13060">United States. Army. Infantry, 339th.</corpname>
-        <subject source="local" encodinganalog="690" authfilenumber="http://id.loc.gov/authorities/names/n2008059426" ref="/subjects/3518">Polar Bear Expedition.</subject>
+        <persname source="lcnaf" encodinganalog="600">Rasmussen, Martin.</persname>
+        <geogname source="lcnaf" encodinganalog="651">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82129076">United States. Army. Infantry, 339th.</corpname>
+        <subject source="local" encodinganalog="690" authfilenumber="http://id.loc.gov/authorities/names/n2008059426">Polar Bear Expedition.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655" normal="Photographs." ref="/subjects/3141">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" normal="Photographs.">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -97,12 +95,12 @@
         </did>
         <c02 level="file">
           <did>
-            <container label="Folder [7311101483472139059404]" type="folder" altrender="folder">1</container>
+            <container label="Folder" type="folder">1</container>
             <unittitle>Photograph</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">1 digital files</extent>
             </physdesc>
-            <dao show="new" actuate="onRequest" href="rasmussenm0001" ref="/repositories/2/digital_objects/17119">
+            <dao show="new" actuate="onrequest" href="rasmussenm0001">
               <daodesc>
                 <p>[view items]</p>
               </daodesc>
