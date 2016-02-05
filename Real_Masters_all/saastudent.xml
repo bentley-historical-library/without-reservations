@@ -24,11 +24,10 @@
         <item>Original encoding from Word 10.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-    <classification ref="/repositories/2/classifications/2"/>
   </eadheader>
   <frontmatter>
     <titlepage>
-      <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
       <titleproper>Finding aid for<lb/> Society of American Archivists Student Chapter <lb/>(University of Michigan) <lb/>records, 1993-1996</titleproper>
       <author>Finding aid created by<lb/> Max Eckard, in October 2015. </author>
     </titlepage>
@@ -36,7 +35,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/8838">Society of American Archivists. University of Michigan Student Chapter.</corpname>
+        <corpname source="lcnaf" encodinganalog="110">Society of American Archivists. University of Michigan Student Chapter.</corpname>
       </origination>
       <unittitle encodinganalog="245"> Society of American Archivists Student Chapter (University of Michigan) records. <unitdate type="inclusive" encodinganalog="245$f"> 1993-1996 </unitdate></unittitle>
       <physdesc altrender="part">
@@ -91,15 +90,15 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650" ref="/subjects/9943">Archivists--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/8838">Society of American Archivists. University of Michigan Student Chapter.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Students--Societies, etc.<term type="topical">Students</term><term type="topical">Societies, etc.</term></corpname>
+        <subject source="lcsh" encodinganalog="650">Archivists--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610">Society of American Archivists. University of Michigan Student Chapter.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Societies, etc.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655" ref="/subjects/3290">Administrative records.</genreform>
-        <genreform source="aat" encodinganalog="655" ref="/subjects/3193">Digital file formats.</genreform>
-        <genreform source="aat" encodinganalog="655" ref="/subjects/3359">Electronic mail.</genreform>
+        <genreform source="aat" encodinganalog="655">Administrative records.</genreform>
+        <genreform source="aat" encodinganalog="655">Digital file formats.</genreform>
+        <genreform source="aat" encodinganalog="655">Electronic mail.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -112,12 +111,12 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [92284987488791008764]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>
               <unitdate type="inclusive" normal="1993/1995">1993-1995</unitdate>
             </unittitle>
-            <physdesc altrender="whole">
-              <extent altrender="materialtype spaceoccupied">3 folders</extent>
+            <physdesc>
+              <extent>3 folders</extent>
             </physdesc>
           </did>
         </c02>
@@ -138,7 +137,7 @@
             <physdesc>
               <physfacet> (.ZIP file) </physfacet>
             </physdesc>
-            <dao href="http://hdl.handle.net/2027.42/115467" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/17341">
+            <dao href="http://hdl.handle.net/2027.42/115467" show="new" actuate="onrequest">
               <daodesc>
                 <p>[download item]</p>
               </daodesc>

@@ -24,11 +24,10 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-    <classification ref="/repositories/2/classifications/2"/>
   </eadheader>
   <frontmatter>
     <titlepage>
-      <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
       <titleproper>Finding aid for <lb/>Donald J. Lewis papers, 1961-2007</titleproper>
       <author>Finding aid created by <lb/>Lisa Wright, January 2008</author>
     </titlepage>
@@ -36,11 +35,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n88671053" ref="/agents/people/27465">Lewis, Donald J. (Donald John), 1926-</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n88671053">Lewis, Donald J. (Donald John), 1926-</persname>
       </origination>
-      <unittitle encodinganalog="245">Donald J. Lewis papers</unittitle>
-      <unitdate type="inclusive" encodinganalog="245$f" normal="1961/2007">1961-2007</unitdate>
-      <unitdate type="bulk" encodinganalog="245$g" normal="1970/1995">1970-1995</unitdate>
+      <unittitle encodinganalog="245">Donald J. Lewis papers <unitdate type="inclusive" encodinganalog="245$f" normal="1961/2007">1961-2007</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1970/1995">1970-1995</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2008017 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Donald J. Lewis joined the University of Michigan as a professor of mathematics in 1961. From 1984-1994 he served as the Department of Mathematics chairman. After retiring, Lewis was named professor emeritus by the Board of Regents in June 2000. Materials include: Correspondence, Department of Mathematics records, Professional Activities, Reports and Studies, and Photographs.</abstract>
@@ -66,8 +63,7 @@
         <p>Copyright is held by the Regents of the University of Michigan.</p>
       </userestrict>
       <prefercite encodinganalog="524">
-        <p>[item], folder, box,
-Donald J. Lewis papers, Bentley Historical Library, University of Michigan</p>
+        <p>[item], folder, box, Donald J. Lewis papers, Bentley Historical Library, University of Michigan</p>
       </prefercite>
     </descgrp>
     <bioghist encodinganalog="545">
@@ -86,16 +82,16 @@ Donald J. Lewis papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79060639" ref="/agents/corporate_entities/12029">American Mathematical Society.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88671053" ref="/agents/people/27465">Lewis, Donald J. (Donald John), 1926-</persname>
-        <subject source="lcsh" encodinganalog="650" ref="/subjects/6252">Mathematics.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79005681" ref="/agents/corporate_entities/13052">National Science Foundation (U.S.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88657243" ref="/agents/corporate_entities/10067">University of Michigan. Dept. of Mathematics.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79060639">American Mathematical Society.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88671053">Lewis, Donald J. (Donald John), 1926-</persname>
+        <subject source="lcsh" encodinganalog="650">Mathematics.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79005681">National Science Foundation (U.S.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88657243">University of Michigan. Dept. of Mathematics.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform encodinganalog="655" source="aat" ref="/subjects/3141">Photographs.</genreform>
+        <genreform encodinganalog="655" source="aat">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -108,14 +104,13 @@ Donald J. Lewis papers, Bentley Historical Library, University of Michigan</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [839194062340017972]" altrender="box">1</container>
-            <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate>
-            <unitdate type="inclusive" normal="1969">1969</unitdate>
+            <container type="box" label="Box">1</container>
+            <unittitle><unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate>, <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [839194062340017972]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>
               <unitdate type="inclusive" normal="1970/1979">1970-1979</unitdate>
             </unittitle>
@@ -123,7 +118,7 @@ Donald J. Lewis papers, Bentley Historical Library, University of Michigan</p>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [839194062340017972]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>
               <unitdate type="inclusive" normal="1984/1989">1984-1989</unitdate>
             </unittitle>
@@ -131,7 +126,7 @@ Donald J. Lewis papers, Bentley Historical Library, University of Michigan</p>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [839194062340017972]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>
               <unitdate type="inclusive" normal="1990/1995">1990-1995</unitdate>
             </unittitle>
@@ -151,27 +146,25 @@ Donald J. Lewis papers, Bentley Historical Library, University of Michigan</p>
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [839194062340017972]" altrender="box">1</container>
-              <unittitle>Department Reviews/Reports</unittitle>
-              <unitdate type="inclusive" normal="1979">1979</unitdate>
-              <unitdate type="inclusive" normal="2005">2005</unitdate>
+              <container type="box" label="Box">1</container>
+              <unittitle>Department Reviews/Reports <unitdate type="inclusive" normal="1979">1979</unitdate>, <unitdate type="inclusive" normal="2005">2005</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [839194062340017972]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>Chairmanship Papers <unitdate type="inclusive" normal="1984/1994">1984-1994</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [839194062340017972]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>Development Coordinator Papers <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [839194062340017972]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>Lecture on the Math Department <unitdate type="inclusive">undated</unitdate></unittitle>
             </did>
           </c03>
@@ -182,27 +175,25 @@ Donald J. Lewis papers, Bentley Historical Library, University of Michigan</p>
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [839194062340017972]" altrender="box">1</container>
-              <unittitle>Elementary Mathematics Curriculum Committee</unittitle>
-              <unitdate type="inclusive" normal="1961/1965">1961-1965</unitdate>
-              <unitdate type="inclusive" normal="1992">1992</unitdate>
+              <container type="box" label="Box">1</container>
+              <unittitle>Elementary Mathematics Curriculum Committee <unitdate type="inclusive" normal="1961/1965">1961-1965</unitdate>, <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [839194062340017972]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>Ad Hoc Committee on Doctoral Programs <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [839194062340017972]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>Ad Hoc Committee on Programs for Training Mathematics Teachers for Two Year Colleges <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [839194062340017972]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>Personnel Committee <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate></unittitle>
             </did>
           </c03>
@@ -213,37 +204,37 @@ Donald J. Lewis papers, Bentley Historical Library, University of Michigan</p>
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [839194062340017972]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>Grant Proposal: Summer Research Institute for Young Number Theorists <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [839194062340017972]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>Actuarial Program Initiative <unitdate type="inclusive" normal="1992/1995">1992-1995</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [839194062340017972]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>University of Minnesota/Michigan Curriculum Initiative <unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [839194062340017972]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>Mathematics Computing Labs Equipment Grant Proposal to Hewlett Packard <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [839194062340017972]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>Math of Finance Degree Program Initiative <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [839194062340017972]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>Proposal for Undergraduate Concentration in Risk and Finance <unitdate type="inclusive" normal="1999/2000">1999-2000</unitdate></unittitle>
             </did>
           </c03>
@@ -262,21 +253,19 @@ Donald J. Lewis papers, Bentley Historical Library, University of Michigan</p>
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [839194062340017972]" altrender="box">1</container>
-              <unittitle>Mathematical Reviews</unittitle>
-              <unitdate type="inclusive" normal="1974">1974</unitdate>
-              <unitdate type="inclusive" normal="1976/1977">1976-1977</unitdate>
+              <container type="box" label="Box">1</container>
+              <unittitle>Mathematical Reviews <unitdate type="inclusive" normal="1974">1974</unitdate>, <unitdate type="inclusive" normal="1976/1977">1976-1977</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [839194062340017972]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>AMS Committee on Publications <unitdate type="inclusive" normal="1976/1977">1976-1977</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [839194062340017972]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>AMS Task Force on Employment <unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate></unittitle>
             </did>
           </c03>
@@ -287,16 +276,14 @@ Donald J. Lewis papers, Bentley Historical Library, University of Michigan</p>
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [839194062340017972]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>NSF Alliance for Minority Participation <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [839194062340017972]" altrender="box">1</container>
-              <unittitle>Draft of Report and Related Presentation: Natural Science and Engineering in the</unittitle>
-              <unitdate type="inclusive" normal="1990/1999" certainty="approximate">1990s</unitdate>
-              <unitdate type="inclusive">undated</unitdate>
+              <container type="box" label="Box">1</container>
+              <unittitle>Draft of Report and Related Presentation: Natural Science and Engineering in the <unitdate type="inclusive" normal="1990/1999" certainty="approximate">1990s</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
             </did>
           </c03>
         </c02>
@@ -310,55 +297,46 @@ Donald J. Lewis papers, Bentley Historical Library, University of Michigan</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [839194062340017972]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>Statement on High School Mathematics Program for the College Bound Student <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [839194062340017972]" altrender="box">1</container>
-            <unittitle>Sloan Study and Related Materials</unittitle>
-            <unitdate type="inclusive" normal="1986">1986</unitdate>
-            <unitdate type="inclusive" normal="1989">1989</unitdate>
-            <unitdate type="inclusive" normal="1990/1992">1990-1992</unitdate>
+            <container type="box" label="Box">1</container>
+            <unittitle>Sloan Study and Related Materials <unitdate type="inclusive" normal="1986">1986</unitdate>, <unitdate type="inclusive" normal="1989">1989</unitdate>, <unitdate type="inclusive" normal="1990/1992">1990-1992</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [839194062340017972]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>Report on Post Doctoral Education <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [839194062340017972]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>Report on Germany Tour <unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [839194062340017972]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>Report of the External Review Committee on the Math Department at Virginia Tech <unitdate type="inclusive" normal="2007">2007</unitdate></unittitle>
           </did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Photographs</unittitle>
-          <unitdate type="inclusive" normal="1960/1969" certainty="approximate">circa 1960s</unitdate>
-          <unitdate type="inclusive" normal="1986">1986</unitdate>
-          <unitdate type="inclusive">undated</unitdate>
+          <unittitle>Photographs <unitdate type="inclusive" normal="1960/1969" certainty="approximate">circa 1960s</unitdate>, <unitdate type="inclusive" normal="1986">1986</unitdate>, and <unitdate type="inclusive">undated</unitdate></unittitle>
         </did>
         <scopecontent>
           <p>The Photographs series (ca. 1960s- 1990s, scattered) consist of three photographs. Two photographs are group shots from conferences attended by Lewis and include sheets identifying the conference participants in the photo. The third photograph is a shot of Lewis, Patricia Gurin, and Homer Neal at the ground breaking of the physics addition to what is now West Hall (labeled as East Hall in the photograph).</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [839194062340017972]" altrender="box">1</container>
-            <unittitle>Photographs</unittitle>
-            <unitdate type="inclusive" normal="1960/1969" certainty="approximate">circa 1960s</unitdate>
-            <unitdate type="inclusive" normal="1986">1986</unitdate>
-            <unitdate type="inclusive">undated</unitdate>
+            <container type="box" label="Box">1</container>
+            <unittitle>Photographs <unitdate type="inclusive" normal="1960/1969" certainty="approximate">circa 1960s</unitdate>, <unitdate type="inclusive" normal="1986">1986</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
           </did>
         </c02>
       </c01>

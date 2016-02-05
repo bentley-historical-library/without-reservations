@@ -43,11 +43,10 @@
         <item>Original encoding from Microsoft Word 6.0 file</item>
       </change>
     </revisiondesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
-      <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
       <titleproper>Finding Aid for the <lb/>Walter E. Lay Papers, <date>1889-1993</date></titleproper>
       <author>Finding Aid prepared by: <lb/>Eric Hartmann, October 1996.</author>
     </titlepage>
@@ -55,7 +54,7 @@
   <archdesc level="collection" type="inventory" audience="external" relatedencoding="MARC21">
     <did>
       <origination encodinganalog="100">
-        <persname source="lcnaf" ref="/agents/people/29272">Lay, Walter Edwin.</persname>
+        <persname source="lcnaf">Lay, Walter Edwin.</persname>
       </origination>
       <unittitle encodinganalog="245">Walter E. Lay Papers, <unitdate encodinganalog="245$f" type="inclusive" normal="1889/1993">1889-1993</unitdate></unittitle>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">9667 AA 2</unitid>
@@ -90,17 +89,7 @@
       <p>Walter E. Lay was born in Fulton, Michigan on February 5, 1889. He graduated from the University of Michigan in 1915 with a degree in Mechanical Engineering. He began teaching in the Department of Mechanical Engineering later that year. Professor Lay was a pioneer in the area of automobile streaming and he wrote the "bible" on seat design. He had extensive contacts in the automobile industry and spent several summers in research and experimental capacities at Chevrolet, General Motors, Packard and the National Advisory Committee for Aeronautics. His activities lead directly to the growth and development of the Automotive Engineering Laboratory now known as the Walter E. Lay Auto Lab. He became a full professor in 1930 and was named director of the lab. Professor Lay retired from the university in 1958. He was granted emeritus status in 1959. After his retirement from the university he remained interested in automotive design issues and also pursued interests in physics and chemistry. He moved to East Lansing in 1972 and died on August 28, 1974.</p>
     </bioghist>
     <arrangement encodinganalog="351">
-      <p>This collection is divided into six series:
-        <list type="simple">
-          <item>Building and Space Concerns</item>
-          <item>Examinations</item>
-          <item>Lecture Notes</item>
-          <item>Personal</item>
-          <item>Problem Sets</item>
-          <item>Research</item>
-          <item>Visual Materials.</item>
-        </list>
-      </p>
+      <p>This collection is divided into six series: <list type="simple"><item>Building and Space Concerns</item><item>Examinations</item><item>Lecture Notes</item><item>Personal</item><item>Problem Sets</item><item>Research</item><item>Visual Materials.</item></list> </p>
     </arrangement>
     <scopecontent encodinganalog="520">
       <p>The Walter E. Lay papers include examinations; lecture notes; problem sets; research files; files relating to the building and expansion of the department of mechanical engineering and the Automotive Engineering Laboratory; and visual materials.</p>
@@ -111,22 +100,22 @@
       </p>
       <controlaccess>
         <head>Subject:</head>
-        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29272">Lay, Walter Edwin.</persname>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13964">University of Michigan. Automotive Engineering Laboratory.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83062297" ref="/agents/corporate_entities/14657">University of Michigan. Dept. of Mechanical Engineering.</corpname>
+        <persname source="lcnaf" encodinganalog="600">Lay, Walter Edwin.</persname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Automotive Engineering Laboratory.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83062297">University of Michigan. Dept. of Mechanical Engineering.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subject- Visual Materials:</head>
-        <subject source="lcsh" encodinganalog="650" ref="/subjects/10245">Automobiles--Design and construction.</subject>
-        <subject source="lctgm" encodinganalog="650" ref="/subjects/4089">Laboratories--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13964">University of Michigan. Automotive Engineering Laboratory.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10624">Walter E. Lay Automotive Laboratory (University of Michigan)</corpname>
-        <persname source="lcnaf" ref="/agents/people/29272">Lay, Walter Edwin.</persname>
+        <subject source="lcsh" encodinganalog="650">Automobiles--Design and construction.</subject>
+        <subject source="lctgm" encodinganalog="650">Laboratories--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Automotive Engineering Laboratory.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Walter E. Lay Automotive Laboratory (University of Michigan)</corpname>
+        <persname source="lcnaf">Lay, Walter Edwin.</persname>
       </controlaccess>
       <controlaccess>
         <head>Form and GenreTerms:</head>
-        <genreform source="aat" encodinganalog="655" ref="/subjects/3141">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -139,25 +128,25 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container label="Box [7751864956957595489]" type="box" altrender="box">1</container>
+            <container label="Box" type="box">1</container>
             <unittitle>"Automotive Division of the Mechanical Laboratory Proposed Layout" <unitdate type="inclusive" normal="1936/1938">1936-1938</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7751864956957595489]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>"Automotive Laboratory Equipment, Space etc.," <unitdate type="inclusive" normal="1919">1919</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7751864956957595489]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>Untitled <unitdate type="inclusive" normal="1928/1936">1928-1936</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7751864956957595489]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>Untitled <unitdate type="inclusive" normal="1943/1945">1943-1945</unitdate></unittitle>
           </did>
         </c02>
@@ -171,37 +160,37 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container label="Box [7751864956957595489]" type="box" altrender="box">1</container>
+            <container label="Box" type="box">1</container>
             <unittitle>ME 14 <unitdate type="inclusive" normal="1935/1938">1935-1938</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7751864956957595489]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>ME 60 <unitdate normal="1940/1945">1940-1945</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7751864956957595489]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>ME 114 <unitdate type="inclusive" normal="1950/1958">1950-1958</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7751864956957595489]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>ME 150 <unitdate type="inclusive" normal="1951/1958">1951-1958</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7751864956957595489]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>ME 155 <unitdate type="inclusive" normal="1947">1947</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7751864956957595489]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>ME 160 <unitdate type="inclusive" normal="1946">1946</unitdate></unittitle>
           </did>
         </c02>
@@ -215,13 +204,13 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container label="Box [7751864956957595489]" type="box" altrender="box">1</container>
+            <container label="Box" type="box">1</container>
             <unittitle>History of the Automobile <unitdate normal="1947/1964">1947-1964</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [7751864956957595489]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>ME 3 <unitdate type="inclusive">undated</unitdate></unittitle>
           </did>
         </c02>
@@ -231,7 +220,7 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7751864956957595489]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1947/1964">1947-1964</unitdate>
               </unittitle>
@@ -242,25 +231,25 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7751864956957595489]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>Clutch Transmission, Axles Steering, Brakes, Performance Maintenance <unitdate type="inclusive" normal="1941/1956">1941-1956</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7751864956957595489]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>Fuels Carburetor, Lubricant Bearings <unitdate type="inclusive" normal="1934/1955">1934-1955</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7751864956957595489]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>History, Statistics and Materials <unitdate type="inclusive" normal="1939/1951">1939-1951</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7751864956957595489]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>Schedules <unitdate type="inclusive" normal="1950/1956">1950-1956</unitdate></unittitle>
             </did>
           </c03>
@@ -271,7 +260,7 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7751864956957595489]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>Engine Tests 2-12 <unitdate type="inclusive">undated</unitdate></unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -280,7 +269,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7751864956957595489]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>Engine Tests 1-13 <unitdate type="inclusive" normal="1945/1958">1945-1958</unitdate></unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
@@ -289,19 +278,19 @@
           </c03>
           <c03 level="file">
             <did>
-              <container label="Box [580611724479228603266065]" type="box" altrender="box">2</container>
+              <container label="Box" type="box">2</container>
               <unittitle>General Handouts <unitdate type="inclusive" normal="1952/1957">1952-1957</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [580611724479228603266065]" altrender="box">2</container>
+              <container type="box" label="Box">2</container>
               <unittitle>Instrumentation <unitdate type="inclusive" normal="1956/1960">1956-1960</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [580611724479228603266065]" altrender="box">2</container>
+              <container type="box" label="Box">2</container>
               <unittitle>Schedules <unitdate type="inclusive" normal="1949/1958">1949-1958</unitdate></unittitle>
             </did>
           </c03>
@@ -316,7 +305,7 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container label="Box [580611724479228603266065]" type="box" altrender="box">2</container>
+            <container label="Box" type="box">2</container>
             <unittitle>Clippings <unitdate normal="1956/1983">1956-1983</unitdate></unittitle>
           </did>
         </c02>
@@ -326,26 +315,26 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [580611724479228603266065]" altrender="box">2</container>
+              <container type="box" label="Box">2</container>
               <unittitle>Correspondence <unitdate type="inclusive" normal="1955/1965">1955-1965</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [580611724479228603266065]" altrender="box">2</container>
+              <container type="box" label="Box">2</container>
               <unittitle>Directories <unitdate type="inclusive" normal="1915/1965">1915-1965</unitdate></unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [580611724479228603266065]" altrender="box">2</container>
+            <container type="box" label="Box">2</container>
             <unittitle>Correspondence <unitdate type="inclusive" normal="1957/1973">1957-1973</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [580611724479228603266065]" altrender="box">2</container>
+            <container type="box" label="Box">2</container>
             <unittitle>Fiftieth Wedding Anniversary <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
           </did>
         </c02>
@@ -355,38 +344,38 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [580611724479228603266065]" altrender="box">2</container>
+              <container type="box" label="Box">2</container>
               <unittitle>Citation from College of Engineering <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [580611724479228603266065]" altrender="box">2</container>
+              <container type="box" label="Box">2</container>
               <unittitle>Dedication of Walter E. Lay Auto Lab <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [580611724479228603266065]" altrender="box">2</container>
+            <container type="box" label="Box">2</container>
             <unittitle>History <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [580611724479228603266065]" altrender="box">2</container>
+            <container type="box" label="Box">2</container>
             <unittitle>Obituary and Condolences <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [580611724479228603266065]" altrender="box">2</container>
+            <container type="box" label="Box">2</container>
             <unittitle>Programs <unitdate type="inclusive" normal="1953/1993">1953-1993</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [580611724479228603266065]" altrender="box">2</container>
+            <container type="box" label="Box">2</container>
             <unittitle>Rogue's Gallery <unitdate type="inclusive" normal="1952">1952</unitdate></unittitle>
           </did>
         </c02>
@@ -404,7 +393,7 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [580611724479228603266065]" altrender="box">2</container>
+              <container type="box" label="Box">2</container>
               <unittitle>Untitled <unitdate type="inclusive" normal="1953/1958">1953-1958</unitdate></unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -413,7 +402,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [580611724479228603266065]" altrender="box">2</container>
+              <container type="box" label="Box">2</container>
               <unittitle>Chapter 1-17 <unitdate type="inclusive" normal="1950/1957">1950-1957</unitdate></unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
@@ -423,7 +412,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [580611724479228603266065]" altrender="box">2</container>
+            <container type="box" label="Box">2</container>
             <unittitle>ME 150 <unitdate type="inclusive" normal="1954/1958">1954-1958</unitdate></unittitle>
           </did>
         </c02>
@@ -437,43 +426,43 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container label="Box [580611724479228603266065]" type="box" altrender="box">2</container>
+            <container label="Box" type="box">2</container>
             <unittitle>Acceleration Tests <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [580611724479228603266065]" altrender="box">2</container>
+            <container type="box" label="Box">2</container>
             <unittitle>Electric Car <unitdate type="inclusive" normal="1959/1961">1959-1961</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [580611724479228603266065]" altrender="box">2</container>
+            <container type="box" label="Box">2</container>
             <unittitle>Gas Turbines <unitdate type="inclusive" normal="1960/1964">1960-1964</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [580611724479228603266065]" altrender="box">2</container>
+            <container type="box" label="Box">2</container>
             <unittitle>Heat to Electric Power <unitdate type="inclusive" normal="1953/1959">1953-1959</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [580611724479228603266065]" altrender="box">2</container>
+            <container type="box" label="Box">2</container>
             <unittitle>Published Work <unitdate type="inclusive" normal="1921/1968">1921-1968</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [580611724479228603266065]" altrender="box">2</container>
+            <container type="box" label="Box">2</container>
             <unittitle>Report on the Doble Steam Power Plant <unitdate type="inclusive" normal="1917">1917</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [580611724479228603266065]" altrender="box">2</container>
+            <container type="box" label="Box">2</container>
             <unittitle>Streamlining of Automobiles <unitdate type="inclusive" normal="1917/1960">1917-1960</unitdate></unittitle>
           </did>
         </c02>
@@ -493,13 +482,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [580611724479228603266065]" altrender="box">2</container>
+              <container type="box" label="Box">2</container>
               <unittitle>Untitled <unitdate type="inclusive">undated</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [580611724479228603266065]" altrender="box">2</container>
+              <container type="box" label="Box">2</container>
               <unittitle>Auto Lab <unitdate type="inclusive" normal="1950/1959">1950-1959</unitdate></unittitle>
             </did>
           </c03>
@@ -509,13 +498,13 @@
             </did>
             <c04 level="otherlevel">
               <did>
-                <container type="box" label="Box [580611724479228603266065]" altrender="box">2</container>
+                <container type="box" label="Box">2</container>
                 <unittitle>Auto Lab Equipment</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [580611724479228603266065]" altrender="box">2</container>
+                <container type="box" label="Box">2</container>
                 <unittitle>
                   <unitdate type="inclusive">Undated</unitdate>
                 </unittitle>
@@ -523,7 +512,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [580611724479228603266065]" altrender="box">2</container>
+                <container type="box" label="Box">2</container>
                 <unittitle>
                   <unitdate normal="1961">1961</unitdate>
                 </unittitle>
@@ -532,19 +521,19 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [580611724479228603266065]" altrender="box">2</container>
+              <container type="box" label="Box">2</container>
               <unittitle>Class Reunions <unitdate type="inclusive" normal="1955/1965">1955-1965</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [580611724479228603266065]" altrender="box">2</container>
+              <container type="box" label="Box">2</container>
               <unittitle>Construction of Auto Lab <unitdate type="inclusive" normal="1954/1958">1954-1958</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [580611724479228603266065]" altrender="box">2</container>
+              <container type="box" label="Box">2</container>
               <unittitle>Dedication of Walter E. Lay Auto Lab <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
             </did>
           </c03>
@@ -554,7 +543,7 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [580611724479228603266065]" altrender="box">2</container>
+                <container type="box" label="Box">2</container>
                 <unittitle>
                   <unitdate type="inclusive">Undated</unitdate>
                 </unittitle>
@@ -562,7 +551,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [580611724479228603266065]" altrender="box">2</container>
+                <container type="box" label="Box">2</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1917/1958">1917-1958</unitdate>
                 </unittitle>
@@ -579,7 +568,7 @@
           </did>
           <c03 level="item">
             <did>
-              <container type="volume" label="Oversize Volume [872707094706987177466]" altrender="volume">1</container>
+              <container type="volume" label="Oversize Volume">1</container>
               <unittitle>Untitled <unitdate type="inclusive" normal="1917/1958">1917-1958</unitdate></unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">1 volumes</extent>
@@ -588,7 +577,7 @@
           </c03>
           <c03 level="item">
             <did>
-              <container type="volume" label="Oversize Volume [79684390406753007435]" altrender="volume">2</container>
+              <container type="volume" label="Oversize Volume">2</container>
               <unittitle>"This is your life Walter E. Lay" <unitdate type="inclusive" normal="1889/1976" certainty="approximate">circa 1889-1976</unitdate></unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">1 volumes</extent>

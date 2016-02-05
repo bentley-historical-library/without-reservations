@@ -28,11 +28,10 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
-      <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
       <titleproper>Finding aid for <lb/>Leroy Vincent Fleming papers, 1918-1919</titleproper>
       <author>Finding aid created by <lb/>Christa Lemelin, 2008</author>
     </titlepage>
@@ -40,7 +39,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33623">Fleming, Leroy Vincent, 1895-1975.</persname>
+        <persname source="lcnaf" encodinganalog="100">Fleming, Leroy Vincent, 1895-1975.</persname>
       </origination>
       <unittitle encodinganalog="245">Leroy Vincent Fleming papers <unitdate type="inclusive" encodinganalog="245$f" normal="1918/1919">1918-1919</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">05137 Aa 1 Ac</unitid>
@@ -71,8 +70,7 @@
         <p>The copyright status is unknown.</p>
       </userestrict>
       <prefercite encodinganalog="524">
-        <p>[item], folder, box,
-Leroy Vincent Fleming papers, Bentley Historical Library, University of Michigan</p>
+        <p>[item], folder, box, Leroy Vincent Fleming papers, Bentley Historical Library, University of Michigan</p>
       </prefercite>
     </descgrp>
     <bioghist encodinganalog="545">
@@ -87,14 +85,14 @@ Leroy Vincent Fleming papers, Bentley Historical Library, University of Michigan
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33623">Fleming, Leroy Vincent, 1895-1975.</persname>
-        <geogname source="lcnaf" encodinganalog="651" ref="/subjects/760">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10968">United States. Army. Engineer Regiment, 310th.</corpname>
-        <subject source="local" encodinganalog="690" authfilenumber="http://id.loc.gov/authorities/names/n2008059426" ref="/subjects/3518">Polar Bear Expedition.</subject>
+        <persname source="lcnaf" encodinganalog="600">Fleming, Leroy Vincent, 1895-1975.</persname>
+        <geogname source="lcnaf" encodinganalog="651">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <corpname source="lcnaf" encodinganalog="610">United States. Army. Engineer Regiment, 310th.</corpname>
+        <subject source="local" encodinganalog="690" authfilenumber="http://id.loc.gov/authorities/names/n2008059426">Polar Bear Expedition.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655" ref="/subjects/3150">Diaries.</genreform>
+        <genreform source="aat" encodinganalog="655">Diaries.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -104,9 +102,9 @@ Leroy Vincent Fleming papers, Bentley Historical Library, University of Michigan
         </did>
         <c02 level="file">
           <did>
-            <container label="Folder [831344596741729264786]" type="folder" altrender="folder">1</container>
+            <container label="Folder" type="folder">1</container>
             <unittitle>Field Message Book and transcript <unitdate type="inclusive" normal="1918/1919">1918-1919</unitdate></unittitle>
-            <dao href="fleming0001" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/11328">
+            <dao href="fleming0001" show="new" actuate="onrequest">
               <daodesc>
                 <p>[view items]</p>
               </daodesc>
@@ -115,9 +113,9 @@ Leroy Vincent Fleming papers, Bentley Historical Library, University of Michigan
         </c02>
         <c02 level="file">
           <did>
-            <container label="Folder [577516074743953762]" type="folder" altrender="folder">2</container>
+            <container label="Folder" type="folder">2</container>
             <unittitle>Photograph <unitdate type="inclusive">undated</unitdate></unittitle>
-            <dao href="fleming0002" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/11329">
+            <dao href="fleming0002" show="new" actuate="onrequest">
               <daodesc>
                 <p>[view items]</p>
               </daodesc>
@@ -126,9 +124,9 @@ Leroy Vincent Fleming papers, Bentley Historical Library, University of Michigan
         </c02>
         <c02 level="file">
           <did>
-            <container label="Oversize Folder [359578374642342455]" type="folder" altrender="folder">3</container>
+            <container label="Oversize Folder" type="folder">3</container>
             <unittitle>Photocopies of photographs, a map, Russian money, and a diary <unitdate type="inclusive">undated</unitdate></unittitle>
-            <dao href="fleming0003" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/11330">
+            <dao href="fleming0003" show="new" actuate="onrequest">
               <daodesc>
                 <p>[view items]</p>
               </daodesc>

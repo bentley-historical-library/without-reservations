@@ -5,7 +5,7 @@
     <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::marchsoc.xml//EN" encodinganalog="Identifier">umich-bhl-851849</eadid>
     <filedesc>
       <titlestmt>
-        <titleproper encodinganalog="Title">Finding Aid for Michigan Archaeological Society records, 1924-2014</titleproper>
+        <titleproper encodinganalog="Title">Finding Aid for Michigan Archaeological Society records, 1924-2015</titleproper>
         <author encodinganalog="Creator">Collection processed and finding aid created by Michigan Historical Collections staff</author>
       </titlestmt>
       <publicationstmt>
@@ -20,6 +20,10 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date>2015-12-12</date>
+        <item>2015 accession: Exec Board meetings.</item>
+      </change>
+      <change>
         <date>2014-12-26</date>
         <item>Changes made with additional material.</item>
       </change>
@@ -32,24 +36,20 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
-      <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
-      <titleproper>Finding aid for <lb/>Michigan Archaeological Society records, 1924-2014</titleproper>
-      <author>Finding aid created by Tammy Lau; Terry Hoover, 1993;</author>
-      <author>Shelley Hayreh, 2008; Olga Virakhovskaya, 2013; Chris Schunter, 2014</author>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Michigan Archaeological Society records, 1924-2015</titleproper>
+      <author>Finding aid created by Tammy Lau; Terry Hoover, 1993; Shelley Hayreh, 2008; Olga Virakhovskaya, 2013; Chris Schunter, 2014<lb/> Last update: December 2015</author>
     </titlepage>
   </frontmatter>
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n82146244" ref="/agents/corporate_entities/10209">Michigan Archaeological Society.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n82146244">Michigan Archaeological Society.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Michigan Archaeological Society records</unittitle>
-      <unitdate type="inclusive" encodinganalog="245$f" normal="1924/2014">1924-2014</unitdate>
-      <unitdate type="bulk" encodinganalog="245$g" normal="1956/2010">1956-2010</unitdate>
+      <unittitle encodinganalog="245">Michigan Archaeological Society records <unitdate type="inclusive" encodinganalog="245$f" normal="1924/2014">1924-2015</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1956/2010">1956-2010</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851849 Bp 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Organization concerned with the exploration of the cultures, artifacts, and peoples of early Michigan; records include background information, administrative files, local chapter materials, and topical files.</abstract>
@@ -75,8 +75,7 @@
         <p>Copyright is held by the Regents of the University of Michigan.</p>
       </userestrict>
       <prefercite encodinganalog="524">
-        <p>[item], folder, box,
-Michigan Archaeological Society records, Bentley Historical Library, University of Michigan</p>
+        <p>[item], folder, box, Michigan Archaeological Society records, Bentley Historical Library, University of Michigan</p>
       </prefercite>
     </descgrp>
     <bioghist encodinganalog="545">
@@ -94,22 +93,22 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650" ref="/subjects/6607">Archaeology.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83040972" ref="/agents/corporate_entities/10633">Eastern States Archeological Federation (U.S.)</corpname>
-        <subject source="lcsh" encodinganalog="650" ref="/subjects/6072">Indians of North America--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82146244" ref="/agents/corporate_entities/10209">Michigan Archaeological Society.</corpname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091872.html" ref="/subjects/1401">Sanilac County (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1878">Michigan--Antiquities.</geogname>
+        <subject source="lcsh" encodinganalog="650">Archaeology.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83040972">Eastern States Archeological Federation (U.S.)</corpname>
+        <subject source="lcsh" encodinganalog="650">Indians of North America--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82146244">Michigan Archaeological Society.</corpname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091872.html">Sanilac County (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651">Michigan--Antiquities.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <subject source="lctgm" encodinganalog="650" ref="/subjects/3926">Archaeology.</subject>
-        <subject source="lcsh" encodinganalog="650" ref="/subjects/6072">Indians of North America--Michigan.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091871.html" ref="/subjects/2097">Mecosta County (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650">Archaeology.</subject>
+        <subject source="lcsh" encodinganalog="650">Indians of North America--Michigan.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091871.html">Mecosta County (Mich.)</geogname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655" ref="/subjects/3141">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -122,7 +121,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [599702464123495786694688]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>Bylaws, operating structure, and constitution <unitdate type="inclusive" normal="1955/1982">1955-1982</unitdate></unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -140,13 +139,13 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [599702464123495786694688]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>Accounting Ledger <unitdate type="inclusive" normal="1973/1979">1973-1979</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [599702464123495786694688]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>Administrative Bulletins <unitdate type="inclusive" normal="1956/1958">1956-1958</unitdate></unittitle>
           </did>
         </c02>
@@ -156,7 +155,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [599702464123495786694688]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1952">1952</unitdate>
               </unittitle>
@@ -167,7 +166,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [599702464123495786694688]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1956/2007">1956-2007</unitdate>
                 <unitdate type="inclusive" normal="2013/2014">2013-2014</unitdate>
@@ -177,10 +176,8 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [599702464123495786694688]" altrender="box">1</container>
-            <unittitle>Auditor's Reports</unittitle>
-            <unitdate type="inclusive" normal="1956">1956</unitdate>
-            <unitdate type="inclusive" normal="1968">1968</unitdate>
+            <container type="box" label="Box">1</container>
+            <unittitle>Auditor's Reports <unitdate type="inclusive" normal="1956">1956</unitdate>, <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
@@ -189,44 +186,38 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [599702464123495786694688]" altrender="box">1</container>
-              <unittitle>General (lists of committees)</unittitle>
-              <unitdate type="inclusive" normal="1962/1964">1962-1964</unitdate>
-              <unitdate type="inclusive" normal="1994">1994</unitdate>
+              <container type="box" label="Box">1</container>
+              <unittitle>General (lists of committees) <unitdate type="inclusive" normal="1962/1964">1962-1964</unitdate>, <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [599702464123495786694688]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>Archives Committee <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [599702464123495786694688]" altrender="box">1</container>
-              <unittitle>Filmstrip Committee</unittitle>
-              <unitdate type="inclusive" normal="1956/1958">1956-1958</unitdate>
-              <unitdate type="inclusive">undated</unitdate>
+              <container type="box" label="Box">1</container>
+              <unittitle>Filmstrip Committee <unitdate type="inclusive" normal="1956/1958">1956-1958</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [599702464123495786694688]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>Membership Committee <unitdate type="inclusive" normal="1956/1978">1956-1978</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [599702464123495786694688]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>Nominating Committee <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [599702464123495786694688]" altrender="box">1</container>
-              <unittitle>Publications Committee</unittitle>
-              <unitdate type="inclusive" normal="1956">1956</unitdate>
-              <unitdate type="inclusive" normal="1970/1977">1970-1977</unitdate>
+              <container type="box" label="Box">1</container>
+              <unittitle>Publications Committee <unitdate type="inclusive" normal="1956">1956</unitdate>, <unitdate type="inclusive" normal="1970/1977">1970-1977</unitdate></unittitle>
             </did>
           </c03>
         </c02>
@@ -243,7 +234,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </odd>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [37456034059380085125]" altrender="box">2</container>
+                <container type="box" label="Box">2</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1956/1965">1956-1965</unitdate>
                 </unittitle>
@@ -251,14 +242,13 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [37456034059380085125]" altrender="box">2</container>
-                <unitdate type="inclusive" normal="1966/1977">1966-1977</unitdate>
-                <unitdate type="inclusive" normal="1979">1979</unitdate>
+                <container type="box" label="Box">2</container>
+                <unittitle><unitdate type="inclusive" normal="1966/1977">1966-1977</unitdate>, <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [37456034059380085125]" altrender="box">2</container>
+                <container type="box" label="Box">2</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1980/1985">1980-1985</unitdate>
                 </unittitle>
@@ -266,7 +256,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [37456034059380085125]" altrender="box">2</container>
+                <container type="box" label="Box">2</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate>
                 </unittitle>
@@ -274,7 +264,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [37456034059380085125]" altrender="box">2</container>
+                <container type="box" label="Box">2</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate>
                 </unittitle>
@@ -282,7 +272,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [37456034059380085125]" altrender="box">2</container>
+                <container type="box" label="Box">2</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1991">1991</unitdate>
                 </unittitle>
@@ -290,7 +280,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [37456034059380085125]" altrender="box">2</container>
+                <container type="box" label="Box">2</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate>
                 </unittitle>
@@ -298,7 +288,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [37456034059380085125]" altrender="box">2</container>
+                <container type="box" label="Box">2</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1994">1994</unitdate>
                 </unittitle>
@@ -306,7 +296,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [37456034059380085125]" altrender="box">2</container>
+                <container type="box" label="Box">2</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1995">1995</unitdate>
                 </unittitle>
@@ -314,7 +304,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [37456034059380085125]" altrender="box">2</container>
+                <container type="box" label="Box">2</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1996">1996</unitdate>
                 </unittitle>
@@ -322,7 +312,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [37456034059380085125]" altrender="box">2</container>
+                <container type="box" label="Box">2</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1997">1997</unitdate>
                 </unittitle>
@@ -330,7 +320,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [37456034059380085125]" altrender="box">2</container>
+                <container type="box" label="Box">2</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1998">1998</unitdate>
                 </unittitle>
@@ -338,7 +328,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [37456034059380085125]" altrender="box">2</container>
+                <container type="box" label="Box">2</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1999/2000">1999-2000</unitdate>
                 </unittitle>
@@ -346,7 +336,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [37456034059380085125]" altrender="box">2</container>
+                <container type="box" label="Box">2</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="2001/2002">2001-2002</unitdate>
                 </unittitle>
@@ -354,7 +344,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [37456034059380085125]" altrender="box">2</container>
+                <container type="box" label="Box">2</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="2003/2004">2003-2004</unitdate>
                 </unittitle>
@@ -362,7 +352,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [37456034059380085125]" altrender="box">2</container>
+                <container type="box" label="Box">2</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="2005">2005</unitdate>
                 </unittitle>
@@ -370,7 +360,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [37456034059380085125]" altrender="box">2</container>
+                <container type="box" label="Box">2</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="2006">2006</unitdate>
                 </unittitle>
@@ -378,7 +368,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [37456034059380085125]" altrender="box">2</container>
+                <container type="box" label="Box">2</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="2007/2008">2007-2008</unitdate>
                 </unittitle>
@@ -386,7 +376,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [37456034059380085125]" altrender="box">2</container>
+                <container type="box" label="Box">2</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="2009">2009</unitdate>
                 </unittitle>
@@ -394,7 +384,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [37456034059380085125]" altrender="box">2</container>
+                <container type="box" label="Box">2</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="2010/2011">2010-2011</unitdate>
                 </unittitle>
@@ -402,7 +392,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [37456034059380085125]" altrender="box">2</container>
+                <container type="box" label="Box">2</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="2012">2012</unitdate>
                 </unittitle>
@@ -410,9 +400,17 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [37456034059380085125]" altrender="box">2</container>
+                <container type="box" label="Box">2</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="2013">2013</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="2015">2015</unitdate>
                 </unittitle>
               </did>
             </c04>
@@ -424,7 +422,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [88044022435573120763]" altrender="box">6</container>
+              <container type="box" label="Box">6</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1953/1956">1953-1956</unitdate>
               </unittitle>
@@ -432,7 +430,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [88044022435573120763]" altrender="box">6</container>
+              <container type="box" label="Box">6</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1957/1961">1957-1961</unitdate>
               </unittitle>
@@ -440,21 +438,19 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [88044022435573120763]" altrender="box">6</container>
-              <unitdate type="inclusive" normal="1962/1964">1962-1964</unitdate>
-              <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate>
+              <container type="box" label="Box">6</container>
+              <unittitle><unitdate type="inclusive" normal="1962/1964">1962-1964</unitdate>, <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [88044022435573120763]" altrender="box">6</container>
-              <unitdate type="inclusive" normal="1969">1969</unitdate>
-              <unitdate type="inclusive" normal="1971/1974">1971-1974</unitdate>
+              <container type="box" label="Box">6</container>
+              <unittitle><unitdate type="inclusive" normal="1969">1969</unitdate>, <unitdate type="inclusive" normal="1971/1974">1971-1974</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [88044022435573120763]" altrender="box">6</container>
+              <container type="box" label="Box">6</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1976/1983">1976-1983</unitdate>
               </unittitle>
@@ -462,7 +458,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [88044022435573120763]" altrender="box">6</container>
+              <container type="box" label="Box">6</container>
               <unittitle>
                 <unitdate type="inclusive">Undated</unitdate>
               </unittitle>
@@ -470,7 +466,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [88044022435573120763]" altrender="box">6</container>
+              <container type="box" label="Box">6</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate>
               </unittitle>
@@ -482,20 +478,14 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [88044022435573120763]" altrender="box">6</container>
-            <unittitle>Newsletters</unittitle>
-            <unitdate type="inclusive" normal="1954/1956">1954-1956</unitdate>
-            <unitdate type="inclusive" normal="1965/1970">1965-1970</unitdate>
-            <unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate>
-            <unitdate type="inclusive" normal="1984/1986">1984-1986</unitdate>
+            <container type="box" label="Box">6</container>
+            <unittitle>Newsletters <unitdate type="inclusive" normal="1954/1956">1954-1956</unitdate>, <unitdate type="inclusive" normal="1965/1970">1965-1970</unitdate>, <unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate>, <unitdate type="inclusive" normal="1984/1986">1984-1986</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [88044022435573120763]" altrender="box">6</container>
-            <unittitle>Non-Profit Organization Reports (including licenses to solicit donations)</unittitle>
-            <unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate>
-            <unitdate type="inclusive" normal="1969/1973">1969-1973</unitdate>
+            <container type="box" label="Box">6</container>
+            <unittitle>Non-Profit Organization Reports (including licenses to solicit donations) <unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate>, <unitdate type="inclusive" normal="1969/1973">1969-1973</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
@@ -504,7 +494,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [88044022435573120763]" altrender="box">6</container>
+              <container type="box" label="Box">6</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1956">1956</unitdate>
               </unittitle>
@@ -515,7 +505,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [88044022435573120763]" altrender="box">6</container>
+              <container type="box" label="Box">6</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate>
               </unittitle>
@@ -526,7 +516,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [88044022435573120763]" altrender="box">6</container>
+              <container type="box" label="Box">6</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate>
               </unittitle>
@@ -537,7 +527,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [88044022435573120763]" altrender="box">6</container>
+              <container type="box" label="Box">6</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate>
               </unittitle>
@@ -548,7 +538,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [88044022435573120763]" altrender="box">6</container>
+              <container type="box" label="Box">6</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate>
               </unittitle>
@@ -559,7 +549,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [88044022435573120763]" altrender="box">6</container>
+              <container type="box" label="Box">6</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate>
               </unittitle>
@@ -570,7 +560,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [88044022435573120763]" altrender="box">6</container>
+              <container type="box" label="Box">6</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1972/1984">1972-1984</unitdate>
               </unittitle>
@@ -581,7 +571,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [88044022435573120763]" altrender="box">6</container>
+              <container type="box" label="Box">6</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1976/1977">1976-1977</unitdate>
               </unittitle>
@@ -592,7 +582,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1977/1978">1977-1978</unitdate>
               </unittitle>
@@ -603,7 +593,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1978/1979">1978-1979</unitdate>
               </unittitle>
@@ -614,7 +604,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1979/1980">1979-1980</unitdate>
               </unittitle>
@@ -625,7 +615,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1980/1981">1980-1981</unitdate>
               </unittitle>
@@ -641,23 +631,20 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>Clippings</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
-              <unittitle>News Releases and Miscellaneous</unittitle>
-              <unitdate type="inclusive" normal="1968">1968</unitdate>
-              <unitdate type="inclusive" normal="1969">1969</unitdate>
-              <unitdate type="inclusive">undated</unitdate>
+              <container type="box" label="Box">3</container>
+              <unittitle>News Releases and Miscellaneous <unitdate type="inclusive" normal="1968">1968</unitdate>, <unitdate type="inclusive" normal="1969">1969</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
+            <container type="box" label="Box">3</container>
             <unittitle>Report of Conference with Michigan Department of Natural Resources <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
           </did>
         </c02>
@@ -674,7 +661,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </odd>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
+                <container type="box" label="Box">3</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1956/1971">1956-1971</unitdate>
                 </unittitle>
@@ -682,7 +669,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
+                <container type="box" label="Box">3</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1976/1981">1976-1981</unitdate>
                 </unittitle>
@@ -692,10 +679,8 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
-            <unittitle>Treasurer's Reports</unittitle>
-            <unitdate type="inclusive" normal="1955/1969">1955-1969</unitdate>
-            <unitdate type="inclusive" normal="2014">2014</unitdate>
+            <container type="box" label="Box">3</container>
+            <unittitle>Treasurer's Reports <unitdate type="inclusive" normal="1955/1969">1955-1969</unitdate>, <unitdate type="inclusive" normal="2014">2014</unitdate></unittitle>
           </did>
         </c02>
       </c01>
@@ -708,10 +693,8 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
-            <unittitle>Annual Workshop Conferences</unittitle>
-            <unitdate type="inclusive" normal="1956/1990">1956-1990</unitdate>
-            <unitdate type="inclusive" normal="2014">2014</unitdate>
+            <container type="box" label="Box">3</container>
+            <unittitle>Annual Workshop Conferences <unitdate type="inclusive" normal="1956/1990">1956-1990</unitdate>, <unitdate type="inclusive" normal="2014">2014</unitdate></unittitle>
           </did>
           <odd>
             <p>(including photographs for the 11-4-62 conference and four Edison Voicewriter Discs)</p>
@@ -719,37 +702,31 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
-            <unittitle>Educational Programs</unittitle>
-            <unitdate type="inclusive" normal="1967">1967</unitdate>
-            <unitdate type="inclusive" normal="1971">1971</unitdate>
-            <unitdate type="inclusive" normal="1979">1979</unitdate>
-            <unitdate type="inclusive">undated</unitdate>
+            <container type="box" label="Box">3</container>
+            <unittitle>Educational Programs <unitdate type="inclusive" normal="1967">1967</unitdate>, <unitdate type="inclusive" normal="1971">1971</unitdate>, <unitdate type="inclusive" normal="1979">1979</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
+            <container type="box" label="Box">3</container>
             <unittitle>Essay Award <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
+            <container type="box" label="Box">3</container>
             <unittitle>Fall Workshop <unitdate type="inclusive" normal="1994/2007">1994-2007</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
-            <unittitle>Highway Archaeological Salvage Program</unittitle>
-            <unitdate type="inclusive" normal="1957/1959">1957-1959</unitdate>
-            <unitdate type="inclusive" normal="1963">1963</unitdate>
+            <container type="box" label="Box">3</container>
+            <unittitle>Highway Archaeological Salvage Program <unitdate type="inclusive" normal="1957/1959">1957-1959</unitdate>, <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
+            <container type="box" label="Box">3</container>
             <unittitle>Library Project (publications drive) <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
           </did>
         </c02>
@@ -759,7 +736,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>Agendas and Minutes <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></unittitle>
             </did>
           </c03>
@@ -769,7 +746,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
+                <container type="box" label="Box">3</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1956/1958">1956-1958</unitdate>
                 </unittitle>
@@ -777,7 +754,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
+                <container type="box" label="Box">3</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1965/1967">1965-1967</unitdate>
                 </unittitle>
@@ -785,7 +762,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
+                <container type="box" label="Box">3</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1968">1968</unitdate>
                 </unittitle>
@@ -793,7 +770,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
+                <container type="box" label="Box">3</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1969">1969</unitdate>
                 </unittitle>
@@ -801,7 +778,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
+                <container type="box" label="Box">3</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1974">1974</unitdate>
                 </unittitle>
@@ -809,7 +786,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
+                <container type="box" label="Box">3</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1979/1980">1979-1980</unitdate>
                 </unittitle>
@@ -818,27 +795,25 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
-              <unittitle>Legal Documents (including trust agreement and affidavit)</unittitle>
-              <unitdate type="inclusive" normal="1965">1965</unitdate>
-              <unitdate type="inclusive" normal="1967">1967</unitdate>
+              <container type="box" label="Box">3</container>
+              <unittitle>Legal Documents (including trust agreement and affidavit) <unitdate type="inclusive" normal="1965">1965</unitdate>, <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>Proposal to Mott Foundation <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>Relm Foundation Grant <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>State Survey Project <unitdate type="inclusive" normal="1985">1985</unitdate></unittitle>
             </did>
           </c03>
@@ -853,7 +828,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
+            <container type="box" label="Box">3</container>
             <unittitle>General Chapter Records <unitdate type="inclusive" normal="1966/1968">1966-1968</unitdate></unittitle>
           </did>
         </c02>
@@ -863,7 +838,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>Constitution <unitdate type="inclusive">undated</unitdate></unittitle>
             </did>
           </c03>
@@ -874,15 +849,13 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
-              <unittitle>Correspondence</unittitle>
-              <unitdate type="inclusive" normal="1965">1965</unitdate>
-              <unitdate type="inclusive">undated</unitdate>
+              <container type="box" label="Box">3</container>
+              <unittitle>Correspondence <unitdate type="inclusive" normal="1965">1965</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>Newsletter <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
             </did>
           </c03>
@@ -893,34 +866,31 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>Annual Report <unitdate type="inclusive" normal="2014">2014</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>Background (including constitution) <unitdate type="inclusive">undated</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
-              <unittitle>Correspondence</unittitle>
-              <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate>
-              <unitdate type="inclusive" normal="1971">1971</unitdate>
-              <unitdate type="inclusive" normal="1976">1976</unitdate>
+              <container type="box" label="Box">3</container>
+              <unittitle>Correspondence <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate>, <unitdate type="inclusive" normal="1971">1971</unitdate>, <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>Membership Interest Survey <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>Minutes (1962-1965) and Accounts (1965-1967)</unittitle>
             </did>
             <odd>
@@ -936,7 +906,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </odd>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
+                <container type="box" label="Box">3</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1965/1968">1965-1968</unitdate>
                 </unittitle>
@@ -944,7 +914,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
+                <container type="box" label="Box">3</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate>
                 </unittitle>
@@ -952,7 +922,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
+                <container type="box" label="Box">3</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate>
                 </unittitle>
@@ -960,7 +930,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
+                <container type="box" label="Box">3</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate>
                 </unittitle>
@@ -968,7 +938,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
+                <container type="box" label="Box">3</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1975">1975</unitdate>
                 </unittitle>
@@ -976,7 +946,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
+                <container type="box" label="Box">3</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1976">1976</unitdate>
                 </unittitle>
@@ -985,22 +955,19 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>Miscellaneous (archaeological handouts) <unitdate type="inclusive">undated</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
-              <unittitle>Newsletters</unittitle>
-              <unitdate type="inclusive" normal="1962">1962</unitdate>
-              <unitdate type="inclusive" normal="1965">1965</unitdate>
-              <unitdate type="inclusive" normal="1971">1971</unitdate>
+              <container type="box" label="Box">3</container>
+              <unittitle>Newsletters <unitdate type="inclusive" normal="1962">1962</unitdate>, <unitdate type="inclusive" normal="1965">1965</unitdate>, <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>Publicity (news releases and clippings) <unitdate type="inclusive" normal="1975/1976">1975-1976</unitdate></unittitle>
             </did>
           </c03>
@@ -1011,15 +978,13 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
-              <unittitle>Constitution and bylaws</unittitle>
-              <unitdate type="inclusive" normal="1966">1966</unitdate>
-              <unitdate type="inclusive">undated</unitdate>
+              <container type="box" label="Box">3</container>
+              <unittitle>Constitution and bylaws <unitdate type="inclusive" normal="1966">1966</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>Minutes and Notices of Meetings <unitdate type="inclusive" normal="1956/1974">1956-1974</unitdate></unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -1028,13 +993,13 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6213775174650816]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>President's Book <unitdate type="inclusive" normal="1966/1976">1966-1976</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+              <container type="box" label="Box">4</container>
               <unittitle>Proposed Code of Ethics <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
             </did>
           </c03>
@@ -1045,7 +1010,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+              <container type="box" label="Box">4</container>
               <unittitle>Annual Report <unitdate type="inclusive" normal="2014">2014</unitdate></unittitle>
             </did>
           </c03>
@@ -1056,13 +1021,13 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+              <container type="box" label="Box">4</container>
               <unittitle>Constitution <unitdate type="inclusive">undated</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+              <container type="box" label="Box">4</container>
               <unittitle>Minutes and Notices of Meetings (agendas) <unitdate type="inclusive" normal="1966/1973">1966-1973</unitdate></unittitle>
             </did>
           </c03>
@@ -1073,7 +1038,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+              <container type="box" label="Box">4</container>
               <unittitle>Constitution <unitdate type="inclusive" normal="1980">1980</unitdate></unittitle>
             </did>
           </c03>
@@ -1084,27 +1049,25 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
-              <unittitle>Background (including constitution)</unittitle>
-              <unitdate type="inclusive" normal="1966">1966</unitdate>
-              <unitdate type="inclusive">undated</unitdate>
+              <container type="box" label="Box">4</container>
+              <unittitle>Background (including constitution) <unitdate type="inclusive" normal="1966">1966</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+              <container type="box" label="Box">4</container>
               <unittitle>Correspondence <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+              <container type="box" label="Box">4</container>
               <unittitle>Minutes <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+              <container type="box" label="Box">4</container>
               <unittitle>Newsletters <unitdate type="inclusive" normal="1965/1968">1965-1968</unitdate></unittitle>
             </did>
           </c03>
@@ -1115,13 +1078,13 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+              <container type="box" label="Box">4</container>
               <unittitle>Constitution <unitdate type="inclusive">undated</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+              <container type="box" label="Box">4</container>
               <unittitle>Correspondence <unitdate type="inclusive" normal="1980">1980</unitdate></unittitle>
             </did>
           </c03>
@@ -1132,45 +1095,43 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
-              <unittitle>Background (including constitution)</unittitle>
-              <unitdate type="inclusive" normal="1981">1981</unitdate>
-              <unitdate type="inclusive">undated</unitdate>
+              <container type="box" label="Box">4</container>
+              <unittitle>Background (including constitution) <unitdate type="inclusive" normal="1981">1981</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+              <container type="box" label="Box">4</container>
               <unittitle>Annual Fall Workshop ("In Pursuit of the Paleo Hunter, Part II") <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+              <container type="box" label="Box">4</container>
               <unittitle>Annual Report <unitdate type="inclusive" normal="2014">2014</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+              <container type="box" label="Box">4</container>
               <unittitle>Calendar of Programs and Events <unitdate type="inclusive" normal="1977/1978">1977-1978</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+              <container type="box" label="Box">4</container>
               <unittitle>Highway Archaeological Survey <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+              <container type="box" label="Box">4</container>
               <unittitle>Minutes and Notices of Meetings (agendas) <unitdate type="inclusive" normal="1981/1982">1981-1982</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+              <container type="box" label="Box">4</container>
               <unittitle>Report to Michigan Council for the Arts ("In Pursuit of the Paleo Hunter") <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
             </did>
           </c03>
@@ -1181,47 +1142,38 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
-              <unittitle>Announcements of Activities</unittitle>
-              <unitdate type="inclusive" normal="1961">1961</unitdate>
-              <unitdate type="inclusive" normal="1964">1964</unitdate>
-              <unitdate type="inclusive" normal="1975">1975</unitdate>
-              <unitdate type="inclusive" normal="1987">1987</unitdate>
+              <container type="box" label="Box">4</container>
+              <unittitle>Announcements of Activities <unitdate type="inclusive" normal="1961">1961</unitdate>, <unitdate type="inclusive" normal="1964">1964</unitdate>, <unitdate type="inclusive" normal="1975">1975</unitdate>, <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+              <container type="box" label="Box">4</container>
               <unittitle>Annual Reports <unitdate type="inclusive" normal="1953/2014">1953, 2014</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
-              <unittitle>Annual Treasurer's Reports</unittitle>
-              <unitdate type="inclusive" normal="1965/1970">1965-1970</unitdate>
-              <unitdate type="inclusive" normal="1984/1985">1984-1985</unitdate>
+              <container type="box" label="Box">4</container>
+              <unittitle>Annual Treasurer's Reports <unitdate type="inclusive" normal="1965/1970">1965-1970</unitdate>, <unitdate type="inclusive" normal="1984/1985">1984-1985</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+              <container type="box" label="Box">4</container>
               <unittitle>Clippings</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+              <container type="box" label="Box">4</container>
               <unittitle>Constitution and Bylaws <unitdate type="inclusive" normal="1955">1955</unitdate>, <unitdate type="inclusive" normal="1965">1965</unitdate>, <unitdate type="inclusive" normal="1983">1983</unitdate> and proposed changes, <unitdate type="inclusive" normal="1975/1976">1975-1976</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
-              <unittitle>Correspondence</unittitle>
-              <unitdate type="inclusive" normal="1956/1965">1956-1965</unitdate>
-              <unitdate type="inclusive" normal="1983/1986">1983-1986</unitdate>
-              <unitdate type="inclusive">undated</unitdate>
+              <container type="box" label="Box">4</container>
+              <unittitle>Correspondence <unitdate type="inclusive" normal="1956/1965">1956-1965</unitdate>, <unitdate type="inclusive" normal="1983/1986">1983-1986</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -1230,7 +1182,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+                <container type="box" label="Box">4</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1965/1968">1965-1968</unitdate>
                 </unittitle>
@@ -1238,7 +1190,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+                <container type="box" label="Box">4</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1983/1987">1983-1987</unitdate>
                 </unittitle>
@@ -1254,7 +1206,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </odd>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+                <container type="box" label="Box">4</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1956/1961">1956-1961</unitdate>
                   <unitdate type="inclusive">undated</unitdate>
@@ -1263,7 +1215,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+                <container type="box" label="Box">4</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1963/1965">1963-1965</unitdate>
                 </unittitle>
@@ -1271,7 +1223,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+                <container type="box" label="Box">4</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1966/1969">1966-1969</unitdate>
                 </unittitle>
@@ -1279,7 +1231,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+                <container type="box" label="Box">4</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1975/1979">1975-1979</unitdate>
                 </unittitle>
@@ -1287,7 +1239,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+                <container type="box" label="Box">4</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1981/1984">1981-1984</unitdate>
                 </unittitle>
@@ -1295,7 +1247,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+                <container type="box" label="Box">4</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1985/1991">1985-1991</unitdate>
                 </unittitle>
@@ -1304,21 +1256,19 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
-              <unittitle>Newsletters</unittitle>
-              <unitdate type="inclusive" normal="1976/1977">1976-1977</unitdate>
-              <unitdate type="inclusive">undated</unitdate>
+              <container type="box" label="Box">4</container>
+              <unittitle>Newsletters <unitdate type="inclusive" normal="1976/1977">1976-1977</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+              <container type="box" label="Box">4</container>
               <unittitle>Proposed Resolution (site number regulations) <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+              <container type="box" label="Box">4</container>
               <unittitle>Saginaw Valley Archaeologist, sales and inventory <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
             </did>
           </c03>
@@ -1329,14 +1279,14 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+              <container type="box" label="Box">4</container>
               <unittitle>Constitution <unitdate type="inclusive">undated</unitdate></unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+            <container type="box" label="Box">4</container>
             <unittitle>Southeast Chapter</unittitle>
           </did>
         </c02>
@@ -1346,7 +1296,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+              <container type="box" label="Box">4</container>
               <unittitle>Newsletters <unitdate type="inclusive" normal="1953/1954">1953-1954</unitdate></unittitle>
             </did>
           </c03>
@@ -1357,7 +1307,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+              <container type="box" label="Box">4</container>
               <unittitle>Announcements of Meetings and Events <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate></unittitle>
             </did>
           </c03>
@@ -1367,7 +1317,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+                <container type="box" label="Box">4</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1953/1958">1953-1958</unitdate>
                 </unittitle>
@@ -1375,7 +1325,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+                <container type="box" label="Box">4</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1959/1963">1959-1963</unitdate>
                 </unittitle>
@@ -1383,7 +1333,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+                <container type="box" label="Box">4</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1964/1968">1964-1968</unitdate>
                 </unittitle>
@@ -1391,7 +1341,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+                <container type="box" label="Box">4</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1969/1974">1969-1974</unitdate>
                   <unitdate type="inclusive">undated</unitdate>
@@ -1406,7 +1356,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+              <container type="box" label="Box">4</container>
               <unittitle>Annual Report <unitdate type="inclusive" normal="2014">2014</unitdate></unittitle>
             </did>
           </c03>
@@ -1417,7 +1367,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+              <container type="box" label="Box">4</container>
               <unittitle>Minutes <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
             </did>
           </c03>
@@ -1428,24 +1378,20 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+              <container type="box" label="Box">4</container>
               <unittitle>Annual Report <unitdate type="inclusive" normal="2014">2014</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
-              <unittitle>Correspondence</unittitle>
-              <unitdate type="inclusive" normal="1974">1974</unitdate>
-              <unitdate type="inclusive">undated</unitdate>
+              <container type="box" label="Box">4</container>
+              <unittitle>Correspondence <unitdate type="inclusive" normal="1974">1974</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
-              <unittitle>Newsletters</unittitle>
-              <unitdate type="inclusive" normal="1966">1966</unitdate>
-              <unitdate type="inclusive" normal="1972/1979">1972-1979</unitdate>
+              <container type="box" label="Box">4</container>
+              <unittitle>Newsletters <unitdate type="inclusive" normal="1966">1966</unitdate>, <unitdate type="inclusive" normal="1972/1979">1972-1979</unitdate></unittitle>
             </did>
           </c03>
         </c02>
@@ -1455,7 +1401,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+              <container type="box" label="Box">4</container>
               <unittitle>Constitution <unitdate type="inclusive">undated</unitdate></unittitle>
             </did>
           </c03>
@@ -1466,32 +1412,25 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
-              <unittitle>Background (including constitutions)</unittitle>
-              <unitdate type="inclusive" normal="1951">1951</unitdate>
-              <unitdate type="inclusive" normal="1958">1958</unitdate>
-              <unitdate type="inclusive" normal="1964">1964</unitdate>
-              <unitdate type="inclusive">undated</unitdate>
+              <container type="box" label="Box">4</container>
+              <unittitle>Background (including constitutions) <unitdate type="inclusive" normal="1951">1951</unitdate>, <unitdate type="inclusive" normal="1958">1958</unitdate>, <unitdate type="inclusive" normal="1964">1964</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
-              <unittitle>Annual Reports</unittitle>
-              <unitdate type="inclusive" normal="1960">1960</unitdate>
-              <unitdate type="inclusive" normal="1966">1966</unitdate>
-              <unitdate type="inclusive" normal="2014">2014</unitdate>
+              <container type="box" label="Box">4</container>
+              <unittitle>Annual Reports <unitdate type="inclusive" normal="1960">1960</unitdate>, <unitdate type="inclusive" normal="1966">1966</unitdate>, <unitdate type="inclusive" normal="2014">2014</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+              <container type="box" label="Box">4</container>
               <unittitle>Clippings</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+              <container type="box" label="Box">4</container>
               <unittitle>Correspondence <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
             </did>
           </c03>
@@ -1501,7 +1440,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+                <container type="box" label="Box">4</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1952/1963">1952-1963</unitdate>
                 </unittitle>
@@ -1509,7 +1448,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+                <container type="box" label="Box">4</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1965/1968">1965-1968</unitdate>
                 </unittitle>
@@ -1517,7 +1456,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+                <container type="box" label="Box">4</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1969/1971">1969-1971</unitdate>
                 </unittitle>
@@ -1525,7 +1464,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+                <container type="box" label="Box">4</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1972/1975">1972-1975</unitdate>
                 </unittitle>
@@ -1534,10 +1473,8 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
-              <unittitle>Memoranda</unittitle>
-              <unitdate type="inclusive" normal="1951/1952">1951-1952</unitdate>
-              <unitdate type="inclusive" normal="1972">1972</unitdate>
+              <container type="box" label="Box">4</container>
+              <unittitle>Memoranda <unitdate type="inclusive" normal="1951/1952">1951-1952</unitdate>, <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -1546,7 +1483,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+                <container type="box" label="Box">4</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1951/1963">1951-1963</unitdate>
                 </unittitle>
@@ -1554,14 +1491,13 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
-                <unitdate type="inclusive" normal="1959">1959</unitdate>
-                <unitdate type="inclusive" normal="1965/1967">1965-1967</unitdate>
+                <container type="box" label="Box">4</container>
+                <unittitle><unitdate type="inclusive" normal="1959">1959</unitdate>, <unitdate type="inclusive" normal="1965/1967">1965-1967</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [1250734908671109232720]" altrender="box">4</container>
+                <container type="box" label="Box">4</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate>
                 </unittitle>
@@ -1569,7 +1505,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [39545428886743583]" altrender="box">5</container>
+                <container type="box" label="Box">5</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1971/1975">1971-1975</unitdate>
                 </unittitle>
@@ -1578,13 +1514,13 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [39545428886743583]" altrender="box">5</container>
+              <container type="box" label="Box">5</container>
               <unittitle>Miscellaneous (including essays on archaeological topics) <unitdate type="inclusive">undated</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [39545428886743583]" altrender="box">5</container>
+              <container type="box" label="Box">5</container>
               <unittitle>Newell E. Collins Correspondence (incoming) <unitdate type="inclusive" normal="1940/1956">1940-1956</unitdate></unittitle>
             </did>
           </c03>
@@ -1594,7 +1530,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [39545428886743583]" altrender="box">5</container>
+                <container type="box" label="Box">5</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1962/1968">1962-1968</unitdate>
                 </unittitle>
@@ -1602,7 +1538,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [39545428886743583]" altrender="box">5</container>
+                <container type="box" label="Box">5</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1969/1975">1969-1975</unitdate>
                 </unittitle>
@@ -1610,7 +1546,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [39545428886743583]" altrender="box">5</container>
+                <container type="box" label="Box">5</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1976/1983">1976-1983</unitdate>
                 </unittitle>
@@ -1619,7 +1555,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [39545428886743583]" altrender="box">5</container>
+              <container type="box" label="Box">5</container>
               <unittitle>Photographs</unittitle>
             </did>
             <odd>
@@ -1628,10 +1564,8 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [39545428886743583]" altrender="box">5</container>
-              <unittitle>Programs</unittitle>
-              <unitdate type="inclusive" normal="1955/1956">1955-1956</unitdate>
-              <unitdate type="inclusive" normal="1975">1975</unitdate>
+              <container type="box" label="Box">5</container>
+              <unittitle>Programs <unitdate type="inclusive" normal="1955/1956">1955-1956</unitdate>, <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -1640,7 +1574,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [39545428886743583]" altrender="box">5</container>
+                <container type="box" label="Box">5</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1959/1961">1959-1961</unitdate>
                 </unittitle>
@@ -1648,7 +1582,7 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [39545428886743583]" altrender="box">5</container>
+                <container type="box" label="Box">5</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1965/1969">1965-1969</unitdate>
                 </unittitle>
@@ -1656,21 +1590,20 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [39545428886743583]" altrender="box">5</container>
-                <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate>
-                <unitdate type="inclusive" normal="1973">1973</unitdate>
+                <container type="box" label="Box">5</container>
+                <unittitle><unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate>, <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
               </did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [39545428886743583]" altrender="box">5</container>
+              <container type="box" label="Box">5</container>
               <unittitle>Secretary's Page <unitdate type="inclusive" normal="1973/1975">1973-1975</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [39545428886743583]" altrender="box">5</container>
+              <container type="box" label="Box">5</container>
               <unittitle>Treasurer's Reports <unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate></unittitle>
             </did>
           </c03>
@@ -1685,57 +1618,49 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39545428886743583]" altrender="box">5</container>
+            <container type="box" label="Box">5</container>
             <unittitle>Archaeological Act <unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39545428886743583]" altrender="box">5</container>
+            <container type="box" label="Box">5</container>
             <unittitle>Archaeological Survey of the Muskegon Pipeline <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39545428886743583]" altrender="box">5</container>
+            <container type="box" label="Box">5</container>
             <unittitle>Archives Correspondence <unitdate type="inclusive" normal="1991/2008">1991-2008</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39545428886743583]" altrender="box">5</container>
-            <unittitle>Biographies (various members)</unittitle>
-            <unitdate type="inclusive" normal="1962">1962</unitdate>
-            <unitdate type="inclusive" normal="1963">1963</unitdate>
-            <unitdate type="inclusive" normal="2000/2009" certainty="approximate">2000s</unitdate>
-            <unitdate type="inclusive">undated</unitdate>
+            <container type="box" label="Box">5</container>
+            <unittitle>Biographies (various members) <unitdate type="inclusive" normal="1962">1962</unitdate>, <unitdate type="inclusive" normal="1963">1963</unitdate>, <unitdate type="inclusive" normal="2000/2009" certainty="approximate">2000s</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39545428886743583]" altrender="box">5</container>
+            <container type="box" label="Box">5</container>
             <unittitle>Captain Lawrence (shipwreck Litigation) <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39545428886743583]" altrender="box">5</container>
-            <unittitle>Certification</unittitle>
-            <unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate>
-            <unitdate type="inclusive">undated</unitdate>
+            <container type="box" label="Box">5</container>
+            <unittitle>Certification <unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39545428886743583]" altrender="box">5</container>
-            <unittitle>Descriptions of Archaeological Sites</unittitle>
-            <unitdate type="inclusive" normal="1965">1965</unitdate>
-            <unitdate type="inclusive">undated</unitdate>
+            <container type="box" label="Box">5</container>
+            <unittitle>Descriptions of Archaeological Sites <unitdate type="inclusive" normal="1965">1965</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39545428886743583]" altrender="box">5</container>
+            <container type="box" label="Box">5</container>
             <unittitle>Eastern States Archaeological Federation (EASF, correspondence and miscellaneous) <unitdate type="inclusive" normal="1956/1968">1956-1968</unitdate></unittitle>
           </did>
         </c02>
@@ -1745,72 +1670,62 @@ Michigan Archaeological Society records, Bentley Historical Library, University 
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [39545428886743583]" altrender="box">5</container>
-              <unittitle>Correspondence</unittitle>
-              <unitdate type="inclusive" normal="1924">1924</unitdate>
-              <unitdate type="inclusive" normal="1927">1927</unitdate>
-              <unitdate type="inclusive" normal="1929">1929</unitdate>
-              <unitdate type="inclusive">undated</unitdate>
+              <container type="box" label="Box">5</container>
+              <unittitle>Correspondence <unitdate type="inclusive" normal="1924">1924</unitdate>, <unitdate type="inclusive" normal="1927">1927</unitdate>, <unitdate type="inclusive" normal="1929">1929</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [39545428886743583]" altrender="box">5</container>
+              <container type="box" label="Box">5</container>
               <unittitle>Microfilm Negative (Indian arrowheads from different townships, archaeological atlas, and Fox Indians) <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39545428886743583]" altrender="box">5</container>
+            <container type="box" label="Box">5</container>
             <unittitle>Grant Proposal to Michigan Council for the Humanities <unitdate type="inclusive">undated</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39545428886743583]" altrender="box">5</container>
+            <container type="box" label="Box">5</container>
             <unittitle>Inventory of Talents and Interests <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39545428886743583]" altrender="box">5</container>
+            <container type="box" label="Box">5</container>
             <unittitle>Legislation <unitdate type="inclusive" normal="1971/1973">1971-1973</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39545428886743583]" altrender="box">5</container>
-            <unittitle>Photographs</unittitle>
-            <unitdate type="inclusive" normal="1924/1981">1924-1981</unitdate>
-            <unitdate type="inclusive">undated</unitdate>
+            <container type="box" label="Box">5</container>
+            <unittitle>Photographs <unitdate type="inclusive" normal="1924/1981">1924-1981</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39545428886743583]" altrender="box">5</container>
-            <unittitle>MAS Seal</unittitle>
-            <unitdate type="inclusive" normal="1957">1957</unitdate>
-            <unitdate type="inclusive">undated</unitdate>
+            <container type="box" label="Box">5</container>
+            <unittitle>MAS Seal <unitdate type="inclusive" normal="1957">1957</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39545428886743583]" altrender="box">5</container>
+            <container type="box" label="Box">5</container>
             <unittitle>Proposal for Bicentennial Archaeology Publication Program <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39545428886743583]" altrender="box">5</container>
-            <unittitle>Proposal for a Michigan archaeological survey undated (ca. 1970) and responses, 1971-1972</unittitle>
-            <unitdate type="inclusive">undated</unitdate>
-            <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate>
+            <container type="box" label="Box">5</container>
+            <unittitle>Proposal for a Michigan archaeological survey <unitdate type="inclusive">undated</unitdate> (ca. 1970) and responses, <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [39545428886743583]" altrender="box">5</container>
+            <container type="box" label="Box">5</container>
             <unittitle>Society for American Archaeology (correspondence) <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
           </did>
         </c02>

@@ -27,11 +27,10 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
-      <publisher id="/repositories/2/classifications/1">Michigan Historical Collections/Institute Of Gerontology <lb/>Joint Archives in Gerontology <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <publisher>Michigan Historical Collections/Institute Of Gerontology <lb/>Joint Archives in Gerontology <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
       <titleproper>Finding Aid for <lb/>Abraham and Henrietta Epstein Papers, <date type="inclusive">1920-1960</date></titleproper>
       <author>Finding aid prepared by: <lb/>Christine Weideman and Marilyn McNitt</author>
     </titlepage>
@@ -39,11 +38,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n50010002" ref="/agents/people/34384">Epstein, Abraham, 1892-1942.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n50010002">Epstein, Abraham, 1892-1942.</persname>
       </origination>
-      <unittitle encodinganalog="245">Abraham and Henrietta Epstein Papers</unittitle>
-      <unitdate type="inclusive" encodinganalog="245$f" normal="1920/1960">1920-1960</unitdate>
-      <unitdate type="bulk" encodinganalog="245$g" normal="1930/1942">1930-1942</unitdate>
+      <unittitle encodinganalog="245">Abraham and Henrietta Epstein Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1920/1960">1920-1960</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1930/1942">1930-1942</unitdate></unittitle>
       <abstract>Executive secretary of the American Association for Old Age Security (name later changed to American Association for Social Security.) Subject files relating to his work in behalf of the elderly poor and the unemployed worker; also collected papers of his wife Henrietta Epstein on the subject of social security.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">88287 Aa 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
@@ -89,15 +86,15 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13587">American Association for Old Age Security.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85311988" ref="/agents/corporate_entities/9861">American Association for Social Security.</corpname>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n50010002" ref="/agents/people/34384">Epstein, Abraham, 1892-1942.</persname>
-        <subject source="lcsh" encodinganalog="650" ref="/subjects/7545">Old age.</subject>
-        <subject source="lcsh" encodinganalog="650" ref="/subjects/7546">Social security.</subject>
+        <corpname source="lcnaf" encodinganalog="610">American Association for Old Age Security.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85311988">American Association for Social Security.</corpname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n50010002">Epstein, Abraham, 1892-1942.</persname>
+        <subject source="lcsh" encodinganalog="650">Old age.</subject>
+        <subject source="lcsh" encodinganalog="650">Social security.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31978">Epstein, Henrietta.</persname>
+        <persname source="lcnaf" encodinganalog="700">Epstein, Henrietta.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -114,7 +111,7 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [634417427598516411]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>Addams, Jane <unitdate>undated</unitdate></unittitle>
             </did>
             <odd>
@@ -123,7 +120,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [634417427598516411]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>Advisory Committee on Social Insurance <unitdate type="inclusive" normal="1942">1942</unitdate></unittitle>
             </did>
             <odd>
@@ -132,7 +129,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [634417427598516411]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>British Isles Firms, re: Pension Programs <unitdate type="inclusive" normal="1925">1925</unitdate></unittitle>
             </did>
             <odd>
@@ -145,11 +142,8 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [634417427598516411]" altrender="box">1</container>
-                <unittitle>General</unittitle>
-                <unitdate type="inclusive">undated</unitdate>
-                <unitdate type="inclusive" normal="1930/1933">1930-1933</unitdate>
-                <unitdate type="inclusive" normal="1939">1939</unitdate>
+                <container type="box" label="Box">1</container>
+                <unittitle>General <unitdate type="inclusive">undated</unitdate>, <unitdate type="inclusive" normal="1930/1933">1930-1933</unitdate>, <unitdate type="inclusive" normal="1939">1939</unitdate></unittitle>
               </did>
               <odd>
                 <p>(samples of letters and responses)</p>
@@ -157,7 +151,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [634417427598516411]" altrender="box">1</container>
+                <container type="box" label="Box">1</container>
                 <unittitle>Luncheon <unitdate type="inclusive" normal="1942">1942</unitdate></unittitle>
               </did>
               <odd>
@@ -166,7 +160,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [634417427598516411]" altrender="box">1</container>
+                <container type="box" label="Box">1</container>
                 <unittitle>Gray, Professor Herman <unitdate type="inclusive" normal="1933/1935">1933-1935</unitdate></unittitle>
               </did>
               <odd>
@@ -176,10 +170,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [634417427598516411]" altrender="box">1</container>
-              <unittitle>Harper's article: "Our Social Security Act"</unittitle>
-              <unitdate>Undated</unitdate>
-              <unitdate type="inclusive" normal="1935-11/1936-01">November 1935-January 1936</unitdate>
+              <container type="box" label="Box">1</container>
+              <unittitle>Harper's article: "Our Social Security Act" <unitdate>Undated</unitdate>, <unitdate type="inclusive" normal="1935-11/1936-01">November 1935-January 1936</unitdate></unittitle>
             </did>
             <odd>
               <p>(mostly comments on the article, which was written by Epstein)</p>
@@ -187,12 +179,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [634417427598516411]" altrender="box">1</container>
-              <unittitle>Matthews, William</unittitle>
-              <unitdate type="inclusive" normal="1930/1933">1930-1933</unitdate>
-              <unitdate type="inclusive" normal="1935">1935</unitdate>
-              <unitdate type="inclusive" normal="1938">1938</unitdate>
-              <unitdate type="inclusive" normal="1943">1943</unitdate>
+              <container type="box" label="Box">1</container>
+              <unittitle>Matthews, William <unitdate type="inclusive" normal="1930/1933">1930-1933</unitdate>, <unitdate type="inclusive" normal="1935">1935</unitdate>, <unitdate type="inclusive" normal="1938">1938</unitdate>, <unitdate type="inclusive" normal="1943">1943</unitdate></unittitle>
             </did>
             <odd>
               <p>(Matthews was Director, Department of Family Welfare, Association For Improving the Condition of the Poor, and Director of Special Services, Community Services Society of New York, mostly re: Old Age Insurance)</p>
@@ -200,13 +188,13 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [634417427598516411]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>Memoranda re: Social Security <unitdate type="inclusive" normal="1941">1941</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [634417427598516411]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>Nordholm, Alex <unitdate type="inclusive" normal="1935">1935</unitdate></unittitle>
             </did>
             <odd>
@@ -215,11 +203,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [634417427598516411]" altrender="box">1</container>
-              <unittitle>Ohio Old Age Pension League</unittitle>
-              <unitdate type="inclusive" normal="1929">1929</unitdate>
-              <unitdate type="inclusive" normal="1932">1932</unitdate>
-              <unitdate type="inclusive" normal="1933">1933</unitdate>
+              <container type="box" label="Box">1</container>
+              <unittitle>Ohio Old Age Pension League <unitdate type="inclusive" normal="1929">1929</unitdate>, <unitdate type="inclusive" normal="1932">1932</unitdate>, <unitdate type="inclusive" normal="1933">1933</unitdate></unittitle>
             </did>
             <odd>
               <p>(re: League activities, includes printed material)</p>
@@ -227,10 +212,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [634417427598516411]" altrender="box">1</container>
-              <unittitle>Pennsylvania Federation of Labor</unittitle>
-              <unitdate type="inclusive" normal="1920/1922">1920-1922</unitdate>
-              <unitdate type="inclusive" normal="1927">1927</unitdate>
+              <container type="box" label="Box">1</container>
+              <unittitle>Pennsylvania Federation of Labor <unitdate type="inclusive" normal="1920/1922">1920-1922</unitdate>, <unitdate type="inclusive" normal="1927">1927</unitdate></unittitle>
             </did>
             <odd>
               <p>(mostly re: workers education, includes two President's reports and note from Henrietta Epstein re: Epstein's efforts to establish a Workers' Education Bureau)</p>
@@ -238,11 +221,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [634417427598516411]" altrender="box">1</container>
-              <unittitle>Roosevelt, Franklin D., undated</unittitle>
-              <unitdate type="inclusive" normal="1928/1931">1928-1931</unitdate>
-              <unitdate type="inclusive" normal="1934">1934</unitdate>
-              <unitdate type="inclusive" normal="1940">1940</unitdate>
+              <container type="box" label="Box">1</container>
+              <unittitle>Roosevelt, Franklin D., undated <unitdate type="inclusive" normal="1928/1931">1928-1931</unitdate>, <unitdate type="inclusive" normal="1934">1934</unitdate>, <unitdate type="inclusive" normal="1940">1940</unitdate></unittitle>
             </did>
             <odd>
               <p>(mostly re: passage of a New York Old Age Pension bill)</p>
@@ -250,7 +230,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [634417427598516411]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>Senators <unitdate type="inclusive" normal="1942/1943">1942-1943</unitdate></unittitle>
             </did>
             <odd>
@@ -259,10 +239,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [634417427598516411]" altrender="box">1</container>
-              <unittitle>Social Insurance Conference Group, primarily 1936 but includes 1940</unittitle>
-              <unitdate type="bulk" normal="1936">1936</unitdate>
-              <unitdate type="inclusive" normal="1940">1940</unitdate>
+              <container type="box" label="Box">1</container>
+              <unittitle>Social Insurance Conference Group, primarily <unitdate type="bulk" normal="1936">1936</unitdate> but includes <unitdate type="inclusive" normal="1940">1940</unitdate></unittitle>
             </did>
             <odd>
               <p>(mostly re: its principles of social insurance)</p>
@@ -270,7 +248,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [634417427598516411]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>Social Security Board <unitdate type="inclusive" normal="1935/1943">1935-1943</unitdate></unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">8 folders</extent>
@@ -286,7 +264,7 @@
             </odd>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [634417427598516411]" altrender="box">1</container>
+                <container type="box" label="Box">1</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1938">1938</unitdate>
                   <unitdate>undated</unitdate>
@@ -295,7 +273,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [634417427598516411]" altrender="box">1</container>
+                <container type="box" label="Box">1</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1939">1939</unitdate>
                 </unittitle>
@@ -303,15 +281,14 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [634417427598516411]" altrender="box">1</container>
-                <unitdate type="inclusive" normal="1940">1940</unitdate>
-                <unitdate type="inclusive" normal="1942">1942</unitdate>
+                <container type="box" label="Box">1</container>
+                <unittitle><unitdate type="inclusive" normal="1940">1940</unitdate>, <unitdate type="inclusive" normal="1942">1942</unitdate></unittitle>
               </did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [634417427598516411]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>Stone, I. F. <unitdate type="inclusive" normal="1933">1933</unitdate></unittitle>
             </did>
             <odd>
@@ -320,7 +297,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [634417427598516411]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>Tenth Anniversary of American Association for Social Security (AASS) <unitdate type="inclusive" normal="1937">1937</unitdate></unittitle>
             </did>
             <odd>
@@ -329,7 +306,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [634417427598516411]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>Miscellaneous <unitdate type="inclusive" normal="1930/1943-06">1930-June 1943</unitdate></unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">6 folders</extent>
@@ -343,25 +320,25 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [156288643419290977252861]" altrender="box">2</container>
+              <container type="box" label="Box">2</container>
               <unittitle>Biographical</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [156288643419290977252861]" altrender="box">2</container>
+              <container type="box" label="Box">2</container>
               <unittitle>Advisory Council on Social Security Final Report <unitdate type="inclusive" normal="1938-12-10">December 10, 1938</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [156288643419290977252861]" altrender="box">2</container>
+              <container type="box" label="Box">2</container>
               <unittitle>American Association for Social Security <unitdate type="inclusive" normal="1927/1943">1927-1943</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [156288643419290977252861]" altrender="box">2</container>
+              <container type="box" label="Box">2</container>
               <unittitle>Articles, Memoranda, Reviews, Letters to the Editor: By Epstein</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">8 folders</extent>
@@ -380,7 +357,7 @@
             </odd>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [156288643419290977252861]" altrender="box">2</container>
+                <container type="box" label="Box">2</container>
                 <unittitle>A-Z</unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">7 folders</extent>
@@ -389,7 +366,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [156288643419290977252861]" altrender="box">2</container>
+                <container type="box" label="Box">2</container>
                 <unittitle>Witte, Edwin</unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">5 folders</extent>
@@ -403,32 +380,32 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [7791515478229180952]" altrender="box">3</container>
+                <container type="box" label="Box">3</container>
                 <unittitle>Article (Social Security in Wartime and After) <unitdate type="inclusive" normal="1942">1942</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [7791515478229180952]" altrender="box">3</container>
+                <container type="box" label="Box">3</container>
                 <unittitle>Miscellaneous from both the AAOAS <unitdate type="inclusive" normal="1929/1941">1929-1941</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [7791515478229180952]" altrender="box">3</container>
+                <container type="box" label="Box">3</container>
                 <unittitle>Summaries (Social Security in the United States) <unitdate type="inclusive" normal="1934/1941">1934-1941</unitdate></unittitle>
               </did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7791515478229180952]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>Board of Directors Meeting, A.A.S.S., Minutes <unitdate type="inclusive" normal="1933-10-04">October 4, 1933</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7791515478229180952]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>British Isles Firms: Working Conditions and Rules</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">4 folders</extent>
@@ -440,37 +417,37 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7791515478229180952]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>Camp Tamiment <unitdate type="inclusive" normal="1943">1943</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7791515478229180952]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>"Challenge of the Aged, The" (Epstein manuscript)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7791515478229180952]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>Compulsory Health Insurance ("A Practicing Surgeon Looks at Health Insurance," by Bertram Bernheim) <unitdate type="inclusive" normal="1940">1940</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7791515478229180952]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>Compulsory Health Insurance bill summary <unitdate type="inclusive" normal="1940">1940</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7791515478229180952]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>Consulting Work</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7791515478229180952]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>Contributors <unitdate type="inclusive" normal="1929/1938">1929-1938</unitdate></unittitle>
             </did>
             <odd>
@@ -479,13 +456,13 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7791515478229180952]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>Course and Lecture Notes <unitdate>undated</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7791515478229180952]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>Dependent Parents <unitdate type="inclusive" normal="1940">1940</unitdate></unittitle>
             </did>
             <odd>
@@ -494,16 +471,14 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7791515478229180952]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>Fiftieth Anniversary Dinner, American Association for Social Security <unitdate type="inclusive" normal="1942">1942</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7791515478229180952]" altrender="box">3</container>
-              <unittitle>Miscellanea</unittitle>
-              <unitdate type="inclusive" normal="1933">1933</unitdate>
-              <unitdate type="inclusive" normal="1943">1943</unitdate>
+              <container type="box" label="Box">3</container>
+              <unittitle>Miscellanea <unitdate type="inclusive" normal="1933">1933</unitdate>, <unitdate type="inclusive" normal="1943">1943</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -512,10 +487,8 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [7791515478229180952]" altrender="box">3</container>
-                <unitdate type="inclusive" normal="1927-06">June 1927</unitdate>
-                <unitdate type="inclusive" normal="1927-12">December 1927</unitdate>
-                <unitdate type="inclusive" normal="1928">1928</unitdate>
+                <container type="box" label="Box">3</container>
+                <unittitle><unitdate type="inclusive" normal="1927-06">June 1927</unitdate>, <unitdate type="inclusive" normal="1927-12">December 1927</unitdate>, <unitdate type="inclusive" normal="1928">1928</unitdate></unittitle>
               </did>
               <odd>
                 <p>(missing January, August, November, December)</p>
@@ -523,7 +496,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [7791515478229180952]" altrender="box">3</container>
+                <container type="box" label="Box">3</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1929">1929</unitdate>
                 </unittitle>
@@ -534,15 +507,13 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [7791515478229180952]" altrender="box">3</container>
-                <unittitle>1930 (missing February, March), 1931 (name changes to <title render="italic">Old Age Security Herald</title>)</unittitle>
-                <unitdate type="inclusive" normal="1930">1930</unitdate>
-                <unitdate type="inclusive" normal="1931">1931</unitdate>
+                <container type="box" label="Box">3</container>
+                <unittitle><unitdate type="inclusive" normal="1930">1930</unitdate> (missing February, March), <unitdate type="inclusive" normal="1931">1931</unitdate> (name changes to <title render="italic">Old Age Security Herald</title>)</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [7791515478229180952]" altrender="box">3</container>
+                <container type="box" label="Box">3</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1932/1933">1932-1933</unitdate>
                 </unittitle>
@@ -556,9 +527,8 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [7791515478229180952]" altrender="box">3</container>
-                <unitdate type="inclusive" normal="1934">1934</unitdate>
-                <unitdate type="inclusive" normal="1935">1935</unitdate>
+                <container type="box" label="Box">3</container>
+                <unittitle><unitdate type="inclusive" normal="1934">1934</unitdate>, <unitdate type="inclusive" normal="1935">1935</unitdate></unittitle>
               </did>
               <odd>
                 <p>(missing January, June-December)</p>
@@ -566,9 +536,8 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [7791515478229180952]" altrender="box">3</container>
-                <unitdate type="inclusive" normal="1937">1937</unitdate>
-                <unitdate type="inclusive" normal="1940/1944">1940-1944</unitdate>
+                <container type="box" label="Box">3</container>
+                <unittitle><unitdate type="inclusive" normal="1937">1937</unitdate>, <unitdate type="inclusive" normal="1940/1944">1940-1944</unitdate></unittitle>
               </did>
               <odd>
                 <p>(miscellaneous copies)</p>
@@ -577,13 +546,13 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7791515478229180952]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>New York University, Report of the Chancellor contains reference to Epstein's death <unitdate type="inclusive" normal="1941/1942">1941-1942</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7791515478229180952]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>Pennsylvania Commission on Old Age Pensions <unitdate type="inclusive" normal="1919">1919</unitdate></unittitle>
             </did>
             <odd>
@@ -592,34 +561,31 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7791515478229180952]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>Social Security Act Amendments <unitdate type="inclusive" normal="1939">1939</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7791515478229180952]" altrender="box">3</container>
-              <unittitle>Speeches</unittitle>
-              <unitdate type="inclusive">undated</unitdate>
-              <unitdate type="inclusive" normal="1934">1934</unitdate>
-              <unitdate type="inclusive" normal="1935">1935</unitdate>
+              <container type="box" label="Box">3</container>
+              <unittitle>Speeches <unitdate type="inclusive">undated</unitdate>, <unitdate type="inclusive" normal="1934">1934</unitdate>, <unitdate type="inclusive" normal="1935">1935</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7791515478229180952]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>Testimonial Dinner in Epstein's honor <unitdate type="inclusive" normal="1942">1942</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7791515478229180952]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>Testimony before House Committee on Labor, re: Old Age Pensions <unitdate type="inclusive" normal="1930">1930</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [7791515478229180952]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>Unemployment articles (arranged alphabetically by author) <unitdate type="inclusive" normal="1925/1941">1925-1941</unitdate></unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">4 folders</extent>
@@ -641,11 +607,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [826764427081347524]" altrender="box">4</container>
-              <unittitle>A.A.S.S.: Collected Files of the Executive Secretary (1 letter) 1941 Acting Executive Secretary, 1942 and Associate Secretary, 1943</unittitle>
-              <unitdate type="inclusive" normal="1941">1941</unitdate>
-              <unitdate type="inclusive" normal="1942">1942</unitdate>
-              <unitdate type="inclusive" normal="1943">1943</unitdate>
+              <container type="box" label="Box">4</container>
+              <unittitle>A.A.S.S.: Collected Files of the Executive Secretary (1 letter) <unitdate type="inclusive" normal="1941">1941</unitdate> Acting Executive Secretary, <unitdate type="inclusive" normal="1942">1942</unitdate> and Associate Secretary, <unitdate type="inclusive" normal="1943">1943</unitdate></unittitle>
             </did>
             <odd>
               <p>(mostly routine, but includes interesting correspondence from 1943 re: the proposed merger of the A.A.S.S. and the American Association for Labor Legislation)</p>
@@ -653,7 +616,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [826764427081347524]" altrender="box">4</container>
+              <container type="box" label="Box">4</container>
               <unittitle>Miscellaneous <unitdate type="inclusive" normal="1939/1962">1939-1962</unitdate></unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">5 folders</extent>
@@ -667,27 +630,25 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [826764427081347524]" altrender="box">4</container>
+              <container type="box" label="Box">4</container>
               <unittitle>A.A.S.S. (miscellaneous, routine)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [826764427081347524]" altrender="box">4</container>
-              <unittitle>American Pension Committee (official publication "The Senior Citizen")</unittitle>
-              <unitdate type="inclusive" normal="1958">1958</unitdate>
-              <unitdate type="inclusive" normal="1961">1961</unitdate>
+              <container type="box" label="Box">4</container>
+              <unittitle>American Pension Committee (official publication "The Senior Citizen") <unitdate type="inclusive" normal="1958">1958</unitdate>, <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [826764427081347524]" altrender="box">4</container>
+              <container type="box" label="Box">4</container>
               <unittitle>Canada ("Canada Plans Security") <unitdate type="inclusive" normal="1944">1944</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [826764427081347524]" altrender="box">4</container>
+              <container type="box" label="Box">4</container>
               <unittitle>Collected Documents</unittitle>
             </did>
           </c03>
@@ -697,53 +658,45 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [826764427081347524]" altrender="box">4</container>
-                <unittitle>Social Services</unittitle>
-                <unitdate type="inclusive" normal="1943/1945">1943-1945</unitdate>
-                <unitdate type="inclusive" normal="1946">1946</unitdate>
-                <unitdate type="inclusive" normal="1948">1948</unitdate>
-                <unitdate type="inclusive" normal="1949/1951">1949-1951</unitdate>
+                <container type="box" label="Box">4</container>
+                <unittitle>Social Services <unitdate type="inclusive" normal="1943/1945">1943-1945</unitdate>, <unitdate type="inclusive" normal="1946">1946</unitdate>, <unitdate type="inclusive" normal="1948">1948</unitdate>, <unitdate type="inclusive" normal="1949/1951">1949-1951</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [826764427081347524]" altrender="box">4</container>
+                <container type="box" label="Box">4</container>
                 <unittitle>Beveridge Plan <unitdate type="inclusive" normal="1943" certainty="approximate">1943 undated</unitdate></unittitle>
               </did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [826764427081347524]" altrender="box">4</container>
-              <unittitle>Industrial Union Department (scattered issues)</unittitle>
-              <unitdate type="inclusive" normal="1943">1943</unitdate>
-              <unitdate type="inclusive" normal="1959/1963">1959-1963</unitdate>
+              <container type="box" label="Box">4</container>
+              <unittitle>Industrial Union Department (scattered issues) <unitdate type="inclusive" normal="1943">1943</unitdate>, <unitdate type="inclusive" normal="1959/1963">1959-1963</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [826764427081347524]" altrender="box">4</container>
+              <container type="box" label="Box">4</container>
               <unittitle>International Social Insurance Conference report submitted by Henri Raynaud at 8th General Meeting <unitdate type="inclusive" normal="1947">1947</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [826764427081347524]" altrender="box">4</container>
+              <container type="box" label="Box">4</container>
               <unittitle>International Social Security Association Bulletin <unitdate type="inclusive" normal="1949">1949</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [826764427081347524]" altrender="box">4</container>
+              <container type="box" label="Box">4</container>
               <unittitle>Interstate Conference on Non-Occupational Disability Benefits Program <unitdate type="inclusive" normal="1949">1949</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [826764427081347524]" altrender="box">4</container>
-              <unittitle>Letters to the Editor (in the <title render="italic">New York Times</title>)</unittitle>
-              <unitdate type="inclusive" normal="1942" certainty="approximate">1942 undated</unitdate>
-              <unitdate type="inclusive" normal="1944/1945">1944-1945</unitdate>
+              <container type="box" label="Box">4</container>
+              <unittitle>Letters to the Editor (in the <title render="italic">New York Times</title>), <unitdate type="inclusive" normal="1942" certainty="approximate">1942 undated</unitdate>, <unitdate type="inclusive" normal="1944/1945">1944-1945</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -752,15 +705,13 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [826764427081347524]" altrender="box">4</container>
-                <unittitle>Health and Health Insurance</unittitle>
-                <unitdate type="inclusive" normal="1944/1946">1944-1946</unitdate>
-                <unitdate type="inclusive" normal="1950">1950</unitdate>
+                <container type="box" label="Box">4</container>
+                <unittitle>Health and Health Insurance <unitdate type="inclusive" normal="1944/1946">1944-1946</unitdate>, <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [826764427081347524]" altrender="box">4</container>
+                <container type="box" label="Box">4</container>
                 <unittitle>Welfare, Department of <unitdate type="inclusive" normal="1944">1944</unitdate></unittitle>
               </did>
             </c04>
@@ -775,23 +726,20 @@
               </did>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [826764427081347524]" altrender="box">4</container>
+                  <container type="box" label="Box">4</container>
                   <unittitle>Labor and Related Bills <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [826764427081347524]" altrender="box">4</container>
-                  <unittitle>Pamphlets</unittitle>
-                  <unitdate type="inclusive" normal="1947">1947</unitdate>
-                  <unitdate type="inclusive" normal="1948">1948</unitdate>
-                  <unitdate type="inclusive" normal="1951">1951</unitdate>
+                  <container type="box" label="Box">4</container>
+                  <unittitle>Pamphlets <unitdate type="inclusive" normal="1947">1947</unitdate>, <unitdate type="inclusive" normal="1948">1948</unitdate>, <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
                 </did>
               </c05>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [826764427081347524]" altrender="box">4</container>
+                <container type="box" label="Box">4</container>
                 <unittitle>Health and Health Insurance pamphlets <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
               </did>
             </c04>
@@ -801,13 +749,13 @@
               </did>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [826764427081347524]" altrender="box">4</container>
+                  <container type="box" label="Box">4</container>
                   <unittitle>Advisory Council on Placement and Unemployment Insurance <unitdate type="inclusive" normal="1948">1948</unitdate></unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [826764427081347524]" altrender="box">4</container>
+                  <container type="box" label="Box">4</container>
                   <unittitle>Unemployment Insurance Advisory Council <unitdate type="inclusive" normal="1945/1946">1945-1946</unitdate></unittitle>
                 </did>
               </c05>
@@ -815,13 +763,13 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [826764427081347524]" altrender="box">4</container>
+              <container type="box" label="Box">4</container>
               <unittitle>Party Platforms (Economic Education Subcommittee) <unitdate type="inclusive" normal="1948">1948</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [826764427081347524]" altrender="box">4</container>
+              <container type="box" label="Box">4</container>
               <unittitle>Poland (Social Legislation) <unitdate type="inclusive" normal="1948">1948</unitdate></unittitle>
             </did>
           </c03>
@@ -835,29 +783,25 @@
               </did>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [826764427081347524]" altrender="box">4</container>
+                  <container type="box" label="Box">4</container>
                   <unittitle>Article by R.A. Hohaus, "Compulsory Cash Sickness Benefit Plans-Some Practical Problems" <unitdate type="inclusive" normal="1946">1946</unitdate></unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [826764427081347524]" altrender="box">4</container>
-                  <unittitle>Federal Security Agency</unittitle>
-                  <unitdate type="inclusive" normal="1944">1944</unitdate>
-                  <unitdate type="inclusive" normal="1949">1949</unitdate>
+                  <container type="box" label="Box">4</container>
+                  <unittitle>Federal Security Agency <unitdate type="inclusive" normal="1944">1944</unitdate>, <unitdate type="inclusive" normal="1949">1949</unitdate></unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [826764427081347524]" altrender="box">4</container>
-                  <unittitle>Miscellaneous</unittitle>
-                  <unitdate>undated</unitdate>
-                  <unitdate type="inclusive" normal="1950">1950</unitdate>
+                  <container type="box" label="Box">4</container>
+                  <unittitle>Miscellaneous <unitdate>undated</unitdate>, <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [826764427081347524]" altrender="box">4</container>
+                  <container type="box" label="Box">4</container>
                   <unittitle>National Consumers League <unitdate type="inclusive" normal="1948/1949">1948-1949</unitdate></unittitle>
                 </did>
               </c05>
@@ -868,7 +812,7 @@
               </did>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [826764427081347524]" altrender="box">4</container>
+                  <container type="box" label="Box">4</container>
                   <unittitle>Forum Discussion Scripts for WGED Radio <unitdate type="inclusive" normal="1943/1945">1943-1945</unitdate></unittitle>
                 </did>
                 <odd>
@@ -877,7 +821,7 @@
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [826764427081347524]" altrender="box">4</container>
+                  <container type="box" label="Box">4</container>
                   <unittitle>National Conference on Social Security (Address, "Social Security in America") <unitdate type="inclusive" normal="1944">1944</unitdate></unittitle>
                 </did>
               </c05>
@@ -887,7 +831,7 @@
                 </did>
                 <c06 level="file">
                   <did>
-                    <container type="box" label="Box [826764427081347524]" altrender="box">4</container>
+                    <container type="box" label="Box">4</container>
                     <unittitle>
                       <unitdate type="inclusive" normal="1945">1945</unitdate>
                     </unittitle>
@@ -895,7 +839,7 @@
                 </c06>
                 <c06 level="file">
                   <did>
-                    <container type="box" label="Box [826764427081347524]" altrender="box">4</container>
+                    <container type="box" label="Box">4</container>
                     <unittitle><unitdate type="inclusive" normal="1947">1947</unitdate> ("Building America")</unittitle>
                   </did>
                 </c06>
@@ -903,15 +847,13 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [826764427081347524]" altrender="box">4</container>
-                <unittitle>Medicare</unittitle>
-                <unitdate type="inclusive" normal="1953">1953</unitdate>
-                <unitdate type="inclusive" normal="1960">1960</unitdate>
+                <container type="box" label="Box">4</container>
+                <unittitle>Medicare <unitdate type="inclusive" normal="1953">1953</unitdate>, <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [826764427081347524]" altrender="box">4</container>
+                <container type="box" label="Box">4</container>
                 <unittitle>National Health Assembly Meeting <unitdate type="inclusive" normal="1948-05-01/1948-05-04">May 1-4, 1948</unitdate></unittitle>
               </did>
             </c04>
@@ -921,10 +863,8 @@
               </did>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [826764427081347524]" altrender="box">4</container>
-                  <unittitle>Articles and Notes</unittitle>
-                  <unitdate>undated</unitdate>
-                  <unitdate type="inclusive" normal="1945/1948">1945-1948</unitdate>
+                  <container type="box" label="Box">4</container>
+                  <unittitle>Articles and Notes <unitdate>undated</unitdate>, <unitdate type="inclusive" normal="1945/1948">1945-1948</unitdate></unittitle>
                 </did>
               </c05>
               <c05 level="file">
@@ -933,44 +873,44 @@
                 </did>
                 <c06 level="file">
                   <did>
-                    <container type="box" label="Box [564184545800498731159]" altrender="box">5</container>
+                    <container type="box" label="Box">5</container>
                     <unittitle>Bulletins and Memos <unitdate type="inclusive" normal="1947/1952">1947-1952</unitdate></unittitle>
                   </did>
                 </c06>
                 <c06 level="file">
                   <did>
-                    <container type="box" label="Box [564184545800498731159]" altrender="box">5</container>
+                    <container type="box" label="Box">5</container>
                     <unittitle>Hearing Highlights <unitdate>undated</unitdate></unittitle>
                   </did>
                 </c06>
                 <c06 level="file">
                   <did>
-                    <container type="box" label="Box [564184545800498731159]" altrender="box">5</container>
+                    <container type="box" label="Box">5</container>
                     <unittitle>Press Releases</unittitle>
                   </did>
                 </c06>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [564184545800498731159]" altrender="box">5</container>
+                  <container type="box" label="Box">5</container>
                   <unittitle>Congressional Bills <unitdate type="inclusive" normal="1945/1947">1945-1947</unitdate></unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [564184545800498731159]" altrender="box">5</container>
+                  <container type="box" label="Box">5</container>
                   <unittitle>Miscellanea</unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [564184545800498731159]" altrender="box">5</container>
+                  <container type="box" label="Box">5</container>
                   <unittitle>Newspaper Article, "Should Medicine Be Socialized" <unitdate type="inclusive" normal="1948">1948</unitdate></unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [564184545800498731159]" altrender="box">5</container>
+                  <container type="box" label="Box">5</container>
                   <unittitle>Newspaper Clippings <unitdate type="inclusive" normal="1939/1943">1939-1943</unitdate></unittitle>
                 </did>
               </c05>
@@ -981,31 +921,31 @@
               </did>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [564184545800498731159]" altrender="box">5</container>
+                  <container type="box" label="Box">5</container>
                   <unittitle>Article, "Living in Retirement: A Moderate Standard for an Elderly City Couple," by Mollie Orshansky <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [564184545800498731159]" altrender="box">5</container>
+                  <container type="box" label="Box">5</container>
                   <unittitle>Articles <unitdate type="inclusive" normal="1943/1944">1943-1944</unitdate></unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [564184545800498731159]" altrender="box">5</container>
+                  <container type="box" label="Box">5</container>
                   <unittitle>Bills <unitdate type="inclusive" normal="1948">1948</unitdate></unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [564184545800498731159]" altrender="box">5</container>
+                  <container type="box" label="Box">5</container>
                   <unittitle>Committee Reports <unitdate type="inclusive" normal="1948/1950">1948-1950</unitdate></unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [564184545800498731159]" altrender="box">5</container>
+                  <container type="box" label="Box">5</container>
                   <unittitle>Editorial Excerpts <unitdate type="inclusive" normal="1948">1948</unitdate></unittitle>
                 </did>
               </c05>
@@ -1015,26 +955,26 @@
                 </did>
                 <c06 level="file">
                   <did>
-                    <container type="box" label="Box [564184545800498731159]" altrender="box">5</container>
+                    <container type="box" label="Box">5</container>
                     <unittitle>Pamphlets <unitdate type="inclusive" normal="1943/1950">1943-1950</unitdate></unittitle>
                   </did>
                 </c06>
                 <c06 level="file">
                   <did>
-                    <container type="box" label="Box [564184545800498731159]" altrender="box">5</container>
+                    <container type="box" label="Box">5</container>
                     <unittitle>Summaries and Statements <unitdate type="inclusive" normal="1944/1954">1944-1954</unitdate></unittitle>
                   </did>
                 </c06>
                 <c06 level="file">
                   <did>
-                    <container type="box" label="Box [564184545800498731159]" altrender="box">5</container>
+                    <container type="box" label="Box">5</container>
                     <unittitle>Summary of Hearing on H.R. 6000 before Senate Finance Committee <unitdate type="inclusive" normal="1950-02/1950-03">February-March, 1950</unitdate></unittitle>
                   </did>
                 </c06>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [564184545800498731159]" altrender="box">5</container>
+                  <container type="box" label="Box">5</container>
                   <unittitle>The Townsend Plan (H.R. 4471) <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
                 </did>
               </c05>
@@ -1045,7 +985,7 @@
               </did>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [564184545800498731159]" altrender="box">5</container>
+                  <container type="box" label="Box">5</container>
                   <unittitle>Alaska Unemployment Compensation Commission reports <unitdate type="inclusive" normal="1946/1947">1946-1947</unitdate></unittitle>
                   <physdesc altrender="whole">
                     <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -1054,19 +994,19 @@
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [564184545800498731159]" altrender="box">5</container>
+                  <container type="box" label="Box">5</container>
                   <unittitle>Altmeyer, Arthur J., "Persistent Problems in Unemployment Compensation" address given before Interstate Conference of Employment Security Agencies <unitdate type="inclusive" normal="1944">1944</unitdate></unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [564184545800498731159]" altrender="box">5</container>
+                  <container type="box" label="Box">5</container>
                   <unittitle>Massachusetts Special Commission Relative to the Employment Security Law, Supplementary Report <unitdate type="inclusive" normal="1948">1948</unitdate></unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [564184545800498731159]" altrender="box">5</container>
+                  <container type="box" label="Box">5</container>
                   <unittitle>Miscellanea <unitdate type="inclusive" normal="1943/1949">1943-1949</unitdate></unittitle>
                 </did>
               </c05>
@@ -1077,21 +1017,19 @@
               </did>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [564184545800498731159]" altrender="box">5</container>
+                  <container type="box" label="Box">5</container>
                   <unittitle>Articles <unitdate type="inclusive" normal="1944/1945">1944-1945</unitdate></unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [564184545800498731159]" altrender="box">5</container>
-                  <unittitle>Bill</unittitle>
-                  <unitdate type="inclusive" normal="1945">1945</unitdate>
-                  <unitdate type="inclusive" normal="1949">1949</unitdate>
+                  <container type="box" label="Box">5</container>
+                  <unittitle>Bill <unitdate type="inclusive" normal="1945">1945</unitdate>, <unitdate type="inclusive" normal="1949">1949</unitdate></unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [564184545800498731159]" altrender="box">5</container>
+                  <container type="box" label="Box">5</container>
                   <unittitle>Miscellanea <unitdate type="inclusive" normal="1944/1945">1944-1945</unitdate></unittitle>
                 </did>
               </c05>
@@ -1103,7 +1041,7 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [564184545800498731159]" altrender="box">5</container>
+                <container type="box" label="Box">5</container>
                 <unittitle>
                   <unitdate>Undated</unitdate>
                 </unittitle>
@@ -1111,7 +1049,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [564184545800498731159]" altrender="box">5</container>
+                <container type="box" label="Box">5</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1943/1946">1943-1946</unitdate>
                 </unittitle>
@@ -1124,7 +1062,7 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [564184545800498731159]" altrender="box">5</container>
+                <container type="box" label="Box">5</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1947/1948">1947-1948</unitdate>
                 </unittitle>
@@ -1135,7 +1073,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [564184545800498731159]" altrender="box">5</container>
+                <container type="box" label="Box">5</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1951">1951</unitdate>
                 </unittitle>

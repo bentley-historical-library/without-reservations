@@ -27,11 +27,10 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
-      <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
       <titleproper>Finding aid for <lb/>Palmer Family Architectural Drawings, 1950, 1963-1964 and 1980</titleproper>
       <author>Finding aid created by <lb/>Terry Hoover, 1991</author>
     </titlepage>
@@ -39,12 +38,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/72">Palmer family.</famname>
+        <famname source="lcnaf" encodinganalog="100">Palmer family.</famname>
       </origination>
-      <unittitle encodinganalog="245">Palmer Family Architectural Drawings</unittitle>
-      <unitdate type="inclusive" encodinganalog="245$f" normal="1950">1950</unitdate>
-      <unitdate type="inclusive" encodinganalog="245$f" normal="1963/1964">1963-1964</unitdate>
-      <unitdate type="inclusive" encodinganalog="245$f" normal="1980">1980</unitdate>
+      <unittitle encodinganalog="245">Palmer Family Architectural Drawings <unitdate type="inclusive" encodinganalog="245$f" normal="1950">1950</unitdate>, <unitdate type="inclusive" encodinganalog="245$f" normal="1963/1964">1963-1964</unitdate>, <unitdate type="inclusive" encodinganalog="245$f" normal="1980">1980</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1950">1950</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">93790 Aa</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Ann Arbor, Michigan family. Architectural drawings and renderings for their Ann Arbor, Michigan home designed by Frank Lloyd Wright and his associates.</abstract>
@@ -67,8 +63,7 @@
         <p>Copyright has not been transferred to the Regents of the University of Michigan.</p>
       </userestrict>
       <prefercite encodinganalog="524">
-        <p>[item], folder, box,
-Palmer Family Architectural Drawings, Bentley Historical Library, University of Michigan</p>
+        <p>[item], folder, box, Palmer Family Architectural Drawings, Bentley Historical Library, University of Michigan</p>
       </prefercite>
     </descgrp>
     <bioghist encodinganalog="545">
@@ -85,12 +80,12 @@ Palmer Family Architectural Drawings, Bentley Historical Library, University of 
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650" ref="/subjects/6426">Dwellings--Michigan--Ann Arbor.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79032932" ref="/agents/people/31591">Wright, Frank Lloyd, 1867-1959.</persname>
+        <subject source="lcsh" encodinganalog="650">Dwellings--Michigan--Ann Arbor.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79032932">Wright, Frank Lloyd, 1867-1959.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655" ref="/subjects/3175">Architectural drawings.</genreform>
+        <genreform source="aat" encodinganalog="655">Architectural drawings.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -100,7 +95,7 @@ Palmer Family Architectural Drawings, Bentley Historical Library, University of 
         </did>
         <c02 level="file">
           <did>
-            <container type="folder" label="Oversize Folder [62589932486107640]" altrender="folder">1</container>
+            <container type="folder" label="Oversize Folder">1</container>
             <unittitle>Topographic map <unitdate type="inclusive">undated</unitdate></unittitle>
           </did>
           <odd>
@@ -109,7 +104,7 @@ Palmer Family Architectural Drawings, Bentley Historical Library, University of 
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Oversize Folder [62589932486107640]" altrender="folder">1</container>
+            <container type="folder" label="Oversize Folder">1</container>
             <unittitle>Topographic drawing with paste-up of house done by client <unitdate type="inclusive">undated</unitdate></unittitle>
           </did>
           <odd>
@@ -118,7 +113,7 @@ Palmer Family Architectural Drawings, Bentley Historical Library, University of 
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Oversize Folder [62589932486107640]" altrender="folder">1</container>
+            <container type="folder" label="Oversize Folder">1</container>
             <unittitle>Blueprints of house <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
           </did>
           <odd>
@@ -130,7 +125,7 @@ Palmer Family Architectural Drawings, Bentley Historical Library, University of 
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Oversize Folder [62589932486107640]" altrender="folder">1</container>
+            <container type="folder" label="Oversize Folder">1</container>
             <unittitle>Blueline prints of house <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
           </did>
           <odd>
@@ -142,7 +137,7 @@ Palmer Family Architectural Drawings, Bentley Historical Library, University of 
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Oversize Folder [62589932486107640]" altrender="folder">1</container>
+            <container type="folder" label="Oversize Folder">1</container>
             <unittitle>Blueprint pages, nos. 2, 4, 5, 6, 9 <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
           </did>
           <odd>
@@ -151,7 +146,7 @@ Palmer Family Architectural Drawings, Bentley Historical Library, University of 
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Oversize Folder [229047068413311873867503]" altrender="folder">2</container>
+            <container type="folder" label="Oversize Folder">2</container>
             <unittitle>Blueprint <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
           </did>
           <odd>
@@ -163,7 +158,7 @@ Palmer Family Architectural Drawings, Bentley Historical Library, University of 
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Oversize Folder [229047068413311873867503]" altrender="folder">2</container>
+            <container type="folder" label="Oversize Folder">2</container>
             <unittitle>Floor plan <unitdate type="inclusive">undated</unitdate></unittitle>
           </did>
           <odd>
@@ -172,7 +167,7 @@ Palmer Family Architectural Drawings, Bentley Historical Library, University of 
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Oversize Folder [229047068413311873867503]" altrender="folder">2</container>
+            <container type="folder" label="Oversize Folder">2</container>
             <unittitle>General house plan <unitdate type="inclusive">undated</unitdate></unittitle>
           </did>
           <odd>
@@ -184,7 +179,7 @@ Palmer Family Architectural Drawings, Bentley Historical Library, University of 
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Oversize Folder [229047068413311873867503]" altrender="folder">2</container>
+            <container type="folder" label="Oversize Folder">2</container>
             <unittitle>General plan, sheet 3 <unitdate type="inclusive">undated</unitdate></unittitle>
           </did>
           <odd>
@@ -196,7 +191,7 @@ Palmer Family Architectural Drawings, Bentley Historical Library, University of 
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Oversize Folder [229047068413311873867503]" altrender="folder">2</container>
+            <container type="folder" label="Oversize Folder">2</container>
             <unittitle>Blueprint of precast perforated block <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 blueprints</extent>
@@ -208,7 +203,7 @@ Palmer Family Architectural Drawings, Bentley Historical Library, University of 
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Oversize Folder [229047068413311873867503]" altrender="folder">2</container>
+            <container type="folder" label="Oversize Folder">2</container>
             <unittitle>Rug plan <unitdate type="inclusive">undated</unitdate></unittitle>
             <physdesc altrender="part">
               <extent altrender="materialtype spaceoccupied">2 blueprints</extent>
@@ -223,7 +218,7 @@ Palmer Family Architectural Drawings, Bentley Historical Library, University of 
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Oversize Folder [868194042225281981938710]" altrender="folder">3</container>
+            <container type="folder" label="Oversize Folder">3</container>
             <unittitle>Tea House plan <unitdate type="inclusive">undated</unitdate></unittitle>
           </did>
           <odd>
@@ -232,7 +227,7 @@ Palmer Family Architectural Drawings, Bentley Historical Library, University of 
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Oversize Folder [868194042225281981938710]" altrender="folder">3</container>
+            <container type="folder" label="Oversize Folder">3</container>
             <unittitle>Tea House plans (first renderings) <unitdate type="inclusive">undated</unitdate></unittitle>
           </did>
           <odd>
@@ -241,7 +236,7 @@ Palmer Family Architectural Drawings, Bentley Historical Library, University of 
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Oversize Folder [868194042225281981938710]" altrender="folder">3</container>
+            <container type="folder" label="Oversize Folder">3</container>
             <unittitle>Blueprint for table and lantern <unitdate type="inclusive" normal="1980">1980</unitdate></unittitle>
           </did>
           <odd>
@@ -250,7 +245,7 @@ Palmer Family Architectural Drawings, Bentley Historical Library, University of 
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Oversize Folder [868194042225281981938710]" altrender="folder">3</container>
+            <container type="folder" label="Oversize Folder">3</container>
             <unittitle>Furnishing details <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
           </did>
           <odd>
@@ -259,7 +254,7 @@ Palmer Family Architectural Drawings, Bentley Historical Library, University of 
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Oversize Folder [868194042225281981938710]" altrender="folder">3</container>
+            <container type="folder" label="Oversize Folder">3</container>
             <unittitle>Tea House <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
           </did>
           <odd>
@@ -271,7 +266,7 @@ Palmer Family Architectural Drawings, Bentley Historical Library, University of 
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Oversize Folder [868194042225281981938710]" altrender="folder">3</container>
+            <container type="folder" label="Oversize Folder">3</container>
             <unittitle>Garden plans <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
           </did>
           <odd>

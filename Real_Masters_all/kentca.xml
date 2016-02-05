@@ -23,11 +23,10 @@
         <item>Original encoding from MARDC record using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
-      <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
       <titleproper>Finding aid for <lb/>Charles A. Kent Papers, 1877 and 1898</titleproper>
       <author>Finding aid created by <lb/>Bentley Historical Library Staff</author>
     </titlepage>
@@ -35,11 +34,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/35455">Kent, Charles A. (Charles Artemas),1835-1917.</persname>
+        <persname source="lcnaf" encodinganalog="100">Kent, Charles A. (Charles Artemas),1835-1917.</persname>
       </origination>
-      <unittitle encodinganalog="245">Charles A. Kent papers</unittitle>
-      <unitdate type="inclusive" encodinganalog="245$f" normal="1877">1877</unitdate>
-      <unitdate type="inclusive" encodinganalog="245$f" normal="1898">1898</unitdate>
+      <unittitle encodinganalog="245">Charles A. Kent papers <unitdate type="inclusive" encodinganalog="245$f" normal="1877">1877</unitdate>, <unitdate type="inclusive" encodinganalog="245$f" normal="1898">1898</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">851595 Aa/1</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Professor of law at University of Michigan. Papers include a report of his faculty activities for the period 1876-1877, and correspondence relating to his study of Michigan jurist, Thomas M. Cooley, including letters from James B. Angell, Henry Carter Adams, Charles Horton Cooley, Norman Geddes and Benjamin L. Baxter.</abstract>
@@ -63,8 +60,7 @@
         <p>Copyright is held by the Regents of the University of Michigan.</p>
       </userestrict>
       <prefercite encodinganalog="524">
-        <p>[item], folder, box,
-Charles A. Kent Papers, Bentley Historical Library, University of Michigan</p>
+        <p>[item], folder, box, Charles A. Kent Papers, Bentley Historical Library, University of Michigan</p>
       </prefercite>
     </descgrp>
     <bioghist encodinganalog="545">
@@ -79,17 +75,17 @@ Charles A. Kent Papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50032078" ref="/agents/people/34258">Cooley, Thomas McIntyre, 1824-1898.</persname>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10881">University of Michigan. Dept. of Law.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50032078">Cooley, Thomas McIntyre, 1824-1898.</persname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Law.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50036849" ref="/agents/people/34913">Adams, Henry Carter, 1851-1921.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no90002065" ref="/agents/people/29978">Angell, James Burrill, 1829-1916.</persname>
-        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35439">Baxter, Benjamin Levi, 1815-1902.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80056984" ref="/agents/people/29007">Cooley, Charles Horton, 1864-1929.</persname>
-        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27239">Geddes, Norman, b. 1823.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50036849">Adams, Henry Carter, 1851-1921.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no90002065">Angell, James Burrill, 1829-1916.</persname>
+        <persname source="lcnaf" encodinganalog="700">Baxter, Benjamin Levi, 1815-1902.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80056984">Cooley, Charles Horton, 1864-1929.</persname>
+        <persname source="lcnaf" encodinganalog="700">Geddes, Norman, b. 1823.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -99,7 +95,7 @@ Charles A. Kent Papers, Bentley Historical Library, University of Michigan</p>
         </did>
         <c02 level="file">
           <did>
-            <container label="Folder [274994943350800655018]" type="folder" altrender="folder">1</container>
+            <container label="Folder" type="folder">1</container>
             <unittitle>Report on faculty duties <unitdate type="inclusive" normal="1876/1877">1876/77</unitdate></unittitle>
           </did>
         </c02>

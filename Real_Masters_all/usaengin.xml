@@ -28,11 +28,10 @@
         <item>Original encoding.</item>
       </change>
     </revisiondesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
-      <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
       <titleproper>Finding aid for <lb/>Map of Archangel District, Russia, 1919</titleproper>
       <author>Finding aid created by <lb/>Len Coombs, 2010</author>
     </titlepage>
@@ -40,7 +39,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/10968">United States. Army. Engineer Regiment, 310th.</corpname>
+        <corpname source="lcnaf" encodinganalog="110">United States. Army. Engineer Regiment, 310th.</corpname>
       </origination>
       <unittitle encodinganalog="245">Maps of Archangel District, Russia <unitdate type="inclusive" encodinganalog="245$f" normal="1919">1919</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">M7063.A7 1919 U5 (2010011)</unitid>
@@ -71,8 +70,7 @@
         <p>Copyright is not held by the Regents of the University of Michigan.</p>
       </userestrict>
       <prefercite encodinganalog="524">
-        <p>item, folder title, box. no., United States. Army. Engineer Regiment, 310th. Map of Archangel District, Russia, 1919,
-Bentley Historical Library, University of Michigan</p>
+        <p>item, folder title, box. no., United States. Army. Engineer Regiment, 310th. Map of Archangel District, Russia, 1919, Bentley Historical Library, University of Michigan</p>
       </prefercite>
     </descgrp>
     <scopecontent encodinganalog="520">
@@ -84,14 +82,14 @@ Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcnaf" encodinganalog="651" ref="/subjects/766">Arkhangel'skaia oblast' (Russia)--Maps.</geogname>
-        <geogname source="lcnaf" encodinganalog="651." ref="/subjects/767">Soviet Union--History--Allied intervention, 1918-1920--Maps.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2001077668" ref="/agents/corporate_entities/13625">Allied Mapping Section.</corpname>
-        <corpname encodinganalog="611" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n2008059426" ref="/agents/corporate_entities/11392">Polar Bear Expedition (1918-1919)--Maps.<term type="genre_form">Maps.</term></corpname>
+        <geogname source="lcnaf" encodinganalog="651">Arkhangel'skaia oblast' (Russia)--Maps.</geogname>
+        <geogname source="lcnaf" encodinganalog="651.">Soviet Union--History--Allied intervention, 1918-1920--Maps.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2001077668">Allied Mapping Section.</corpname>
+        <corpname encodinganalog="611" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n2008059426">Polar Bear Expedition (1918-1919)--Maps.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655" ref="/subjects/3142">Maps.</genreform>
+        <genreform source="aat" encodinganalog="655">Maps.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -101,7 +99,7 @@ Bentley Historical Library, University of Michigan</p>
         </did>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [180197517408835772330334]" altrender="folder">1</container>
+            <container type="folder" label="Folder">1</container>
             <unittitle>Maps</unittitle>
           </did>
         </c02>

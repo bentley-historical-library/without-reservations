@@ -24,11 +24,10 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
-      <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
       <titleproper>Finding aid for <lb/>Carroll DeWeese digital map collection, 1838-1926</titleproper>
       <author>Finding aid created by <lb/>Carroll DeWeese, revised by Leon Coombs, 2010</author>
     </titlepage>
@@ -36,7 +35,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/34722">DeWeese, Carroll.</persname>
+        <persname source="lcnaf" encodinganalog="100">DeWeese, Carroll.</persname>
       </origination>
       <unittitle encodinganalog="245">Carroll DeWeese digital map collection <unitdate type="inclusive" encodinganalog="245$f" normal="1838/1926">1838-1926</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2010136 Aa 2</unitid>
@@ -66,8 +65,7 @@
         <p>The collection was photographed from originals held by the Burton Historical Collection, Detroit Public Library. Photo images are copyright by Carroll DeWeese. Permission is given for legitimate personal, non-profit, museum, library, and research use and distribution of the photo images. Commercial and for profit uses of the photo images require permission from Carroll DeWeese. Photo credit is "Carroll DeWeese."</p>
       </userestrict>
       <prefercite encodinganalog="524">
-        <p>[item], folder, box,
-Carroll DeWeese digital map collection, Bentley Historical Library, University of Michigan</p>
+        <p>[item], folder, box, Carroll DeWeese digital map collection, Bentley Historical Library, University of Michigan</p>
       </prefercite>
     </descgrp>
     <bioghist encodinganalog="545">
@@ -82,27 +80,30 @@ Carroll DeWeese digital map collection, Bentley Historical Library, University o
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1701">Detroit (Mich.)--Maps.</geogname>
-        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34722">DeWeese, Carroll.</persname>
-        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1702">Livingston County (Mich.)--Maps.</geogname>
-        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1703">Michigan--Maps.</geogname>
-        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1704">Resder, Jerome &amp; Duffield's Subdivision (Detroit, Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Detroit (Mich.)--Maps.</geogname>
+        <persname source="lcnaf" encodinganalog="600">DeWeese, Carroll.</persname>
+        <geogname source="lcsh" encodinganalog="651">Livingston County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Michigan--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Resder, Jerome &amp; Duffield's Subdivision (Detroit, Mich.)--Maps.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35207">Cram, George Franklin, 1841-1928--Michigan--1882.<term type="temporal">1882.</term><term type="geographic">Michigan</term></persname>
-        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34378">Hess, F--Map of Oakland County, Michigan.<term type="uniform_title">Map of Oakland County, Michigan.</term></persname>
-        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27790">Hubbard, Bela, 1814-1896--Michigan maps--Vol.8, Oakland and Livingston Counties.<term type="genre_form">Michigan maps</term><term type="uniform_title">Vol.8, Oakland and Livingston Counties.</term></persname>
+        <persname source="lcnaf" encodinganalog="700">Cram, George Franklin, 1841-1928--Michigan--1882.</persname>
+        <persname source="lcnaf" encodinganalog="700">Hess, F--Map of Oakland County, Michigan.</persname>
+        <persname source="lcnaf" encodinganalog="700">Hubbard, Bela, 1814-1896--Michigan maps--Vol.8, Oakland and Livingston Counties.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
           <unittitle>Burton Historical Collection maps on DVD-R</unittitle>
+          <physdesc>
+            <physfacet>DVD-R</physfacet>
+          </physdesc>
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="DVD Box [8258194174334491581010]" altrender="box">7</container>
+            <container type="box" label="DVD Box">7</container>
             <unittitle>1857 Oakland Map</unittitle>
           </did>
           <scopecontent>

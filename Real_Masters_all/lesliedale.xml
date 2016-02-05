@@ -24,11 +24,10 @@
         <item>Original encoding from Word 2010 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
-      <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
       <titleproper>Finding aid for <lb/>Dale R. Leslie Collection, 1941-2013</titleproper>
       <author>Finding aid created by <lb/>Jessica Venlet, February 2014.</author>
     </titlepage>
@@ -36,11 +35,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32061">Leslie, Dale R., collector</persname>
+        <persname source="lcnaf" encodinganalog="100">Leslie, Dale R., collector</persname>
       </origination>
-      <unittitle encodinganalog="245">Dale R. Leslie collection</unittitle>
-      <unitdate type="inclusive" encodinganalog="245$f" normal="1941/2013">1941-2013</unitdate>
-      <unitdate type="bulk" encodinganalog="245$g" normal="2008/2013">2008-2013</unitdate>
+      <unittitle encodinganalog="245">Dale R. Leslie collection <unitdate type="inclusive" encodinganalog="245$f" normal="1941/2013">1941-2013</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="2008/2013">2008-2013</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">9577 Aa 2 UAm</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Ann Arbor, Mich. resident and businessman with strong interest in local history. Collection includes video featuring interviews with residents and other historical footage of landmarks and events in Ann Arbor, Ypsilanti, and the hamlet of Dixboro as well as collected papers and records related to Ann Arbor High School and Dixboro United Methodist Church.</abstract>
@@ -70,8 +67,7 @@
         <p>Copyright is held by the Regents of the University of Michigan except in the case of professionally produced sound recordings.</p>
       </userestrict>
       <prefercite encodinganalog="524">
-        <p>[item], folder, box,
-Dale R. Leslie collection, Bentley Historical Library, University of Michigan</p>
+        <p>[item], folder, box, Dale R. Leslie collection, Bentley Historical Library, University of Michigan</p>
       </prefercite>
       <processinfo>
         <p>
@@ -95,35 +91,35 @@ Dale R. Leslie collection, Bentley Historical Library, University of Michigan</p
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651" ref="/subjects/850">Ann Arbor (Mich.)--History.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10045">Ann Arbor High School (Mich.)--Football.<term type="topical">Football.</term></corpname>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9499">Ann Arbor High School (Mich.). Class of 1966.</corpname>
-        <subject source="lcsh" encodinganalog="650" ref="/subjects/8770">Autism--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/12038">Big Ten Conference (U.S.)--Songs and music.<term type="topical">Songs and music.</term></corpname>
-        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2208">Dixboro (Mich.)--Church history.</geogname>
-        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2209">Dixboro (Mich.)--History.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9800">Dixboro United Methodist Church (Dixboro, Mich.)--History.<term type="topical">History.</term></corpname>
-        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30579">Leslie, Dale R.</persname>
-        <subject source="lcsh" encodinganalog="650" ref="/subjects/7095">Radio broadcasting--Michigan--Detroit.</subject>
-        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2210">Superior (Washtenaw County, Mich.: Township)--History.</geogname>
-        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1000">Ypsilanti (Mich.)--History.</geogname>
-        <subject source="lcsh" encodinganalog="650" ref="/subjects/5681">World War, 1939-1945.</subject>
+        <geogname source="lcsh" encodinganalog="651">Ann Arbor (Mich.)--History.</geogname>
+        <corpname source="lcnaf" encodinganalog="610">Ann Arbor High School (Mich.)--Football.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Ann Arbor High School (Mich.). Class of 1966.</corpname>
+        <subject source="lcsh" encodinganalog="650">Autism--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610">Big Ten Conference (U.S.)--Songs and music.</corpname>
+        <geogname source="lcsh" encodinganalog="651">Dixboro (Mich.)--Church history.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Dixboro (Mich.)--History.</geogname>
+        <corpname source="lcnaf" encodinganalog="610">Dixboro United Methodist Church (Dixboro, Mich.)--History.</corpname>
+        <persname source="lcnaf" encodinganalog="600">Leslie, Dale R.</persname>
+        <subject source="lcsh" encodinganalog="650">Radio broadcasting--Michigan--Detroit.</subject>
+        <geogname source="lcsh" encodinganalog="651">Superior (Washtenaw County, Mich.: Township)--History.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Ypsilanti (Mich.)--History.</geogname>
+        <subject source="lcsh" encodinganalog="650">World War, 1939-1945.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <subject source="lctgm" encodinganalog="650" ref="/subjects/4690">Air shows--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10045">Ann Arbor High School (Mich.)</corpname>
-        <subject source="lctgm" encodinganalog="650" ref="/subjects/4221">Students--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650">Air shows--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610">Ann Arbor High School (Mich.)</corpname>
+        <subject source="lctgm" encodinganalog="650">Students--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Sound Recordings:</head>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9800">Dixboro United Methodist Church (Dixboro, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no91003491" ref="/agents/corporate_entities/12038">Big Ten Conference (U.S.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Dixboro United Methodist Church (Dixboro, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no91003491">Big Ten Conference (U.S.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655" ref="/subjects/3306">Digital moving image formats.</genreform>
-        <genreform source="aat" encodinganalog="655" ref="/subjects/3143">Sound recordings.</genreform>
+        <genreform source="aat" encodinganalog="655">Digital moving image formats.</genreform>
+        <genreform source="aat" encodinganalog="655">Sound recordings.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -143,24 +139,23 @@ Dale R. Leslie collection, Bentley Historical Library, University of Michigan</p
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [177182940769635720532]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>Ann Arbor High School Football 50 Year Reunion</unittitle>
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [177182940769635720532]" altrender="box">1</container>
+                <container type="box" label="Box">1</container>
                 <unittitle>Program and other items <unitdate type="inclusive" normal="2012">2012</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
                 <physloc>Online</physloc>
-                <unittitle>1962 Seadon Highlights (video recording), 1962</unittitle>
-                <unitdate type="inclusive" normal="1962">1962</unitdate>
+                <unittitle><unitdate type="inclusive" normal="1962">1962</unitdate> Seadon Highlights (video recording), <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
                 <physdesc>
                   <physfacet>.MP4 file</physfacet>
                 </physdesc>
-                <dao href="http://hdl.handle.net/2027.42/106556" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/12506">
+                <dao href="http://hdl.handle.net/2027.42/106556" show="new" actuate="onrequest">
                   <daodesc>
                     <p>[download item]</p>
                   </daodesc>
@@ -173,9 +168,9 @@ Dale R. Leslie collection, Bentley Historical Library, University of Michigan</p
               <physloc>Online</physloc>
               <unittitle><title render="italic">Dale R. (for "Radio") Leslie Presents Big Ten Medley</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
               <physdesc>
-                <physfacet>.ZIP file)</physfacet>
+                <physfacet>.ZIP file</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/110280" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/12507">
+              <dao href="http://hdl.handle.net/2027.42/110280" show="new" actuate="onrequest">
                 <daodesc>
                   <p>[download item]</p>
                 </daodesc>
@@ -189,7 +184,7 @@ Dale R. Leslie collection, Bentley Historical Library, University of Michigan</p
               <physdesc>
                 <physfacet>.MOV file</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/106518" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/12508">
+              <dao href="http://hdl.handle.net/2027.42/106518" show="new" actuate="onrequest">
                 <daodesc>
                   <p>[download item]</p>
                 </daodesc>
@@ -203,7 +198,7 @@ Dale R. Leslie collection, Bentley Historical Library, University of Michigan</p
               <physdesc>
                 <physfacet>.MP4 file</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/106529" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/12509">
+              <dao href="http://hdl.handle.net/2027.42/106529" show="new" actuate="onrequest">
                 <daodesc>
                   <p>[download item]</p>
                 </daodesc>
@@ -217,7 +212,7 @@ Dale R. Leslie collection, Bentley Historical Library, University of Michigan</p
               <physdesc>
                 <physfacet>.MP4 file</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/106531" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/12510">
+              <dao href="http://hdl.handle.net/2027.42/106531" show="new" actuate="onrequest">
                 <daodesc>
                   <p>[download item]</p>
                 </daodesc>
@@ -231,7 +226,7 @@ Dale R. Leslie collection, Bentley Historical Library, University of Michigan</p
               <physdesc>
                 <physfacet>.MOV file</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/106522" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/12511">
+              <dao href="http://hdl.handle.net/2027.42/106522" show="new" actuate="onrequest">
                 <daodesc>
                   <p>[download item]</p>
                 </daodesc>
@@ -249,7 +244,7 @@ Dale R. Leslie collection, Bentley Historical Library, University of Michigan</p
                 <physdesc>
                   <physfacet>.M4V file</physfacet>
                 </physdesc>
-                <dao href="http://hdl.handle.net/2027.42/106516" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/12512">
+                <dao href="http://hdl.handle.net/2027.42/106516" show="new" actuate="onrequest">
                   <daodesc>
                     <p>[download item]</p>
                   </daodesc>
@@ -263,7 +258,7 @@ Dale R. Leslie collection, Bentley Historical Library, University of Michigan</p
                 <physdesc>
                   <physfacet>.M4V file</physfacet>
                 </physdesc>
-                <dao href="http://hdl.handle.net/2027.42/106525" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/12513">
+                <dao href="http://hdl.handle.net/2027.42/106525" show="new" actuate="onrequest">
                   <daodesc>
                     <p>[download item]</p>
                   </daodesc>
@@ -277,7 +272,7 @@ Dale R. Leslie collection, Bentley Historical Library, University of Michigan</p
                 <physdesc>
                   <physfacet>.M4V file</physfacet>
                 </physdesc>
-                <dao href="http://hdl.handle.net/2027.42/106523" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/12514">
+                <dao href="http://hdl.handle.net/2027.42/106523" show="new" actuate="onrequest">
                   <daodesc>
                     <p>[download item]</p>
                   </daodesc>
@@ -297,7 +292,7 @@ Dale R. Leslie collection, Bentley Historical Library, University of Michigan</p
               <physdesc>
                 <physfacet>.ZIP file</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/110281" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/12515">
+              <dao href="http://hdl.handle.net/2027.42/110281" show="new" actuate="onrequest">
                 <daodesc>
                   <p>[download item]</p>
                 </daodesc>
@@ -318,7 +313,7 @@ Dale R. Leslie collection, Bentley Historical Library, University of Michigan</p
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [177182940769635720532]" altrender="box">1</container>
+                <container type="box" label="Box">1</container>
                 <unittitle>Speeches <unitdate type="inclusive" normal="1983">1983</unitdate> (cassette tape)</unittitle>
               </did>
             </c04>
@@ -329,7 +324,7 @@ Dale R. Leslie collection, Bentley Historical Library, University of Michigan</p
                 <physdesc>
                   <physfacet>.MP4 file</physfacet>
                 </physdesc>
-                <dao href="http://hdl.handle.net/2027.42/106528" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/12516">
+                <dao href="http://hdl.handle.net/2027.42/106528" show="new" actuate="onrequest">
                   <daodesc>
                     <p>[download item]</p>
                   </daodesc>
@@ -344,7 +339,7 @@ Dale R. Leslie collection, Bentley Historical Library, University of Michigan</p
               <physdesc>
                 <physfacet>.MP4 file</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/106527" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/12517">
+              <dao href="http://hdl.handle.net/2027.42/106527" show="new" actuate="onrequest">
                 <daodesc>
                   <p>[download item]</p>
                 </daodesc>
@@ -358,7 +353,7 @@ Dale R. Leslie collection, Bentley Historical Library, University of Michigan</p
               <physdesc>
                 <physfacet>.MP4 file</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/106530" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/12518">
+              <dao href="http://hdl.handle.net/2027.42/106530" show="new" actuate="onrequest">
                 <daodesc>
                   <p>[download item]</p>
                 </daodesc>
@@ -372,7 +367,7 @@ Dale R. Leslie collection, Bentley Historical Library, University of Michigan</p
               <physdesc>
                 <physfacet>.MOV file</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/106524" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/12519">
+              <dao href="http://hdl.handle.net/2027.42/106524" show="new" actuate="onrequest">
                 <daodesc>
                   <p>[download item]</p>
                 </daodesc>
@@ -386,7 +381,7 @@ Dale R. Leslie collection, Bentley Historical Library, University of Michigan</p
               <physdesc>
                 <physfacet>.MP4 file</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/106526" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/12520">
+              <dao href="http://hdl.handle.net/2027.42/106526" show="new" actuate="onrequest">
                 <daodesc>
                   <p>[download item]</p>
                 </daodesc>
@@ -409,7 +404,7 @@ Dale R. Leslie collection, Bentley Historical Library, University of Michigan</p
             <physdesc>
               <physfacet>.MP4 file</physfacet>
             </physdesc>
-            <dao href="http://hdl.handle.net/2027.42/106555" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/12521">
+            <dao href="http://hdl.handle.net/2027.42/106555" show="new" actuate="onrequest">
               <daodesc>
                 <p>[download item]</p>
               </daodesc>
@@ -423,7 +418,7 @@ Dale R. Leslie collection, Bentley Historical Library, University of Michigan</p
             <physdesc>
               <physfacet>.MP4 file</physfacet>
             </physdesc>
-            <dao href="http://hdl.handle.net/2027.42/106532" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/12522">
+            <dao href="http://hdl.handle.net/2027.42/106532" show="new" actuate="onrequest">
               <daodesc>
                 <p>[download item]</p>
               </daodesc>
@@ -437,7 +432,7 @@ Dale R. Leslie collection, Bentley Historical Library, University of Michigan</p
             <physdesc>
               <physfacet>.MOV file</physfacet>
             </physdesc>
-            <dao href="http://hdl.handle.net/2027.42/106428" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/12523">
+            <dao href="http://hdl.handle.net/2027.42/106428" show="new" actuate="onrequest">
               <daodesc>
                 <p>[download item]</p>
               </daodesc>
@@ -451,7 +446,7 @@ Dale R. Leslie collection, Bentley Historical Library, University of Michigan</p
             <physdesc>
               <physfacet>.MOV file</physfacet>
             </physdesc>
-            <dao href="http://hdl.handle.net/2027.42/106427" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/12524">
+            <dao href="http://hdl.handle.net/2027.42/106427" show="new" actuate="onrequest">
               <daodesc>
                 <p>[download item]</p>
               </daodesc>
@@ -465,7 +460,7 @@ Dale R. Leslie collection, Bentley Historical Library, University of Michigan</p
             <physdesc>
               <physfacet>.M4V file</physfacet>
             </physdesc>
-            <dao href="http://hdl.handle.net/2027.42/106519" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/12525">
+            <dao href="http://hdl.handle.net/2027.42/106519" show="new" actuate="onrequest">
               <daodesc>
                 <p>[download item]</p>
               </daodesc>
@@ -479,7 +474,7 @@ Dale R. Leslie collection, Bentley Historical Library, University of Michigan</p
             <physdesc>
               <physfacet>.MOV file</physfacet>
             </physdesc>
-            <dao href="http://hdl.handle.net/2027.42/106520" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/12526">
+            <dao href="http://hdl.handle.net/2027.42/106520" show="new" actuate="onrequest">
               <daodesc>
                 <p>[download item]</p>
               </daodesc>
@@ -493,7 +488,7 @@ Dale R. Leslie collection, Bentley Historical Library, University of Michigan</p
             <physdesc>
               <physfacet>.MOV file</physfacet>
             </physdesc>
-            <dao href="http://hdl.handle.net/2027.42/106521" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/12527">
+            <dao href="http://hdl.handle.net/2027.42/106521" show="new" actuate="onrequest">
               <daodesc>
                 <p>[download item]</p>
               </daodesc>
@@ -507,7 +502,7 @@ Dale R. Leslie collection, Bentley Historical Library, University of Michigan</p
             <physdesc>
               <physfacet>.MP4 file</physfacet>
             </physdesc>
-            <dao href="http://hdl.handle.net/2027.42/106557" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/12528">
+            <dao href="http://hdl.handle.net/2027.42/106557" show="new" actuate="onrequest">
               <daodesc>
                 <p>[download item]</p>
               </daodesc>

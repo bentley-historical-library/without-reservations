@@ -31,11 +31,10 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
-      <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
       <titleproper>Finding aid for <lb/>William W. Blume Papers, <lb/>1811-1825, [183-], and 1931-1963.</titleproper>
       <author>Finding aid created by <lb/>Michigan Historical Collections staff</author>
     </titlepage>
@@ -43,12 +42,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28213">Blume, William Wirt, 1893-</persname>
+        <persname source="lcnaf" encodinganalog="100">Blume, William Wirt, 1893-</persname>
       </origination>
-      <unittitle encodinganalog="245">William W. Blume papers</unittitle>
-      <unitdate type="inclusive" encodinganalog="245$f" normal="1811/1825">1811-1825</unitdate>
-      <unitdate type="inclusive" encodinganalog="245$f" normal="1830/1839" certainty="approximate">1830s</unitdate>
-      <unitdate type="inclusive" encodinganalog="245$f" normal="1931/1963">1931-1963</unitdate>
+      <unittitle encodinganalog="245">William W. Blume papers <unitdate type="inclusive" encodinganalog="245$f" normal="1811/1825">1811-1825</unitdate>, <unitdate type="inclusive" encodinganalog="245$f" normal="1830/1839" certainty="approximate">1830s</unitdate>, <unitdate type="inclusive" encodinganalog="245$f" normal="1931/1963">1931-1963</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">85821 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Professor of law at the University of Michigan; papers contain correspondence, teaching materials, papers relating to student discipline, proceedings of the University Judicial Council, 1950-1953; also research files and collected material relating to his study of Michigan's territorial court system; and copies of court records for Brown County, 1830s; also Wayne County Probate Court records, 1811-1825.</abstract>
@@ -72,8 +68,7 @@
         <p>Copies of court records are in the public domain. For other material copyright is held by the Regents of the University of Michigan.</p>
       </userestrict>
       <prefercite encodinganalog="524">
-        <p>[item], folder, box,
-William W. Blume Papers, Bentley Historical Library, University of Michigan</p>
+        <p>[item], folder, box, William W. Blume Papers, Bentley Historical Library, University of Michigan</p>
       </prefercite>
     </descgrp>
     <bioghist encodinganalog="545">
@@ -89,20 +84,20 @@ William W. Blume Papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651" ref="/subjects/946">China--History--Republic, 1912-1949.</geogname>
-        <subject source="lcsh" encodinganalog="650" ref="/subjects/6378">Court records.</subject>
-        <subject source="lcsh" encodinganalog="650" ref="/subjects/6379">Courts--Michigan.</subject>
-        <geogname source="lcsh" encodinganalog="651" ref="/subjects/948">Japan.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81074669" ref="/agents/corporate_entities/10286">Michigan. Supreme Court.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Law School.<term type="topical">Law School.</term></corpname>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Regulations.<term type="topical">Regulations.</term></corpname>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Students--Discipline.<term type="topical">Students</term><term type="topical">Discipline.</term></corpname>
+        <geogname source="lcsh" encodinganalog="651">China--History--Republic, 1912-1949.</geogname>
+        <subject source="lcsh" encodinganalog="650">Court records.</subject>
+        <subject source="lcsh" encodinganalog="650">Courts--Michigan.</subject>
+        <geogname source="lcsh" encodinganalog="651">Japan.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81074669">Michigan. Supreme Court.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Law School.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Regulations.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Discipline.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/10075">University of Michigan. Judicial Council.</corpname>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n98002706" ref="/agents/corporate_entities/11587">Michigan. Probate Court (Wayne County)</corpname>
+        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Judicial Council.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n98002706">Michigan. Probate Court (Wayne County)</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -112,7 +107,7 @@ William W. Blume Papers, Bentley Historical Library, University of Michigan</p>
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [30240418955123012]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>Memoir of Travels in Japan and China <unitdate type="inclusive" normal="1920/1921">1920-1921</unitdate></unittitle>
           </did>
         </c02>
@@ -123,7 +118,7 @@ William W. Blume Papers, Bentley Historical Library, University of Michigan</p>
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [30240418955123012]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>
               <unitdate type="inclusive" normal="1931/1963">1931-1963</unitdate>
             </unittitle>
@@ -143,7 +138,7 @@ William W. Blume Papers, Bentley Historical Library, University of Michigan</p>
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [78716346196706566114]" altrender="box">2</container>
+              <container type="box" label="Box">2</container>
               <unittitle>American Civil Procedure</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -152,25 +147,25 @@ William W. Blume Papers, Bentley Historical Library, University of Michigan</p>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [78716346196706566114]" altrender="box">2</container>
+              <container type="box" label="Box">2</container>
               <unittitle>American Legal History <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [78716346196706566114]" altrender="box">2</container>
+              <container type="box" label="Box">2</container>
               <unittitle>Constitutional Law</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [78716346196706566114]" altrender="box">2</container>
+              <container type="box" label="Box">2</container>
               <unittitle>East Asiatic Area Law</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [78716346196706566114]" altrender="box">2</container>
+              <container type="box" label="Box">2</container>
               <unittitle>Evidence</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -179,76 +174,74 @@ William W. Blume Papers, Bentley Historical Library, University of Michigan</p>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3136479633083420]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>Evidence, Procedure and Jurisdiction</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3136479633083420]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>Federal Trial Practice and Procedure</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3136479633083420]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>Forms of Action</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3136479633083420]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>Introduction to the Legal System</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3136479633083420]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>Procedure</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3136479633083420]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>Restitution</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [3136479633083420]" altrender="box">3</container>
+              <container type="box" label="Box">3</container>
               <unittitle>Seminar on American History <unitdate type="inclusive" normal="1941/1942">1941-1942</unitdate></unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [49571046423461156258]" altrender="box">4</container>
+            <container type="box" label="Box">4</container>
             <unittitle>Trial and Appellate Practices</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [49571046423461156258]" altrender="box">4</container>
+            <container type="box" label="Box">4</container>
             <unittitle>Faculty Instruction Records, ca. <unitdate type="inclusive" normal="1930/1950">1930-1950</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [49571046423461156258]" altrender="box">4</container>
+            <container type="box" label="Box">4</container>
             <unittitle>Grade Reports <unitdate type="inclusive" normal="1946/1951">1946-1951</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [49571046423461156258]" altrender="box">4</container>
-            <unittitle>Student Papers</unittitle>
-            <unitdate type="inclusive" normal="1940">1940</unitdate>
-            <unitdate type="inclusive" normal="1962">1962</unitdate>
+            <container type="box" label="Box">4</container>
+            <unittitle>Student Papers <unitdate type="inclusive" normal="1940">1940</unitdate>, <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [648454953434694861006]" altrender="box">5</container>
+            <container type="box" label="Box">5</container>
             <unittitle>University Disciplinary Policies</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -261,7 +254,7 @@ William W. Blume Papers, Bentley Historical Library, University of Michigan</p>
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [648454953434694861006]" altrender="box">5</container>
+              <container type="box" label="Box">5</container>
               <unittitle>Proceedings <unitdate type="inclusive" normal="1950/1953">1950-1953</unitdate></unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">7 folders</extent>
@@ -271,21 +264,19 @@ William W. Blume Papers, Bentley Historical Library, University of Michigan</p>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [648454953434694861006]" altrender="box">5</container>
-            <unittitle>Papers, relating to prize competition at University</unittitle>
-            <unitdate type="inclusive" normal="1954">1954</unitdate>
-            <unitdate type="inclusive" normal="1956">1956</unitdate>
+            <container type="box" label="Box">5</container>
+            <unittitle>Papers, relating to prize competition at University <unitdate type="inclusive" normal="1954">1954</unitdate>, <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [648454953434694861006]" altrender="box">5</container>
+            <container type="box" label="Box">5</container>
             <unittitle>Papers relating to Committee on University Lectures</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [648454953434694861006]" altrender="box">5</container>
+            <container type="box" label="Box">5</container>
             <unittitle>Proposed statute on judicial jurisdiction <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
           </did>
         </c02>
@@ -296,33 +287,31 @@ William W. Blume Papers, Bentley Historical Library, University of Michigan</p>
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [648454953434694861006]" altrender="box">5</container>
+            <container type="box" label="Box">5</container>
             <unittitle>Report of Special Committee on the Improvement of the Administration of Justice, 1941</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [648454953434694861006]" altrender="box">5</container>
+            <container type="box" label="Box">5</container>
             <unittitle>Report <unitdate type="inclusive" normal="1928-10">October 1928</unitdate> of the Michigan Procedure Commission</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [648454953434694861006]" altrender="box">5</container>
+            <container type="box" label="Box">5</container>
             <unittitle>Tentative rule revisions <unitdate type="inclusive" normal="1944">1944</unitdate> of the Michigan Supreme Court</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [648454953434694861006]" altrender="box">5</container>
-            <unittitle>Addresses 1928, 1934 to various bar associations</unittitle>
-            <unitdate type="inclusive" normal="1928">1928</unitdate>
-            <unitdate type="inclusive" normal="1934">1934</unitdate>
+            <container type="box" label="Box">5</container>
+            <unittitle>Addresses <unitdate type="inclusive" normal="1928">1928</unitdate>, <unitdate type="inclusive" normal="1934">1934</unitdate> to various bar associations</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [648454953434694861006]" altrender="box">5</container>
+            <container type="box" label="Box">5</container>
             <unittitle>Pleading and procedure form book</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 volumes</extent>
@@ -331,7 +320,7 @@ William W. Blume Papers, Bentley Historical Library, University of Michigan</p>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [648454953434694861006]" altrender="box">5</container>
+            <container type="box" label="Box">5</container>
             <unittitle>Miscellanea</unittitle>
           </did>
         </c02>
@@ -352,19 +341,19 @@ William W. Blume Papers, Bentley Historical Library, University of Michigan</p>
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6275390547388892]" altrender="box">6</container>
+              <container type="box" label="Box">6</container>
               <unittitle>County Court, Wayne County <unitdate type="inclusive" normal="1815/1829">1815-1829</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6275390547388892]" altrender="box">6</container>
+              <container type="box" label="Box">6</container>
               <unittitle>District Court, Huron and Detroit <unitdate type="inclusive" normal="1805/1810">1805-1810</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6275390547388892]" altrender="box">6</container>
+              <container type="box" label="Box">6</container>
               <unittitle>Court of Common Pleas, Wayne County <unitdate type="inclusive" normal="1796/1805">1796-1805</unitdate></unittitle>
             </did>
           </c03>
@@ -378,20 +367,20 @@ William W. Blume Papers, Bentley Historical Library, University of Michigan</p>
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6275390547388892]" altrender="box">6</container>
+              <container type="box" label="Box">6</container>
               <unittitle>Court of Quarter Sessions, Wayne County <unitdate type="inclusive" normal="1797/1804">1797-1804</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [6275390547388892]" altrender="box">6</container>
+              <container type="box" label="Box">6</container>
               <unittitle>Court of Common Pleas, Wayne County <unitdate type="inclusive" normal="1796/1805">1796-1805</unitdate></unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6275390547388892]" altrender="box">6</container>
+            <container type="box" label="Box">6</container>
             <unittitle>Index to Papers, Court of Common Pleas, Wayne County <unitdate type="inclusive" normal="1796/1805">1796-1805</unitdate></unittitle>
           </did>
         </c02>
@@ -404,20 +393,20 @@ William W. Blume Papers, Bentley Historical Library, University of Michigan</p>
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0654141926682]" altrender="box">7</container>
+              <container type="box" label="Box">7</container>
               <unittitle>District of Huron and Detroit</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0654141926682]" altrender="box">7</container>
+              <container type="box" label="Box">7</container>
               <unittitle>District of Erie</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [0654141926682]" altrender="box">7</container>
+            <container type="box" label="Box">7</container>
             <unittitle>Index of Criminal Cases (and civil cases for statutory penalties) in District Court for Huron, and Detroit and Erie; Supreme Court; and County Court, Wayne County</unittitle>
           </did>
         </c02>
@@ -430,7 +419,7 @@ William W. Blume Papers, Bentley Historical Library, University of Michigan</p>
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0654141926682]" altrender="box">7</container>
+              <container type="box" label="Box">7</container>
               <unittitle>Table of Cases</unittitle>
             </did>
           </c03>
@@ -441,7 +430,7 @@ William W. Blume Papers, Bentley Historical Library, University of Michigan</p>
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0654141926682]" altrender="box">7</container>
+              <container type="box" label="Box">7</container>
               <unittitle>County Court (Wayne) Journal <unitdate type="inclusive" normal="1820/1821">1820-1821</unitdate></unittitle>
             </did>
             <odd>
@@ -450,31 +439,31 @@ William W. Blume Papers, Bentley Historical Library, University of Michigan</p>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0654141926682]" altrender="box">7</container>
+              <container type="box" label="Box">7</container>
               <unittitle>Newspaper clippings re: Wayne County court records</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0654141926682]" altrender="box">7</container>
+              <container type="box" label="Box">7</container>
               <unittitle>Newspaper clippings re: laws in force in Indiana Territory <unitdate type="inclusive" normal="1800/1803">1800-1803</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0654141926682]" altrender="box">7</container>
+              <container type="box" label="Box">7</container>
               <unittitle>Catalogue of books of William Woodbridge <unitdate type="inclusive" normal="1806">1806</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0654141926682]" altrender="box">7</container>
+              <container type="box" label="Box">7</container>
               <unittitle>Sibley's Notebook <unitdate type="inclusive" normal="1797/1799">1797-1799</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0654141926682]" altrender="box">7</container>
+              <container type="box" label="Box">7</container>
               <unittitle>Miscellaneous Papers to <unitdate type="inclusive" normal="1810">1810</unitdate></unittitle>
             </did>
             <odd>
@@ -483,7 +472,7 @@ William W. Blume Papers, Bentley Historical Library, University of Michigan</p>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [0654141926682]" altrender="box">7</container>
+              <container type="box" label="Box">7</container>
               <unittitle>Miscellaneous Papers</unittitle>
             </did>
             <odd>
@@ -493,13 +482,13 @@ William W. Blume Papers, Bentley Historical Library, University of Michigan</p>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [177033472238225804]" altrender="box">8</container>
+            <container type="box" label="Box">8</container>
             <unittitle>Index to Supreme Court Cases and Cases in Chancery</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [177033472238225804]" altrender="box">8</container>
+            <container type="box" label="Box">8</container>
             <unittitle>Calendar of Court Files and Miscellaneous Papers, Monroe County <unitdate type="inclusive" normal="1818/1848">1818-1848</unitdate></unittitle>
           </did>
         </c02>
@@ -509,7 +498,7 @@ William W. Blume Papers, Bentley Historical Library, University of Michigan</p>
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [177033472238225804]" altrender="box">8</container>
+              <container type="box" label="Box">8</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1805/1824">1805-1824</unitdate>
               </unittitle>
@@ -517,7 +506,7 @@ William W. Blume Papers, Bentley Historical Library, University of Michigan</p>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [177033472238225804]" altrender="box">8</container>
+              <container type="box" label="Box">8</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1825/1836">1825-1836</unitdate>
               </unittitle>
@@ -525,14 +514,14 @@ William W. Blume Papers, Bentley Historical Library, University of Michigan</p>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [177033472238225804]" altrender="box">8</container>
+              <container type="box" label="Box">8</container>
               <unittitle><unitdate type="inclusive" normal="1805/1824">1805-1824</unitdate> (Index-Digest)</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [177033472238225804]" altrender="box">8</container>
+            <container type="box" label="Box">8</container>
             <unittitle>Equity Cases taken from Blume's <title render="italic">Transactions</title></unittitle>
           </did>
         </c02>
@@ -542,7 +531,7 @@ William W. Blume Papers, Bentley Historical Library, University of Michigan</p>
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [435544944344558041]" altrender="box">9</container>
+              <container type="box" label="Box">9</container>
               <unittitle>Journal <unitdate type="inclusive" normal="1823/1824">1823-1824</unitdate> [photocopy]</unittitle>
             </did>
           </c03>
@@ -552,23 +541,19 @@ William W. Blume Papers, Bentley Historical Library, University of Michigan</p>
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [435544944344558041]" altrender="box">9</container>
-                <unittitle>Journal and other records 1825, 1831-1833 [photocopies]</unittitle>
-                <unitdate type="inclusive" normal="1825">1825</unitdate>
-                <unitdate type="inclusive" normal="1831/1833">1831-1833</unitdate>
+                <container type="box" label="Box">9</container>
+                <unittitle>Journal and other records <unitdate type="inclusive" normal="1825">1825</unitdate>, <unitdate type="inclusive" normal="1831/1833">1831-1833</unitdate> [photocopies]</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [435544944344558041]" altrender="box">9</container>
-                <unittitle>Journal 1831, 1833-1835 [typescript]</unittitle>
-                <unitdate type="inclusive" normal="1831">1831</unitdate>
-                <unitdate type="inclusive" normal="1833/1835">1833-1835</unitdate>
+                <container type="box" label="Box">9</container>
+                <unittitle>Journal <unitdate type="inclusive" normal="1831">1831</unitdate>, <unitdate type="inclusive" normal="1833/1835">1833-1835</unitdate> [typescript]</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [435544944344558041]" altrender="box">9</container>
+                <container type="box" label="Box">9</container>
                 <unittitle>Judgment Records <unitdate type="inclusive" normal="1823/1836">1823-1836</unitdate> [typescript),</unittitle>
               </did>
               <odd>
@@ -577,11 +562,8 @@ William W. Blume Papers, Bentley Historical Library, University of Michigan</p>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [435544944344558041]" altrender="box">9</container>
-                <unittitle>Judgment Records: Chancery 1825 Criminal, 1831, 1833-1835</unittitle>
-                <unitdate type="inclusive" normal="1825">1825</unitdate>
-                <unitdate type="inclusive" normal="1831">1831</unitdate>
-                <unitdate type="inclusive" normal="1833/1835">1833-1835</unitdate>
+                <container type="box" label="Box">9</container>
+                <unittitle>Judgment Records: Chancery <unitdate type="inclusive" normal="1825">1825</unitdate> Criminal, <unitdate type="inclusive" normal="1831">1831</unitdate>, <unitdate type="inclusive" normal="1833/1835">1833-1835</unitdate></unittitle>
               </did>
               <odd>
                 <p>[typescript]</p>
@@ -589,7 +571,7 @@ William W. Blume Papers, Bentley Historical Library, University of Michigan</p>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [435544944344558041]" altrender="box">9</container>
+                <container type="box" label="Box">9</container>
                 <unittitle>Analytical Table of Cases</unittitle>
               </did>
             </c04>
@@ -600,13 +582,13 @@ William W. Blume Papers, Bentley Historical Library, University of Michigan</p>
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [435544944344558041]" altrender="box">9</container>
+                <container type="box" label="Box">9</container>
                 <unittitle>Judgment Records <unitdate type="inclusive" normal="1825/1835">1825-1835</unitdate> [typescript]</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [435544944344558041]" altrender="box">9</container>
+                <container type="box" label="Box">9</container>
                 <unittitle>Judgment Records: Criminal <unitdate type="inclusive" normal="1824/1834">1824-1834</unitdate></unittitle>
               </did>
               <odd>
@@ -615,7 +597,7 @@ William W. Blume Papers, Bentley Historical Library, University of Michigan</p>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [435544944344558041]" altrender="box">9</container>
+                <container type="box" label="Box">9</container>
                 <unittitle>Judgment Records: Civil <unitdate type="inclusive" normal="1825/1835">1825-1835</unitdate></unittitle>
               </did>
               <odd>
@@ -624,7 +606,7 @@ William W. Blume Papers, Bentley Historical Library, University of Michigan</p>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [435544944344558041]" altrender="box">9</container>
+                <container type="box" label="Box">9</container>
                 <unittitle>Calendar <unitdate type="inclusive" normal="1820/1839" certainty="approximate">1820s-1830s</unitdate></unittitle>
               </did>
               <odd>
@@ -633,7 +615,7 @@ William W. Blume Papers, Bentley Historical Library, University of Michigan</p>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [4625754969009595114]" altrender="box">10</container>
+                <container type="box" label="Box">10</container>
                 <unittitle>Calendar <unitdate type="inclusive" normal="1820/1839" certainty="approximate">1820s-1830s</unitdate></unittitle>
               </did>
               <odd>
@@ -642,7 +624,7 @@ William W. Blume Papers, Bentley Historical Library, University of Michigan</p>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [1945725047278877939650]" altrender="box">11</container>
+                <container type="box" label="Box">11</container>
                 <unittitle>Calendar <unitdate type="inclusive" normal="1820/1839" certainty="approximate">1820s-1830s</unitdate></unittitle>
               </did>
               <odd>
@@ -651,7 +633,7 @@ William W. Blume Papers, Bentley Historical Library, University of Michigan</p>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [9824946961453237903433]" altrender="box">12</container>
+                <container type="box" label="Box">12</container>
                 <unittitle>Calendar <unitdate type="inclusive" normal="1820/1839" certainty="approximate">1820s-1830s</unitdate></unittitle>
               </did>
               <odd>
@@ -665,7 +647,7 @@ William W. Blume Papers, Bentley Historical Library, University of Michigan</p>
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [9824946961453237903433]" altrender="box">12</container>
+                <container type="box" label="Box">12</container>
                 <unittitle>Journal <unitdate type="inclusive" normal="1834/1836">1834-1836</unitdate></unittitle>
               </did>
               <odd>
@@ -674,20 +656,20 @@ William W. Blume Papers, Bentley Historical Library, University of Michigan</p>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [9824946961453237903433]" altrender="box">12</container>
+                <container type="box" label="Box">12</container>
                 <unittitle>Judgment Record</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [9824946961453237903433]" altrender="box">12</container>
+                <container type="box" label="Box">12</container>
                 <unittitle>Name Index to Calendars</unittitle>
               </did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [9824946961453237903433]" altrender="box">12</container>
+              <container type="box" label="Box">12</container>
               <unittitle>Opinions of James Duane Doty</unittitle>
             </did>
             <odd>
@@ -696,20 +678,20 @@ William W. Blume Papers, Bentley Historical Library, University of Michigan</p>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [9824946961453237903433]" altrender="box">12</container>
+              <container type="box" label="Box">12</container>
               <unittitle>Card index to Doty's opinions</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [808972604630962279354763]" altrender="box">13</container>
+            <container type="box" label="Box">13</container>
             <unittitle>Journal (partial), of U.S. District Court for Kentucky District <unitdate type="inclusive" normal="1789">1789</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [808972604630962279354763]" altrender="box">13</container>
+            <container type="box" label="Box">13</container>
             <unittitle>Miscellaneous photocopies of clippings, correspondence, and legal materials</unittitle>
           </did>
           <odd>
@@ -718,7 +700,7 @@ William W. Blume Papers, Bentley Historical Library, University of Michigan</p>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2013562670420687968253328]" altrender="box">14</container>
+            <container type="box" label="Box">14</container>
             <unittitle>Notes on papers, in other collections</unittitle>
           </did>
           <odd>
@@ -727,7 +709,7 @@ William W. Blume Papers, Bentley Historical Library, University of Michigan</p>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2013562670420687968253328]" altrender="box">14</container>
+            <container type="box" label="Box">14</container>
             <unittitle>Indiana Territorial Court Order Book</unittitle>
           </did>
           <odd>
@@ -736,7 +718,7 @@ William W. Blume Papers, Bentley Historical Library, University of Michigan</p>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [2013562670420687968253328]" altrender="box">14</container>
+            <container type="box" label="Box">14</container>
             <unittitle>Report and Explanatory Notes of the Revisors of the Statutes, Accompanying the Bill to Revise the General Laws of Wisconsin</unittitle>
           </did>
           <odd>
@@ -745,19 +727,19 @@ William W. Blume Papers, Bentley Historical Library, University of Michigan</p>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [267574194961467538198066]" altrender="box">15</container>
+            <container type="box" label="Box">15</container>
             <unittitle>Miscellaneous Notes, Correspondence, and Research Materials re: Territorial Court Studies</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [267574194961467538198066]" altrender="box">15</container>
+            <container type="box" label="Box">15</container>
             <unittitle>"American Legal History: Territorial Period"</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [8433969311440237278913731]" altrender="box">16</container>
+            <container type="box" label="Box">16</container>
             <unittitle>Wayne County Probate Court Records <unitdate type="inclusive" normal="1811/1825">1811-1825</unitdate></unittitle>
           </did>
           <odd>
@@ -766,7 +748,7 @@ William W. Blume Papers, Bentley Historical Library, University of Michigan</p>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [847441972539818]" altrender="box">17</container>
+            <container type="box" label="Box">17</container>
             <unittitle>Wayne County Probate Court Records <unitdate type="inclusive" normal="1811/1825">1811-1825</unitdate></unittitle>
           </did>
           <odd>
@@ -775,7 +757,7 @@ William W. Blume Papers, Bentley Historical Library, University of Michigan</p>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [56706446784967847]" altrender="box">18</container>
+            <container type="box" label="Box">18</container>
             <unittitle>Wayne County Probate Court Records <unitdate type="inclusive" normal="1811/1825">1811-1825</unitdate></unittitle>
           </did>
           <odd>
@@ -787,23 +769,7 @@ William W. Blume Papers, Bentley Historical Library, University of Michigan</p>
     <descgrp type="add">
       <relatedmaterial>
         <head>Articles by Blume</head>
-        <p>(Materials cataloged separately as DA 2 B658 A791)
-          <list type="simple">
-            <item>Actions Quasi in Em Under Section 1665, Title 28, U.S.C. (<title render="italic">Michigan Law Review</title>, November 1951)</item>
-            <item>The "Common Questions" Principle in the Code Provision For Representative Suits. (<title render="italic">Michigan Law Review</title>, April 1932)</item>
-            <item>Jurisdictional Amount in Representative Suits. (<title render="italic">Minnesota Law Review</title>, April 1931)</item>
-            <item>Jury Selection Analyzed: Proposed Revision of Federal System. (<title render="italic">Michigan Law Review</title>, 1944)</item>
-            <item>Limitations and the Federal Courts. (<title render="italic">Michigan Law Review</title>, May, 1951)</item>
-            <item>Origin and Development of the Directed Verdict. (<title render="italic">Michigan Law Review</title>, March, 1950)</item>
-            <item>Place of Trial of Civil Cases. (<title render="italic">Michigan Law Review</title>, November, 1949)</item>
-            <item>The Place of Trial of Criminal Cases: Constitutional Vicinage and Venue. (<title render="italic">Michigan Law Review</title>, 1944)</item>
-            <item>Problem of Preserving excluded Evidence in the Appellate Record. (<title render="italic">Minnesota Law Review</title>, February, 1929)</item>
-            <item>A Rational Theory for Joinder of Causes of Action and Defenses and for the Use of Counterclaims. (<title render="italic">Michigan Law Review</title>, November, 1927)</item>
-            <item>Required Joinder of Claims. (<title render="italic">Michigan Law Review</title>, May, 1947)</item>
-            <item>The Scope of a Civil Action. (<title render="italic">Michigan Law Review</title>, October, 1943)</item>
-            <item>Theory of Pleading; A Survey Including the Federal Rules. (<title render="italic">Michigan Law Review</title>, January 1949)</item>
-          </list>
-        </p>
+        <p>(Materials cataloged separately as DA 2 B658 A791) <list type="simple"><item>Actions Quasi in Em Under Section 1665, Title 28, U.S.C. (<title render="italic">Michigan Law Review</title>, November 1951)</item><item>The "Common Questions" Principle in the Code Provision For Representative Suits. (<title render="italic">Michigan Law Review</title>, April 1932)</item><item>Jurisdictional Amount in Representative Suits. (<title render="italic">Minnesota Law Review</title>, April 1931)</item><item>Jury Selection Analyzed: Proposed Revision of Federal System. (<title render="italic">Michigan Law Review</title>, 1944)</item><item>Limitations and the Federal Courts. (<title render="italic">Michigan Law Review</title>, May, 1951)</item><item>Origin and Development of the Directed Verdict. (<title render="italic">Michigan Law Review</title>, March, 1950)</item><item>Place of Trial of Civil Cases. (<title render="italic">Michigan Law Review</title>, November, 1949)</item><item>The Place of Trial of Criminal Cases: Constitutional Vicinage and Venue. (<title render="italic">Michigan Law Review</title>, 1944)</item><item>Problem of Preserving excluded Evidence in the Appellate Record. (<title render="italic">Minnesota Law Review</title>, February, 1929)</item><item>A Rational Theory for Joinder of Causes of Action and Defenses and for the Use of Counterclaims. (<title render="italic">Michigan Law Review</title>, November, 1927)</item><item>Required Joinder of Claims. (<title render="italic">Michigan Law Review</title>, May, 1947)</item><item>The Scope of a Civil Action. (<title render="italic">Michigan Law Review</title>, October, 1943)</item><item>Theory of Pleading; A Survey Including the Federal Rules. (<title render="italic">Michigan Law Review</title>, January 1949)</item></list> </p>
       </relatedmaterial>
     </descgrp>
   </archdesc>

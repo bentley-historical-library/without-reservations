@@ -27,11 +27,10 @@
         <item>Edited to reflect migration of content from CD-ROM to Deep Blue JMBG</item>
       </change>
     </revisiondesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
-      <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
       <titleproper>Finding Aid for <lb/>Anthony B. Porzondek photograph collection, <date>1919</date></titleproper>
       <author>Finding aid prepared by: <lb/>Len Coombs</author>
     </titlepage>
@@ -39,7 +38,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/35120">Porzondek, Anthony B.</persname>
+        <persname source="lcnaf" encodinganalog="100">Porzondek, Anthony B.</persname>
       </origination>
       <unittitle encodinganalog="245">Anthony B. Porzondek photograph collection <unitdate type="inclusive" encodinganalog="245$f" normal="1919">1919</unitdate></unittitle>
       <abstract>Group photograph of the 339th Infantry at Camp Devens, Mass., July 14, 1919, collected by Anthony B. Porzondek, who served with Company I, 339th Infantry, sent to Archangel, Russia at the end of World War I, part of the "Polar Bear Expedition."</abstract>
@@ -56,8 +55,7 @@
     </did>
     <descgrp type="admin">
       <acqinfo encodinganalog="541">
-        <p>The collection was donated by Randolph A. Porzondek in 2010
-(Donor no.: <num type="donor" encodinganalog="541$e">10405</num>).</p>
+        <p>The collection was donated by Randolph A. Porzondek in 2010 (Donor no.: <num type="donor" encodinganalog="541$e">10405</num>).</p>
       </acqinfo>
       <accessrestrict encodinganalog="506">
         <p>The collection is open for research.</p>
@@ -80,14 +78,14 @@
       </p>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35120">Porzondek, Anthony B.</persname>
-        <geogname source="lcnaf" encodinganalog="651" ref="/subjects/760">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82129076" ref="/agents/corporate_entities/13060">United States. Army. Infantry, 339th.</corpname>
-        <subject source="local" encodinganalog="690" authfilenumber="http://id.loc.gov/authorities/names/n2008059426" ref="/subjects/3518">Polar Bear Expedition.</subject>
+        <persname source="lcnaf" encodinganalog="600">Porzondek, Anthony B.</persname>
+        <geogname source="lcnaf" encodinganalog="651">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82129076">United States. Army. Infantry, 339th.</corpname>
+        <subject source="local" encodinganalog="690" authfilenumber="http://id.loc.gov/authorities/names/n2008059426">Polar Bear Expedition.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655" normal="Photographs." ref="/subjects/3141">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" normal="Photographs.">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -97,12 +95,12 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [91659249747805660597]" altrender="folder">1</container>
+            <container type="folder" label="Folder">1</container>
             <unittitle>Photograph (digitized)</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">1 digital files</extent>
             </physdesc>
-            <dao show="new" actuate="onRequest" href="porzondek0001" ref="/repositories/2/digital_objects/17074">
+            <dao show="new" actuate="onrequest" href="porzondek0001">
               <daodesc>
                 <p>[view item]</p>
               </daodesc>
@@ -111,7 +109,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [3709260486242388404868517]" altrender="folder">2</container>
+            <container type="folder" label="Folder">2</container>
             <unittitle>Photograph Print</unittitle>
           </did>
           <odd>

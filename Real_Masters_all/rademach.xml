@@ -24,11 +24,10 @@
         <item>Original encoding.</item>
       </change>
     </revisiondesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
-      <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
       <titleproper>Finding aid for <lb/>Paul Rademacher diary, 1918-1919.</titleproper>
       <author>Finding aid created by <lb/>Len Coombs, 2013</author>
     </titlepage>
@@ -36,7 +35,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28446">Rademacher, Paul.</persname>
+        <persname source="lcnaf" encodinganalog="100">Rademacher, Paul.</persname>
       </origination>
       <unittitle encodinganalog="245">Paul Rademacher diary <unitdate type="inclusive" encodinganalog="245$f" normal="1918/1919">1918-1919</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2010137 Aa 1</unitid>
@@ -83,10 +82,10 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28446">Rademacher, Paul.</persname>
-        <geogname source="lcnaf" encodinganalog="651." ref="/subjects/760">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <corpname encodinganalog="690" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n2008059426" ref="/agents/corporate_entities/11392">Polar Bear Expedition.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10968">United States. Army. Engineer Regiment, 310th.</corpname>
+        <persname source="lcnaf" encodinganalog="600">Rademacher, Paul.</persname>
+        <geogname source="lcnaf" encodinganalog="651.">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <corpname encodinganalog="690" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n2008059426">Polar Bear Expedition.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">United States. Army. Engineer Regiment, 310th.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -96,14 +95,14 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [8570438070648]" altrender="folder">1</container>
+            <container type="folder" label="Folder">1</container>
             <unittitle>Diary, <unitdate normal="1918/1919" type="inclusive">1918-1919</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
             <unittitle>Diary, <unitdate normal="1918/1919" type="inclusive">1918-1919</unitdate> (online transcription)</unittitle>
-            <dao href="rademachepr-1" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/17117">
+            <dao href="rademachepr-1" show="new" actuate="onrequest">
               <daodesc>
                 <p>[View transcript]</p>
               </daodesc>

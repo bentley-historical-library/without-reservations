@@ -35,11 +35,10 @@
         <item>Edited for style LAC</item>
       </change>
     </revisiondesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
-      <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
       <titleproper>Finding Aid for <lb/>Levi Bartels papers, <date>1917-1919, 1978, and 2005</date></titleproper>
       <author>Finding aid prepared by: <lb/>Polly Reynolds</author>
     </titlepage>
@@ -47,12 +46,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/34675">Bartels, Levi.</persname>
+        <persname source="lcnaf" encodinganalog="100">Bartels, Levi.</persname>
       </origination>
-      <unittitle encodinganalog="245">Levi Bartels papers</unittitle>
-      <unitdate type="inclusive" encodinganalog="245$f" normal="1917/1919">1917-1919</unitdate>
-      <unitdate type="inclusive" encodinganalog="245$f" normal="1978">1978</unitdate>
-      <unitdate type="inclusive" encodinganalog="245$f" normal="2005">2005</unitdate>
+      <unittitle encodinganalog="245">Levi Bartels papers <unitdate type="inclusive" encodinganalog="245$f" normal="1917/1919">1917-1919</unitdate>, <unitdate type="inclusive" encodinganalog="245$f" normal="1978">1978</unitdate>, <unitdate type="inclusive" encodinganalog="245$f" normal="2005">2005</unitdate></unittitle>
       <abstract>Papers of a soldier in the Allied intervention in Russia, 1918-1920, the "Polar Bear Expedition."</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">0650;Aa;2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
@@ -90,37 +86,34 @@
       </p>
       <controlaccess>
         <head>Subjects</head>
-        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34675">Bartels, Levi.</persname>
-        <geogname source="lcsh" encodinganalog="651" ref="/subjects/883">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <subject source="lcsh" encodinganalog="650" ref="/subjects/5712">World War, 1914-1918.</subject>
-        <subject source="local" encodinganalog="690" authfilenumber="http://id.loc.gov/authorities/names/n2008059426" ref="/subjects/3518">Polar Bear Expedition.</subject>
+        <persname source="lcnaf" encodinganalog="600">Bartels, Levi.</persname>
+        <geogname source="lcsh" encodinganalog="651">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <subject source="lcsh" encodinganalog="650">World War, 1914-1918.</subject>
+        <subject source="local" encodinganalog="690" authfilenumber="http://id.loc.gov/authorities/names/n2008059426">Polar Bear Expedition.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <subject source="lctgm" encodinganalog="650" ref="/subjects/3808">Military uniforms--American.</subject>
-        <subject source="lcsh" encodinganalog="650" ref="/subjects/6127">Soldiers--American--Russia (Federation)</subject>
+        <subject source="lctgm" encodinganalog="650">Military uniforms--American.</subject>
+        <subject source="lcsh" encodinganalog="650">Soldiers--American--Russia (Federation)</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform normal="Photographs." source="aat" encodinganalog="655" ref="/subjects/3141">Photographs.</genreform>
+        <genreform normal="Photographs." source="aat" encodinganalog="655">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Papers</unittitle>
-          <unitdate type="inclusive" normal="1917/1919">1917-1919</unitdate>
-          <unitdate type="inclusive" normal="1978">1978</unitdate>
-          <unitdate type="inclusive" normal="2005/2006">2005-2006</unitdate>
+          <unittitle>Papers <unitdate type="inclusive" normal="1917/1919">1917-1919</unitdate>, <unitdate type="inclusive" normal="1978">1978</unitdate>, <unitdate type="inclusive" normal="2005/2006">2005-2006</unitdate></unittitle>
         </did>
         <c02 level="file">
           <did>
-            <container label="Folder [0700714929859935132690]" type="folder" altrender="folder">1</container>
+            <container label="Folder" type="folder">1</container>
             <unittitle>Accoutrements</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">40 digital files</extent>
             </physdesc>
-            <dao show="new" actuate="onRequest" href="bartels0001" ref="/repositories/2/digital_objects/9981">
+            <dao show="new" actuate="onrequest" href="bartels0001">
               <daodesc>
                 <p>[view items]</p>
               </daodesc>
@@ -129,14 +122,12 @@
         </c02>
         <c02 level="file">
           <did>
-            <container label="Folder [02315366645167322371]" type="folder" altrender="folder">2</container>
-            <unittitle>Papers</unittitle>
-            <unitdate type="inclusive" normal="1917/1919">1917-1919</unitdate>
-            <unitdate type="inclusive" normal="1978">1978</unitdate>
+            <container label="Folder" type="folder">2</container>
+            <unittitle>Papers <unitdate type="inclusive" normal="1917/1919">1917-1919</unitdate>, <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">54 digital files</extent>
             </physdesc>
-            <dao show="new" actuate="onRequest" href="bartels0002" ref="/repositories/2/digital_objects/9982">
+            <dao show="new" actuate="onrequest" href="bartels0002">
               <daodesc>
                 <p>[view items]</p>
               </daodesc>
@@ -145,12 +136,12 @@
         </c02>
         <c02 level="file">
           <did>
-            <container label="Folder [99600429407954495340388]" type="folder" altrender="folder">3</container>
+            <container label="Folder" type="folder">3</container>
             <unittitle>Visual materials</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">27 digital files</extent>
             </physdesc>
-            <dao show="new" actuate="onRequest" href="bartels0003" ref="/repositories/2/digital_objects/9983">
+            <dao show="new" actuate="onrequest" href="bartels0003">
               <daodesc>
                 <p>[view items]</p>
               </daodesc>
@@ -159,12 +150,12 @@
         </c02>
         <c02 level="file">
           <did>
-            <container label="Folder [879882080142088817856760]" type="folder" altrender="folder">4</container>
+            <container label="Folder" type="folder">4</container>
             <unittitle>Oral History (transcript)</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">7 digital files</extent>
             </physdesc>
-            <dao show="new" actuate="onRequest" href="bartels0004" ref="/repositories/2/digital_objects/9984">
+            <dao show="new" actuate="onrequest" href="bartels0004">
               <daodesc>
                 <p>[view items]</p>
               </daodesc>

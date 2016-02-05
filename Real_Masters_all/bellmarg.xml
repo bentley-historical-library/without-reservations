@@ -24,11 +24,10 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
-      <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
       <titleproper>Finding aid for <lb/>Margaret Bell Papers, 1919-1956</titleproper>
       <author>Finding aid created by <lb/>Marilyn Starr, March 1987</author>
     </titlepage>
@@ -36,7 +35,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/36012">Bell, Margaret, 1888-1969.</persname>
+        <persname source="lcnaf" encodinganalog="100">Bell, Margaret, 1888-1969.</persname>
       </origination>
       <unittitle encodinganalog="245">Margaret Bell papers <unitdate type="inclusive" encodinganalog="245$f" normal="1919/1956">1919-1956</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">861055 Aa 2</unitid>
@@ -61,154 +60,86 @@
         <p>Copyright status is unknown</p>
       </userestrict>
       <prefercite encodinganalog="524">
-        <p>[item], folder, box,
-Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
+        <p>[item], folder, box, Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
       </prefercite>
     </descgrp>
-    <bioghist encodinganalog="545"><chronlist><chronitem><date>1888</date> <event>Born in Chicago, Illinois, to Frank Elliott and Elizabeth T. (Dyer) Bell.</event></chronitem> <chronitem><date>1903-1907</date> <event>Attended John Dewey Laboratory School, University of Chicago High School.</event></chronitem> <chronitem><date>1910</date> <event>Graduate from Sargent School of Physical Education.</event></chronitem> <chronitem><date>1910-1915</date> <event>Taught at South Park Playground, Chicago.</event></chronitem> <chronitem><date>1910-1916</date> <event>Taught at Englewood High School.</event></chronitem> <chronitem><date>1915</date> <event>Graduated with B.S. from University of Chicago.</event></chronitem> <chronitem><date>1916-1918</date> <event>Taught at University of Chicago.</event></chronitem> <chronitem><date>1918</date> <event>Taught at Teachers' College, Chicago.</event></chronitem> <chronitem><date>1920</date> <event>Graduated from Trudeau School of Tuberculosis.</event></chronitem> <chronitem><date>1921</date> <event>Graduated with M.D. from Rush Medical School, Chicago; Assistant, Internal Medicine at Cardiac Clinics, Central Free Dispensary, Chicago.</event></chronitem> <chronitem><date>1922</date> <event>Research worker at Elizabeth McCormick Memorial Fund, Chicago.</event></chronitem> <chronitem><date>1923</date> <event>Received certificate from San Francisco Hospital, San Francisco.</event></chronitem> <chronitem><date>1923</date> <event>Co-director of Camp Tenaya, Yosemite, Ontario.</event></chronitem> <chronitem><date>1923/24</date> <event>Professor of Hygiene and Physical Education, Chairman Department of Physical Education for Women, Medical Advisor for Women at University of Michigan. (continued in these positions until 1956)</event></chronitem> <chronitem><date>1929-1930</date> <event>Instructor, Internal Medicine at University of Chicago Clinics.</event></chronitem> <chronitem><date>1937-1938</date> <event>New York Post Graduate School of medicine.</event></chronitem> <chronitem><date>1969</date> <event>Died</event></chronitem></chronlist>
+    <bioghist encodinganalog="545">
+      <chronlist>
+        <chronitem>
+          <date>1888</date>
+          <event>Born in Chicago, Illinois, to Frank Elliott and Elizabeth T. (Dyer) Bell.</event>
+        </chronitem>
+        <chronitem>
+          <date>1903-1907</date>
+          <event>Attended John Dewey Laboratory School, University of Chicago High School.</event>
+        </chronitem>
+        <chronitem>
+          <date>1910</date>
+          <event>Graduate from Sargent School of Physical Education.</event>
+        </chronitem>
+        <chronitem>
+          <date>1910-1915</date>
+          <event>Taught at South Park Playground, Chicago.</event>
+        </chronitem>
+        <chronitem>
+          <date>1910-1916</date>
+          <event>Taught at Englewood High School.</event>
+        </chronitem>
+        <chronitem>
+          <date>1915</date>
+          <event>Graduated with B.S. from University of Chicago.</event>
+        </chronitem>
+        <chronitem>
+          <date>1916-1918</date>
+          <event>Taught at University of Chicago.</event>
+        </chronitem>
+        <chronitem>
+          <date>1918</date>
+          <event>Taught at Teachers' College, Chicago.</event>
+        </chronitem>
+        <chronitem>
+          <date>1920</date>
+          <event>Graduated from Trudeau School of Tuberculosis.</event>
+        </chronitem>
+        <chronitem>
+          <date>1921</date>
+          <event>Graduated with M.D. from Rush Medical School, Chicago; Assistant, Internal Medicine at Cardiac Clinics, Central Free Dispensary, Chicago.</event>
+        </chronitem>
+        <chronitem>
+          <date>1922</date>
+          <event>Research worker at Elizabeth McCormick Memorial Fund, Chicago.</event>
+        </chronitem>
+        <chronitem>
+          <date>1923</date>
+          <event>Received certificate from San Francisco Hospital, San Francisco.</event>
+        </chronitem>
+        <chronitem>
+          <date>1923</date>
+          <event>Co-director of Camp Tenaya, Yosemite, Ontario.</event>
+        </chronitem>
+        <chronitem>
+          <date>1923/24</date>
+          <event>Professor of Hygiene and Physical Education, Chairman Department of Physical Education for Women, Medical Advisor for Women at University of Michigan. (continued in these positions until 1956)</event>
+        </chronitem>
+        <chronitem>
+          <date>1929-1930</date>
+          <event>Instructor, Internal Medicine at University of Chicago Clinics.</event>
+        </chronitem>
+        <chronitem>
+          <date>1937-1938</date>
+          <event>New York Post Graduate School of medicine.</event>
+        </chronitem>
+        <chronitem>
+          <date>1969</date>
+          <event>Died</event>
+        </chronitem>
+      </chronlist>
       <list type="simple">
         <head>Professional and Service Organizations in Which Margaret Bell Was Active</head>
-        <item>Organizations:
-          <sublist type="simple">
-            <subitem>Physical Education
-              <sublist type="simple">
-                <subitem>American Association for Health and Physical Education</subitem>
-                <subitem>Mid-West Physical Education Association</subitem>
-                <subitem>Michigan Physical Education Association</subitem>
-                <subitem>National College Directors' Society</subitem>
-                <subitem>Midwest College Physical Education Society</subitem>
-                <subitem>Sargent Alumnae Association</subitem>
-              </sublist>
-            </subitem>
-            <subitem>Education:
-              <sublist type="simple">
-                <subitem>Michigan Education Association</subitem>
-                <subitem>National Education Association</subitem>
-              </sublist>
-            </subitem>
-            <subitem>Medical:
-              <sublist type="simple">
-                <subitem>American Medical Association</subitem>
-                <subitem>American Public Health Association</subitem>
-                <subitem>American Student Health Association</subitem>
-                <subitem>Michigan Student Health Association</subitem>
-                <subitem>National Conference on College Hygiene</subitem>
-                <subitem>Washtenaw County Medical Society</subitem>
-              </sublist>
-            </subitem>
-            <subitem>Others:
-              <sublist type="simple">
-                <subitem>Women's Research Society</subitem>
-                <subitem>A.A.U.W.</subitem>
-                <subitem>University of Chicago Alumni and Alumnae Associations</subitem>
-                <subitem>American Youth Hostels</subitem>
-              </sublist>
-            </subitem>
-          </sublist>
-        </item>
-        <item>Honorary Societies:
-          <sublist type="simple">
-            <subitem>Alpha Omega Alpha - Honorary Medical</subitem>
-            <subitem>Delta Omega - Honorary Public Health</subitem>
-            <subitem>Phi Kappa Phi - Honorary Education</subitem>
-            <subitem>Pi Lambda Theta - Honorary Education</subitem>
-            <subitem>Fellow, American Medical Association</subitem>
-            <subitem>Fellow, American College of Physicians (1932)</subitem>
-            <subitem>Fellow, American Association for Health and Physical Education (1933)</subitem>
-            <subitem>Fellow, American Public Health Association (1941)</subitem>
-          </sublist>
-        </item>
-        <item>Outside Committees and Responsibilities:
-          <sublist type="simple">
-            <subitem>Physical Education
-              <sublist type="simple">
-                <subitem>American Association for Health and Physical Education and Recreation</subitem>
-                <subitem>1929 Committee on Medical Examinations for Women and Girls</subitem>
-                <subitem>1935 Executive Committee</subitem>
-                <subitem>1935 Legislative Council</subitem>
-                <subitem>1935 Governing Board</subitem>
-                <subitem>1937 Vice-President</subitem>
-                <subitem>1932-33 Section Chairman, Therapeutic Section</subitem>
-                <subitem>1934-35 Section Chairman, Teacher Training Section</subitem>
-                <subitem>1934 Dance Section Adviser</subitem>
-                <subitem>1939-40 President</subitem>
-                <subitem>1944 Committee to establish provisions for Health Service Health Instruction, Physical Education, Athletics and Recreation for U.S. Office of Education</subitem>
-                <subitem>American Youth Hostels</subitem>
-                <subitem>Regional Committee</subitem>
-                <subitem>1938 Advisory Board, Great Lakes Area</subitem>
-              </sublist>
-            </subitem>
-            <subitem>Women's Athletic Section of American Association for Health and Physical Education
-              <sublist type="simple">
-                <subitem>1931 Member of Executive Committee and Legislative Board</subitem>
-                <subitem>1934 Committee on Policy</subitem>
-                <subitem>1934 Finance Committee</subitem>
-                <subitem>1933-35 National College Directors' Society, Program Committee</subitem>
-                <subitem>1931-33 Mid-West College Directors' Society, President</subitem>
-              </sublist>
-            </subitem>
-            <subitem>Mid-West Physical Education Association
-              <sublist type="simple">
-                <subitem>1930-32 Vice-President</subitem>
-                <subitem>1932-34 President</subitem>
-                <subitem>1933-34 Committee on Orthopedics</subitem>
-                <subitem>1935-36 Committee on Reorganization and Policy</subitem>
-              </sublist>
-            </subitem>
-            <subitem>State Council on Physical Education, 1934</subitem>
-            <subitem>Michigan Physical Education Association
-              <sublist type="simple">
-                <subitem>1933-34 Advisory Committee</subitem>
-              </sublist>
-            </subitem>
-            <subitem>White House Committees
-              <sublist type="simple">
-                <subitem>1929 Leadership Training in Secondary Schools</subitem>
-                <subitem>1929 Recreation and Physical Education</subitem>
-              </sublist>
-            </subitem>
-          </sublist>
-        </item>
-        <item>Medical and Health Education
-          <sublist type="simple">
-            <subitem>Washtenaw County Medical Society
-              <sublist type="simple">
-                <subitem>1936 Vice-President</subitem>
-                <subitem>1938-39 Committee on Public Health Legislation</subitem>
-              </sublist>
-            </subitem>
-            <subitem>American Student Health Association
-              <sublist type="simple">
-                <subitem>1932-33 Committee on Physical Activities</subitem>
-                <subitem>1932-33 Committee on Program</subitem>
-                <subitem>1932-33 Women's Committee</subitem>
-                <subitem>1938- Committee on Hygiene of Physical Activities</subitem>
-              </sublist>
-            </subitem>
-            <subitem>Michigan Student Health Association
-              <sublist type="simple">
-                <subitem>1936 Committee on Department Organization, Integration and Administration of Student Health</subitem>
-              </sublist>
-            </subitem>
-            <subitem>National Conference on College Hygiene
-              <sublist type="simple">
-                <subitem>1932-33 Committee on Interrelations and Correlation of</subitem>
-              </sublist>
-            </subitem>
-            <subitem>Hea1th Conference called by Governor Murphy in Lansing, 1938</subitem>
-            <subitem>National Conference for Cooperation in School Health Education
-              <sublist type="simple">
-                <subitem>1938 Member on Organization and Appraisal Committee</subitem>
-                <subitem>1939 Executive Committee, alternate member-at-large</subitem>
-              </sublist>
-            </subitem>
-            <subitem>American Association of School Administrators
-              <sublist type="simple">
-                <subitem>1941-1942 Member, Commission on 1942 Yearbook on Health Education</subitem>
-              </sublist>
-            </subitem>
-          </sublist>
-        </item>
+        <item>Organizations: <list type="simple"><item>Physical Education <list type="simple"><item>American Association for Health and Physical Education</item><item>Mid-West Physical Education Association</item><item>Michigan Physical Education Association</item><item>National College Directors' Society</item><item>Midwest College Physical Education Society</item><item>Sargent Alumnae Association</item></list> </item><item>Education: <list type="simple"><item>Michigan Education Association</item><item>National Education Association</item></list> </item><item>Medical: <list type="simple"><item>American Medical Association</item><item>American Public Health Association</item><item>American Student Health Association</item><item>Michigan Student Health Association</item><item>National Conference on College Hygiene</item><item>Washtenaw County Medical Society</item></list> </item><item>Others: <list type="simple"><item>Women's Research Society</item><item>A.A.U.W.</item><item>University of Chicago Alumni and Alumnae Associations</item><item>American Youth Hostels</item></list> </item></list> </item>
+        <item>Honorary Societies: <list type="simple"><item>Alpha Omega Alpha - Honorary Medical</item><item>Delta Omega - Honorary Public Health</item><item>Phi Kappa Phi - Honorary Education</item><item>Pi Lambda Theta - Honorary Education</item><item>Fellow, American Medical Association</item><item>Fellow, American College of Physicians (1932)</item><item>Fellow, American Association for Health and Physical Education (1933)</item><item>Fellow, American Public Health Association (1941)</item></list> </item>
+        <item>Outside Committees and Responsibilities: <list type="simple"><item>Physical Education <list type="simple"><item>American Association for Health and Physical Education and Recreation</item><item>1929 Committee on Medical Examinations for Women and Girls</item><item>1935 Executive Committee</item><item>1935 Legislative Council</item><item>1935 Governing Board</item><item>1937 Vice-President</item><item>1932-33 Section Chairman, Therapeutic Section</item><item>1934-35 Section Chairman, Teacher Training Section</item><item>1934 Dance Section Adviser</item><item>1939-40 President</item><item>1944 Committee to establish provisions for Health Service Health Instruction, Physical Education, Athletics and Recreation for U.S. Office of Education</item><item>American Youth Hostels</item><item>Regional Committee</item><item>1938 Advisory Board, Great Lakes Area</item></list> </item><item>Women's Athletic Section of American Association for Health and Physical Education <list type="simple"><item>1931 Member of Executive Committee and Legislative Board</item><item>1934 Committee on Policy</item><item>1934 Finance Committee</item><item>1933-35 National College Directors' Society, Program Committee</item><item>1931-33 Mid-West College Directors' Society, President</item></list> </item><item>Mid-West Physical Education Association <list type="simple"><item>1930-32 Vice-President</item><item>1932-34 President</item><item>1933-34 Committee on Orthopedics</item><item>1935-36 Committee on Reorganization and Policy</item></list> </item><item>State Council on Physical Education, 1934</item><item>Michigan Physical Education Association <list type="simple"><item>1933-34 Advisory Committee</item></list> </item><item>White House Committees <list type="simple"><item>1929 Leadership Training in Secondary Schools</item><item>1929 Recreation and Physical Education</item></list> </item></list> </item>
+        <item>Medical and Health Education <list type="simple"><item>Washtenaw County Medical Society <list type="simple"><item>1936 Vice-President</item><item>1938-39 Committee on Public Health Legislation</item></list> </item><item>American Student Health Association <list type="simple"><item>1932-33 Committee on Physical Activities</item><item>1932-33 Committee on Program</item><item>1932-33 Women's Committee</item><item>1938- Committee on Hygiene of Physical Activities</item></list> </item><item>Michigan Student Health Association <list type="simple"><item>1936 Committee on Department Organization, Integration and Administration of Student Health</item></list> </item><item>National Conference on College Hygiene <list type="simple"><item>1932-33 Committee on Interrelations and Correlation of</item></list> </item><item>Hea1th Conference called by Governor Murphy in Lansing, 1938</item><item>National Conference for Cooperation in School Health Education <list type="simple"><item>1938 Member on Organization and Appraisal Committee</item><item>1939 Executive Committee, alternate member-at-large</item></list> </item><item>American Association of School Administrators <list type="simple"><item>1941-1942 Member, Commission on 1942 Yearbook on Health Education</item></list> </item></list> </item>
       </list>
     </bioghist>
     <scopecontent encodinganalog="520">
@@ -223,45 +154,45 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/36012">Bell, Margaret, 1888-1969.</persname>
-        <subject source="lcsh" encodinganalog="650" ref="/subjects/6247">Physical education for women--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13283">University of Michigan. Dept. of Physical Education for Women.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
-        <subject source="lcsh" encodinganalog="650" ref="/subjects/6248">Women--Health and hygiene--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650" ref="/subjects/6249">Women physicians--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650" ref="/subjects/6031">Physicians--Michigan--Ann Arbor.</subject>
+        <persname source="lcnaf" encodinganalog="600">Bell, Margaret, 1888-1969.</persname>
+        <subject source="lcsh" encodinganalog="650">Physical education for women--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Physical Education for Women.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <subject source="lcsh" encodinganalog="650">Women--Health and hygiene--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650">Women physicians--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650">Physicians--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <subject source="lctgm" encodinganalog="650" ref="/subjects/3582">African Americans--Women.</subject>
-        <subject source="lctgm" encodinganalog="650" ref="/subjects/3864">Athletic fields--Michigan--Ann Arbor.</subject>
-        <subject source="lctgm" encodinganalog="650" ref="/subjects/3622">Children.</subject>
-        <subject source="lctgm" encodinganalog="650" ref="/subjects/3865">Clothing and dress--1920-1960.</subject>
-        <subject source="lctgm" encodinganalog="650" ref="/subjects/3866">Gymnasiums--Michigan--Ann Arbor.</subject>
-        <subject source="lctgm" encodinganalog="650" ref="/subjects/3867">Physical education.</subject>
-        <subject source="lctgm" encodinganalog="650" ref="/subjects/3630">Sports.</subject>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13283">University of Michigan. Dept. of Physical Education for Women.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Students--Social life and customs--1951-1960.<term type="topical">Students</term><term type="topical">Social life and customs</term><term type="temporal">1951-1960.</term></corpname>
-        <subject source="lctgm" encodinganalog="650" ref="/subjects/3619">Women.</subject>
+        <subject source="lctgm" encodinganalog="650">African Americans--Women.</subject>
+        <subject source="lctgm" encodinganalog="650">Athletic fields--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650">Children.</subject>
+        <subject source="lctgm" encodinganalog="650">Clothing and dress--1920-1960.</subject>
+        <subject source="lctgm" encodinganalog="650">Gymnasiums--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650">Physical education.</subject>
+        <subject source="lctgm" encodinganalog="650">Sports.</subject>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Physical Education for Women.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs--1951-1960.</corpname>
+        <subject source="lctgm" encodinganalog="650">Women.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname encodinganalog="700" source="lcnaf" ref="/agents/people/36012">Bell, Margaret, 1888-1969.</persname>
-        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79060532" ref="/agents/people/35174">Dewey, John, 1859-1952.</persname>
-        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/nr94029651" ref="/agents/people/28375">Lee, Mabel.</persname>
-        <persname encodinganalog="700" source="lcnaf" ref="/agents/people/33024">Halsey, Elizabeth, b. 1890.</persname>
-        <persname encodinganalog="700" source="lcnaf" ref="/agents/people/31771">Jordan, Myra Beach, 1863-1946.</persname>
-        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/no2004117161" ref="/agents/people/33365">McCloy, Charles H. (Charles Harold), 1886-1959.</persname>
-        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n81127252" ref="/agents/people/29936">Mitchell, Elmer Dayton, 1889-</persname>
-        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n81114561" ref="/agents/people/31937">Nash, Jay Bryan, 1886-1965.</persname>
-        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n91070136" ref="/agents/people/28896">Palmer, Thomas Witherell, 1830-1913.</persname>
-        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n90648453" ref="/agents/people/28755">Stagg, Amos Alonzo, 1862-1965.</persname>
-        <persname encodinganalog="700" source="lcnaf" ref="/agents/people/28354">Sundwall, John, 1880-1950.</persname>
-        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n92051380" ref="/agents/people/28811">Yost, Fielding Harris, 1871-1946.</persname>
+        <persname encodinganalog="700" source="lcnaf">Bell, Margaret, 1888-1969.</persname>
+        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79060532">Dewey, John, 1859-1952.</persname>
+        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/nr94029651">Lee, Mabel.</persname>
+        <persname encodinganalog="700" source="lcnaf">Halsey, Elizabeth, b. 1890.</persname>
+        <persname encodinganalog="700" source="lcnaf">Jordan, Myra Beach, 1863-1946.</persname>
+        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/no2004117161">McCloy, Charles H. (Charles Harold), 1886-1959.</persname>
+        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n81127252">Mitchell, Elmer Dayton, 1889-</persname>
+        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n81114561">Nash, Jay Bryan, 1886-1965.</persname>
+        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n91070136">Palmer, Thomas Witherell, 1830-1913.</persname>
+        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n90648453">Stagg, Amos Alonzo, 1862-1965.</persname>
+        <persname encodinganalog="700" source="lcnaf">Sundwall, John, 1880-1950.</persname>
+        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n92051380">Yost, Fielding Harris, 1871-1946.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" ref="/subjects/3141">Photographs.</genreform>
+        <genreform source="aat">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -271,7 +202,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6873512194485297269]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>Biographical sketch, curriculum vita, etc.</unittitle>
           </did>
         </c02>
@@ -285,7 +216,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6873512194485297269]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>
               <unitdate type="inclusive" normal="1926/1927">1926/27</unitdate>
             </unittitle>
@@ -293,7 +224,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6873512194485297269]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>
               <unitdate type="inclusive" normal="1927/1928">1927/28</unitdate>
             </unittitle>
@@ -301,7 +232,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6873512194485297269]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>
               <unitdate type="inclusive" normal="1928/1929">1928/29</unitdate>
             </unittitle>
@@ -309,7 +240,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6873512194485297269]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>
               <unitdate type="inclusive" normal="1929/1930">1929/30</unitdate>
             </unittitle>
@@ -317,7 +248,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6873512194485297269]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>
               <unitdate type="inclusive" normal="1930/1931">1930/31</unitdate>
             </unittitle>
@@ -325,7 +256,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6873512194485297269]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>
               <unitdate type="inclusive" normal="1931/1932">1931/32</unitdate>
             </unittitle>
@@ -333,7 +264,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6873512194485297269]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>
               <unitdate type="inclusive" normal="1932/1933">1932/33</unitdate>
             </unittitle>
@@ -341,7 +272,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6873512194485297269]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>
               <unitdate type="inclusive" normal="1933/1934">1933/34</unitdate>
             </unittitle>
@@ -349,7 +280,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6873512194485297269]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>
               <unitdate type="inclusive" normal="1934/1935">1934/35</unitdate>
             </unittitle>
@@ -357,7 +288,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6873512194485297269]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>
               <unitdate type="inclusive" normal="1935/1936">1935/36</unitdate>
             </unittitle>
@@ -365,7 +296,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6873512194485297269]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>
               <unitdate type="inclusive" normal="1936/1937">1936/37</unitdate>
             </unittitle>
@@ -373,7 +304,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6873512194485297269]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>
               <unitdate type="inclusive" normal="1937/1938">1937/38</unitdate>
             </unittitle>
@@ -381,7 +312,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6873512194485297269]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>
               <unitdate type="inclusive" normal="1938/1939">1938/39</unitdate>
             </unittitle>
@@ -389,7 +320,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6873512194485297269]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>
               <unitdate type="inclusive" normal="1940/1941">1940/41</unitdate>
             </unittitle>
@@ -397,7 +328,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6873512194485297269]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>
               <unitdate type="inclusive" normal="1942/1946">1942-1946</unitdate>
             </unittitle>
@@ -413,7 +344,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6873512194485297269]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>
               <unitdate type="inclusive" normal="1928/1929">1928-1929</unitdate>
             </unittitle>
@@ -421,7 +352,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6873512194485297269]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>
               <unitdate type="inclusive" normal="1930/1935">1930-1935</unitdate>
             </unittitle>
@@ -429,7 +360,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6873512194485297269]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>
               <unitdate type="inclusive" normal="1939/1941">1939-1941</unitdate>
             </unittitle>
@@ -437,7 +368,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [6873512194485297269]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>
               <unitdate type="inclusive" normal="1942/1955">1942-1955</unitdate>
             </unittitle>
@@ -453,91 +384,91 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1085199463930837245205]" altrender="box">2</container>
+            <container type="box" label="Box">2</container>
             <unittitle>Iowa State University, Iowa City, Iowa <unitdate type="inclusive" normal="1936-02-24">February 24, 1936</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1085199463930837245205]" altrender="box">2</container>
+            <container type="box" label="Box">2</container>
             <unittitle>Progressive Education Association <unitdate type="inclusive" normal="1936-04-25">April 25, 1936</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1085199463930837245205]" altrender="box">2</container>
+            <container type="box" label="Box">2</container>
             <unittitle>Playground Leaders' Institute, Camp Keewano Wohelo, Ottawa Beach, Holland, Mich. <unitdate type="inclusive" normal="1936-06">June, 1936</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1085199463930837245205]" altrender="box">2</container>
+            <container type="box" label="Box">2</container>
             <unittitle>East Tennessee Education Association, October 26-28 <unitdate type="inclusive" normal="1939">1939</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1085199463930837245205]" altrender="box">2</container>
+            <container type="box" label="Box">2</container>
             <unittitle>University of West Virginia, Morgantown <unitdate type="inclusive" normal="1940-07-15">July 15, 1940</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1085199463930837245205]" altrender="box">2</container>
+            <container type="box" label="Box">2</container>
             <unittitle>8th International New Education Fellowship Conference, Ann Arbor, Mich. <unitdate type="inclusive" normal="1941-07-06/1941-07-12">July 6-12, 1941</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1085199463930837245205]" altrender="box">2</container>
+            <container type="box" label="Box">2</container>
             <unittitle>Representative Women's Clubs, Cleveland, Ohio <unitdate type="inclusive" normal="1942-02-14">February 14, 1942</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1085199463930837245205]" altrender="box">2</container>
+            <container type="box" label="Box">2</container>
             <unittitle>Kiwanis Club, Battle Creek, Mich. <unitdate type="inclusive" normal="1942-02-19">February 19, 1942</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1085199463930837245205]" altrender="box">2</container>
+            <container type="box" label="Box">2</container>
             <unittitle>Jackson High School, Jackson, Mich. <unitdate type="inclusive" normal="1942-03-03">March 3, 1942</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1085199463930837245205]" altrender="box">2</container>
+            <container type="box" label="Box">2</container>
             <unittitle>6th Annual Vocations Conference, Michigan State University, East Lansing <unitdate type="inclusive" normal="1942-04-22">April 22, 1942</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1085199463930837245205]" altrender="box">2</container>
+            <container type="box" label="Box">2</container>
             <unittitle>Seminar sponsored by Northwestern University and Office of Management Association of Chicago <unitdate type="inclusive" normal="1941-04-24">April 24, 1941</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1085199463930837245205]" altrender="box">2</container>
+            <container type="box" label="Box">2</container>
             <unittitle>Radio talk, University of Michigan <unitdate type="inclusive" normal="1942-05-01">May 1, 1942</unitdate> 10:30 p.m.</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1085199463930837245205]" altrender="box">2</container>
+            <container type="box" label="Box">2</container>
             <unittitle>Occupational Conference, "The Role of Women in the War Effort," University of Michigan, Ann Arbor <unitdate type="inclusive" normal="1943-01-06/1943-01-08">January 6-8, 1943</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1085199463930837245205]" altrender="box">2</container>
+            <container type="box" label="Box">2</container>
             <unittitle>Michigan Alumnae Council Group, Monroe, Mich. <unitdate type="inclusive" normal="1949-01-19">January 19, 1949</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1085199463930837245205]" altrender="box">2</container>
+            <container type="box" label="Box">2</container>
             <unittitle>Women in a Defense Decade Conference, New York City Sept 27-28 <unitdate type="inclusive" normal="1941">1941</unitdate> (correspondence and handouts three folders)</unittitle>
           </did>
         </c02>
@@ -551,24 +482,19 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1085199463930837245205]" altrender="box">2</container>
+            <container type="box" label="Box">2</container>
             <unittitle>Correspondence <unitdate type="inclusive" normal="1930/1944">1930-1944</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1085199463930837245205]" altrender="box">2</container>
-            <unittitle>
-              <title render="italic">Sargent Quarterly News Bulletin</title>
-            </unittitle>
-            <unitdate type="inclusive" normal="1930">1930</unitdate>
-            <unitdate type="inclusive" normal="1933">1933</unitdate>
-            <unitdate type="inclusive" normal="1936">1936</unitdate>
+            <container type="box" label="Box">2</container>
+            <unittitle><title render="italic">Sargent Quarterly News Bulletin</title>, <unitdate type="inclusive" normal="1930">1930</unitdate>, <unitdate type="inclusive" normal="1933">1933</unitdate>, <unitdate type="inclusive" normal="1936">1936</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [1085199463930837245205]" altrender="box">2</container>
+            <container type="box" label="Box">2</container>
             <unittitle>Athletic Competition for Women <unitdate type="inclusive" normal="1954-03-29">March 29, 1954</unitdate></unittitle>
           </did>
         </c02>
@@ -582,7 +508,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [83160886462883943363160518]" altrender="box">3</container>
+            <container type="box" label="Box">3</container>
             <unittitle>Notebooks <unitdate type="inclusive" normal="1929/1954">1929-1954</unitdate></unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 volumes</extent>
@@ -591,21 +517,19 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [83160886462883943363160518]" altrender="box">3</container>
+            <container type="box" label="Box">3</container>
             <unittitle>Correspondence relating to 1942 Yearbook of the American Association of School Administrators <unitdate type="inclusive" normal="1940/1941">1940-1941</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [83160886462883943363160518]" altrender="box">3</container>
-            <unittitle>Requests for collaboration</unittitle>
-            <unitdate type="inclusive" normal="1941">1941</unitdate>
-            <unitdate type="inclusive" normal="1945">1945</unitdate>
+            <container type="box" label="Box">3</container>
+            <unittitle>Requests for collaboration <unitdate type="inclusive" normal="1941">1941</unitdate>, <unitdate type="inclusive" normal="1945">1945</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [83160886462883943363160518]" altrender="box">3</container>
+            <container type="box" label="Box">3</container>
             <unittitle>
               <title render="italic">The Hygiene of marriage</title>
             </unittitle>
@@ -621,115 +545,115 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4089584374676837571]" altrender="box">4</container>
+            <container type="box" label="Box">4</container>
             <unittitle>Eastern Michigan Water Carnival Association <unitdate type="inclusive" normal="1931">1931</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4089584374676837571]" altrender="box">4</container>
+            <container type="box" label="Box">4</container>
             <unittitle>Dancing Masters of America <unitdate type="inclusive" normal="1942/1943">1942/43</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4089584374676837571]" altrender="box">4</container>
+            <container type="box" label="Box">4</container>
             <unittitle>Southeastern Michigan Recreation Project, Dept. of Conservation <unitdate type="inclusive" normal="1943/1944">1943/44</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4089584374676837571]" altrender="box">4</container>
+            <container type="box" label="Box">4</container>
             <unittitle>American Association of Health, Physical Education and Recreation, Committee on Affiliated Organizations <unitdate type="inclusive" normal="1949/1950">1949/50</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4089584374676837571]" altrender="box">4</container>
+            <container type="box" label="Box">4</container>
             <unittitle>Wayne-Washtenaw-Macomb County Coordinating Committee on Recreation <unitdate type="inclusive" normal="1943/1944">1943/44</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4089584374676837571]" altrender="box">4</container>
+            <container type="box" label="Box">4</container>
             <unittitle>Willow Run Recreational Project <unitdate type="inclusive" normal="1943/1944">1943/44</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4089584374676837571]" altrender="box">4</container>
+            <container type="box" label="Box">4</container>
             <unittitle>National Council on Physical Fitness <unitdate type="inclusive" normal="1944/1945">1944/45</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4089584374676837571]" altrender="box">4</container>
+            <container type="box" label="Box">4</container>
             <unittitle>Commission on Place of Calisthenics in Physical Fitness <unitdate type="inclusive" normal="1945/1945">1945-1945</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4089584374676837571]" altrender="box">4</container>
+            <container type="box" label="Box">4</container>
             <unittitle>Co-Chairman, Programming Section on School and Colleges, Joint Effort American Medical Association and National Council on Physical Fitness <unitdate type="inclusive" normal="1944">1944</unitdate> (declined)</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4089584374676837571]" altrender="box">4</container>
+            <container type="box" label="Box">4</container>
             <unittitle>Committee on Physical Fitness and Commission on Physical Fitness for Women <unitdate type="inclusive" normal="1944/1945">1944/45</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4089584374676837571]" altrender="box">4</container>
+            <container type="box" label="Box">4</container>
             <unittitle>Medical Advisor to Committee on Physical Fitness</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4089584374676837571]" altrender="box">4</container>
+            <container type="box" label="Box">4</container>
             <unittitle>U. S. Office of Education, Committee for Establishing Provisions of Health Services, Health Instruction, Physical Education, Athletics, and Recreation <unitdate type="inclusive" normal="1944/1945">1944/45</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4089584374676837571]" altrender="box">4</container>
+            <container type="box" label="Box">4</container>
             <unittitle>Advisory Committee on Health, Physical Education, Recreation, School Camping and Outdoor Education, Michigan Department of Public Instruction <unitdate type="inclusive" normal="1945/1946">1945/46</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4089584374676837571]" altrender="box">4</container>
+            <container type="box" label="Box">4</container>
             <unittitle>National Education Association and American Medical Association, Joint Committee on Health Problems in Education <unitdate type="inclusive" normal="1947/1951">1947-1951</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4089584374676837571]" altrender="box">4</container>
+            <container type="box" label="Box">4</container>
             <unittitle>Educational Policies Committee <unitdate type="inclusive" normal="1949/1951">1949-1951</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4089584374676837571]" altrender="box">4</container>
+            <container type="box" label="Box">4</container>
             <unittitle>Midwest Association of College Teachers of Physical Education for Women <unitdate type="inclusive" normal="1949/1951">1949-1951</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4089584374676837571]" altrender="box">4</container>
+            <container type="box" label="Box">4</container>
             <unittitle>American Association for Health, Physical Education and Recreation Fitness Conference, Washington, D. C. <unitdate type="inclusive" normal="1956-09-12/1956-09-15">September 12-15, 1956</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4089584374676837571]" altrender="box">4</container>
+            <container type="box" label="Box">4</container>
             <unittitle>The American College of Sports Medicine <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4089584374676837571]" altrender="box">4</container>
+            <container type="box" label="Box">4</container>
             <unittitle>Miscellaneous <unitdate type="inclusive" normal="1943/1956">1943-1956</unitdate></unittitle>
           </did>
         </c02>
@@ -743,19 +667,19 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4089584374676837571]" altrender="box">4</container>
+            <container type="box" label="Box">4</container>
             <unittitle>Ann Arbor Golf and Outing Club <unitdate type="inclusive" normal="1934/1936">1934-1936</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4089584374676837571]" altrender="box">4</container>
+            <container type="box" label="Box">4</container>
             <unittitle>School grade reports, certification records, contracts</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4089584374676837571]" altrender="box">4</container>
+            <container type="box" label="Box">4</container>
             <unittitle>Miscellaneous (personal)</unittitle>
           </did>
         </c02>
@@ -769,61 +693,61 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4089584374676837571]" altrender="box">4</container>
+            <container type="box" label="Box">4</container>
             <unittitle>Campus scenes, biking, picnicking</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4089584374676837571]" altrender="box">4</container>
+            <container type="box" label="Box">4</container>
             <unittitle>Colleagues, friends</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4089584374676837571]" altrender="box">4</container>
+            <container type="box" label="Box">4</container>
             <unittitle>Dancing</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4089584374676837571]" altrender="box">4</container>
+            <container type="box" label="Box">4</container>
             <unittitle>Medical subjects</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4089584374676837571]" altrender="box">4</container>
+            <container type="box" label="Box">4</container>
             <unittitle>Portraits</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4089584374676837571]" altrender="box">4</container>
+            <container type="box" label="Box">4</container>
             <unittitle>Sports: archery</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4089584374676837571]" altrender="box">4</container>
+            <container type="box" label="Box">4</container>
             <unittitle>Sports: basketball, volleyball</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4089584374676837571]" altrender="box">4</container>
+            <container type="box" label="Box">4</container>
             <unittitle>Sports: fencing, golf, gym, field hockey, riding</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4089584374676837571]" altrender="box">4</container>
+            <container type="box" label="Box">4</container>
             <unittitle>Sports: swimming, diving</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [4089584374676837571]" altrender="box">4</container>
+            <container type="box" label="Box">4</container>
             <unittitle>Sports: tennis, track</unittitle>
           </did>
         </c02>
@@ -844,7 +768,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
           </scopecontent>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4089584374676837571]" altrender="box">4</container>
+              <container type="box" label="Box">4</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1937/1942">1937-1942</unitdate>
               </unittitle>
@@ -852,7 +776,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4089584374676837571]" altrender="box">4</container>
+              <container type="box" label="Box">4</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1943/1947">1943-1947</unitdate>
               </unittitle>
@@ -860,7 +784,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [4089584374676837571]" altrender="box">4</container>
+              <container type="box" label="Box">4</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1948/1950">1948-1950</unitdate>
               </unittitle>
@@ -876,14 +800,13 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
           </scopecontent>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63358497442643262305245]" altrender="box">5</container>
-              <unitdate type="inclusive" normal="1924/1925">1924/25</unitdate>
-              <unitdate type="inclusive" normal="1927/1929">1927/28-1928/29</unitdate>
+              <container type="box" label="Box">5</container>
+              <unittitle><unitdate type="inclusive" normal="1924/1925">1924/25</unitdate>, <unitdate type="inclusive" normal="1927/1929">1927/28-1928/29</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63358497442643262305245]" altrender="box">5</container>
+              <container type="box" label="Box">5</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1929/1931">1929/30-1930/31</unitdate>
               </unittitle>
@@ -891,7 +814,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63358497442643262305245]" altrender="box">5</container>
+              <container type="box" label="Box">5</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1931/1933">1931/32-1932/33</unitdate>
               </unittitle>
@@ -899,7 +822,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63358497442643262305245]" altrender="box">5</container>
+              <container type="box" label="Box">5</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1933/1936">1933/34-1935/36</unitdate>
               </unittitle>
@@ -907,7 +830,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63358497442643262305245]" altrender="box">5</container>
+              <container type="box" label="Box">5</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1936/1939">1936/37-1938/39</unitdate>
               </unittitle>
@@ -923,7 +846,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
           </scopecontent>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63358497442643262305245]" altrender="box">5</container>
+              <container type="box" label="Box">5</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1919/1930">1919-1930</unitdate>
               </unittitle>
@@ -931,7 +854,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63358497442643262305245]" altrender="box">5</container>
+              <container type="box" label="Box">5</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1931/1936">1931-1936</unitdate>
               </unittitle>
@@ -947,43 +870,43 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
           </scopecontent>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63358497442643262305245]" altrender="box">5</container>
+              <container type="box" label="Box">5</container>
               <unittitle>History <unitdate type="inclusive" normal="1895/1924">1895-1924</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63358497442643262305245]" altrender="box">5</container>
+              <container type="box" label="Box">5</container>
               <unittitle>Administration <unitdate type="inclusive" normal="1926/1928">1926/27-1927/28</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63358497442643262305245]" altrender="box">5</container>
+              <container type="box" label="Box">5</container>
               <unittitle>Regents' proceedings <unitdate type="inclusive" normal="1914/1929">1914-1929</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63358497442643262305245]" altrender="box">5</container>
+              <container type="box" label="Box">5</container>
               <unittitle>Reorganization plan <unitdate type="inclusive" normal="1941/1942">1941-1942</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63358497442643262305245]" altrender="box">5</container>
+              <container type="box" label="Box">5</container>
               <unittitle>Graduate program <unitdate type="inclusive" normal="1931/1939">1931-1939</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63358497442643262305245]" altrender="box">5</container>
+              <container type="box" label="Box">5</container>
               <unittitle>Master's theses <unitdate type="inclusive" normal="1934/1940">1934-1940</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63358497442643262305245]" altrender="box">5</container>
+              <container type="box" label="Box">5</container>
               <unittitle>Departmental studies <unitdate type="inclusive" normal="1940/1941">1940-1941</unitdate></unittitle>
             </did>
           </c03>
@@ -993,7 +916,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [63358497442643262305245]" altrender="box">5</container>
+                <container type="box" label="Box">5</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1919/1938">1919-1938</unitdate>
                 </unittitle>
@@ -1001,7 +924,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [63358497442643262305245]" altrender="box">5</container>
+                <container type="box" label="Box">5</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1939/1941">1939-1941</unitdate>
                 </unittitle>
@@ -1014,7 +937,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [63358497442643262305245]" altrender="box">5</container>
+                <container type="box" label="Box">5</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1922/1939">1922-1939</unitdate>
                 </unittitle>
@@ -1022,7 +945,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [63358497442643262305245]" altrender="box">5</container>
+                <container type="box" label="Box">5</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1930/1954">1930-1954</unitdate>
                 </unittitle>
@@ -1031,23 +954,20 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63358497442643262305245]" altrender="box">5</container>
+              <container type="box" label="Box">5</container>
               <unittitle>Extramural competition <unitdate type="inclusive" normal="1937/1941">1937-1941</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63358497442643262305245]" altrender="box">5</container>
+              <container type="box" label="Box">5</container>
               <unittitle>Camp <unitdate type="inclusive" normal="1926/1935">1926-1935</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [63358497442643262305245]" altrender="box">5</container>
-              <unittitle>Miscellaneous</unittitle>
-              <unitdate type="inclusive" normal="1926/1928">1926-1928</unitdate>
-              <unitdate type="inclusive" normal="1936">1936</unitdate>
-              <unitdate type="inclusive" normal="1940/1941">1940-1941</unitdate>
+              <container type="box" label="Box">5</container>
+              <unittitle>Miscellaneous <unitdate type="inclusive" normal="1926/1928">1926-1928</unitdate>, <unitdate type="inclusive" normal="1936">1936</unitdate>, <unitdate type="inclusive" normal="1940/1941">1940-1941</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
@@ -1056,7 +976,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [13900184994441820119]" altrender="box">6</container>
+                <container type="box" label="Box">6</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1928/1939">1928-1939</unitdate>
                 </unittitle>
@@ -1064,7 +984,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [13900184994441820119]" altrender="box">6</container>
+                <container type="box" label="Box">6</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1949/1962">1949-1962</unitdate>
                 </unittitle>
@@ -1072,7 +992,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [13900184994441820119]" altrender="box">6</container>
+                <container type="box" label="Box">6</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1963/1967">1963-1967</unitdate>
                 </unittitle>
@@ -1080,7 +1000,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [13900184994441820119]" altrender="box">6</container>
+                <container type="box" label="Box">6</container>
                 <unittitle>
                   <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate>
                 </unittitle>
@@ -1090,7 +1010,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [13900184994441820119]" altrender="box">6</container>
+            <container type="box" label="Box">6</container>
             <unittitle>Barbour Gymnasium-Budget records <unitdate type="inclusive" normal="1918/1923">1918/19-1922/23</unitdate></unittitle>
           </did>
         </c02>
@@ -1100,7 +1020,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [13900184994441820119]" altrender="box">6</container>
+              <container type="box" label="Box">6</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1925/1927">1925-1927</unitdate>
               </unittitle>
@@ -1108,13 +1028,13 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [13900184994441820119]" altrender="box">6</container>
+              <container type="box" label="Box">6</container>
               <unittitle><unitdate type="inclusive" normal="1928">1928</unitdate> (January-February)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [13900184994441820119]" altrender="box">6</container>
+              <container type="box" label="Box">6</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1929">1929</unitdate>
               </unittitle>
@@ -1122,7 +1042,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [13900184994441820119]" altrender="box">6</container>
+              <container type="box" label="Box">6</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1930/1933">1930-1933</unitdate>
               </unittitle>
@@ -1130,7 +1050,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [13900184994441820119]" altrender="box">6</container>
+              <container type="box" label="Box">6</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1935/1937">1935-1937</unitdate>
               </unittitle>
@@ -1138,7 +1058,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [13900184994441820119]" altrender="box">6</container>
+              <container type="box" label="Box">6</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1938/1939">1938-1939</unitdate>
               </unittitle>
@@ -1146,7 +1066,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [13900184994441820119]" altrender="box">6</container>
+              <container type="box" label="Box">6</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1940/1941">1940-1941</unitdate>
               </unittitle>
@@ -1155,7 +1075,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [13900184994441820119]" altrender="box">6</container>
+            <container type="box" label="Box">6</container>
             <unittitle>Palmer Field, 1928-1930, History</unittitle>
           </did>
           <scopecontent>
@@ -1171,25 +1091,25 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
           </scopecontent>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [13900184994441820119]" altrender="box">6</container>
+              <container type="box" label="Box">6</container>
               <unittitle>History and constitution <unitdate type="inclusive" normal="1925/1928">1925/26-1927/28</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [13900184994441820119]" altrender="box">6</container>
+              <container type="box" label="Box">6</container>
               <unittitle>President and treasurer's reports <unitdate type="inclusive" normal="1928/1932">1928/29-1931/32</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [13900184994441820119]" altrender="box">6</container>
+              <container type="box" label="Box">6</container>
               <unittitle>Lantern Night <unitdate type="inclusive" normal="1924/1940">1924-1940</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [13900184994441820119]" altrender="box">6</container>
+              <container type="box" label="Box">6</container>
               <unittitle>Cabin plans <unitdate type="inclusive" normal="1931/1933">1931-1933</unitdate></unittitle>
             </did>
           </c03>
@@ -1203,7 +1123,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
           </scopecontent>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [13900184994441820119]" altrender="box">6</container>
+              <container type="box" label="Box">6</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1928/1932">1928-1932</unitdate>
               </unittitle>
@@ -1211,7 +1131,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [13900184994441820119]" altrender="box">6</container>
+              <container type="box" label="Box">6</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1933/1934">1933-1934</unitdate>
               </unittitle>
@@ -1219,7 +1139,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [13900184994441820119]" altrender="box">6</container>
+              <container type="box" label="Box">6</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1935/1936">1935-1936</unitdate>
               </unittitle>
@@ -1227,7 +1147,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [13900184994441820119]" altrender="box">6</container>
+              <container type="box" label="Box">6</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1937/1939">1937-1939</unitdate>
               </unittitle>
@@ -1235,7 +1155,7 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [13900184994441820119]" altrender="box">6</container>
+              <container type="box" label="Box">6</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1940/1941">1940-1941</unitdate>
               </unittitle>
@@ -1244,13 +1164,13 @@ Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [13900184994441820119]" altrender="box">6</container>
+            <container type="box" label="Box">6</container>
             <unittitle>University of Michigan Health Service <unitdate type="inclusive" normal="1928/1930">1928-1930</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [13900184994441820119]" altrender="box">6</container>
+            <container type="box" label="Box">6</container>
             <unittitle>Committee on the Defense Training Program for Women <unitdate type="inclusive" normal="1941/1943">1941-1943</unitdate></unittitle>
           </did>
         </c02>

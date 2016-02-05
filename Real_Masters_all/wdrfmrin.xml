@@ -27,11 +27,10 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
-      <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
       <titleproper>Finding Aid for <lb/>Woodruff-Marin Family Papers, 1891-1950s</titleproper>
       <author>Finding aid prepared by: <lb/>Elizabeth Konzak, 2001</author>
     </titlepage>
@@ -39,12 +38,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/121">Woodruff Family Papers</famname>
+        <famname source="lcnaf" encodinganalog="100">Woodruff Family Papers</famname>
       </origination>
-      <unittitle encodinganalog="245">Woodruff-Marin Family Papers</unittitle>
-      <unitdate type="inclusive" encodinganalog="245$f" normal="1891/1959" certainty="approximate">1891-1950s</unitdate>
-      <unitdate type="bulk" encodinganalog="245$g" normal="1891/1896">1891-1896</unitdate>
-      <unitdate type="bulk" encodinganalog="245$g" normal="1939/1950">1939-1950</unitdate>
+      <unittitle encodinganalog="245">Woodruff-Marin Family Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1891/1959" certainty="approximate">1891-1950s</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1891/1896">1891-1896</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1939/1950">1939-1950</unitdate></unittitle>
       <abstract>The Woodruffs were a lumbering family from Ludington, Michigan. The collection includes clippings, correspondence and photographs. The Woodruff family materials contain photo books and prints of the University of Michigan area during the 1890s, and correspondence home to the family from U-M students. The Marin family materials include information on Axel Marin's career as a University of Michigan professor, and photographs of Michigan football, ca. 1940.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">0186 Aa 2 UAm</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
@@ -88,39 +84,39 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/188">Woodruff family.</famname>
-        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/345">Marin family.</famname>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Students.<term type="topical">Students.</term></corpname>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Students--Social life and customs--1891-1900.<term type="topical">Students</term><term type="topical">Social life and customs</term><term type="temporal">1891-1900.</term></corpname>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Student letters.<term type="topical">Student letters.</term></corpname>
-        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34137">Woodruff, Edwin F.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008030935" ref="/agents/people/30977">Woodruff, Eugene Cyrus, 1871-1944</persname>
+        <famname source="lcnaf" encodinganalog="600">Woodruff family.</famname>
+        <famname source="lcnaf" encodinganalog="600">Marin family.</famname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs--1891-1900.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Student letters.</corpname>
+        <persname source="lcnaf" encodinganalog="600">Woodruff, Edwin F.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008030935">Woodruff, Eugene Cyrus, 1871-1944</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html" ref="/subjects/860">Ann Arbor (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650" ref="/subjects/9549">Business enterprises--Michigan--Ann Arbor.</subject>
-        <subject source="lctgm" encodinganalog="650" ref="/subjects/5545">Circus parades--Michigan--Petoskey.</subject>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/13425">Fischer Hardware (Ann Arbor, Mich.)</corpname>
-        <subject source="lcsh" encodinganalog="650" ref="/subjects/10625">Hardware stores--Michigan--Ann Arbor.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81056721.html" ref="/subjects/1151">Ludington (Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650" ref="/subjects/3706">Lumber industry--Michigan.</subject>
-        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/345">Marin family.</famname>
-        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1218">Saint Clair (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9252">University of Michigan. College of Engineering--Faculty.<term type="topical">Faculty.</term></corpname>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Football.<term type="topical">Football.</term></corpname>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Students--Social life and customs--1891-1950.<term type="topical">Students</term><term type="topical">Social life and customs</term><term type="temporal">1891-1950.</term></corpname>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/10008">Waterman Gymnasium (University of Michigan)</corpname>
-        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/188">Woodruff family.</famname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html">Ann Arbor (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650">Business enterprises--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650">Circus parades--Michigan--Petoskey.</subject>
+        <corpname source="lcnaf" encodinganalog="610">Fischer Hardware (Ann Arbor, Mich.)</corpname>
+        <subject source="lcsh" encodinganalog="650">Hardware stores--Michigan--Ann Arbor.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81056721.html">Ludington (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650">Lumber industry--Michigan.</subject>
+        <famname source="lcnaf" encodinganalog="600">Marin family.</famname>
+        <geogname source="lcsh" encodinganalog="651">Saint Clair (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. College of Engineering--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Football.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs--1891-1950.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Waterman Gymnasium (University of Michigan)</corpname>
+        <famname source="lcnaf" encodinganalog="600">Woodruff family.</famname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34137">Woodruff, Edwin F.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008030935" ref="/agents/people/30977">Woodruff, Eugene Cyrus, 1871-1944</persname>
+        <persname source="lcnaf" encodinganalog="700">Woodruff, Edwin F.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008030935">Woodruff, Eugene Cyrus, 1871-1944</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655" ref="/subjects/3141">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -140,13 +136,13 @@
           </scopecontent>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [60982944343071458054927]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>Biographical materials, clippings <unitdate type="inclusive" normal="1899/1944">1899-1944</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [60982944343071458054927]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>Eugene C. and Edwin F. Woodruff correspondence with family <unitdate type="inclusive" normal="1892/1896">1892-1896</unitdate></unittitle>
             </did>
           </c03>
@@ -166,15 +162,13 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [60982944343071458054927]" altrender="box">1</container>
-                <unittitle>Eugene C. Woodruff</unittitle>
-                <unitdate type="inclusive" normal="1890/1899" certainty="approximate">circa 1890s</unitdate>
-                <unitdate type="inclusive" normal="1930/1939" certainty="approximate">1930s</unitdate>
+                <container type="box" label="Box">1</container>
+                <unittitle>Eugene C. Woodruff <unitdate type="inclusive" normal="1890/1899" certainty="approximate">circa 1890s</unitdate>, <unitdate type="inclusive" normal="1930/1939" certainty="approximate">1930s</unitdate></unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [60982944343071458054927]" altrender="box">1</container>
+                <container type="box" label="Box">1</container>
                 <unittitle>Edwin F. Woodruff <unitdate type="inclusive" normal="1895" certainty="approximate">circa 1895</unitdate></unittitle>
               </did>
               <odd>
@@ -183,7 +177,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box [60982944343071458054927]" altrender="box">1</container>
+                <container type="box" label="Box">1</container>
                 <unittitle>Goyce Houston Woodruff portraits and photographs <unitdate type="inclusive" normal="1900" certainty="approximate">circa 1900</unitdate></unittitle>
               </did>
             </c04>
@@ -198,31 +192,31 @@
               </did>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [60982944343071458054927]" altrender="box">1</container>
+                  <container type="box" label="Box">1</container>
                   <unittitle>Student and fraternity life, student antics, student trips to Whitmore Lake and Webster Township, MI, bicycle repair <unitdate type="inclusive" normal="1891/1893">1891-1893</unitdate></unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [60982944343071458054927]" altrender="box">1</container>
+                  <container type="box" label="Box">1</container>
                   <unittitle>Storm damage, Huron River, <unitdate type="inclusive" normal="1892/1893">Winter 1892-1893</unitdate></unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [60982944343071458054927]" altrender="box">1</container>
+                  <container type="box" label="Box">1</container>
                   <unittitle>Campus buildings, Waterman Gym construction, "Co-Ed Annex" barn <unitdate type="inclusive" normal="1892/1893">1892-1893</unitdate></unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [60982944343071458054927]" altrender="box">1</container>
+                  <container type="box" label="Box">1</container>
                   <unittitle>Student life, athletics: baseball, fencing, football <unitdate type="inclusive" normal="1893" certainty="approximate">circa 1893</unitdate></unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [60982944343071458054927]" altrender="box">1</container>
+                  <container type="box" label="Box">1</container>
                   <unittitle>Student quarters 1896; Senior's football team (includes Edwin F. Woodruff); Eugene C. Woodruff's thesis experiment; Woodruff Brothers portraits <unitdate type="inclusive" normal="1895" certainty="approximate">circa 1895</unitdate></unittitle>
                 </did>
               </c05>
@@ -233,25 +227,25 @@
               </did>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [60982944343071458054927]" altrender="box">1</container>
+                  <container type="box" label="Box">1</container>
                   <unittitle>Bayview and St. Clair, MI, family Vacation, family portrait copies, Eugene Woodruff's electrical experiments <unitdate type="inclusive" normal="1892" certainty="approximate">circa 1892</unitdate></unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [60982944343071458054927]" altrender="box">1</container>
+                  <container type="box" label="Box">1</container>
                   <unittitle>Ludington, MI, family photos, Ludington homes, staged scene photos, <unitdate type="inclusive" normal="1891/1892">winter 1891-1892</unitdate></unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [60982944343071458054927]" altrender="box">1</container>
+                  <container type="box" label="Box">1</container>
                   <unittitle>St. Clair, MI, vacation, family photos, Solis family <unitdate type="inclusive" normal="1892/1893">1892-1893</unitdate></unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [60982944343071458054927]" altrender="box">1</container>
+                  <container type="box" label="Box">1</container>
                   <unittitle>Upper Peninsula, family on the "E.P. Weed" boat, boats, snowplow <unitdate type="inclusive" normal="1892" certainty="approximate">circa 1892</unitdate></unittitle>
                 </did>
               </c05>
@@ -269,31 +263,31 @@
               </did>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [60982944343071458054927]" altrender="box">1</container>
+                  <container type="box" label="Box">1</container>
                   <unittitle>Woodruff Brothers student living quarters <unitdate type="inclusive" normal="1892" certainty="approximate">circa 1892</unitdate></unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="folder" label="Oversize Folder [4757855421675860537]" altrender="folder">UAm</container>
+                  <container type="folder" label="Oversize Folder">UAm</container>
                   <unittitle>1896 Senior's football team photographs <unitdate type="inclusive" normal="1895/1896" certainty="approximate">circa 1895-1896</unitdate></unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [60982944343071458054927]" altrender="box">1</container>
+                  <container type="box" label="Box">1</container>
                   <unittitle>Student club photographs including Eugene C. Woodruff <unitdate type="inclusive" normal="1891/1894">1891-1894</unitdate></unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [60982944343071458054927]" altrender="box">1</container>
+                  <container type="box" label="Box">1</container>
                   <unittitle>School of Music <unitdate type="inclusive" normal="1895" certainty="approximate">circa 1895</unitdate></unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [60982944343071458054927]" altrender="box">1</container>
+                  <container type="box" label="Box">1</container>
                   <unittitle>Scientific experiments <unitdate type="inclusive" normal="1900" certainty="approximate">circa 1900</unitdate></unittitle>
                 </did>
               </c05>
@@ -304,37 +298,37 @@
               </did>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [60982944343071458054927]" altrender="box">1</container>
+                  <container type="box" label="Box">1</container>
                   <unittitle>Au Sable River fishing trip <unitdate type="inclusive" normal="1892" certainty="approximate">circa 1892</unitdate></unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [60982944343071458054927]" altrender="box">1</container>
+                  <container type="box" label="Box">1</container>
                   <unittitle>Logging photographs, likely near Ludington <unitdate type="inclusive" normal="1880/1889" certainty="approximate">circa 1880s</unitdate></unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [60982944343071458054927]" altrender="box">1</container>
+                  <container type="box" label="Box">1</container>
                   <unittitle>Ludington, MI, family home, harbor <unitdate type="inclusive" normal="1982" certainty="approximate">circa 1982</unitdate></unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="folder" label="Oversize Folder [4757855421675860537]" altrender="folder">UAm</container>
+                  <container type="folder" label="Oversize Folder">UAm</container>
                   <unittitle>Ludington, MI, girl in tent <unitdate type="inclusive" normal="1906">1906</unitdate></unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [60982944343071458054927]" altrender="box">1</container>
+                  <container type="box" label="Box">1</container>
                   <unittitle>Petoskey, MI, circus parade <unitdate type="inclusive" normal="1892" certainty="approximate">circa 1892</unitdate></unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box [60982944343071458054927]" altrender="box">1</container>
+                  <container type="box" label="Box">1</container>
                   <unittitle>St. Clair, MI, Congregational Church <unitdate type="inclusive" normal="1892" certainty="approximate">circa 1892</unitdate></unittitle>
                 </did>
               </c05>
@@ -355,13 +349,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [60982944343071458054927]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>Biographical clippings <unitdate type="inclusive" normal="1930/1932">1930-1932</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [60982944343071458054927]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>Brochure for football reunion <unitdate type="inclusive" normal="1939">1939</unitdate></unittitle>
             </did>
           </c03>
@@ -374,43 +368,43 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="folder" label="Oversize Folder [4757855421675860537]" altrender="folder">UAm</container>
+              <container type="folder" label="Oversize Folder">UAm</container>
               <unittitle>Fred Marin University of Michigan Class photographs <unitdate type="inclusive" normal="1924" certainty="approximate">circa 1924</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [60982944343071458054927]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>Axel Marin, University of Michigan Professor of Engineering, and his wife, Lois (Fischer) <unitdate type="inclusive" normal="1950" certainty="approximate">circa 1950</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [60982944343071458054927]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>Fischer Hardware, photograph and deed <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [60982944343071458054927]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>University of Michigan football field <unitdate type="inclusive" normal="1940" certainty="approximate">circa 1940</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [60982944343071458054927]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>University of Michigan football player portraits <unitdate type="inclusive" normal="1940/1949" certainty="approximate">circa 1940s</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [60982944343071458054927]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>Michigan postcards <unitdate type="inclusive" normal="1925" certainty="approximate">circa 1925</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [60982944343071458054927]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>Unidentified sorority photograph <unitdate type="inclusive" normal="1911">1911</unitdate></unittitle>
             </did>
           </c03>

@@ -32,11 +32,10 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
-      <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
       <titleproper>Finding aid for <lb/>Ernest Oliver Andrews papers, 1918-1950s</titleproper>
       <author>Finding aid created by <lb/>Christa Lemelin, 2008</author>
     </titlepage>
@@ -44,11 +43,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/27332">Andrews, Ernest Oliver.</persname>
+        <persname source="lcnaf" encodinganalog="100">Andrews, Ernest Oliver.</persname>
       </origination>
-      <unittitle encodinganalog="245">Ernest Oliver Andrews papers</unittitle>
-      <unitdate type="inclusive" encodinganalog="245$f" normal="1918/1959" certainty="approximate">1918-1950s</unitdate>
-      <unitdate type="bulk" encodinganalog="245$g" normal="1918/1919">1918-1919</unitdate>
+      <unittitle encodinganalog="245">Ernest Oliver Andrews papers <unitdate type="inclusive" encodinganalog="245$f" normal="1918/1959" certainty="approximate">1918-1950s</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1918/1919">1918-1919</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">0782 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Papers of a soldier with the 339th Infantry in the Allied intervention in Russia, 1918-1920, the "Polar Bear Expedition."</abstract>
@@ -84,8 +81,7 @@
       <p>This collection is divided into three series, Papers, Visual Materials, and Memorabilia.</p>
       <p>The Papers Series includes five <genreform normal="Letters (correspondence)">letters</genreform> Andrews wrote to family with detailed descriptions of northern Russia and of his thoughts and activities; a <genreform normal="Notebooks.">notebook</genreform> containing dates of arrivals and departures, briefly noting place and activity; a <genreform normal="Postcards.">postcard</genreform> written by Andrews dated June 20, 1919 and memorabilia.</p>
       <p>The Visual Materials series includes a portrait of Andrews in uniform and at veterans activities. Of the ten photographs in this series, the only dated photograph is the <genreform normal="Portraits.">portrait</genreform> of Andrews in uniform which is dated 1919-1920.</p>
-      <p>The Memorabilia series includes Andrew's military identification tag, an undated
-Military Patch, Speak French: A Book for the Soldiers, 1917, and a wallet which includes Andrews' <corpname normal="American Legion.">American Legion</corpname> membership card, 1930-1932; <corpname normal="Boy Scouts of America.">Boy Scouts of America</corpname> adult member certification, 1933; <corpname normal="Knights of Pythias.">Knights of Pythias</corpname> membership dues official receipt, 1928, 1930; and <corpname normal="Sociéteé des quarante hommes et huit chevaux.">La Société des Quarante Hommes at Huit Chevaux</corpname> membership card, 1931.</p>
+      <p>The Memorabilia series includes Andrew's military identification tag, an undated Military Patch, Speak French: A Book for the Soldiers, 1917, and a wallet which includes Andrews' <corpname normal="American Legion.">American Legion</corpname> membership card, 1930-1932; <corpname normal="Boy Scouts of America.">Boy Scouts of America</corpname> adult member certification, 1933; <corpname normal="Knights of Pythias.">Knights of Pythias</corpname> membership dues official receipt, 1928, 1930; and <corpname normal="Sociéteé des quarante hommes et huit chevaux.">La Société des Quarante Hommes at Huit Chevaux</corpname> membership card, 1931.</p>
     </scopecontent>
     <controlaccess>
       <p>
@@ -93,14 +89,14 @@ Military Patch, Speak French: A Book for the Soldiers, 1917, and a wallet which 
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/27332">Andrews, Ernest Oliver.</persname>
-        <geogname source="lcnaf" encodinganalog="651." ref="/subjects/760">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <subject source="lcsh" encodinganalog="650" ref="/subjects/5712">World War, 1914-1918.</subject>
-        <subject encodinganalog="690" source="local" authfilenumber="http://id.loc.gov/authorities/names/n2008059426" ref="/subjects/3518">Polar Bear Expedition.</subject>
+        <persname source="lcnaf" encodinganalog="600">Andrews, Ernest Oliver.</persname>
+        <geogname source="lcnaf" encodinganalog="651.">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <subject source="lcsh" encodinganalog="650">World War, 1914-1918.</subject>
+        <subject encodinganalog="690" source="local" authfilenumber="http://id.loc.gov/authorities/names/n2008059426">Polar Bear Expedition.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" ref="/subjects/3141">Photographs.</genreform>
+        <genreform source="aat">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -110,12 +106,12 @@ Military Patch, Speak French: A Book for the Soldiers, 1917, and a wallet which 
         </did>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [78985744478225518884]" altrender="folder">1</container>
+            <container type="folder" label="Folder">1</container>
             <unittitle>Letters <unitdate type="inclusive" normal="1918-10-19/1919-05-13">October 19, 1918-May 13, 1919</unitdate></unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">5 letters</extent>
             </physdesc>
-            <dao href="andrewse0001" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/9925">
+            <dao href="andrewse0001" show="new" actuate="onrequest">
               <daodesc>
                 <p>[view items]</p>
               </daodesc>
@@ -129,12 +125,12 @@ Military Patch, Speak French: A Book for the Soldiers, 1917, and a wallet which 
         </did>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [241577686408592321837505]" altrender="folder">2</container>
+            <container type="folder" label="Folder">2</container>
             <unittitle>Photographs</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">10 items</extent>
             </physdesc>
-            <dao href="andrewse0002" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/9926">
+            <dao href="andrewse0002" show="new" actuate="onrequest">
               <daodesc>
                 <p>[view items]</p>
               </daodesc>
@@ -148,9 +144,9 @@ Military Patch, Speak French: A Book for the Soldiers, 1917, and a wallet which 
         </did>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [237533948950302304]" altrender="folder">3</container>
+            <container type="folder" label="Folder">3</container>
             <unittitle>Newspaper clipping unknown source, undated, and Notebook, undated</unittitle>
-            <dao href="andrewse0003" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/9927">
+            <dao href="andrewse0003" show="new" actuate="onrequest">
               <daodesc>
                 <p>[view items]</p>
               </daodesc>
@@ -159,10 +155,10 @@ Military Patch, Speak French: A Book for the Soldiers, 1917, and a wallet which 
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder [3808625448446195457751]" altrender="folder">4</container>
+            <container type="folder" label="Folder">4</container>
             <unittitle>Miscellaneous</unittitle>
             <unitdate type="inclusive">undated</unitdate>
-            <dao href="andrewse0004" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/9928">
+            <dao href="andrewse0004" show="new" actuate="onrequest">
               <daodesc>
                 <p>[view items]</p>
               </daodesc>

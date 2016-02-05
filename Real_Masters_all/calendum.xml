@@ -5,7 +5,7 @@
     <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::calendum.xml//EN" encodinganalog="Identifier">umich-bhl-0624</eadid>
     <filedesc>
       <titlestmt>
-        <titleproper encodinganalog="Title">Finding Aid for University of Michigan Calendars, 1898-2007</titleproper>
+        <titleproper encodinganalog="Title">Finding Aid for University of Michigan Calendars, 1898-2016</titleproper>
         <author encodinganalog="Creator">Collection processed and finding aid created by Bentley Library Staff; Christie Peterson, March 2006.</author>
       </titlestmt>
       <publicationstmt>
@@ -19,6 +19,10 @@
     </profiledesc>
     <revisiondesc>
       <change>
+        <date>20151223</date>
+        <item>Added updated dates for wall calendars.</item>
+      </change>
+      <change>
         <date>20150729</date>
         <item>Added written notes from paper finding aid.</item>
       </change>
@@ -27,23 +31,20 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-    <classification ref="/repositories/2/classifications/2"/>
   </eadheader>
   <frontmatter>
     <titlepage>
-      <publisher id="/repositories/2/classifications/2">University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
-      <titleproper>Finding aid for <lb/>University of Michigan Calendars, 1898-2007</titleproper>
-      <author>Finding aid created by <lb/>Bentley Library Staff <lb/>Christie Peterson, March 2006</author>
+      <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>University of Michigan Calendars, 1898-2016</titleproper>
+      <author>Finding aid created by <lb/>Bentley Library Staff <lb/>Christie Peterson, March 2006<lb/>Last update: December 2015</author>
     </titlepage>
   </frontmatter>
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/9632">University of Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="110">University of Michigan.</corpname>
       </origination>
-      <unittitle encodinganalog="245">University of Michigan calendars</unittitle>
-      <unitdate type="inclusive" encodinganalog="245$f" normal="1898/2007">1898-2007</unitdate>
-      <unitdate type="bulk" encodinganalog="245$g" normal="1900/1950">1900-1950</unitdate>
+      <unittitle encodinganalog="245">University of Michigan calendars <unitdate type="inclusive" encodinganalog="245$f" normal="1898/2007">1898-2016</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1900/1950">1900-1950</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">0624 Bimu H1b 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Wall and engagement calendars produced and published by Ann Arbor, Mich. firms such as George Wahr, Sheehan and Co., and designer Almira F. Lovell. Calendars feature contemporary photographs and drawings of the University of Michigan campus, people, and environs.</abstract>
@@ -67,8 +68,7 @@
         <p>Copyright has not been transferred to the Regents of the University of Michigan.</p>
       </userestrict>
       <prefercite encodinganalog="524">
-        <p>[item], folder, box,
-University of Michigan Calendars, Bentley Historical Library, University of Michigan</p>
+        <p>[item], folder, box, University of Michigan Calendars, Bentley Historical Library, University of Michigan</p>
       </prefercite>
     </descgrp>
     <bioghist encodinganalog="545">
@@ -83,18 +83,18 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Pictorial works.<term type="genre_form">Pictorial works.</term></corpname>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Calendars.<term type="genre_form">Calendars.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Pictorial works.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Calendars.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/14469">George Wahr Publishing Company.</corpname>
-        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/14319">Sheehan &amp; Co.</corpname>
-        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35903">Lovell, Almira F.</persname>
+        <corpname source="lcnaf" encodinganalog="710">George Wahr Publishing Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="710">Sheehan &amp; Co.</corpname>
+        <persname source="lcnaf" encodinganalog="700">Lovell, Almira F.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655" ref="/subjects/3178">Calendars.</genreform>
+        <genreform source="aat" encodinganalog="655">Calendars.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -114,7 +114,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </odd>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1898">1898</unitdate>
               </unittitle>
@@ -125,7 +125,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1901">1901</unitdate>
               </unittitle>
@@ -136,7 +136,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1903">1903</unitdate>
               </unittitle>
@@ -144,7 +144,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1904">1904</unitdate>
               </unittitle>
@@ -152,7 +152,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1906">1906</unitdate>
               </unittitle>
@@ -160,7 +160,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1906">1906</unitdate>
               </unittitle>
@@ -171,7 +171,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1907">1907</unitdate>
               </unittitle>
@@ -179,7 +179,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1907">1907</unitdate>
               </unittitle>
@@ -190,7 +190,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1908">1908</unitdate>
               </unittitle>
@@ -198,7 +198,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1908">1908</unitdate>
               </unittitle>
@@ -209,7 +209,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1908">1908</unitdate>
               </unittitle>
@@ -220,7 +220,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1910">1910</unitdate>
               </unittitle>
@@ -228,7 +228,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1910">1910</unitdate>
               </unittitle>
@@ -239,7 +239,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1911">1911</unitdate>
               </unittitle>
@@ -247,7 +247,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1911">1911</unitdate>
               </unittitle>
@@ -258,7 +258,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1912">1912</unitdate>
               </unittitle>
@@ -266,7 +266,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1912">1912</unitdate>
               </unittitle>
@@ -280,7 +280,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1913">1913</unitdate>
               </unittitle>
@@ -288,7 +288,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Oversize Box [50336948668234554233942]" altrender="box">3</container>
+              <container type="box" label="Oversize Box">3</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1914">1914</unitdate>
               </unittitle>
@@ -296,7 +296,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Oversize Box [50336948668234554233942]" altrender="box">3</container>
+              <container type="box" label="Oversize Box">3</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1916">1916</unitdate>
               </unittitle>
@@ -304,7 +304,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1917">1917</unitdate>
               </unittitle>
@@ -318,7 +318,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1917">1917</unitdate>
               </unittitle>
@@ -332,7 +332,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1918">1918</unitdate>
               </unittitle>
@@ -343,7 +343,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1919">1919</unitdate>
               </unittitle>
@@ -351,7 +351,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1921">1921</unitdate>
               </unittitle>
@@ -359,7 +359,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1922">1922</unitdate>
               </unittitle>
@@ -367,7 +367,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1923">1923</unitdate>
               </unittitle>
@@ -375,7 +375,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1924">1924</unitdate>
               </unittitle>
@@ -383,7 +383,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1927">1927</unitdate>
               </unittitle>
@@ -391,7 +391,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1929">1929</unitdate>
               </unittitle>
@@ -399,7 +399,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1930">1930</unitdate>
               </unittitle>
@@ -413,7 +413,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1932">1932</unitdate>
               </unittitle>
@@ -421,7 +421,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1933">1933</unitdate>
               </unittitle>
@@ -429,7 +429,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1936">1936</unitdate>
               </unittitle>
@@ -437,7 +437,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1938">1938</unitdate>
               </unittitle>
@@ -445,7 +445,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1939">1939</unitdate>
               </unittitle>
@@ -453,7 +453,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1940">1940</unitdate>
               </unittitle>
@@ -461,7 +461,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1941">1941</unitdate>
               </unittitle>
@@ -469,7 +469,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1942">1942</unitdate>
               </unittitle>
@@ -477,7 +477,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1943">1943</unitdate>
               </unittitle>
@@ -485,7 +485,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1946">1946</unitdate>
               </unittitle>
@@ -493,7 +493,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1947">1947</unitdate>
               </unittitle>
@@ -501,7 +501,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1949">1949</unitdate>
               </unittitle>
@@ -509,7 +509,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1952">1952</unitdate>
               </unittitle>
@@ -517,7 +517,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1953">1953</unitdate>
               </unittitle>
@@ -525,7 +525,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle><unitdate type="inclusive" normal="1987">1987</unitdate> "Sesquicentennial Perspective"</unittitle>
             </did>
             <odd>
@@ -541,7 +541,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
             </odd>
             <c04 level="file">
               <did>
-                <container type="box" label="Oversize Box [50336948668234554233942]" altrender="box">3</container>
+                <container type="box" label="Oversize Box">3</container>
                 <unittitle><unitdate type="inclusive" normal="2004">2004</unitdate> "Vintage Michigan, Classic Scenes of the University of Michigan and Ann Arbor"</unittitle>
                 <physdesc>
                   <physfacet>outsize</physfacet>
@@ -550,7 +550,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Oversize Box [50336948668234554233942]" altrender="box">3</container>
+                <container type="box" label="Oversize Box">3</container>
                 <unittitle><unitdate type="inclusive" normal="2005">2005</unitdate> "Vintage Michigan, Classic Scenes of the University of Michigan and Ann Arbor"</unittitle>
                 <physdesc>
                   <physfacet>outsize</physfacet>
@@ -559,7 +559,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Oversize Box [50336948668234554233942]" altrender="box">3</container>
+                <container type="box" label="Oversize Box">3</container>
                 <unittitle><unitdate type="inclusive" normal="2005">2005</unitdate> "Vintage Michigan, Football game day program art"</unittitle>
                 <physdesc>
                   <physfacet>outsize</physfacet>
@@ -568,7 +568,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Oversize Box [50336948668234554233942]" altrender="box">3</container>
+                <container type="box" label="Oversize Box">3</container>
                 <unittitle><unitdate type="inclusive" normal="2006">2006</unitdate> "Vintage Michigan, Football game day program art"</unittitle>
                 <physdesc>
                   <physfacet>outsize</physfacet>
@@ -577,8 +577,62 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Oversize Box [50336948668234554233942]" altrender="box">3</container>
+                <container type="box" label="Oversize Box">3</container>
                 <unittitle><unitdate type="inclusive" normal="2007">2007</unitdate> "Vintage Michigan, Football game day program art"</unittitle>
+                <physdesc>
+                  <physfacet>outsize</physfacet>
+                </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Oversize Box">3</container>
+                <unittitle><unitdate type="inclusive" normal="2008">2008</unitdate> "Vintage Michigan, Football game day program art"</unittitle>
+                <physdesc>
+                  <physfacet>outsize</physfacet>
+                </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Oversize Box">3</container>
+                <unittitle><unitdate type="inclusive" normal="2009">2009</unitdate> "Vintage Michigan, Football game day program art"</unittitle>
+                <physdesc>
+                  <physfacet>outsize</physfacet>
+                </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Oversize Box">3</container>
+                <unittitle><unitdate type="inclusive" normal="2012">2012</unitdate> "Vintage Michigan, Football game day program art"</unittitle>
+                <physdesc>
+                  <physfacet>outsize</physfacet>
+                </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Oversize Box">3</container>
+                <unittitle><unitdate type="inclusive" normal="2013">2013</unitdate> "Vintage Michigan, Football game day program art"</unittitle>
+                <physdesc>
+                  <physfacet>outsize</physfacet>
+                </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Oversize Box">3</container>
+                <unittitle><unitdate type="inclusive" normal="2014">2014</unitdate> "Vintage Michigan, Football game day program art"</unittitle>
+                <physdesc>
+                  <physfacet>outsize</physfacet>
+                </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Oversize Box">3</container>
+                <unittitle><unitdate type="inclusive" normal="2016">2016</unitdate> "Vintage Michigan, Football game day program art"</unittitle>
                 <physdesc>
                   <physfacet>outsize</physfacet>
                 </physdesc>
@@ -592,7 +646,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Oversize Box [50336948668234554233942]" altrender="box">3</container>
+              <container type="box" label="Oversize Box">3</container>
               <unittitle><unitdate type="inclusive" normal="1982">1982</unitdate> (engravings by Philip C. Thompson)</unittitle>
               <physdesc>
                 <physfacet>outsize</physfacet>
@@ -601,7 +655,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1988">1988</unitdate>
               </unittitle>
@@ -612,7 +666,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle><unitdate type="inclusive" normal="1989">1989</unitdate> "Campus Sculptures"</unittitle>
             </did>
             <odd>
@@ -621,7 +675,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1989">1989</unitdate>
               </unittitle>
@@ -632,7 +686,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [176693004369542902]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1998">1998</unitdate>
               </unittitle>
@@ -656,7 +710,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [852952942081051459353]" altrender="box">2</container>
+              <container type="box" label="Box">2</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1945">1945</unitdate>
               </unittitle>
@@ -664,7 +718,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [852952942081051459353]" altrender="box">2</container>
+              <container type="box" label="Box">2</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1946">1946</unitdate>
               </unittitle>
@@ -672,7 +726,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [852952942081051459353]" altrender="box">2</container>
+              <container type="box" label="Box">2</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1947">1947</unitdate>
               </unittitle>
@@ -680,7 +734,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [852952942081051459353]" altrender="box">2</container>
+              <container type="box" label="Box">2</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1951">1951</unitdate>
               </unittitle>
@@ -693,7 +747,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [852952942081051459353]" altrender="box">2</container>
+              <container type="box" label="Box">2</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate>
               </unittitle>
@@ -701,7 +755,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [852952942081051459353]" altrender="box">2</container>
+              <container type="box" label="Box">2</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate>
               </unittitle>
@@ -709,7 +763,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [852952942081051459353]" altrender="box">2</container>
+              <container type="box" label="Box">2</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate>
               </unittitle>
@@ -717,7 +771,7 @@ University of Michigan Calendars, Bentley Historical Library, University of Mich
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [852952942081051459353]" altrender="box">2</container>
+              <container type="box" label="Box">2</container>
               <unittitle>
                 <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate>
               </unittitle>

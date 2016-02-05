@@ -28,11 +28,10 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
-      <publisher id="/repositories/2/classifications/1">Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
       <titleproper>Finding aid for <lb/>Ralph L. Belknap papers, ca. 1926-1933, 1957-1973</titleproper>
       <author>Finding aid created by <lb/>Michigan Historical Collections Staff</author>
     </titlepage>
@@ -40,11 +39,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28150">Belknap, Ralph Leroy, 1899-</persname>
+        <persname source="lcnaf" encodinganalog="100">Belknap, Ralph Leroy, 1899-</persname>
       </origination>
-      <unittitle encodinganalog="245">Ralph L. Belknap papers</unittitle>
-      <unitdate type="inclusive" encodinganalog="245$f" normal="1926/1933" certainty="approximate">circa 1926-1933</unitdate>
-      <unitdate type="inclusive" normal="1957/1973">1957-1973</unitdate>
+      <unittitle encodinganalog="245">Ralph L. Belknap papers <unitdate type="inclusive" encodinganalog="245$f" normal="1926/1933" certainty="approximate">circa 1926-1933</unitdate>, <unitdate type="inclusive" normal="1957/1973">1957-1973</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">8581 Aa 2 Aa microcopy</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Professor of geology at the University of Michigan; Correspondence, journal, photographs, film and other materials relating to the University's 1926-1933 scientific expeditions to Greenland.</abstract>
@@ -83,8 +80,7 @@
         <p>Copyright is has been transferred to the Regents of the University of Michigan.</p>
       </userestrict>
       <prefercite encodinganalog="524">
-        <p>[item], folder, box,
-Ralph L. Belknap papers, Bentley Historical Library, University of Michigan</p>
+        <p>[item], folder, box, Ralph L. Belknap papers, Bentley Historical Library, University of Michigan</p>
       </prefercite>
     </descgrp>
     <bioghist encodinganalog="545">
@@ -101,33 +97,33 @@ Ralph L. Belknap papers, Bentley Historical Library, University of Michigan</p>
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1265">Arctic regions.</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2010128148" ref="/agents/people/33797">Belknap, Ralph Leroy, 1899-1960</persname>
-        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1266">Greenland.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11286">University of Michigan. Dept. of Geology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
+        <geogname source="lcsh" encodinganalog="651">Arctic regions.</geogname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2010128148">Belknap, Ralph Leroy, 1899-1960</persname>
+        <geogname source="lcsh" encodinganalog="651">Greenland.</geogname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Geology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2010128148" ref="/agents/people/33797">Belknap, Ralph Leroy, 1899-1960</persname>
-        <subject source="lcsh" encodinganalog="650" ref="/subjects/6243">Eskimos.</subject>
-        <subject source="lctgm" encodinganalog="650" ref="/subjects/3862">Expeditions and surveys.</subject>
-        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1266">Greenland.</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n86869592" ref="/agents/people/30295">Hobbs, William Herbert, 1864-1952.</persname>
-        <subject source="lctgm" encodinganalog="650" ref="/subjects/3863">Monuments and memorials.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50049394" ref="/agents/people/29506">Peary, Robert E. (Robert Edwin), 1856-1920.</persname>
-        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31548">Schmeling, Evans S.</persname>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/11286">University of Michigan. Dept. of Geology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/9632">University of Michigan--Faculty.<term type="topical">Faculty.</term></corpname>
-        <genreform source="aat" encodinganalog="655" ref="/subjects/3140">Videotapes.</genreform>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2010128148">Belknap, Ralph Leroy, 1899-1960</persname>
+        <subject source="lcsh" encodinganalog="650">Eskimos.</subject>
+        <subject source="lctgm" encodinganalog="650">Expeditions and surveys.</subject>
+        <geogname source="lcsh" encodinganalog="651">Greenland.</geogname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n86869592">Hobbs, William Herbert, 1864-1952.</persname>
+        <subject source="lctgm" encodinganalog="650">Monuments and memorials.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50049394">Peary, Robert E. (Robert Edwin), 1856-1920.</persname>
+        <persname source="lcnaf" encodinganalog="600">Schmeling, Evans S.</persname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Geology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <genreform source="aat" encodinganalog="655">Videotapes.</genreform>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655" ref="/subjects/3160">DVDs.</genreform>
-        <genreform source="aat" encodinganalog="655" ref="/subjects/3141">Photographs.</genreform>
-        <genreform source="aat" encodinganalog="655" ref="/subjects/3150">Diaries.</genreform>
-        <genreform source="aat" encodinganalog="655" ref="/subjects/3167">Motion pictures.</genreform>
-        <genreform source="aat" encodinganalog="655" ref="/subjects/3141">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655">DVDs.</genreform>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655">Diaries.</genreform>
+        <genreform source="aat" encodinganalog="655">Motion pictures.</genreform>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -141,13 +137,13 @@ Ralph L. Belknap papers, Bentley Historical Library, University of Michigan</p>
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [20219664030123619916]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>Expedition correspondence <unitdate type="inclusive" normal="1932/1933">1932-1933</unitdate></unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [20219664030123619916]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>Expedition communiqués <unitdate type="inclusive" normal="1932/1933">1932-1933</unitdate></unittitle>
             </did>
           </c03>
@@ -159,15 +155,13 @@ Ralph L. Belknap papers, Bentley Historical Library, University of Michigan</p>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [20219664030123619916]" altrender="box">1</container>
-            <unittitle>Correspondence of Mrs. Belknap largely concerning Peary Monument at Cape York</unittitle>
-            <unitdate type="inclusive">undated</unitdate>
-            <unitdate type="inclusive" normal="1955/1973" certainty="approximate">circa 1955-1973</unitdate>
+            <container type="box" label="Box">1</container>
+            <unittitle>Correspondence of Mrs. Belknap largely concerning Peary Monument at Cape York <unitdate type="inclusive">undated</unitdate>, <unitdate type="inclusive" normal="1955/1973" certainty="approximate">circa 1955-1973</unitdate></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [20219664030123619916]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>Printed material</unittitle>
           </did>
           <odd>
@@ -180,7 +174,7 @@ Ralph L. Belknap papers, Bentley Historical Library, University of Michigan</p>
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box [20219664030123619916]" altrender="box">1</container>
+              <container type="box" label="Box">1</container>
               <unittitle>Print of Evans Schmeling</unittitle>
             </did>
             <odd>
@@ -204,7 +198,7 @@ Ralph L. Belknap papers, Bentley Historical Library, University of Michigan</p>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [20219664030123619916]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>Scientific Diary <unitdate type="inclusive" normal="1926/1933" certainty="approximate">circa 1926-1933</unitdate></unittitle>
             <physdesc>
               <physfacet>microfilm</physfacet>
@@ -213,7 +207,7 @@ Ralph L. Belknap papers, Bentley Historical Library, University of Michigan</p>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box [20219664030123619916]" altrender="box">1</container>
+            <container type="box" label="Box">1</container>
             <unittitle>Notes taken from film can regarding 1926 expedition</unittitle>
           </did>
         </c02>
@@ -224,10 +218,11 @@ Ralph L. Belknap papers, Bentley Historical Library, University of Michigan</p>
         </did>
         <c02 level="file">
           <did>
-            <unittitle>1926 Expedition to Greenland <unitdate type="inclusive" normal="1926">1926</unitdate> [8581-1]</unittitle>
+            <unittitle>1926 Expedition to Greenland <unitdate type="inclusive" normal="1926">1926</unitdate></unittitle>
+            <unitid>[8581-1]</unitid>
           </did>
           <scopecontent>
-            <p>The1926 Expedition film includes footage of preparation of the vessel in harbor, the departure and voyage to Greenland, arrival and setting up of camp, a variety of camp and scientific activities and interaction with natives who assisted the expedition. Four original films have been combined in a single reel.</p>
+            <p>The 1926 Expedition film includes footage of preparation of the vessel in harbor, the departure and voyage to Greenland, arrival and setting up of camp, a variety of camp and scientific activities and interaction with natives who assisted the expedition. Four original films have been combined in a single reel.</p>
           </scopecontent>
           <c03 level="file">
             <did>
@@ -242,7 +237,7 @@ Ralph L. Belknap papers, Bentley Historical Library, University of Michigan</p>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="DVD Box [251524625440875366599879]" altrender="box">1</container>
+              <container type="box" label="DVD Box">1</container>
               <unittitle>Use Copy:</unittitle>
               <physdesc>
                 <physfacet>DVD</physfacet>
@@ -255,7 +250,7 @@ Ralph L. Belknap papers, Bentley Historical Library, University of Michigan</p>
               <physdesc>
                 <physfacet>flv</physfacet>
               </physdesc>
-              <dao href="8581-1" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/9990">
+              <dao href="8581-1" show="new" actuate="onrequest">
                 <daodesc>
                   <p>[view video]</p>
                 </daodesc>
