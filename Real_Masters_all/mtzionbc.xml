@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Mount Zion African Methodist Episcopal Church (Battle Creek, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/19267">Mount Zion African Methodist Episcopal Church (Battle Creek, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">Mount Zion African Methodist Episcopal Church records <unitdate type="inclusive" encodinganalog="245$f" normal="1925/2008">1925-2008</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2008130 Aa 2</unitid>
@@ -83,13 +84,13 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6513">African American churches--Michigan--Battle Creek.</subject>
-        <corpname source="lcnaf" encodinganalog="610">African Methodist Episcopal Church--Michigan--Battle Creek.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18286">African Methodist Episcopal Church--Michigan--Battle Creek.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1370">Battle Creek (Mich.)--Church history.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Mount Zion African Methodist Episcopal Church (Battle Creek, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19267">Mount Zion African Methodist Episcopal Church (Battle Creek, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Brown, Frank R.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32035">Brown, Frank R.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

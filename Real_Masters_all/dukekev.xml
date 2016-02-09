@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n89629161">Duke, Kevin.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n89629161" ref="/agents/people/35556">Duke, Kevin.</persname>
       </origination>
       <unittitle encodinganalog="245">Kevin Duke Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1984/1998">1984-1998</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1987/1997">1987-1997</unitdate></unittitle>
       <abstract>Ann Arbor, Michigan, businessman, active in local community groups and programs; a founder of Trailblazers of Washtenaw County, a non-profit agency operating a clubhouse rehabilitation center for the mentally ill; also active in Ann Arbor educational issues. Records of Trailblazers include bylaws, minutes, publications, and other administrative records; also files relating to involvement in other organizations for the mentally ill and Ann Arbor education.</abstract>
@@ -80,13 +81,13 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Alliance for the Mentally Ill of Washtenaw County.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21743">Alliance for the Mentally Ill of Washtenaw County.</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html" ref="/subjects/860">Ann Arbor (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n89629161">Duke, Kevin.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n89629161" ref="/agents/people/35556">Duke, Kevin.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5704">Education--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7362">Mentally ill--Care--Michigan--Washtenaw County.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5723">Schools--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Trailblazers of Washtenaw County.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21467">Trailblazers of Washtenaw County.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

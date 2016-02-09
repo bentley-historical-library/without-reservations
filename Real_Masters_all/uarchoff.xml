@@ -27,7 +27,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. University Architect's Office.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/22416">University of Michigan. University Architect's Office.</corpname>
       </origination>
       <unittitle encodinganalog="245">University Architect's Office (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1950/1989" certainty="approximate">circa 1950-1989</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">87288 Bimu B27 2</unitid>
@@ -125,25 +126,25 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6291">Architects.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5857">Architecture.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7057">Construction industry.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Buildings.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Buildings--Contracts and specifications.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Campus.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151">University of Michigan. Medical School.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. University Architect's Office.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Dearborn--Buildings.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Flint--Buildings.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n83044046">Dow, Alden B., 1904-1983</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr97013546">Albert Kahn Associates.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Smith, Hinchman &amp; Grylls Associates.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88600975">Swanson Associates.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Buildings.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Buildings--Contracts and specifications.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Campus.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151" ref="/agents/corporate_entities/20391">University of Michigan. Medical School.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22416">University of Michigan. University Architect's Office.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Dearborn--Buildings.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Flint--Buildings.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n83044046" ref="/agents/people/30364">Dow, Alden B., 1904-1983</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr97013546" ref="/agents/corporate_entities/22902">Albert Kahn Associates.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21291">Smith, Hinchman &amp; Grylls Associates.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88600975" ref="/agents/corporate_entities/23005">Swanson Associates.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Buildings.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Buildings.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3572">Children.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4359">Hospitals--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. University Architect's Office.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Student housing.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22416">University of Michigan. University Architect's Office.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Student housing.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5870">Dormitories--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
@@ -204,7 +205,7 @@
             <unittitle>Ann Arbor Campus</unittitle>
           </did>
           <scopecontent>
-            <p>The largest subseries, Ann Arbor Campus, is divided into seven subsections. Buildings associated with a particular college or school are found under the college or school to which they belonged (i.e., Francois Xavier Bagnoud under Engineering). Medical School buildings are included under the Medical Center subsection rather than within the colleges and schools. Non-medical research facilities such as the Institute for Social Research, are found under the subsection Research Facilities and Institutes. The General Subsection contains information on buildings such as the Administration Building (Fleming), Computing Center, Hill Auditorium, Michigan Union, and recreational and service buildings. The Ann Arbor subseries is organized as follows: <list type="simple"><item>Colleges and Schools (Boxes 1-7)</item><item>Housing (Box 7)</item><item>Libraries and Archives (Boxes 7-8)</item><item>Medical Center (Boxes 8-15) <sublist type="simple"><subitem>Development and Planning</subitem><subitem>Hospitals and Clinics</subitem><subitem>Research Facilities and Institutes</subitem><subitem>General</subitem></sublist> </item><item>Research Facilities and Institutes (Boxes 15-16)</item><item>Transportation and Parking (Box 16)</item><item>General (Boxes 16-18)</item></list> </p>
+            <p>The largest subseries, Ann Arbor Campus, is divided into seven subsections. Buildings associated with a particular college or school are found under the college or school to which they belonged (i.e., Francois Xavier Bagnoud under Engineering). Medical School buildings are included under the Medical Center subsection rather than within the colleges and schools. Non-medical research facilities such as the Institute for Social Research, are found under the subsection Research Facilities and Institutes. The General Subsection contains information on buildings such as the Administration Building (Fleming), Computing Center, Hill Auditorium, Michigan Union, and recreational and service buildings. The Ann Arbor subseries is organized as follows: <list type="simple"><item>Colleges and Schools (Boxes 1-7)</item><item>Housing (Box 7)</item><item>Libraries and Archives (Boxes 7-8)</item><item>Medical Center (Boxes 8-15) <sublist type="simple"><subitem>Development and Planning</subitem> <subitem>Hospitals and Clinics</subitem> <subitem>Research Facilities and Institutes</subitem> <subitem>General</subitem></sublist> </item><item>Research Facilities and Institutes (Boxes 15-16)</item><item>Transportation and Parking (Box 16)</item><item>General (Boxes 16-18)</item></list> </p>
           </scopecontent>
           <c03 level="otherlevel" otherlevel="sub-subseries">
             <did>

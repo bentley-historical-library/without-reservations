@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Tenny, Mark Wayland.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/35698">Tenny, Mark Wayland.</persname>
       </origination>
       <unittitle encodinganalog="245">Mark Wayland Tenny visual materials <unitdate type="inclusive" encodinganalog="245$f" normal="1895">1895</unitdate>, <unitdate type="inclusive" encodinganalog="245$f" normal="1897">1897</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">92972 Aa 1; UAm</unitid>
@@ -87,7 +88,7 @@
         <head>Subjects - Visual Materials:</head>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1596">Florida.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5391">Ships--Florida.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Library.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20906">University of Michigan. Library.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

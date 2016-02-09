@@ -39,7 +39,8 @@
         <item>original encoding from Word 6.0 file</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -50,7 +51,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="100">University of Michigan Alumnae Club of Ann Arbor. Sara Browne Smith Group.</corpname>
+        <corpname source="lcnaf" encodinganalog="100" ref="/agents/corporate_entities/19951">University of Michigan Alumnae Club of Ann Arbor. Sara Browne Smith Group.</corpname>
       </origination>
       <unittitle encodinganalog="245">University of Michigan Alumnae Club of Ann Arbor. Sara Browne Smith Group records <unitdate type="inclusive" normal="1930/1995">1930-1995</unitdate></unittitle>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">8711 BIMU H62</unitid>
@@ -107,11 +108,11 @@
       <controlaccess>
         <head>Subject:</head>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html" ref="/subjects/860">Ann Arbor (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600">Smith, Sara Browne.</persname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Alumnae Club.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Alumni and alumnae.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28998">Smith, Sara Browne.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22835">University of Michigan. Alumnae Club.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Alumni and alumnae.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5697">Women--Michigan--Ann Arbor--Societies and clubs.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan Alumnae Club of Ann Arbor. Sara Browne Smith Group.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19951">University of Michigan Alumnae Club of Ann Arbor. Sara Browne Smith Group.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Form and Genre Terms:</head>

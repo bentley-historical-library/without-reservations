@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2010 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/no2011054231">Kennedy, Cornelia G. (Cornelia Groefsema), 1923-2014.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/no2011054231" ref="/agents/people/31922">Kennedy, Cornelia G. (Cornelia Groefsema), 1923-2014.</persname>
       </origination>
       <unittitle encodinganalog="245">Cornelia G. Kennedy papers <unitdate type="inclusive" encodinganalog="245$f" normal="1932/2012">1932-2012</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1970/1999">1970-1999</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2014163 Aa 2 Ac</unitid>
@@ -172,15 +173,15 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79076735">Federal Judicial Center.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79100541">Judicial Conference of the United States.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2007015581">Judicial Conference of the United States. Committee to Review Circuit Council Conduct and Disability Orders.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79076735" ref="/agents/corporate_entities/17375">Federal Judicial Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79100541" ref="/agents/corporate_entities/21881">Judicial Conference of the United States.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2007015581" ref="/agents/corporate_entities/20762">Judicial Conference of the United States. Committee to Review Circuit Council Conduct and Disability Orders.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8659">Judicial ethics--United States.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2011054231">Kennedy, Cornelia G. (Cornelia Groefsema), 1923-2014.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2001061674">Michigan. Circuit Court (Wayne County)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80097979">United States. Court of Appeals (6th Circuit)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85805199">United States. District Court (Michigan : Eastern District)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Law School--Alumni and alumnae.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2011054231" ref="/agents/people/31922">Kennedy, Cornelia G. (Cornelia Groefsema), 1923-2014.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2001061674" ref="/agents/corporate_entities/20602">Michigan. Circuit Court (Wayne County)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80097979" ref="/agents/corporate_entities/20164">United States. Court of Appeals (6th Circuit)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85805199" ref="/agents/corporate_entities/21060">United States. District Court (Michigan : Eastern District)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20498">University of Michigan. Law School--Alumni and alumnae.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8660">Women judges--Michigan--Detroit.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8661">Women judges--United States.</subject>
       </controlaccess>
@@ -740,7 +741,10 @@
                   </daodesc>
                 </dao>
               </did>
-              <odd><p>(Biographical information and curricula vitae for Justice Cornelia G. Kennedy and Allyson A. Miller, collected as part of their 2012 oral history interviews for the Women Trailblazers in Law Project.)</p></odd><accessrestrict>
+              <odd>
+                <p>(Biographical information and curricula vitae for Justice Cornelia G. Kennedy and Allyson A. Miller, collected as part of their 2012 oral history interviews for the Women Trailblazers in Law Project.)</p>
+              </odd>
+              <accessrestrict>
                 <p>[Download restricted to BHL Reading Room]</p>
               </accessrestrict>
             </c04>
@@ -757,7 +761,10 @@
                   </daodesc>
                 </dao>
               </did>
-              <odd><p>(Photographs of Justice Cornelia G. Kennedy with colleagues and family, collected as part of their 2012 oral history interviews for the Women Trailblazers in Law Project.  Includes images of Kennedy with President Jimmy Carter; Justices Alice M. Batchelder, Anna Diggs Taylor, and Mary S. Coleman; and her father, Elmer Groefsema, and sister, Judge Margaret Schaeffer.)</p></odd><accessrestrict>
+              <odd>
+                <p>(Photographs of Justice Cornelia G. Kennedy with colleagues and family, collected as part of their 2012 oral history interviews for the Women Trailblazers in Law Project.  Includes images of Kennedy with President Jimmy Carter; Justices Alice M. Batchelder, Anna Diggs Taylor, and Mary S. Coleman; and her father, Elmer Groefsema, and sister, Judge Margaret Schaeffer.)</p>
+              </odd>
+              <accessrestrict>
                 <p>[Download restricted to BHL Reading Room]</p>
               </accessrestrict>
             </c04>
@@ -774,7 +781,10 @@
                   </daodesc>
                 </dao>
               </did>
-              <odd><p>(Oral histories with Justice Cornelia G. Kennedy conducted by Allyson A. Miller from January 5, 2012 through October 19, 2012 as part of the Women Trailblazers in Law Project.  Over the course of the interviews, Justice Kennedy recalls her parents, Elmer and M. Blanche (Gibbons) Groefsema; childhood and education in Detroit; and experiences as an undergraduate and law student at the University of Michigan during World War II.  Other topics include the women with whom she attended law school; the challenges they faced in entering the profession; Kennedy's clerkship and private legal practice; her career on the Wayne County Circuit Court, U.S. District Court for the Eastern District of Michigan, and U.S. Court of Appeals for the Sixth Circuit; her nominations to the U.S. Supreme Court, and her additional roles as a wife and mother.)</p></odd><accessrestrict>
+              <odd>
+                <p>(Oral histories with Justice Cornelia G. Kennedy conducted by Allyson A. Miller from January 5, 2012 through October 19, 2012 as part of the Women Trailblazers in Law Project.  Over the course of the interviews, Justice Kennedy recalls her parents, Elmer and M. Blanche (Gibbons) Groefsema; childhood and education in Detroit; and experiences as an undergraduate and law student at the University of Michigan during World War II.  Other topics include the women with whom she attended law school; the challenges they faced in entering the profession; Kennedy's clerkship and private legal practice; her career on the Wayne County Circuit Court, U.S. District Court for the Eastern District of Michigan, and U.S. Court of Appeals for the Sixth Circuit; her nominations to the U.S. Supreme Court, and her additional roles as a wife and mother.)</p>
+              </odd>
+              <accessrestrict>
                 <p>[Download restricted to BHL Reading Room]</p>
               </accessrestrict>
             </c04>

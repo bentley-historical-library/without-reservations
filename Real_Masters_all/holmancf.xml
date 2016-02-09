@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Holman, Charles F.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/34069">Holman, Charles F.</persname>
       </origination>
       <unittitle encodinganalog="245">Charles F. Holman Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1973/1986">1973-1986</unitdate></unittitle>
       <abstract>Detroit, Michigan, attorney and legal counselor; files reflecting his activity in the Michigan State NAACP</abstract>
@@ -82,7 +83,7 @@
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5781">African Americans--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5751">Civil rights--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80049704">National Association for the Advancement of Colored People.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80049704" ref="/agents/corporate_entities/18062">National Association for the Advancement of Colored People.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

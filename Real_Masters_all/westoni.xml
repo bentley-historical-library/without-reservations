@@ -35,7 +35,8 @@
         <item>Original encoding from Word 6.0 file.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Weston, Isaac M. (Isaac Mellen), 1845-1898.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33000">Weston, Isaac M. (Isaac Mellen), 1845-1898.</persname>
       </origination>
       <unittitle encodinganalog="245">Isaac M. Weston Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1859/1899">1859-1899</unitdate></unittitle>
       <abstract>Grand Rapids Michigan businessman and politician, active in lumbering and banking in Wisconsin and Michigan, Democratic party official, head of Board of World's Fair Managers for Michigan, overseeing state's exhibits at 1893 Columbian Exposition. Collection primarily documents business activities with some material on World's Columbian Exposition, as well as personal and family material.</abstract>
@@ -93,17 +94,17 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731">Democratic Party (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731" ref="/agents/corporate_entities/21108">Democratic Party (Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79133151.html" ref="/subjects/1102">Grand Rapids (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10700">Lumbering--Wisconsin.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6798">Lumbering--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Board of World's Fair Managers.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20860">Michigan Board of World's Fair Managers.</corpname>
         <geogname source="local" encodinganalog="691" ref="/subjects/805">Michigan--Politics and government--1877-1898.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8541">American newspapers--Michigan--Grand Rapids.</subject>
         <subject source="lcnaf" encodinganalog="611" authfilenumber="http://id.loc.gov/authorities/names/n80008759" ref="/subjects/5618">World's Columbian Exposition (1893: Chicago, Ill.)</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6797">Logging--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10701">Logging--Wisconsin.</subject>
-        <persname source="lcnaf" encodinganalog="600">Weston, Isaac M. (Isaac Mellen), 1845-1898.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33000">Weston, Isaac M. (Isaac Mellen), 1845-1898.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1862">Wisconsin.</geogname>
       </controlaccess>
       <controlaccess>
@@ -113,14 +114,14 @@
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/726">Grand Rapids (Mich.)--Clubhouses.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1836">Grand River (Mich.)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3616">Lumber industry.</subject>
-        <corpname source="lcnaf" encodinganalog="610">O-Wash-ta-Nong Boat Club.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/23081">O-Wash-ta-Nong Boat Club.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4850">Sailboats.</subject>
-        <persname source="lcnaf" encodinganalog="600">Weston, Isaac M. (Isaac Mellen), 1845-1898.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33000">Weston, Isaac M. (Isaac Mellen), 1845-1898.</persname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Weston, B. F. (Benjamin Frank), d. 1916.</persname>
-        <persname source="lcnaf" encodinganalog="700">Weston, William, 1810-1882.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31391">Weston, B. F. (Benjamin Frank), d. 1916.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35672">Weston, William, 1810-1882.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

@@ -27,7 +27,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Personnel Office.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/22279">University of Michigan. Personnel Office.</corpname>
       </origination>
       <unittitle encodinganalog="245">Personnel Office (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1940/1999">1940-1999</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1958/1995">1958-1995</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">8757 Bimu B28 2</unitid>
@@ -89,15 +90,15 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Graduate Employees Organization (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17401">Graduate Employees Organization (University of Michigan)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6743">Labor--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9749">Universities and colleges--Employees--Labor unions--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Employees.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Finance.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Personnel Office.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Employees.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Finance.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22279">University of Michigan. Personnel Office.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Students.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8277">Strikes and lockouts--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">AFSCME. Local 1583 (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20032">AFSCME. Local 1583 (Ann Arbor, Mich.)</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

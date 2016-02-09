@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/no2009110045">Pennington, Jasper Green.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/no2009110045" ref="/agents/people/32155">Pennington, Jasper Green.</persname>
       </origination>
       <unittitle encodinganalog="245">Jasper Green Pennington papers <unitdate type="inclusive" encodinganalog="245$f" normal="1969/2007">1969-2007</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">0724 Aa 2</unitid>
@@ -78,15 +79,15 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2009110045">Pennington, Jasper Green.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2009110045" ref="/agents/people/32155">Pennington, Jasper Green.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9729">African American churches--Michigan--Inkster.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Episcopal Church--Michigan--Inkster.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18160">Episcopal Church--Michigan--Inkster.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2476">Inkster (Mich.)--Church history.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">St. Clement's Episcopal Church (Inkster, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. Luke's Episcopal Church (Ypsilanti, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21804">St. Clement's Episcopal Church (Inkster, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21068">St. Luke's Episcopal Church (Ypsilanti, Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9730">Clergy--Michigan--Ypsilanti.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9731">Historic preservation--Michigan--Washtenaw County.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Washtenaw County Historic District Commission.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18042">Washtenaw County Historic District Commission.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1864">Ypsilanti (Mich.)--Church history.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1000">Ypsilanti (Mich.)--History.</geogname>
       </controlaccess>

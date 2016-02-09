@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Boulding, Kenneth Ewart, 1910-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/34335">Boulding, Kenneth Ewart, 1910-</persname>
       </origination>
       <unittitle encodinganalog="245">Kenneth Ewart Boulding Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1880/1968">1880-1968</unitdate></unittitle>
       <abstract>Professor of economics at the University of Michigan, director of the Center for Research on Conflict Resolution, fellow of the Center for Advanced Study in the Behavioral Sciences, and participant in the Society of Friends, the National Council of Churches Department of the Church and Economic Life, and peace and disarmament groups. Correspondence, notes, writings, photographs, recordings, and topical files; also materials concerning his wife, Elise Boulding, and his parents, William and Elizabeth Boulding.</abstract>
@@ -76,7 +77,7 @@
       <p>Kenneth Boulding viewed economics as a creative and philosophical integration of various disciplines--political science, sociology and anthropology. He coined the word "eiconics" to describe the weaving together and restructuring of interdisciplinary knowledge.</p>
     </bioghist>
     <scopecontent encodinganalog="520">
-      <p>The Boulding papers, consisting of approximately 46 linear feet, fall into the following series and sub-series. <list type="simple"><item>Correspondence (boxes 1-10)</item><item>Miscellaneous clippings and printed materials (box 10)</item><item>Lecture and reading notes (boxes 11-13)</item><item>Published and unpublished writings (boxes 14-18)</item><item>Family and personal files (boxes 19-22) <sublist type="simple"><subitem>Elise Boulding (boxes 19-21)</subitem></sublist> </item><item>Topical files: <sublist type="simple"><subitem>Economics (boxes 23-24)</subitem><subitem>Social Sciences (boxes 25-30) <sublist type="simple"><subitem>California Water Resources Study, 1958-1959 (boxes 24-26)</subitem></sublist> </subitem><subitem>Religion (boxes 30-31) <sublist type="simple"><subitem>National Council of Churches of Christ, Department of the Church and Economic Life (boxes 30-31)</subitem></sublist> </subitem><subitem>Peace, Conflict Resolution and Disarmament (boxes 32-38) <sublist type="simple"><subitem>Center for Research on Conflict Resolution (boxes 32-34)</subitem></sublist> </subitem><subitem>University of Michigan (boxes 39-42)</subitem><subitem>Travel (box 42)</subitem><subitem>Foundations (box 42)</subitem></sublist> </item><item>Speaking Engagements (box 43)</item><item>Financial Records (boxes 44-45)</item><item>Sound recordings (box 46)</item><item>Photographs (box 47)</item></list> </p>
+      <p>The Boulding papers, consisting of approximately 46 linear feet, fall into the following series and sub-series. <list type="simple"><item>Correspondence (boxes 1-10)</item><item>Miscellaneous clippings and printed materials (box 10)</item><item>Lecture and reading notes (boxes 11-13)</item><item>Published and unpublished writings (boxes 14-18)</item><item>Family and personal files (boxes 19-22) <sublist type="simple"><subitem>Elise Boulding (boxes 19-21)</subitem></sublist> </item><item>Topical files: <sublist type="simple"><subitem>Economics (boxes 23-24)</subitem> <subitem>Social Sciences (boxes 25-30) <sublist type="simple"><subitem>California Water Resources Study, 1958-1959 (boxes 24-26)</subitem></sublist> </subitem> <subitem>Religion (boxes 30-31) <sublist type="simple"><subitem>National Council of Churches of Christ, Department of the Church and Economic Life (boxes 30-31)</subitem></sublist> </subitem> <subitem>Peace, Conflict Resolution and Disarmament (boxes 32-38) <sublist type="simple"><subitem>Center for Research on Conflict Resolution (boxes 32-34)</subitem></sublist> </subitem> <subitem>University of Michigan (boxes 39-42)</subitem> <subitem>Travel (box 42)</subitem> <subitem>Foundations (box 42)</subitem></sublist> </item><item>Speaking Engagements (box 43)</item><item>Financial Records (boxes 44-45)</item><item>Sound recordings (box 46)</item><item>Photographs (box 47)</item></list> </p>
     </scopecontent>
     <controlaccess>
       <p>
@@ -84,26 +85,26 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79066082">American Friends Service Committee.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81063208">Boulding, Kenneth E. (Kenneth Ewart), 1910-1993</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79066082" ref="/agents/corporate_entities/20838">American Friends Service Committee.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81063208" ref="/agents/people/35053">Boulding, Kenneth E. (Kenneth Ewart), 1910-1993</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1281">California.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50046558">Center for Advanced Study in the Behavioral Sciences (Stanford, Calif.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50046558" ref="/agents/corporate_entities/17545">Center for Advanced Study in the Behavioral Sciences (Stanford, Calif.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6137">Disarmament.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5750">Economics.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79110396">National Council of the Churches of Christ in the United States of America.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79110396" ref="/agents/corporate_entities/18340">National Council of the Churches of Christ in the United States of America.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5776">Peace--Societies, etc.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Society for General Systems Research.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Society of Friends--Michigan--Ann Arbor.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n84205456">University of Michigan. Center for Research on Conflict Resolution.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Economics.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19219">Society for General Systems Research.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22518">Society of Friends--Michigan--Ann Arbor.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n84205456" ref="/agents/corporate_entities/17876">University of Michigan. Center for Research on Conflict Resolution.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18829">University of Michigan. Dept. of Economics.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6425">Water-supply.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/207">Ann Arbor (Mich.)--Dwellings.</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79021676">Boulding, Elise.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81063208">Boulding, Kenneth E. (Kenneth Ewart), 1910-1993</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79021676" ref="/agents/people/35820">Boulding, Elise.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81063208" ref="/agents/people/35053">Boulding, Kenneth E. (Kenneth Ewart), 1910-1993</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3882">Camps--Great Britain.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3522">Dwellings--Michigan--Ann Arbor.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1344">Great Britain.</geogname>
@@ -112,7 +113,7 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79021676">Boulding, Elise.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79021676" ref="/agents/people/35820">Boulding, Elise.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

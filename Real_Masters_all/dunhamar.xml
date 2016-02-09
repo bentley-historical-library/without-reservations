@@ -35,7 +35,8 @@
         <item>Original encoding from Word 6.0 file.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc level="collection" type="inventory" audience="external" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">Dunham, Arthur.</persname>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/28267">Dunham, Arthur.</persname>
       </origination>
       <unittitle encodinganalog="245">Arthur Dunham Papers <unitdate encodinganalog="245$f" type="inclusive" normal="1900/1980" certainty="approximate">circa 1900-1980</unitdate></unittitle>
       <physloc>Portions of the collection are located offsite; two days notice required for retrieval.</physloc>
@@ -122,13 +123,13 @@
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6802">Child welfare--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7368">Conscientious objectors.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Friends Meetinghouse (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19218">Friends Meetinghouse (Ann Arbor, Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7369">Pacifism--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7370">Social service--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Society of Friends--Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Friends Meeting (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81033118">University of Michigan. School of Social Work.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22518">Society of Friends--Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21302">Ann Arbor Friends Meeting (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81033118" ref="/agents/corporate_entities/22674">University of Michigan. School of Social Work.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5737">World War, 1914-1918.</subject>
       </controlaccess>
       <controlaccess>
@@ -136,15 +137,15 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3534">Community service.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4176">Conscientious objectors.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4177">Detention facilities.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82006311">Dunham, Arthur, 1893-</persname>
-        <persname source="lcnaf" encodinganalog="600">Dunham, Ruth.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Friends Meetinghouse (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Friends Meeting (Ann Arbor, Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82006311" ref="/agents/people/28185">Dunham, Arthur, 1893-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34885">Dunham, Ruth.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19218">Friends Meetinghouse (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21302">Ann Arbor Friends Meeting (Ann Arbor, Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5737">World War, 1914-1918.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Osborn, Curtis.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29916">Osborn, Curtis.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

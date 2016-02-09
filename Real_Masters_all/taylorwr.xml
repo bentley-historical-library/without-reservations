@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n50008435">Taylor, William Randolph, 1895-</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n50008435" ref="/agents/people/33039">Taylor, William Randolph, 1895-</persname>
       </origination>
       <unittitle encodinganalog="245">William Randolph Taylor Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1918/1987">1918-1987</unitdate></unittitle>
       <abstract>Professor of botany at University of Michigan, curator of algae at the University Herbarium, and biologist with the atomic bomb test program in Marshall Islands in 1946. Correspondence and other papers relating to his scientific interests and activities.</abstract>
@@ -96,10 +97,10 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6153">Botany.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10360">Operation Crossroads, 1946.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7706">Scientists--Michigan--Ann Arbor.</subject>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n50008435">Taylor, William Randolph, 1895-</persname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Botany.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80019632">University of Michigan. University Herbarium.</corpname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n50008435" ref="/agents/people/33039">Taylor, William Randolph, 1895-</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17473">University of Michigan. Dept. of Botany.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80019632" ref="/agents/corporate_entities/22323">University of Michigan. University Herbarium.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

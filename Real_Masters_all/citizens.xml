@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Citizens Opposed to Super Sewer.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/19439">Citizens Opposed to Super Sewer.</corpname>
       </origination>
       <unittitle encodinganalog="245">Citizens Opposed to Super Sewer records <unitdate type="inclusive" encodinganalog="245$f" normal="1968/1976">1968-1976</unitdate></unittitle>
       <abstract>Organization formed to oppose construction of a sewer interceptor for Oakland, Macomb, Washtenaw and Wayne counties, Michigan. Office records, clippings, and topical files.</abstract>
@@ -80,7 +81,7 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Citizens Opposed to Super Sewer.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19439">Citizens Opposed to Super Sewer.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6842">Sewerage--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6532">Citizens' associations--Michigan.</subject>
       </controlaccess>

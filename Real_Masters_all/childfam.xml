@@ -27,7 +27,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Child and Family Life Department.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/19310">University of Michigan. Child and Family Life Department.</corpname>
       </origination>
       <unittitle encodinganalog="245">Child and Family Life Department (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1922/2001">1922-2001</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1922/1960">1922-1960</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">0501 Bimu 2</unitid>
@@ -101,8 +102,8 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <corpname source="lcnaf" encodinganalog="710">Child Study Association of America. Children's Book Committee.</corpname>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n50077187">Child Study Association of America. Book Review Committee.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/20012">Child Study Association of America. Children's Book Committee.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n50077187" ref="/agents/corporate_entities/18994">Child Study Association of America. Book Review Committee.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

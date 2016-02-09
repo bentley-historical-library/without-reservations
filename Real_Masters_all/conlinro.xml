@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Conlin, Rollo G., 1903-1974.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/31622">Conlin, Rollo G., 1903-1974.</persname>
       </origination>
       <unittitle encodinganalog="245">Rollo G. Conlin Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1948/1966">1948-1966</unitdate></unittitle>
       <abstract>Republican state representative from Tipton, Michigan, 1945-1967; member of the House Ways and Means Committee; chairman of the Committee on General Taxation; the State Tax Study Commission, 1957-1959; and the Joint House and Senate Committee on Constitutional Implementation. Correspondence, reports, subject files, sound recordings, and other papers largely relating to problems of state taxation in the administrations of G. Mennen Williams and John B. Swainson.</abstract>
@@ -79,35 +80,35 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Conlin, Rollo G., 1903-1974.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31622">Conlin, Rollo G., 1903-1974.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6244">Legislators--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81018695.html" ref="/subjects/1311">Lenawee County (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. Constitution, 1963.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79059059">Michigan. Legislature.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18114">Michigan. Constitution, 1963.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79059059" ref="/agents/corporate_entities/22038">Michigan. Legislature.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/910">Michigan--Politics and government--1951-</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/809">Michigan--Politics and government--1946-1960.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/810">Michigan--Politics and government--1961-1970.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. Legislature. Special Legislative Committee on Taxation.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n2003087794">Swainson, John B. (John Burley), 1925-1994.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20978">Michigan. Legislature. Special Legislative Committee on Taxation.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21402">Republican Party (Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n2003087794" ref="/agents/people/32646">Swainson, John B. (John Burley), 1925-1994.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6214">Taxation--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1631">Tipton (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80084463">Williams, G. Mennen, 1911-1988.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80084463" ref="/agents/people/30999">Williams, G. Mennen, 1911-1988.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Conlin, Rollo G., 1903-1974.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31622">Conlin, Rollo G., 1903-1974.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Sound Recordings</head>
-        <persname source="lcnaf" encodinganalog="700">Bagwell, Paul D.</persname>
-        <persname source="lcnaf" encodinganalog="600">Conlin, Rollo G., 1903-1974.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27356">Bagwell, Paul D.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31622">Conlin, Rollo G., 1903-1974.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6158">Elections--Michigan--1960.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. Legislature. House of Representatives.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21647">Michigan. Legislature. House of Representatives.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/910">Michigan--Politics and government--1951-</geogname>
         <subject source="local" encodinganalog="690" ref="/subjects/5627">Michigan--Politics and government--1946-1960.</subject>
         <subject source="local" encodinganalog="690" ref="/subjects/5628">Michigan--Politics and government--1961-1970.</subject>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n2003087794">Swainson, John B. (John Burley), 1925-1994.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n2003087794" ref="/agents/people/32646">Swainson, John B. (John Burley), 1925-1994.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6214">Taxation--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6998">Taxation--Law and legislation--Michigan.</subject>
       </controlaccess>

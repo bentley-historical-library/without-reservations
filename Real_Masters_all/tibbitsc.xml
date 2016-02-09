@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Tibbitts, Clark, 1903-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33992">Tibbitts, Clark, 1903-</persname>
       </origination>
       <unittitle encodinganalog="245">Clark Tibbitts papers <unitdate type="inclusive" encodinganalog="245$f" normal="1926/1985">1926-1985</unitdate></unittitle>
       <abstract>Gerontologist, lecturer in social research, and director of the Institute for Human Adjustment at the University of Michigan. Professional files, especially concerning the Institute, the University Board on University Policies, the Bureau of Psychological Services, and the University Fresh Air Camp; also photographs.</abstract>
@@ -104,18 +105,18 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6582">Aging.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Fresh Air Camp (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22088">Fresh Air Camp (University of Michigan)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6583">Gerontology.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79062832">Tibbitts, Clark, 1903-1985</persname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Advisory Board on University Policies.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Bureau of Psychological Services.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n86071802">University of Michigan. Institute for Human Adjustment.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79043490">University of Michigan. Institute of Gerontology.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79062832" ref="/agents/people/35845">Tibbitts, Clark, 1903-1985</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22136">University of Michigan. Advisory Board on University Policies.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19221">University of Michigan. Bureau of Psychological Services.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n86071802" ref="/agents/corporate_entities/20178">University of Michigan. Institute for Human Adjustment.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79043490" ref="/agents/corporate_entities/17505">University of Michigan. Institute of Gerontology.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79062832">Tibbitts, Clark, 1903-1985</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79062832" ref="/agents/people/35845">Tibbitts, Clark, 1903-1985</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

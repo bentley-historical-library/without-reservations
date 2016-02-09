@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Katz, Donald La Verne, 1907-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/29661">Katz, Donald La Verne, 1907-</persname>
       </origination>
       <unittitle encodinganalog="245">Donald La Verne Katz papers <unitdate type="inclusive" encodinganalog="245$f" normal="1933/1989">1933-1989</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">90133 Aa 2</unitid>
@@ -85,14 +86,14 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Council of Churches (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19553">Ann Arbor Council of Churches (Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6424">Engineers--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8617">Explosions.</subject>
         <genreform source="aat" encodinganalog="655" ref="/subjects/3157">Oral histories.</genreform>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n83030021.html" ref="/subjects/1206">Port Huron (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80094504">University of Michigan. College of Engineering.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Chemical Engineering.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80094504" ref="/agents/corporate_entities/17661">University of Michigan. College of Engineering.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21689">University of Michigan. Dept. of Chemical Engineering.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8618">Water tunnels.</subject>
       </controlaccess>
     </controlaccess>

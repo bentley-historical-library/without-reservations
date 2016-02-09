@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Grandville-Jenison Congregational Church (Grandville, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/22795">Grandville-Jenison Congregational Church (Grandville, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">Grandville-Jenison Congregational Church (Grandville, Mich.) records <unitdate type="inclusive" encodinganalog="245$f" normal="1838/1936">1838-1936</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">86756 mf 634c</unitid>
@@ -85,13 +86,13 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Congregational churches--Michigan--Grandville.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Congregational churches--Michigan--Jenison.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21452">Congregational churches--Michigan--Grandville.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21452">Congregational churches--Michigan--Jenison.</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82062815.html" ref="/subjects/1365">Grandville (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n97092844.html" ref="/subjects/1927">Jenison (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Grandville-Jenison Congregational Church (Grandville, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">First Congregational Church (Grandville, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Jenison Congregational Church (Jenison, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22795">Grandville-Jenison Congregational Church (Grandville, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20461">First Congregational Church (Grandville, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22198">Jenison Congregational Church (Jenison, Mich.)</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

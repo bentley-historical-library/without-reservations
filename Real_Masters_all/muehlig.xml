@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Muehlig Funeral Chapel.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/17551">Muehlig Funeral Chapel.</corpname>
       </origination>
       <unittitle encodinganalog="245">Muehlig Funeral Chapel records <unitdate type="inclusive" encodinganalog="245$f" normal="1846/1867">1846-1867</unitdate>, <unitdate type="inclusive" encodinganalog="245$f" normal="1882/1995">1882-1995</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1846/1867">1846-1867</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1882/1916">1882-1916</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">047 Bb 2</unitid>
@@ -71,7 +72,7 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Muehlig Funeral Chapel.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17551">Muehlig Funeral Chapel.</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html" ref="/subjects/860">Ann Arbor (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6328">German Americans--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7777">Registers of births, etc.--Michigan--Ann Arbor.</subject>

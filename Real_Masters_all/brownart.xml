@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Brown family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/1559">Brown family.</famname>
       </origination>
       <unittitle encodinganalog="245">Arthur Brown family papers <unitdate type="inclusive" encodinganalog="245$f" normal="1873/1945" certainty="approximate">circa 1873-1945</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">8562 Aa 2</unitid>
@@ -82,9 +83,9 @@
       <controlaccess>
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/850">Ann Arbor (Mich.)--History.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Washtenaw Abstract Company (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22485">Washtenaw Abstract Company (Ann Arbor, Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5764">Women--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79006441">Daughters of the American Revolution.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79006441" ref="/agents/corporate_entities/21268">Daughters of the American Revolution.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6503">Lawyers--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5706">World War, 1939-1945.</subject>
       </controlaccess>
@@ -92,20 +93,20 @@
         <head>Subjects - Visual Materials:</head>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/210">Ann Arbor (Mich.)--Business enterprises.</geogname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/207">Ann Arbor (Mich.)--Dwellings.</geogname>
-        <persname source="lcnaf" encodinganalog="600">Brown, Arthur, 1864-1932.</persname>
-        <famname source="lcnaf" encodinganalog="600">Brown family.</famname>
-        <persname source="lcnaf" encodinganalog="600">Bryan, William Jennings, 1860-1925.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35448">Brown, Arthur, 1864-1932.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1559">Brown family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32814">Bryan, William Jennings, 1860-1925.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3539">Business enterprises--Michigan--Ann Arbor.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3522">Dwellings--Michigan--Ann Arbor.</subject>
-        <famname source="lcnaf" encodinganalog="600">Haller family.</famname>
-        <corpname source="lcnaf" encodinganalog="610">Haller Jewelry (Store : Ann Arbor, Mich.)</corpname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1415">Haller family.</famname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18960">Haller Jewelry (Store : Ann Arbor, Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3633">Interiors--Michigan--Ann Arbor.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79046299">Wilson, Woodrow, 1856-1924.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79046299" ref="/agents/people/27218">Wilson, Woodrow, 1856-1924.</persname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Brown, Arthur, 1864-1932.</persname>
-        <persname source="lcnaf" encodinganalog="700">Brown, Cora Pulcipher.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35448">Brown, Arthur, 1864-1932.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31512">Brown, Cora Pulcipher.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

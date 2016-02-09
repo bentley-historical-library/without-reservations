@@ -31,7 +31,8 @@
         <item>Original encoding in Version 1.0 from Word 6.0 file using Word macros and hand tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">National Association for the Advancement of Colored People. Ypsilanti-Willow Run Branch.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/19024">National Association for the Advancement of Colored People. Ypsilanti-Willow Run Branch.</corpname>
       </origination>
       <unittitle encodinganalog="245">National Association for the Advancement of Colored People. Ypsilanti-Willow Run Branch Records <unitdate type="inclusive" encodinganalog="245$f" normal="1918">1918</unitdate>, <unitdate type="inclusive" encodinganalog="245$f" normal="1977/1998">1977-1998</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1989/1998">1989-1998</unitdate></unittitle>
       <abstract>Volunteer and membership organization geared toward improving the educational, economic, social and political status of minorities. The records are comprised of administrative material, photographs, and files related to activities and issues.</abstract>
@@ -97,7 +98,7 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Mullins, Raymond G., 1943-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29517">Mullins, Raymond G., 1943-</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2407">Ypsilanti (Mich.)--Race relations.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2416">Willow Run (Mich.)--Race relations.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9509">Afro-Americans--Michigan--Willow Run.</subject>

@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Dept. of Sociology.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/22170">University of Michigan. Dept. of Sociology.</corpname>
       </origination>
       <unittitle encodinganalog="245">Dept. of Sociology (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1929/1987">1929-1987</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1950/1980">1950-1980</unitdate></unittitle>
       <abstract>Instructional and research unit in the College of Literature, Science and Art of University of Michigan Annual reports; budget files; executive committee minutes and records of other department committees; course evaluations; files relating to establishment, dissolution, and evaluations of programs; and faculty evaluations.</abstract>
@@ -89,10 +90,10 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Center for Research in Social Organization.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Psychology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Sociology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Doctoral Program in Social Psychology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21569">University of Michigan. Center for Research in Social Organization.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19242">University of Michigan. Dept. of Psychology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22170">University of Michigan. Dept. of Sociology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19860">University of Michigan. Doctoral Program in Social Psychology.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

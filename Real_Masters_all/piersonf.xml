@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Pierson family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/1646">Pierson family.</famname>
       </origination>
       <unittitle encodinganalog="245">Pierson Family papers <unitdate type="inclusive" encodinganalog="245$f" normal="1821/1996">1821-1996</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2010126 Aa 2; UAm</unitid>
@@ -93,11 +94,11 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5707">Clergy--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1064">Coldwater (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9772">Nature stories.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n96086137">Pierson, Bowen Whiting.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no00084442">Pierson, Clara Dillingham.</persname>
-        <famname source="lcnaf" encodinganalog="600">Pearson family.</famname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n96086114">Pierson, Job, 1791-1860.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n96086130">Pierson, Job, 1824-1896.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n96086137" ref="/agents/people/28640">Pierson, Bowen Whiting.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no00084442" ref="/agents/people/28667">Pierson, Clara Dillingham.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1300">Pearson family.</famname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n96086114" ref="/agents/people/34821">Pierson, Job, 1791-1860.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n96086130" ref="/agents/people/34978">Pierson, Job, 1824-1896.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9773">Presbyterian Church--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/no2014105975.html" ref="/subjects/1235">Stanton (Mich.)</geogname>
       </controlaccess>
@@ -106,10 +107,10 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3781">Dwellings--Michigan.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4972">Dwellings--New York (State)</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2522">Omena (Mich.)</geogname>
-        <famname source="lcnaf" encodinganalog="600">Pearson family.</famname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n96086137">Pierson, Bowen Whiting.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no00084442">Pierson, Clara Dillingham.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n96086130">Pierson, Job, 1824-1896.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1300">Pearson family.</famname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n96086137" ref="/agents/people/28640">Pierson, Bowen Whiting.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no00084442" ref="/agents/people/28667">Pierson, Clara Dillingham.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n96086130" ref="/agents/people/34978">Pierson, Job, 1824-1896.</persname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/no2014105975.html" ref="/subjects/1235">Stanton (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2550">Suffolk County (N.Y.)</geogname>
       </controlaccess>

@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2010 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Loughray, John J., collector</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28664">Loughray, John J., collector</persname>
       </origination>
       <unittitle encodinganalog="245">John J. Loughray collection <unitdate type="inclusive" encodinganalog="245$f" normal="1885/2009">1885-2009</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2014067 Aa 2 UAM</unitid>
@@ -83,7 +84,7 @@
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1901">Houghton Lake (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6797">Logging--Michigan.</subject>
-        <famname source="lcnaf" encodinganalog="600">Loughray family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1468">Loughray family.</famname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6798">Lumbering--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2240">Prudenville (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8885">Resorts--Michigan--Roscommon County.</subject>
@@ -162,7 +163,10 @@
               </daodesc>
             </dao>
           </did>
-          <odd><p>(Video file and disk image for 'Sawdust and Shanty Boys: Logging the Saginaw Valley White Pine', a 2006 production of WDCQ - Delta College. Documentary produced and directed by Bob Przybylski, hosted by Eric Jylha, written by Kim Gleason, narrated by Larry Maples, with music by Pat Cronley, and edited by Bob Przybylski and Marshall Fulmer.)</p></odd><accessrestrict>
+          <odd>
+            <p>(Video file and disk image for 'Sawdust and Shanty Boys: Logging the Saginaw Valley White Pine', a 2006 production of WDCQ - Delta College. Documentary produced and directed by Bob Przybylski, hosted by Eric Jylha, written by Kim Gleason, narrated by Larry Maples, with music by Pat Cronley, and edited by Bob Przybylski and Marshall Fulmer.)</p>
+          </odd>
+          <accessrestrict>
             <p>[Viewing access restricted to Bentley Library reading room]</p>
           </accessrestrict>
         </c02>

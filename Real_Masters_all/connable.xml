@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Connable, Alfred B. (Alfred Barnes), 1904-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/27836">Connable, Alfred B. (Alfred Barnes), 1904-</persname>
       </origination>
       <unittitle encodinganalog="245">Alfred B. Connable papers <unitdate type="inclusive" encodinganalog="245$f" normal="1925/1992">1925-1992</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1941/1957">1941-1957</unitdate></unittitle>
       <abstract>Republican regent of the University of Michigan. Files and photographs relating to his election campaigns, his regental activities, especially as member of the Association of Governing Boards of State Universities and Allied Institutions; also papers concerning his work as price specialist with the Office of Price Administration during World War II, and as Michigan campaign manager for Wendell Willkie, 1943-1944.</abstract>
@@ -80,37 +81,37 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Association of Governing Boards of State Universities and Allied Institutions.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Connable, Alfred B. (Alfred Barnes), 1904-</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21123">Association of Governing Boards of State Universities and Allied Institutions.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/27836">Connable, Alfred B. (Alfred Barnes), 1904-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6269">Universities and colleges--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998">University of Michigan. Board of Regents.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998" ref="/agents/corporate_entities/18212">University of Michigan. Board of Regents.</corpname>
         <geogname source="local" encodinganalog="691" ref="/subjects/812">Michigan--Politics and government--1939-1945.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/809">Michigan--Politics and government--1946-1960.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/965">United States--Politics and government--1933-1945.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50071114">United States. Office of Price Administration.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21402">Republican Party (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50071114" ref="/agents/corporate_entities/22821">United States. Office of Price Administration.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/910">Michigan--Politics and government--1951-</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50019256">Willkie, Wendell L. (Wendell Lewis), 1892-1944.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50019256" ref="/agents/people/33671">Willkie, Wendell L. (Wendell Lewis), 1892-1944.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5706">World War, 1939-1945.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/884">Michigan--Politics and government--1837-1950.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Connable, Alfred B. (Alfred Barnes), 1904-</persname>
-        <corpname source="lcnaf" encodinganalog="610">Fairlane (Dearborn, Mich.)</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87870675">Hart, Philip A. (Philip Aloysius), 1912-1976.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87870687">Griffin, Robert P. (Robert Paul), 1923-2015</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80010387">Milliken, William G., 1922-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/27836">Connable, Alfred B. (Alfred Barnes), 1904-</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21117">Fairlane (Dearborn, Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87870675" ref="/agents/people/31353">Hart, Philip A. (Philip Aloysius), 1912-1976.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87870687" ref="/agents/people/27377">Griffin, Robert P. (Robert Paul), 1923-2015</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80010387" ref="/agents/people/28573">Milliken, William G., 1922-</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4038">Office equipment industry.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998">University of Michigan. Board of Regents.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Buildings.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Dearborn.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50019256">Willkie, Wendell L. (Wendell Lewis), 1892-1944.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998" ref="/agents/corporate_entities/18212">University of Michigan. Board of Regents.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Buildings.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Dearborn.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50019256" ref="/agents/people/33671">Willkie, Wendell L. (Wendell Lewis), 1892-1944.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/968">North Campus (University of Michigan)</geogname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50045033">Vandenberg, Arthur H. (Arthur Hendrick), 1884-1951.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50045033" ref="/agents/people/30760">Vandenberg, Arthur H. (Arthur Hendrick), 1884-1951.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

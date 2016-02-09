@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Brazer, Harvey Elliot, 1922-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32880">Brazer, Harvey Elliot, 1922-</persname>
       </origination>
       <unittitle encodinganalog="245">Harvey Elliot Brazer Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1952/1985">1952-1985</unitdate></unittitle>
       <abstract>Professor of economics and research associate of the Institute of Public Administration at the University of Michigan. Correspondence and drafts of writings on subject of taxation; also correspondence from the Office of Tax Analysis.</abstract>
@@ -80,10 +81,10 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6471">Taxation--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Economics.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87826795">University of Michigan. Institute of Public Policy Studies.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50076177">United States. Office of Tax Analysis.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18829">University of Michigan. Dept. of Economics.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87826795" ref="/agents/corporate_entities/21516">University of Michigan. Institute of Public Policy Studies.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50076177" ref="/agents/corporate_entities/18975">United States. Office of Tax Analysis.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

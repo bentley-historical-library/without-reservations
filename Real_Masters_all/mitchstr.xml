@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Mitchell-Strong family</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/1577">Mitchell-Strong family</famname>
       </origination>
       <unittitle encodinganalog="245">Mitchell-Strong family papers <unitdate type="inclusive" encodinganalog="245$f" normal="1836/1925">1836-1925</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">921116 Aa 2</unitid>
@@ -82,8 +83,8 @@
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1611">Calhoun County (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81018695.html" ref="/subjects/1311">Lenawee County (Mich.)</geogname>
-        <famname source="lcnaf" encodinganalog="600">Mitchell family.</famname>
-        <famname source="lcnaf" encodinganalog="600">Strong family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1311">Mitchell family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1429">Strong family.</famname>
         <geogname source="local" encodinganalog="691" ref="/subjects/796">Michigan--Social life and customs--1851-1860.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/797">Michigan--Social life and customs--1861-1870.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/798">Michigan--Social life and customs--1871-1880.</geogname>

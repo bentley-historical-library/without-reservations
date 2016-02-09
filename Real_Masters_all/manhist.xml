@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Manchester Area Historical Society.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/19707">Manchester Area Historical Society.</corpname>
       </origination>
       <unittitle encodinganalog="245">Manchester Area Historical Society records <unitdate type="inclusive" encodinganalog="245$f" normal="1837/1955">1837-1955</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1870/1952">1870-1952</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">9535 Cb 2</unitid>
@@ -82,7 +83,7 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Manchester Area Historical Society.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19707">Manchester Area Historical Society.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/916">Bridgewater (Mich. : Township)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2286">Freedom (Mich. : Township)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1770">Manchester (Mich. : Township)</geogname>

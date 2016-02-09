@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/no2008182100">Comstock, William Alfred, 1877-1949.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/no2008182100" ref="/agents/people/27481">Comstock, William Alfred, 1877-1949.</persname>
       </origination>
       <unittitle encodinganalog="245">William A. Comstock Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1899/1949">1899-1949</unitdate></unittitle>
       <abstract>Alpena, Michigan, businessman, University of Michigan regent and Democratic governor of Michigan, 1933-1934; correspondence, diaries, business papers, and other items, concerning Democratic party affairs, state and national elections, real estate and financial transactions, and photographs.</abstract>
@@ -92,13 +93,13 @@
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1033">Alpena (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n83030499.html" ref="/subjects/1625">Alpena County (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008182100">Comstock, William Alfred, 1877-1949.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731">Democratic Party (Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008182100" ref="/agents/people/27481">Comstock, William Alfred, 1877-1949.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731" ref="/agents/corporate_entities/21108">Democratic Party (Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6227">Elections--Michigan--1928.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5954">Governors--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n84192953">Michigan. Civil Service Commission.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. Governor (1933-1934 : Comstock)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2011177139">Michigan. Liquor Control Commission.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n84192953" ref="/agents/corporate_entities/18964">Michigan. Civil Service Commission.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21080">Michigan. Governor (1933-1934 : Comstock)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2011177139" ref="/agents/corporate_entities/22389">Michigan. Liquor Control Commission.</corpname>
         <geogname source="local" encodinganalog="691" ref="/subjects/807">Michigan--Politics and government--1917-1921.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/808">Michigan--Politics and government--1922-1928.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/803">Michigan--Politics and government--1929-1938.</geogname>
@@ -110,19 +111,19 @@
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1627">United States--Politics and government--1921-1923.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/965">United States--Politics and government--1933-1945.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/966">United States--Politics and government--1929-1933.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998">University of Michigan. Board of Regents.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998" ref="/agents/corporate_entities/18212">University of Michigan. Board of Regents.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/261">Alpena (Mich.)--Brewing industry.</geogname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/262">Alpena (Mich.)--Business enterprises.</geogname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/263">Alpena (Mich.)--Lumber industry.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Beck Brewery (Alpena, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18891">Beck Brewery (Alpena, Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4030">Brewing industry--Michigan--Alpena.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4031">Business enterprises--Michigan--Alpena.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4032">Capitols--Michigan--Lansing.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008182100">Comstock, William Alfred, 1877-1949.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Comstock Brothers Lumber Mill.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008182100" ref="/agents/people/27481">Comstock, William Alfred, 1877-1949.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19217">Comstock Brothers Lumber Mill.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4033">Fishing.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5954">Governors--Michigan.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3740">Hospitals--Michigan.</subject>
@@ -132,18 +133,18 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4035">Street-railroads--Ohio.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4036">Street-railroads--Wisconsin.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3751">Universities and colleges--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Football.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Zeta Psi Fraternity. Xi Chapter (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Football.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18101">Zeta Psi Fraternity. Xi Chapter (University of Michigan)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Holsaple, R. N.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86025578">Jones, Jesse H. (Jesse Holman), 1874-1956.</persname>
-        <persname source="lcnaf" encodinganalog="700">Miller, Sidney Trowbridge, 1864-1940.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n89103733">New, Harry S. (Harry Stewart), 1858-1937.</persname>
-        <persname source="lcnaf" encodinganalog="700">Osborn, Chase S. (Chase Salmon), b. 1860.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79022932">Roosevelt, Franklin D. (Franklin Delano), 1882-1945.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50016436">Smith, Alfred Emanuel, 1873-1944.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31483">Holsaple, R. N.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86025578" ref="/agents/people/31060">Jones, Jesse H. (Jesse Holman), 1874-1956.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28519">Miller, Sidney Trowbridge, 1864-1940.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n89103733" ref="/agents/people/33005">New, Harry S. (Harry Stewart), 1858-1937.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29580">Osborn, Chase S. (Chase Salmon), b. 1860.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79022932" ref="/agents/people/33929">Roosevelt, Franklin D. (Franklin Delano), 1882-1945.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50016436" ref="/agents/people/34185">Smith, Alfred Emanuel, 1873-1944.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n83159503">Orlebeke, Charles J.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n83159503" ref="/agents/people/32864">Orlebeke, Charles J.</persname>
       </origination>
       <unittitle encodinganalog="245">Charles J. Orlebeke papers <unitdate type="inclusive" encodinganalog="245$f" normal="1962/1973">1962-1973</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">07136 Aa 2</unitid>
@@ -84,9 +85,9 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6550">Elections--Michigan--1966.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9640">Housing policy--United States.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/910">Michigan--Politics and government--1951-</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n83159503">Orlebeke, Charles J.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50048290">Romney, George W., 1907-1995.</persname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Dept. of Housing and Urban Development.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n83159503" ref="/agents/people/32864">Orlebeke, Charles J.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50048290" ref="/agents/people/31530">Romney, George W., 1907-1995.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22285">United States. Dept. of Housing and Urban Development.</corpname>
         <geogname source="local" encodinganalog="691" ref="/subjects/810">Michigan--Politics and government--1961-1970.</geogname>
       </controlaccess>
     </controlaccess>

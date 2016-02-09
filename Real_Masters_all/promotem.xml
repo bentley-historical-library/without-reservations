@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Promote Michigan Committee.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/20140">Promote Michigan Committee.</corpname>
       </origination>
       <unittitle encodinganalog="245">Promote Michigan Committee Records <unitdate type="inclusive" encodinganalog="245$f" normal="1983/1984">1983-1984</unitdate></unittitle>
       <abstract>Organization formed in opposition to the Voter's Choice Amendment, an amendment to the state constitution to roll back taxes to their 1980-1981 level. Scattered minutes, agendas, mailings, and collected material relating to the Committee's political activities.</abstract>
@@ -82,7 +83,7 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7222">Elections--Michigan--1984.</subject>
         <geogname source="local" encodinganalog="691" ref="/subjects/802">Michigan--Politics and government--1981-1990.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/910">Michigan--Politics and government--1951-</geogname>
-        <corpname source="lcnaf">Promote Michigan Committee.</corpname>
+        <corpname source="lcnaf" ref="/agents/corporate_entities/20140">Promote Michigan Committee.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6741">Social action--Michigan--Societies, etc.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6214">Taxation--Michigan.</subject>
       </controlaccess>

@@ -32,7 +32,8 @@
         <item>re-encoding after major revision from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -43,7 +44,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Department of Psychology.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/20839">University of Michigan. Department of Psychology.</corpname>
       </origination>
       <unittitle encodinganalog="245">Department of Psychology (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1903/1998">1903-1998</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1960/1990">1960-1990</unitdate></unittitle>
       <physdesc altrender="part">
@@ -146,17 +147,17 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9855">Graduate students.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no95038753">Pillsbury, W. B. (Walter Bowers), 1872-1960.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no95038753" ref="/agents/people/33131">Pillsbury, W. B. (Walter Bowers), 1872-1960.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8645">Psychology.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Psychology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19242">University of Michigan. Dept. of Psychology.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7843">Vietnamese Conflict, 1961-1975--Protest movements.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Homoeopathic Hospital.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21715">University of Michigan. Homoeopathic Hospital.</corpname>
         <genreform source="aat" encodinganalog="655" ref="/subjects/3137">Photographs.</genreform>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr92039697">Psychology Laboratory (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Psychology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr92039697" ref="/agents/corporate_entities/20812">Psychology Laboratory (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19242">University of Michigan. Dept. of Psychology.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
@@ -665,7 +666,10 @@
                   </daodesc>
                 </dao>
               </did>
-            <odd><p>(University of Michigan Psychology Graduate Office Requirements, Policies and Procedures Manual, 2005-2006.)</p></odd></c04>
+              <odd>
+                <p>(University of Michigan Psychology Graduate Office Requirements, Policies and Procedures Manual, 2005-2006.)</p>
+              </odd>
+            </c04>
           </c03>
           <c03 level="file">
             <did>

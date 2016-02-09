@@ -24,7 +24,8 @@
         <item>Re-encoding from Word 2003 file using Word macros and Xmetal. Original encoding in 1998.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Ellsworth, Mary.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/31629">Ellsworth, Mary.</persname>
       </origination>
       <unittitle encodinganalog="245">Mary Ellsworth papers <unitdate type="inclusive" encodinganalog="245$f" normal="1880/1983" certainty="approximate">circa 1880-1983</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">9412 Aa 2; UAm</unitid>
@@ -84,14 +85,14 @@
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7431">Teenage girls--Michigan--Diaries.</subject>
         <genreform source="aat" encodinganalog="655" ref="/subjects/3146">Diaries.</genreform>
-        <persname source="lcnaf" encodinganalog="600">Ellsworth, Mary.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31629">Ellsworth, Mary.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1752">Nankin Mills (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1204">Pontiac (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5920">Women--Suffrage--United States.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80085248">Ford Motor Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80085248" ref="/agents/corporate_entities/19767">Ford Motor Company.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4205">General stores--Michigan--Pikes Peak.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3786">Mills--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1752">Nankin Mills (Mich.)</geogname>

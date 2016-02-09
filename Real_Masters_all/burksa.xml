@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Burks, Arthur W. (Arthur Walter), 1915-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30106">Burks, Arthur W. (Arthur Walter), 1915-</persname>
       </origination>
       <unittitle encodinganalog="245">Arthur W. Burks papers <unitdate type="inclusive" encodinganalog="245$f" normal="1930/1986">1930-1986</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1950/1984">1950-1984</unitdate></unittitle>
       <abstract>Professor of philosophy and of computer and communication sciences at the University of Michigan; include papers, appointment books, and topical files relating to his professional interests; also photographs.</abstract>
@@ -83,17 +84,17 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85289341">Burks, Arthur W. (Arthur Walter), 1915-2008.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85289341" ref="/agents/people/35035">Burks, Arthur W. (Arthur Walter), 1915-2008.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6585">Computers.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Computer and Communication Sciences.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Philosophy.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19853">University of Michigan. Dept. of Computer and Communication Sciences.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18059">University of Michigan. Dept. of Philosophy.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85289341">Burks, Arthur W. (Arthur Walter), 1915-2008.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85289341" ref="/agents/people/35035">Burks, Arthur W. (Arthur Walter), 1915-2008.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3941">Computers.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

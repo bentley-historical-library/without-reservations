@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n85186040">Gilmore, Melvin R. (Melvin Randolph), 1868-1940.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n85186040" ref="/agents/people/28638">Gilmore, Melvin R. (Melvin Randolph), 1868-1940.</persname>
       </origination>
       <unittitle encodinganalog="245">Melvin R. Gilmore papers <unitdate type="inclusive" encodinganalog="245$f" normal="1905/1938">1905-1938</unitdate>, <unitdate type="inclusive" encodinganalog="245$f">undated</unitdate></unittitle>
       <abstract>Melvin Randolph Gilmore was one of the preeminent ethnobotanists of his generation and served as Curator of Ethnology for the Museum of Anthropology at the University of Michigan from 1929 to 1939. The Gilmore Papers contain correspondence, topical files, field notes, photographs, and manuscripts related to his work among Native American groups of the Plains and Prairies, including the Arikara and the Omaha.</abstract>
@@ -91,10 +92,10 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85186040">Gilmore, Melvin R. (Melvin Randolph), 1868-1940.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2007011798">University of Michigan. Ethnobotanical Laboratory.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79063899">University of Michigan. Museum of Anthropology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Museum of the American Indian, Heye Foundation.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85186040" ref="/agents/people/28638">Gilmore, Melvin R. (Melvin Randolph), 1868-1940.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2007011798" ref="/agents/corporate_entities/19055">University of Michigan. Ethnobotanical Laboratory.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79063899" ref="/agents/corporate_entities/20192">University of Michigan. Museum of Anthropology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20518">Museum of the American Indian, Heye Foundation.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6237">Anthropology.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7829">Ethnobotany.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8003">Arikara Indians.</subject>
@@ -106,9 +107,9 @@
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85186040">Gilmore, Melvin R. (Melvin Randolph), 1868-1940.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Museum of the American Indian, Heye Foundation.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. Francis Mission (Saint Francis, S.D.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85186040" ref="/agents/people/28638">Gilmore, Melvin R. (Melvin Randolph), 1868-1940.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20518">Museum of the American Indian, Heye Foundation.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22775">St. Francis Mission (Saint Francis, S.D.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4341">Anthropology.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4342">Ethnographic photographs.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7829">Ethnobotany.</subject>

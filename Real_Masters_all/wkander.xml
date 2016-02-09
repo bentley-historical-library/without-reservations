@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Anderson, William K., 1896-1967.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32672">Anderson, William K., 1896-1967.</persname>
       </origination>
       <unittitle encodinganalog="245">William K. Anderson Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1878/1967">1878-1967</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1936/1964">1936-1964</unitdate></unittitle>
       <abstract>Detroit, Michigan, businessman, founder of Detroit Power Squadron and officer with its parent body, the United States Power Squadrons. Series in the collection include United States Power Squadrons; Boating Organizations; Published and unpublished articles and speeches; World War II Activities; Personal and Miscellaneous; and Photographs.</abstract>
@@ -86,34 +87,34 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81131865">American Power Boat Association.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Anderson, William K. (William Knowlton), 1896-1967.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81131865" ref="/agents/corporate_entities/17785">American Power Boat Association.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34423">Anderson, William K. (William Knowlton), 1896-1967.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10799">Boats and boating--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1910">Detroit River (Mich. and Ont.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Detroit Yacht Club.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19569">Detroit Yacht Club.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1992">Great Lakes.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10800">Harbors of refuge--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79063892">United States. Naval Reserve.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79063891">United States. Naval Reserve. Women's Reserve.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79059051">United States. Navy.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n89658260">United States Power Squadrons.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79063892" ref="/agents/corporate_entities/19239">United States. Naval Reserve.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79063891" ref="/agents/corporate_entities/21579">United States. Naval Reserve. Women's Reserve.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79059051" ref="/agents/corporate_entities/19120">United States. Navy.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n89658260" ref="/agents/corporate_entities/18484">United States Power Squadrons.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10801">World War, 1939-1945--Naval operations.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10802">Yachting--Michigan.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Anderson, William K. (William Knowlton), 1896-1967.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34423">Anderson, William K. (William Knowlton), 1896-1967.</persname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85081925.html" ref="/subjects/2498">Fremont (Mich.)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5565">Interiors--Business enterprises.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1563">Lake County (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan--Naval militia.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17864">Michigan--Naval militia.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/3120">Michigan--Naval militia.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10803">Millstones.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2716">Thompsonville (Mich.)</geogname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Anderson, William Albert, 1840-1903.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33136">Anderson, William Albert, 1840-1903.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

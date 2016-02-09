@@ -35,7 +35,8 @@
         <item>Original encoding from Word 6.0 file in EAD vers. 1.0 using Word macros and hand tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Sundwall, John, 1880-1950.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28234">Sundwall, John, 1880-1950.</persname>
       </origination>
       <unittitle encodinganalog="245">John Sundwall Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1921/1944">1921-1944</unitdate></unittitle>
       <abstract>Public health physician and director of the Division of Hygiene, Public Health, and Physical Education at the University of Michigan, 1921-1941, papers include correspondence, administrative reports and studies, working files, minutes of meetings attended, manuscripts of writings, and photographs.</abstract>
@@ -99,17 +100,17 @@
         <extptr href="accnote" show="embed" actuate="onload"/>
       </p>
       <controlaccess>
-        <persname source="lcnaf" encodinganalog="600">Sundwall, John, 1880-1950.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50054148">Committee on the Costs of Medical Care.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Good Teeth Council for Children.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2003069746">Presidents' Committee of Fifty on College Hygiene.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50054148">Committee on the Costs of Medical Care.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79096730">United States. Public Health Service.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Division of the Health Sciences.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81098940">University of Michigan. Division of Hygiene and Public Health.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. University Health Service.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80020716">University of Michigan. School of Public Health.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28234">Sundwall, John, 1880-1950.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50054148" ref="/agents/corporate_entities/23045">Committee on the Costs of Medical Care.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19888">Good Teeth Council for Children.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2003069746" ref="/agents/corporate_entities/19262">Presidents' Committee of Fifty on College Hygiene.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50054148" ref="/agents/corporate_entities/23045">Committee on the Costs of Medical Care.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79096730" ref="/agents/corporate_entities/21011">United States. Public Health Service.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17882">University of Michigan. Division of the Health Sciences.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81098940" ref="/agents/corporate_entities/18002">University of Michigan. Division of Hygiene and Public Health.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21796">University of Michigan. University Health Service.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80020716" ref="/agents/corporate_entities/22180">University of Michigan. School of Public Health.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10301">Children--Health and hygiene--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10202">Health education.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6206">Hygiene.</subject>
@@ -119,9 +120,9 @@
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <famname source="lcnaf">Sundwall family.</famname>
-        <persname source="lcnaf">Sundwall, John, 1880-1950.</persname>
-        <persname source="lcnaf">Sundwall, Mary.</persname>
+        <famname source="lcnaf" ref="/agents/families/1408">Sundwall family.</famname>
+        <persname source="lcnaf" ref="/agents/people/28234">Sundwall, John, 1880-1950.</persname>
+        <persname source="lcnaf" ref="/agents/people/34749">Sundwall, Mary.</persname>
         <geogname source="lcsh" ref="/subjects/919">Germany.</geogname>
         <geogname source="lcsh" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html" ref="/subjects/860">Ann Arbor (Mich.)</geogname>
       </controlaccess>

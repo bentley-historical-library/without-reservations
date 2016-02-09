@@ -36,7 +36,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -47,7 +48,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Upatnieks, Juris.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/35411">Upatnieks, Juris.</persname>
       </origination>
       <unittitle encodinganalog="245">Juris Upatnieks papers <unitdate type="inclusive" encodinganalog="245$f" normal="1963/1994">1963-1994</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1965/1979">1965-1979</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2013062 Aa 2; UAl</unitid>
@@ -105,19 +106,19 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Upatnieks, Juris.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35411">Upatnieks, Juris.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10513">Holography--Research.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10514">Laboratories--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10515">Research--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79067113">Environmental Research Institute of Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n84212124">University of Michigan. Department of Electrical Engineering and Computer Science.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Institute of Science and Technology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Willow Run Laboratories.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79067113" ref="/agents/corporate_entities/20073">Environmental Research Institute of Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n84212124" ref="/agents/corporate_entities/17859">University of Michigan. Department of Electrical Engineering and Computer Science.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17728">University of Michigan. Institute of Science and Technology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20482">Willow Run Laboratories.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no98092827">Leith, Emmett N.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no98092827" ref="/agents/people/34796">Leith, Emmett N.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
@@ -1119,7 +1120,10 @@
               </daodesc>
             </dao>
           </did>
-        <odd><p>(Digitized version of Juris Upatniek's laboratory notebook from January 16, 1963 to November 17, 1965.  Records variables, procedures, and results of experiments related to hologram construction, photography, microscopy, and optics among related topics.  Includes Upnatnieks's analyses of results, equations, hand drawings of optical set ups and photographic examples of holograms.)</p></odd></c02>
+          <odd>
+            <p>(Digitized version of Juris Upatniek's laboratory notebook from January 16, 1963 to November 17, 1965.  Records variables, procedures, and results of experiments related to hologram construction, photography, microscopy, and optics among related topics.  Includes Upnatnieks's analyses of results, equations, hand drawings of optical set ups and photographic examples of holograms.)</p>
+          </odd>
+        </c02>
         <c02 level="file">
           <did>
             <physloc>Online</physloc>
@@ -1135,7 +1139,10 @@
               </daodesc>
             </dao>
           </did>
-        <odd><p>(Digitized version of Juris Upatniek's laboratory notebook from December 1965 to July 2, 1968.  Records variables, procedures, and results of experiments related to hologram construction, photography, microscopy, and optics among related topics.  Includes Upnatnieks's analyses of results, equations, hand drawings of optical set ups and photographic examples of holograms.)</p></odd></c02>
+          <odd>
+            <p>(Digitized version of Juris Upatniek's laboratory notebook from December 1965 to July 2, 1968.  Records variables, procedures, and results of experiments related to hologram construction, photography, microscopy, and optics among related topics.  Includes Upnatnieks's analyses of results, equations, hand drawings of optical set ups and photographic examples of holograms.)</p>
+          </odd>
+        </c02>
         <c02 level="file">
           <did>
             <physloc>Online</physloc>
@@ -1151,7 +1158,10 @@
               </daodesc>
             </dao>
           </did>
-        <odd><p>(Digitized version of Juris Upatniek's laboratory notebook from July 3, 1968 to December 2, 1982.  Records variables, procedures, and results of experiments related to hologram construction, photography, microscopy, and optics among related topics.  Includes Upnatnieks's analyses of results, equations, hand drawings of optical set ups and photographic examples of holograms.)</p></odd></c02>
+          <odd>
+            <p>(Digitized version of Juris Upatniek's laboratory notebook from July 3, 1968 to December 2, 1982.  Records variables, procedures, and results of experiments related to hologram construction, photography, microscopy, and optics among related topics.  Includes Upnatnieks's analyses of results, equations, hand drawings of optical set ups and photographic examples of holograms.)</p>
+          </odd>
+        </c02>
       </c01>
     </dsc>
     <descgrp type="add">

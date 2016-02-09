@@ -31,7 +31,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Women's Athletic Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/21996">University of Michigan. Women's Athletic Association.</corpname>
       </origination>
       <unittitle encodinganalog="245">Michigan Women's Athletic Association of the University of Michigan records, <unitdate type="inclusive" encodinganalog="245$f" normal="1979/2009">1979-2009</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">0585 Bimu 2</unitid>
@@ -83,9 +84,9 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Women's Athletic Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21996">University of Michigan. Women's Athletic Association.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5999">Sports for women--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Women's Athletics.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20513">University of Michigan. Women's Athletics.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

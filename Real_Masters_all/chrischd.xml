@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Christ Church (Detroit, Mich. : United Church of Christ)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/18553">Christ Church (Detroit, Mich. : United Church of Christ)</corpname>
       </origination>
       <unittitle encodinganalog="245">Christ Church (Detroit, Mich. : United Church of Christ) records <unitdate type="inclusive" encodinganalog="245$f" normal="1886/1966">1886-1966</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">9790 Ba 2</unitid>
@@ -78,8 +79,8 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Christ Church (Detroit, Mich. : United Church of Christ)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United Church of Christ--Michigan--Detroit.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18553">Christ Church (Detroit, Mich. : United Church of Christ)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22456">United Church of Christ--Michigan--Detroit.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/952">Detroit (Mich.)--Church history.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6821">German Americans--Michigan--Detroit.</subject>
       </controlaccess>

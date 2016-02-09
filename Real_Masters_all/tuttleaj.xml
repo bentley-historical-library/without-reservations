@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/no2009002479">Tuttle, Arthur J., 1868-1944.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/no2009002479" ref="/agents/people/30733">Tuttle, Arthur J., 1868-1944.</persname>
       </origination>
       <unittitle encodinganalog="245">Arthur J. Tuttle Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1849/1958">1849-1958</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1888/1944">1888-1944</unitdate></unittitle>
       <abstract>U.S. District Court Judge, Eastern District of Michigan; Federal trial court case files, personal and professional correspondence, scrapbooks, University of Michigan student notebooks, and other materials concerning legal activities, Republican Party politics, prohibition, the election of 1924, Sigma Alpha Epsilon affairs; also family materials, including grandfather, John J. Tuttle, Leslie, Michigan, Ingham County official and businessman; and photographs.</abstract>
@@ -116,10 +117,10 @@
         <geogname source="local" encodinganalog="691" ref="/subjects/803">Michigan--Politics and government--1929-1938.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/812">Michigan--Politics and government--1939-1945.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6524">Prohibition--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82005826">Sigma Alpha Epsilon.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2009002479">Tuttle, Arthur J., 1868-1944.</persname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Student notebooks.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21402">Republican Party (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82005826" ref="/agents/corporate_entities/21025">Sigma Alpha Epsilon.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2009002479" ref="/agents/people/30733">Tuttle, Arthur J., 1868-1944.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Student notebooks.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
@@ -147,32 +148,32 @@
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/693">Leslie (Mich.)--Banks.</geogname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/694">Leslie (Mich.)--Tornadoes--1916.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1152">Lyons (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79059059">Michigan. Legislature.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79059059" ref="/agents/corporate_entities/22038">Michigan. Legislature.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3813">Monuments and memorials.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3760">Offices.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4661">Orchards.</subject>
-        <corpname source="lcnaf" encodinganalog="610">People's Bank of Leslie.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17578">People's Bank of Leslie.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4335">Photographers.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2982">Pleasant Lake (Jackson County, Mich.)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5406">Political elections--1896.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3648">Rites and ceremonies.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3757">Rural schools.</subject>
-        <famname source="lcnaf" encodinganalog="600">Stuart family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1572">Stuart family.</famname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3679">Swimming.</subject>
         <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3456">Tintypes.</genreform>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5407">Tornadoes--Michigan--Leslie--1916.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2009002479">Tuttle, Arthur J., 1868-1944.</persname>
-        <persname source="lcnaf" encodinganalog="600">Tuttle, John J., b. 1812.</persname>
-        <persname source="lcnaf" encodinganalog="600">Tuttle, Ogden Valorous, 1842-1916.</persname>
-        <famname source="lcnaf" encodinganalog="600">Tuttle family.</famname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2009002479" ref="/agents/people/30733">Tuttle, Arthur J., 1868-1944.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30567">Tuttle, John J., b. 1812.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35588">Tuttle, Ogden Valorous, 1842-1916.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1556">Tuttle family.</famname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4870">Uniforms.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Class of 1892.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19374">University of Michigan. Class of 1892.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3569">Women.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5094">Women--Work.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Tuttle, John J., b. 1812.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30567">Tuttle, John J., b. 1812.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

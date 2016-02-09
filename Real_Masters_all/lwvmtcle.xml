@@ -31,7 +31,8 @@
         <item>Originally encoded from a Word 6.0 file in EAD vers. 1.0 using Word macros and hand tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="100">League of Women Voters of Mount Clemens-Clinton Area.</corpname>
+        <corpname source="lcnaf" encodinganalog="100" ref="/agents/corporate_entities/20229">League of Women Voters of Mount Clemens-Clinton Area.</corpname>
       </origination>
       <unittitle encodinganalog="245">League of Women Voters of Mount Clemens-Clinton Area Records <unitdate type="inclusive" encodinganalog="245$f" normal="1932/1989">1932-1989</unitdate></unittitle>
       <abstract>Women's civic and voter education organization in Mt. Clemens, Michigan; includes administrative records, topical files and visual materials.</abstract>
@@ -88,8 +89,8 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">League of Women Voters of Mount Clemens-Clinton Area.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">League of Women Voters of Mount Clemens.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20229">League of Women Voters of Mount Clemens-Clinton Area.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19515">League of Women Voters of Mount Clemens.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2280">Mount Clemens (Mich.)--Politics and government.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2281">Clinton (Macomb County, Mich. : Township)--Politics and government.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6883">Women--Michigan--Mount Clemens--Societies and clubs.</subject>
@@ -102,8 +103,8 @@
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <corpname source="lcnaf" encodinganalog="610">League of Women Voters of Mount Clemens-Clinton Area.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">League of Women Voters of Mount Clemens.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20229">League of Women Voters of Mount Clemens-Clinton Area.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19515">League of Women Voters of Mount Clemens.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4680">Exhibitions--Michigan--Mount Clemens.</subject>
       </controlaccess>
       <controlaccess>

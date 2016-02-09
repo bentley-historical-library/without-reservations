@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">English, Albert D., 1862-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28915">English, Albert D., 1862-</persname>
       </origination>
       <unittitle encodinganalog="245">Albert D. English papers <unitdate type="inclusive" encodinganalog="245$f" normal="1839/1957">1839-1957</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85850 Aa 2</unitid>
@@ -79,13 +80,13 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6675">Agriculture--Michigan--Washtenaw County.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731">Democratic Party (Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Free Will Baptists (1780?-1911)--Michigan--Manchester.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731" ref="/agents/corporate_entities/21108">Democratic Party (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17604">Free Will Baptists (1780?-1911)--Michigan--Manchester.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7448">Freedmen--West Virginia.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85149703.html" ref="/subjects/1154">Manchester (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1770">Manchester (Mich. : Township)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7449">Roads--Michigan--Manchester (Township)</subject>
-        <corpname source="lcnaf" encodinganalog="610">Southern Washtenaw Farmers' Club.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17830">Southern Washtenaw Farmers' Club.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/847">Washtenaw County (Mich.)</geogname>
       </controlaccess>
       <controlaccess>

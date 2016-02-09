@@ -50,7 +50,8 @@
         <item>headings removed and other changes made to conform to new style, GK</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -61,7 +62,7 @@
   <archdesc level="recordgrp" relatedencoding="MARC21" type="inventory">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Science Research Club (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/19901">Science Research Club (University of Michigan)</corpname>
       </origination>
       <unittitle encodinganalog="245">Science Research Club (University of Michigan) Records <unitdate encodinganalog="245$f" type="inclusive" normal="1902/2004">1902-2004</unitdate>, <unitdate encodinganalog="245$g" type="bulk" normal="1940/1988">1940-1988</unitdate></unittitle>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">87318 Bimu M1 2</unitid>
@@ -104,10 +105,10 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Junior Research Club (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19351">Junior Research Club (University of Michigan)</corpname>
         <subject source="lcsh" encodinganalog="610" ref="/subjects/6491">University of Michigan--Faculty.</subject>
         <subject source="lcsh" encodinganalog="610" ref="/subjects/10040">University of Michigan--Research.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Science Research Club (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19901">Science Research Club (University of Michigan)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5764">Women--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10041">Women in science--Michigan--Ann Arbor.</subject>
       </controlaccess>

@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Liddicoat, Richard T. (Richard Thomas), b. 1891.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33529">Liddicoat, Richard T. (Richard Thomas), b. 1891.</persname>
       </origination>
       <unittitle encodinganalog="245">Richard T. Liddicoat Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1890/1960">1890-1960</unitdate></unittitle>
       <abstract>University of Michigan professor of engineering mechanics; papers include biographical information, writings, visual materials, and World War II letters of his two sons.</abstract>
@@ -87,22 +88,22 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Liddicoat, Richard T. (Richard Thomas), b. 1891.</persname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Engineering Mechanics.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33529">Liddicoat, Richard T. (Richard Thomas), b. 1891.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18709">University of Michigan. Dept. of Engineering Mechanics.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7444">World War, 1939-1945--Personal narratives, American.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80094504">University of Michigan. College of Engineering.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80094504" ref="/agents/corporate_entities/17661">University of Michigan. College of Engineering.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Liddicoat, Richard T. (Richard Thomas), b. 1891.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33529">Liddicoat, Richard T. (Richard Thomas), b. 1891.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3543">Classrooms--Michigan--Ann Arbor.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4650">Helicopters--American.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4040">Teachers--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87944966">Liddicoat, Richard T. (Richard Thomas), 1918-2002</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87944966" ref="/agents/people/35946">Liddicoat, Richard T. (Richard Thomas), 1918-2002</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

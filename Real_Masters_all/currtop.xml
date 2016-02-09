@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Current Topic Club (Owosso, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/22938">Current Topic Club (Owosso, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">Current Topic Club (Owosso, Mich.) Records <unitdate type="inclusive" encodinganalog="245$f" normal="1894/1998">1894-1998</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">90126 Bk 2</unitid>
@@ -92,7 +93,7 @@
       <controlaccess>
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85081790.html" ref="/subjects/1190">Owosso (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79125870">Wallenberg, Raoul, 1912-1947.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79125870" ref="/agents/people/27534">Wallenberg, Raoul, 1912-1947.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7112">Women--Michigan--Owosso--Societies and clubs.</subject>
       </controlaccess>
     </controlaccess>

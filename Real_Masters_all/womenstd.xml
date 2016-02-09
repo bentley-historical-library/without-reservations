@@ -31,7 +31,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Department of Women’s Studies.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/18032">University of Michigan. Department of Women’s Studies.</corpname>
       </origination>
       <unittitle encodinganalog="245">Department of Women’s Studies (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1972/2006">1972-2006</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1972/1999">1972-1999</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">91431 Bimu C26 2</unitid>
@@ -99,8 +100,8 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Department of Women’s Studies.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80005476">University of Michigan. Women's Studies Program.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18032">University of Michigan. Department of Women’s Studies.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80005476" ref="/agents/corporate_entities/20558">University of Michigan. Women's Studies Program.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5764">Women--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10818">Women's studies--Michigan--Ann Arbor.</subject>
       </controlaccess>

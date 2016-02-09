@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">National Organization for Women. Michigan Conference.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/21909">National Organization for Women. Michigan Conference.</corpname>
       </origination>
       <unittitle encodinganalog="245">National Organization for Women, Michigan Conference Records <unitdate type="inclusive" encodinganalog="245$f" normal="1969/1996">1969-1996</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">85326 Bj 2</unitid>
@@ -97,9 +98,9 @@
         <geogname source="local" encodinganalog="691" ref="/subjects/802">Michigan--Politics and government--1981-1990.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/816">Michigan--Politics and government--1991-2000.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/910">Michigan--Politics and government--1951-</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n89622922">Michigan Project on Equal Education Rights.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">National Organization for Women. Michigan Conference.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">National Organization for Women. Macomb County (Mich.) Chapter.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n89622922" ref="/agents/corporate_entities/21389">Michigan Project on Equal Education Rights.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21909">National Organization for Women. Michigan Conference.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20945">National Organization for Women. Macomb County (Mich.) Chapter.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9589">Political action committees--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8125">Social reformers--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/912">United States--Politics and government--1969-1974.</geogname>
@@ -108,7 +109,7 @@
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1264">United States--Politics and government--1977-1981.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8956">Women social reformers--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6674">Women--Michigan--Societies and clubs.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr91014364">Michigan Women's Assembly.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr91014364" ref="/agents/corporate_entities/21747">Michigan Women's Assembly.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6248">Women's rights--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5760">Women in politics--Michigan.</subject>
       </controlaccess>
@@ -121,8 +122,8 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5029">Feminism.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3942">Feminists.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2437">Kennedy Square (Detroit, Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50063455">National Organization for Women.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">National Organization for Women. Michigan Conference.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50063455" ref="/agents/corporate_entities/22552">National Organization for Women.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21909">National Organization for Women. Michigan Conference.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5030">Slogans.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3569">Women.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3581">Women--Organizations.</subject>
@@ -130,14 +131,14 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Drinan, Rhonda.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n83162430">Duley, Margot I.</persname>
-        <persname source="lcnaf" encodinganalog="700">Frost-Welmers, Nan.</persname>
-        <persname source="lcnaf" encodinganalog="700">Harris, Virginia.</persname>
-        <persname source="lcnaf" encodinganalog="700">Hierholzer, Lynn.</persname>
-        <persname source="lcnaf" encodinganalog="700">Little, Doris.</persname>
-        <persname source="lcnaf" encodinganalog="700">Perez-Banuet, Alicia.</persname>
-        <persname source="lcnaf" encodinganalog="700">Woods, Gloria.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32779">Drinan, Rhonda.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n83162430" ref="/agents/people/32417">Duley, Margot I.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33367">Frost-Welmers, Nan.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32858">Harris, Virginia.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31095">Hierholzer, Lynn.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33117">Little, Doris.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35725">Perez-Banuet, Alicia.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28239">Woods, Gloria.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

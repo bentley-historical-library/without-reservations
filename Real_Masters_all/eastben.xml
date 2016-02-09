@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">East, Ben.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30211">East, Ben.</persname>
       </origination>
       <unittitle encodinganalog="245">Ben East papers <unitdate type="inclusive" encodinganalog="245$f" normal="1935/1980">1935-1980</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">0744 Aa 2</unitid>
@@ -85,7 +86,7 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">East, Ben.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30211">East, Ben.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6215">Conservation of natural resources--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7393">Fishing--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7394">Hunting--Michigan.</subject>
@@ -95,7 +96,7 @@
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600">East, Ben.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30211">East, Ben.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4189">Recreational fishing.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4190">Hunting.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4191">State parks &amp; reserves--Michigan.</subject>

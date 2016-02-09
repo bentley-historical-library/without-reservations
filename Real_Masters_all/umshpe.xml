@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Society of Hispanic Professional Engineers.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/22534">University of Michigan. Society of Hispanic Professional Engineers.</corpname>
       </origination>
       <unittitle encodinganalog="245">Society of Hispanic Professional Engineers (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1990/1999">1990-1999</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1995/1997">1995-1997</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2011144 Bimu 2</unitid>
@@ -87,8 +88,8 @@
         <head>Subjects:</head>
         <subject encodinganalog="650" source="lcsh" ref="/subjects/5863">Minority college students--Michigan--Ann Arbor.</subject>
         <subject encodinganalog="650" source="lcsh" ref="/subjects/10146">Students--Societies, etc.</subject>
-        <corpname encodinganalog="610" source="lcnaf">Society of Minority Engineers (University of Michigan)</corpname>
-        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n80094504">University of Michigan. College of Engineering.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/19142">Society of Minority Engineers (University of Michigan)</corpname>
+        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n80094504" ref="/agents/corporate_entities/17661">University of Michigan. College of Engineering.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

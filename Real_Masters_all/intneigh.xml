@@ -27,7 +27,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">International Neighbors.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/22542">International Neighbors.</corpname>
       </origination>
       <unittitle encodinganalog="245">International Neighbors records <unitdate type="inclusive" encodinganalog="245$f" normal="1958/2013">1958-2013</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">85229 Bk 2</unitid>
@@ -82,7 +83,7 @@
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html" ref="/subjects/860">Ann Arbor (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8436">International cooperation.</subject>
-        <corpname source="lcnaf" encodinganalog="610">International Neighbors.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22542">International Neighbors.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5697">Women--Michigan--Ann Arbor--Societies and clubs.</subject>
       </controlaccess>
       <controlaccess>
@@ -90,10 +91,10 @@
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/346">Ann Arbor (Mich.)--Chapels.</geogname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/347">Ann Arbor (Mich.)--Parks.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4511">Chapels--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Concordia College (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18082">Concordia College (Ann Arbor, Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3677">Ice hockey.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3890">Ice skating.</subject>
-        <corpname source="lcnaf" encodinganalog="610">International Neighbors.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22542">International Neighbors.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4080">Parks--Michigan--Ann Arbor.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3892">Winter.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3569">Women.</subject>
@@ -101,8 +102,8 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Dunham, Esther.</persname>
-        <persname source="lcnaf" encodinganalog="700">Mead, Kathleen.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29294">Dunham, Esther.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33143">Mead, Kathleen.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

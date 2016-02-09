@@ -27,7 +27,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n83196231">Hubbard, Bela, 1814-1896.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n83196231" ref="/agents/people/32471">Hubbard, Bela, 1814-1896.</persname>
       </origination>
       <unittitle encodinganalog="245">Bela Hubbard papers <unitdate type="inclusive" encodinganalog="245$f" normal="1837/1893">1837-1893</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">851637 Ac Aa 2</unitid>
@@ -102,7 +103,7 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">American Fur Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22388">American Fur Company.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1573">Barry County (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1574">Berrien County (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091924.html" ref="/subjects/1383">Branch County (Mich.)</geogname>
@@ -110,19 +111,19 @@
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1386">Cass County (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2100">Cliff Mine (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2090">Clinton County (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Detroit Young Men's Society.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Douglas, Columbus C., 1812-1874.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18244">Detroit Young Men's Society.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28003">Douglas, Columbus C., 1812-1874.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8356">Fishes--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7393">Fishing--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8340">Geology--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr92027018">Higgins, Sylvester W.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr92027018" ref="/agents/people/35507">Higgins, Sylvester W.</persname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80060427.html" ref="/subjects/1931">Hillsdale County (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr92024162">Houghton, Douglass, 1809-1845.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n83196231">Hubbard, Bela, 1814-1896.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr92024162" ref="/agents/people/35759">Houghton, Douglass, 1809-1845.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n83196231" ref="/agents/people/32471">Hubbard, Bela, 1814-1896.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1947">Huron, Lake (Mich. and Ont.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6097">Indians of North America--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091943.html" ref="/subjects/2092">Ionia County (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600">Ives, William.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/27874">Ives, William.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1366">Kent County (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1641">Keweenaw Peninsula (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7064">Land use--Michigan.</subject>
@@ -434,81 +435,9 @@
         </c02>
       </c01>
     </dsc>
-    <descgrp type="add">
-      <odd>
-        <head>Partial Notes on Contents of Notebooks</head>
-        <p>[Compiled by the initial cataloger of the collection in 1958, specifies where many of the topics indexed in the card catalog for this collection can be found in the series of notebooks]</p>
-        <chronlist>
-          <chronitem>
-            <date>June 22, 1838</date>
-            <event>Description of council held by Henry R. Schoolcraft with Chippewa on Mackinac Island</event>
-          </chronitem>
-          <chronitem>
-            <date>1840s</date>
-            <event>Include descriptions of fishing at Sault Ste. Marie and other places</event>
-          </chronitem>
-          <chronitem>
-            <date>May 1840</date>
-            <event>Description of Sault Ste. Marie</event>
-          </chronitem>
-          <chronitem>
-            <date>July 1840</date>
-            <event>Description of the Chippewa of the Upper Peninsula</event>
-          </chronitem>
-          <chronitem>
-            <date>July 1840</date>
-            <event>Detailed description of copper veins near Copper Harbor</event>
-          </chronitem>
-          <chronitem>
-            <date>July 1840</date>
-            <event>Description of American Fur Co. post at La Pointe</event>
-          </chronitem>
-          <chronitem>
-            <date>July 1841</date>
-            <event>Description of Gypsum deposits near Ottawa Bay</event>
-          </chronitem>
-          <chronitem>
-            <date>July 1841</date>
-            <event>Account of a visit to the Saginaw salt well</event>
-          </chronitem>
-          <chronitem>
-            <date>1842-1845</date>
-            <event>Include information on land sales</event>
-          </chronitem>
-          <chronitem>
-            <date>Sept. 1845</date>
-            <event>Detailed description of copper veins near Copper Harbor</event>
-          </chronitem>
-          <chronitem>
-            <date>Oct. 16, 1845</date>
-            <event>Description of death of Douglass Houghton</event>
-          </chronitem>
-          <chronitem>
-            <date>1846</date>
-            <event>Include information on the mines of the Keweenaw Peninsula</event>
-          </chronitem>
-          <chronitem>
-            <date>1846</date>
-            <event>Description of iron mines</event>
-          </chronitem>
-          <chronitem>
-            <date>July 1846</date>
-            <event>Account of Cliff Mine operations</event>
-          </chronitem>
-          <chronitem>
-            <date>Aug. 1846</date>
-            <event>Include information on the Porcupine Mountains</event>
-          </chronitem>
-          <chronitem>
-            <date>1847</date>
-            <event>Include information on land sales</event>
-          </chronitem>
-          <chronitem>
-            <date>1850</date>
-            <event>Include information on land sales</event>
-          </chronitem>
-        </chronlist>
-      </odd>
+    <descgrp type="add"><odd>
+      <head>Partial Notes on Contents of Notebooks</head>
+      <p>[Compiled by the initial cataloger of the collection in 1958, specifies where many of the topics indexed in the card catalog for this collection can be found in the series of notebooks]</p> <chronlist><chronitem><date>June 22, 1838</date> <event>Description of council held by Henry R. Schoolcraft with Chippewa on Mackinac Island</event></chronitem> <chronitem><date>1840s</date> <event>Include descriptions of fishing at Sault Ste. Marie and other places</event></chronitem> <chronitem><date>May 1840</date> <event>Description of Sault Ste. Marie</event></chronitem> <chronitem><date>July 1840</date> <event>Description of the Chippewa of the Upper Peninsula</event></chronitem> <chronitem><date>July 1840</date> <event>Detailed description of copper veins near Copper Harbor</event></chronitem> <chronitem><date>July 1840</date> <event>Description of American Fur Co. post at La Pointe</event></chronitem> <chronitem><date>July 1841</date> <event>Description of Gypsum deposits near Ottawa Bay</event></chronitem> <chronitem><date>July 1841</date> <event>Account of a visit to the Saginaw salt well</event></chronitem> <chronitem><date>1842-1845</date> <event>Include information on land sales</event></chronitem> <chronitem><date>Sept. 1845</date> <event>Detailed description of copper veins near Copper Harbor</event></chronitem> <chronitem><date>Oct. 16, 1845</date> <event>Description of death of Douglass Houghton</event></chronitem> <chronitem><date>1846</date> <event>Include information on the mines of the Keweenaw Peninsula</event></chronitem> <chronitem><date>1846</date> <event>Description of iron mines</event></chronitem> <chronitem><date>July 1846</date> <event>Account of Cliff Mine operations</event></chronitem> <chronitem><date>Aug. 1846</date> <event>Include information on the Porcupine Mountains</event></chronitem> <chronitem><date>1847</date> <event>Include information on land sales</event></chronitem> <chronitem><date>1850</date> <event>Include information on land sales</event></chronitem></chronlist></odd>
       <list type="simple">
         <head>Maps in the Collection</head>
         <item>
@@ -708,19 +637,29 @@
           </archref>
         </item>
         <item>
-          <archref><unittitle>Draft of southern coast of Lake Superior. 1840.</unittitle> <physdesc><dimensions>23 p.; 16x10 cm.</dimensions></physdesc> <note><p>(<geogname>Chippewa, Luce, Alger, Marquette, Baraga, Houghton, Keweenaw, Ontonagon, Gogebic Counties, and Wisconsin</geogname>)</p></note> <note><p>(In Vol. 2)</p></note> 2</archref>
+          <archref><unittitle>Draft of southern coast of Lake Superior. 1840.</unittitle> <physdesc><dimensions>23 p.; 16x10 cm.</dimensions></physdesc> <note>
+          <p>(<geogname>Chippewa, Luce, Alger, Marquette, Baraga, Houghton, Keweenaw, Ontonagon, Gogebic Counties, and Wisconsin</geogname>)</p></note> <note>
+          <p>(In Vol. 2)</p></note> 2</archref>
         </item>
         <item>
-          <archref><unittitle>Plan of old Ft. St. Joseph. 1840.</unittitle> <physdesc><dimensions>10x17 cm.</dimensions></physdesc> <note><p>(<geogname>Ontario</geogname>)</p></note> <note><p>(In Vol. 2)</p></note> 1</archref>
+          <archref><unittitle>Plan of old Ft. St. Joseph. 1840.</unittitle> <physdesc><dimensions>10x17 cm.</dimensions></physdesc> <note>
+          <p>(<geogname>Ontario</geogname>)</p></note> <note>
+          <p>(In Vol. 2)</p></note> 1</archref>
         </item>
         <item>
-          <archref><unittitle>View of the rock succession from Chocolate R. to the appearance of granite W. of Presque Isle. 1840.</unittitle> <physdesc><dimensions>1 map in 2 parts, 9x17 and 20x10 cm.</dimensions></physdesc> <note><p>(<geogname>Marquette County</geogname>)</p></note> <note><p>(In Vol. 2)</p></note> 1</archref>
+          <archref><unittitle>View of the rock succession from Chocolate R. to the appearance of granite W. of Presque Isle. 1840.</unittitle> <physdesc><dimensions>1 map in 2 parts, 9x17 and 20x10 cm.</dimensions></physdesc> <note>
+          <p>(<geogname>Marquette County</geogname>)</p></note> <note>
+          <p>(In Vol. 2)</p></note> 1</archref>
         </item>
         <item>
-          <archref><unittitle>Map of the country adjoining R. au Gres. 1840.</unittitle> <physdesc><dimensions>17x10 cm.</dimensions></physdesc> <note><p>(<geogname>Keweenaw County</geogname>)</p></note> <note><p>(In Vol. 2)</p></note> 1</archref>
+          <archref><unittitle>Map of the country adjoining R. au Gres. 1840.</unittitle> <physdesc><dimensions>17x10 cm.</dimensions></physdesc> <note>
+          <p>(<geogname>Keweenaw County</geogname>)</p></note> <note>
+          <p>(In Vol. 2)</p></note> 1</archref>
         </item>
         <item>
-          <archref><unittitle>[Lake Superior coast from Bete Grise Bay to La Pointe, Wisconsin]. 1840.</unittitle> <physdesc><dimensions>1 map in 14 sections on 13 p., each 17x10 cm.</dimensions></physdesc> <note><p>(<geogname>Keweenaw, Houghton, Ontonagon, Gogebic Counties, and Wisconsin</geogname>)</p></note> <note><p>(In Vol. 2)</p></note> 1</archref>
+          <archref><unittitle>[Lake Superior coast from Bete Grise Bay to La Pointe, Wisconsin]. 1840.</unittitle> <physdesc><dimensions>1 map in 14 sections on 13 p., each 17x10 cm.</dimensions></physdesc> <note>
+          <p>(<geogname>Keweenaw, Houghton, Ontonagon, Gogebic Counties, and Wisconsin</geogname>)</p></note> <note>
+          <p>(In Vol. 2)</p></note> 1</archref>
         </item>
         <item>
           <archref>

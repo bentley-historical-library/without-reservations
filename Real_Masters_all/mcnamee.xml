@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">McNamee, Ruth Braden, 1921-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/31675">McNamee, Ruth Braden, 1921-</persname>
       </origination>
       <unittitle encodinganalog="245">Ruth Braden McNamee Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1964/1984">1964-1984</unitdate></unittitle>
       <abstract>Mayor of Birmingham, Michigan, 1970-1971, and Republican member of the Michigan House of Representatives, 1974-1984. Biographical material, speeches and articles, subject files relating to her public service activities, and photographs.</abstract>
@@ -83,8 +84,8 @@
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2318">Birmingham (Mich.)--Politics and government.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8710">Discrimination in housing--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="600">McNamee, Ruth Braden, 1921-</persname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. Legislature. House of Representatives.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31675">McNamee, Ruth Braden, 1921-</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21647">Michigan. Legislature. House of Representatives.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6247">Women legislators--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9030">Women mayors--Michigan--Birmingham.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9031">Mayors--Michigan--Birmingham.</subject>
@@ -92,9 +93,9 @@
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">McNamee, Ruth Braden, 1921-</persname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. Legislature. House of Representatives.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80010387">Milliken, William G., 1922-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31675">McNamee, Ruth Braden, 1921-</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21647">Michigan. Legislature. House of Representatives.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80010387" ref="/agents/people/28573">Milliken, William G., 1922-</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

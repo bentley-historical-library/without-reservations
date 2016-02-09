@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Callow, Laura Callow, 1927-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/35214">Callow, Laura Callow, 1927-</persname>
       </origination>
       <unittitle encodinganalog="245">Laura Callow Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1975/2013">1975-2013</unitdate></unittitle>
       <abstract>Feminist, active in various women's rights organizations; biographical information files relating to involvement with ERAmerica or W.O.M.E.N. (Women Organized to Meet Existing Needs)</abstract>
@@ -89,15 +90,15 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Callow, Laura Carter, 1927-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35522">Callow, Laura Carter, 1927-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6666">Equal Rights Amendments--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6248">Women's rights--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">ERAmerica (Organization)--Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Women Organized to Meet Existing Needs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21005">ERAmerica (Organization)--Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/23087">Women Organized to Meet Existing Needs.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Callow, Laura Carter, 1927-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35522">Callow, Laura Carter, 1927-</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

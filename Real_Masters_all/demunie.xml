@@ -35,7 +35,8 @@
         <item>Original encoding from Word 6.0 file</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc level="collection" type="inventory" audience="external" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">DeMeunier, Leon.</persname>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/31889">DeMeunier, Leon.</persname>
       </origination>
       <unittitle encodinganalog="245">Leon DeMeunier papers <unitdate type="inclusive" encodinganalog="245$f" normal="1960/1964">1960-1964</unitdate>, <unitdate type="inclusive" encodinganalog="245$f" normal="1971">1971</unitdate></unittitle>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">851131 Aa 2</unitid>
@@ -86,13 +87,13 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">DeMeunier, Leon.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31889">DeMeunier, Leon.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7223">Afro-American civil rights workers--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6867">Civil rights--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7224">Civil rights movements--Michigan--Detroit.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7225">Discrimination in employment--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80080481">Congress of Racial Equality.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Congress of Racial Equality. Detroit (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80080481" ref="/agents/corporate_entities/18329">Congress of Racial Equality.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22690">Congress of Racial Equality. Detroit (Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1691">Detroit (Mich.)--Race relations.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1664">Southern states.</geogname>
       </controlaccess>

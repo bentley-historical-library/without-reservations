@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Cappaert, LeRoy.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28932">Cappaert, LeRoy.</persname>
       </origination>
       <unittitle encodinganalog="245">Leroy and Lael Cappaert papers <unitdate type="inclusive" encodinganalog="245$f" normal="1947/2002">1947-2002</unitdate></unittitle>
       <abstract>LeRoy Cappaert was a teacher and Democratic city councilman from Ann Arbor, Michigan, 1964-1970, delegate to the 1968 Democratic National Convention, and member of the Coalition for Peace in Central America, and organization established to provide assistance to Ann Arbor's sister city, Juigalpa, Nicaragua. Lael Cappaert was a librarian, also active in political and community causes. Papers and notebooks concerning LeRoy's election campaigns for the city council, his council activities, his work as delegate at the Democratic National Conventions of 1964 and 1968, and the 1968 Presidential campaign of Senator Eugene McCarthy, his work with the Coalition for Peace in Central America; memoirs of his wife Lael Cappaert, pictorial history of their daughter Andrea Lael Cappaert; audio-visual material; and scrapbooks.</abstract>
@@ -86,19 +87,19 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor (Mich.). Common Council.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Cappaert, Andrea Lael, 1952-1980.</persname>
-        <persname source="lcnaf" encodinganalog="600">Cappaert, LeRoy.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Coalition for Peace in Central America.</corpname>
-        <corpname source="lcnaf" encodinganalog="611" authfilenumber="http://id.loc.gov/authorities/names/n2011052025">Democratic National Convention (1964 : Atlantic City, N.J.)</corpname>
-        <corpname source="lcnaf" encodinganalog="611" authfilenumber="http://id.loc.gov/authorities/names/nr00008089">Democratic National Convention (1968 : Chicago, Ill.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731">Democratic Party (Mich.)</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79026910">Humphrey, Hubert H. (Hubert Horatio), 1911-1978.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80002307">McCarthy, Eugene J., 1916-2005.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80039703">McGovern, George S. (George Stanley), 1922-2012</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17397">Ann Arbor (Mich.). Common Council.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35701">Cappaert, Andrea Lael, 1952-1980.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28932">Cappaert, LeRoy.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20605">Coalition for Peace in Central America.</corpname>
+        <corpname source="lcnaf" encodinganalog="611" authfilenumber="http://id.loc.gov/authorities/names/n2011052025" ref="/agents/corporate_entities/20452">Democratic National Convention (1964 : Atlantic City, N.J.)</corpname>
+        <corpname source="lcnaf" encodinganalog="611" authfilenumber="http://id.loc.gov/authorities/names/nr00008089" ref="/agents/corporate_entities/21114">Democratic National Convention (1968 : Chicago, Ill.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731" ref="/agents/corporate_entities/21108">Democratic Party (Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79026910" ref="/agents/people/27550">Humphrey, Hubert H. (Hubert Horatio), 1911-1978.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80002307" ref="/agents/people/28829">McCarthy, Eugene J., 1916-2005.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80039703" ref="/agents/people/29726">McGovern, George S. (George Stanley), 1922-2012</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/910">Michigan--Politics and government--1951-</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/810">Michigan--Politics and government--1961-1970.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n86071884">Mississippi Freedom Democratic Party.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n86071884" ref="/agents/corporate_entities/20404">Mississippi Freedom Democratic Party.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1440">Nicaragua.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6683">Presidents--United States--Election--1964.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6642">Presidents--United States--Election--1968.</subject>
@@ -107,15 +108,15 @@
       <controlaccess>
         <head>Subjects - Visual Material:</head>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html" ref="/subjects/860">Ann Arbor (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600">Cappaert, Andrea Lael, 1952-1980.</persname>
-        <persname source="lcnaf" encodinganalog="700">Cappaert, Lael.</persname>
-        <persname source="lcnaf" encodinganalog="600">Cappaert, LeRoy.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Coalition for Peace in Central America.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35701">Cappaert, Andrea Lael, 1952-1980.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32709">Cappaert, Lael.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28932">Cappaert, LeRoy.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20605">Coalition for Peace in Central America.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1440">Nicaragua.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Cappaert, Lael.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32709">Cappaert, Lael.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

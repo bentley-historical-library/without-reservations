@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Leech, Carl Addison.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/36069">Leech, Carl Addison.</persname>
       </origination>
       <unittitle encodinganalog="245">Carl Addison Leech papers <unitdate type="inclusive" encodinganalog="245$f" normal="1928/1940">1928-1940</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851659 Aa 2</unitid>
@@ -76,8 +77,8 @@
       <controlaccess>
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2190">Deward (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600">Driscoll, John.</persname>
-        <persname source="lcnaf" encodinganalog="600">Harcourt, Bert.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33245">Driscoll, John.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34747">Harcourt, Bert.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6797">Logging--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6798">Lumbering--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2191">Meredith (Mich.)</geogname>

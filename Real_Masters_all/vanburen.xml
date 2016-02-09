@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Van Buren, Anson DePuy.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33745">Van Buren, Anson DePuy.</persname>
       </origination>
       <unittitle encodinganalog="245">Anson De Puy Van Buren papers <unitdate type="inclusive" encodinganalog="245$f" normal="1846/1885">1846-1885</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">86255 Aa 2</unitid>
@@ -82,7 +83,7 @@
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/934">Battle Creek (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5752">Education--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n94011945.html" ref="/subjects/920">Galesburg (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Galesburg Temperance Society (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20114">Galesburg Temperance Society (Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/980">Kalamazoo (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79029207.html" ref="/subjects/921">Kalamazoo County (Mich.)</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/795">Michigan--Social life and customs--1841-1850.</geogname>

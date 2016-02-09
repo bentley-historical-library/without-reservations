@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">St. Andrew's Memorial Episcopal Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/18761">St. Andrew's Memorial Episcopal Church (Detroit, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">St. Andrew's Memorial Episcopal Church, Detroit, Mich., Records <unitdate type="inclusive" encodinganalog="245$f" normal="1886/1988">1886-1988</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1944/1969">1944-1969</unitdate></unittitle>
       <abstract>Historical and other background information; vestry records include correspondence, meeting minutes, reports, registers of church services, and other subject files; records of church organizations; files pertaining to church camp and special church services; printed materials, and photographs.</abstract>
@@ -88,16 +89,16 @@
         <head>Subjects:</head>
         <genreform source="aat" encodinganalog="655" ref="/subjects/3374">Church records.</genreform>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/952">Detroit (Mich.)--Church history.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Episcopal Church--Michigan--Detroit.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18160">Episcopal Church--Michigan--Detroit.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5985">Registers of births, etc.--Michigan--Detroit.</subject>
-        <corpname source="lcnaf" encodinganalog="610">St. Andrew's Memorial Episcopal Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18761">St. Andrew's Memorial Episcopal Church (Detroit, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3674">Churches--Michigan--Detroit.</subject>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/218">Detroit (Mich.)--Churches.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Episcopal Church--Michigan--Detroit.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. Andrew's Memorial Episcopal Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18160">Episcopal Church--Michigan--Detroit.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18761">St. Andrew's Memorial Episcopal Church (Detroit, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

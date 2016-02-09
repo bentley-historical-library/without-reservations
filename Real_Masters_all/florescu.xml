@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Florescu, Stefan.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28236">Florescu, Stefan.</persname>
       </origination>
       <unittitle encodinganalog="245">Stefan Florescu Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1946/2002">1946-2002</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1965/1985">1965-1985</unitdate></unittitle>
       <abstract>Stefan Florescu, a quadriplegic, was involved in activities and organizations for the handicapped in the Detroit area and was founder of Michigan Wheelchair Athletic Committee. The collection includes personal/biographical material, files relating to his organizational activities, and files pertaining to wheelchair athletics.</abstract>
@@ -90,16 +91,16 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Architectural Barriers Committee (Detroit, Mich.)</corpname>
-        <persname source="lcnaf" encodinganalog="600">Florescu, Stefan.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Paralyzed Veterans of America. Michigan Chapter.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21190">Architectural Barriers Committee (Detroit, Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28236">Florescu, Stefan.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19231">Paralyzed Veterans of America. Michigan Chapter.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7818">Physically handicapped--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7819">Quadriplegics--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7820">Wheelchair sports--Michigan.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Florescu, Stefan.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28236">Florescu, Stefan.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4278">Handicapped persons--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7821">Quadriplegics--Rehabilitation--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7820">Wheelchair sports--Michigan.</subject>

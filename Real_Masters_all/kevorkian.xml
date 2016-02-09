@@ -32,7 +32,8 @@
         <item>Original encoding from Word 2010 file using Word macros and Xmetal and exports from BEAL audio and video dtaabases.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections<lb/>Bentley Historical Library<lb/>University of Michigan</publisher>
@@ -43,7 +44,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Kevorkian, Jack </persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/29232">Kevorkian, Jack </persname>
       </origination>
       <unittitle encodinganalog="245"> Jack Kevorkian papers<unitdate type="inclusive" encodinganalog="245$f"> 1911-2014 </unitdate> <unitdate type="bulk" encodinganalog="245$g"> 1990-2011 </unitdate> </unittitle>
       <physdesc altrender="part">
@@ -163,8 +164,8 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8678">Death row inmates.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8679">Donation of organs, tissues, etc.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8605">Euthanasia.</subject>
-        <persname source="lcnaf" encodinganalog="600">Kevorkian, Jack.</persname>
-        <persname source="lcnaf" encodinganalog="600">Kevorkian family.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29232">Kevorkian, Jack.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34583">Kevorkian family.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8680">Right to die.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8681">Terminally ill.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8682">Transplantation of organs, etc.</subject>
@@ -176,7 +177,7 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors: </head>
-        <persname encodinganalog="700" source="lcnaf">Morganroth, Mayer. </persname>
+        <persname encodinganalog="700" source="lcnaf" ref="/agents/people/27990">Morganroth, Mayer. </persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
@@ -559,11 +560,11 @@
                 <physdesc>
                   <extent>3 photos</extent>
                 </physdesc>
-              <dao href="2014106-p-3" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/2479">
-                <daodesc>
-                  <p>[access items]</p>
-                </daodesc>
-              </dao>
+                <dao href="2014106-p-3" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/2479">
+                  <daodesc>
+                    <p>[access items]</p>
+                  </daodesc>
+                </dao>
               </did>
               <odd>
                 <p>(bl019105-bl019108)</p>
@@ -3326,38 +3327,38 @@
             <physdesc>
               <extent>3 folders</extent>
             </physdesc>
-          <dao href="2014106-35" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/2571">
-            <daodesc>
-              <p>[access item]</p>
-            </daodesc>
-          </dao>
-        </did>
-          </c02>
+            <dao href="2014106-35" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/2571">
+              <daodesc>
+                <p>[access item]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [17582939534077889108413368]">8</container>
             <unittitle>Medicide families </unittitle>
-          <dao href="2014106-35" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/2571">
-            <daodesc>
-              <p>[access item]</p>
-            </daodesc>
-          </dao>
-        </did>
+            <dao href="2014106-35" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/2571">
+              <daodesc>
+                <p>[access item]</p>
+              </daodesc>
+            </dao>
+          </did>
           <odd>
             <p>(includes photographs)</p>
           </odd>
-          </c02>
+        </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [17582939534077889108413368]">8</container>
             <unittitle>Presentation slides</unittitle>
-          <dao href="2014106-35" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/2571">
-            <daodesc>
-              <p>[access item]</p>
-            </daodesc>
-          </dao>
-        </did>
-          </c02>
+            <dao href="2014106-35" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/2571">
+              <daodesc>
+                <p>[access item]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
       </c01>
     </dsc>
   </archdesc>

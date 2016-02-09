@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -47,7 +48,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n81055151">University of Michigan. Medical School.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n81055151" ref="/agents/corporate_entities/20391">University of Michigan. Medical School.</corpname>
       </origination>
       <unittitle encodinganalog="245">Medical School (University of Michigan) publications <unitdate type="inclusive" encodinganalog="245$f" normal="1849/2014">1849-2014</unitdate></unittitle>
       <abstract>Contains addresses, brochures or pamphlets, bulletins or college catalogs, histories and manuals. Includes the newsletter Medicine at Michigan as well as miscellaneous reports about the Medical School. Also contains publications from the Center for Molecular Genetics, Office of Biomedical Research, Office of Medical Education, Galens Medical Society and the Phi Chi fraternity.</abstract>
@@ -219,23 +220,23 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151">University of Michigan. Medical School.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85250563">University of Michigan. Dept. of Medicine and Surgery.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Center for Molecular Genetics.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr90013611">University of Michigan. Office of Biomedical Research.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Office of Medical Education.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Galens Medical Society.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Phi Chi. Psi chapter (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Alumni and alumnae.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">Phi Chi. Psi chapter (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151" ref="/agents/corporate_entities/20391">University of Michigan. Medical School.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85250563" ref="/agents/corporate_entities/21150">University of Michigan. Dept. of Medicine and Surgery.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22236">University of Michigan. Center for Molecular Genetics.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr90013611" ref="/agents/corporate_entities/23025">University of Michigan. Office of Biomedical Research.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/23112">University of Michigan. Office of Medical Education.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22684">Galens Medical Society.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/23043">Phi Chi. Psi chapter (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Alumni and alumnae.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Students--Social life and customs.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/23043">Phi Chi. Psi chapter (University of Michigan)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n85250563">University of Michigan. Dept. of Medicine and Surgery.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Center for Molecular Genetics.</corpname>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/nr90013611">University of Michigan. Office of Biomedical Research.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">Galens Medical Society.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n85250563" ref="/agents/corporate_entities/21150">University of Michigan. Dept. of Medicine and Surgery.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/22236">University of Michigan. Center for Molecular Genetics.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/nr90013611" ref="/agents/corporate_entities/23025">University of Michigan. Office of Biomedical Research.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/22684">Galens Medical Society.</corpname>
       </controlaccess>
       <genreform source="aat" encodinganalog="655" ref="/subjects/3210">Addresses.</genreform>
       <genreform source="aat" encodinganalog="655" ref="/subjects/3148">Pamphlets.</genreform>

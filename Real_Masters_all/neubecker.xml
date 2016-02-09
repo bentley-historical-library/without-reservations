@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2010 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Neubecker, Michael.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/29808">Neubecker, Michael.</persname>
       </origination>
       <unittitle encodinganalog="245">Michael and Janice Neubecker papers <unitdate type="inclusive" encodinganalog="245$f" normal="1996/2010">1996-2010</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1996/2004">1996-2004</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2014052 Aa 2</unitid>
@@ -99,10 +100,10 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9550">Gays--Michigan--Wayne County.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9551">Lesbian teenagers--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9552">Lesbians--Michigan--Wayne County.</subject>
-        <persname source="lcnaf" encodinganalog="600">Neubecker, Janice.</persname>
-        <persname source="lcnaf" encodinganalog="600">Neubecker, Michael.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2002083927">Parents, Families and Friends of Lesbians and Gays.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Parents, Families and Friends of Lesbians and Gays Downriver, Mich.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33790">Neubecker, Janice.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29808">Neubecker, Michael.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2002083927" ref="/agents/corporate_entities/22213">Parents, Families and Friends of Lesbians and Gays.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20909">Parents, Families and Friends of Lesbians and Gays Downriver, Mich.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9553">Parents of gays--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9554">Transsexuals--Michigan--Wayne County.</subject>
       </controlaccess>

@@ -32,7 +32,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -43,7 +44,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Harms, Marguerite.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/31843">Harms, Marguerite.</persname>
       </origination>
       <unittitle encodinganalog="245">Marguerite Harms papers <unitdate type="inclusive" encodinganalog="245$f" normal="1953/2003">1953-2003</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">88567 Aa 2</unitid>
@@ -91,9 +92,9 @@
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1993">Cobblestone Farm (Ann Arbor, Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6113">Nurses--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6114">Nursing--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no96022006">University of Michigan. School of Nursing.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Harms, Marguerite.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no96022006" ref="/agents/corporate_entities/19444">University of Michigan. School of Nursing.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31843">Harms, Marguerite.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

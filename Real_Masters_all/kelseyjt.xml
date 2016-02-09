@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Kelsey, John T., 1921-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/29191">Kelsey, John T., 1921-</persname>
       </origination>
       <unittitle encodinganalog="245">John T. Kelsey Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1969/1982">1969-1982</unitdate></unittitle>
       <abstract>Democratic State Representative from Warren, Michigan. Subject files, newsletters, constituent responses, and scrapbooks of clippings and correspondence; include material concerning the use of laetrile, cross district busing, the problems of the aged, and other legislative issues of the 1970s.</abstract>
@@ -83,11 +84,11 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8088">Busing for school integration--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Democratic Party (U.S.)</corpname>
-        <persname source="lcnaf" encodinganalog="600">Kelsey, John T., 1921-</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19754">Democratic Party (U.S.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29191">Kelsey, John T., 1921-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8647">Laetrile.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6244">Legislators--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. Legislature. House of Representatives.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21647">Michigan. Legislature. House of Representatives.</corpname>
         <geogname source="local" encodinganalog="691" ref="/subjects/801">Michigan--Politics and government--1971-1980.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7570">Old age.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80090226.html" ref="/subjects/1308">Warren (Mich.)</geogname>

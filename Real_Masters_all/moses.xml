@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc relatedencoding="MARC21" level="recordgrp" audience="external" type="inventory">
     <did>
       <origination>
-        <persname encodinganalog="110" source="lcnaf">M.O.S.E.S.</persname>
+        <persname encodinganalog="110" source="lcnaf" ref="/agents/people/36035">M.O.S.E.S.</persname>
       </origination>
       <unittitle encodinganalog="245">M.O.S.E.S. Records <unitdate encodinganalog="245$f" type="inclusive" normal="1993/2003">1993-2003</unitdate>, <unitdate encodinganalog="245$g" type="bulk" normal="1998/2001">1998-2001</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">048 Ba 2</unitid>
@@ -78,18 +79,18 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">M.O.S.E.S.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/people/36035">M.O.S.E.S.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1691">Detroit (Mich.)--Race relations.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7616">Environmental justice--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Jeremiah Project (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19054">Jeremiah Project (Detroit, Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7628">Housing policy--Michigan--Religious aspects.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7677">Transportation and state--Michigan--Religious aspects.</subject>
-        <corpname source="lcnaf" encodinganalog="610">West Detroit Inter-faith Community Organization.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21132">West Detroit Inter-faith Community Organization.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname source="lcnaf" encodinganalog="610">M.O.S.E.S.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Jeremiah Project (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/people/36035">M.O.S.E.S.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19054">Jeremiah Project (Detroit, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

@@ -28,7 +28,8 @@
         <item>Original encoding.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Wade, Chauncey C.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33297">Wade, Chauncey C.</persname>
       </origination>
       <unittitle encodinganalog="245">Chauncey C. Wade papers <unitdate type="inclusive" encodinganalog="245$f" normal="1917/1932">1917-1932</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">0756 Aa 2 UAl</unitid>
@@ -88,11 +89,11 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Wade, Chauncey C.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33297">Wade, Chauncey C.</persname>
         <geogname source="lcnaf" encodinganalog="651" ref="/subjects/760">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5737">World War, 1914-1918.</subject>
-        <corpname encodinganalog="690" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n2008059426">Polar Bear Expedition.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Infantry, 339th. Supply Company.</corpname>
+        <corpname encodinganalog="690" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n2008059426" ref="/agents/corporate_entities/21526">Polar Bear Expedition.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21988">United States. Army. Infantry, 339th. Supply Company.</corpname>
         <geogname source="lcnaf" encodinganalog="651" ref="/subjects/773">Arkhangel'sk (Russia)</geogname>
         <geogname source="lcnaf" encodinganalog="651" ref="/subjects/787">Bakaritsa (Russia)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3720">Soldiers--American--Russia (Federation)</subject>

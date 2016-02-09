@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Buell family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/1442">Buell family.</famname>
       </origination>
       <unittitle encodinganalog="245">Thomas B. Buell family papers <unitdate type="inclusive" encodinganalog="245$f" normal="1840/2000">1840-2000</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1872/1942">1872-1942</unitdate></unittitle>
       <abstract>Thomas B. Buell family of Branch County, Michigan. The family was engaged in farming, banking, real estate, and other business enterprises; family history and genealogy; correspondence and other papers of individual Buell family members; records of family banking operations in Union City and Elmira; and papers of Buells attending Olivet College.</abstract>
@@ -99,16 +100,16 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <famname source="lcnaf" encodinganalog="600">Buell family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1442">Buell family.</famname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6572">Banks and banking--Michigan--Elmira.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6573">Banks and banking--Michigan--Union City.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091924.html" ref="/subjects/1383">Branch County (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Olivet College--Students.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22612">Olivet College--Students.</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81144379.html" ref="/subjects/1384">Union City (Mich.)</geogname>
       </controlaccess>
       <controlaccess>
         <head>Subjects: visual materials</head>
-        <famname source="lcnaf" encodinganalog="600">Buell family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1442">Buell family.</famname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1385">Elmira (Mich.)</geogname>
         <subject source="aat" encodinganalog="650" ref="/subjects/5597">Farmhouses--Michigan--Elmira.</subject>
         <subject source="aat" encodinganalog="650" ref="/subjects/5598">Farming--Michigan--Elmira.</subject>

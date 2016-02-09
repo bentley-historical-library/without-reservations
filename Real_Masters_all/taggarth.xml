@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Taggart, Herbert F. (Herbert Francis), 1898-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/27378">Taggart, Herbert F. (Herbert Francis), 1898-</persname>
       </origination>
       <unittitle encodinganalog="245">Herbert F. Taggart papers <unitdate type="inclusive" encodinganalog="245$f" normal="1934/1980">1934-1980</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85407 Aa 2</unitid>
@@ -79,9 +80,9 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10334">Cost accounting.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79066322">United States. Federal Trade Commission.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79073704">University of Michigan. School of Business Administration.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79066322" ref="/agents/corporate_entities/21775">United States. Federal Trade Commission.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79073704" ref="/agents/corporate_entities/19814">University of Michigan. School of Business Administration.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

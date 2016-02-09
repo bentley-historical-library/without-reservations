@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" encodinganalog="110" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/no2006053955">Fountain Street Church (Grand Rapids, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/no2006053955" ref="/agents/corporate_entities/18686">Fountain Street Church (Grand Rapids, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">Fountain Street Church (Grand Rapids, Mich.) records <unitdate type="inclusive" encodinganalog="245$f" normal="1856/1978">1856-1978</unitdate></unittitle>
       <abstract>Minutes and other records of the church's governing board; pastors' files, including sermons, addresses and publications; and administrative records of the church office, including reports, publications, treasurer's files, correspondence, and subject files; also photographs.</abstract>
@@ -86,23 +87,23 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Baptists--Michigan--Grand Rapids.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79022087">Ford, Gerald R., 1913-2006.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2006053955">Fountain Street Church (Grand Rapids, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21769">Baptists--Michigan--Grand Rapids.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79022087" ref="/agents/people/31243">Ford, Gerald R., 1913-2006.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2006053955" ref="/agents/corporate_entities/18686">Fountain Street Church (Grand Rapids, Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79133151.html" ref="/subjects/1102">Grand Rapids (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7858">Liberalism (Religion)--Michigan--Grand Rapids.</subject>
-        <persname source="lcnaf" encodinganalog="600">Littlefair, Duncan Elliot, 1912-</persname>
-        <persname source="lcnaf" encodinganalog="600">McGorrill, Milton S.</persname>
-        <persname source="lcnaf" encodinganalog="600">Randall, J. Herman.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no96012167">Wishart, Alfred Wesley, 1865-1933.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29799">Littlefair, Duncan Elliot, 1912-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34332">McGorrill, Milton S.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33358">Randall, J. Herman.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no96012167" ref="/agents/people/33289">Wishart, Alfred Wesley, 1865-1933.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4284">Baptist churches--Michigan--Grand Rapids.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3922">Churches--Michigan--Grand Rapids.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2006053955">Fountain Street Church (Grand Rapids, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2006053955" ref="/agents/corporate_entities/18686">Fountain Street Church (Grand Rapids, Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1874">Grand Rapids (Mich.)--Churches.</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79090055">Schweitzer, Albert, 1875-1965.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79090055" ref="/agents/people/27486">Schweitzer, Albert, 1875-1965.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

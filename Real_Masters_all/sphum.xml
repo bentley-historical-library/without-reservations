@@ -47,7 +47,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -58,7 +59,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="marc21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n80020716">University of Michigan. School of Public Health.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n80020716" ref="/agents/corporate_entities/22180">University of Michigan. School of Public Health.</corpname>
       </origination>
       <unittitle encodinganalog="245">School of Public Health (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1909/2015">1909-2015</unitdate> <unitdate type="bulk" encodinganalog="245$g" normal="1941/2004">1941-2004</unitdate></unittitle>
       <physdesc altrender="part">
@@ -190,12 +191,12 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10199">AIDS (Disease)--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80024253">American Public Health Association.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Association of Schools of Public Health.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80024253" ref="/agents/corporate_entities/19283">American Public Health Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22646">Association of Schools of Public Health.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10200">Dental public health.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8220">Environmental health.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6517">Epidemiology.</subject>
-        <persname source="lcnaf" encodinganalog="600">Francis, Thomas, 1900-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30972">Francis, Thomas, 1900-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10201">Health behavior.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10202">Health education.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10203">Health risk assessment.</subject>
@@ -208,32 +209,32 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9034">Public health nursing.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10207">Public health--Study and teaching (Higher)--Michigan--Ann Arbor.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2832">Tecumseh (Mich.)--Statistics, Medical.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Tecumseh Community Health Study.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80020716">University of Michigan. School of Public Health.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79055095">W. K. Kellogg Foundation.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22036">Tecumseh Community Health Study.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80020716" ref="/agents/corporate_entities/22180">University of Michigan. School of Public Health.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Students.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79055095" ref="/agents/corporate_entities/22564">W. K. Kellogg Foundation.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3572">Children.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5032">Nursing--Michigan--Ann Arbor.</subject>
         <genreform source="aat" encodinganalog="655" ref="/subjects/3137">Photographs.</genreform>
-        <corpname source="lcnaf" encodinganalog="610">West Physics Building (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19467">West Physics Building (University of Michigan)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6518">Poliomyelitis.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50017557">Salk, Jonas, 1914-1995.</persname>
-        <corpname source="lcnaf" encodinganalog="610">School of Public Health Building (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Buildings.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Program in Public Health Nursing.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80020716">University of Michigan. School of Public Health.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50017557" ref="/agents/people/34586">Salk, Jonas, 1914-1995.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18281">School of Public Health Building (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Buildings.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19871">University of Michigan. Program in Public Health Nursing.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80020716" ref="/agents/corporate_entities/22180">University of Michigan. School of Public Health.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Clark, Noreen M.</persname>
-        <persname source="lcnaf" encodinganalog="700">Kirscht, John P.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n89102362">Osborn, June E., 1937-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80020715">Remington, Richard D.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2010188324">Vaughan, Henry F. (Henry Frieze), 1889-1979</persname>
-        <persname source="lcnaf" encodinganalog="700">Wegman, Myron E.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35686">Clark, Noreen M.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31643">Kirscht, John P.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n89102362" ref="/agents/people/33626">Osborn, June E., 1937-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80020715" ref="/agents/people/32988">Remington, Richard D.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2010188324" ref="/agents/people/34866">Vaughan, Henry F. (Henry Frieze), 1889-1979</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28377">Wegman, Myron E.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
@@ -21486,7 +21487,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Archived version of the School of Public Health website as it appeared on May 15, 2002. Documents the academic programs, accomplishments, resources, events, and people at the School of Public Health. Content includes important news and announcements, publications (such as newsletters and course catalogs), and information about admissions, curriculum, degree requirements, faculty, and the overall mission of the School.)</p></odd></c03>
+            <odd>
+              <p>(Archived version of the School of Public Health website as it appeared on May 15, 2002. Documents the academic programs, accomplishments, resources, events, and people at the School of Public Health. Content includes important news and announcements, publications (such as newsletters and course catalogs), and information about admissions, curriculum, degree requirements, faculty, and the overall mission of the School.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <physloc>Online </physloc>
@@ -21502,7 +21506,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Archived version of the School of Public Health website as it appeared on May 22, 2003. Documents the academic programs, accomplishments, resources, events, and people at the School of Public Health. Content includes important news and announcements, publications (such as newsletters and course catalogs), and information about admissions, curriculum, degree requirements, faculty, and the overall mission of the School.)</p></odd></c03>
+            <odd>
+              <p>(Archived version of the School of Public Health website as it appeared on May 22, 2003. Documents the academic programs, accomplishments, resources, events, and people at the School of Public Health. Content includes important news and announcements, publications (such as newsletters and course catalogs), and information about admissions, curriculum, degree requirements, faculty, and the overall mission of the School.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <physloc>Online </physloc>
@@ -21518,7 +21525,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Archived version of the School of Public Health website as it appeared on February 24, 2006. Documents the academic programs, accomplishments, resources, events, and people at the School of Public Health. Content includes important news and announcements, publications (such as newsletters and course catalogs), and information about admissions, curriculum, degree requirements, faculty, and the overall mission of the School.)</p></odd></c03>
+            <odd>
+              <p>(Archived version of the School of Public Health website as it appeared on February 24, 2006. Documents the academic programs, accomplishments, resources, events, and people at the School of Public Health. Content includes important news and announcements, publications (such as newsletters and course catalogs), and information about admissions, curriculum, degree requirements, faculty, and the overall mission of the School.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <physloc>Online </physloc>
@@ -21534,7 +21544,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Archived version of the School of Public Health website as it appeared on May 6, 2008. Documents the academic programs, accomplishments, resources, events, and people at the School of Public Health. Content includes important news and announcements, publications (such as newsletters and course catalogs), and information about admissions, curriculum, degree requirements, faculty, and the overall mission of the School.)</p></odd></c03>
+            <odd>
+              <p>(Archived version of the School of Public Health website as it appeared on May 6, 2008. Documents the academic programs, accomplishments, resources, events, and people at the School of Public Health. Content includes important news and announcements, publications (such as newsletters and course catalogs), and information about admissions, curriculum, degree requirements, faculty, and the overall mission of the School.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <physloc>Online </physloc>

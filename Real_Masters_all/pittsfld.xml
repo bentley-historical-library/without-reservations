@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/no96022625.html">Pittsfield Charter Township (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/no96022625.html" ref="/agents/corporate_entities/18801">Pittsfield Charter Township (Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">Pittsfield Township records <unitdate type="inclusive" encodinganalog="245$f" normal="1830/1980">1830-1980</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">86329 Cb.2/2; CB.2 Outsize</unitid>
@@ -106,7 +107,7 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9780">Elections--Michigan--Pittsfield (Township)</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9781">Roads--Michigan--Pittsfield (Township)</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5724">Schools--Michigan--Pittsfield (Township)</subject>
-        <corpname source="lcnaf" encodinganalog="610">Stone School (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21622">Stone School (Ann Arbor, Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9782">Taxation--Michigan--Pittsfield (Township)</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/847">Washtenaw County (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/no96022625.html" ref="/subjects/1652">Pittsfield Charter Township (Mich.)</geogname>
@@ -114,11 +115,11 @@
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2552">Ann Arbor (Mich.)--Schools.</geogname>
-        <persname source="lcnaf" encodinganalog="600">Parsons, Harriet G.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35030">Parsons, Harriet G.</persname>
         <genreform source="aat" encodinganalog="655" ref="/subjects/3137">Photographs.</genreform>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/no96022625.html" ref="/subjects/1652">Pittsfield Charter Township (Mich.)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3553">Schools--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Stone School (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21622">Stone School (Ann Arbor, Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/847">Washtenaw County (Mich.)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3569">Women.</subject>
       </controlaccess>
@@ -1335,7 +1336,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Documentation of the position and routes of roads in Pittsfield Township, with identification of public highways and minutes of road surveys that contain precise descriptions of length and bearing.  Also includes records of petitions of citizens and tax payers to the Highway Commission for the township to lay out roadways. Index to volume indicates pages on which township roads are identified.)</p></odd></c03>
+            <odd>
+              <p>(Documentation of the position and routes of roads in Pittsfield Township, with identification of public highways and minutes of road surveys that contain precise descriptions of length and bearing.  Also includes records of petitions of citizens and tax payers to the Highway Commission for the township to lay out roadways. Index to volume indicates pages on which township roads are identified.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <unittitle>Highway Tax Lists</unittitle>
@@ -1722,7 +1726,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Includes documentation of the first annual Pittsfield Township town meeting and election of officers in Pittsfield Township in 1834. Records of events at subsequent annual township meetings, including election results, the passage or rejection of ordinances and regulations, the swearing in of officials, and audits and balances of financial accounts of the township and elected officials.)</p></odd></c03>
+            <odd>
+              <p>(Includes documentation of the first annual Pittsfield Township town meeting and election of officers in Pittsfield Township in 1834. Records of events at subsequent annual township meetings, including election results, the passage or rejection of ordinances and regulations, the swearing in of officials, and audits and balances of financial accounts of the township and elected officials.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [4662707009545564389383]">6</container>
@@ -1738,7 +1745,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Records of annual Pittsfield Township meetings.  Includes voting results for elected officials and local ordinances (related to road maintenance, taxes, elections, etc.), annual reports (from the Overseer of Highways, Superintendent of Schools, and other officials), and the swearing in of newly elected officials. Also contains balances and audits for the township's financial records, including payments to officials and private individuals.)</p></odd></c03>
+            <odd>
+              <p>(Records of annual Pittsfield Township meetings.  Includes voting results for elected officials and local ordinances (related to road maintenance, taxes, elections, etc.), annual reports (from the Overseer of Highways, Superintendent of Schools, and other officials), and the swearing in of newly elected officials. Also contains balances and audits for the township's financial records, including payments to officials and private individuals.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [4662707009545564389383]">6</container>
@@ -1754,7 +1764,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Records of regular Pittsfield Township meetings, which eventually move from annual to monthly. Includes proposals and voting results on various issues, including taxes for road improvements, funds for county fairs, bounties for pests (woodchucks, crows, etc.), and lobbying of the state legislature for the passage of various bills.  Also contains statements of receipts and expenditures for various funds (highway improvements, road repairs, contigencies, and relief of the poor), news clippings related to local news, and records of individuals elected to the Pittsfield Township Republican Party Committee.)</p></odd></c03>
+            <odd>
+              <p>(Records of regular Pittsfield Township meetings, which eventually move from annual to monthly. Includes proposals and voting results on various issues, including taxes for road improvements, funds for county fairs, bounties for pests (woodchucks, crows, etc.), and lobbying of the state legislature for the passage of various bills.  Also contains statements of receipts and expenditures for various funds (highway improvements, road repairs, contigencies, and relief of the poor), news clippings related to local news, and records of individuals elected to the Pittsfield Township Republican Party Committee.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [4674904826786190921]">7</container>
@@ -1770,7 +1783,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Records of regular and special Pittsfield Township board meetings for the year 1947.  Documents motions brought before the board on various ordinances, zoning issues, expenditures, and revenue generation (through taxes, building permit fees, etc.) with records of the board's votes on matters.  Also contains reports of various officials (School Commissioner, building inspector, etc.), and financial records.)</p></odd></c03>
+            <odd>
+              <p>(Records of regular and special Pittsfield Township board meetings for the year 1947.  Documents motions brought before the board on various ordinances, zoning issues, expenditures, and revenue generation (through taxes, building permit fees, etc.) with records of the board's votes on matters.  Also contains reports of various officials (School Commissioner, building inspector, etc.), and financial records.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [4674904826786190921]">7</container>
@@ -1786,7 +1802,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Records of regular and special Pittsfield Township board meetings for the year 1948.  Documents motions brought before the board on various ordinances, zoning issues, expenditures, and revenue generation (through taxes, building permit fees, etc.) with records of the board's votes on matters.  Also contains reports of various officials (School Commissioner, building inspector, etc.), and financial records.)</p></odd></c03>
+            <odd>
+              <p>(Records of regular and special Pittsfield Township board meetings for the year 1948.  Documents motions brought before the board on various ordinances, zoning issues, expenditures, and revenue generation (through taxes, building permit fees, etc.) with records of the board's votes on matters.  Also contains reports of various officials (School Commissioner, building inspector, etc.), and financial records.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [4674904826786190921]">7</container>
@@ -1802,7 +1821,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Records of regular and special Pittsfield Township board meetings for the year 1949.  Documents motions brought before the board on various ordinances, zoning issues, expenditures, and revenue generation (through taxes, building permit fees, etc.) with records of the board's votes on matters.  Also contains reports of various officials (School Commissioner, building inspector, etc.), and financial records.)</p></odd></c03>
+            <odd>
+              <p>(Records of regular and special Pittsfield Township board meetings for the year 1949.  Documents motions brought before the board on various ordinances, zoning issues, expenditures, and revenue generation (through taxes, building permit fees, etc.) with records of the board's votes on matters.  Also contains reports of various officials (School Commissioner, building inspector, etc.), and financial records.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [4674904826786190921]">7</container>
@@ -1818,7 +1840,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Records of regular and special Pittsfield Township board meetings for the year 1950.  Documents motions brought before the board on various ordinances, zoning issues, expenditures, and revenue generation (through taxes, building permit fees, etc.) with records of the board's votes on matters.  Also contains reports of various officials (School Commissioner, building inspector, etc.), and financial records.)</p></odd></c03>
+            <odd>
+              <p>(Records of regular and special Pittsfield Township board meetings for the year 1950.  Documents motions brought before the board on various ordinances, zoning issues, expenditures, and revenue generation (through taxes, building permit fees, etc.) with records of the board's votes on matters.  Also contains reports of various officials (School Commissioner, building inspector, etc.), and financial records.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [4674904826786190921]">7</container>
@@ -1834,7 +1859,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Records of regular and special Pittsfield Township board meetings for the year 1951.  Documents motions brought before the board on various ordinances, zoning issues, expenditures, and revenue generation (through taxes, building permit fees, etc.) with records of the board's votes on matters.  Also contains reports of various officials (School Commissioner, building inspector, etc.), and financial records.)</p></odd></c03>
+            <odd>
+              <p>(Records of regular and special Pittsfield Township board meetings for the year 1951.  Documents motions brought before the board on various ordinances, zoning issues, expenditures, and revenue generation (through taxes, building permit fees, etc.) with records of the board's votes on matters.  Also contains reports of various officials (School Commissioner, building inspector, etc.), and financial records.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [4674904826786190921]">7</container>
@@ -1850,7 +1878,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Records of regular and special Pittsfield Township board meetings for the year 1952.  Documents motions brought before the board on various ordinances, zoning issues, expenditures, and revenue generation (through taxes, building permit fees, etc.) with records of the board's votes on matters.  Also contains reports of various officials (School Commissioner, building inspector, etc.), and financial records.)</p></odd></c03>
+            <odd>
+              <p>(Records of regular and special Pittsfield Township board meetings for the year 1952.  Documents motions brought before the board on various ordinances, zoning issues, expenditures, and revenue generation (through taxes, building permit fees, etc.) with records of the board's votes on matters.  Also contains reports of various officials (School Commissioner, building inspector, etc.), and financial records.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [4674904826786190921]">7</container>
@@ -1866,7 +1897,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Records of regular and special Pittsfield Township board meetings for the year 1953.  Documents motions brought before the board on various ordinances, zoning issues, expenditures, and revenue generation (through taxes, building permit fees, etc.) with records of the board's votes on matters.  Also contains reports of various officials (School Commissioner, building inspector, etc.), and financial records.)</p></odd></c03>
+            <odd>
+              <p>(Records of regular and special Pittsfield Township board meetings for the year 1953.  Documents motions brought before the board on various ordinances, zoning issues, expenditures, and revenue generation (through taxes, building permit fees, etc.) with records of the board's votes on matters.  Also contains reports of various officials (School Commissioner, building inspector, etc.), and financial records.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [4674904826786190921]">7</container>
@@ -1882,7 +1916,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Records of regular and special Pittsfield Township board meetings for the year 1954.  Documents motions brought before the board on various ordinances, zoning issues, expenditures, and revenue generation (through taxes, building permit fees, etc.) with records of the board's votes on matters.  Also contains reports of various officials (School Commissioner, building inspector, etc.), and financial records.)</p></odd></c03>
+            <odd>
+              <p>(Records of regular and special Pittsfield Township board meetings for the year 1954.  Documents motions brought before the board on various ordinances, zoning issues, expenditures, and revenue generation (through taxes, building permit fees, etc.) with records of the board's votes on matters.  Also contains reports of various officials (School Commissioner, building inspector, etc.), and financial records.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [4674904826786190921]">7</container>
@@ -1898,7 +1935,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Records of regular and special Pittsfield Township board meetings for the year 1955.  Documents motions brought before the board on various ordinances, zoning issues, expenditures, and revenue generation (through taxes, building permit fees, etc.) with records of the board's votes on matters.  Also contains reports of various officials (School Commissioner, building inspector, etc.), and financial records.)</p></odd></c03>
+            <odd>
+              <p>(Records of regular and special Pittsfield Township board meetings for the year 1955.  Documents motions brought before the board on various ordinances, zoning issues, expenditures, and revenue generation (through taxes, building permit fees, etc.) with records of the board's votes on matters.  Also contains reports of various officials (School Commissioner, building inspector, etc.), and financial records.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [4674904826786190921]">7</container>
@@ -1914,7 +1954,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Records of regular and special Pittsfield Township board meetings for the year 1956.  Documents motions brought before the board on various ordinances, zoning issues, expenditures, and revenue generation (through taxes, building permit fees, etc.) with records of the board's votes on matters.  Also contains reports of various officials (School Commissioner, building inspector, etc.), and financial records.)</p></odd></c03>
+            <odd>
+              <p>(Records of regular and special Pittsfield Township board meetings for the year 1956.  Documents motions brought before the board on various ordinances, zoning issues, expenditures, and revenue generation (through taxes, building permit fees, etc.) with records of the board's votes on matters.  Also contains reports of various officials (School Commissioner, building inspector, etc.), and financial records.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [4674904826786190921]">7</container>
@@ -1930,7 +1973,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Records of regular and special Pittsfield Township board meetings for the year 1957.  Documents motions brought before the board on various ordinances, zoning issues, expenditures, and revenue generation (through taxes, building permit fees, etc.) with records of the board's votes on matters.  Also contains reports of various officials (School Commissioner, building inspector, etc.), and financial records.)</p></odd></c03>
+            <odd>
+              <p>(Records of regular and special Pittsfield Township board meetings for the year 1957.  Documents motions brought before the board on various ordinances, zoning issues, expenditures, and revenue generation (through taxes, building permit fees, etc.) with records of the board's votes on matters.  Also contains reports of various officials (School Commissioner, building inspector, etc.), and financial records.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [4674904826786190921]">7</container>
@@ -1946,7 +1992,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Records of regular and special Pittsfield Township board meetings for the year 1958.  Documents motions brought before the board on various ordinances, zoning issues, expenditures, and revenue generation (through taxes, building permit fees, etc.) with records of the board's votes on matters.  Also contains reports of various officials (School Commissioner, building inspector, etc.), and financial records.)</p></odd></c03>
+            <odd>
+              <p>(Records of regular and special Pittsfield Township board meetings for the year 1958.  Documents motions brought before the board on various ordinances, zoning issues, expenditures, and revenue generation (through taxes, building permit fees, etc.) with records of the board's votes on matters.  Also contains reports of various officials (School Commissioner, building inspector, etc.), and financial records.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [4674904826786190921]">7</container>
@@ -1978,7 +2027,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Records of regular and special Pittsfield Township board meetings for the year 1960.  Documents motions brought before the board on various ordinances, zoning issues, expenditures, and revenue generation (through taxes, building permit fees, etc.) with records of the board's votes on matters.  Also contains reports of various officials (School Commissioner, building inspector, etc.), and financial records.)</p></odd></c03>
+            <odd>
+              <p>(Records of regular and special Pittsfield Township board meetings for the year 1960.  Documents motions brought before the board on various ordinances, zoning issues, expenditures, and revenue generation (through taxes, building permit fees, etc.) with records of the board's votes on matters.  Also contains reports of various officials (School Commissioner, building inspector, etc.), and financial records.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [4674904826786190921]">7</container>
@@ -1994,7 +2046,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Records of regular and special Pittsfield Township board meetings for the years 1961-1963.  Documents motions brought before the board on various ordinances, zoning issues, expenditures, and revenue generation (through taxes, building permit fees, etc.) with records of the board's votes on matters.  Also contains reports of various officials (School Commissioner, building inspector, etc.), and financial records.)</p></odd></c03>
+            <odd>
+              <p>(Records of regular and special Pittsfield Township board meetings for the years 1961-1963.  Documents motions brought before the board on various ordinances, zoning issues, expenditures, and revenue generation (through taxes, building permit fees, etc.) with records of the board's votes on matters.  Also contains reports of various officials (School Commissioner, building inspector, etc.), and financial records.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [4306598479853867225095]">8</container>
@@ -2010,7 +2065,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Records of regular and special Pittsfield Township board meetings for the years 1961-1963.  Documents motions brought before the board on various ordinances, zoning issues, expenditures, and revenue generation (through taxes, building permit fees, etc.) with records of the board's votes on matters.  Also contains reports of various officials (School Commissioner, building inspector, etc.), and financial records.)</p></odd></c03>
+            <odd>
+              <p>(Records of regular and special Pittsfield Township board meetings for the years 1961-1963.  Documents motions brought before the board on various ordinances, zoning issues, expenditures, and revenue generation (through taxes, building permit fees, etc.) with records of the board's votes on matters.  Also contains reports of various officials (School Commissioner, building inspector, etc.), and financial records.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [4306598479853867225095]">8</container>
@@ -2026,7 +2084,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Records of regular and special Pittsfield Township board meetings for the years 1963-1965.  Documents motions brought before the board on various ordinances, zoning issues, expenditures, and revenue generation (through taxes, building permit fees, etc.) with records of the board's votes on matters.  Also contains reports of various officials (School Commissioner, building inspector, etc.), and financial records.)</p></odd></c03>
+            <odd>
+              <p>(Records of regular and special Pittsfield Township board meetings for the years 1963-1965.  Documents motions brought before the board on various ordinances, zoning issues, expenditures, and revenue generation (through taxes, building permit fees, etc.) with records of the board's votes on matters.  Also contains reports of various officials (School Commissioner, building inspector, etc.), and financial records.)</p>
+            </odd>
+          </c03>
         </c02>
         <c02 level="file">
           <did>

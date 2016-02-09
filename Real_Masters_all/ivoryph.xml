@@ -35,7 +35,8 @@
         <item>Original encoding from Word 6.0 file.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Ivory Photo (Firm)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/19990">Ivory Photo (Firm)</corpname>
       </origination>
       <unittitle encodinganalog="245">Ivory Photo photograph collection <unitdate type="inclusive" encodinganalog="245 f" normal="1927/1971" certainty="approximate">circa 1927-1971</unitdate></unittitle>
       <abstract>Ann Arbor, Michigan, photography firm. Photonegatives, and some photoprints, of images largely relating to Ann Arbor and the University of Michigan, but including Ypsilanti and other Michigan cities: buildings, businesses, houses, street scenes, community activities, and organizations; also photos of automobiles, storm damage, etc. taken to support insurance claims.</abstract>
@@ -148,9 +149,9 @@
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80006284.html" ref="/subjects/999">Ypsilanti (Mich.)</geogname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/252">Ypsilanti (Mich.)--Buildings.</geogname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/225">Ypsilanti (Mich.)--Dwellings.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Sports.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Buildings.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Campus.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Sports.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Buildings.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Campus.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

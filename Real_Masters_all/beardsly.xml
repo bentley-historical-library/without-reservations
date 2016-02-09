@@ -27,7 +27,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">Beardsley, Richard K.</persname>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/29495">Beardsley, Richard K.</persname>
       </origination>
       <unittitle encodinganalog="245">Richard K. Beardsley papers <unitdate encodinganalog="245$f" type="inclusive" normal="1950/1975" certainty="approximate">circa 1950-1975</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">8569 Aa 2</unitid>
@@ -89,15 +90,15 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6237">Anthropology.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr93016275">Beardsley, Richard K. (Richard King), 1918-1978.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr93016275" ref="/agents/people/33716">Beardsley, Richard K. (Richard King), 1918-1978.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1260">Japan--Study and teaching--Michigan--Ann Arbor.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79036860">University of Michigan. Center for Japanese Studies.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79036860" ref="/agents/corporate_entities/17938">University of Michigan. Center for Japanese Studies.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3796">Agricultural machinery.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr93016275">Beardsley, Richard K. (Richard King), 1918-1978.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr93016275" ref="/agents/people/33716">Beardsley, Richard K. (Richard King), 1918-1978.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3649">Funeral rites and ceremonies.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6238">Industries--Japan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1261">Japan--Social life and customs.</geogname>

@@ -31,7 +31,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">St. Antoine, Theodore J.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/35648">St. Antoine, Theodore J.</persname>
       </origination>
       <unittitle encodinganalog="245">Theodore J. St. Antoine Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1966/1993">1966-1993</unitdate></unittitle>
       <abstract>Theodore St. Antoine, currently James E. and Sarah A. Degan Professor Emeritus of Law, has been an acknowledged expert in labor relations law since the late 1960s, and is a practicing labor arbitrator. He has also distinguished himself with a full service record, participating in and leading numerous committees, councils and other organizations in the labor law field as well as at the University of Michigan, including guiding the Law School as Dean from 1971 through 1978. The papers document the academic and public service aspects of St. Antoine's law career, from 1966 through 1993. The files are divided into four series: Arbitration Case Files; Articles, Speeches, Appearances and Conferences; Correspondence; and Public Service/Committee Work.</abstract>
@@ -88,9 +89,9 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81120959">St. Antoine, Theodore J., 1929-</persname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Law School--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">UAW-GM Legal Services Plan.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81120959" ref="/agents/people/34883">St. Antoine, Theodore J., 1929-</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Law School--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20014">UAW-GM Legal Services Plan.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8231">Workers' compensation--Law and legislation--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10226">Labor laws and legislation--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7803">Arbitration, Industrial.</subject>

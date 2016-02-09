@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Farrell, Thomas M.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28009">Farrell, Thomas M.</persname>
       </origination>
       <unittitle encodinganalog="245">Thomas M. Farrell papers <unitdate type="inclusive" encodinganalog="245$f" normal="1947/2011">1947-2011</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1952/2000">1952-2000</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2013128 Aa 2</unitid>
@@ -83,14 +84,14 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Farrell, Thomas M.</persname>
-        <persname source="lcnaf" encodinganalog="600">Mackie, John C.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80084463">Williams, G. Mennen, 1911-1988.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28009">Farrell, Thomas M.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31747">Mackie, John C.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80084463" ref="/agents/people/30999">Williams, G. Mennen, 1911-1988.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1374">Mackinac Bridge (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80126199">Michigan. Department of Education.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81128346">Michigan. Department of State Highways.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80126199" ref="/agents/corporate_entities/19354">Michigan. Department of Education.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81128346" ref="/agents/corporate_entities/17833">Michigan. Department of State Highways.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/910">Michigan--Politics and government--1951-</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81074669">Michigan. Supreme Court.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81074669" ref="/agents/corporate_entities/19121">Michigan. Supreme Court.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7735">Reporters and reporting--Law and legislation--Michigan.</subject>
       </controlaccess>
       <controlaccess>

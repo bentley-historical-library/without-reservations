@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Burlingame Congregational United Church of Christ (Wyoming, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/23065">Burlingame Congregational United Church of Christ (Wyoming, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">Burlingame Congregational United Church of Christ records <unitdate type="inclusive" encodinganalog="245$f" normal="1924/2009">1924-2009</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2009157 Ba 2</unitid>
@@ -81,10 +82,10 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Burlingame Congregational United Church of Christ (Wyoming, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/23065">Burlingame Congregational United Church of Christ (Wyoming, Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6586">Congregational churches--Michigan--Wyoming.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6587">Registers of births, etc.--Michigan--Wyoming.</subject>
-        <corpname source="lcnaf" encodinganalog="610">United Church of Christ--Michigan--Wyoming.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22456">United Church of Christ--Michigan--Wyoming.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6353">Women--Religious life--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1390">Wyoming (Mich.)--Church history.</geogname>
       </controlaccess>

@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Women in Engineering Office.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/18927">University of Michigan. Women in Engineering Office.</corpname>
       </origination>
       <unittitle encodinganalog="245">Women in Engineering Office (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1990/2000">1990-2000</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">033 Bimu 2</unitid>
@@ -85,12 +86,12 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname encodinganalog="610" source="lcnaf">University of Michigan. Women in Engineering Office.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/18927">University of Michigan. Women in Engineering Office.</corpname>
         <subject encodinganalog="650" rules="lcsh" source="lcsh" ref="/subjects/10792">Women in engineering.</subject>
         <subject encodinganalog="650" rules="lcsh" source="lcsh" ref="/subjects/10795">Women engineers.</subject>
         <subject encodinganalog="650" rules="lcsh" source="lcsh" ref="/subjects/5862">Women college students--Michigan--Ann Arbor.</subject>
-        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n80094504">University of Michigan. College of Engineering.</corpname>
-        <corpname encodinganalog="610" source="lcnaf">University of Michigan--Students--Scholarships, fellowships, etc.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n80094504" ref="/agents/corporate_entities/17661">University of Michigan. College of Engineering.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/18699">University of Michigan--Students--Scholarships, fellowships, etc.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

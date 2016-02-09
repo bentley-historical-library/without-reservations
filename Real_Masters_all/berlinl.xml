@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Berlin, Lawrence S.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32103">Berlin, Lawrence S.</persname>
       </origination>
       <unittitle encodinganalog="245">Lawrence S. Berlin papers <unitdate type="inclusive" encodinganalog="245$f" normal="1971/1983">1971-1983</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">9819 Aa 2</unitid>
@@ -81,11 +82,11 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Berlin, Lawrence S.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32103">Berlin, Lawrence S.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6299">Adult education.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6300">Continuing education.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82098946">University of Michigan. School of Education.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82098946" ref="/agents/corporate_entities/20661">University of Michigan. School of Education.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

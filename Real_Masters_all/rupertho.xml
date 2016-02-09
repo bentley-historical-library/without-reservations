@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Rupert, Hoover.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/34334">Rupert, Hoover.</persname>
       </origination>
       <unittitle encodinganalog="245">Hoover Rupert papers <unitdate type="inclusive" encodinganalog="245$f" normal="1954/1970">1954-1970</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">852170 Aa 2</unitid>
@@ -81,8 +82,8 @@
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html" ref="/subjects/860">Ann Arbor (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6096">Authors, American--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6466">Clergy--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">First Methodist Church (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United Methodist Church (U.S.)--Michigan--Ann Arbor.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22474">First Methodist Church (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19031">United Methodist Church (U.S.)--Michigan--Ann Arbor.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

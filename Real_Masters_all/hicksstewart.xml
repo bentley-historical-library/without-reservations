@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2010 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Hicks, Stewart F.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32056">Hicks, Stewart F.</persname>
       </origination>
       <unittitle encodinganalog="245">Stewart F. Hicks papers <unitdate type="inclusive" encodinganalog="245$f" normal="1924/1934">1924-1934</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1931/1933">1931-1933</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2015016 Aa 2; UAl; AC</unitid>
@@ -95,10 +96,10 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8215">Bridges--Design and construction--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6843">Civil Engineering.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6856">Engineers--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="600">Hicks, Stewart F.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32056">Hicks, Stewart F.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/865">Manistee (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81128345">Michigan. State Highway Department.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80094504">University of Michigan. College of Engineering.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81128345" ref="/agents/corporate_entities/19380">Michigan. State Highway Department.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80094504" ref="/agents/corporate_entities/17661">University of Michigan. College of Engineering.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>

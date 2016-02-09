@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" encodinganalog="110" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n92061399">Bethel A.M.E. Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n92061399" ref="/agents/corporate_entities/21634">Bethel A.M.E. Church (Detroit, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">Bethel A.M.E. Church (Detroit, Mich.) records <unitdate type="inclusive" encodinganalog="245$f" normal="1897/1999" certainty="approximate">1897-1990s</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1912/1969">1912-1969</unitdate></unittitle>
       <abstract>Quarterly conference reports; record books with lists of members, baptisms, marriages, and related information; minute books of trustees and various church groups; scattered historical and background information and photographs.</abstract>
@@ -85,24 +86,24 @@
     <controlaccess>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n92061399">Bethel A.M.E. Church (Detroit, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">African Methodist Episcopal Church--Michigan--Detroit.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n92061399" ref="/agents/corporate_entities/21634">Bethel A.M.E. Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18286">African Methodist Episcopal Church--Michigan--Detroit.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6315">African American churches--Michigan--Detroit.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5935">African Americans--Michigan--Detroit.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6316">Detroit (Mich.)--Church history.</subject>
-        <persname source="lcnaf" encodinganalog="600">Peck, William H.</persname>
-        <persname source="lcnaf" encodinganalog="600">Roberts, Joseph L., 1897-1977.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33448">Peck, William H.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/27739">Roberts, Joseph L., 1897-1977.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5985">Registers of births, etc.--Michigan--Detroit.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n92061399">Bethel A.M.E. Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n92061399" ref="/agents/corporate_entities/21634">Bethel A.M.E. Church (Detroit, Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3840">Afro-Americans--Michigan--Michigan--Detroit.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3674">Churches--Michigan--Detroit.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/218">Detroit (Mich.)--Churches.</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n98018663">Gomez, Joseph, 1890-1979.</persname>
-        <persname source="lcnaf" encodinganalog="600">Roberts, Joseph L., 1897-1977.</persname>
-        <persname source="lcnaf" encodinganalog="600">Osborne, Norman V.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n98018663" ref="/agents/people/29094">Gomez, Joseph, 1890-1979.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/27739">Roberts, Joseph L., 1897-1977.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29152">Osborne, Norman V.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

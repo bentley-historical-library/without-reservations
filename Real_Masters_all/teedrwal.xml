@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Teed, Reed Wallace, 1901-1979.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/31488">Teed, Reed Wallace, 1901-1979.</persname>
       </origination>
       <unittitle encodinganalog="245">Reed Wallace Teed photographs <unitdate type="inclusive" encodinganalog="245$f" normal="1890" certainty="approximate">circa 1890</unitdate>, <unitdate type="inclusive" encodinganalog="245$f" normal="1942/1946">1942-1946</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">92974 Aa 2; AC</unitid>
@@ -93,10 +94,10 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4166">Military life.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2961">Pacific Ocean.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4210">Religious services.</subject>
-        <persname source="lcnaf" encodinganalog="600">Teed, Reed Wallace, 1901-1979.</persname>
-        <famname source="lcnaf" encodinganalog="600">Teed family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31488">Teed, Reed Wallace, 1901-1979.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1454">Teed family.</famname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2962">Tinian (Northern Mariana Islands)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79059051">United States. Navy.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79059051" ref="/agents/corporate_entities/19120">United States. Navy.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5706">World War, 1939-1945.</subject>
       </controlaccess>
       <controlaccess>

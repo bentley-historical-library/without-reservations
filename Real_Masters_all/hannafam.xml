@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Hanna family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/1597">Hanna family.</famname>
       </origination>
       <unittitle encodinganalog="245">Hanna Family Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1888/1945">1888-1945</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">8787 Aa 2</unitid>
@@ -76,8 +77,8 @@
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5809">Business records.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1096">Gladwin (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600">Hanna, George.</persname>
-        <persname source="lcnaf" encodinganalog="600">Hanna, Isaac, 1848-1908.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34421">Hanna, George.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/27338">Hanna, Isaac, 1848-1908.</persname>
         <geogname source="local" encodinganalog="691" ref="/subjects/799">Michigan--Social life and customs--1881-1890.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/800">Michigan--Social life and customs--1891-1900.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1302">Michigan--Social life and customs--19th century.</geogname>

@@ -32,7 +32,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -43,7 +44,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n80067553">Pinkus, Hermann.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n80067553" ref="/agents/people/32934">Pinkus, Hermann.</persname>
       </origination>
       <unittitle encodinganalog="245">Hermann and Hilde Pinkus Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1930/1982">1930-1982</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2012011 Aa 2</unitid>
@@ -93,13 +94,13 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Pinkus, Hilde Hensel.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80067553">Pinkus, Hermann.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/27925">Pinkus, Hilde Hensel.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80067553" ref="/agents/people/32934">Pinkus, Hermann.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9774">Air--Pollution--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9775">Dermatologists--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9181">Pathology.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9776">Skin--Diseases--Treatment.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Detroit Dermatological Society.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19001">Detroit Dermatological Society.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

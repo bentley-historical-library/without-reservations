@@ -27,7 +27,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Edwards, Harry T.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30039">Edwards, Harry T.</persname>
       </origination>
       <unittitle encodinganalog="245">Harry T. Edwards papers <unitdate type="inclusive" encodinganalog="245$f" normal="1965/1980" certainty="approximate">circa 1965-1980</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">85154 Aa 2</unitid>
@@ -82,18 +83,18 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5680">Affirmative action programs--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79063287">Amtrak.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50054888">Association of American Law Schools.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Law School.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students.</corpname>
-        <corpname source="lcnaf" encodinganalog="611">National Women's Conference (1st : 1977 : Houston, Tex.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79063287" ref="/agents/corporate_entities/20745">Amtrak.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50054888" ref="/agents/corporate_entities/17784">Association of American Law Schools.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Law School.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Students.</corpname>
+        <corpname source="lcnaf" encodinganalog="611" ref="/agents/corporate_entities/17825">National Women's Conference (1st : 1977 : Houston, Tex.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5863">Minority college students--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5781">African Americans--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

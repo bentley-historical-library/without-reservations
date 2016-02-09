@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Davenport, Fred M. (Fred Marshall), 1914-1982.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28214">Davenport, Fred M. (Fred Marshall), 1914-1982.</persname>
       </origination>
       <unittitle encodinganalog="245">Fred M. Davenport papers <unitdate type="inclusive" encodinganalog="245$f" normal="1955/1972">1955-1972</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85130 Aa 2</unitid>
@@ -84,10 +85,10 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6517">Epidemiology.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80020716">University of Michigan. School of Public Health.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80020716" ref="/agents/corporate_entities/22180">University of Michigan. School of Public Health.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6020">Public health--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85185779">United States. Armed Forces Epidemiological Board.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85185779" ref="/agents/corporate_entities/17702">United States. Armed Forces Epidemiological Board.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/no2001067922">United Presbyterian Church in the U.S.A. Presbytery of Lake Superior.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/no2001067922" ref="/agents/corporate_entities/21576">United Presbyterian Church in the U.S.A. Presbytery of Lake Superior.</corpname>
       </origination>
       <unittitle encodinganalog="245">United Presbyterian Church in the U.S.A. Presbytery of Lake Superior records <unitdate type="inclusive" encodinganalog="245$f" normal="1853/1961">1853-1961</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">852116 Ba 2</unitid>
@@ -82,9 +83,9 @@
       <controlaccess>
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n2012078360.html" ref="/subjects/2504">Hessel (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Presbyterian Church (Hessel, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United Presbyterian Church in the U.S.A.--Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2001067922">United Presbyterian Church in the U.S.A. Presbytery of Lake Superior.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20918">Presbyterian Church (Hessel, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17442">United Presbyterian Church in the U.S.A.--Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2001067922" ref="/agents/corporate_entities/21576">United Presbyterian Church in the U.S.A. Presbytery of Lake Superior.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

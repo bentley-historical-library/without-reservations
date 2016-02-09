@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Information and Library Studies Student Organization.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/20646">University of Michigan. Information and Library Studies Student Organization.</corpname>
       </origination>
       <unittitle encodinganalog="245">Information and Library Studies Student Association (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1964/1994">1964-1994</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">87227 Bimu F22 2</unitid>
@@ -84,14 +85,14 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6330">Libraries--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81144007">University of Michigan. School of Library Science.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Societies, etc.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Information and Library Studies Student Organization.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no97022740">University of Michigan. School of Information.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81144007" ref="/agents/corporate_entities/17566">University of Michigan. School of Library Science.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Students--Societies, etc.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20646">University of Michigan. Information and Library Studies Student Organization.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no97022740" ref="/agents/corporate_entities/20576">University of Michigan. School of Information.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Library Science Student Organization.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/20029">University of Michigan. Library Science Student Organization.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/From:</head>

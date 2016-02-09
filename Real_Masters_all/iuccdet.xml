@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Immanuel United Church of Christ (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/18714">Immanuel United Church of Christ (Detroit, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">Immanuel United Church of Christ (Detroit, Mich.) records <unitdate type="inclusive" encodinganalog="245$f" normal="1894">1894</unitdate>, <unitdate type="inclusive" encodinganalog="245$f" normal="1912/1995">1912-1995</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1942/1978">1942-1978</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">97122 Ba 2</unitid>
@@ -86,14 +87,14 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Immanuel United Church of Christ (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18714">Immanuel United Church of Christ (Detroit, Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6821">German Americans--Michigan--Detroit.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/952">Detroit (Mich.)--Church history.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">United Church of Christ--Michigan--Detroit.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22456">United Church of Christ--Michigan--Detroit.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname source="lcnaf" encodinganalog="610">Immanuel United Church of Christ (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18714">Immanuel United Church of Christ (Detroit, Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3674">Churches--Michigan--Detroit.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539.html" ref="/subjects/933">Detroit (Mich.)</geogname>
       </controlaccess>

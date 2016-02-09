@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Welch, Kenneth Curtis, 1891-1973.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33031">Welch, Kenneth Curtis, 1891-1973.</persname>
       </origination>
       <unittitle encodinganalog="245">Kenneth C. Welch Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1915/1972">1915-1972</unitdate></unittitle>
       <abstract>Grand Rapids, Michigan, architect and planner. Correspondence, writings, working files, and photographs for out-of-state and Michigan projects, primarily in Grand Rapids, Lansing, Flint, and East Lansing; professional materials relating to problems of urban planning, the design of department stores and shopping centers, his general interest in lighting designs, traffic patterns, and parking areas, and to his work with the Lake Michigan Region Planning Committee, the American Institute of Architects and the Michigan Society of Architects; also Welch family materials, including record, 1915-1925, of the Welch Manufacturing Company of Grand Rapids, Michigan.</abstract>
@@ -95,7 +96,7 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79053945">American Institute of Architects.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79053945" ref="/agents/corporate_entities/19317">American Institute of Architects.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6291">Architects.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5857">Architecture.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6292">Automobile parking.</subject>
@@ -104,12 +105,12 @@
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79129544.html" ref="/subjects/1083">East Lansing (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82166396.html" ref="/subjects/893">Flint (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79133151.html" ref="/subjects/1102">Grand Rapids (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Lake Michigan Region Planning Council.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17745">Lake Michigan Region Planning Council.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1140">Lansing (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85000355">Michigan Society of Architects.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85000355" ref="/agents/corporate_entities/21416">Michigan Society of Architects.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8949">Shopping centers.</subject>
-        <famname source="lcnaf" encodinganalog="600">Welch family.</famname>
-        <corpname source="lcnaf" encodinganalog="610">Welch Manufacturing Company (Grand Rapids, Mich.)</corpname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1416">Welch family.</famname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20667">Welch Manufacturing Company (Grand Rapids, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
@@ -118,7 +119,7 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6292">Automobile parking.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79006530.html" ref="/subjects/3070">Baltimore (Md.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/3071">Beverly (Mass.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Breton Village Shopping Center (Grand Rapids, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21601">Breton Village Shopping Center (Grand Rapids, Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4456">Business enterprises.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10686">Business enterprises--Michigan--East Lansing.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10687">Business enterprises--Michigan--Grand Rapids.</subject>
@@ -135,7 +136,7 @@
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/3076">Edina (Minn.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/3077">El Paso (Tex.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/3078">Flint (Mich.)--Aerial photographs.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Fountain Street Baptist Church (Grand Rapids, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17996">Fountain Street Baptist Church (Grand Rapids, Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80139920.html" ref="/subjects/3079">Framingham (Mass.)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82045026.html" ref="/subjects/3080">Glen Burnie (Md.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/3081">Grand Rapids (Mich.)--Aerial photographs.</geogname>

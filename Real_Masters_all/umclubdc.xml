@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan Club of Washington, D.C.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/21429">University of Michigan Club of Washington, D.C.</corpname>
       </origination>
       <unittitle encodinganalog="245">University of Michigan Club of Washington, D.C. records <unitdate type="inclusive" encodinganalog="245$f" normal="1935/1985">1935-1985</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">861144 Bimu H1a 2</unitid>
@@ -78,18 +79,18 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Alumni and alumnae--Washington (D.C.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan Club of Washington, D.C.</corpname>
-        <persname source="lcnaf" encodinganalog="700">Collier, T. Maxwell.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Alumni and alumnae--Washington (D.C.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21429">University of Michigan Club of Washington, D.C.</corpname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35439">Collier, T. Maxwell.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan Club of Washington, D.C.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21429">University of Michigan Club of Washington, D.C.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors- Sound Recordings:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no89013050">Fleming, R. W. (Robben Wright), 1916-2010.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79022087">Ford, Gerald R., 1913-2006.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no89013050" ref="/agents/people/28398">Fleming, R. W. (Robben Wright), 1916-2010.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79022087" ref="/agents/people/31243">Ford, Gerald R., 1913-2006.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

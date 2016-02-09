@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">DeLano, Fred H., 1916-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30744">DeLano, Fred H., 1916-</persname>
       </origination>
       <unittitle encodinganalog="245">Fred H. DeLano papers <unitdate type="inclusive" encodinganalog="245$f" normal="1907/1923">1907-1923</unitdate>, <unitdate type="inclusive" encodinganalog="245$f" normal="1949/1987">1949-1987</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">921098 Aa 2</unitid>
@@ -79,14 +80,14 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7202">Athletics--Michigan--Detroit.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83184663">Detroit Pistons (Basketball team)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83184663" ref="/agents/corporate_entities/21000">Detroit Pistons (Basketball team)</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85046902.html" ref="/subjects/1074">Dowagiac (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600">Hurst, Ervin.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32920">Hurst, Ervin.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7203">Journalists--Michigan--Dowagiac.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname encodinganalog="600" source="lcnaf">DeLano, Fred H., 1916-</persname>
+        <persname encodinganalog="600" source="lcnaf" ref="/agents/people/30744">DeLano, Fred H., 1916-</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

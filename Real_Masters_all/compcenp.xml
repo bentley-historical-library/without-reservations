@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n88650382">University of Michigan. Computing Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n88650382" ref="/agents/corporate_entities/20287">University of Michigan. Computing Center.</corpname>
       </origination>
       <unittitle encodinganalog="245">Computing Center (University of Michigan) publications, 1965-1999 <unitdate type="inclusive" encodinganalog="245$f" normal="1965/1999">1965-1999</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">0351 Bimu 2</unitid>
@@ -77,9 +78,9 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88650382">University of Michigan. Computing Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88650382" ref="/agents/corporate_entities/20287">University of Michigan. Computing Center.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6585">Computers.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Terminal System.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22275">Michigan Terminal System.</corpname>
         <title source="aacr2" encodinganalog="740" ref="/subjects/38">Non-credit computing courses on campus.</title>
         <title source="aacr2" encodinganalog="740" ref="/subjects/39">InfoTech guide.</title>
         <title source="aacr2" encodinganalog="740" ref="/subjects/40">Welcome to computing at the University of Michigan.</title>

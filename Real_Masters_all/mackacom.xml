@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Mack &amp; Company (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/18734">Mack &amp; Company (Ann Arbor, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">Mack &amp; Company records <unitdate type="inclusive" encodinganalog="245$f" normal="1858/1940">1858-1940</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85477 Bb.2 2; BB.2 Out. Vol.</unitid>
@@ -86,8 +87,8 @@
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8954">General stores--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6064">Insurance--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="600">Mack, Christian, 1834-1902.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Mack Insurance Agency (Ann Arbor, Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29189">Mack, Christian, 1834-1902.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18412">Mack Insurance Agency (Ann Arbor, Mich.)</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

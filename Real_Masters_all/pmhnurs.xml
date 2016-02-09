@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Psychiatric-Mental Health Nursing Area.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/20912">University of Michigan. Psychiatric-Mental Health Nursing Area.</corpname>
       </origination>
       <unittitle encodinganalog="245">Psychiatric-Mental Health Nursing Area (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1973/1982">1973-1982</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">87271 Bimu C266 2</unitid>
@@ -77,8 +78,8 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no96022006">University of Michigan. School of Nursing.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Psychiatric-Mental Health Nursing Area.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no96022006" ref="/agents/corporate_entities/19444">University of Michigan. School of Nursing.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20912">University of Michigan. Psychiatric-Mental Health Nursing Area.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

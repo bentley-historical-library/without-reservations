@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Shock, Nathan Wetherill, 1906-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/29365">Shock, Nathan Wetherill, 1906-</persname>
       </origination>
       <unittitle encodinganalog="245">Nathan W. Shock Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1906/1989">1906-1989</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1927/1988">1927-1988</unitdate></unittitle>
       <physloc>Portions of the collection are located offsite; two days notice required for retrieval.</physloc>
@@ -112,21 +113,21 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6582">Aging.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85231664">Gerontological Society of America.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85231664" ref="/agents/corporate_entities/18231">Gerontological Society of America.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6583">Gerontology.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Gerontology Research Center (U. S.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82071994">International Association of Gerontology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80034377">National Institute on Aging.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no91018287">National Institutes of Health (U. S.). Center for Aging Research.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79145511">Shock, Nathan W. (Nathan Wetherill), 1906-1989</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21330">Gerontology Research Center (U. S.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82071994" ref="/agents/corporate_entities/18585">International Association of Gerontology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80034377" ref="/agents/corporate_entities/19037">National Institute on Aging.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no91018287" ref="/agents/corporate_entities/19681">National Institutes of Health (U. S.). Center for Aging Research.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79145511" ref="/agents/people/27681">Shock, Nathan W. (Nathan Wetherill), 1906-1989</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85231664">Gerontological Society of America.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85231664" ref="/agents/corporate_entities/18231">Gerontological Society of America.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4150">Gerontology.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Gerontology Research Center (U. S.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82071994">International Association of Gerontology.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79145511">Shock, Nathan W. (Nathan Wetherill), 1906-1989</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21330">Gerontology Research Center (U. S.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82071994" ref="/agents/corporate_entities/18585">International Association of Gerontology.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79145511" ref="/agents/people/27681">Shock, Nathan W. (Nathan Wetherill), 1906-1989</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

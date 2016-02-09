@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Khoury, Sari, 1941-1997.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33027">Khoury, Sari, 1941-1997.</persname>
       </origination>
       <unittitle encodinganalog="245">Sari Khoury Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1960/1999">1960-1999</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1970/1990">1970-1990</unitdate></unittitle>
       <abstract>Sari Khoury was a Palestinian-American artist and professor at Central Michigan University. The collection consists primarily of exhibition materials of his shows, and documents related to his work as a professor at CMU.</abstract>
@@ -82,14 +83,14 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Khoury, Sari, 1941-1997.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33027">Khoury, Sari, 1941-1997.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5792">Arab Americans--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6724">Artists--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Central Michigan University--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20895">Central Michigan University--Faculty.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Khoury, Sari, 1941-1997.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33027">Khoury, Sari, 1941-1997.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3977">Artists--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5792">Arab Americans--Michigan.</subject>
       </controlaccess>

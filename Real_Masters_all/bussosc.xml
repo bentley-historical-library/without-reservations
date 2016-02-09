@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Buss, Oscar F.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/27898">Buss, Oscar F.</persname>
       </origination>
       <unittitle encodinganalog="245">Oscar Buss Photographs <unitdate type="inclusive" encodinganalog="245$f" normal="1920/1959" certainty="approximate">1920s-1950s</unitdate></unittitle>
       <abstract>Amateur photographer of Ann Arbor, Michigan, bookkeeper with the Symons Food Co. in Ann Arbor. Photographs taken highlighting Ann Arbor and University of Michigan views, notably football games, arrivals and departures at the train station, train wrecks, and other vehicular mishaps, graduation ceremonies, parades, and business and university buildings. Some photographs are of gatherings of the Ku Klux Klan in Jackson, Michigan and outside the city, 1920s.</abstract>
@@ -78,18 +79,18 @@
     <controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Buss, Oscar F.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/27898">Buss, Oscar F.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3946">Graduation ceremonies--Michigan--Ann Arbor.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/924">Jackson (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Ku Klux Klan (1915- )--Michigan--Jackson.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Majestic Theatre (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20165">Ku Klux Klan (1915- )--Michigan--Jackson.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19003">Majestic Theatre (Ann Arbor, Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3947">Military parades and processions--Michigan--Ann Arbor.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3948">Laborers--Michigan--Ann Arbor.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3949">Railroad accidents--Michigan--Ann Arbor.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3551">Railroad stations--Michigan--Ann Arbor.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3950">Road construction--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Buildings.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Football.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Buildings.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Football.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

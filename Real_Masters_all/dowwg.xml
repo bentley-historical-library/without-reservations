@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Dow, William G. (William Gould), 1895-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33091">Dow, William G. (William Gould), 1895-</persname>
       </origination>
       <unittitle encodinganalog="245">William G. Dow Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1927/1999">1927-1999</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1930/1960">1930-1960</unitdate></unittitle>
       <abstract>Professor of electrical engineering at the University of Michigan. Files documenting his scientific research and professional activities, notably his studies of high-frequency power welding, vacuum tube development, gas discharge plasma, microwave electron tubes, use of rockets and satellites in investigations of the upper atmosphere, missile guidance systems, and military electronics; files relating to his involvement with various University of Michigan research centers and institutes; and photographs.</abstract>
@@ -87,9 +88,9 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">American Institute of Electrical Engineers.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20766">American Institute of Electrical Engineers.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7308">Astronautics--History.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr93013151">Dow, William G. (William Gould), 1895-1999</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr93013151" ref="/agents/people/32311">Dow, William G. (William Gould), 1895-1999</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7309">Electric engineering.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7310">Electron tubes.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7311">Electronics in rocketry.</subject>
@@ -98,31 +99,31 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7314">Engineers--Education--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6424">Engineers--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7315">Guided missiles--Guidance systems.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79053217">Institute of Electrical and Electronics Engineers.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79053217" ref="/agents/corporate_entities/22289">Institute of Electrical and Electronics Engineers.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7316">Military engineering.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7317">Military research--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7318">Research, Industrial--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7319">Rockets (Aeronautics)--Research--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7320">Rocketry--Research--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7321">Rocketry--United States--History.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80094504">University of Michigan. College of Engineering.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Electrical Engineering.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Electronics Institute.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88629496">University of Michigan. Engineering Research Institute.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Plasma Engineering Laboratory.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Research.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr92020254">University of Michigan. Space Physics Research Laboratory.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Willow Run Laboratories.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80094504" ref="/agents/corporate_entities/17661">University of Michigan. College of Engineering.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20295">University of Michigan. Dept. of Electrical Engineering.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20963">University of Michigan. Electronics Institute.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88629496" ref="/agents/corporate_entities/20096">University of Michigan. Engineering Research Institute.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21014">University of Michigan. Plasma Engineering Laboratory.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Research.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr92020254" ref="/agents/corporate_entities/20853">University of Michigan. Space Physics Research Laboratory.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21821">University of Michigan. Willow Run Laboratories.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7322">V-2 rocket--Scientific applications.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7323">World War, 1939-1945--Science.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr93013151">Dow, William G. (William Gould), 1895-1999</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr93013151" ref="/agents/people/32311">Dow, William G. (William Gould), 1895-1999</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4154">Rockets.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Electronics Institute.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20963">University of Michigan. Electronics Institute.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

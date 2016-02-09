@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Adams, James Patrick.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/34941">Adams, James Patrick.</persname>
       </origination>
       <unittitle encodinganalog="245">James Patrick Adams Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1978/1981">1978-1981</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">861054 Aa 2</unitid>
@@ -75,8 +76,8 @@
       <controlaccess>
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/857">Ann Arbor (Mich.)--Politics and government.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n86804886">Michigan Student Assembly.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs--1971-1980.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n86804886" ref="/agents/corporate_entities/20616">Michigan Student Assembly.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Students--Social life and customs--1971-1980.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/no92020737">Jones, Henry D. (Henry David), 1900-1987.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/no92020737" ref="/agents/people/33049">Jones, Henry D. (Henry David), 1900-1987.</persname>
       </origination>
       <unittitle encodinganalog="245">Henry D. Jones Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1918/1987">1918-1987</unitdate></unittitle>
       <abstract>Presbyterian clergyman, missionary to China and Japan. Diary, 1918, detailing study at Ripon College and service in the Students' Army Training Corps; files relating to foreign missionary activities, including photographs; correspondence, 1935-1986; articles and biographical material; and personal and professional miscellanea relating in part to his interest in the history of Welsh Americans in Michigan.</abstract>
@@ -88,26 +89,26 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8506">Clergy--Japan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8507">Clergy--China.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/948">Japan.</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no92020737">Jones, Henry D. (Henry David), 1900-1987.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no92020737" ref="/agents/people/33049">Jones, Henry D. (Henry David), 1900-1987.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5973">Missionaries--China.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8508">Missionaries--Japan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Presbyterian Church--Missions--Japan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Presbyterian Church--Missions--China.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Presbyterian Church.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88668016">Ripon College.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19977">Presbyterian Church--Missions--Japan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19977">Presbyterian Church--Missions--China.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19977">Presbyterian Church.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88668016" ref="/agents/corporate_entities/22110">Ripon College.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8509">Welsh-Americans--Michigan.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/354">China--Missions.</geogname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/355">Japan--Missions.</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no92020737">Jones, Henry D. (Henry David), 1900-1987.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no92020737" ref="/agents/people/33049">Jones, Henry D. (Henry David), 1900-1987.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4535">Missionaries--Japan.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3671">Missionaries--China.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3672">Missions--China.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4194">Missions--Japan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Presbyterian Church--Missions--Japan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Presbyterian Church--Missions--China.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19977">Presbyterian Church--Missions--Japan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19977">Presbyterian Church--Missions--China.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

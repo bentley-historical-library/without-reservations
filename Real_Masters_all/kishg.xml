@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Kish, George, 1914-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30645">Kish, George, 1914-</persname>
       </origination>
       <unittitle encodinganalog="245">George Kish papers <unitdate type="inclusive" encodinganalog="245$f" normal="1932/1989">1932-1989</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1955/1980">1955-1980</unitdate></unittitle>
       <abstract>Professor of geography at the University of Michigan. Series include correspondence, subject files, professional societies, geography courses, reprints, manuscripts, notes as a student, and photographs; files relate to his professional interests and to the subject of geography.</abstract>
@@ -88,21 +89,21 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">American Geographical Union.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79006582">Association of American Geographers.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22738">American Geographical Union.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79006582" ref="/agents/corporate_entities/18257">Association of American Geographers.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7956">Geography.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79092483">International Geographical Union.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79045185">Kish, George, 1914-1989</persname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Geography.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79092483" ref="/agents/corporate_entities/21352">International Geographical Union.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79045185" ref="/agents/people/28232">Kish, George, 1914-1989</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20547">University of Michigan. Dept. of Geography.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4578">Geography.</subject>
-        <corpname source="lcnaf" encodinganalog="611">Henry Russel Award (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="611" ref="/agents/corporate_entities/18210">Henry Russel Award (University of Michigan)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1003">Italy.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4579">Map making--History.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

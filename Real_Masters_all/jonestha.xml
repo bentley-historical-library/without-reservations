@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Jones, Thankful O. (Thankful Olivia), 1814-1894.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/29722">Jones, Thankful O. (Thankful Olivia), 1814-1894.</persname>
       </origination>
       <unittitle encodinganalog="245">Thankful O. Jones Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1835/1914">1835-1914</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1861/1865">1861-1865</unitdate></unittitle>
       <abstract>Papers of Thankful O. Jones and other members of the Jones and Burch families of New York state and Clinton County, Michigan. Civil War papers of son Harlem, soldier with Co. K, 11th New York Volunteer Cavalry; letters of other family members concerning daily activities, business and fraternal affairs, and life in Maple Rapids, Michigan, in the 1890s; also photographs.</abstract>
@@ -88,26 +89,26 @@
     <controlaccess>
       <controlaccess>
         <head>Subjects:</head>
-        <famname source="lcnaf" encodinganalog="600">Burch family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1479">Burch family.</famname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2090">Clinton County (Mich.)</geogname>
-        <famname source="lcnaf" encodinganalog="600">Jones family.</famname>
-        <persname source="lcnaf" encodinganalog="600">Jones, Thankful O. (Thankful Olivia), 1814-1894.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1343">Jones family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29722">Jones, Thankful O. (Thankful Olivia), 1814-1894.</persname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n98032924.html" ref="/subjects/1156">Maple Rapids (Mich.)</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/800">Michigan--Social life and customs--1891-1900.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2138">New York (State)--Social life and customs.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. New York Cavalry Regiment, 11th (1861-1865). Company K.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20892">United States. Army. New York Cavalry Regiment, 11th (1861-1865). Company K.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/909">United States--History--Civil War, 1861-1865.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8522">Women--Michigan--Clinton County.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1302">Michigan--Social life and customs--19th century.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Jones, Thankful O. (Thankful Olivia), 1814-1894.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29722">Jones, Thankful O. (Thankful Olivia), 1814-1894.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3569">Women.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Jones, Harlem.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28352">Jones, Harlem.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

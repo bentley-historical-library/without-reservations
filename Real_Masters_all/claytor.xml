@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Claytor, Helen Jackson.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/35486">Claytor, Helen Jackson.</persname>
       </origination>
       <unittitle encodinganalog="245">Helen Jackson Claytor papers <unitdate type="inclusive" encodinganalog="245$f" normal="1924/2005">1924-2005</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1955/1985">1955-1985</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">8763 Aa 2; Ac</unitid>
@@ -90,13 +91,13 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6868">Women--Michigan--Grand Rapids--Societies and clubs.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6869">Young Women's Christian Associations.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6870">African American women--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Young Women's Christian Association (Grand Rapids, Mich.)</corpname>
-        <persname source="lcnaf" encodinganalog="600">Claytor, Helen Jackson.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17711">Young Women's Christian Association (Grand Rapids, Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35486">Claytor, Helen Jackson.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3532">African Americans--Women.</subject>
-        <persname source="lcnaf" encodinganalog="600">Claytor, Helen Jackson.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35486">Claytor, Helen Jackson.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1603">Lebanon.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3569">Women.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6869">Young Women's Christian Associations.</subject>

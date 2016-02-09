@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Duff, Ivan F. (1915-1994)</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/34143">Duff, Ivan F. (1915-1994)</persname>
       </origination>
       <unittitle encodinganalog="245">Ivan F. Duff papers <unitdate type="inclusive" encodinganalog="245$f" normal="1947/1994">1947-1994</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1976/1982">1976-1982</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">95106 Aa 2</unitid>
@@ -85,14 +86,14 @@
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7355">Older people--Diseases.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7356">Older people--Dwellings.</subject>
-        <persname source="lcnaf" encodinganalog="600">Duff, Ivan Francis, 1915-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29915">Duff, Ivan Francis, 1915-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7357">Geriatrics--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7358">Gerontology--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">National Society of Clinical Rheumatologists.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81128927">Turner Geriatric Clinic.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Internal Medicine.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Division of Geriatrics.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79151430">University of Michigan. Division of Gerontology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17904">National Society of Clinical Rheumatologists.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81128927" ref="/agents/corporate_entities/17718">Turner Geriatric Clinic.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21248">University of Michigan. Dept. of Internal Medicine.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19097">University of Michigan. Division of Geriatrics.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79151430" ref="/agents/corporate_entities/17924">University of Michigan. Division of Gerontology.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

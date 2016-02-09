@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n50044244">Riegel, Klaus F.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n50044244" ref="/agents/people/33695">Riegel, Klaus F.</persname>
       </origination>
       <unittitle encodinganalog="245">Klaus F. Riegel Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1955/1977">1955-1977</unitdate></unittitle>
       <abstract>Professor of psychology and member of the Institute of Gerontology of the University of Michigan. Correspondence, conference and symposium files, teaching materials, grant proposals and reports, and papers and reprints; also papers of Ruth Riegel.</abstract>
@@ -84,11 +85,11 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6583">Gerontology.</subject>
-        <persname authfilenumber="http://id.loc.gov/authorities/names/n50044244" source="lcnaf">Riegel, Klaus F.</persname>
-        <persname source="lcnaf">Riegel, Ruth.</persname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Psychology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79043490">University of Michigan. Institute of Gerontology.</corpname>
+        <persname authfilenumber="http://id.loc.gov/authorities/names/n50044244" source="lcnaf" ref="/agents/people/33695">Riegel, Klaus F.</persname>
+        <persname source="lcnaf" ref="/agents/people/33284">Riegel, Ruth.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19242">University of Michigan. Dept. of Psychology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79043490" ref="/agents/corporate_entities/17505">University of Michigan. Institute of Gerontology.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

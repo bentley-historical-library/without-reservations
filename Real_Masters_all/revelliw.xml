@@ -43,7 +43,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -54,7 +55,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Revelli, William D. (William Donald), 1902-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28920">Revelli, William D. (William Donald), 1902-</persname>
       </origination>
       <unittitle encodinganalog="245">William D. Revelli Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1907/1994">1907-1994</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1935/1991">1935-1991</unitdate></unittitle>
       <abstract>Conductor of bands and professor of wind instruments at the University of Michigan. The series in the collection include: Biographical/Personal information; Correspondence, 1921-1994; University of Michigan Activities (primarily relating to performances and tours of the Marching Band and the Symphony Band); Other Professional Activities (relating to Band Conductors Conferences and band clinics, and including files of Revelli's writings and musical compositions); Visual Materials; and Sound Recordings.</abstract>
@@ -104,22 +105,22 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82217046">Revelli, William D. (William Donald), 1902-1994.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82217046" ref="/agents/people/35515">Revelli, William D. (William Donald), 1902-1994.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9778">Bands (Music)--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9903">Conductors (Music)--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9904">Marching bands--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9905">Music--Instruction and study--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Band.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22672">University of Michigan. Band.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82217046">Revelli, William D. (William Donald), 1902-1994.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82217046" ref="/agents/people/35515">Revelli, William D. (William Donald), 1902-1994.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3596">Bands.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5157">Marching bands.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Revelli Hall (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Band.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18590">Revelli Hall (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22672">University of Michigan. Band.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

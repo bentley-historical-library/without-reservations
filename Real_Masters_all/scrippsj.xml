@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n85809515">Scripps, James E. (James Edmund), 1835-1906.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n85809515" ref="/agents/people/32460">Scripps, James E. (James Edmund), 1835-1906.</persname>
       </origination>
       <unittitle encodinganalog="245">James E. Scripps Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1858/1940">1858-1940</unitdate></unittitle>
       <abstract>Detroit, Michigan, newspaper publisher. Papers of Scripps and of the James E. Scripps Trust established to ensure that control of Scripps's Evening News Association would remain with his immediate family. Series in the collection include: biographical material, notably unpublished biography and personal diaries, 1858-1868 and 1872-1881; business records of various Scripps newspapers and publishing companies; George H. Scripps probate records; and James E. Scripps trust records.</abstract>
@@ -94,11 +95,11 @@
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5934">American newspapers--Michigan--Detroit.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539.html" ref="/subjects/933">Detroit (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Evening News Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21570">Evening News Association.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5933">Journalists--Michigan--Detroit.</subject>
-        <persname source="lcnaf" encodinganalog="600">Scripps, George H., d. 1900.</persname>
-        <persname authfilenumber="http://id.loc.gov/authorities/names/n85809515" source="lcnaf">Scripps, James E. (James Edmund), 1835-1906.</persname>
-        <famname source="lcnaf" encodinganalog="600">Scripps family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35133">Scripps, George H., d. 1900.</persname>
+        <persname authfilenumber="http://id.loc.gov/authorities/names/n85809515" source="lcnaf" ref="/agents/people/32460">Scripps, James E. (James Edmund), 1835-1906.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1477">Scripps family.</famname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6035">Travelers.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6034">Voyages and travels.</subject>
       </controlaccess>

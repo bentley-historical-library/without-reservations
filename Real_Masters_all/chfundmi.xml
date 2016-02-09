@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n85815930">Children's Fund of Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n85815930" ref="/agents/corporate_entities/18109">Children's Fund of Michigan.</corpname>
       </origination>
       <unittitle encodinganalog="245">Children's Fund of Michigan, records <unitdate type="inclusive" encodinganalog="245$f" normal="1929/1965">1929-1965</unitdate>, <unitdate type="bulk" encodinganalog="245$f" normal="1929/1961">1929-1961</unitdate></unittitle>
       <abstract>Detroit based philanthropic foundation created by Senator James J. Couzens and administered by William J. Norton to fund organizations in Michigan involved in child health and child guidance; includes administrative records, correspondence, reports of field visits, and topical files.</abstract>
@@ -99,20 +100,20 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6801">Child mental health--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6802">Child welfare--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6803">Children--Health and hygiene--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n91083492">Children's Hospital of Michigan.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n86070545">Couzens, James, 1872-1936.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n91083492" ref="/agents/corporate_entities/18337">Children's Hospital of Michigan.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n86070545" ref="/agents/people/29430">Couzens, James, 1872-1936.</persname>
         <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Scrapbooks.</genreform>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6804">Dental clinics--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6526">Depressions--1929--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no95051945">Detroit (Mich.). Mayor's Interracial Committee.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no95051945" ref="/agents/corporate_entities/18478">Detroit (Mich.). Mayor's Interracial Committee.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6805">Hospitals--Michigan--Detroit.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6806">Hospitals--Michigan--Traverse City.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6807">Hospitals--Michigan--Marquette.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80126086">Michigan. State Emergency Welfare Relief Commission.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n91025302">Norton, William J. (William John), 1883-1975.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80126086" ref="/agents/corporate_entities/22177">Michigan. State Emergency Welfare Relief Commission.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n91025302" ref="/agents/people/33503">Norton, William J. (William John), 1883-1975.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6808">Philanthropists--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6809">Social service--Michigan--Societies, etc.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83057589">United Community Services of Metropolitan Detroit.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83057589" ref="/agents/corporate_entities/20209">United Community Services of Metropolitan Detroit.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
@@ -124,7 +125,7 @@
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81002806.html" ref="/subjects/1556">Charlevoix County (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091936.html" ref="/subjects/979">Cheboygan County (Mich.)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3572">Children.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85815930">Children's Fund of Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85815930" ref="/agents/corporate_entities/18109">Children's Fund of Michigan.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/996">Chippewa County (Mich.)</geogname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/254">Dwellings.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3737">Ferries.</subject>
@@ -156,11 +157,11 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Carey, B. W.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79139359">Dorsey, John M. (John Morris), 1900-1978</persname>
-        <persname source="lcnaf" encodinganalog="700">Gibson, Kenneth Richard, 1895-1959.</persname>
-        <persname source="lcnaf" encodinganalog="700">Kenworthy, Marion E.</persname>
-        <persname source="lcnaf" encodinganalog="700">Watson, Maud E.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34049">Carey, B. W.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79139359" ref="/agents/people/32929">Dorsey, John M. (John Morris), 1900-1978</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32552">Gibson, Kenneth Richard, 1895-1959.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30759">Kenworthy, Marion E.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31316">Watson, Maud E.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

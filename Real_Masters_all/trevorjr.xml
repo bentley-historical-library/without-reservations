@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n86842817">Trevor, John B., 1909-</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n86842817" ref="/agents/people/29368">Trevor, John B., 1909-</persname>
       </origination>
       <unittitle encodinganalog="245">John B. Trevor, Jr. Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1939/1987">1939-1987</unitdate></unittitle>
       <abstract>John B. Trevor was active in various local (New York state) and national conservative and patriotic organizations; topical files, 1930s-1970s, contain correspondence, published materials, clippings, and ephemera detailing his interest in, and involvement with, such organizations as the Sons of the American Revolution and the American Coalition of Patriotic Societies.</abstract>
@@ -80,12 +81,12 @@
     <controlaccess>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n86842817">Trevor, John B., 1909-</persname>
-        <corpname source="lcnaf" encodinganalog="610">American Coalition of Patriotic, Civic, and Fraternal Societies.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n86842817" ref="/agents/people/29368">Trevor, John B., 1909-</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18457">American Coalition of Patriotic, Civic, and Fraternal Societies.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10420">Patriotic societies--New York (State)</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n00090761">Pioneer Fund.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87100401">Sons of the American Revolution. Empire State Society.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n84183893">Weyher, Harry Frederick, 1921-</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n00090761" ref="/agents/corporate_entities/22984">Pioneer Fund.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87100401" ref="/agents/corporate_entities/22114">Sons of the American Revolution. Empire State Society.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n84183893" ref="/agents/people/34498">Weyher, Harry Frederick, 1921-</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

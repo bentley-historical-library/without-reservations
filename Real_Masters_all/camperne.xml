@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Campbell, Ernest T.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/34510">Campbell, Ernest T.</persname>
       </origination>
       <unittitle encodinganalog="245">Ernest T. Campbell sermons <unitdate type="inclusive" encodinganalog="245$f" normal="1963/1968">1963-1968</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">755 DA 2; C187.5; S486</unitid>
@@ -78,7 +79,7 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6368">Sermons--American.</subject>
-        <corpname source="lcnaf" encodinganalog="710">First Presbyterian Church (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/18768">First Presbyterian Church (Ann Arbor, Mich.)</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

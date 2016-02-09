@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname encodinganalog="100" source="lcnaf">Rinsey family.</famname>
+        <famname encodinganalog="100" source="lcnaf" ref="/agents/families/1315">Rinsey family.</famname>
       </origination>
       <unittitle encodinganalog="245">Rinsey family papers <unitdate type="inclusive" encodinganalog="245$f" normal="1856/1950">1856-1950</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1913/1928">1913-1928</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">861000 Aa 2</unitid>
@@ -81,7 +82,7 @@
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html" ref="/subjects/860">Ann Arbor (Mich.)</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/840">Ann Arbor (Mich.)--Dwellings.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5764">Women--Michigan--Ann Arbor.</subject>
-        <famname source="lcnaf" encodinganalog="600">Alexander family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1375">Alexander family.</famname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
@@ -104,17 +105,17 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3639">Interiors.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81139923.html" ref="/subjects/949">Mackinac Island (Mich.)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5162">Nuns.</subject>
-        <persname source="lcnaf" encodinganalog="600">Rinsey, Ina Alexander.</persname>
-        <famname source="lcnaf" encodinganalog="600">Rinsey family.</famname>
-        <corpname source="lcnaf" encodinganalog="610">St. Thomas the Apostle Church (Ann Arbor, Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/27679">Rinsey, Ina Alexander.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1315">Rinsey family.</famname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22107">St. Thomas the Apostle Church (Ann Arbor, Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3795">Streets--Michigan--Ann Arbor.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3636">Weddings.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Rinsey, David, b. 1838.</persname>
-        <persname source="lcnaf" encodinganalog="700">Rinsey, George, 1881-</persname>
-        <persname source="lcnaf" encodinganalog="700">Rinsey, Ina Alexander.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32582">Rinsey, David, b. 1838.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27440">Rinsey, George, 1881-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27679">Rinsey, Ina Alexander.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

@@ -51,7 +51,8 @@
         <item>Original encoding in EAD Vers. 1.0 from Word 6.0 file using Word macros and some hand tagging.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -62,7 +63,7 @@
   <archdesc level="recordgrp" relatedencoding="MARC21" type="inventory">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/no91008405">Episcopal Church. Diocese of Western Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/no91008405" ref="/agents/corporate_entities/20606">Episcopal Church. Diocese of Western Michigan.</corpname>
       </origination>
       <unittitle encodinganalog="245$a">Episcopal Church, Diocese of Western Michigan records <unitdate type="inclusive" encodinganalog="245$f" normal="1851/2011">1851-2011</unitdate></unittitle>
       <abstract>Governing body of the Episcopal church in western Michigan, established in 1874; records include bishops' files, diocesan organization and committee files, photographs, scrapbooks, diocesan historian files.</abstract>
@@ -149,41 +150,41 @@
       <controlaccess>
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85046905.html" ref="/subjects/1029">Albion (Calhoun County, Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">All Saints Episcopal Church (Saugatuck, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19634">All Saints Episcopal Church (Saugatuck, Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1030">Allegan (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1037">Baldwin (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/934">Battle Creek (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81129560.html" ref="/subjects/1040">Benton Harbor (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1043">Big Rapids (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81129557.html" ref="/subjects/1049">Cadillac (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Chapel of St. John-By-The-Lake (Onekama, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Chapel of the Good Shepherd (Grand Rapids, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22082">Chapel of St. John-By-The-Lake (Onekama, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20465">Chapel of the Good Shepherd (Grand Rapids, Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1057">Charlevoix (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80104006.html" ref="/subjects/1056">Charlotte (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Christ Episcopal Church (Charlevoix, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Christ Episcopal Church (Homer, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Christ Episcopal Church (Plainfield, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Church of Christ the King (Kalamazoo, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Church of the Epiphany (South Haven, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Church of the Good Shepherd (Allegan, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Church of the Holy Trinity (Manistee, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22017">Christ Episcopal Church (Charlevoix, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20867">Christ Episcopal Church (Homer, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21423">Christ Episcopal Church (Plainfield, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19731">Church of Christ the King (Kalamazoo, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18540">Church of the Epiphany (South Haven, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19916">Church of the Good Shepherd (Allegan, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20026">Church of the Holy Trinity (Manistee, Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1798">Clare (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1064">Coldwater (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85046902.html" ref="/subjects/1074">Dowagiac (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82060969.html" ref="/subjects/1799">East Jordan (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85155122.html" ref="/subjects/1085">Eaton Rapids (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81132688.html" ref="/subjects/1758">Elk Rapids (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Emmanuel Episcopal Church (Hastings, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Emmanuel Episcopal Church (Petoskey, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no91008405">Episcopal Church. Diocese of Western Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Episcopal Church--Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Episcopal Mission (Frankfort, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21323">Emmanuel Episcopal Church (Hastings, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19402">Emmanuel Episcopal Church (Petoskey, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no91008405" ref="/agents/corporate_entities/20606">Episcopal Church. Diocese of Western Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18160">Episcopal Church--Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19249">Episcopal Mission (Frankfort, Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82137791.html" ref="/subjects/1094">Frankfort (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Grace Episcopal Church (Grand Rapids, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Grace Episcopal Church (Holland, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Grace Episcopal Church (Ludington, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Grace Episcopal Church (Lyons, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Grace Episcopal Church (Traverse City, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21700">Grace Episcopal Church (Grand Rapids, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20103">Grace Episcopal Church (Holland, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19802">Grace Episcopal Church (Ludington, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19019">Grace Episcopal Church (Lyons, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18806">Grace Episcopal Church (Traverse City, Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82105515.html" ref="/subjects/1100">Grand Haven (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82243292.html" ref="/subjects/1101">Grand Ledge (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79133151.html" ref="/subjects/1102">Grand Rapids (Mich.)</geogname>
@@ -201,7 +202,7 @@
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1159">Marshall (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/982">Mendon (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1470">Michigan--Church history.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Mission of the Redeemer (East Jordan, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17368">Mission of the Redeemer (East Jordan, Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85155116.html" ref="/subjects/1168">Mount Pleasant (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1171">Muskegon (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1175">Newaygo (Mich.)</geogname>
@@ -212,51 +213,51 @@
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/no2009014946.html" ref="/subjects/1547">Pentwater (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85081677.html" ref="/subjects/1197">Petoskey (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1803">Plainfield (Kent County, Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Redeemer Episcopal Church (Whitehall, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20962">Redeemer Episcopal Church (Whitehall, Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82062806.html" ref="/subjects/1804">Rockford (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">St. Andrew's Episcopal Church (Big Rapids, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. Ann's Episcopal Church (Clare, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. Francis Episcopal Church (Orangeville, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Neighborhood House (Orangeville, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. James Episcopal Church (Albion, Calhoun County, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. James' Episcopal Church (Pentwater, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. James Episcopal Church (Rockford, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. John's Episcopal Church (Charlotte, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. John's Episcopal Church (Grand Haven, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. John's Episcopal Church (Grand Rapids, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. John's Episcopal Church (Harbor Springs, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. John's Episcopal Church (Ionia, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. John's Episcopal Church (Mount Pleasant, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. John's Episcopal Church (Sturgis, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20053">St. Andrew's Episcopal Church (Big Rapids, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21684">St. Ann's Episcopal Church (Clare, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17520">St. Francis Episcopal Church (Orangeville, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22523">Neighborhood House (Orangeville, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20607">St. James Episcopal Church (Albion, Calhoun County, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20567">St. James' Episcopal Church (Pentwater, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20173">St. James Episcopal Church (Rockford, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22786">St. John's Episcopal Church (Charlotte, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21232">St. John's Episcopal Church (Grand Haven, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21332">St. John's Episcopal Church (Grand Rapids, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19133">St. John's Episcopal Church (Harbor Springs, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20876">St. John's Episcopal Church (Ionia, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20744">St. John's Episcopal Church (Mount Pleasant, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18647">St. John's Episcopal Church (Sturgis, Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1221">Saint Joseph (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">St. Luke's Episcopal Church (Kalamazoo, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. Mark's Episcopal Church (Coldwater, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr95032946">St. Mark's Episcopal Church (Grand Rapids, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. Mark's Episcopal Church (Newaygo, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. Mark's Episcopal Church (Paw Paw, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. Mary's Episcopal Church (Cadillac, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. Matthew's Episcopal Church (Baldwin, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. Matthias' Episcopal Church (Eaton Rapids, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. Michael and All Angels' Episcopal Church (Lee, Allegan County, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. Paul's Episcopal Church (Dowagiac, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. Paul's Episcopal Church (Elk Rapids, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. Paul's Episcopal Church (Grand Rapids, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. Paul's Episcopal Church (Greenville, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. Paul's Episcopal Church (Mendon, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. Paul's Episcopal Church (Muskegon, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. Paul's Episcopal Church (Saint Joseph, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. Philip's Episcopal Church (Grand Rapids, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. Stephen's Episcopal Church (Benton Harbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. Thomas Episcopal Church (Battle Creek, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19476">St. Luke's Episcopal Church (Kalamazoo, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20378">St. Mark's Episcopal Church (Coldwater, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr95032946" ref="/agents/corporate_entities/20869">St. Mark's Episcopal Church (Grand Rapids, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18397">St. Mark's Episcopal Church (Newaygo, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20305">St. Mark's Episcopal Church (Paw Paw, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19164">St. Mary's Episcopal Church (Cadillac, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22874">St. Matthew's Episcopal Church (Baldwin, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19728">St. Matthias' Episcopal Church (Eaton Rapids, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20994">St. Michael and All Angels' Episcopal Church (Lee, Allegan County, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20228">St. Paul's Episcopal Church (Dowagiac, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21691">St. Paul's Episcopal Church (Elk Rapids, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18711">St. Paul's Episcopal Church (Grand Rapids, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18818">St. Paul's Episcopal Church (Greenville, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18965">St. Paul's Episcopal Church (Mendon, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19404">St. Paul's Episcopal Church (Muskegon, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20870">St. Paul's Episcopal Church (Saint Joseph, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17959">St. Philip's Episcopal Church (Grand Rapids, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22172">St. Stephen's Episcopal Church (Benton Harbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18868">St. Thomas Episcopal Church (Battle Creek, Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82084368.html" ref="/subjects/1805">Saugatuck (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/937">South Haven (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81129556.html" ref="/subjects/1236">Sturgis (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81129555.html" ref="/subjects/1242">Three Rivers (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79006537.html" ref="/subjects/890">Traverse City (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Trinity Church (Niles, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Trinity Episcopal Church (Grand Ledge, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Trinity Episcopal Church (Marshall, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Trinity Episcopal Church (Three Rivers, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19855">Trinity Church (Niles, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20433">Trinity Episcopal Church (Grand Ledge, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22730">Trinity Episcopal Church (Marshall, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22579">Trinity Episcopal Church (Three Rivers, Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85081918.html" ref="/subjects/1450">Whitehall (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6353">Women--Religious life--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6674">Women--Michigan--Societies and clubs.</subject>
@@ -266,8 +267,8 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3779">Churches--Michigan.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3691">Clergymen.</subject>
         <geogname source="lcsh" encodinganalog="650" ref="/subjects/1806">Conway (Mich.)--Churches.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Episcopal Church--Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no91008405">Episcopal Church. Diocese of Western Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18160">Episcopal Church--Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no91008405" ref="/agents/corporate_entities/20606">Episcopal Church. Diocese of Western Michigan.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7519">Episcopal church buildings--Michigan--Ada.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7520">Episcopal church buildings--Michigan--Albion (Calhoun County)</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7521">Episcopal church buildings--Michigan--Allegan.</subject>
@@ -319,15 +320,15 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7567">Episcopal church buildings--Michigan--Traverse City.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7568">Episcopal church buildings--Michigan--Whitehall.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7569">Episcopal church buildings--Michigan--Wyoming.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Starr Commonwealth for Boys.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19705">Starr Commonwealth for Boys.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Bennison, Charles E., 1917-</persname>
-        <persname source="lcnaf" encodinganalog="700">Gillespie, George D. (George De Normandie), 1819-1909.</persname>
-        <persname source="lcnaf" encodinganalog="700">Meeks, Howard S.</persname>
-        <persname source="lcnaf" encodinganalog="700">White, William C.</persname>
-        <persname source="lcnaf" encodinganalog="700">Whittemore, Lewis Bliss, 1885-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33412">Bennison, Charles E., 1917-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31029">Gillespie, George D. (George De Normandie), 1819-1909.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33976">Meeks, Howard S.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29834">White, William C.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27601">Whittemore, Lewis Bliss, 1885-</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Gilchrist Family</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/1436">Gilchrist Family</famname>
       </origination>
       <unittitle encodinganalog="245">Gilchrist Family Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1867/1945">1867-1945</unitdate></unittitle>
       <abstract>Alpena, Michigan, family; correspondence, letterpress books, financial papers, and other material largely relating to the family's business enterprises in lumbering, sugar manufacturing, ferry and excursion lines, mining, and banking; contain record of business affairs in Alpena, Michigan, and other areas of northern Michigan, Minnesota, Ohio, Wisconsin, Missouri, Oregon, and Mississippi; family members represented in the collection include Frank W. Gilchrist and two of his sons, Frank R. and Ralph Gilchrist, also members of a related Fletcher and Potter families.</abstract>
@@ -112,11 +113,11 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <famname source="lcnaf" encodinganalog="700">Fletcher family.</famname>
-        <persname source="lcnaf" encodinganalog="700">Gilchrist, Frank Rust, d. 1917.</persname>
-        <persname source="lcnaf" encodinganalog="700">Gilchrist, Frank William, 1845-1912.</persname>
-        <persname source="lcnaf" encodinganalog="700">Gilchrist, Ralph, 1877-1936.</persname>
-        <famname source="lcnaf" encodinganalog="700">Potter family.</famname>
+        <famname source="lcnaf" encodinganalog="700" ref="/agents/families/1284">Fletcher family.</famname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31022">Gilchrist, Frank Rust, d. 1917.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33310">Gilchrist, Frank William, 1845-1912.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27722">Gilchrist, Ralph, 1877-1936.</persname>
+        <famname source="lcnaf" encodinganalog="700" ref="/agents/families/1312">Potter family.</famname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

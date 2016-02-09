@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Bell, Laird, 1883-1965.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/29693">Bell, Laird, 1883-1965.</persname>
       </origination>
       <unittitle encodinganalog="245">Laird Bell papers <unitdate type="inclusive" encodinganalog="245$f" normal="1903/1962">1903-1962</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">8568 Aa 2</unitid>
@@ -82,11 +83,11 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6269">Universities and colleges--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6141">Education--United States.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/919">Germany.</geogname>
-        <persname source="lcnaf" encodinganalog="600">Laird, W. H.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/27557">Laird, W. H.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6270">Logging--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6271">Lumbering--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610">United Nations.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Timber Conservation Board.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21178">United Nations.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21067">United States. Timber Conservation Board.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

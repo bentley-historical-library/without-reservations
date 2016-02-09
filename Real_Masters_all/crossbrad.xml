@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Cross, Bradley R.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/29657">Cross, Bradley R.</persname>
       </origination>
       <unittitle encodinganalog="245">Bradley R. Cross papers <unitdate type="inclusive" encodinganalog="245$f" normal="1967/1983">1967-1983</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1978/1979">1978-1979</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2013150 Aa 2 UAl UAm</unitid>
@@ -84,9 +85,9 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor (Mich.). City Council.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Cross, Bradley R.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Kimberly Hills Neighborhood Association (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20069">Ann Arbor (Mich.). City Council.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29657">Cross, Bradley R.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18626">Kimberly Hills Neighborhood Association (Ann Arbor, Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6531">Land use--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5961">Natural areas--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7091">Neighborhood planning--Michigan--Ann Arbor.</subject>
@@ -97,14 +98,14 @@
         <head>Subjects - Visual Materials:</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4076">Flowers--Michigan--Ann Arbor.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4077">Insects--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Kimberly Hills Neighborhood Association (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18626">Kimberly Hills Neighborhood Association (Ann Arbor, Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4078">Lakes &amp; ponds--Michigan--Ann Arbor.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4079">Neighborhoods--Michigan--Ann Arbor.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4080">Parks--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Sound Recordings:</head>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor (Mich.). City Council.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20069">Ann Arbor (Mich.). City Council.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

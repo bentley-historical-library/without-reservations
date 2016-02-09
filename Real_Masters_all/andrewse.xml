@@ -32,7 +32,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -43,7 +44,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Andrews, Ernest Oliver.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/27211">Andrews, Ernest Oliver.</persname>
       </origination>
       <unittitle encodinganalog="245">Ernest Oliver Andrews papers <unitdate type="inclusive" encodinganalog="245$f" normal="1918/1959" certainty="approximate">1918-1950s</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1918/1919">1918-1919</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">0782 Aa 2</unitid>
@@ -89,7 +90,7 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Andrews, Ernest Oliver.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/27211">Andrews, Ernest Oliver.</persname>
         <geogname source="lcnaf" encodinganalog="651." ref="/subjects/760">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5737">World War, 1914-1918.</subject>
         <subject encodinganalog="690" source="local" authfilenumber="http://id.loc.gov/authorities/names/n2008059426" ref="/subjects/5619">Polar Bear Expedition.</subject>

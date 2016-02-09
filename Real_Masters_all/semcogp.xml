@@ -27,7 +27,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n80038434">Southeast Michigan Council of Governments.</corpname>
+        <corpname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n80038434" ref="/agents/corporate_entities/22796">Southeast Michigan Council of Governments.</corpname>
       </origination>
       <unittitle encodinganalog="245">Southeast Michigan Council of Governments, publications <unitdate type="inclusive" encodinganalog="245$f" normal="1949/1992">1949-1992</unitdate>, <unitdate type="inclusive" encodinganalog="245$f" normal="1997/2010">1997-2010</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">98118 Fm 2</unitid>
@@ -78,13 +79,13 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80038434">Southeast Michigan Council of Governments.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Detroit Metropolitan Area Regional Planning Commission.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80038434" ref="/agents/corporate_entities/22796">Southeast Michigan Council of Governments.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19052">Detroit Metropolitan Area Regional Planning Commission.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6161">Regional planning--Michigan, Southeastern.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6162">Transportation--Michigan, Southeastern--Planning.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10046">Water quality--Michigan, Southeastern--Planning.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10047">Housing--Michigan, Southeastern.</subject>
-        <corpname source="lcnaf" encodinganalog="710">Detroit Metropolitan Area Regional Planning Commission.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/19052">Detroit Metropolitan Area Regional Planning Commission.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

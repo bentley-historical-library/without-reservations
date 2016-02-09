@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Smiley, Monica.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30719">Smiley, Monica.</persname>
       </origination>
       <unittitle encodinganalog="245">Monica Smiley Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1982/1984">1982-1984</unitdate></unittitle>
       <abstract>Officer with the Michigan Conference of the National Organization for Women. Administrative and topical files relating to her NOW activities.</abstract>
@@ -80,8 +81,8 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10147">Equal Rights Amendments.</subject>
-        <corpname source="lcnaf" encodinganalog="610">National Organization for Women. Michigan Conference.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Smiley, Monica.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21909">National Organization for Women. Michigan Conference.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30719">Smiley, Monica.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6674">Women--Michigan--Societies and clubs.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6248">Women's rights--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8956">Women social reformers--Michigan.</subject>

@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Secretary.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/20098">University of Michigan. Secretary.</corpname>
       </origination>
       <unittitle encodinganalog="245">Secretary (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1845/1953">1845-1953</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1908/1944">1908-1944</unitdate></unittitle>
       <abstract>Correspondence and other files of University of Michigan Secretary Shirley W. Smith and of Controller and Assistant Secretary John C. Christensen. The files document university operations, relations with the state legislature, business and financial matters, buildings and grounds, and such university events as the graduation commencement. The files also relate to the university's struggles during the Depression to maintain its facilities and to provide employment for deserving students as seen in its relations with the Federal Emergency Relief Administration and the National Youth Administration. There are also earlier collected files of treasurers George S. Baker and James H. Wade.</abstract>
@@ -126,30 +127,30 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n78095671">Association of University and College Business Officers.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n78095671" ref="/agents/corporate_entities/21977">Association of University and College Business Officers.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/923">Nichols Arboretum (University of Michigan)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Accounting Office.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Administration.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Buildings.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Business Office.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Campus.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Commencements.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Buildings and Grounds Dept.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Finance.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Lands.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Plant Dept.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. President.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Treasurer.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Secretary.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50067288">United States. Federal Emergency Relief Administration.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50066008">United States. National Youth Administration.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22493">University of Michigan. Accounting Office.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Administration.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Buildings.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21421">University of Michigan. Business Office.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Campus.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Commencements.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18419">University of Michigan. Buildings and Grounds Dept.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Finance.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Lands.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22922">University of Michigan. Plant Dept.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19760">University of Michigan. President.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17809">University of Michigan. Treasurer.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20098">University of Michigan. Secretary.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50067288" ref="/agents/corporate_entities/20125">United States. Federal Emergency Relief Administration.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50066008" ref="/agents/corporate_entities/23067">United States. National Youth Administration.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Baker, George Sumner.</persname>
-        <persname source="lcnaf" encodinganalog="700">Christensen, John Cornelius, 1874-1952.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008187805">Smith, Shirley Wheeler, 1875-1959.</persname>
-        <persname source="lcnaf" encodinganalog="700">Wade, James Henry, 1834-1924.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31167">Baker, George Sumner.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32816">Christensen, John Cornelius, 1874-1952.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008187805" ref="/agents/people/31878">Smith, Shirley Wheeler, 1875-1959.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31283">Wade, James Henry, 1834-1924.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

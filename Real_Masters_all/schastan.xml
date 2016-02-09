@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Schachter, Stanley, 1922-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/27536">Schachter, Stanley, 1922-</persname>
       </origination>
       <unittitle encodinganalog="245">Stanley Schachter Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1945/1998">1945-1998</unitdate></unittitle>
       <abstract>Social psychologist, Columbia University professor of psychology, affiliated with the Research Center for Group Dynamics; collection includes publications and professional papers.</abstract>
@@ -82,13 +83,13 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85299075">Schachter, Stanley, 1922-1997</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85299075" ref="/agents/people/28860">Schachter, Stanley, 1922-1997</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7003">Social psychology.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Columbia University--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17868">Columbia University--Faculty.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85299075">Schachter, Stanley, 1922-1997</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85299075" ref="/agents/people/28860">Schachter, Stanley, 1922-1997</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

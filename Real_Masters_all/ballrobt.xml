@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Ball, Robert P., 1926-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32931">Ball, Robert P., 1926-</persname>
       </origination>
       <unittitle encodinganalog="245">Robert P. Ball Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1936/1998">1936-1998</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1943/1998">1943-1998</unitdate></unittitle>
       <abstract>European correspondent for <title render="italic">Time</title> and <title render="italic">Fortune</title> magazines, 1945-1985. Letters to his parents concerning in part his student life at the University of Michigan in the 1940s, his war-time experiences as a naval officer in the Pacific theatre during World War II, and his career as a journalist in Europe from the late 1940s to the mid-1970s; student writings; dispatches written for <title render="italic">Time</title> and <title render="italic">Fortune</title>; and photographs.</abstract>
@@ -84,25 +85,25 @@
     <controlaccess>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Ball, Robert P., 1926-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32931">Ball, Robert P., 1926-</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/984">Europe.</geogname>
         <subject source="lcsh" encodinganalog="611" ref="/subjects/6074">Fortune.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6075">Journalists--United States.</subject>
         <subject source="lcsh" encodinganalog="611" ref="/subjects/6076">Time.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81133589">United States. Office of the US High Commissioner for Germany.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Correspondence.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs--1941-1950.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81133589" ref="/agents/corporate_entities/18675">United States. Office of the US High Commissioner for Germany.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Students--Correspondence.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Students--Social life and customs--1941-1950.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Ball, Robert P., 1926-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32931">Ball, Robert P., 1926-</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3717">Graduation ceremonies.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3718">Seamen.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79059051">United States. Navy.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79059051" ref="/agents/corporate_entities/19120">United States. Navy.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects: Sound Recordings</head>
-        <persname source="lcnaf" encodinganalog="600">Ball, Robert P., 1926-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32931">Ball, Robert P., 1926-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6075">Journalists--United States.</subject>
       </controlaccess>
       <controlaccess>

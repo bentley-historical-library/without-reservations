@@ -35,7 +35,8 @@
         <item>Original encoding from Word 6.0 file</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc level="collection" type="inventory" audience="external" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n78089041">Trowbridge, C. C. (Charles Christopher), 1800-1883.</persname>
+        <persname encodinganalog="100" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n78089041" ref="/agents/people/31191">Trowbridge, C. C. (Charles Christopher), 1800-1883.</persname>
       </origination>
       <unittitle encodinganalog="245">C. C. Trowbridge papers <unitdate encodinganalog="245$f" type="inclusive" normal="1823/1840" certainty="approximate">circa 1823-1840</unitdate></unittitle>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">86143 Aa 2</unitid>
@@ -89,14 +90,14 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n78089041">Trowbridge, C. C. (Charles Christopher), 1800-1883.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n78089041" ref="/agents/people/31191">Trowbridge, C. C. (Charles Christopher), 1800-1883.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6097">Indians of North America--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81003784.html" ref="/subjects/936">Sault Sainte Marie (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--History.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--History.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Higginson, Francis John, 1804-1872.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28488">Higginson, Francis John, 1804-1872.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n84051573">Butts, Thomas A.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n84051573" ref="/agents/people/35942">Butts, Thomas A.</persname>
       </origination>
       <unittitle encodinganalog="245">Thomas A. Butts papers <unitdate type="inclusive" encodinganalog="245$f" normal="1961/2003">1961-2003</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1975/1995">1975-1995</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">0670 Aa</unitid>
@@ -81,14 +82,14 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n84051573">Butts, Thomas A.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n84051573" ref="/agents/people/35942">Butts, Thomas A.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6638">Student financial aid--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6639">Student aid--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6640">Student loans--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Admissions.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Office of Financial Aid.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87816500">University of Michigan. Office of Orientation.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Vice-President for Government Relations.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Admissions.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17823">University of Michigan. Office of Financial Aid.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87816500" ref="/agents/corporate_entities/18220">University of Michigan. Office of Orientation.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21100">University of Michigan. Vice-President for Government Relations.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
@@ -1834,7 +1835,7 @@
       </relatedmaterial>
       <descgrp>
         <odd>
-          <head>List of Common Acronyms</head>
+        <head>List of Common Acronyms</head>
           <list type="simple">
             <item>ACRAO -- American Association of Collegiate Registrars and Admission Officers</item>
             <item>ACPA -- American College Personnel Association</item>

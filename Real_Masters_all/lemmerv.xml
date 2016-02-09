@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n87915082">Lemmer, Victor F.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n87915082" ref="/agents/people/35272">Lemmer, Victor F.</persname>
       </origination>
       <unittitle encodinganalog="245">Victor F. Lemmer Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1860/1974" certainty="approximate">1860s-1974</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1922/1974">1922-1974</unitdate></unittitle>
       <abstract>Ironwood, Michigan businessman and local historian; include correspondence, research notes and writings largely concerning the history of Gogebic County and Upper Peninsula iron mining; also papers concerning his work with the Gogebic Industrial Bureau.</abstract>
@@ -86,21 +87,21 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8787">American newspapers--Michigan--Gogebic County.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5809">Business records.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n2008042994.html" ref="/subjects/2194">Champion (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80126308">Edison, Thomas A. (Thomas Alva), 1847-1931.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80126308" ref="/agents/people/29371">Edison, Thomas A. (Thomas Alva), 1847-1931.</persname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n2001059746.html" ref="/subjects/1724">Fayette (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n77013438.html" ref="/subjects/2195">Frederic (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600">Gillen, Martin James, 1872-1943.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30678">Gillen, Martin James, 1872-1943.</persname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091930.html" ref="/subjects/1930">Gogebic County (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Gogebic Industrial Bureau.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18681">Gogebic Industrial Bureau.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6097">Indians of North America--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8788">Iron mines and mining--Michigan--Upper Peninsula.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85064191.html" ref="/subjects/995">Ironwood (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600">Langford, Richard, 1826-1909.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87915082">Lemmer, Victor F.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88671461">Longyear, John Munro, 1850-1922.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29564">Langford, Richard, 1826-1909.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87915082" ref="/agents/people/35272">Lemmer, Victor F.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88671461" ref="/agents/people/31048">Longyear, John Munro, 1850-1922.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2196">Marenisco (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600">Merritt, D. H.</persname>
-        <persname source="lcnaf" encodinganalog="600">Norrie, A. Lanfear, 1858-1910.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34622">Merritt, D. H.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32291">Norrie, A. Lanfear, 1858-1910.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2197">Ontonagan (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1674">Ottawa National Forest (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/938">Upper Peninsula (Mich.)</geogname>
@@ -108,12 +109,12 @@
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Abbott, Bud.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29280">Abbott, Bud.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4629">Banks.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4630">Buildings--Michigan--Ironwood.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4631">Business enterprises--Michigan--Ironwood.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3572">Children.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50018158">Costello, Lou.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50018158" ref="/agents/people/28878">Costello, Lou.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3944">Dwellings.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3611">Fires.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091930.html" ref="/subjects/1930">Gogebic County (Mich.)</geogname>
@@ -124,13 +125,13 @@
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/375">Ironwood (Mich.)--Business enterprises.</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85064191.html" ref="/subjects/995">Ironwood (Mich.)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4531">Iron mining.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Kalos (Ship)</corpname>
-        <persname source="lcnaf" encodinganalog="600">Langford, Richard, 1826-1909.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87915082">Lemmer, Victor F.</persname>
-        <famname source="lcnaf" encodinganalog="600">Lemmer family.</famname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21038">Kalos (Ship)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29564">Langford, Richard, 1826-1909.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87915082" ref="/agents/people/35272">Lemmer, Victor F.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1466">Lemmer family.</famname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3616">Lumber industry.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1934">Marquette County (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87910587">Michigan. National Guard.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87910587" ref="/agents/corporate_entities/19723">Michigan. National Guard.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4134">Mining.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4632">Music--Michigan--Ironwood.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4633">Soda fountains.</subject>

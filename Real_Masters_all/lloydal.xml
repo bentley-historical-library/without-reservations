@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n87126725">Lloyd, Alfred H. (Alfred Henry), 1864-1927.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n87126725" ref="/agents/people/31378">Lloyd, Alfred H. (Alfred Henry), 1864-1927.</persname>
       </origination>
       <unittitle encodinganalog="245">Alfred H. Lloyd papers <unitdate type="inclusive" encodinganalog="245$f" normal="1879/1926">1879-1926</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851697 Aa 2; UAm</unitid>
@@ -82,25 +83,25 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Graduate School.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87126725">Lloyd, Alfred H. (Alfred Henry), 1864-1927.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Phillips Academy.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Philosophy.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19517">University of Michigan. Graduate School.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87126725" ref="/agents/people/31378">Lloyd, Alfred H. (Alfred Henry), 1864-1927.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19578">Phillips Academy.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18059">University of Michigan. Dept. of Philosophy.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87126725">Lloyd, Alfred H. (Alfred Henry), 1864-1927.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87126725" ref="/agents/people/31378">Lloyd, Alfred H. (Alfred Henry), 1864-1927.</persname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80056984">Cooley, Charles Horton, 1864-1929.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79060532">Dewey, John, 1859-1952.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86869592">Hobbs, William Herbert, 1864-1952.</persname>
-        <corpname source="lcnaf" encodinganalog="710">National Security League. Ann Arbor Branch (Mich.)</corpname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79056054">Russell, Bertrand, 1872-1970.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n91027331">Tufts, James Hayden, 1862-1942.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr00017036">Wenley, R. M. (Robert Mark), 1861-1929.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80056984" ref="/agents/people/28892">Cooley, Charles Horton, 1864-1929.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79060532" ref="/agents/people/35090">Dewey, John, 1859-1952.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86869592" ref="/agents/people/30189">Hobbs, William Herbert, 1864-1952.</persname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/17365">National Security League. Ann Arbor Branch (Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79056054" ref="/agents/people/35300">Russell, Bertrand, 1872-1970.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n91027331" ref="/agents/people/28560">Tufts, James Hayden, 1862-1942.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr00017036" ref="/agents/people/29806">Wenley, R. M. (Robert Mark), 1861-1929.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
@@ -419,7 +420,7 @@
     <descgrp type="add">
       <relatedmaterial>
         <head>Related Material</head>
-        <p>A number of pamphlets and reprints of articles authored by Lloyd have been bound together and catalogued separately (call no. DA 2 L793 P186). Titles include: <list type="simple"><item>Vol. I <sublist type="simple"><subitem>Evolution Evolved: A Philosophical Criticism. (<title render="italic">The Monist</title>, January, 1899)</subitem><subitem>Time as A Datum of History. (<title render="italic">The Philosophical Review</title>, January, 1899)</subitem><subitem>Epistemology and Physical Science. (<title render="italic">The Philosophical Review</title>, July, 1898)</subitem><subitem>The Stages of Knowledge. (<title render="italic">The Psychological Review</title>, March, 1897)</subitem><subitem>A Psychological Interpretation of Certain Doctrines in Formal Logic. (<title render="italic">The Psychological Review</title>, July, 1896)</subitem><subitem>The Thinker's Idea of God. (<title render="italic">The Inlander</title>, February, 1899)</subitem><subitem>The Reaction. (<title render="italic">The Inlander</title>, June, 1895)</subitem></sublist> </item><item>Vol II. <sublist type="simple"><subitem>Evolution and Immortality. (<title render="italic">The Monist</title>, April, 1900)</subitem><subitem>The Organic Theory of Society: Passing of the Contract Theory. (<title render="italic">The American Journal of Sociology</title>, March, 1901)</subitem><subitem>The Contribution of The Theory of Evolution to The Science of Teaching. (<title render="italic">New York Teachers' Monographs</title>, undated)</subitem></sublist> </item></list> </p>
+        <p>A number of pamphlets and reprints of articles authored by Lloyd have been bound together and catalogued separately (call no. DA 2 L793 P186). Titles include: <list type="simple"><item>Vol. I <sublist type="simple"><subitem>Evolution Evolved: A Philosophical Criticism. (<title render="italic">The Monist</title>, January, 1899)</subitem> <subitem>Time as A Datum of History. (<title render="italic">The Philosophical Review</title>, January, 1899)</subitem> <subitem>Epistemology and Physical Science. (<title render="italic">The Philosophical Review</title>, July, 1898)</subitem> <subitem>The Stages of Knowledge. (<title render="italic">The Psychological Review</title>, March, 1897)</subitem> <subitem>A Psychological Interpretation of Certain Doctrines in Formal Logic. (<title render="italic">The Psychological Review</title>, July, 1896)</subitem> <subitem>The Thinker's Idea of God. (<title render="italic">The Inlander</title>, February, 1899)</subitem> <subitem>The Reaction. (<title render="italic">The Inlander</title>, June, 1895)</subitem></sublist> </item><item>Vol II. <sublist type="simple"><subitem>Evolution and Immortality. (<title render="italic">The Monist</title>, April, 1900)</subitem> <subitem>The Organic Theory of Society: Passing of the Contract Theory. (<title render="italic">The American Journal of Sociology</title>, March, 1901)</subitem> <subitem>The Contribution of The Theory of Evolution to The Science of Teaching. (<title render="italic">New York Teachers' Monographs</title>, undated)</subitem></sublist> </item></list> </p>
       </relatedmaterial>
     </descgrp>
   </archdesc>

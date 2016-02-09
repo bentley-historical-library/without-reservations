@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Senior Society (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/18753">Senior Society (University of Michigan)</corpname>
       </origination>
       <unittitle encodinganalog="245">Senior Society (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1906/1968">1906-1968</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1940/1960">1940-1960</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2009142 Bimu F41 2</unitid>
@@ -89,13 +90,13 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Scroll (Society)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Senior Society (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Assembly Association.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Honorary societies.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21407">Scroll (Society)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18753">Senior Society (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17963">University of Michigan. Assembly Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Honorary societies.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Students--Social life and customs.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5862">Women college students--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Wyvern (Society)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20232">Wyvern (Society)</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

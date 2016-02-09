@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n88627143">Benninghoff, W. S.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n88627143" ref="/agents/people/34999">Benninghoff, W. S.</persname>
       </origination>
       <unittitle encodinganalog="245">William S. Benninghoff papers <unitdate type="inclusive" encodinganalog="245$f" normal="1943/2000">1943-2000</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1968/1986">1968-1986</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2009172 Aa 2</unitid>
@@ -86,12 +87,12 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88627143">Benninghoff, W. S.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88627143" ref="/agents/people/34999">Benninghoff, W. S.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6153">Botany.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80149747">University of Michigan. Biological Station.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Botany.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Matthaei Botanical Gardens.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80149747" ref="/agents/corporate_entities/17751">University of Michigan. Biological Station.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17473">University of Michigan. Dept. of Botany.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19102">University of Michigan. Matthaei Botanical Gardens.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

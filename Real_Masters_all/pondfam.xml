@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Pond Family</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/1371">Pond Family</famname>
       </origination>
       <unittitle encodinganalog="245">Pond Family Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1841/1939">1841-1939</unitdate></unittitle>
       <abstract>Ann Arbor, Michigan and Chicago, Illinois family. Correspondence of Elihu B. Pond, editor of Michigan Argus, his sons, Chicago architects, Irving Kane and Allen Bartlit Pond, founders of firm of Pond &amp; Pond, and other family members; include materials concerning family affairs, architectural projects, Jane Addams and the work of Hull House, European travels, politics especially as relates to period of the Civil War and the election of 1896; also photographs, architectural drawings and other visual materials.</abstract>
@@ -101,10 +102,10 @@
     <controlaccess>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Pond, Allen Bartlit, 1858-1929.</persname>
-        <persname source="lcnaf" encodinganalog="600">Pond, Elihu Bartlit, 1826-1898.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr2005006909">Pond, Irving K. (Irving Kane), 1857-1939.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79104234">Addams, Jane, 1860-1935.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32620">Pond, Allen Bartlit, 1858-1929.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35891">Pond, Elihu Bartlit, 1826-1898.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr2005006909" ref="/agents/people/30204">Pond, Irving K. (Irving Kane), 1857-1939.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79104234" ref="/agents/people/32297">Addams, Jane, 1860-1935.</persname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html" ref="/subjects/860">Ann Arbor (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9806">Architects--Illinois--Chicago.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9807">Architecture--Illinois--Chicago.</subject>
@@ -117,8 +118,8 @@
         <geogname source="local" encodinganalog="691" ref="/subjects/805">Michigan--Politics and government--1877-1898.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6027">Presidents--United States--Election--1896.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/909">United States--History--Civil War, 1861-1865.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">University of Micigan--Buildings.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Football.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18348">University of Micigan--Buildings.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Football.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6034">Voyages and travels.</subject>
       </controlaccess>
       <controlaccess>
@@ -129,10 +130,10 @@
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2566">Chicago (Ill.)--Buildings, structures, etc.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3641">Construction industry.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1376">Detroit (Mich.)--Buildings, structures, etc.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Detroit Opera House (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18090">Detroit Opera House (Detroit, Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2567">East Lansing (Mich.)--Buildings, structures, etc.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2568">Harbor Point (Mich.)--Buildings, structures, etc.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Hill Auditorium (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21176">Hill Auditorium (University of Michigan)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3741">Hotels and taverns.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1987">Illinois.</geogname>
         <subject source="local" encodinganalog="690" ref="/subjects/5654">Interiors--Hotels and taverns.</subject>
@@ -140,28 +141,28 @@
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1003">Italy.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2569">Lansing (Mich.)--Buildings, structures, etc.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2570">Mason (Mich.)--Buildings, structures, etc.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan League.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan State University--Buildings.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Union.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Northwood Hotel (Cadillac, Mich.)</corpname>
-        <persname source="lcnaf" encodinganalog="600">Pond, Allen Bartlit, 1858-1929.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2009002057">Pond, Ashley, 1827-1910.</persname>
-        <persname source="lcnaf" encodinganalog="600">Pond, Elihu Bartlit, 1826-1898.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr2005006909">Pond, Irving K. (Irving Kane), 1857-1939.</persname>
-        <persname source="lcnaf" encodinganalog="600">Pond, Mary Barlow Allen, 1826-1915.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22077">Michigan League.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22503">Michigan State University--Buildings.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22531">Michigan Union.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20920">Northwood Hotel (Cadillac, Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32620">Pond, Allen Bartlit, 1858-1929.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2009002057" ref="/agents/people/34302">Pond, Ashley, 1827-1910.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35891">Pond, Elihu Bartlit, 1826-1898.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr2005006909" ref="/agents/people/30204">Pond, Irving K. (Irving Kane), 1857-1939.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35495">Pond, Mary Barlow Allen, 1826-1915.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2571">Saint Joseph (Mich.)--Buildings, structures, etc.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Student Publications Building (University of Michigan)</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n83121888">Taft, Lorado, 1860-1936.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18940">Student Publications Building (University of Michigan)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n83121888" ref="/agents/people/29759">Taft, Lorado, 1860-1936.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3993">Theaters--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Buildings.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Whitcomb Hotel (Saint Joseph, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Buildings.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21283">Whitcomb Hotel (Saint Joseph, Mich.)</corpname>
         <subject source="lcnaf" encodinganalog="611" authfilenumber="http://id.loc.gov/authorities/names/n80008759" ref="/subjects/5618">World's Columbian Exposition (1893: Chicago, Ill.)</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Pond, Allen Bartlit, 1858-1929.</persname>
-        <persname source="lcnaf" encodinganalog="700">Pond, Elihu Bartlit, 1826-1898.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr2005006909">Pond, Irving K. (Irving Kane), 1857-1939.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32620">Pond, Allen Bartlit, 1858-1929.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35891">Pond, Elihu Bartlit, 1826-1898.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr2005006909" ref="/agents/people/30204">Pond, Irving K. (Irving Kane), 1857-1939.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

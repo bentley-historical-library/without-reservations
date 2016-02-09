@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Russell, Carl A.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/27200">Russell, Carl A.</persname>
       </origination>
       <unittitle encodinganalog="245">Carl A. Russell papers <unitdate type="inclusive" encodinganalog="245$f" normal="1950">1950</unitdate>, <unitdate type="inclusive" encodinganalog="245$f">undated</unitdate></unittitle>
       <abstract>Soldier from Cleveland, Ohio, member of 167th Transportation Corps who served in the Allied intervention in Russia, 1918-1920, the "Polar Bear Expedition." Collection includes roster of members, transcript of military record, and miscellanea.</abstract>
@@ -79,7 +80,7 @@
       </p>
       <controlaccess>
         <head>Subjects</head>
-        <persname source="lcnaf" encodinganalog="600">Russell, Carl A.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/27200">Russell, Carl A.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/883">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5737">World War, 1914-1918.</subject>
         <subject source="local" encodinganalog="690" authfilenumber="http://id.loc.gov/authorities/names/n2008059426" ref="/subjects/5619">Polar Bear Expedition.</subject>

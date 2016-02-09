@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Arbornet.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/22925">Arbornet.</corpname>
       </origination>
       <unittitle encodinganalog="245">Arbornet and M-Net Records <unitdate type="inclusive" encodinganalog="245$f" normal="1985/2002">1985-2002</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2012017 Bb 2</unitid>
@@ -80,15 +81,15 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Arbornet.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">M-Net (Organization)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22925">Arbornet.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18176">M-Net (Organization)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5956">Computer conferencing--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5957">Internet--History.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5958">Internet communication--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <corpname source="lcnaf" encodinganalog="710">M-Net (Organization)</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/18176">M-Net (Organization)</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

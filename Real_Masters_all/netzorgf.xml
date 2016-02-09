@@ -32,7 +32,8 @@
         <item>Updated Acquisition information.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -43,7 +44,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Netzorg family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/1249">Netzorg family.</famname>
       </origination>
       <unittitle encodinganalog="245">Netzorg Family papers <unitdate type="inclusive" encodinganalog="245$f" normal="1885/2012">late 1880s-2012</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1938/1998">1938-1998</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2012143 Aa 2</unitid>
@@ -97,16 +98,16 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <famname encodinganalog="600" source="lcnaf">Fuld family.</famname>
-        <persname encodinganalog="600" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/no99024398">Fuld, Bracha, 1926-1946.</persname>
-        <famname encodinganalog="600" source="lcnaf">Netzorg family.</famname>
-        <persname encodinganalog="600" source="lcnaf">Netzorg, Katherine S.</persname>
-        <persname encodinganalog="600" source="lcnaf">Netzorg, Morton Isadore.</persname>
-        <persname encodinganalog="600" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n85245286">Netzorg, Morton J.</persname>
-        <persname encodinganalog="600" source="lcnaf">Netzorg, Petra Fuld.</persname>
-        <corpname encodinganalog="610" source="lcnaf">Cellar Book Shop (Detroit, Mich.)</corpname>
-        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n50068171">National Jewish Welfare Board.</corpname>
-        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n95038586">Santo Tomas Internment Camp (Manila, Philippines)</corpname>
+        <famname encodinganalog="600" source="lcnaf" ref="/agents/families/1491">Fuld family.</famname>
+        <persname encodinganalog="600" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/no99024398" ref="/agents/people/35828">Fuld, Bracha, 1926-1946.</persname>
+        <famname encodinganalog="600" source="lcnaf" ref="/agents/families/1249">Netzorg family.</famname>
+        <persname encodinganalog="600" source="lcnaf" ref="/agents/people/27695">Netzorg, Katherine S.</persname>
+        <persname encodinganalog="600" source="lcnaf" ref="/agents/people/30707">Netzorg, Morton Isadore.</persname>
+        <persname encodinganalog="600" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n85245286" ref="/agents/people/35589">Netzorg, Morton J.</persname>
+        <persname encodinganalog="600" source="lcnaf" ref="/agents/people/28510">Netzorg, Petra Fuld.</persname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/22426">Cellar Book Shop (Detroit, Mich.)</corpname>
+        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n50068171" ref="/agents/corporate_entities/17783">National Jewish Welfare Board.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n95038586" ref="/agents/corporate_entities/19915">Santo Tomas Internment Camp (Manila, Philippines)</corpname>
         <subject encodinganalog="650" source="lcsh" ref="/subjects/9543">Book industries and trade--Philippines.</subject>
         <subject encodinganalog="650" source="lcsh" ref="/subjects/9544">Book industries and trade--Southeast Asia.</subject>
         <subject encodinganalog="650" source="lcsh" ref="/subjects/9545">Book industries and trade--United States.</subject>
@@ -121,10 +122,10 @@
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <famname encodinganalog="600" source="lcnaf">Fuld family.</famname>
-        <famname encodinganalog="600" source="lcnaf">Netzorg family.</famname>
-        <corpname encodinganalog="610" source="lcnaf">Cellar Book Shop (Detroit, Mich.)</corpname>
-        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n50068171">National Jewish Welfare Board.</corpname>
+        <famname encodinganalog="600" source="lcnaf" ref="/agents/families/1491">Fuld family.</famname>
+        <famname encodinganalog="600" source="lcnaf" ref="/agents/families/1249">Netzorg family.</famname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/22426">Cellar Book Shop (Detroit, Mich.)</corpname>
+        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n50068171" ref="/agents/corporate_entities/17783">National Jewish Welfare Board.</corpname>
         <subject encodinganalog="650" source="lctgm" ref="/subjects/4985">Bookstores.</subject>
         <subject encodinganalog="650" source="lctgm" ref="/subjects/4986">Chaplains.</subject>
         <subject encodinganalog="650" source="lctgm" ref="/subjects/4117">Clubhouses.</subject>
@@ -137,19 +138,19 @@
       </controlaccess>
       <controlaccess>
         <head>Subjects - Sound Recordings:</head>
-        <famname encodinganalog="600" source="lcnaf">Fuld family.</famname>
-        <famname encodinganalog="600" source="lcnaf">Netzorg family.</famname>
-        <persname encodinganalog="600" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n85245286">Netzorg, Morton J.</persname>
-        <persname encodinganalog="600" source="lcnaf">Netzorg, Petra Fuld.</persname>
+        <famname encodinganalog="600" source="lcnaf" ref="/agents/families/1491">Fuld family.</famname>
+        <famname encodinganalog="600" source="lcnaf" ref="/agents/families/1249">Netzorg family.</famname>
+        <persname encodinganalog="600" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n85245286" ref="/agents/people/35589">Netzorg, Morton J.</persname>
+        <persname encodinganalog="600" source="lcnaf" ref="/agents/people/28510">Netzorg, Petra Fuld.</persname>
         <geogname encodinganalog="651" source="lcsh" ref="/subjects/2426">Germany--History--1918-1933.</geogname>
         <subject encodinganalog="650" source="lcsh" ref="/subjects/6637">World War, 1939-1945--Philippines.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname encodinganalog="700" source="lcnaf">Netzorg, Morton Isadore.</persname>
-        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n85245286">Netzorg, Morton J.</persname>
-        <persname encodinganalog="700" source="lcnaf">Netzorg, Katherine S.</persname>
-        <persname encodinganalog="700" source="lcnaf">Netzorg, Petra Fuld.</persname>
+        <persname encodinganalog="700" source="lcnaf" ref="/agents/people/30707">Netzorg, Morton Isadore.</persname>
+        <persname encodinganalog="700" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n85245286" ref="/agents/people/35589">Netzorg, Morton J.</persname>
+        <persname encodinganalog="700" source="lcnaf" ref="/agents/people/27695">Netzorg, Katherine S.</persname>
+        <persname encodinganalog="700" source="lcnaf" ref="/agents/people/28510">Netzorg, Petra Fuld.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

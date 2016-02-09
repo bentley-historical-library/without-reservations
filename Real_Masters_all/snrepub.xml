@@ -51,7 +51,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -62,7 +63,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/nr93028804">University of Michigan. School of Natural Resources and Environment.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/nr93028804" ref="/agents/corporate_entities/22463">University of Michigan. School of Natural Resources and Environment.</corpname>
       </origination>
       <unittitle encodinganalog="245">School of Natural Resources and Environment (University of Michigan) publications <unitdate type="inclusive" encodinganalog="245$f" normal="1903/2011">1903-2011</unitdate></unittitle>
       <abstract>Includes annual reports, bibliographies, brochures, bulletins or college catalogs, directories, histories, manuals, newsletters, programs, reports, and surveys. Also contains annual reports, brochures, directories, histories, manuals, newsletters and reports from the Biological Station, Michigan Sea Grant Program, and the Wildland Management Center; as well as newsletters from the Dept. of Forestry and Dept. of Wood Technology and manuals and proposals from ENACT (Environmental Action for Survival). In addition there are by-laws, newsletters, programs, and the yearbooks entitled "Michigan Forester" from the Forestry Club, the Foresters Club, and the Foresters Association. There are also several editions of alumni directories, as well as student publications.</abstract>
@@ -110,7 +111,11 @@
       <p>Kenneth P. Davis, professor of forest management, was appointed interim dean for 1965/66. Dr. Keith Arnold of the U.S. Forest Service served as dean for three years, 1967-1969. Arnold was succeeded by James T. McFadden, chairman of the school's Department of Fisheries and Wildlife Management. McFadden was the first non-forester to be named dean and served as dean until 1974.</p>
       <p>William J. Johnson, chairman of the school's Landscape Architecture program, was selected to succeed McFadden. When Johnson stepped down as dean in 1983 to return to academics, he was succeeded by James E. Crowfoot. Confronted with budget reductions and a review by the University of Michigan, Crowfoot provided SNR with the necessary leadership during an intense period of scrutiny. Crowfoot stepped down as dean in December 1990 to chair the Resource, Policy and Behavior concentration and left the University of Michigan in 1994 to assume the presidency of Antioch College. In addition to his responsibilities as dean, Crowfoot was co-founder of the Program in Conflict Management Alternatives. An advocate of the democratic management of organizations, he developed a new curriculum emphasis in environmental dispute resolution.</p>
       <p>Following Crowfoot's resignation Harrison Morton was appointed interim dean of the school until the appointment of Garry D. Brewer in 1992. Among Brewer's first achievements was implementing a name change for the School of Natural Resources. During the July 1992 meeting the University of Michigan Board of Regents approved a name change to the School of Natural Resources and Environment (SNRE). The name changes was designed to reflect the expanding scope of the school. Brewer left the deanship in 1995 and Paul Webb was appointed interim dean. Daniel A. Mazmanian, was appointed dean in June 1996.</p>
-      <p>Leadership of the School of Natural Resources and Environment and its Predecessors <chronlist><head>Chairman of the Department of Forestry</head> <chronitem><date>1903-1923</date> <event>Filibert Roth</event></chronitem> <chronitem><date>1923-1927</date> <event>Leigh J. Young (acting)</event></chronitem> <chronitem><date>1927</date> <event>Robert Craig, Jr. (acting)</event></chronitem></chronlist> <chronlist> <head>Dean of the School of Forestry and Conservation</head> <chronitem><date>1927-1950</date> <event>Samuel Trask Dana</event></chronitem></chronlist> <chronlist> <head>Deans of the School of Natural Resources</head> <chronitem><date>1950/1951</date> <event>Samuel Trask Dana</event></chronitem> <chronitem><date>1951-1962</date> <event>Stanley George Fontanna</event></chronitem> <chronitem><date>1962-1965</date> <event>Stephen H. Spurr</event></chronitem> <chronitem><date>1965-1966</date> <event>Kenneth Davis (Interim)</event></chronitem> <chronitem><date>1967-1969</date> <event>Keith Arnold</event></chronitem> <chronitem><date>1970-1974</date> <event>James T. McFadden</event></chronitem> <chronitem><date>1974-1975</date> <event>Charles Olson (Interim)</event></chronitem> <chronitem><date>1975-1983</date> <event>William J. Johnson</event></chronitem> <chronitem><date>1983-1990</date> <event>James Crowfoot</event></chronitem> <chronitem><date>1991-1992</date> <event>Harrison Morton (Interim)</event></chronitem></chronlist> <chronlist> <head>School of Natural Resources and Environment</head> <chronitem><date>1992-1995</date> <event>Garry D. Brewer</event></chronitem> <chronitem><date>1995</date> <event>Paul Webb (Interim)</event></chronitem> <chronitem><date>1996-2000</date> <event>Daniel A. Mazmanian</event></chronitem> <chronitem><date>2000-2001</date> <event>Barry Rabe (Interim)</event></chronitem> <chronitem><date>2001-</date> <event>Rosina M. Bierbaum</event></chronitem></chronlist></p>
+      <p>Leadership of the School of Natural Resources and Environment and its Predecessors <chronlist>
+        <head>Chairman of the Department of Forestry</head> <chronitem><date>1903-1923</date> <event>Filibert Roth</event></chronitem> <chronitem><date>1923-1927</date> <event>Leigh J. Young (acting)</event></chronitem> <chronitem><date>1927</date> <event>Robert Craig, Jr. (acting)</event></chronitem></chronlist> <chronlist>
+        <head>Dean of the School of Forestry and Conservation</head> <chronitem><date>1927-1950</date> <event>Samuel Trask Dana</event></chronitem></chronlist> <chronlist>
+        <head>Deans of the School of Natural Resources</head> <chronitem><date>1950/1951</date> <event>Samuel Trask Dana</event></chronitem> <chronitem><date>1951-1962</date> <event>Stanley George Fontanna</event></chronitem> <chronitem><date>1962-1965</date> <event>Stephen H. Spurr</event></chronitem> <chronitem><date>1965-1966</date> <event>Kenneth Davis (Interim)</event></chronitem> <chronitem><date>1967-1969</date> <event>Keith Arnold</event></chronitem> <chronitem><date>1970-1974</date> <event>James T. McFadden</event></chronitem> <chronitem><date>1974-1975</date> <event>Charles Olson (Interim)</event></chronitem> <chronitem><date>1975-1983</date> <event>William J. Johnson</event></chronitem> <chronitem><date>1983-1990</date> <event>James Crowfoot</event></chronitem> <chronitem><date>1991-1992</date> <event>Harrison Morton (Interim)</event></chronitem></chronlist> <chronlist>
+        <head>School of Natural Resources and Environment</head> <chronitem><date>1992-1995</date> <event>Garry D. Brewer</event></chronitem> <chronitem><date>1995</date> <event>Paul Webb (Interim)</event></chronitem> <chronitem><date>1996-2000</date> <event>Daniel A. Mazmanian</event></chronitem> <chronitem><date>2000-2001</date> <event>Barry Rabe (Interim)</event></chronitem> <chronitem><date>2001-</date> <event>Rosina M. Bierbaum</event></chronitem></chronlist></p>
     </bioghist>
     <scopecontent encodinganalog="520">
       <p>The Publications of the School of Natural Resources and Environment are divided into four series: Unit Publications, Sub-Unit Publications, Topical Publications and Student Publications. Some publications (or their successors) may no longer be available in print but are available on the school s website.</p>
@@ -121,25 +126,25 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Alumni and alumnae.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr93028804">University of Michigan. School of Natural Resources and Environment.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81003782">University of Michigan. School of Natural Resources.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Forestry.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Wood Technology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80149747">University of Michigan. Biological Station.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82049340">Michigan Sea Grant Program.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Foresters Club.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Foresters Association.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85098235">University of Michigan. Wildland Management Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Alumni and alumnae.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Students--Social life and customs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr93028804" ref="/agents/corporate_entities/22463">University of Michigan. School of Natural Resources and Environment.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81003782" ref="/agents/corporate_entities/19312">University of Michigan. School of Natural Resources.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17763">University of Michigan. Dept. of Forestry.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20931">University of Michigan. Dept. of Wood Technology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80149747" ref="/agents/corporate_entities/17751">University of Michigan. Biological Station.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82049340" ref="/agents/corporate_entities/17575">Michigan Sea Grant Program.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/23053">University of Michigan. Foresters Club.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21934">University of Michigan. Foresters Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85098235" ref="/agents/corporate_entities/23034">University of Michigan. Wildland Management Center.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n81003782">University of Michigan. School of Natural Resources.</corpname>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n80149747">University of Michigan. Biological Station.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Dept. of Forestry.</corpname>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n85098235">University of Michigan. Wildland Management Center.</corpname>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n82049340">Michigan Sea Grant Program.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n81003782" ref="/agents/corporate_entities/19312">University of Michigan. School of Natural Resources.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n80149747" ref="/agents/corporate_entities/17751">University of Michigan. Biological Station.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/17763">University of Michigan. Dept. of Forestry.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n85098235" ref="/agents/corporate_entities/23034">University of Michigan. Wildland Management Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n82049340" ref="/agents/corporate_entities/17575">Michigan Sea Grant Program.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Publications:</head>
@@ -2017,7 +2022,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Archived version of the School of Natural Resources Website as it appeared on May 15, 2002.  Documents the academic programs, accomplishments, resources, events, and people at the School of Natural Resources and Environment. Content includes important news and announcements, publications (such as newsletters and course catalogs), and information about admissions, curriculum, degree requirements, faculty, and the overall mission of the School.)</p></odd></c03>
+            <odd>
+              <p>(Archived version of the School of Natural Resources Website as it appeared on May 15, 2002.  Documents the academic programs, accomplishments, resources, events, and people at the School of Natural Resources and Environment. Content includes important news and announcements, publications (such as newsletters and course catalogs), and information about admissions, curriculum, degree requirements, faculty, and the overall mission of the School.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
@@ -2033,7 +2041,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Partial snapshot of the School of Natural Resources and Environment website as of April 20, 2004. Documents the academic programs, accomplishments, resources, events, and people at the School of Natural Resources and Environment. Content includes important news and announcements, information for alumni, and content geared towards students, such as course descriptions and funding opportunities)</p></odd></c03>
+            <odd>
+              <p>(Partial snapshot of the School of Natural Resources and Environment website as of April 20, 2004. Documents the academic programs, accomplishments, resources, events, and people at the School of Natural Resources and Environment. Content includes important news and announcements, information for alumni, and content geared towards students, such as course descriptions and funding opportunities)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
@@ -2049,7 +2060,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Archived version of the School of Natural Resources Website as it appeared on May 9, 2008.  Documents the academic programs, accomplishments, resources, events, and people at the School of Natural Resources and Environment. Content includes important news and announcements, publications (such as newsletters and course catalogs), and information about admissions, curriculum, degree requirements, faculty, and the overall mission of the School.)</p></odd></c03>
+            <odd>
+              <p>(Archived version of the School of Natural Resources Website as it appeared on May 9, 2008.  Documents the academic programs, accomplishments, resources, events, and people at the School of Natural Resources and Environment. Content includes important news and announcements, publications (such as newsletters and course catalogs), and information about admissions, curriculum, degree requirements, faculty, and the overall mission of the School.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>

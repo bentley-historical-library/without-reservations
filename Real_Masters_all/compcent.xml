@@ -35,7 +35,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n88650382">University of Michigan. Computing Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n88650382" ref="/agents/corporate_entities/20287">University of Michigan. Computing Center.</corpname>
       </origination>
       <unittitle encodinganalog="245">Computing Center (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1952/1996">1952-1996</unitdate>, <unitdate type="inclusive" encodinganalog="245$f" normal="1959/1987">1959-1987</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">9551 Bimu 2</unitid>
@@ -168,17 +169,17 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88650382">University of Michigan. Computing Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88650382" ref="/agents/corporate_entities/20287">University of Michigan. Computing Center.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6585">Computers.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Terminal System.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22275">Michigan Terminal System.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6991">Word processing.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. University Committee on Computer Policy and Utilization.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr92011114">University of Michigan. Information Technology Division.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Statistical Research Laboratory.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr92019342">Bartels, R. C. F. (Robert Christian Frank)</persname>
-        <persname source="lcnaf" encodinganalog="600">Finerman, Aaron.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79142877">International Business Machines Corporation.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Merit Network, Inc.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17388">University of Michigan. University Committee on Computer Policy and Utilization.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr92011114" ref="/agents/corporate_entities/17411">University of Michigan. Information Technology Division.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19468">University of Michigan. Statistical Research Laboratory.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr92019342" ref="/agents/people/33198">Bartels, R. C. F. (Robert Christian Frank)</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34009">Finerman, Aaron.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79142877" ref="/agents/corporate_entities/19268">International Business Machines Corporation.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21830">Merit Network, Inc.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
@@ -4989,7 +4990,10 @@
               </daodesc>
             </dao>
           </did>
-        <odd><p>(The Bibliography was updated in 2011 and was based on *MTSBibliography created by the Computing Center, University of Michigan. Includes published literature on the Michigan Terminal System as well as doctoral theses and research reports)</p></odd></c02>
+          <odd>
+            <p>(The Bibliography was updated in 2011 and was based on *MTSBibliography created by the Computing Center, University of Michigan. Includes published literature on the Michigan Terminal System as well as doctoral theses and research reports)</p>
+          </odd>
+        </c02>
         <c02 level="file">
           <did>
             <unittitle>Movies</unittitle>
@@ -5042,7 +5046,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(This paper was done for History 265, College of Literature, Science and the Arts, University of Michigan Winter Term 1999.)</p></odd></c03>
+            <odd>
+              <p>(This paper was done for History 265, College of Literature, Science and the Arts, University of Michigan Winter Term 1999.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
@@ -5053,8 +5060,11 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(The structure of supervisor programs for time shared or multiple access operating systems is described. Those&#13;
-functions of the supervisor that are concerned with scheduling and resource allocation are emphasized. The four time sharing systems that are described are Control Program 67 (CP/67), Time Sharing System (TSS/360), and University of Michigan Multi-Programming Supervisor (UMMPS) for the IBM System 360 Model 67 and Multics for the General Electric 645. The emphasis is on describing and comparing the various supervisor programs, rather than recommending any specific approach. In general those aspects of the supervisor programs that are the direct result of some peculiarity of the hardware used are not included.)</p></odd></c03>
+            <odd>
+              <p>(The structure of supervisor programs for time shared or multiple access operating systems is described. Those&#13;
+functions of the supervisor that are concerned with scheduling and resource allocation are emphasized. The four time sharing systems that are described are Control Program 67 (CP/67), Time Sharing System (TSS/360), and University of Michigan Multi-Programming Supervisor (UMMPS) for the IBM System 360 Model 67 and Multics for the General Electric 645. The emphasis is on describing and comparing the various supervisor programs, rather than recommending any specific approach. In general those aspects of the supervisor programs that are the direct result of some peculiarity of the hardware used are not included.)</p>
+            </odd>
+          </c03>
         </c02>
         <c02 level="file">
           <did>
@@ -5065,7 +5075,10 @@ functions of the supervisor that are concerned with scheduling and resource allo
               </daodesc>
             </dao>
           </did>
-        <odd><p>(Snapshot of this information was taken on January 9, 2011 by Jeffrey Ogden.  Articles within this document include:  1.  Michigan Terminal System  2.  MTS system architecture  3.  IBM System/360 Model 67   4.  MAD programming language   5. UBC Plus   6. Micro DBMS   7. Bruce Arden  8.  Bernard Galler   9. TSS/360.)</p></odd></c02>
+          <odd>
+            <p>(Snapshot of this information was taken on January 9, 2011 by Jeffrey Ogden.  Articles within this document include:  1.  Michigan Terminal System  2.  MTS system architecture  3.  IBM System/360 Model 67   4.  MAD programming language   5. UBC Plus   6. Micro DBMS   7. Bruce Arden  8.  Bernard Galler   9. TSS/360.)</p>
+          </odd>
+        </c02>
       </c01>
       <c01 level="series">
         <did>
@@ -5084,7 +5097,10 @@ functions of the supervisor that are concerned with scheduling and resource allo
               </daodesc>
             </dao>
           </did>
-          <odd><p>(Michigan Terminal System tapes and documentation for regular and partial distributions D1-0 through D6-0.  Dates for the distributions span from October 1968 to April 1988.   This group of files also includes the Michigan Terminal System distribution labeled tape program (lbltp).  Refer to the README.txt file for important information about the distribution files.)</p></odd><c03 level="file">
+          <odd>
+            <p>(Michigan Terminal System tapes and documentation for regular and partial distributions D1-0 through D6-0.  Dates for the distributions span from October 1968 to April 1988.   This group of files also includes the Michigan Terminal System distribution labeled tape program (lbltp).  Refer to the README.txt file for important information about the distribution files.)</p>
+          </odd>
+          <c03 level="file">
             <did>
               <unittitle>Distribution 1.0 <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
             </did>
@@ -5399,7 +5415,10 @@ functions of the supervisor that are concerned with scheduling and resource allo
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(A collection of documents describing internal system interfaces, data structures, and programs, various dates 1972-1978.)</p></odd></c03>
+            <odd>
+              <p>(A collection of documents describing internal system interfaces, data structures, and programs, various dates 1972-1978.)</p>
+            </odd>
+          </c03>
         </c02>
         <c02 level="file">
           <did>
@@ -5434,7 +5453,10 @@ functions of the supervisor that are concerned with scheduling and resource allo
                   </daodesc>
                 </dao>
               </did>
-            <odd><p>(The second edition (December 1,, 1967) is a major revision of the first edition (June 1, 1967). Volume I contains writeups concerned with the use of MTS and use of the language processors within MTS.)</p></odd></c04>
+              <odd>
+                <p>(The second edition (December 1,, 1967) is a major revision of the first edition (June 1, 1967). Volume I contains writeups concerned with the use of MTS and use of the language processors within MTS.)</p>
+              </odd>
+            </c04>
             <c04 level="file">
               <did>
                 <physloc>Online</physloc>
@@ -5445,7 +5467,10 @@ functions of the supervisor that are concerned with scheduling and resource allo
                   </daodesc>
                 </dao>
               </did>
-            <odd><p>(The second edition (December 1,, 1967) is a major revision of the first edition (June 1, 1967). Volume II contains writeups concerned with the content of the languages available within MTS.)</p></odd></c04>
+              <odd>
+                <p>(The second edition (December 1,, 1967) is a major revision of the first edition (June 1, 1967). Volume II contains writeups concerned with the content of the languages available within MTS.)</p>
+              </odd>
+            </c04>
             <c04 level="file">
               <did>
                 <physloc>Online</physloc>
@@ -5478,7 +5503,10 @@ functions of the supervisor that are concerned with scheduling and resource allo
                   </daodesc>
                 </dao>
               </did>
-            <odd><p>(This volume contains the public file descriptions of programs that are either obsolete or seldom used. In an effort to reduce the size the MTS Volume 2, Public File Descriptions, these descriptions were moved to this volume.)</p></odd></c04>
+              <odd>
+                <p>(This volume contains the public file descriptions of programs that are either obsolete or seldom used. In an effort to reduce the size the MTS Volume 2, Public File Descriptions, these descriptions were moved to this volume.)</p>
+              </odd>
+            </c04>
             <c04 level="file">
               <did>
                 <physloc>Online</physloc>
@@ -5725,8 +5753,11 @@ functions of the supervisor that are concerned with scheduling and resource allo
                   </daodesc>
                 </dao>
               </did>
-            <odd><p>(This writeup describes a facility that assists in the &#13;
-development of programs which perform some kind of syntactic analysis of input. The facility consists of two parts: a self-contained program called the table generator, and a library of subroutines called the parser. The original version of this program was based in part on the Spires parser and grammar analyzer. They have been completely rewritten (in PLUS) and extensively modified for use in MTS. This writeup corresponds to Version 2 of the parser and table generator as implemented in July 1981.)</p></odd></c04>
+              <odd>
+                <p>(This writeup describes a facility that assists in the &#13;
+development of programs which perform some kind of syntactic analysis of input. The facility consists of two parts: a self-contained program called the table generator, and a library of subroutines called the parser. The original version of this program was based in part on the Spires parser and grammar analyzer. They have been completely rewritten (in PLUS) and extensively modified for use in MTS. This writeup corresponds to Version 2 of the parser and table generator as implemented in July 1981.)</p>
+              </odd>
+            </c04>
             <c04 level="file">
               <did>
                 <physloc>Online</physloc>
@@ -5737,7 +5768,10 @@ development of programs which perform some kind of syntactic analysis of input. 
                   </daodesc>
                 </dao>
               </did>
-            <odd><p>(This edition of the PLUS library manual corresponds to version 24 of the 470 PLUS compiler (distributed in July, 1982). The file *PLUS.SOURCELIB is a PLUS source library containing many declarations that may be useful when writing PLUS programs.)</p></odd></c04>
+              <odd>
+                <p>(This edition of the PLUS library manual corresponds to version 24 of the 470 PLUS compiler (distributed in July, 1982). The file *PLUS.SOURCELIB is a PLUS source library containing many declarations that may be useful when writing PLUS programs.)</p>
+              </odd>
+            </c04>
             <c04 level="file">
               <did>
                 <physloc>Online</physloc>
@@ -5748,7 +5782,10 @@ development of programs which perform some kind of syntactic analysis of input. 
                   </daodesc>
                 </dao>
               </did>
-            <odd><p>(This manual provides a description of the systems programming language Plus, developed at the University of British Columbia by Allan Ballard and Paul Whaley. Plus is based to a large extent on the Sue system language developed at the University of Toronto (circa 1971) to implement an operating system for the IBM System 360 computers. Plus has much in common with the structure and semantics of Sue, Pascal, and C.)</p></odd></c04>
+              <odd>
+                <p>(This manual provides a description of the systems programming language Plus, developed at the University of British Columbia by Allan Ballard and Paul Whaley. Plus is based to a large extent on the Sue system language developed at the University of Toronto (circa 1971) to implement an operating system for the IBM System 360 computers. Plus has much in common with the structure and semantics of Sue, Pascal, and C.)</p>
+              </odd>
+            </c04>
           </c03>
         </c02>
         <c02 level="file">
@@ -5831,7 +5868,10 @@ development of programs which perform some kind of syntactic analysis of input. 
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(The MTS file *ITDPUBLICATIONS replaced *CCMEMOS, lists MTS Volumes, updates to MTS Volumes, other reference documents, Step-by-Step documents, Tutorial documents, CC Memos and Merit Memos.)</p></odd></c03>
+            <odd>
+              <p>(The MTS file *ITDPUBLICATIONS replaced *CCMEMOS, lists MTS Volumes, updates to MTS Volumes, other reference documents, Step-by-Step documents, Tutorial documents, CC Memos and Merit Memos.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
@@ -5842,7 +5882,10 @@ development of programs which perform some kind of syntactic analysis of input. 
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Guide for using TEXTFORM with MTS. TEXTFORM can produce a variety of documents, ranging from single-page memos and letters to entire books. It is primarily aimed at the production of multi-page documents. The powerful MTS File Editor permits revising the contents of a document without having to be concerned about the format. With the TEXTFORM program, users can change the format without affecting the contents.)</p></odd></c03>
+            <odd>
+              <p>(Guide for using TEXTFORM with MTS. TEXTFORM can produce a variety of documents, ranging from single-page memos and letters to entire books. It is primarily aimed at the production of multi-page documents. The powerful MTS File Editor permits revising the contents of a document without having to be concerned about the format. With the TEXTFORM program, users can change the format without affecting the contents.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
@@ -5939,7 +5982,7 @@ development of programs which perform some kind of syntactic analysis of input. 
       <bibliography>
         <head>Bibliography</head>
         <p>A group of former MTS developers have created a website, the <title href="http://archive.michigan-terminal-system.org/home" show="new" actuate="onrequest">Michigan Terminal System Archive </title> documenting the history of MTS. It includes links to many of the publications and documents included in the Computing Center Records group. </p>
-        <p>Brief historical sketches of the development of MTS and the Merit Network are available online at: <list type="simple"><item>In<title render="italic">Information Technology Digest</title>, May 13, 1996 <sublist type="simple"> <subitem>"A History of MTS: Thirty Years of Computing Services" [http://www.60bits.net/msu/mycomp/mts/others/feat01.htm accessed 5/28/20152]</subitem><subitem>"MTS Fostered Creation of Computing Community" [http://www.60bits.net/msu/mycomp/mts/others/feat01.htm accessed 5/28/2015</subitem><subitem>"MTS: Thanks for the Memories" [http://www.60bits.net/msu/mycomp/mts/others/feat03.htm accessed 5/28/2015</subitem><subitem>"MTS Timeline" [http://archive.michigan-terminal-system.org/discussions/timeline accessed 5/28/20152</subitem></sublist> </item><item>Merit Website <bibref href="http://www.merit.edu/about/history/" show="new" actuate="onrequest">History / Timeline</bibref> includes links to the following articles: <sublist type="simple"> <subitem>"Merit - Who, What, and Why" by Eric Aupperle</subitem><subitem>"A Chronicle of Merit's Early History" by John Mulcahy</subitem></sublist> </item></list> </p>
+        <p>Brief historical sketches of the development of MTS and the Merit Network are available online at: <list type="simple"><item>In<title render="italic">Information Technology Digest</title>, May 13, 1996 <sublist type="simple"> <subitem>"A History of MTS: Thirty Years of Computing Services" [http://www.60bits.net/msu/mycomp/mts/others/feat01.htm accessed 5/28/20152]</subitem> <subitem>"MTS Fostered Creation of Computing Community" [http://www.60bits.net/msu/mycomp/mts/others/feat01.htm accessed 5/28/2015</subitem> <subitem>"MTS: Thanks for the Memories" [http://www.60bits.net/msu/mycomp/mts/others/feat03.htm accessed 5/28/2015</subitem> <subitem>"MTS Timeline" [http://archive.michigan-terminal-system.org/discussions/timeline accessed 5/28/20152</subitem></sublist> </item><item>Merit Website <bibref href="http://www.merit.edu/about/history/" show="new" actuate="onrequest">History / Timeline</bibref> includes links to the following articles: <sublist type="simple"> <subitem>"Merit - Who, What, and Why" by Eric Aupperle</subitem> <subitem>"A Chronicle of Merit's Early History" by John Mulcahy</subitem></sublist> </item></list> </p>
       </bibliography>
     </descgrp>
   </archdesc>

@@ -39,7 +39,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -50,7 +51,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. College of Pharmacy.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/22419">University of Michigan. College of Pharmacy.</corpname>
       </origination>
       <unittitle encodinganalog="245">College of Pharmacy (University of Michigan) publications <unitdate type="inclusive" encodinganalog="245$f" normal="1880/9999">1880-[ongoing]</unitdate></unittitle>
       <abstract>Includes bibliographies, pamphlets, bulletins and college catalogs, histories, manuals such as <title render="italic">Drugs and Pharmacy</title>, newsletters such as the <title render="italic">College of Pharmacy Newsletter</title>, posters, proceedings and programs. Also contains publications from the Pharmacy Advancement Program such as <title render="italic">Interactions</title> and <title render="italic">InterUMactions</title>, as well as alumni directories and student publications such as <title render="italic">Capsules</title>, <title render="italic">Equilibrium</title>, <title render="italic">The Hash Sheet</title>, <title render="italic">Pharmacy Newsletter</title>, and <title render="italic">Pharmacy Paper</title>.</abstract>
@@ -161,9 +162,9 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Pharmacy Advancement Program.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. College of Pharmacy.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Students--Social life and customs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22885">University of Michigan. Pharmacy Advancement Program.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22419">University of Michigan. College of Pharmacy.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
@@ -178,7 +179,7 @@
         <genreform source="aat" encodinganalog="655" ref="/subjects/3241">Proceedings.</genreform>
         <genreform source="aat" encodinganalog="655" ref="/subjects/3211">Programs.</genreform>
         <genreform source="lcsh" encodinganalog="655" ref="/subjects/3439">Student publications.</genreform>
-        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Pharmacy Advancement Program.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/22885">University of Michigan. Pharmacy Advancement Program.</corpname>
         <title encodinganalog="740" source="aacr2" ref="/subjects/106">Drugs and pharmacy.</title>
         <title encodinganalog="740" source="aacr2" ref="/subjects/107">College of Pharmacy newsletter. Capsules.</title>
         <title encodinganalog="740" source="aacr2" ref="/subjects/108">Equilibrium. Hash sheet</title>

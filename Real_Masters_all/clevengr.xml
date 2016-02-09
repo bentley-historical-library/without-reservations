@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Clevenger, Raymond Francis, 1926-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/36008">Clevenger, Raymond Francis, 1926-</persname>
       </origination>
       <unittitle encodinganalog="245">Raymond F. Clevenger papers <unitdate type="inclusive" encodinganalog="245$f" normal="1953/1967">1953-1967</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85966 Aa 2</unitid>
@@ -88,13 +89,13 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Clevenger, Raymond Francis, 1926-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/36008">Clevenger, Raymond Francis, 1926-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6215">Conservation of natural resources--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731">Democratic Party (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731" ref="/agents/corporate_entities/21108">Democratic Party (Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/938">Upper Peninsula (Mich.)</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/810">Michigan--Politics and government--1961-1970.</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81003784.html" ref="/subjects/936">Sault Sainte Marie (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79107874">United States. Congress. House.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79107874" ref="/agents/corporate_entities/19180">United States. Congress. House.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/910">Michigan--Politics and government--1951-</geogname>
       </controlaccess>
     </controlaccess>

@@ -31,7 +31,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/nr96018829">LeRoy, James A. (James Alfred), 1875-1909.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/nr96018829" ref="/agents/people/35426">LeRoy, James A. (James Alfred), 1875-1909.</persname>
       </origination>
       <unittitle encodinganalog="245">James A. LeRoy Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1893/1944">1893-1944</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1898/1909">1898-1909</unitdate></unittitle>
       <abstract>Writer and diplomat who served in the Philippines, 1900-1901 and 1905, and Mexico, 1903-1907; papers include correspondence, travel journals, photographs, and scrapbooks.</abstract>
@@ -84,8 +85,8 @@
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/944">Philippines--History--1898-1946.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2203">Mexico--History--1867-1910.</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79022244">Taft, William H. (William Howard), 1857-1930.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr96018829">LeRoy, James A. (James Alfred), 1875-1909.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79022244" ref="/agents/people/30014">Taft, William H. (William Howard), 1857-1930.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr96018829" ref="/agents/people/35426">LeRoy, James A. (James Alfred), 1875-1909.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
@@ -93,7 +94,7 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">LeRoy, Mabel.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27727">LeRoy, Mabel.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

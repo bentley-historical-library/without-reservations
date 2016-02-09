@@ -24,7 +24,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. College of Literature, Science and the Arts. Honors Program.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/19898">University of Michigan. College of Literature, Science and the Arts. Honors Program.</corpname>
       </origination>
       <unittitle encodinganalog="245">College of Literature, Science and the Arts Honors Program (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1957/1984">1957-1984</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">97116 Bimu 2</unitid>
@@ -133,10 +134,10 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname encodinganalog="610" source="lcnaf">University of Michigan. College of Literature, Science and the Arts. Honors Program.</corpname>
-        <corpname encodinganalog="610" source="lcnaf">Universities and college--Honors courses.</corpname>
-        <persname encodinganalog="600" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n80015416">Angell, Robert Cooley, 1899-1984</persname>
-        <persname encodinganalog="600" source="lcnaf">Graf, Otto.</persname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/19898">University of Michigan. College of Literature, Science and the Arts. Honors Program.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/21860">Universities and college--Honors courses.</corpname>
+        <persname encodinganalog="600" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n80015416" ref="/agents/people/35344">Angell, Robert Cooley, 1899-1984</persname>
+        <persname encodinganalog="600" source="lcnaf" ref="/agents/people/33439">Graf, Otto.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

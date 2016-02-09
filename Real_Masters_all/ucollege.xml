@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. University College.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/17675">University of Michigan. University College.</corpname>
       </origination>
       <unittitle encodinganalog="245">University College (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1922/1930">1922-1930</unitdate></unittitle>
       <abstract>Correspondence, reports, and minutes detailing effort to establish a University College at the University of Michigan.</abstract>
@@ -87,8 +88,8 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10447">Universities and colleges.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Administration.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. University College.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Administration.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17675">University of Michigan. University College.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

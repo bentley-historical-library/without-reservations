@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Edwards, Billie Louise, 1947-1995.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30088">Edwards, Billie Louise, 1947-1995.</persname>
       </origination>
       <unittitle encodinganalog="245">Billie Louise Edwards Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1981/1993">1981-1993</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1987/1992">1987-1992</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">0591 Aa 2</unitid>
@@ -75,16 +76,16 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Edwards, Billie Louise, 1947-1995.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30088">Edwards, Billie Louise, 1947-1995.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6165">Coming out (Sexual orientation)</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5768">Lesbians--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7421">Sexual orientation--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Lesbian-Gay Male Programs Office.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17709">University of Michigan. Lesbian-Gay Male Programs Office.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7422">Women clergy--Michigan.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Sound Recordings:</head>
-        <persname source="lcnaf" encodinganalog="600">Edwards, Billie Louise, 1947-1995.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30088">Edwards, Billie Louise, 1947-1995.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7423">Sexual orientation.</subject>
         <genreform source="aat" encodinganalog="655" ref="/subjects/3187">Sermons.</genreform>
       </controlaccess>

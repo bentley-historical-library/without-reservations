@@ -32,7 +32,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -43,7 +44,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">King, Jean.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33537">King, Jean.</persname>
       </origination>
       <unittitle encodinganalog="245">Jean King papers <unitdate type="inclusive" encodinganalog="245$f" normal="1964/2004">1964-2004</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">88457 Aa 2</unitid>
@@ -92,11 +93,11 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79079580">American Civil Liberties Union.</corpname>
+        <corpname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79079580" ref="/agents/corporate_entities/21982">American Civil Liberties Union.</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html" ref="/subjects/860">Ann Arbor (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7974">Sex discrimination against women--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no95019637">United States. Federal Glass Ceiling Commission.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Administration.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no95019637" ref="/agents/corporate_entities/20001">United States. Federal Glass Ceiling Commission.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Administration.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6248">Women's rights--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6503">Lawyers--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5862">Women college students--Michigan--Ann Arbor.</subject>

@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Elwood, Isaac Newton, 1843-1887.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/31395">Elwood, Isaac Newton, 1843-1887.</persname>
       </origination>
       <unittitle encodinganalog="245">Isaac Newton Elwood papers <unitdate type="inclusive" encodinganalog="245$f" normal="1866/1885">1866-1885</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851258 Aa 2</unitid>
@@ -82,12 +83,12 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5707">Clergy--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1022">Fenton (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/997">Marquette (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Methodist Episcopal Church--Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19286">Methodist Episcopal Church--Michigan.</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85189118.html" ref="/subjects/1165">Morenci (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n83030021.html" ref="/subjects/1206">Port Huron (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7435">Sunday schools--Michigan--Morenci.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1217">Saginaw (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81057079">Sumner, Charles, 1811-1874.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81057079" ref="/agents/people/27383">Sumner, Charles, 1811-1874.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6233">Temperance--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80006284.html" ref="/subjects/999">Ypsilanti (Mich.)</geogname>
       </controlaccess>

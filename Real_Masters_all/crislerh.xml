@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Crisler, H. O. (Herbert Orin), 1899-1982.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/36130">Crisler, H. O. (Herbert Orin), 1899-1982.</persname>
       </origination>
       <unittitle encodinganalog="245">H. O. Crisler papers <unitdate type="inclusive" encodinganalog="245$f" normal="1922/1978">1922-1978</unitdate></unittitle>
       <abstract>Football coach, 1938-1948, and Athletic Director at the University of Michigan, 1941-1968. Papers include correspondence and other papers concerning his career at the University of Chicago, the University of Minnesota, Princeton University, and the University of Michigan; materials concerning his work and association with the National Collegiate Athletic Association rules committee, 1942-1977, the Intercollegiate (Big Ten) Conference, and the University's Board in Control of Intercollegiate Activities; also include materials relating to University of Chicago football coach, Amos Alonzo Stagg, Ralph Young, athletic director at Michigan State University, and the founding and first years of the American Football League; and photographs.</abstract>
@@ -94,30 +95,30 @@
     <controlaccess>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">American Football League.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22543">American Football League.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5990">Athletics--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7083">Football--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Intercollegiate Conference of Faculty Representatives.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79054541">Michigan State University.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79058449">National Collegiate Athletic Association.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n90648453">Stagg, Amos Alonzo, 1862-1965.</persname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Sports.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Board in Control of Intercollegiate Athletics.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Football.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22292">Intercollegiate Conference of Faculty Representatives.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79054541" ref="/agents/corporate_entities/21284">Michigan State University.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79058449" ref="/agents/corporate_entities/21184">National Collegiate Athletic Association.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n90648453" ref="/agents/people/28639">Stagg, Amos Alonzo, 1862-1965.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Sports.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17969">University of Michigan. Board in Control of Intercollegiate Athletics.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Football.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Crisler, H. O. (Herbert Orin), 1899-1982.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/36130">Crisler, H. O. (Herbert Orin), 1899-1982.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3612">Football.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/948">Japan.</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n90648453">Stagg, Amos Alonzo, 1862-1965.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79058404">University of Chicago.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Football.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79043154">University of Minnesota.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n90648453" ref="/agents/people/28639">Stagg, Amos Alonzo, 1862-1965.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79058404" ref="/agents/corporate_entities/19970">University of Chicago.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Football.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79043154" ref="/agents/corporate_entities/20969">University of Minnesota.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Young, Ralph.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/36005">Young, Ralph.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

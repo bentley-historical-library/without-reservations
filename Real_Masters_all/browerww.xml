@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Brower, W. W. (Willis W.)</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30696">Brower, W. W. (Willis W.)</persname>
       </origination>
       <unittitle encodinganalog="245">W. W. Brower papers <unitdate type="inclusive" encodinganalog="245$f" normal="1880/1899" certainty="approximate">1880s-1890s</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">8565 Aa 2</unitid>
@@ -77,16 +78,16 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no89011318">American Protective Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no89011318" ref="/agents/corporate_entities/19775">American Protective Association.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1369">Fife Lake (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6498">General stores--Michigan--Fife Lake.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Independent Order of Good Templars--Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20088">Independent Order of Good Templars--Michigan.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6499">Undertakers and undertaking--Michigan--Fife Lake.</subject>
-        <persname source="lcnaf" encodinganalog="600">Brower, W. W. (Willis W.)</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30696">Brower, W. W. (Willis W.)</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600">Brower, W. W. (Willis W.)</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30696">Brower, W. W. (Willis W.)</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3613">Hearses.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3928">Tombs and sepulchral monuments.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3929">Undertakers.</subject>
@@ -99,15 +100,15 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors: Commercial Catalog Collection</head>
-        <corpname source="lcnaf" encodinganalog="710">Mills and Lacey Manufacturing Company.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">Durfee Embalming Fluid Company.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">Powers and Walker Casket Company.</corpname>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n2001065502">Detroit Casket Company.</corpname>
-        <persname source="lcnaf" encodinganalog="700">Allen, Z. E.</persname>
-        <corpname source="lcnaf" encodinganalog="710">Kent Furniture Manufacturing Company.</corpname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no99027580">Hoffman, H. L.</persname>
-        <persname source="lcnaf" encodinganalog="700">Halstead, J.</persname>
-        <persname source="lcnaf" encodinganalog="700">Mullens, W. H.</persname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/18219">Mills and Lacey Manufacturing Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/23121">Durfee Embalming Fluid Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/22469">Powers and Walker Casket Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n2001065502" ref="/agents/corporate_entities/18572">Detroit Casket Company.</corpname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33128">Allen, Z. E.</persname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/19941">Kent Furniture Manufacturing Company.</corpname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no99027580" ref="/agents/people/30969">Hoffman, H. L.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28105">Halstead, J.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34402">Mullens, W. H.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

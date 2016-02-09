@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Amaranth Club (Jackson, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/20610">Amaranth Club (Jackson, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">Amaranth Club (Jackson, Mich.) records <unitdate type="inclusive" encodinganalog="245$f" normal="1898/1992">1898-1992</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1920/1980">1920-1980</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">90166 Bk 2</unitid>
@@ -80,8 +81,8 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Amaranth Club (Jackson, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Catholic Church--Michigan--Jackson--Societies, etc.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20610">Amaranth Club (Jackson, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20943">Catholic Church--Michigan--Jackson--Societies, etc.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/924">Jackson (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5876">Literature--Societies, etc.--Michigan--Jackson.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5877">Women--Michigan--Jackson--Societies and clubs.</subject>

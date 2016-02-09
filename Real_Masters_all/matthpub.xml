@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Matthaei Botanical Gardens.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/19102">University of Michigan. Matthaei Botanical Gardens.</corpname>
       </origination>
       <unittitle encodinganalog="245">Matthaei Botanical Gardens (University of Michigan) publications <unitdate type="inclusive" encodinganalog="245$f" normal="1928/2005">1928-2005</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1970/2005">1970-2005</unitdate></unittitle>
       <abstract>Established in 1897, the Matthaei Botanical Gardens serves as an educational resource for the university and local community. The publications cover the published and printed material produced by the Matthaei Botanical Gardens and its sub-units. In 2004, the Matthaei Botanical Gardens merged with the Nichols Arboretum. The publications produced after the units combined can be found in the Matthaei Botanical Gardens and Nichols Arboretum collections.</abstract>
@@ -98,17 +99,17 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="611">Ann Arbor Flower and Garden Show.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Matthaei Botanical Gardens.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Matthaei Botanical Gardens. Friends.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Matthaei Botanical Gardens. Adult Education Program.</corpname>
+        <corpname source="lcnaf" encodinganalog="611" ref="/agents/corporate_entities/21920">Ann Arbor Flower and Garden Show.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19102">University of Michigan. Matthaei Botanical Gardens.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21565">University of Michigan. Matthaei Botanical Gardens. Friends.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19158">University of Michigan. Matthaei Botanical Gardens. Adult Education Program.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Matthaei Botanical Gardens. Adult Education Program.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Matthaei Botanical Gardens. Friends.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">Matthaei Botanical Gardens.</corpname>
-        <corpname source="lcnaf" encodinganalog="711">Ann Arbor Flower and Garden Show.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/19158">University of Michigan. Matthaei Botanical Gardens. Adult Education Program.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/21565">University of Michigan. Matthaei Botanical Gardens. Friends.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/18273">Matthaei Botanical Gardens.</corpname>
+        <corpname source="lcnaf" encodinganalog="711" ref="/agents/corporate_entities/21920">Ann Arbor Flower and Garden Show.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

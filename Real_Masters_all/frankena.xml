@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n79144658">Frankena, William K.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n79144658" ref="/agents/people/32161">Frankena, William K.</persname>
       </origination>
       <unittitle encodinganalog="245">William K. Frankena papers <unitdate type="inclusive" encodinganalog="245$f" normal="1927/1991">1927-1991</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1961/1981">1961-1981</unitdate></unittitle>
       <abstract>Professor of philosophy at the University of Michigan, scholar and writer on moral philosophy, ethics, and philosophy of education. Collection includes philosophy papers written as a student at Calvin College, the University of Michigan, and Harvard; lecture notes and course materials, mainly from his teaching career at the University of Michigan; research articles and other manuscripts; formal lectures and conference papers; topical and background files on philosophy topics; correspondence; and files detailing University of Michigan departmental and committee responsibilities.</abstract>
@@ -83,13 +84,13 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79144658">Frankena, William K.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79144658" ref="/agents/people/32161">Frankena, William K.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7878">Ethical problems.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6461">Ethics.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7879">Ethicists.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7880">Education--Philosophy.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Philosophy.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18059">University of Michigan. Dept. of Philosophy.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

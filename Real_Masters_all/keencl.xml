@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Keen, Clifford, 1901-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/35456">Keen, Clifford, 1901-</persname>
       </origination>
       <unittitle encodinganalog="245">Clifford Keen Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1925/1985">1925-1985</unitdate></unittitle>
       <abstract>University of Michigan wrestling coach. Correspondence, wrestling meet rosters and rules, scrapbooks and clippings, biographical and personal material, and photographs.</abstract>
@@ -85,16 +86,16 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Keen, Clifford, 1901-</persname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Board in Control of Intercollegiate Athletics.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35456">Keen, Clifford, 1901-</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17969">University of Michigan. Board in Control of Intercollegiate Athletics.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8633">Wrestling.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Keen, Clifford, 1901-</persname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Football.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35456">Keen, Clifford, 1901-</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Football.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3682">Wrestling.</subject>
       </controlaccess>
       <controlaccess>

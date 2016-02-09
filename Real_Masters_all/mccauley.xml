@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">McCauley, Dorothy.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32718">McCauley, Dorothy.</persname>
       </origination>
       <unittitle encodinganalog="245">Dorothy McCauley papers <unitdate type="inclusive" encodinganalog="245$f" normal="1961/1989">1961-1989</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">89498 Aa 2</unitid>
@@ -82,9 +83,9 @@
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5781">African Americans--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6040">Citizens' associations--Michigan--Detroit.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Dav-Joy-Lin-Dex Community Council (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22937">Dav-Joy-Lin-Dex Community Council (Detroit, Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539.html" ref="/subjects/933">Detroit (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600">McCauley, Dorothy.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32718">McCauley, Dorothy.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5935">African Americans--Michigan--Detroit.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3572">Children.</subject>
       </controlaccess>

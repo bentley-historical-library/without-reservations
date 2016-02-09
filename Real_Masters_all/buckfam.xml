@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Buck family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/1275">Buck family.</famname>
       </origination>
       <unittitle encodinganalog="245">Buck Family papers <unitdate type="inclusive" encodinganalog="245$f" normal="1851/1928">1851-1928</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85839 mf 309c, mf 310c, mf 311c</unitid>
@@ -79,36 +80,36 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <famname source="lcnaf" encodinganalog="600">Buck family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1275">Buck family.</famname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1382">Englishville (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6565">Farm life--Michigan--Kent County.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6566">Farmers--Michigan--Kent County.</subject>
-        <famname source="lcnaf" encodinganalog="600">Field family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1368">Field family.</famname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1366">Kent County (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6567">Farmers--Religious life--Michigan--Kent County.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6568">Soldiers--Michigan--Kent County.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/909">United States--History--Civil War, 1861-1865.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Michigan Artillery Regiment, 1st (1861-1865). Battery B.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2009149232">United States. Army. Michigan Cavalry Regiment, 1st (1861-1866). Company M.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Michigan Cavalry Regiment, 7th (1862-1865). Company F.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Michigan Engineers and Mechanics Regiment, 1st (1861-1865). Company D.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17620">United States. Army. Michigan Artillery Regiment, 1st (1861-1865). Battery B.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2009149232" ref="/agents/corporate_entities/18184">United States. Army. Michigan Cavalry Regiment, 1st (1861-1866). Company M.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19040">United States. Army. Michigan Cavalry Regiment, 7th (1862-1865). Company F.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18873">United States. Army. Michigan Engineers and Mechanics Regiment, 1st (1861-1865). Company D.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6564">Gettysburg (Pa.), Battle of, 1863.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600">Buck, Andrew Newton, b. 1839.</persname>
-        <famname source="lcnaf" encodinganalog="600">Buck family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33881">Buck, Andrew Newton, b. 1839.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1275">Buck family.</famname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3938">Dwellings--Ohio--Toledo.</subject>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/236">Toledo (Ohio)--Dwellings.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Bettis, John T., b. 1839.</persname>
-        <persname source="lcnaf" encodinganalog="700">Buck, Andrew Newton, b. 1839.</persname>
-        <persname source="lcnaf" encodinganalog="700">Buck, Charles W.</persname>
-        <persname source="lcnaf" encodinganalog="700">Buck, Curtis, b. 1841.</persname>
-        <persname source="lcnaf" encodinganalog="700">Buck, Myron.</persname>
-        <persname source="lcnaf" encodinganalog="700">Buck, Susan Field.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33759">Bettis, John T., b. 1839.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33881">Buck, Andrew Newton, b. 1839.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28799">Buck, Charles W.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31528">Buck, Curtis, b. 1841.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31276">Buck, Myron.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27808">Buck, Susan Field.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Dept. of Naval Architecture and Marine Engineering.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/22420">University of Michigan. Dept. of Naval Architecture and Marine Engineering.</corpname>
       </origination>
       <unittitle encodinganalog="245">Dept. of Naval Architecture and Marine Engineering (University of Michigan) publications <unitdate type="inclusive" encodinganalog="245$f" normal="1964/1992">1964-1992</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1984/1992">1984-1992</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">9723; Bimu; C146; 2</unitid>
@@ -82,11 +83,11 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Ocean Engineering Laboratory.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Quarterdeck Society (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="710">Quarterdeck Society (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Ocean Engineering Laboratory.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18294">University of Michigan. Ocean Engineering Laboratory.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Students--Social life and customs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18850">Quarterdeck Society (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/18850">Quarterdeck Society (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/18294">University of Michigan. Ocean Engineering Laboratory.</corpname>
         <title source="aacr2" encodinganalog="740" ref="/subjects/98">Ocean engineering laboratory participation in the Mackinac Bridge recovery, 26 September-1 October 1989.</title>
         <title source="aacr2" encodinganalog="740" ref="/subjects/99">Naval Architecture and Marine Engineering at the University of Michigan, 1881-1981.</title>
         <title source="aacr2" encodinganalog="740" ref="/subjects/100">Nautilus.</title>

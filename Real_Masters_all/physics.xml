@@ -43,7 +43,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -54,7 +55,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="marc21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Dept. of Physics.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/17629">University of Michigan. Dept. of Physics.</corpname>
       </origination>
       <unittitle encodinganalog="245">Dept. of Physics (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1873/9999">1873-[ongoing]</unitdate></unittitle>
       <physdesc altrender="part">
@@ -162,35 +163,35 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6903">Physics.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Physics.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17629">University of Michigan. Dept. of Physics.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7012">World War, 1914-1918--Education and the war.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7011">World War, 1914-1918--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8515">Superconducting super collider--Location--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Research.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Research.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88650119">Burton, Marion Le Roy, 1874-1925.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87100438">Carhart, Henry S. (Henry Smith), 1844-1920.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85802226">Cork, James M. (James Murle), 1894-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr92044562">Crane, H. R. (Horace Richard), 1907-2007</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50026886">Fermi, Enrico, 1901-1954.</persname>
-        <persname source="lcnaf" encodinganalog="700">Furstenberg, Albert Carl, 1890-1969.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87833702">Guthe, Karl Eugen, 1866-1915.</persname>
-        <persname source="lcnaf" encodinganalog="700">Hendel, Fred, 1916-.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87859448">Hodges, Fred Jenner, 1895-</persname>
-        <persname source="lcnaf" encodinganalog="700">Langley, John Williams, 1841-1918.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81071818">Lawrence, Ernest Orlando, 1901-1958.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81120115">Millikan, Robert Andrews, 1868-1953.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50005793">Oppenheimer, J. Robert, 1904-1967.</persname>
-        <persname source="lcnaf" encodinganalog="700">Randall, Harrison M. (Harrison McAllister), b. 1870.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87100421">Reed, John Oren, 1856-1916.</persname>
-        <persname source="lcnaf" encodinganalog="700">Reichle, Lewis.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2010070622">Stevens, Walter LeConte, 1847-1927.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nb2007017534">Uhlenbeck, George Eugène, 1900-1988.</persname>
-        <persname source="lcnaf" encodinganalog="700">Sinclair, Daniel.</persname>
-        <persname source="lcnaf" encodinganalog="700">Sands, Richard H.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no91022935">Jones, Lawrence W. (Lawrence William), 1925-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88650119" ref="/agents/people/34362">Burton, Marion Le Roy, 1874-1925.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87100438" ref="/agents/people/35700">Carhart, Henry S. (Henry Smith), 1844-1920.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85802226" ref="/agents/people/28825">Cork, James M. (James Murle), 1894-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr92044562" ref="/agents/people/36066">Crane, H. R. (Horace Richard), 1907-2007</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50026886" ref="/agents/people/29881">Fermi, Enrico, 1901-1954.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30904">Furstenberg, Albert Carl, 1890-1969.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87833702" ref="/agents/people/30037">Guthe, Karl Eugen, 1866-1915.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27682">Hendel, Fred, 1916-.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87859448" ref="/agents/people/27174">Hodges, Fred Jenner, 1895-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27171">Langley, John Williams, 1841-1918.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81071818" ref="/agents/people/35941">Lawrence, Ernest Orlando, 1901-1958.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81120115" ref="/agents/people/31949">Millikan, Robert Andrews, 1868-1953.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50005793" ref="/agents/people/28827">Oppenheimer, J. Robert, 1904-1967.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30455">Randall, Harrison M. (Harrison McAllister), b. 1870.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87100421" ref="/agents/people/34955">Reed, John Oren, 1856-1916.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27591">Reichle, Lewis.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2010070622" ref="/agents/people/29862">Stevens, Walter LeConte, 1847-1927.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nb2007017534" ref="/agents/people/29277">Uhlenbeck, George Eugène, 1900-1988.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32366">Sinclair, Daniel.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30804">Sands, Richard H.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no91022935" ref="/agents/people/34556">Jones, Lawrence W. (Lawrence William), 1925-</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

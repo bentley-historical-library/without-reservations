@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Jones, Joyce, 1897-1980.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28792">Jones, Joyce, 1897-1980.</persname>
       </origination>
       <unittitle encodinganalog="245">Joyce Jones Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1930/1980">1930-1980</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">85235 Aa 2</unitid>
@@ -77,24 +78,24 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="611">Ann Arbor Art Fairs (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Young Men's-Young Women's Christian Association (Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Art Association.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Handweaver's Guild.</corpname>
+        <corpname source="lcnaf" encodinganalog="611" ref="/agents/corporate_entities/22139">Ann Arbor Art Fairs (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19955">Ann Arbor Young Men's-Young Women's Christian Association (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22429">Ann Arbor Art Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22545">Ann Arbor Handweaver's Guild.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5674">Artists--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5673">Art--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5675">Arts--Michigan--Ann Arbor--Societies, etc.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8510">Hand weaving.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50031682">Handweavers Guild of America.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Jones, Joyce, 1897-1980.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85251919">Michigan Academy of Science, Arts, and Letters.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan League of Handweavers.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50031682" ref="/agents/corporate_entities/19998">Handweavers Guild of America.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28792">Jones, Joyce, 1897-1980.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85251919" ref="/agents/corporate_entities/21034">Michigan Academy of Science, Arts, and Letters.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19674">Michigan League of Handweavers.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8511">Women artists--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname source="lcnaf" encodinganalog="611">Ann Arbor Art Fairs (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="611" ref="/agents/corporate_entities/22139">Ann Arbor Art Fairs (Ann Arbor, Mich.)</corpname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/356">Ann Arbor (Mich.)--1961-1969.</geogname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/209">Ann Arbor (Mich.)--Streets.</geogname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/210">Ann Arbor (Mich.)--Business enterprises.</geogname>

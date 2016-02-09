@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Dignity Detroit.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/19350">Dignity Detroit.</corpname>
       </origination>
       <unittitle encodinganalog="245">Dignity/Detroit Records <unitdate type="inclusive" encodinganalog="245$f" normal="1974/2004">1974-2004</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">04103 Ba 2</unitid>
@@ -74,11 +75,11 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Dignity Detroit.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19350">Dignity Detroit.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7265">Gays--Religious life--Michigan--Detroit.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7266">Catholic gays--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/952">Detroit (Mich.)--Church history.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Catholic Church--Michigan--Detroit.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20943">Catholic Church--Michigan--Detroit.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

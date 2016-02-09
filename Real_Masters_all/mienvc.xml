@@ -40,7 +40,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -51,7 +52,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n80056569">Michigan Environmental Council.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n80056569" ref="/agents/corporate_entities/18851">Michigan Environmental Council.</corpname>
       </origination>
       <unittitle encodinganalog="245">Michigan Environmental Council records <unitdate type="inclusive" encodinganalog="245$f" normal="1925/2012">1925-2012</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1980/2005">1980-2005</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">93847 Aa 2</unitid>
@@ -102,16 +103,16 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6215">Conservation of natural resources--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n2001002768">Dempsey, Dave, 1957-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n2001002768" ref="/agents/people/31698">Dempsey, Dave, 1957-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7409">Energy conservation--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6653">Environmental protection--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2370">Great Lakes (North America)--Environmental conditions.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7436">Hazardous wastes--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7064">Land use--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80056569">Michigan Environmental Council.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80056569" ref="/agents/corporate_entities/18851">Michigan Environmental Council.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8357">Mines and mineral resources--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9361">Pesticides--Government policy--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="600">Pollack, Lana, 1942-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34752">Pollack, Lana, 1942-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9362">Refuse and refuse disposal--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9363">Water rights--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9364">Groundwater--Pollution--Michigan.</subject>
@@ -122,14 +123,14 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4889">Conservation of material resources--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2370">Great Lakes (North America)--Environmental conditions.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9364">Groundwater--Pollution--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80056569">Michigan Environmental Council.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80056569" ref="/agents/corporate_entities/18851">Michigan Environmental Council.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4890">Water pollution--Michigan.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4891">Wetlands--Michigan.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n2001002768">Dempsey, Dave, 1957-</persname>
-        <persname source="lcnaf" encodinganalog="700">Pollack, Lana, 1942-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n2001002768" ref="/agents/people/31698">Dempsey, Dave, 1957-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34752">Pollack, Lana, 1942-</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
@@ -8544,7 +8545,10 @@
                     </daodesc>
                   </dao>
                 </did>
-              <odd><p>(Photographs taken in Traverse City, MI from a series of statewide public forums in summer and fall 2010.  The forums were conductted jointly by the Michigan Environmental Council and the Michigan Association of Railroad Passengers (MARP) to begin conversation about Michigan's passenger rail system, better understand what Michiganders want out of the system, and encourage people to submit ideas for the official State Rail Plan.)</p></odd></c05>
+                <odd>
+                  <p>(Photographs taken in Traverse City, MI from a series of statewide public forums in summer and fall 2010.  The forums were conductted jointly by the Michigan Environmental Council and the Michigan Association of Railroad Passengers (MARP) to begin conversation about Michigan's passenger rail system, better understand what Michiganders want out of the system, and encourage people to submit ideas for the official State Rail Plan.)</p>
+                </odd>
+              </c05>
               <c05 level="file">
                 <did>
                   <physloc>Online</physloc>
@@ -8558,7 +8562,10 @@
                     </daodesc>
                   </dao>
                 </did>
-              <odd><p>(Photographs taken in Battle Creek, MI from series of statewide public forums in summer and fall 2010. The forums were conductted jointly by the Michigan Environmental Council and the Michigan Association of Railroad Passengers (MARP) to begin conversation about Michigan's passenger rail system, better understand what Michiganders want out of the system, and encourage people to submit ideas for the official State Rail Plan.)</p></odd></c05>
+                <odd>
+                  <p>(Photographs taken in Battle Creek, MI from series of statewide public forums in summer and fall 2010. The forums were conductted jointly by the Michigan Environmental Council and the Michigan Association of Railroad Passengers (MARP) to begin conversation about Michigan's passenger rail system, better understand what Michiganders want out of the system, and encourage people to submit ideas for the official State Rail Plan.)</p>
+                </odd>
+              </c05>
               <c05 level="file">
                 <did>
                   <physloc>Online</physloc>
@@ -8572,7 +8579,10 @@
                     </daodesc>
                   </dao>
                 </did>
-              <odd><p>(Photographs taken in East Lansing, MI from series of statewide public forums in summer and fall 2010. The forums were conductted jointly by the Michigan Environmental Council and the Michigan Association of Railroad Passengers (MARP) to begin conversation about Michigan's passenger rail system, better understand what Michiganders want out of the system, and encourage people to submit ideas for the official State Rail Plan.)</p></odd></c05>
+                <odd>
+                  <p>(Photographs taken in East Lansing, MI from series of statewide public forums in summer and fall 2010. The forums were conductted jointly by the Michigan Environmental Council and the Michigan Association of Railroad Passengers (MARP) to begin conversation about Michigan's passenger rail system, better understand what Michiganders want out of the system, and encourage people to submit ideas for the official State Rail Plan.)</p>
+                </odd>
+              </c05>
             </c04>
           </c03>
           <c03 level="file">

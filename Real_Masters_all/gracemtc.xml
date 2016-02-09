@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Grace Church (Mount Clemens, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/17799">Grace Church (Mount Clemens, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">Grace Church (Mount Clemens, Mich.) records <unitdate type="inclusive" encodinganalog="245$f" normal="1871/1971">1871-1971</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">86967 Ba 2</unitid>
@@ -79,9 +80,9 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Episcopal Church--Michigan--Mount Clemens.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18160">Episcopal Church--Michigan--Mount Clemens.</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80060314.html" ref="/subjects/1167">Mount Clemens (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Grace Church (Mount Clemens, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17799">Grace Church (Mount Clemens, Mich.)</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

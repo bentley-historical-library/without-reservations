@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">American Legion Auxiliary. Department of Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/20847">American Legion Auxiliary. Department of Michigan.</corpname>
       </origination>
       <unittitle encodinganalog="245">American Legion Auxiliary, Department of Michigan records <unitdate type="inclusive" encodinganalog="245$f" normal="1917/2008">1917-2008</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1933/2005">1933-2005</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2008148 Br 2</unitid>
@@ -87,9 +88,9 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">American Legion. Auxiliary. Dept. of Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">American Legion. Dept. of Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Girls State.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22228">American Legion. Auxiliary. Dept. of Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21946">American Legion. Dept. of Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18446">Michigan Girls State.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5912">Veterans--Michigan--Societies, etc.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5913">Women--Societies and clubs--Michigan.</subject>
       </controlaccess>

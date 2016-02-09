@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Smit, Raymond J., 1928-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/29040">Smit, Raymond J., 1928-</persname>
       </origination>
       <unittitle encodinganalog="245">Raymond J. Smit Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1960/1975">1960-1975</unitdate></unittitle>
       <abstract>Republican member of the Michigan House of Representatives. Legislative files, 1967-1974, concerning in part his interest in water pollution legislation; political files concerning election campaigns, and involvement in Ann Arbor and Washtenaw County, Michigan, Republican Party activities; and photographs.</abstract>
@@ -88,12 +89,12 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7220">Elections--Michigan--1970.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6909">Elections--Michigan--1972.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6653">Environmental protection--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79059059">Michigan. Legislature.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79059059" ref="/agents/corporate_entities/22038">Michigan. Legislature.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/910">Michigan--Politics and government--1951-</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/810">Michigan--Politics and government--1961-1970.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/801">Michigan--Politics and government--1971-1980.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
-        <persname source="lcnaf" encodinganalog="600">Smit, Raymond J., 1928-</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21402">Republican Party (Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29040">Smit, Raymond J., 1928-</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2032">Washtenaw County (Mich.)--Politics and government.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7119">Water.</subject>
       </controlaccess>
@@ -106,11 +107,11 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3639">Interiors.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82062804.html" ref="/subjects/2256">Madison Heights (Mich.)</geogname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/681">Madison Heights (Mich.)--Waterworks.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79059059">Michigan. Legislature.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n94088046">Peerless Cement Company (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79059059" ref="/agents/corporate_entities/22038">Michigan. Legislature.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n94088046" ref="/agents/corporate_entities/21088">Peerless Cement Company (Detroit, Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4067">Political elections.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2818">Red Run Drain (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600">Smit, Raymond J., 1928-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29040">Smit, Raymond J., 1928-</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5290">Waterworks--Michigan--Madison Heights.</subject>
       </controlaccess>
       <controlaccess>

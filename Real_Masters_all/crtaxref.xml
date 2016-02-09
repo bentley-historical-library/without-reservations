@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Committee for Responsible Tax Reform.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/19666">Committee for Responsible Tax Reform.</corpname>
       </origination>
       <unittitle encodinganalog="245">Committee For Responsible Tax Reform records <unitdate type="inclusive" encodinganalog="245$f" normal="1989">1989</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">91430 Bj 2</unitid>
@@ -81,7 +82,7 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Committee for Responsible Tax Reform.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19666">Committee for Responsible Tax Reform.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7095">Education--Finance.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7096">Elections--Michigan--1989.</subject>
         <geogname source="local" encodinganalog="691" ref="/subjects/802">Michigan--Politics and government--1981-1990.</geogname>

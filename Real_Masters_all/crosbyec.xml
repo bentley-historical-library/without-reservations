@@ -27,7 +27,8 @@
         <item>Original encoding from Word 6.0 file using EAD vers. 1.0</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n81080586">Crosby, Elizabeth Caroline, 1888-</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n81080586" ref="/agents/people/28356">Crosby, Elizabeth Caroline, 1888-</persname>
       </origination>
       <unittitle encodinganalog="245">Elizabeth Caroline Crosby Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1918/1983">1918-1983</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1935/1980">1935-1980</unitdate></unittitle>
       <abstract>The Elizabeth C. Crosby collection consists of the personal and professional papers of a woman pioneer in the field of neuroanatomy. Crosby taught anatomy at the University of Michigan from 1920 to 1958 and authored many respected publications in the field of biology.</abstract>
@@ -108,27 +109,27 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81080586">Crosby, Elizabeth Caroline, 1888-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81080586" ref="/agents/people/28356">Crosby, Elizabeth Caroline, 1888-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6055">Medicine--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Anatomy.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Medical School--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19130">University of Michigan. Dept. of Anatomy.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20391">University of Michigan. Medical School--Faculty.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7090">Neuroanatomy.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4072">Anatomy.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2001019150">Ariens Kappers, Cornelius Ubbo, 1877-1946.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81080586">Crosby, Elizabeth Caroline, 1888-</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85807883">Herrick, C. Judson (Charles Judson), 1868-1960.</persname>
-        <persname source="lcnaf" encodinganalog="600">Huber, Gotthelf Carl, 1865-1934.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2001019150" ref="/agents/people/34004">Ariens Kappers, Cornelius Ubbo, 1877-1946.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81080586" ref="/agents/people/28356">Crosby, Elizabeth Caroline, 1888-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85807883" ref="/agents/people/35223">Herrick, C. Judson (Charles Judson), 1868-1960.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29469">Huber, Gotthelf Carl, 1865-1934.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3926">Medical education.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7090">Neuroanatomy.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1650">Petersburg (Mich.)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4073">Physicians--Michigan--Ann Arbor.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4040">Teachers--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Anatomy.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151">University of Michigan. Medical School.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19130">University of Michigan. Dept. of Anatomy.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151" ref="/agents/corporate_entities/20391">University of Michigan. Medical School.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

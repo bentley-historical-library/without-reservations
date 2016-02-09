@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Brewer, Clarence E., 1892-1964.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28258">Brewer, Clarence E., 1892-1964.</persname>
       </origination>
       <unittitle encodinganalog="245">Clarence E. Brewer papers <unitdate type="inclusive" encodinganalog="245$f" normal="1914/1964">1914-1964</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85786 Aa 2</unitid>
@@ -83,10 +84,10 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Detroit (Mich.). Recreation Commission.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50000474">National Recreation Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22884">Detroit (Mich.). Recreation Commission.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50000474" ref="/agents/corporate_entities/18840">National Recreation Association.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6480">Recreation.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88028375">War Camp Community Service (U.S.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88028375" ref="/agents/corporate_entities/18893">War Camp Community Service (U.S.)</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

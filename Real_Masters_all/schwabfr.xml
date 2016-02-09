@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Schwab, Fred E., 1918-2009.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32869">Schwab, Fred E., 1918-2009.</persname>
       </origination>
       <unittitle encodinganalog="245">Fred E. Schwab papers <unitdate type="inclusive" encodinganalog="245$f" normal="1930/2009">1930-2009</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2011022 Aa 2; Ac</unitid>
@@ -86,10 +87,10 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Emmerich, Hugo.</persname>
-        <persname source="lcnaf" encodinganalog="600">Schwab, Fred E.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Schwab &amp; Frank.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Schwab Plastics.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28090">Emmerich, Hugo.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34161">Schwab, Fred E.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18849">Schwab &amp; Frank.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18667">Schwab Plastics.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10035">Manufacturers--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10036">Plastics industry and trade--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10037">Property claims--Germany.</subject>
@@ -98,9 +99,9 @@
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600">Schwab, Fred E.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Schwab &amp; Frank.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Schwab Plastics.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34161">Schwab, Fred E.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18849">Schwab &amp; Frank.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18667">Schwab Plastics.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

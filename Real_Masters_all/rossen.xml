@@ -39,7 +39,8 @@
         <item>Original encoding from Word 6.0 file</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -50,7 +51,7 @@
   <archdesc level="collection" type="inventory" audience="external" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">Rossen, Sanford, 1927-1984.</persname>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/32210">Rossen, Sanford, 1927-1984.</persname>
       </origination>
       <unittitle encodinganalog="245">Sanford Rossen Papers and Photographs <unitdate encodinganalog="245$f" type="inclusive" normal="1960/1984">1960-1984</unitdate>, <unitdate encodinganalog="245$g" type="bulk" normal="1970/1983">1970-1983</unitdate></unittitle>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">973 Aa 2</unitid>
@@ -97,9 +98,9 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf">Rossen, Sanford, 1927-1984.</persname>
-        <corpname source="lcnaf">Sanford Rossen &amp; Associates.</corpname>
-        <corpname source="lcnaf">Rossen/Neumann Associates.</corpname>
+        <persname source="lcnaf" ref="/agents/people/32210">Rossen, Sanford, 1927-1984.</persname>
+        <corpname source="lcnaf" ref="/agents/corporate_entities/21797">Sanford Rossen &amp; Associates.</corpname>
+        <corpname source="lcnaf" ref="/agents/corporate_entities/17496">Rossen/Neumann Associates.</corpname>
         <subject encodinganalog="650" source="lcsh" ref="/subjects/5784">Architects--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9945">Architecture--Michigan--Oakland County.</subject>
       </controlaccess>
@@ -109,7 +110,7 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80028258">Korab, Balthazar.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80028258" ref="/agents/people/32177">Korab, Balthazar.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

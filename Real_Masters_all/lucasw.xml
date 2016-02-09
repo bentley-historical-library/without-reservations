@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/no91002221">Lucas, William, 1928-</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/no91002221" ref="/agents/people/30945">Lucas, William, 1928-</persname>
       </origination>
       <unittitle encodinganalog="245">William Lucas Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1965/1986">1965-1986</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1975/1986">1975-1986</unitdate></unittitle>
       <abstract>Wayne County sheriff, 1969-1982, Wayne County Executive, 1983-1986, and Republican candidate for governor of Michigan, 1986. Correspondence, subject files, clippings, videotapes, and photographs primarily concerning his work as sheriff and county executive, and his gubernatorial campaign.</abstract>
@@ -96,27 +97,27 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5930">Afro-Americans--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7837">Elections--Michigan--1986.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8910">Law enforcement--Michigan--Wayne County.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no91002221">Lucas, William, 1928-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no91002221" ref="/agents/people/30945">Lucas, William, 1928-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8911">Sheriffs--Michigan--Wayne County.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21402">Republican Party (Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2245">Wayne County (Mich.)--Politics and government.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Wayne County (Mich.). Sheriff Dept.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n93079875">Wayne County (Mich.). Executive.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17549">Wayne County (Mich.). Sheriff Dept.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n93079875" ref="/agents/corporate_entities/19281">Wayne County (Mich.). Executive.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4664">Afro-Americans--Political life.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79021791">Carter, Jimmy, 1924-</persname>
-        <persname source="lcnaf" encodinganalog="600">Engler, Coleen.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79021791" ref="/agents/people/29963">Carter, Jimmy, 1924-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28894">Engler, Coleen.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4665">Law enforcement--Michigan--Wayne County.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no91002221">Lucas, William, 1928-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no91002221" ref="/agents/people/30945">Lucas, William, 1928-</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4666">Police--Michigan--Wayne County.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4667">Political elections--1986.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4668">Politics and government--1981-1990.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79059562">Reagan, Ronald.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n93079875">Wayne County (Mich.). Executive.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Wayne County (Mich.). Sheriff Dept.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79059562" ref="/agents/people/35461">Reagan, Ronald.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21402">Republican Party (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n93079875" ref="/agents/corporate_entities/19281">Wayne County (Mich.). Executive.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17549">Wayne County (Mich.). Sheriff Dept.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

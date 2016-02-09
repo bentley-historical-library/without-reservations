@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">Donabedian, Avedis, 1919-2000</persname>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/30047">Donabedian, Avedis, 1919-2000</persname>
       </origination>
       <unittitle encodinganalog="245">Avedis Donabedian papers <unitdate encodinganalog="245$f" type="inclusive" normal="1946/2000">1946-2000</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">03136 Aa 2</unitid>
@@ -81,14 +82,14 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80051318">Donabedian, Avedis.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80051318" ref="/agents/people/33205">Donabedian, Avedis.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7281">Medical care--Quality control.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7282">Health service administration.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7283">Medical care--Evaluation.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80020716">University of Michigan. School of Public Health.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Medical Care Organization.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80069146">Community Health Association (Detroit, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80020716" ref="/agents/corporate_entities/22180">University of Michigan. School of Public Health.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17377">University of Michigan. Dept. of Medical Care Organization.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80069146" ref="/agents/corporate_entities/22262">Community Health Association (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

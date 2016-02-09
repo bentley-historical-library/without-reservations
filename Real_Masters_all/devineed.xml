@@ -24,7 +24,8 @@
         <item>Original encoding from Word 10.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">DeVine, Edmond Francis</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28615">DeVine, Edmond Francis</persname>
       </origination>
       <unittitle encodinganalog="245"> Edmond DeVine papers <unitdate type="inclusive" encodinganalog="245$f"> 1933-1955 </unitdate></unittitle>
       <physdesc>
@@ -82,13 +83,13 @@
       <controlaccess>
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/860">Ann Arbor (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Cabot (Ship)</corpname>
-        <persname source="lcnaf" encodinganalog="600">DeVine, Edmond Francis</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20883">Cabot (Ship)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28615">DeVine, Edmond Francis</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7258">Elections--Michigan--Washtenaw County.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7259">School sports--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">St. Thomas High School (Ann Arbor, Mich.)--Sports.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Navy. Fighting Squadron 29.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Washtenaw County (Mich.). Prosecuting Attorney.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21303">St. Thomas High School (Ann Arbor, Mich.)--Sports.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22677">United States. Navy. Fighting Squadron 29.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21947">Washtenaw County (Mich.). Prosecuting Attorney.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5706">World War, 1939-1945.</subject>
       </controlaccess>
       <controlaccess>

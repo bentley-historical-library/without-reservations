@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n79119024">Cannell, Charles F.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n79119024" ref="/agents/people/32530">Cannell, Charles F.</persname>
       </origination>
       <unittitle encodinganalog="245">Charles F. Cannell papers <unitdate type="inclusive" encodinganalog="245$f" normal="1946/2001">1946-2001</unitdate>, <unitdate type="bulk" encodinganalog="245$f" normal="1974/1998">1974-1998</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">07138 Aa 2</unitid>
@@ -87,13 +88,13 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6678">Atomic bomb.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79119024">Cannell, Charles F.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79119024" ref="/agents/people/32530">Cannell, Charles F.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6679">Interviewing.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6680">Social sciences--Research.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6681">Social surveys.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Institute for Social Research.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79106618">University of Michigan. Survey Research Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19820">University of Michigan. Institute for Social Research.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79106618" ref="/agents/corporate_entities/18811">University of Michigan. Survey Research Center.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

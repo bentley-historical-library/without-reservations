@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Wholihan, Timothy W.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32416">Wholihan, Timothy W.</persname>
       </origination>
       <unittitle encodinganalog="245">Timothy W. Wholihan papers <unitdate type="inclusive" encodinganalog="245$f" normal="1867/1948">1867-1948</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85452 Aa 2</unitid>
@@ -78,15 +79,15 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83031148">Brotherhood of Locomotive Engineers (U.S.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n86134555">Michigan Central Railroad Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83031148" ref="/agents/corporate_entities/22544">Brotherhood of Locomotive Engineers (U.S.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n86134555" ref="/agents/corporate_entities/20292">Michigan Central Railroad Company.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6705">Railroads--Michigan.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/924">Jackson (Mich.)</geogname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/734">Leonidas (Mich.)--Railroad stations.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n86134555">Michigan Central Railroad Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n86134555" ref="/agents/corporate_entities/20292">Michigan Central Railroad Company.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3620">Railroad accidents.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5532">Railroad stations--Michigan--Leonidas.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3789">Railroads--Michigan.</subject>

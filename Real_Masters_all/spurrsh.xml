@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Spurr, Stephen Hopkins.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30784">Spurr, Stephen Hopkins.</persname>
       </origination>
       <unittitle encodinganalog="245">Stephen Hopkins Spurr Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1940/1971">1940-1971</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1952/1968">1952-1968</unitdate></unittitle>
       <abstract>Professor of forestry, dean of the School of Natural Resources, University vice-president and dean of the Horace H. Rackham School of Graduate Studies of University of Michigan; president of University of Texas. Files concern his work with the Organization for Tropical Studies, the Ramparts Canyon Dam Project in Alaska, and other professional work.</abstract>
@@ -84,15 +85,15 @@
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1014">Central America.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5836">Conservation of natural resources--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5837">Forests and forestry--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n84131809">Organization for Tropical Studies.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n84131809" ref="/agents/corporate_entities/22773">Organization for Tropical Studies.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2833">Rampart Canyon Dam Project (Alaska)</geogname>
-        <persname source="lcnaf" encodinganalog="600">Spurr, Stephen Hopkins.</persname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81003782">University of Michigan. School of Natural Resources.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30784">Spurr, Stephen Hopkins.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81003782" ref="/agents/corporate_entities/19312">University of Michigan. School of Natural Resources.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50070292">Gruening, Ernest, 1887-1974.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50070292" ref="/agents/people/34024">Gruening, Ernest, 1887-1974.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

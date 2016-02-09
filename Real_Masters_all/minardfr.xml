@@ -32,7 +32,8 @@
         <item>Edited to reflect migration of content from CD-ROM to Deep Blue JMBG</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -43,7 +44,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Minard, Fred E.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/31732">Minard, Fred E.</persname>
       </origination>
       <unittitle encodinganalog="245">Fred E. Minard photograph collection <unitdate type="inclusive" encodinganalog="245$f" normal="1918/1919">1918-1919</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2009071 Aa 2</unitid>
@@ -110,7 +111,7 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3720">Soldiers--American--Russia (Federation)</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4169">War casualties.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4170">War damage.</subject>
-        <corpname encodinganalog="690" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n2008059426">Polar Bear Expedition.</corpname>
+        <corpname encodinganalog="690" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n2008059426" ref="/agents/corporate_entities/21526">Polar Bear Expedition.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

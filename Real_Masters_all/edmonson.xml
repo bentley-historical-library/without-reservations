@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Edmonson, James Bartlett, 1882-1954.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/27236">Edmonson, James Bartlett, 1882-1954.</persname>
       </origination>
       <unittitle encodinganalog="245">James B. Edmonson papers <unitdate type="inclusive" encodinganalog="245$f" normal="1915/1960">1915-1960</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1920/1955">1920-1955</unitdate></unittitle>
       <abstract>Dean of the School of Education at University of Michigan, 1929-1952. Papers primarily concern his research and work on administration of secondary schools.</abstract>
@@ -87,19 +88,19 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2014154572">Canada-United States Committee on Education.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2014154572" ref="/agents/corporate_entities/19900">Canada-United States Committee on Education.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7412">College sports--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7413">Diploma mills--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7414">Education--Canada.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6141">Education--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7415">Education, Secondary--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610">First Presbyterian Church (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Presbyterian Church--Michigan--Ann Arbor.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18768">First Presbyterian Church (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19977">Presbyterian Church--Michigan--Ann Arbor.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7416">Universities and colleges--Accreditation--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Presbyterian Corporation.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82098946">University of Michigan. School of Education.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. War Board.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18836">University of Michigan. Presbyterian Corporation.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82098946" ref="/agents/corporate_entities/20661">University of Michigan. School of Education.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19088">University of Michigan. War Board.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7417">World War, 1939-1945--War work--Michigan.</subject>
       </controlaccess>
       <controlaccess>

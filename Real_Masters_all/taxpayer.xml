@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Taxpayers United Federation.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/17696">Taxpayers United Federation.</corpname>
       </origination>
       <unittitle encodinganalog="245">Taxpayers United Federation Records <unitdate type="inclusive" encodinganalog="245$f" normal="1973/1994">1973-1994</unitdate></unittitle>
       <abstract>Records of Taxpayers United Federation (and the two organizations from which it was formed, Taxpayers Federation of Michigan, and Taxpayers United for Tax Limitation), both organizations concerned with state tax limitation ballot proposals. Board of Director's and president's files, correspondence, clippings, photographs, videotapes, newsletters and other organizational records; contain material concerning ballot drives in 1976, 1978, and 1980.</abstract>
@@ -87,20 +88,20 @@
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/910">Michigan--Politics and government--1951-</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/801">Michigan--Politics and government--1971-1980.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6214">Taxation--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Taxpayers United Federation.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">Taxpayers Federation of Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">Taxpayers United for Tax Limitation.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17696">Taxpayers United Federation.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/20899">Taxpayers Federation of Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/19779">Taxpayers United for Tax Limitation.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79117948">Friedman, Milton, 1912-2006</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79117948" ref="/agents/people/27778">Friedman, Milton, 1912-2006</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3627">Political elections--1976.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5385">Political elections--1978.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5386">Political participation.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3628">Politics and government--1971-1980.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5387">Tax reform.</subject>
-        <corpname source="lcnaf" encodinganalog="710">Taxpayers United for Tax Limitation.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">Taxpayers Federation of Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/19779">Taxpayers United for Tax Limitation.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/20899">Taxpayers Federation of Michigan.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

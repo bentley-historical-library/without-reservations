@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Michigan. Legislature.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/22038">Michigan. Legislature.</corpname>
       </origination>
       <unittitle encodinganalog="245">Michigan Legislature photograph collection <unitdate type="inclusive" encodinganalog="245$f" normal="1875/1990">1875-1990</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">93265 UCA.3m; UCA.3l</unitid>
@@ -78,8 +79,8 @@
       </p>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. Legislature. House of Representatives.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. Legislature. Senate.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21647">Michigan. Legislature. House of Representatives.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18079">Michigan. Legislature. Senate.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4068">Politics and government.</subject>
       </controlaccess>
       <controlaccess>

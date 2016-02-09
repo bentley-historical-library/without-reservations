@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Re, Vittorio.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30096">Re, Vittorio.</persname>
       </origination>
       <unittitle encodinganalog="245">Vittorio Re papers <unitdate type="inclusive" encodinganalog="245$f" normal="1921/2005">1921-2005</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2010054 Aa 2</unitid>
@@ -84,12 +85,12 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Re, Vittorio.</persname>
-        <persname source="lcnaf" encodinganalog="600">DeGaetano, Armand L.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80060699">Gelli, Giovanni Battista, 1498-1563.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30096">Re, Vittorio.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/27429">DeGaetano, Armand L.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80060699" ref="/agents/people/34198">Gelli, Giovanni Battista, 1498-1563.</persname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539.html" ref="/subjects/933">Detroit (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50060981">American Italian Historical Association.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n86077979">Italian American Cultural Society (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50060981" ref="/agents/corporate_entities/17688">American Italian Historical Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n86077979" ref="/agents/corporate_entities/21631">Italian American Cultural Society (Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9906">Columbus Day.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6596">Italian Americans--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9907">Italian Americans--Michigan--Detroit.</subject>

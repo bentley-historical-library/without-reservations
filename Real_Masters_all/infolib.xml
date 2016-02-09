@@ -39,7 +39,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -50,7 +51,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. School of Information.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/20576">University of Michigan. School of Information.</corpname>
       </origination>
       <unittitle encodinganalog="245">School of Information (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1904/2012">1904-2012</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1926/1994">1926-1994</unitdate></unittitle>
       <abstract>Established as Department of Library Science; name later changed to School of Library Science, then School of Information and Library Studies. Materials relating to the teaching of library science at the university, including summer session and departmental files; administrative files of T. W. Koch, William W. Bishop, Rudolph H. Gjelsness, Wallace Bonk, Russell Bidlack, and Robert M. Warner; course materials and topical files; accreditation records, faculty minutes and photographs.</abstract>
@@ -92,7 +93,10 @@
       <p>In November 1967, a panel of library leaders, which had been invited to visit and examine the department, recommended that the department be made a separate school. On October 18, 1968, the Regents approved the request and the change became effective on July 1, 1969.</p>
       <p>Bidlack was named the school's first dean, a position which he held until his retirement in 1984. University Librarian Richard M. Dougherty became interim dean pending the arrival of Robert M. Warner as dean in April 1985. Warner came to the school after serving as Archivist of the United States. Under Warner, the school began to grow and change. The first visible sign of this came with the Regent's approval of the school's name change. As of July 1986, the School of Library Science officially became known as the School of Information and Library Studies. The name change reflected a changing emphasis in the curriculum and the changing nature of the field of librarianship through the use of computers and electronic media.</p>
       <p>Warner left the deanship in 1992 to resume teaching at the school. A new dean search brought Daniel E. Atkins, an engineer and computer scientist, to the school. In 1996 the school's name was again changed, this time to the School of Information. This change reflected an even greater shift away from traditional library studies and towards the use of new information technologies. In September 1998 Atkins resigned as Dean. Gary Olson served as Acting Dean until December 1999, when John L. King assumed the deanship.</p>
-      <p>Administrators of Library Education/Deans <chronlist><head>University Librarian</head> <chronitem><date>1877-1905</date> <event>Raymond Cazallis Davis</event></chronitem> <chronitem><date>1905-1915</date> <event>Theodore Wesley Koch</event></chronitem> <chronitem><date>1915-1941</date> <event>William Warner Bishop</event></chronitem></chronlist> <chronlist> <head>Chairman</head> <chronitem><date>1926-1940</date> <event>William Warner Bishop</event></chronitem> <chronitem><date>1940-1964</date> <event>Rudolph Hjalmar Gjelsness</event></chronitem> <chronitem><date>1964-1967</date> <event>Wallace John Bonk</event></chronitem> <chronitem><date>1967-1969</date> <event>Russell Eugene Bidlack (Acting)</event></chronitem></chronlist> <chronlist> <head>Dean</head> <chronitem><date>1969-1984</date> <event>Russell Eugene Bidlack</event></chronitem> <chronitem><date>1984-1985</date> <event>Richard Martin Dougherty (Interim)</event></chronitem> <chronitem><date>1985-1992</date> <event>Robert Mark Warner</event></chronitem> <chronitem><date>1992-1998</date> <event>Daniel Ewell Atkins, III</event></chronitem> <chronitem><date>1998-1999</date> <event>Gary M. Olson (Acting)</event></chronitem> <chronitem><date>2000-</date> <event>John L. King</event></chronitem></chronlist></p>
+      <p>Administrators of Library Education/Deans <chronlist>
+        <head>University Librarian</head> <chronitem><date>1877-1905</date> <event>Raymond Cazallis Davis</event></chronitem> <chronitem><date>1905-1915</date> <event>Theodore Wesley Koch</event></chronitem> <chronitem><date>1915-1941</date> <event>William Warner Bishop</event></chronitem></chronlist> <chronlist>
+        <head>Chairman</head> <chronitem><date>1926-1940</date> <event>William Warner Bishop</event></chronitem> <chronitem><date>1940-1964</date> <event>Rudolph Hjalmar Gjelsness</event></chronitem> <chronitem><date>1964-1967</date> <event>Wallace John Bonk</event></chronitem> <chronitem><date>1967-1969</date> <event>Russell Eugene Bidlack (Acting)</event></chronitem></chronlist> <chronlist>
+        <head>Dean</head> <chronitem><date>1969-1984</date> <event>Russell Eugene Bidlack</event></chronitem> <chronitem><date>1984-1985</date> <event>Richard Martin Dougherty (Interim)</event></chronitem> <chronitem><date>1985-1992</date> <event>Robert Mark Warner</event></chronitem> <chronitem><date>1992-1998</date> <event>Daniel Ewell Atkins, III</event></chronitem> <chronitem><date>1998-1999</date> <event>Gary M. Olson (Acting)</event></chronitem> <chronitem><date>2000-</date> <event>John L. King</event></chronitem></chronlist></p>
     </bioghist>
     <arrangement encodinganalog="351">
       <p>
@@ -119,27 +123,27 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8413">Librarians--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Library Science.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr91040392">University of Michigan. School of Information and Library Studies.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81144007">University of Michigan. School of Library Science.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Summer Session.</corpname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n93084315">Bishop, William Warner, 1871-1955.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84166117">Bonk, Wallace John, 1923-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr00036451">Gjelsness, Rudolph H. (Rudolph Hjalmar), 1894-1968.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82037904">Koch, Theodore Wesley, 1871-1941.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no91017295">Bidlack, Russell E. (Russell Eugene), 1920-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80030604">Warner, Robert M. (Robert Mark), 1927-2007.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18906">University of Michigan. Dept. of Library Science.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr91040392" ref="/agents/corporate_entities/19327">University of Michigan. School of Information and Library Studies.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81144007" ref="/agents/corporate_entities/17566">University of Michigan. School of Library Science.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19065">University of Michigan. Summer Session.</corpname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n93084315" ref="/agents/people/32755">Bishop, William Warner, 1871-1955.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84166117" ref="/agents/people/32868">Bonk, Wallace John, 1923-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr00036451" ref="/agents/people/32790">Gjelsness, Rudolph H. (Rudolph Hjalmar), 1894-1968.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82037904" ref="/agents/people/28050">Koch, Theodore Wesley, 1871-1941.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no91017295" ref="/agents/people/33401">Bidlack, Russell E. (Russell Eugene), 1920-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80030604" ref="/agents/people/27244">Warner, Robert M. (Robert Mark), 1927-2007.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no91017295">Bidlack, Russell E. (Russell Eugene), 1920-</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n93084315">Bishop, William Warner, 1871-1955.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no91017295" ref="/agents/people/33401">Bidlack, Russell E. (Russell Eugene), 1920-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n93084315" ref="/agents/people/32755">Bishop, William Warner, 1871-1955.</persname>
         <genreform source="aat" encodinganalog="655" ref="/subjects/3137">Photographs.</genreform>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Classes.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr91040392">University of Michigan. School of Information and Library Studies.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80030604">Warner, Robert M. (Robert Mark), 1927-2007.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Classes.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr91040392" ref="/agents/corporate_entities/19327">University of Michigan. School of Information and Library Studies.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Students.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80030604" ref="/agents/people/27244">Warner, Robert M. (Robert Mark), 1927-2007.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
@@ -9172,7 +9176,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Archived version of the School of Information Website as it appeared on May 15, 2002. Documents the academic programs, accomplishments, resources, events, and people at the School of Information. Content includes important news and announcements, publications (such as newsletters and course catalogs), and information about admissions, curriculum, degree requirements, faculty, and the overall mission of the School)</p></odd></c03>
+            <odd>
+              <p>(Archived version of the School of Information Website as it appeared on May 15, 2002. Documents the academic programs, accomplishments, resources, events, and people at the School of Information. Content includes important news and announcements, publications (such as newsletters and course catalogs), and information about admissions, curriculum, degree requirements, faculty, and the overall mission of the School)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
@@ -9188,7 +9195,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Archived version of the School of Information Website as it appeared on May 22, 2003. Documents the academic programs, accomplishments, resources, events, and people at the School of Information. Content includes important news and announcements, publications (such as newsletters and course catalogs), and information about admissions, curriculum, degree requirements, faculty, and the overall mission of the School)</p></odd></c03>
+            <odd>
+              <p>(Archived version of the School of Information Website as it appeared on May 22, 2003. Documents the academic programs, accomplishments, resources, events, and people at the School of Information. Content includes important news and announcements, publications (such as newsletters and course catalogs), and information about admissions, curriculum, degree requirements, faculty, and the overall mission of the School)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
@@ -9204,7 +9214,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Archived version of the School of Information Website as it appeared on June 4, 2008.  Documents the academic programs, accomplishments, resources, events, and people at the School of Information. Content includes important news and announcements, publications (such as newsletters and course catalogs), and information about admissions, curriculum, degree requirements, faculty, and the overall mission of the School)</p></odd></c03>
+            <odd>
+              <p>(Archived version of the School of Information Website as it appeared on June 4, 2008.  Documents the academic programs, accomplishments, resources, events, and people at the School of Information. Content includes important news and announcements, publications (such as newsletters and course catalogs), and information about admissions, curriculum, degree requirements, faculty, and the overall mission of the School)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>

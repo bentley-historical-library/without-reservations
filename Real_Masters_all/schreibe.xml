@@ -27,7 +27,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Schreiber, Allan.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/34487">Schreiber, Allan.</persname>
       </origination>
       <unittitle encodinganalog="245">Allan Schreiber papers <unitdate type="inclusive" encodinganalog="245$f" normal="1968/1988">1968-1988</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">06103 Aa 2</unitid>
@@ -84,17 +85,17 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Schreiber, Allan.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Earthworks (School : Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Community High School (Ann Arbor, Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34487">Schreiber, Allan.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18767">Earthworks (School : Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20971">Community High School (Ann Arbor, Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9452">Alternative schools--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5723">Schools--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Pioneer High School (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18992">Pioneer High School (Ann Arbor, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600">Schreiber, Allan.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Earthworks (School : Ann Arbor, Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34487">Schreiber, Allan.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18767">Earthworks (School : Ann Arbor, Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9452">Alternative schools--Michigan--Ann Arbor.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3553">Schools--Michigan--Ann Arbor.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4171">Students--Michigan--Ann Arbor.</subject>
@@ -103,7 +104,7 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Schreiber, Nicholas.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34687">Schreiber, Nicholas.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

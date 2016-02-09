@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Alpha Phi Omega. Gamma Pi Chapter (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/21177">Alpha Phi Omega. Gamma Pi Chapter (University of Michigan)</corpname>
       </origination>
       <unittitle encodinganalog="245">Alpha Phi Omega, Gamma Pi Chapter. (University of Michigan) publications, 1964-2007 <unitdate type="inclusive" encodinganalog="245$f" normal="1964/2007">1964-2007</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1986/2003">1986-2003</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">0364 Fimu 2</unitid>
@@ -83,11 +84,11 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Alpha Phi Omega. Gamma Pi Chapter (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Societies, etc.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Societies, etc.--Periodicals.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21177">Alpha Phi Omega. Gamma Pi Chapter (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Students--Social life and customs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Students--Societies, etc.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Students--Societies, etc.--Periodicals.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Students.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5859">Greek letter societies--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5862">Women college students--Michigan--Ann Arbor.</subject>
         <title source="aacr2" encodinganalog="740" ref="/subjects/4">Piece of pi.</title>

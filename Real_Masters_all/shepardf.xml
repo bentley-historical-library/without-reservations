@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Shepard family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/1373">Shepard family.</famname>
       </origination>
       <unittitle encodinganalog="245">Shepard family papers <unitdate type="inclusive" encodinganalog="245$f" normal="1807/1934">1807-1934</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85540 Aa 2; UAx; UAm</unitid>
@@ -94,29 +95,29 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6033">Cookery.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7913">Farm life--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1159">Marshall (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Buildings.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Committee of Five on the Comprehensive Building Program.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Psychology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Buildings.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18943">University of Michigan. Committee of Five on the Comprehensive Building Program.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19242">University of Michigan. Dept. of Psychology.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3572">Children.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3543">Classrooms--Michigan--Ann Arbor.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3873">Families.</subject>
-        <persname source="lcnaf" encodinganalog="600">Minges, Abram, 1818-1908.</persname>
-        <famname source="lcnaf" encodinganalog="600">Minges family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35565">Minges, Abram, 1818-1908.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1608">Minges family.</famname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4012">Musicians.</subject>
-        <persname source="lcnaf" encodinganalog="600">Shepard, John Frederick, 1881-1965.</persname>
-        <famname source="lcnaf" encodinganalog="600">Shepard family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35839">Shepard, John Frederick, 1881-1965.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1373">Shepard family.</famname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3624">Soldiers--American.</subject>
-        <persname source="lcnaf" encodinganalog="600">Van Valin, Amos.</persname>
-        <famname source="lcnaf" encodinganalog="600">Van Valin family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29734">Van Valin, Amos.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1484">Van Valin family.</famname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3569">Women.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Shepard, John Frederick, 1881-1965.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35839">Shepard, John Frederick, 1881-1965.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

@@ -27,7 +27,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Bassett, Leslie, 1905-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/35857">Bassett, Leslie, 1905-</persname>
       </origination>
       <unittitle encodinganalog="245">Leslie Bassett Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1946/2005">1946-2005</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">0601 Aa 2</unitid>
@@ -86,15 +87,15 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81062079">Bassett, Leslie, 1923-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81062079" ref="/agents/people/32568">Bassett, Leslie, 1923-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6173">Composers--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82063886">University of Michigan. School of Music.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82063886" ref="/agents/corporate_entities/18354">University of Michigan. School of Music.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81062079">Bassett, Leslie, 1923-</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87152785">Bassett, Anita Denniston.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81062079" ref="/agents/people/32568">Bassett, Leslie, 1923-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87152785" ref="/agents/people/27923">Bassett, Anita Denniston.</persname>
         <subject source="aat" encodinganalog="650" ref="/subjects/5594">Concerts--United States.</subject>
         <subject source="aat" encodinganalog="650" ref="/subjects/5595">Composers.</subject>
       </controlaccess>

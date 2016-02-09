@@ -24,7 +24,8 @@
         <item>Original encoding from Word 10.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library<lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110"> Michigan Coalition for Responsible Gun Owners </corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/18290"> Michigan Coalition for Responsible Gun Owners </corpname>
       </origination>
       <unittitle encodinganalog="245"> Michigan Coalition for Responsible Gun Owners records <unitdate type="inclusive" encodinganalog="245$f"> 1994-2007 </unitdate> </unittitle>
       <physdesc>
@@ -90,14 +91,14 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9357">Firearms--Law and legislation--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Coalition for Responsible Gun Owners.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18290">Michigan Coalition for Responsible Gun Owners.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1996">Michigan--Politics and government--1951-1960.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2368">Michigan--Politics and government--1991-2000.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2369">Michigan--Politics and government--2001-2010.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Contributors: </head>
-        <persname source="lcnaf" encodinganalog="700">Felbeck, David K.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30373">Felbeck, David K.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
@@ -125,7 +126,10 @@
               </daodesc>
             </dao>
           </did>
-        <odd><p>(Documents and lists of the Michigan Coalition for Responsible Gun Owners (MCRGO), containing records of MCRGO endorsements for the Michigan Legislature, lists of activists, legislators and MCRGO employees and membership application materials.)</p></odd></c02>
+          <odd>
+            <p>(Documents and lists of the Michigan Coalition for Responsible Gun Owners (MCRGO), containing records of MCRGO endorsements for the Michigan Legislature, lists of activists, legislators and MCRGO employees and membership application materials.)</p>
+          </odd>
+        </c02>
         <c02 level="file">
           <did>
             <physloc>Online</physloc>
@@ -139,7 +143,10 @@
               </daodesc>
             </dao>
           </did>
-        <odd><p>(Open and closed minutes from the Michigan Coalition of Responsible Gun Owners (MCRGO) Board of Directors.)</p></odd></c02>
+          <odd>
+            <p>(Open and closed minutes from the Michigan Coalition of Responsible Gun Owners (MCRGO) Board of Directors.)</p>
+          </odd>
+        </c02>
         <c02 level="file">
           <did>
             <physloc>Online</physloc>
@@ -153,7 +160,10 @@
               </daodesc>
             </dao>
           </did>
-        <odd><p>(Michigan Coalition for Responsible Gun Owners (MCRGO)-endorsed firearms-related bills passed by the Michigan Legislature.)</p></odd></c02>
+          <odd>
+            <p>(Michigan Coalition for Responsible Gun Owners (MCRGO)-endorsed firearms-related bills passed by the Michigan Legislature.)</p>
+          </odd>
+        </c02>
       </c01>
       <c01 level="series">
         <did>
@@ -177,7 +187,10 @@
               </daodesc>
             </dao>
           </did>
-        <odd><p>(Michigan Coalition for Responsible Gun Owners (MCRGO) correspondence with both members and legislators, reference files, website files,  and news articles all related to the MCRGO and their work in the state of Michigan, organized chronologically. Also contains copies of the MCRGOs On Point newsletter.)</p></odd></c02>
+          <odd>
+            <p>(Michigan Coalition for Responsible Gun Owners (MCRGO) correspondence with both members and legislators, reference files, website files,  and news articles all related to the MCRGO and their work in the state of Michigan, organized chronologically. Also contains copies of the MCRGOs On Point newsletter.)</p>
+          </odd>
+        </c02>
       </c01>
       <c01 level="series">
         <did>
@@ -199,7 +212,10 @@
               </daodesc>
             </dao>
           </did>
-        <odd><p>(Point/counterpoint-style talking points employed by the Michigan Coalition for Responsible Gun Owners (MCRGO) on firearms-related issues that arose in the media, especially by proponents of gun control arguing that widespread gun ownership increased the danger of gun-related injuries, murder and suicide.)</p></odd></c02>
+          <odd>
+            <p>(Point/counterpoint-style talking points employed by the Michigan Coalition for Responsible Gun Owners (MCRGO) on firearms-related issues that arose in the media, especially by proponents of gun control arguing that widespread gun ownership increased the danger of gun-related injuries, murder and suicide.)</p>
+          </odd>
+        </c02>
       </c01>
       <c01 level="series">
         <did>

@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Detroit Swedish Council.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/20993">Detroit Swedish Council.</corpname>
       </origination>
       <unittitle encodinganalog="245">Detroit Swedish Council records <unitdate type="inclusive" encodinganalog="245$f" normal="1963/1983">1963-1983</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85140 Bd 2</unitid>
@@ -82,12 +83,12 @@
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname source="lcnaf" encodinganalog="610">Augustana Lutheran Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18693">Augustana Lutheran Church (Detroit, Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3998">Automobile industry.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3674">Churches--Michigan--Detroit.</subject>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/218">Detroit (Mich.)--Churches.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Detroit Swedish Council.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79079577">General Motors Corporation.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20993">Detroit Swedish Council.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79079577" ref="/agents/corporate_entities/17535">General Motors Corporation.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4143">Swedish Americans--Social life and customs.</subject>
       </controlaccess>
       <controlaccess>

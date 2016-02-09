@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Republican Party (Mich.). 14th Congressional District Republican Committee.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/18162">Republican Party (Mich.). 14th Congressional District Republican Committee.</corpname>
       </origination>
       <unittitle encodinganalog="245">Republican Party (Mich.). 14th Congressional District Republican Committee records <unitdate type="inclusive" encodinganalog="245$f" normal="1948/1976">1948-1976</unitdate></unittitle>
       <abstract>Office files including district executive committee minutes, financial reports, newsletters, and correspondence relating in part to the factional dispute between district chairman, Richard Durant, and George Romney and the state Republican Party; chronological files largely concerning party conventions and political campaigns; and collected materials relating to political conservatism, notably to the John Birch Society and to anti-woman's rights organizations.</abstract>
@@ -87,13 +88,13 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7280">Conservatism.</subject>
-        <persname source="lcnaf" encodinganalog="600">Durant, Richard.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50082514">John Birch Society.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/27840">Durant, Richard.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50082514" ref="/agents/corporate_entities/21357">John Birch Society.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/910">Michigan--Politics and government--1951-</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/809">Michigan--Politics and government--1946-1960.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/810">Michigan--Politics and government--1961-1970.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/801">Michigan--Politics and government--1971-1980.</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50048290">Romney, George W., 1907-1995.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50048290" ref="/agents/people/31530">Romney, George W., 1907-1995.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6248">Women's rights--Michigan.</subject>
       </controlaccess>
     </controlaccess>

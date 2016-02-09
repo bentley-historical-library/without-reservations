@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Williams, Wallace C., 1921-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30997">Williams, Wallace C., 1921-</persname>
       </origination>
       <unittitle encodinganalog="245">Wallace C. Williams Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1958/1992">1958-1992</unitdate></unittitle>
       <abstract>Detroit businessman active in numerous minority business affairs and organizations. Williams was director of the Michigan Division of Minority Business Enterprise within the Michigan Department of Commerce, 1959-1978. Biographical information, correspondence, files relating to his activities on behalf of minority business development, especially with the Minority Technology Council of Michigan; also files relating to involvement with Detroit civic and cultural organizations, and photographs.</abstract>
@@ -83,18 +84,18 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6418">African American business people--Michigan--Detroit.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10761">Business enterprises--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1343">Detroit (Mich.)--Commerce.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. Division of Minority Business Enterprise.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20622">Michigan. Division of Minority Business Enterprise.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10762">Minority business enterprises--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Minority Technology Council of Michigan.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Williams, Wallace C., 1921-</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20379">Minority Technology Council of Michigan.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30997">Williams, Wallace C., 1921-</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4453">Afro-Americans--Michigan--Detroit.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85376924">Conyers, John, 1929-</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n91103937">Engler, John, 1948-</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82222001">Thomas, Isiah, 1961-</persname>
-        <persname source="lcnaf" encodinganalog="600">Williams, Wallace C., 1921-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85376924" ref="/agents/people/34416">Conyers, John, 1929-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n91103937" ref="/agents/people/31507">Engler, John, 1948-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82222001" ref="/agents/people/28861">Thomas, Isiah, 1961-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30997">Williams, Wallace C., 1921-</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

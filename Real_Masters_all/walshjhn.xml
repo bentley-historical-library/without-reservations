@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Walsh, John Klaerr, 1887-1964.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33309">Walsh, John Klaerr, 1887-1964.</persname>
       </origination>
       <unittitle encodinganalog="245">John Klaerr Walsh papers <unitdate type="inclusive" encodinganalog="245$f" normal="1928/1958">1928-1958</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">86190 Aa 2; AC</unitid>
@@ -92,8 +93,8 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10607">American newspapers--Michigan--Kalamazoo.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6524">Prohibition--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1290">Oceania.</geogname>
-        <persname source="lcnaf" encodinganalog="600">Upjohn, William E.</persname>
-        <famname source="lcnaf" encodinganalog="600">Upjohn family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35752">Upjohn, William E.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1280">Upjohn family.</famname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5706">World War, 1939-1945.</subject>
       </controlaccess>
       <controlaccess>
@@ -105,7 +106,7 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3639">Interiors.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4878">Journalism.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5476">Journalists--Michigan--Kalamazoo.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Kalamazoo College.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19788">Kalamazoo College.</corpname>
         <subject source="lcsh" encodinganalog="630" ref="/subjects/6975">Kalamazoo gazette.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/980">Kalamazoo (Mich.)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3723">Military art and science.</subject>
@@ -117,13 +118,13 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n98072924">Crane, Caroline Bartlett, 1858-1935.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008183293">Green, Fred W. (Fred Warren), 1872-1936.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86025928">Murphy, Frank, 1890-1949.</persname>
-        <persname source="lcnaf" encodinganalog="700">Osborn, Chase S. (Chase Salmon), b. 1860.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79022932">Roosevelt, Franklin D. (Franklin Delano), 1882-1945.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50045033">Vandenberg, Arthur H. (Arthur Hendrick), 1884-1951.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50019256">Willkie, Wendell L. (Wendell Lewis), 1892-1944.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n98072924" ref="/agents/people/28460">Crane, Caroline Bartlett, 1858-1935.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008183293" ref="/agents/people/29195">Green, Fred W. (Fred Warren), 1872-1936.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86025928" ref="/agents/people/32445">Murphy, Frank, 1890-1949.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29580">Osborn, Chase S. (Chase Salmon), b. 1860.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79022932" ref="/agents/people/33929">Roosevelt, Franklin D. (Franklin Delano), 1882-1945.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50045033" ref="/agents/people/30760">Vandenberg, Arthur H. (Arthur Hendrick), 1884-1951.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50019256" ref="/agents/people/33671">Willkie, Wendell L. (Wendell Lewis), 1892-1944.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

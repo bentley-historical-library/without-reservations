@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Patrick, Lawrence C.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32464">Patrick, Lawrence C.</persname>
       </origination>
       <unittitle encodinganalog="245">Lawrence C. Patrick Jr. papers <unitdate type="inclusive" encodinganalog="245$f" normal="1987/2009">1987-2009</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2010053 Aa 2</unitid>
@@ -78,9 +79,9 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9718">Charter schools--Michigan--Detroit.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81036026">Detroit (Mich.). Board of Education.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81036026" ref="/agents/corporate_entities/22039">Detroit (Mich.). Board of Education.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9719">Educational change--Michigan--Detroit.</subject>
-        <persname source="lcnaf" encodinganalog="600">Patrick, Lawrence C.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32464">Patrick, Lawrence C.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8248">Schools--Michigan--Detroit.</subject>
       </controlaccess>
     </controlaccess>

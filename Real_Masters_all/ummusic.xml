@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">[Sheet music of University of Michigan songs and music]</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/20813">[Sheet music of University of Michigan songs and music]</corpname>
       </origination>
       <unittitle encodinganalog="245">Sheet music of University of Michigan songs and music <unitdate type="inclusive" encodinganalog="245$f" normal="1894/1947">1894-1947</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">FImu F3i</unitid>
@@ -78,7 +79,7 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname encodinganalog="610" source="lcnaf">University of Michigan--Songs and music.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/18699">University of Michigan--Songs and music.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

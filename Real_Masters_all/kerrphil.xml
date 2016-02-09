@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n88294043">Kerr, Philip.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n88294043" ref="/agents/people/33677">Kerr, Philip.</persname>
       </origination>
       <unittitle encodinganalog="245">Philip Kerr papers <unitdate type="inclusive" encodinganalog="245$f" normal="1984/2012">1984-2012</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2012093 Aa 2</unitid>
@@ -80,14 +81,14 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88294043">Kerr, Philip.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88294043" ref="/agents/people/33677">Kerr, Philip.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7849">Actors.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8122">College theater--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6894">Theater--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8671">Theater--Production and direction.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Dramatics.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. School of Music, Theatre &amp; Dance.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Dramatics.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18019">University of Michigan. School of Music, Theatre &amp; Dance.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

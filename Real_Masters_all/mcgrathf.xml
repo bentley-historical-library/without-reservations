@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">McGrath, Frank J.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32925">McGrath, Frank J.</persname>
       </origination>
       <unittitle encodinganalog="245">Frank J. McGrath photograph album <unitdate type="inclusive" encodinganalog="245$f" normal="1918/1919">1918-1919</unitdate></unittitle>
       <abstract>Papers of a soldier in the Allied intervention in Russia, 1918-1920, the "Polar Bear Expedition."</abstract>

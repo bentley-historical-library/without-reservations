@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Early, John C. (John Chrysostom), 1878-1932.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/35218">Early, John C. (John Chrysostom), 1878-1932.</persname>
       </origination>
       <unittitle encodinganalog="245">John C. Early Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1911/1942">1911-1942</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1911/1932">1911-1932</unitdate></unittitle>
       <abstract>Teacher and administrator in the Philippines, governor of the Mountain Province, 1923-1930, later advisor to the Governor General on non-Christian affairs; correspondence, reminiscences, speeches, articles, and photographs.</abstract>
@@ -81,25 +82,25 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Early, John C. (John Chrysostom), 1878-1932.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35218">Early, John C. (John Chrysostom), 1878-1932.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/944">Philippines--History--1898-1946.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7392">Teachers--Philippines.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Early, John C. (John Chrysostom), 1878-1932.</persname>
-        <famname source="lcnaf" encodinganalog="600">Early family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35218">Early, John C. (John Chrysostom), 1878-1932.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1447">Early family.</famname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4187">Governors--Philippines.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/944">Philippines--History--1898-1946.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n96029853">Brent, Charles Henry, 1862-1929.</persname>
-        <persname source="lcnaf" encodinganalog="700">Early, Willa R. (Willa Rhodes), 1883-</persname>
-        <persname source="lcnaf" encodinganalog="700">Fugate, James, 1877-1938.</persname>
-        <persname source="lcnaf" encodinganalog="700">Mosher, Gouverneur Frank, 1871-1941.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50011364">Stimson, Henry L. (Henry Lewis), 1867-1950.</persname>
-        <persname source="lcnaf" encodinganalog="700">Wood, Leonard, 1860-1927.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n96029853" ref="/agents/people/35496">Brent, Charles Henry, 1862-1929.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35538">Early, Willa R. (Willa Rhodes), 1883-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35732">Fugate, James, 1877-1938.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34961">Mosher, Gouverneur Frank, 1871-1941.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50011364" ref="/agents/people/32329">Stimson, Henry L. (Henry Lewis), 1867-1950.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29659">Wood, Leonard, 1860-1927.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

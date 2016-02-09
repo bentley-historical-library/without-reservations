@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" encodinganalog="110" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Ann Arbor Street Art Fair (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/22055">Ann Arbor Street Art Fair (Ann Arbor, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">Ann Arbor Street Art Fair records <unitdate type="inclusive" encodinganalog="245$f" normal="1960/2005">1960-2005</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1968/2005">1968-2005</unitdate></unittitle>
       <abstract>Corporation administering the summer juried art fair in Ann Arbor, Michigan. The art fair is the oldest of three fairs that comprise the annual Ann Arbor art fairs. Minutes, bylaws, financials, and other materials relating to the administration of the art fair; also press materials, artists' evaluations, scrapbooks documenting development and history of the fair, and photographs and slides of the fair and the work of the artists.</abstract>
@@ -86,15 +87,15 @@
     <controlaccess>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Street Art Fair (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22055">Ann Arbor Street Art Fair (Ann Arbor, Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5730">Fairs--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="611">Ann Arbor Art Fairs (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="611" ref="/agents/corporate_entities/22139">Ann Arbor Art Fairs (Ann Arbor, Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5673">Art--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5674">Artists--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Street Art Fair (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22055">Ann Arbor Street Art Fair (Ann Arbor, Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3555">Art--Michigan--Ann Arbor.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3556">Artists--Michigan--Ann Arbor.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3557">Art festivals--Michigan--Ann Arbor.</subject>

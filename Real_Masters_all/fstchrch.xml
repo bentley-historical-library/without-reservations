@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">First Christian Church (Lansing, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/18696">First Christian Church (Lansing, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">First Christian Church, Lansing, Mich., Records <unitdate type="inclusive" encodinganalog="245$f" normal="1890/1978">1890-1978</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">86773 Ba 2; Ba microcopy</unitid>
@@ -78,8 +79,8 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7902">Charities--Michigan--Lansing.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Christian Church (Disciples of Christ)--Michigan--Lansing.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">First Christian Church (Lansing, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18862">Christian Church (Disciples of Christ)--Michigan--Lansing.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18696">First Christian Church (Lansing, Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1140">Lansing (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7903">Women--Michigan--Lansing--Societies and clubs.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7904">Women--Religious life--Michigan--Lansing.</subject>
@@ -87,8 +88,8 @@
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4296">Churches--Michigan--Lansing.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Christian Church (Disciples of Christ)--Michigan--Lansing.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">First Christian Church (Lansing, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18862">Christian Church (Disciples of Christ)--Michigan--Lansing.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18696">First Christian Church (Lansing, Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7905">Church buildings--Michigan--Lansing.</subject>
       </controlaccess>
       <controlaccess>

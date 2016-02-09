@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="100">UAW-Ford University.</corpname>
+        <corpname source="lcnaf" encodinganalog="100" ref="/agents/corporate_entities/21795">UAW-Ford University.</corpname>
       </origination>
       <unittitle encodinganalog="245">UAW-Ford University Records <unitdate type="inclusive" encodinganalog="245$f" normal="1995/2001">1995-2001</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">03113 Bq 2</unitid>
@@ -81,14 +82,14 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">UAW-Ford University.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21795">UAW-Ford University.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7681">Employees--Training of--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10443">Distance education--Computer-assisted instruction.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7687">Automobile industry workers--Labor unions--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Ford Motor Company--Employees.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">International Union, United Automobile, Aerospace, and Agricultural Implement Workers of America.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81033118">University of Michigan. School of Social Work.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Dearborn.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19767">Ford Motor Company--Employees.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20783">International Union, United Automobile, Aerospace, and Agricultural Implement Workers of America.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81033118" ref="/agents/corporate_entities/22674">University of Michigan. School of Social Work.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Dearborn.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

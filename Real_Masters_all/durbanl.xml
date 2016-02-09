@@ -39,7 +39,8 @@
         <item>Initial encoding</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -50,7 +51,7 @@
   <archdesc level="collection" type="inventory" audience="external" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname encodinganalog="100" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n92054296">Detroit Urban League.</corpname>
+        <corpname encodinganalog="100" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n92054296" ref="/agents/corporate_entities/22702">Detroit Urban League.</corpname>
       </origination>
       <unittitle encodinganalog="245">Detroit Urban League records <unitdate type="inclusive" encodinganalog="245$f" normal="1916/1992">1916-1992</unitdate></unittitle>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">851100 Bd 2 UBDm</unitid>
@@ -149,30 +150,30 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5930">Afro-Americans--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="600">Anderson, N. Charles.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33587">Anderson, N. Charles.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7378">Camps--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6671">Charities--Michigan--Detroit.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7379">Civil rights--Michigan--Detroit.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7380">Depressions--1929--Michigan--Detroit.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539.html" ref="/subjects/933">Detroit (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Detroit (Mich.). House of Correction.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Detroit (Mich.). Housing Commission.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Detroit (Mich.). Commission on Children and Youth.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n90622974">Detroit (Mich.). Commission on Community Relations.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Detroit Federation of Settlements.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n92054296">Detroit Urban League.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22930">Detroit (Mich.). House of Correction.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20653">Detroit (Mich.). Housing Commission.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22351">Detroit (Mich.). Commission on Children and Youth.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n90622974" ref="/agents/corporate_entities/18842">Detroit (Mich.). Commission on Community Relations.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21543">Detroit Federation of Settlements.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n92054296" ref="/agents/corporate_entities/22702">Detroit Urban League.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6509">Education--Michigan--Detroit.</subject>
-        <persname source="lcnaf" encodinganalog="600">Hamilton-Smith, Sue.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31070">Hamilton-Smith, Sue.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7381">Housing--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7382">Labor--Michigan--Detroit.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Welfare League.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21599">Michigan Welfare League.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7383">Municipal government--Michigan--Detroit.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79063815">National Urban League.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79063815" ref="/agents/corporate_entities/19946">National Urban League.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7384">New Deal, 1933-1939--Michigan--Detroit.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7385">Social service--Michigan--Detroit--Societies, etc.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7386">Unemployed--Michigan--Detroit.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n2003023429">Williams, Roy L.</persname>
-        <persname source="lcnaf" encodinganalog="600">Woods, Donald W.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n2003023429" ref="/agents/people/34159">Williams, Roy L.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31593">Woods, Donald W.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7387">Youth--Michigan--Detroit.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1733">Green Pastures Camp (Mich.)</geogname>
       </controlaccess>
@@ -183,31 +184,31 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3979">Buildings--Michigan--Detroit.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1733">Green Pastures Camp (Mich.)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3519">Camps.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Central Methodist Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21620">Central Methodist Church (Detroit, Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3567">Charitable organizations.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3572">Children.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3674">Churches--Michigan--Detroit.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n92054289">Dancy, John C. (John Campbell), 1888-1968.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n92054289" ref="/agents/people/27427">Dancy, John C. (John Campbell), 1888-1968.</persname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/239">Detroit (Mich.)--Buildings.</geogname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/218">Detroit (Mich.)--Churches.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n92054296">Detroit Urban League.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80025872">Kornegay, Francis A.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n92054296" ref="/agents/corporate_entities/22702">Detroit Urban League.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80025872" ref="/agents/people/35690">Kornegay, Francis A.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4184">Nursing--Michigan--Detroit.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3760">Offices.</subject>
       </controlaccess>
       <controlaccess>
         <head>Sound Recordings - Subjects</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n92054296">Detroit Urban League.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n92054296" ref="/agents/corporate_entities/22702">Detroit Urban League.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7388">Afro-Americans--Michigan--Detroit.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539.html" ref="/subjects/933">Detroit (Mich.)</geogname>
         <genreform source="aat" encodinganalog="655" ref="/subjects/3139">Sound recordings.</genreform>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80025872">Kornegay, Francis A.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80025872" ref="/agents/people/35690">Kornegay, Francis A.</persname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n92054289">Dancy, John C. (John Campbell), 1888-1968.</persname>
-        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n80025872">Kornegay, Francis A.</persname>
-        <persname source="lcnaf">Washington, Forrester B.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n92054289" ref="/agents/people/27427">Dancy, John C. (John Campbell), 1888-1968.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n80025872" ref="/agents/people/35690">Kornegay, Francis A.</persname>
+        <persname source="lcnaf" ref="/agents/people/27954">Washington, Forrester B.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

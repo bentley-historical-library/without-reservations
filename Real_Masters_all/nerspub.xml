@@ -27,7 +27,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname encodinganalog="110" source="lcnaf">University of Michigan. Department of Nuclear Engineering and Radiological Sciences.</corpname>
+        <corpname encodinganalog="110" source="lcnaf" ref="/agents/corporate_entities/20402">University of Michigan. Department of Nuclear Engineering and Radiological Sciences.</corpname>
       </origination>
       <unittitle encodinganalog="245">Department of Nuclear Engineering and Radiological Sciences (University of Michigan) publications <unitdate encodinganalog="245$f" type="inclusive">1954-ongoing</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">971; Bimu; C146; 2</unitid>
@@ -81,17 +82,17 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80043543">University of Michigan. Department of Nuclear Engineering.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Michigan Ion Beam Laboratory.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80043543" ref="/agents/corporate_entities/22769">University of Michigan. Department of Nuclear Engineering.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17927">University of Michigan. Michigan Ion Beam Laboratory.</corpname>
         <genreform source="aat" encodinganalog="655" ref="/subjects/3193">Annual reports.</genreform>
         <genreform source="aat" encodinganalog="655" ref="/subjects/3153">Newsletters.</genreform>
         <genreform source="aat" encodinganalog="655" ref="/subjects/3148">Pamphlets.</genreform>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Department of Nuclear Engineering and Radiological Sciences.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20402">University of Michigan. Department of Nuclear Engineering and Radiological Sciences.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Michigan Ion Beam Laboratory.</corpname>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n80043543">University of Michigan. Department of Nuclear Engineering.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/17927">University of Michigan. Michigan Ion Beam Laboratory.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n80043543" ref="/agents/corporate_entities/22769">University of Michigan. Department of Nuclear Engineering.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

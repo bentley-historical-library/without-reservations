@@ -27,7 +27,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Byrd, David R.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/35253">Byrd, David R.</persname>
       </origination>
       <unittitle encodinganalog="245">David R. Byrd Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1930/2004" certainty="approximate">1930s-2004</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1965/1973">1965-1973</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1981/1983">1981-1983</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">0565 Aa 2</unitid>
@@ -90,23 +91,23 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Byrd, David R.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35253">Byrd, David R.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6643">African American architects.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5684">African Americans--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Alliance for Achievement in Academics and the Arts.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21513">Ann Arbor Alliance for Achievement in Academics and the Arts.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6485">Architects--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6644">Architects--Washington (D.C.)</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6645">Church architecture--Washington (D.C.)</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr90002299">Washtenaw County (Mich.). Board of Commissioners.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr90002299" ref="/agents/corporate_entities/17889">Washtenaw County (Mich.). Board of Commissioners.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5684">African Americans--Michigan--Ann Arbor.</subject>
-        <persname source="lcnaf" encodinganalog="600">Byrd, Letitia.</persname>
-        <persname source="lcnaf" encodinganalog="600">Byrd, David R.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35662">Byrd, Letitia.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35253">Byrd, David R.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3541">Churches--Michigan--Ann Arbor.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3957">Churches--Washington (D.C.)</subject>
-        <corpname source="lcnaf" encodinganalog="610">Detroit Observatory.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20843">Detroit Observatory.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

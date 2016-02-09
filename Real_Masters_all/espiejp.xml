@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Espie, John P., 1881-1949.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28339">Espie, John P., 1881-1949.</persname>
       </origination>
       <unittitle encodinganalog="245">John P. Espie papers <unitdate type="inclusive" encodinganalog="245$f" normal="1902/1950">1902-1950</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">90160 Aa 2; UAm</unitid>
@@ -83,22 +84,22 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Espie, John P., 1881-1949.</persname>
-        <famname source="lcnaf" encodinganalog="600">Espy family.</famname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. Legislature. House of Representatives.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28339">Espie, John P., 1881-1949.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1382">Espy family.</famname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21647">Michigan. Legislature. House of Representatives.</corpname>
         <geogname source="local" encodinganalog="691" ref="/subjects/812">Michigan--Politics and government--1939-1945.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/809">Michigan--Politics and government--1946-1960.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21402">Republican Party (Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/884">Michigan--Politics and government--1837-1950.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname source="lcnaf" encodinganalog="610">Clinton County (Mich.). Board of Supervisors.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Espie, John P., 1881-1949.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008189249">Kelly, Harry F. (Harry Francis), 1895-1971.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21347">Clinton County (Mich.). Board of Supervisors.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28339">Espie, John P., 1881-1949.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008189249" ref="/agents/people/34560">Kelly, Harry F. (Harry Francis), 1895-1971.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3713">Legislators--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79059059">Michigan. Legislature.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87828171">Ruthven, Alexander Grant, 1882-1971.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79059059" ref="/agents/corporate_entities/22038">Michigan. Legislature.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87828171" ref="/agents/people/30884">Ruthven, Alexander Grant, 1882-1971.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

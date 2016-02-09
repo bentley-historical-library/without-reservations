@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Anna Botsford Bach Home.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/18068">Anna Botsford Bach Home.</corpname>
       </origination>
       <unittitle encodinganalog="245">Anna Botsford Bach Home records <unitdate type="inclusive" encodinganalog="245$f" normal="1909/2007">1909-2007</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1988/2003">1988-2003</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">05119 Bb 2; UBBm</unitid>
@@ -83,7 +84,7 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Anna Botsford Bach Home.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18068">Anna Botsford Bach Home.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5943">Historic buildings--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5944">Old age homes--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5945">Older women--Michigan--Ann Arbor.</subject>

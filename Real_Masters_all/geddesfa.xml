@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Geddes family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/1310">Geddes family.</famname>
       </origination>
       <unittitle encodinganalog="245">Geddes and Randall Family Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1835/1909">1835-1909</unitdate></unittitle>
       <abstract>The Geddes and Randall Family papers record early life in the Ann Arbor, Michigan area. The papers include financial records of paper and sawmills, pioneer reminiscences, personal photographs, and genealogical materials.</abstract>
@@ -90,27 +91,27 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <famname source="lcnaf" encodinganalog="600">Geddes family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1310">Geddes family.</famname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html" ref="/subjects/860">Ann Arbor (Mich.)</geogname>
         <genreform source="aat" encodinganalog="655" ref="/subjects/3146">Diaries.</genreform>
-        <persname source="lcnaf" encodinganalog="600">Geddes, John.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34310">Geddes, John.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7943">Millwrights--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="600">Randall, William T.</persname>
-        <famname source="lcnaf" encodinganalog="600">Randall family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34515">Randall, William T.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1610">Randall family.</famname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7944">Sawmills--Michigan.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <famname source="lcnaf" encodinganalog="600">Geddes family.</famname>
-        <corpname source="lcnaf" encodinganalog="610">Geddes Mill.</corpname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1310">Geddes family.</famname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20306">Geddes Mill.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1897">Geddes (Mich.)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3758">Military uniforms--American.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3786">Mills--Michigan.</subject>
-        <famname source="lcnaf" encodinganalog="600">Randall family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1610">Randall family.</famname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Randall, Sarah Geddes.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29139">Randall, Sarah Geddes.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

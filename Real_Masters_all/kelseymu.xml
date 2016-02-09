@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Kelsey Museum of Archaeology.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/18504">Kelsey Museum of Archaeology.</corpname>
       </origination>
       <unittitle encodinganalog="245">Kelsey Museum of Archaeology papers <unitdate type="inclusive" encodinganalog="245$f" normal="1890/1987">1890-1987</unitdate></unittitle>
       <abstract>Papers of Francis W. Kelsey, University of Michigan professor of Latin (for whom Museum was named); papers of Museum directors and curators, principally Orma F. Butler, Enoch E. Peterson, Louise A. Shier, John G. Winter; papers of University faculty associated with the Museum or the study and teaching of classical and medieval studies, notably Arthur E.R. Boak, Campbell Bonner, Thomas S. Jerome, and Robert H. McDowell; also records of the Institute of Archaeological Research, and material on 1975-1979 Carthage expedition.</abstract>
@@ -343,9 +344,9 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Institute of Archaeological Research.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan Near East Research Expedition (1924-1934)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18132">University of Michigan. Institute of Archaeological Research.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19412">University of Michigan Near East Research Expedition (1924-1934)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2150">Karanis (Egypt)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2151">Carthage (Extinct city)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6632">Archaeology.</subject>
@@ -355,15 +356,15 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50008601">Boak, Arthur Edward Romilly, 1888-1962.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no92004670">Bonner, Campbell, b. 1876.</persname>
-        <persname source="lcnaf" encodinganalog="700">Butler, Orma Fitch.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nb2005007173">Jerome, Thomas Spencer, 1864-1914.</persname>
-        <persname source="lcnaf" encodinganalog="700">Kelsey, Francis W. (Francis Willey), b. 1858.</persname>
-        <persname source="lcnaf" encodinganalog="700">McDowell, Robert H.</persname>
-        <persname source="lcnaf" encodinganalog="700">Peterson, Enoch Ernest, 1891-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2003056497">Shier, Louise Adele, 1906-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n89622786">Winter, John Garrett, 1881-1956.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50008601" ref="/agents/people/36058">Boak, Arthur Edward Romilly, 1888-1962.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no92004670" ref="/agents/people/27172">Bonner, Campbell, b. 1876.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35410">Butler, Orma Fitch.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nb2005007173" ref="/agents/people/29893">Jerome, Thomas Spencer, 1864-1914.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27555">Kelsey, Francis W. (Francis Willey), b. 1858.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29203">McDowell, Robert H.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32271">Peterson, Enoch Ernest, 1891-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2003056497" ref="/agents/people/32883">Shier, Louise Adele, 1906-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n89622786" ref="/agents/people/31876">Winter, John Garrett, 1881-1956.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
@@ -21879,7 +21880,7 @@
     <descgrp type="add">
       <descgrp>
         <odd>
-          <head>Indexes</head>
+        <head>Indexes</head>
           <list type="simple">
             <head>Indexes to Francis W. Kelsey Papers</head>
             <item>

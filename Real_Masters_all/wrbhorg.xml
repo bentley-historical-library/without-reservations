@@ -31,7 +31,8 @@
         <item>Original encoding in EAD Vers. 1.0 from Word 6.0 file using Word macros and some hand tagging.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Willow Run Black History Organization.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/17934">Willow Run Black History Organization.</corpname>
       </origination>
       <unittitle encodinganalog="245$a">Willow Run Black History Organization Records <unitdate type="inclusive" encodinganalog="245$f" normal="1940/1989">1940-1989</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1984/1989">1984-1989</unitdate></unittitle>
       <abstract>Organization formed in 1983 to collect the history of African Americans in Willow Run, Michigan, produce a written history, and foster racial understanding. Records include administrative files, collected material, and audio-visual materials.</abstract>
@@ -99,13 +100,13 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Willow Run Black History Organization.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17934">Willow Run Black History Organization.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/3126">Willow Run (Mich.)--History.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9509">Afro-Americans--Michigan--Willow Run.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <corpname source="lcnaf" encodinganalog="610">Willow Run Black History Organization.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17934">Willow Run Black History Organization.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/3126">Willow Run (Mich.)--History.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9509">Afro-Americans--Michigan--Willow Run.</subject>
       </controlaccess>

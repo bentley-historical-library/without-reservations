@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">St. Paul’s Episcopal Church (Grand Rapids, Mich.).</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/18373">St. Paul’s Episcopal Church (Grand Rapids, Mich.).</corpname>
       </origination>
       <unittitle encodinganalog="245">St. Paul’s Episcopal Church (Grand Rapids, Mich.) records <unitdate type="inclusive" encodinganalog="245$f" normal="1870/2005">1870-2005</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2008009 Ba 2</unitid>
@@ -87,7 +88,7 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10281">Episcopal Church--Michigan--Grand Rapids.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1909">Grand Rapids (Mich.)--Church history.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10282">Registers of births, etc.--Michigan--Grand Rapids.</subject>
-        <corpname source="lcnaf" encodinganalog="610">St. Paul's Episcopal Church (Grand Rapids, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18711">St. Paul's Episcopal Church (Grand Rapids, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

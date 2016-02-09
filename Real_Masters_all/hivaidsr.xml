@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">HIV/AIDS Resource Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/22888">HIV/AIDS Resource Center.</corpname>
       </origination>
       <unittitle encodinganalog="245">HIV/AIDS Resource Center Records <unitdate type="inclusive" encodinganalog="245$f" normal="1986/2003">1986-2003</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">0655 Bf 2</unitid>
@@ -74,10 +75,10 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">HIV/AIDS Resource Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22888">HIV/AIDS Resource Center.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5787">AIDS (Disease)--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8301">HIV infections--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Wellness Networks-Huron Valley.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19210">Wellness Networks-Huron Valley.</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html" ref="/subjects/860">Ann Arbor (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80006284.html" ref="/subjects/999">Ypsilanti (Mich.)</geogname>
       </controlaccess>

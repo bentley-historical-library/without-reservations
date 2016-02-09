@@ -32,7 +32,8 @@
         <item>Edited to reflect migration of content from CD-ROM to Deep Blue JMBG</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -43,7 +44,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Amos, Earl V.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/29062">Amos, Earl V.</persname>
       </origination>
       <unittitle encodinganalog="245">Earl V. Amos papers <unitdate type="inclusive" encodinganalog="245$f" normal="1918/1919">1918-1919</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">05143 Aa 2</unitid>
@@ -89,8 +90,8 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Amos, Earl V.</persname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Engineer Regiment, 310th.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29062">Amos, Earl V.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18859">United States. Army. Engineer Regiment, 310th.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/883">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
         <subject encodinganalog="690" source="local" authfilenumber="http://id.loc.gov/authorities/names/n2008059426" ref="/subjects/5619">Polar Bear Expedition.</subject>
       </controlaccess>

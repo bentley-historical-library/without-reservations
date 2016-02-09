@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">St. Alban's Episcopal Church (Highland Park, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/22060">St. Alban's Episcopal Church (Highland Park, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">St. Alban's Episcopal Church, Highland Park, Mich., Records <unitdate type="inclusive" encodinganalog="245$f" normal="1907/1976">1907-1976</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1940/1976">1940-1976</unitdate></unittitle>
       <abstract>Church established in 1908 and disbanded in 1976 because of declining membership. Vestry meeting minutes, 1909-1976; registry of church services, 1943-1976; volume containing photographs, clippings, and published materials, 1925-1943 (scattered dates); and registers (1907-1976) of baptisms, burials, marriages, and communicants</abstract>
@@ -85,15 +86,15 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Episcopal Church--Michigan--Highland Park.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18160">Episcopal Church--Michigan--Highland Park.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2835">Highland Park (Mich.)--Church history.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">St. Alban's Episcopal Church (Highland Park, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22060">St. Alban's Episcopal Church (Highland Park, Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10222">Registers of births, etc.--Michigan--Highland Park.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5323">Churches--Michigan--Highland Park.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Episcopal Church--Michigan--Highland Park.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18160">Episcopal Church--Michigan--Highland Park.</corpname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/449">Highland Park (Mich.)--Churches.</geogname>
       </controlaccess>
       <controlaccess>

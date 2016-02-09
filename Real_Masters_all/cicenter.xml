@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Campus Information Centers.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/23120">University of Michigan. Campus Information Centers.</corpname>
       </origination>
       <unittitle encodinganalog="245">Campus Information Centers (University of Michigan) Publications <unitdate type="inclusive" encodinganalog="245$f" normal="1983/9999">1983-[ongoing]</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1988/1990">1988-1990</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">9936 Bimu B6 2</unitid>
@@ -78,8 +79,8 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no90015192">Korn, Harold A. (Harold Allen)</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no90015192" ref="/agents/people/34032">Korn, Harold A. (Harold Allen)</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/18699">University of Michigan.</corpname>
         <genreform source="aat" encodinganalog="655" ref="/subjects/3136">Videotapes.</genreform>
       </controlaccess>
     </controlaccess>

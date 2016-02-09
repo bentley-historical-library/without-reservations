@@ -44,7 +44,8 @@
         <item>original encoding from Word 6.0 file</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -55,7 +56,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">International Order of King’s Daughters and Sons. Michigan Branch.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/19216">International Order of King’s Daughters and Sons. Michigan Branch.</corpname>
       </origination>
       <unittitle encodinganalog="245">International Order of King’s Daughters and Sons, Michigan Branch records <unitdate type="inclusive" encodinganalog="245$f" normal="1897/2008">1897-2008</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1974/1992">1974-1992</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">93818 Bk 2</unitid>
@@ -109,7 +110,7 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">International Order of the King's Daughters and Sons. Michigan Branch.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20363">International Order of the King's Daughters and Sons. Michigan Branch.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6674">Women--Michigan--Societies and clubs.</subject>
       </controlaccess>
       <controlaccess>

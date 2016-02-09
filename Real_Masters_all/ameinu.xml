@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Ameinu Detroit.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/19677">Ameinu Detroit.</corpname>
       </origination>
       <unittitle encodinganalog="245">Ameinu Detroit records <unitdate type="inclusive" encodinganalog="245$f" normal="1928/2009">1928-2009</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2009128 Bd 2; UBDm</unitid>
@@ -85,16 +86,16 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Ameinu Detroit.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19677">Ameinu Detroit.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5883">Jews--Michigan--Detroit Metropolitan Area.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5884">Labor Zionism--Michigan--Detroit Metropolitan Area.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Labor Zionist Organization of America - Poale Zion.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21224">Labor Zionist Organization of America - Poale Zion.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5885">Labor Zionists--Michigan--Detroit Metropolitan Area.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname source="lcnaf" encodinganalog="610">Ameinu Detroit.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85271896">Jewish National Workers' Alliance (U.S.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19677">Ameinu Detroit.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85271896" ref="/agents/corporate_entities/17724">Jewish National Workers' Alliance (U.S.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

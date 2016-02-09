@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">O’Brien Family</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/1513">O’Brien Family</famname>
       </origination>
       <unittitle encodinganalog="245">O’Brien Family (Detroit, Mich.) papers <unitdate type="inclusive" encodinganalog="245$f" normal="1932/1965" certainty="approximate">circa 1932-1965</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85401 Aa 2; AC</unitid>
@@ -89,21 +90,21 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8361">Women--Michigan--Detroit.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/938">Upper Peninsula (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8182">American newspapers.</subject>
-        <famname source="lcnaf" encodinganalog="600">O'Brien family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1618">O'Brien family.</famname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600">O'Brien, Gerald.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2009002837">O'Brien, Patrick H. (Patrick Henry), 1868-1959</persname>
-        <famname source="lcnaf" encodinganalog="600">O'Brien family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29303">O'Brien, Gerald.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2009002837" ref="/agents/people/28862">O'Brien, Patrick H. (Patrick Henry), 1868-1959</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1618">O'Brien family.</famname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">O'Brien, Eleanor Lawton.</persname>
-        <persname source="lcnaf" encodinganalog="700">O'Brien, John H.</persname>
-        <persname source="lcnaf" encodinganalog="700">O'Brien, Michael.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2009002837">O'Brien, Patrick H. (Patrick Henry), 1868-1959</persname>
-        <persname source="lcnaf" encodinganalog="700">Worth, Jean, 1904-1987.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30924">O'Brien, Eleanor Lawton.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27277">O'Brien, John H.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28121">O'Brien, Michael.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2009002837" ref="/agents/people/28862">O'Brien, Patrick H. (Patrick Henry), 1868-1959</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34990">Worth, Jean, 1904-1987.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

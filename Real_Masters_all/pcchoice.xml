@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Peoples Campaign for Choice.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/18750">Peoples Campaign for Choice.</corpname>
       </origination>
       <unittitle encodinganalog="245">Peoples Campaign for Choice Records <unitdate type="inclusive" encodinganalog="245$f" normal="1987/1988">1987-1988</unitdate></unittitle>
       <abstract>Organization formed to defeat 1988 Michigan ballot proposal prohibiting Medicaid funding for abortions. Campaign records, executive committee files, financial records, media materials, and consultants files; also photographs.</abstract>
@@ -94,7 +95,7 @@
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Milliken, Helen W. (Helen Wallbank)</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34800">Milliken, Helen W. (Helen Wallbank)</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5076">Political elections--1988.</subject>
       </controlaccess>
       <controlaccess>

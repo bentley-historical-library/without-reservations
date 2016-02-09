@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Lindeman, Joyce.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/29547">Lindeman, Joyce.</persname>
       </origination>
       <unittitle encodinganalog="245">Joyce Lindeman papers <unitdate type="inclusive" encodinganalog="245$f" normal="1950/1997">1950-1997</unitdate>, <unitdate type="bulk" encodinganalog="245$f" normal="1955/1986">1955-1986</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">9834 Aa 2</unitid>
@@ -96,20 +97,20 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Lindeman, Joyce.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29547">Lindeman, Joyce.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8850">Synchronized swimming.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5990">Athletics--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Women's Athletics.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Michifish.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20513">University of Michigan. Women's Athletics.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20296">Michifish.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Lindeman, Joyce.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29547">Lindeman, Joyce.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8850">Synchronized swimming.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5990">Athletics--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Women's Athletics.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Michifish.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20513">University of Michigan. Women's Athletics.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20296">Michifish.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

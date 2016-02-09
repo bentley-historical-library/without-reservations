@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">St. Andrew's Episcopal Church (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/21165">St. Andrew's Episcopal Church (Ann Arbor, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">St. Andrew's Episcopal Church (Ann Arbor, Mich.) records <unitdate type="inclusive" encodinganalog="245$f" normal="1834/1998">1834-1998</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">86890 Ba 2; BA Outsize</unitid>
@@ -92,8 +93,8 @@
       <controlaccess>
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/882">Ann Arbor (Mich.)--Church history.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Episcopal Church--Michigan--Ann Arbor.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. Andrew's Episcopal Church (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18160">Episcopal Church--Michigan--Ann Arbor.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21165">St. Andrew's Episcopal Church (Ann Arbor, Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7777">Registers of births, etc.--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
@@ -103,14 +104,14 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3899">Churches.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3900">Clergy.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10223">Easter.</subject>
-        <persname source="lcnaf" encodinganalog="600">Gillespie, George De Normandie, 1819-1909.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33152">Gillespie, George De Normandie, 1819-1909.</persname>
         <subject source="local" encodinganalog="690" ref="/subjects/5632">Interiors--Churches.</subject>
-        <persname source="lcnaf" encodinganalog="600">Lewis, Henry, 1893-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31468">Lewis, Henry, 1893-</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3564">Music--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Northside Presbyterian Church (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19471">Northside Presbyterian Church (Ann Arbor, Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3842">Religion.</subject>
-        <corpname source="lcnaf" encodinganalog="610">St. Aidan's Episcopal Church (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Religion.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18640">St. Aidan's Episcopal Church (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Religion.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3636">Weddings.</subject>
       </controlaccess>
       <controlaccess>

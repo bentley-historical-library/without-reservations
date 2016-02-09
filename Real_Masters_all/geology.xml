@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Dept. of Geological Sciences.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/21610">University of Michigan. Dept. of Geological Sciences.</corpname>
       </origination>
       <unittitle encodinganalog="245">Dept. of Geological Sciences (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1913/1987">1913-1987</unitdate></unittitle>
       <abstract>The Department of Geological Sciences provides both undergraduate and graduate students with field and lab experience. Begun in the 1830s, the separate geology and mineralogy programs merged in 1961. In 1979 the name was changed to Geological Sciences. Records of the department include faculty and staff meeting minutes, 1913-1987; correspondence, 1960-1972; and records pertaining to charges of research data fabrication against a former student.</abstract>
@@ -171,7 +172,7 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7957">Geology.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Geological Sciences.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21610">University of Michigan. Dept. of Geological Sciences.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7958">Geology--Study and teaching (Higher)--Michigan--Ann Arbor.</subject>
       </controlaccess>
     </controlaccess>

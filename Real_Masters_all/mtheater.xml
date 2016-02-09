@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Michigan Theater Foundation.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/20033">Michigan Theater Foundation.</corpname>
       </origination>
       <unittitle encodinganalog="245">Michigan Theater Foundation records <unitdate type="inclusive" encodinganalog="245$f" normal="1981/2002">1981-2002</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1984/1998">1984-1998</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2011096 Aa 2</unitid>
@@ -89,8 +90,8 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Theater (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Theater Foundation.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18073">Michigan Theater (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20033">Michigan Theater Foundation.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9480">Fund raising--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9481">Historic buildings--Conservation and restoration--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9482">Motion picture theaters--Michigan--Ann Arbor.</subject>
@@ -99,7 +100,7 @@
       </controlaccess>
       <controlaccess>
         <head>Subjects: Visual Materials</head>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Theater (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18073">Michigan Theater (Ann Arbor, Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4940">Motion pictures.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4941">Motion picture theaters--Michigan--Ann Arbor.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4942">Organs--Michigan--Ann Arbor.</subject>
@@ -107,7 +108,7 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors</head>
-        <persname source="lcnaf" encodinganalog="700">Collins, Russell B.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30956">Collins, Russell B.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

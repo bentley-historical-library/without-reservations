@@ -36,7 +36,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -47,7 +48,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n2010020870">Prison Creative Arts Project.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n2010020870" ref="/agents/corporate_entities/18435">Prison Creative Arts Project.</corpname>
       </origination>
       <unittitle encodinganalog="245">Prison Creative Arts Project collection <unitdate type="inclusive" encodinganalog="245$f" normal="1992/2013">1992-2013</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2010177 Aa 2</unitid>
@@ -94,22 +95,22 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Alexander, William, 1938-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31679">Alexander, William, 1938-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9845">Arts in prison--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9846">Community arts projects--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9847">High school students' writings--Michigan--Detroit.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9848">Juvenile delinquents--Rehabilitation--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9849">Prisoners--Education--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9850">Prisoners as artists--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2010020870">Prison Creative Arts Project.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2010020870" ref="/agents/corporate_entities/18435">Prison Creative Arts Project.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600">Alexander, William, 1938-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31679">Alexander, William, 1938-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9851">Art exhibitions--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9845">Arts in prison--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9846">Community arts projects--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2010020870">Prison Creative Arts Project.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2010020870" ref="/agents/corporate_entities/18435">Prison Creative Arts Project.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9849">Prisoners--Education--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9850">Prisoners as artists--Michigan.</subject>
       </controlaccess>
@@ -1269,7 +1270,10 @@
               </daodesc>
             </dao>
           </did>
-        <odd><p>(Junkie, a play by Martha Boesing, performed by The Sisters Within Theater Troupe at Florence Crane Correctional Facility in Coldwater, Michigan on November 21, 1992.)</p></odd></c02>
+          <odd>
+            <p>(Junkie, a play by Martha Boesing, performed by The Sisters Within Theater Troupe at Florence Crane Correctional Facility in Coldwater, Michigan on November 21, 1992.)</p>
+          </odd>
+        </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [1705845427764749]">3</container>

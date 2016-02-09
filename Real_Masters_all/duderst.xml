@@ -63,7 +63,8 @@
         <item>Original encoding from Microsoft Word 6.0 and Microsoft Access Files.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -74,7 +75,7 @@
   <archdesc level="collection" type="inventory" audience="external" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n81055160">Duderstadt, James J., 1942-</persname>
+        <persname encodinganalog="100" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n81055160" ref="/agents/people/29212">Duderstadt, James J., 1942-</persname>
       </origination>
       <unittitle encodinganalog="245">James J. Duderstadt Papers <unitdate encodinganalog="245$f" type="inclusive" normal="1963/1997">1963-1997</unitdate>, <unitdate encodinganalog="245 f" type="bulk" normal="1970/1996">1970-1996</unitdate></unittitle>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">9811 Aa 2</unitid>
@@ -185,26 +186,26 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81055160">Duderstadt, James J., 1942-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81055160" ref="/agents/people/29212">Duderstadt, James J., 1942-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7347">Education, Higher--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7348">Education, Higher--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr99008455">Media Union (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr99008455" ref="/agents/corporate_entities/18226">Media Union (University of Michigan)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7349">Minorities--Education, Higher--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7350">Minorities--Michigan--Ann Arbor--Education.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7351">Minorities--Michigan--Ann Arbor--Employment.</subject>
         <subject encodinganalog="650" source="lcsh" ref="/subjects/6059">Universities and colleges--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998">University of Michigan. Board of Regents.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. President.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Administration.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Buildings.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Finance.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--History.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Planning.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Provost and Vice-President.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Research.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Sports.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998" ref="/agents/corporate_entities/18212">University of Michigan. Board of Regents.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19760">University of Michigan. President.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Administration.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Buildings.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Finance.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--History.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Planning.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Provost and Vice-President.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Research.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Sports.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Students.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5764">Women--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5862">Women college students--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5748">Women college teachers--Michigan--Ann Arbor.</subject>
@@ -6313,10 +6314,9 @@
               <archref>Silberman, Eve. The U-M's Fast-moving New VP, Ann Arbor Observer [Michigan: Ann Arbor] October, 1986.</archref>
             </item>
           </list>
-        </p>
-      </bibliography>
+        </p></bibliography>
       <relatedmaterial>
-        <head>Related Material</head>
+          <head>Related Material</head>
         <list type="simple">
           <head>Bentley Library Record Groups:</head>
           <item>University of Michigan. College of Engineering.</item>

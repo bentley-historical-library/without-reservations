@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Goodrich, Fred Stanley, 1836-1919.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/31179">Goodrich, Fred Stanley, 1836-1919.</persname>
       </origination>
       <unittitle encodinganalog="245">Fred Stanley Goodrich papers <unitdate type="inclusive" encodinganalog="245$f" normal="1863/1918">1863-1918</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">85170 Aa 2; UAm</unitid>
@@ -78,8 +79,8 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6033">Cookery.</subject>
-        <famname source="lcnaf" encodinganalog="600">Goodrich family.</famname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2007012393">United States. Army. New York Infantry Regiment, 115th (1862-1865)</corpname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1647">Goodrich family.</famname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2007012393" ref="/agents/corporate_entities/18617">United States. Army. New York Infantry Regiment, 115th (1862-1865)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/909">United States--History--Civil War, 1861-1865.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8032">Morris Island, Battle of, S.C., 1863 (July 10-September 7)</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1920">Fort Wagner (S.C.)</geogname>
@@ -88,12 +89,12 @@
         <head>Subjects - Visual Materials:</head>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1033">Alpena (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1596">Florida.</geogname>
-        <famname source="lcnaf" encodinganalog="600">Goodrich family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1647">Goodrich family.</famname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1921">Oklahoma.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50034600">Higginson, Thomas Wentworth, 1823-1911.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50034600" ref="/agents/people/32558">Higginson, Thomas Wentworth, 1823-1911.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

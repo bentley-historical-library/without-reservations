@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Hultquist, Donald E.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/31194">Hultquist, Donald E.</persname>
       </origination>
       <unittitle encodinganalog="245">Donald E. Hultquist Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1962/1999">1962-1999</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1979/1987">1979-1987</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">0330 Aa 2</unitid>
@@ -76,13 +77,13 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Hultquist, Donald E.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Citizen's Advisory Committee on Racial Balance and Educational Opportunities in Ann Arbor Schools.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31194">Hultquist, Donald E.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18304">Citizen's Advisory Committee on Racial Balance and Educational Opportunities in Ann Arbor Schools.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8371">Military research--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5722">School integration--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5723">Schools--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Research.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Research.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Federbush, Marcia.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28538">Federbush, Marcia.</persname>
       </origination>
       <unittitle encodinganalog="245">Marcia Federbush papers <unitdate type="inclusive" encodinganalog="245$f" normal="1967/2005">1967-2005</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1970/1990">1970-1990</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2013120 Aa 2</unitid>
@@ -79,13 +80,13 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Federbush, Marcia.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28538">Federbush, Marcia.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7752">Sex discrimination in education.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7753">Sex discrimination in employment.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7754">Sex discrimination in sports.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7755">Physical education for women.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5999">Sports for women--Michigan--Ann Arbor.</subject>
-        <corpname>University of Michigan--Sports--History.</corpname>
+        <corpname ref="/agents/corporate_entities/18699">University of Michigan--Sports--History.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

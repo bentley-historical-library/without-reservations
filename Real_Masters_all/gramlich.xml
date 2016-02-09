@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n79056623">Gramlich, Edward M.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n79056623" ref="/agents/people/33100">Gramlich, Edward M.</persname>
       </origination>
       <unittitle encodinganalog="245">Edward M. Gramlich papers <unitdate type="inclusive" encodinganalog="245$f" normal="1969/2007">1969-2007</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2008159 Aa2</unitid>
@@ -86,9 +87,9 @@
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5750">Economics.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8055">Fiscal policy--United States.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79056623">Gramlich, Edward M.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79056623" ref="/agents/people/33100">Gramlich, Edward M.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8056">Social security--United States--Finance.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
         <genreform source="aat" encodinganalog="655" ref="/subjects/3156">DVDs.</genreform>
         <genreform source="aat" encodinganalog="655" ref="/subjects/3137">Photographs.</genreform>
         <genreform source="aat" encodinganalog="655" ref="/subjects/3136">Videotapes.</genreform>

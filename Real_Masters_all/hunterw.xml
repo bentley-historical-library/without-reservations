@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n79026780">Hunter, Woodrow Wilson, 1913-</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n79026780" ref="/agents/people/27696">Hunter, Woodrow Wilson, 1913-</persname>
       </origination>
       <unittitle encodinganalog="245">Woodrow W. Hunter Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1947/1979">1947-1979</unitdate></unittitle>
       <abstract>Professor of education, and research associate and co-director of the Institute of Gerontology of the University of Michigan. Correspondence, subject files, photographs, audio-tapes, etc., relating to his professional activities, notably his interest in gerontology and pre-retirement training.</abstract>
@@ -84,10 +85,10 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6582">Aging.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7285">Aged.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6583">Gerontology.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79026780">Hunter, Woodrow Wilson, 1913-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79026780" ref="/agents/people/27696">Hunter, Woodrow Wilson, 1913-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6862">Retirement.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79043490">University of Michigan. Institute of Gerontology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79043490" ref="/agents/corporate_entities/17505">University of Michigan. Institute of Gerontology.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
@@ -98,7 +99,7 @@
       </controlaccess>
       <controlaccess>
         <head>Subjects - Sound Recordings</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79026780">Hunter, Woodrow Wilson, 1913-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79026780" ref="/agents/people/27696">Hunter, Woodrow Wilson, 1913-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6582">Aging.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6583">Gerontology.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7570">Old age.</subject>

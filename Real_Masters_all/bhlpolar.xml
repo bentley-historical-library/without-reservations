@@ -36,7 +36,8 @@
         <item>Original encoding.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -47,7 +48,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Bentley Historical Library. Polar Bear Project.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/18548">Bentley Historical Library. Polar Bear Project.</corpname>
       </origination>
       <unittitle encodinganalog="245">Bentley Historical Library Polar Bear Project collection <unitdate type="inclusive" encodinganalog="245$f" normal="1918/2008">1918-2008</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2008010 Aa 2</unitid>

@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2010 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Leslie, Dale R., collector</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/31965">Leslie, Dale R., collector</persname>
       </origination>
       <unittitle encodinganalog="245">Dale R. Leslie collection <unitdate type="inclusive" encodinganalog="245$f" normal="1941/2013">1941-2013</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="2008/2013">2008-2013</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">9577 Aa 2 UAm</unitid>
@@ -92,14 +93,14 @@
       <controlaccess>
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/850">Ann Arbor (Mich.)--History.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor High School (Mich.)--Football.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor High School (Mich.). Class of 1966.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17826">Ann Arbor High School (Mich.)--Football.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19015">Ann Arbor High School (Mich.). Class of 1966.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8796">Autism--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Big Ten Conference (U.S.)--Songs and music.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20677">Big Ten Conference (U.S.)--Songs and music.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2205">Dixboro (Mich.)--Church history.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2206">Dixboro (Mich.)--History.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Dixboro United Methodist Church (Dixboro, Mich.)--History.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Leslie, Dale R.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22335">Dixboro United Methodist Church (Dixboro, Mich.)--History.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30477">Leslie, Dale R.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7120">Radio broadcasting--Michigan--Detroit.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2207">Superior (Washtenaw County, Mich.: Township)--History.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1000">Ypsilanti (Mich.)--History.</geogname>
@@ -108,13 +109,13 @@
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4640">Air shows--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor High School (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17826">Ann Arbor High School (Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4171">Students--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Sound Recordings:</head>
-        <corpname source="lcnaf" encodinganalog="610">Dixboro United Methodist Church (Dixboro, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no91003491">Big Ten Conference (U.S.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22335">Dixboro United Methodist Church (Dixboro, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no91003491" ref="/agents/corporate_entities/20677">Big Ten Conference (U.S.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
@@ -161,7 +162,10 @@
                   </daodesc>
                 </dao>
               </did>
-            <odd><p>(This video features highlights from the 1962 Ann Arbor High School football season. The team went undefeated and won the Class A State Championships. The video is narrated by Jay Stielstra who was the head coach of the 1962 team.)</p></odd></c04>
+              <odd>
+                <p>(This video features highlights from the 1962 Ann Arbor High School football season. The team went undefeated and won the Class A State Championships. The video is narrated by Jay Stielstra who was the head coach of the 1962 team.)</p>
+              </odd>
+            </c04>
           </c03>
           <c03 level="file">
             <did>
@@ -176,7 +180,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Fight songs from Big Ten schools, including the Ohio State Merry-Go-'round Song)</p></odd></c03>
+            <odd>
+              <p>(Fight songs from Big Ten schools, including the Ohio State Merry-Go-'round Song)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
@@ -190,7 +197,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(In the early 1950s a new high school was built in Ann Arbor high school on Main Street and West Stadium Boulevard. Mahlon Buell, a physics teacher in the high school (1922-58) filmed the evolution of the project. Buell, along with Gene D. Maybee (Tappan Junior High School principal, 1963-70) and Gail Beaver (administrative assistant) narrate the footage.)</p></odd></c03>
+            <odd>
+              <p>(In the early 1950s a new high school was built in Ann Arbor high school on Main Street and West Stadium Boulevard. Mahlon Buell, a physics teacher in the high school (1922-58) filmed the evolution of the project. Buell, along with Gene D. Maybee (Tappan Junior High School principal, 1963-70) and Gail Beaver (administrative assistant) narrate the footage.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
@@ -204,7 +214,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(This video is of the memorial service for Ann Arbor resident Don Lund. The service took place in 2013 and eulogies were provided by Bob Foreman and Ed Hood. Don Lund played football, baseball and basketball at the University of Michigan in the 1940s.  Lund went on to play baseball professionally for seven years. Following his career in the MLB, Lund coached U-M baseball and worked as an administrator for the Detroit Tigers and the U-M athletic office.)</p></odd></c03>
+            <odd>
+              <p>(This video is of the memorial service for Ann Arbor resident Don Lund. The service took place in 2013 and eulogies were provided by Bob Foreman and Ed Hood. Don Lund played football, baseball and basketball at the University of Michigan in the 1940s.  Lund went on to play baseball professionally for seven years. Following his career in the MLB, Lund coached U-M baseball and worked as an administrator for the Detroit Tigers and the U-M athletic office.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
@@ -218,7 +231,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(This video is a tribute to U.S. military veterans, past and present, who were and are members of the Ann Arbor First Presbyterian Church. The video was created by Gary Stahl, a parishioner at the church.)</p></odd></c03>
+            <odd>
+              <p>(This video is a tribute to U.S. military veterans, past and present, who were and are members of the Ann Arbor First Presbyterian Church. The video was created by Gary Stahl, a parishioner at the church.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
@@ -232,7 +248,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Looking back over 65 years, the management and staff of the University of Michigan owned-radio station, WUOM, informally paid tribute to a pair of their early renown broadcasters at a reception in the Alumni Center during the Ann Arbor Summer Festival in 2013. The broadcasters recognized were Hazen Schumacher and Dr. William (Bill) Stegath.)</p></odd></c03>
+            <odd>
+              <p>(Looking back over 65 years, the management and staff of the University of Michigan owned-radio station, WUOM, informally paid tribute to a pair of their early renown broadcasters at a reception in the Alumni Center during the Ann Arbor Summer Festival in 2013. The broadcasters recognized were Hazen Schumacher and Dr. William (Bill) Stegath.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <unittitle>Kiwanis Club of Ann Arbor Presentations</unittitle>
@@ -250,7 +269,10 @@
                   </daodesc>
                 </dao>
               </did>
-            <odd><p>(The Ann Arbor Kiwanis Club hosted a Super Divisional Inter-club meeting on September 21, 2011 that featured speaker Art Holst. Holst is well know for his motivation and insightful stories of action on and off the field while officiating in the NFL.)</p></odd></c04>
+              <odd>
+                <p>(The Ann Arbor Kiwanis Club hosted a Super Divisional Inter-club meeting on September 21, 2011 that featured speaker Art Holst. Holst is well know for his motivation and insightful stories of action on and off the field while officiating in the NFL.)</p>
+              </odd>
+            </c04>
             <c04 level="file">
               <did>
                 <physloc>Online</physloc>
@@ -264,7 +286,10 @@
                   </daodesc>
                 </dao>
               </did>
-            <odd><p>(Neal Boudette, Wall Street Journal Detroit Bureau Chief and Ann Arbor resident, is the featured speaker for the Kiwanis Club of Ann Arbor Morning Edition meeting on January 18, 2012. Boudette answers questions and discusses his views about the future of Detroit and the state of the auto industry in Detroit.)</p></odd></c04>
+              <odd>
+                <p>(Neal Boudette, Wall Street Journal Detroit Bureau Chief and Ann Arbor resident, is the featured speaker for the Kiwanis Club of Ann Arbor Morning Edition meeting on January 18, 2012. Boudette answers questions and discusses his views about the future of Detroit and the state of the auto industry in Detroit.)</p>
+              </odd>
+            </c04>
             <c04 level="file">
               <did>
                 <physloc>Online</physloc>
@@ -278,7 +303,10 @@
                   </daodesc>
                 </dao>
               </did>
-            <odd><p>(The murders of seven young women in the 1960s shocked the Ann Arbor and Ypsilanti area. At the Kiwanis Club of Ann Arbor Morning Edition meeting, June 29, 2011, the chief law enforcement officer, former Washtenaw County Sherrif  Douglas J. Harvey reflects on the investigation leading to the arrest of John Norman Collings. Bill Treml, former Ann Arbor News crime beat reporter, also contributes his recollections.)</p></odd></c04>
+              <odd>
+                <p>(The murders of seven young women in the 1960s shocked the Ann Arbor and Ypsilanti area. At the Kiwanis Club of Ann Arbor Morning Edition meeting, June 29, 2011, the chief law enforcement officer, former Washtenaw County Sherrif  Douglas J. Harvey reflects on the investigation leading to the arrest of John Norman Collings. Bill Treml, former Ann Arbor News crime beat reporter, also contributes his recollections.)</p>
+              </odd>
+            </c04>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -298,7 +326,10 @@
                 </daodesc>
               </dao>
             </did>
-            <odd><p>(WWWJ's broadcast celebrating ten decades of broadcasting in Detroit)</p></odd><accessrestrict>
+            <odd>
+              <p>(WWWJ's broadcast celebrating ten decades of broadcasting in Detroit)</p>
+            </odd>
+            <accessrestrict>
               <p>[Download access restricted to BHL Reading Room]</p>
             </accessrestrict>
           </c03>
@@ -330,7 +361,10 @@
                   </daodesc>
                 </dao>
               </did>
-            <odd><p>(The Dixboro United Methodist Church is the oldest house of  worship utilized weekly in Michigan. The video features photographs and historical footage of things related to the church and is narrated by church member, Richard Leslie.)</p></odd></c04>
+              <odd>
+                <p>(The Dixboro United Methodist Church is the oldest house of  worship utilized weekly in Michigan. The video features photographs and historical footage of things related to the church and is narrated by church member, Richard Leslie.)</p>
+              </odd>
+            </c04>
           </c03>
           <c03 level="file">
             <did>
@@ -345,7 +379,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Dixboro Church Historian, the late Ivan Parker and his sister, the late Leona Parker Bunnell, talk about the history of the Dixboro school. Parker and Bunnell were both students and later teachers at the school.)</p></odd></c03>
+            <odd>
+              <p>(Dixboro Church Historian, the late Ivan Parker and his sister, the late Leona Parker Bunnell, talk about the history of the Dixboro school. Parker and Bunnell were both students and later teachers at the school.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
@@ -359,7 +396,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(As the laity Sunday speaker in October 1982, Harvey Sanderson discusses some of the "risks" the Dixboro United Methodist church has taken such as building an education wing, a fellowship hall, and acquiring the Village Green. The audio of his speach is set to a video featuring historical photographs of the church and of Sanderson.)</p></odd></c03>
+            <odd>
+              <p>(As the laity Sunday speaker in October 1982, Harvey Sanderson discusses some of the "risks" the Dixboro United Methodist church has taken such as building an education wing, a fellowship hall, and acquiring the Village Green. The audio of his speach is set to a video featuring historical photographs of the church and of Sanderson.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
@@ -373,7 +413,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(This 1941 silent movie was written, cast, filmed, produced and directed by Melvin Schumaker of Superior Township, Michigan. The cast was composed of individuals from the Frains Lake Players group. Parts of the film takes place in Ypsilanti, Michigan. Dale Leslie has added narration to the film that provides context about the production and individual actors. Leslie's father, Dick Leslie, was an actor in the film. The actors were as follows: Helen Litke Hermanns (Genevieve), Gus Hansen (John Clark), Dick Leslie (Georg  Books), Grace Conklin Patrick (Mother), Chester Martin (Father), and Joanne Galpin (daughter).)</p></odd></c03>
+            <odd>
+              <p>(This 1941 silent movie was written, cast, filmed, produced and directed by Melvin Schumaker of Superior Township, Michigan. The cast was composed of individuals from the Frains Lake Players group. Parts of the film takes place in Ypsilanti, Michigan. Dale Leslie has added narration to the film that provides context about the production and individual actors. Leslie's father, Dick Leslie, was an actor in the film. The actors were as follows: Helen Litke Hermanns (Genevieve), Gus Hansen (John Clark), Dick Leslie (Georg  Books), Grace Conklin Patrick (Mother), Chester Martin (Father), and Joanne Galpin (daughter).)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
@@ -387,7 +430,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Dale Leslie leads a tour of Dixboro and discusses the history of the hamlet with Carol Freeman in the summer of 1989. Freeman authored a book, "Of Dixboro: Lest We Forget." Part of the video features the Dixboro United Methodist Church which was built in 1858 and is the oldest house of worship utilized weekly in the State of Michigan. The video was produced and directed by Art Vuolo, Jr.)</p></odd></c03>
+            <odd>
+              <p>(Dale Leslie leads a tour of Dixboro and discusses the history of the hamlet with Carol Freeman in the summer of 1989. Freeman authored a book, "Of Dixboro: Lest We Forget." Part of the video features the Dixboro United Methodist Church which was built in 1858 and is the oldest house of worship utilized weekly in the State of Michigan. The video was produced and directed by Art Vuolo, Jr.)</p>
+            </odd>
+          </c03>
         </c02>
       </c01>
       <c01 level="series">
@@ -410,7 +456,10 @@
               </daodesc>
             </dao>
           </did>
-        <odd><p>(This video is the story of Austin Smith, an 8 year old photographer from Brighton, Michigan, who is also autistic.)</p></odd></c02>
+          <odd>
+            <p>(This video is the story of Austin Smith, an 8 year old photographer from Brighton, Michigan, who is also autistic.)</p>
+          </odd>
+        </c02>
         <c02 level="file">
           <did>
             <physloc>Online</physloc>
@@ -424,7 +473,10 @@
               </daodesc>
             </dao>
           </did>
-        <odd><p>(This video, presented by the Michigan Political History Society, features an interview with Peter B. Fletcher (b. 1932 - d. 2012). Fletcher owned The Credit Bureau of Ypsilanti and was active in Michigan politics. The interview took place on October 15, 2008. The interviewer is Bill Ballenger, a former state legislator and owner-publisher of "Inside Michigan Politics.")</p></odd></c02>
+          <odd>
+            <p>(This video, presented by the Michigan Political History Society, features an interview with Peter B. Fletcher (b. 1932 - d. 2012). Fletcher owned The Credit Bureau of Ypsilanti and was active in Michigan politics. The interview took place on October 15, 2008. The interviewer is Bill Ballenger, a former state legislator and owner-publisher of "Inside Michigan Politics.")</p>
+          </odd>
+        </c02>
         <c02 level="file">
           <did>
             <physloc>Online</physloc>
@@ -438,7 +490,10 @@
               </daodesc>
             </dao>
           </did>
-        <odd><p>(In this interview, Dale Leslie speaks with the Ann Arbor Air Force air show members. Interviewees are Bob Barden, Sr., wingwalker Eddie "The Grip" Green, Bob Lyjak, Danny Clisham and Jim Mynning. In a panel discussion, the men discuss past adventures and performances. The opening 3 minutes feature historical footage of the Ann Arbor Air Force in action. Originally broadcast on Community Television Network.)</p></odd></c02>
+          <odd>
+            <p>(In this interview, Dale Leslie speaks with the Ann Arbor Air Force air show members. Interviewees are Bob Barden, Sr., wingwalker Eddie "The Grip" Green, Bob Lyjak, Danny Clisham and Jim Mynning. In a panel discussion, the men discuss past adventures and performances. The opening 3 minutes feature historical footage of the Ann Arbor Air Force in action. Originally broadcast on Community Television Network.)</p>
+          </odd>
+        </c02>
         <c02 level="file">
           <did>
             <physloc>Online</physloc>
@@ -452,7 +507,10 @@
               </daodesc>
             </dao>
           </did>
-        <odd><p>(In this interview, Dale Leslie speaks with Al Renfrew. Renfrew was a player on the 1948 NCAA Championship Ice Hockey Team, head coach of the 1964 NCAA Championship Ice Hockey Team, and ticket manager for the athletic department. Renfrew, 88 years old at the time of the interview, reflects on his time at the University of Michigan.)</p></odd></c02>
+          <odd>
+            <p>(In this interview, Dale Leslie speaks with Al Renfrew. Renfrew was a player on the 1948 NCAA Championship Ice Hockey Team, head coach of the 1964 NCAA Championship Ice Hockey Team, and ticket manager for the athletic department. Renfrew, 88 years old at the time of the interview, reflects on his time at the University of Michigan.)</p>
+          </odd>
+        </c02>
         <c02 level="file">
           <did>
             <physloc>Online</physloc>
@@ -466,7 +524,10 @@
               </daodesc>
             </dao>
           </did>
-        <odd><p>(This interview with Don Staebler and farm tour was conducted on November 30, 2011. The Staebler family began farming in Superior Township in 1912. Staebler, 100 years old at the time of the interview, shares stories about what is was like growing up and making a living as a farmer in Michigan. The Staebler farm and land are now preserved as a Washtenaw County park.)</p></odd></c02>
+          <odd>
+            <p>(This interview with Don Staebler and farm tour was conducted on November 30, 2011. The Staebler family began farming in Superior Township in 1912. Staebler, 100 years old at the time of the interview, shares stories about what is was like growing up and making a living as a farmer in Michigan. The Staebler farm and land are now preserved as a Washtenaw County park.)</p>
+          </odd>
+        </c02>
         <c02 level="file">
           <did>
             <physloc>Online</physloc>
@@ -480,7 +541,10 @@
               </daodesc>
             </dao>
           </did>
-        <odd><p>(In this interview Dr. William Stegath shares his experience as one of only three play-by-play announcers of University of Michigan football on WUOM radio in Ann Arbor. Dr. Stegath was also a professor of Radio and TV Broadcasting at Michigan, a former assistant executive director of the Alumni Association, and the first camp director at Camp Michigania, an alumni camp in North Michigan. Dr. Stegath is originally from Escanaba, MI.)</p></odd></c02>
+          <odd>
+            <p>(In this interview Dr. William Stegath shares his experience as one of only three play-by-play announcers of University of Michigan football on WUOM radio in Ann Arbor. Dr. Stegath was also a professor of Radio and TV Broadcasting at Michigan, a former assistant executive director of the Alumni Association, and the first camp director at Camp Michigania, an alumni camp in North Michigan. Dr. Stegath is originally from Escanaba, MI.)</p>
+          </odd>
+        </c02>
         <c02 level="file">
           <did>
             <physloc>Online</physloc>
@@ -494,7 +558,10 @@
               </daodesc>
             </dao>
           </did>
-        <odd><p>(This interview with Dr. Edgar E. Willis took place on the eve of his 100th birthday in July 2013. Willis was a distinguished professor of Radio and TV Broadcasting at Michigan. The interview focuses on his career and Willis also discusses three colleagues: Dr. Edward Stasheff, Dr. Henry R. Austin, and Dr. Frank Beaver.)</p></odd></c02>
+          <odd>
+            <p>(This interview with Dr. Edgar E. Willis took place on the eve of his 100th birthday in July 2013. Willis was a distinguished professor of Radio and TV Broadcasting at Michigan. The interview focuses on his career and Willis also discusses three colleagues: Dr. Edward Stasheff, Dr. Henry R. Austin, and Dr. Frank Beaver.)</p>
+          </odd>
+        </c02>
         <c02 level="file">
           <did>
             <physloc>Online</physloc>
@@ -508,7 +575,10 @@
               </daodesc>
             </dao>
           </did>
-        <odd><p>(Interview with Russ Woinowsk, World War II and Korean War veteran, for the Veterans History Project and Ypsilanti Rotary Club.)</p></odd></c02>
+          <odd>
+            <p>(Interview with Russ Woinowsk, World War II and Korean War veteran, for the Veterans History Project and Ypsilanti Rotary Club.)</p>
+          </odd>
+        </c02>
       </c01>
     </dsc>
   </archdesc>

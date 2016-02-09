@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2010 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n80034971">Hill, Helen, 1915-</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n80034971" ref="/agents/people/30960">Hill, Helen, 1915-</persname>
       </origination>
       <unittitle encodinganalog="245">Helen Hill Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1976/2012">1976-2012</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1987/1995">1987-1995</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2015030 Aa 2 Ac</unitid>
@@ -86,11 +87,11 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Alliance for the Mentally Ill of Washtenaw County.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80034971">Hill, Helen, 1915-</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21743">Alliance for the Mentally Ill of Washtenaw County.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80034971" ref="/agents/people/30960">Hill, Helen, 1915-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7362">Mentally ill--Care--Michigan--Washtenaw County.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2010188753">NAMI Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Trailblazers of Washtenaw County.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2010188753" ref="/agents/corporate_entities/19843">NAMI Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21467">Trailblazers of Washtenaw County.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -422,7 +423,7 @@
     <descgrp type="add">
       <relatedmaterial>
         <head>Related Material</head>
-        <p>The Bentley holds additional material related to NAMI including: <list type="simple"><item>Archival Material <sublist type="simple"><subitem><title render="italic" href="http://quod.lib.umich.edu/cgi/f/findaid/findaid-idx?c=bhlead;idno=umich-bhl-0224" actuate="onload" show="new">Kevin Duke papers</title> (another Trailblazers Founder,)</subitem><subitem><title render="italic" href="http://quod.lib.umich.edu/cgi/f/findaid/findaid-idx?c=bhlead;idno=umich-bhl-9813" show="new" actuate="onrequest">NAMI Michigan records</title></subitem><subitem><title href="http://mirlyn.lib.umich.edu/Record/005627955" show="new" actuate="onrequest">NAMI Eastside Support Group records</title> (catalog record)</subitem></sublist> </item><item>Printed periodicals and publications, cataloged separately <sublist type="simple"><subitem><title render="italic" href="http://mirlyn.lib.umich.edu/Record/003582774" show="new" actuate="onrequest">NAMI Michigan news : from around the state</title>,</subitem><subitem><title render="italic" href="http://mirlyn.lib.umich.edu/Record/012372881" show="new" actuate="onrequest">NAMI Metro : Oakland, Wayne and Macomb Counties</title>.</subitem><subitem><title render="italic" href="http://mirlyn.lib.umich.edu/Record/005277138" show="new" actuate="onrequest">History of NAMI Michigan</title>, by Hubert C. Huerbel</subitem></sublist> </item></list> </p>
+        <p>The Bentley holds additional material related to NAMI including: <list type="simple"><item>Archival Material <sublist type="simple"><subitem><title render="italic" href="http://quod.lib.umich.edu/cgi/f/findaid/findaid-idx?c=bhlead;idno=umich-bhl-0224" actuate="onload" show="new">Kevin Duke papers</title> (another Trailblazers Founder,)</subitem> <subitem><title render="italic" href="http://quod.lib.umich.edu/cgi/f/findaid/findaid-idx?c=bhlead;idno=umich-bhl-9813" show="new" actuate="onrequest">NAMI Michigan records</title></subitem> <subitem><title href="http://mirlyn.lib.umich.edu/Record/005627955" show="new" actuate="onrequest">NAMI Eastside Support Group records</title> (catalog record)</subitem></sublist> </item><item>Printed periodicals and publications, cataloged separately <sublist type="simple"><subitem><title render="italic" href="http://mirlyn.lib.umich.edu/Record/003582774" show="new" actuate="onrequest">NAMI Michigan news : from around the state</title>,</subitem> <subitem><title render="italic" href="http://mirlyn.lib.umich.edu/Record/012372881" show="new" actuate="onrequest">NAMI Metro : Oakland, Wayne and Macomb Counties</title>.</subitem> <subitem><title render="italic" href="http://mirlyn.lib.umich.edu/Record/005277138" show="new" actuate="onrequest">History of NAMI Michigan</title>, by Hubert C. Huerbel</subitem></sublist> </item></list> </p>
       </relatedmaterial>
     </descgrp>
   </archdesc>

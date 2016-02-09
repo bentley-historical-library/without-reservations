@@ -39,7 +39,8 @@
         <item>original encoding from word 6.0 file</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -50,7 +51,7 @@
   <archdesc level="collection" type="inventory" audience="external" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Hays-Hamilton, Barbara.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/29048">Hays-Hamilton, Barbara.</persname>
       </origination>
       <unittitle encodinganalog="245">Barbara Hays-Hamilton Papers <unitdate encodinganalog="245$f" type="inclusive" normal="1975/1986">1975-1986</unitdate></unittitle>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">9777 Aa 2</unitid>
@@ -94,16 +95,16 @@
       </p>
       <controlaccess>
         <head>Subject:</head>
-        <persname source="lcnaf" encodinganalog="600">Hays-Hamilton, Barbara.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29048">Hays-Hamilton, Barbara.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6248">Women's rights--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr91014364">Michigan Women's Assembly.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">National Organization for Women. Michigan Conference.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr91014364" ref="/agents/corporate_entities/21747">Michigan Women's Assembly.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21909">National Organization for Women. Michigan Conference.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5831">Equal Rights Amendments--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7432">Feminists--Michigan.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Hays-Hamilton, Barbara.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29048">Hays-Hamilton, Barbara.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

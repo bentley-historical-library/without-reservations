@@ -55,7 +55,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E. Incorporates 2000 accession, This version represents a complete replacement of earlier EAD version.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -66,7 +67,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="marc21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n85050309">Sinclair, John, 1941-</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n85050309" ref="/agents/people/35612">Sinclair, John, 1941-</persname>
       </origination>
       <unittitle encodinganalog="245">John and Leni Sinclair papers <unitdate type="inclusive" encodinganalog="245$f" normal="1957/2003">1957-2003</unitdate></unittitle>
       <physdesc altrender="part">
@@ -160,8 +161,8 @@
       </p>
       <controlaccess>
         <head>Subjects - Textual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85050309">Sinclair, John, 1941-</persname>
-        <corpname source="lcnaf" encodinganalog="610">Human Rights Party (Ann Arbor, Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85050309" ref="/agents/people/35612">Sinclair, John, 1941-</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19768">Human Rights Party (Ann Arbor, Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6994">Drug abuse.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6997">Rock music.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9603">Musicians--Michigan.</subject>
@@ -174,81 +175,81 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7857">Radicalism--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5780">Prisons--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9158">Marijuana.</subject>
-        <corpname source="lcnaf" encodinganalog="611">Ann Arbor Blues and Jazz Festival.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">First Zenta Church (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="611" ref="/agents/corporate_entities/21237">Ann Arbor Blues and Jazz Festival.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19547">First Zenta Church (Ann Arbor, Mich.)</corpname>
         <subject source="lcsh" encodinganalog="611" ref="/subjects/8529">Ann Arbor Sun.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Artists' Workshop (Detroit, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n93091114">MC5 (Musical group)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Committee for Prisoner's Rights.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Rainbow Energies, Inc.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Rainbow Multi-Media Corporation.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Rainbow Peoples Party (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Strata Corporation.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Trans-Love Energies Unlimited.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2006117616">UP (Musical group)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr95008874">White Panther Party.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83167386">Youth International Party.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Wayne State University. Artists Society.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Tribal Council.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Tribal Council (Detroit, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="611" authfilenumber="http://id.loc.gov/authorities/names/no2010194423">Ann Arbor Blues Festival.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18809">Artists' Workshop (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n93091114" ref="/agents/corporate_entities/23132">MC5 (Musical group)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/23001">Michigan Committee for Prisoner's Rights.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18860">Rainbow Energies, Inc.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18878">Rainbow Multi-Media Corporation.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19232">Rainbow Peoples Party (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19633">Strata Corporation.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22589">Trans-Love Energies Unlimited.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2006117616" ref="/agents/corporate_entities/19762">UP (Musical group)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr95008874" ref="/agents/corporate_entities/17918">White Panther Party.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83167386" ref="/agents/corporate_entities/19450">Youth International Party.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21745">Wayne State University. Artists Society.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22614">Ann Arbor Tribal Council.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19486">Tribal Council (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="611" authfilenumber="http://id.loc.gov/authorities/names/no2010194423" ref="/agents/corporate_entities/21035">Ann Arbor Blues Festival.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors - Textual Materials:</head>
-        <persname source="lcnaf" encodinganalog="700">Sinclair, Leni, 1940-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n94041915">Bursley, Gilbert E.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n90698127">Davis, Rennie.</persname>
-        <persname source="lcnaf" encodinganalog="700">Ginsberg, Allen, 1926-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2012013862">Grimshaw, Gary.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87870675">Hart, Philip A. (Philip Aloysius), 1912-1976.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80065585">Hoffman, Abbie.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79060983">Leary, Timothy, 1920-1996.</persname>
-        <persname source="lcnaf" encodinganalog="700">Perret, Christopher, 1935-1965.</persname>
-        <persname source="lcnaf" encodinganalog="700">Plamondon, Pun.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50022680">Rubin, Jerry.</persname>
-        <persname source="lcnaf" encodinganalog="700">Vaughn, Jackie.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31647">Sinclair, Leni, 1940-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n94041915" ref="/agents/people/28089">Bursley, Gilbert E.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n90698127" ref="/agents/people/35202">Davis, Rennie.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28809">Ginsberg, Allen, 1926-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2012013862" ref="/agents/people/32811">Grimshaw, Gary.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87870675" ref="/agents/people/31353">Hart, Philip A. (Philip Aloysius), 1912-1976.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80065585" ref="/agents/people/27713">Hoffman, Abbie.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79060983" ref="/agents/people/30277">Leary, Timothy, 1920-1996.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28440">Perret, Christopher, 1935-1965.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34731">Plamondon, Pun.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50022680" ref="/agents/people/32607">Rubin, Jerry.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33101">Vaughn, Jackie.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4993">Abandoned buildings.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4584">Activists.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5930">Afro-Americans--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="611">Ann Arbor Art Fairs (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="611" ref="/agents/corporate_entities/22139">Ann Arbor Art Fairs (Ann Arbor, Mich.)</corpname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/210">Ann Arbor (Mich.)--Business enterprises.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/973">Ann Arbor (Mich.)--Social life and customs.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/857">Ann Arbor (Mich.)--Politics and government.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Artists' Workshop (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18809">Artists' Workshop (Detroit, Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3598">Baseball.</subject>
-        <corpname source="lcnaf" encodinganalog="611">Ann Arbor Blues and Jazz Festival.</corpname>
+        <corpname source="lcnaf" encodinganalog="611" ref="/agents/corporate_entities/21237">Ann Arbor Blues and Jazz Festival.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4304">Blues music.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5163">Busing (School integration)</subject>
         <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3458">Cartoons.</genreform>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3705">Demonstrations.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1376">Detroit (Mich.)--Buildings, structures, etc.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2802">Detroit (Mich.)--Social life and customs.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50001642">Detroit Tigers (Baseball team)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50001642" ref="/agents/corporate_entities/21904">Detroit Tigers (Baseball team)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5174">Drug abuse.</subject>
-        <corpname source="lcnaf" encodinganalog="611">Hash Bash (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="611" ref="/agents/corporate_entities/20240">Hash Bash (Ann Arbor, Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4993">Abandoned buildings.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4584">Activists.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5930">Afro-Americans--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="611">Ann Arbor Art Fairs (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="611" ref="/agents/corporate_entities/22139">Ann Arbor Art Fairs (Ann Arbor, Mich.)</corpname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/210">Ann Arbor (Mich.)--Business enterprises.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/973">Ann Arbor (Mich.)--Social life and customs.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/857">Ann Arbor (Mich.)--Politics and government.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Artists' Workshop (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18809">Artists' Workshop (Detroit, Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3598">Baseball.</subject>
-        <corpname source="lcnaf" encodinganalog="611">Ann Arbor Blues and Jazz Festival.</corpname>
+        <corpname source="lcnaf" encodinganalog="611" ref="/agents/corporate_entities/21237">Ann Arbor Blues and Jazz Festival.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4304">Blues music.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5163">Busing (School integration)</subject>
         <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3458">Cartoons.</genreform>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3705">Demonstrations.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1376">Detroit (Mich.)--Buildings, structures, etc.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2802">Detroit (Mich.)--Social life and customs.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50001642">Detroit Tigers (Baseball team)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50001642" ref="/agents/corporate_entities/21904">Detroit Tigers (Baseball team)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5174">Drug abuse.</subject>
-        <corpname source="lcnaf" encodinganalog="611">Hash Bash (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Human Rights Party (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="611" ref="/agents/corporate_entities/20240">Hash Bash (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19768">Human Rights Party (Ann Arbor, Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4198">Jazz music.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10113">Manners and customs--1961-1970.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10114">Manners and customs--1971-1980.</subject>
@@ -266,68 +267,68 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85050309">Sinclair, John, 1941-</persname>
-        <persname source="lcnaf" encodinganalog="700">Sinclair, Leni, 1940-</persname>
-        <corpname source="lcnaf" encodinganalog="711" authfilenumber="http://id.loc.gov/authorities/names/no2010194423">Ann Arbor Blues Festival.</corpname>
-        <corpname source="lcnaf" encodinganalog="711">Ann Arbor Sun.</corpname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2001062192">Eckert, Bob.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2012013862">Grimshaw, Gary.</persname>
-        <persname source="lcnaf" encodinganalog="700">Johnson, David.</persname>
-        <persname source="lcnaf" encodinganalog="700">Marks, Michael.</persname>
-        <persname source="lcnaf" encodinganalog="700">Ross, Linda.</persname>
-        <persname source="lcnaf" encodinganalog="700">Sinclair, Leni, 1940-</persname>
-        <corpname source="lcnaf" encodinganalog="730">Sun (Detroit, Mich. : 1967)</corpname>
-        <persname source="lcnaf" encodinganalog="700">Unangst, Joel.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80003072">Weinberg, Barbara, 1950-</persname>
-        <persname source="lcnaf" encodinganalog="700">Wiatrak, Ken.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85050309" ref="/agents/people/35612">Sinclair, John, 1941-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31647">Sinclair, Leni, 1940-</persname>
+        <corpname source="lcnaf" encodinganalog="711" authfilenumber="http://id.loc.gov/authorities/names/no2010194423" ref="/agents/corporate_entities/21035">Ann Arbor Blues Festival.</corpname>
+        <corpname source="lcnaf" encodinganalog="711" ref="/agents/corporate_entities/21239">Ann Arbor Sun.</corpname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2001062192" ref="/agents/people/31025">Eckert, Bob.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2012013862" ref="/agents/people/32811">Grimshaw, Gary.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31900">Johnson, David.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30639">Marks, Michael.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34391">Ross, Linda.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31647">Sinclair, Leni, 1940-</persname>
+        <corpname source="lcnaf" encodinganalog="730" ref="/agents/corporate_entities/21518">Sun (Detroit, Mich. : 1967)</corpname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29725">Unangst, Joel.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80003072" ref="/agents/people/29458">Weinberg, Barbara, 1950-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27937">Wiatrak, Ken.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Sound Recordings:</head>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor (Mich.). Common Council.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17397">Ann Arbor (Mich.). Common Council.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/857">Ann Arbor (Mich.)--Politics and government.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2803">Ann Arbor (Mich.)--Social conditions.</geogname>
-        <corpname source="lcnaf" encodinganalog="611">Ann Arbor Blues and Jazz Festival.</corpname>
+        <corpname source="lcnaf" encodinganalog="611" ref="/agents/corporate_entities/21237">Ann Arbor Blues and Jazz Festival.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10115">Communal living--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10116">Disc jockeys.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10117">Hippies--Michigan--Ann Arbor--Social life and customs.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Human Rights Party (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19768">Human Rights Party (Ann Arbor, Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10118">Jazz musicians.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Lightnin (Rock music group)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n93091114">MC5 (Musical group)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19433">Lightnin (Rock music group)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n93091114" ref="/agents/corporate_entities/23132">MC5 (Musical group)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9158">Marijuana.</subject>
         <geogname source="local" encodinganalog="691" ref="/subjects/810">Michigan--Politics and government--1961-1970.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/801">Michigan--Politics and government--1971-1980.</geogname>
-        <persname source="lcnaf" encodinganalog="600">Plamondon, Pun--Trials, litigation, etc.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34731">Plamondon, Pun--Trials, litigation, etc.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5916">Poetry.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10119">Popular music radio stations.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5780">Prisons--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5826">Radicalism--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10120">Radicals--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8549">Radio broadcasting--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Rainbow Peoples Party (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19232">Rainbow Peoples Party (Ann Arbor, Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10121">Riots--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10122">Rock music--1961-1970.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10123">Rock musicians.</subject>
-        <persname source="lcnaf" encodinganalog="600">Sinclair, John, 1941--Trials, litigation, etc.</persname>
-        <persname source="lcnaf" encodinganalog="600">Sinclair, Leni, 1940-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29436">Sinclair, John, 1941--Trials, litigation, etc.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31647">Sinclair, Leni, 1940-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10124">Trials (Narcotic laws)--Michigan--Wayne County.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10125">Trials (Narcotic laws)--Michigan--Wexford County.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Tribal Council.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Political activity.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2006117616">UP (Musical group)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr95008874">White Panther Party.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22614">Ann Arbor Tribal Council.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Students--Political activity.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2006117616" ref="/agents/corporate_entities/19762">UP (Musical group)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr95008874" ref="/agents/corporate_entities/17918">White Panther Party.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6283">Demonstrations--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors: Sound Recordings:</head>
-        <corpname source="lcnaf" encodinganalog="711" authfilenumber="http://id.loc.gov/authorities/names/no2010194423">Ann Arbor Blues Festival.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">Lightnin (Rock music group)</corpname>
-        <persname source="lcnaf" encodinganalog="700">Plamondon, Genie.</persname>
-        <persname source="lcnaf" encodinganalog="700">Plamondon, Pun.</persname>
-        <corpname source="lcnaf" encodinganalog="710">Rainbow Multi-Media Corporation.</corpname>
-        <persname source="lcnaf" encodinganalog="700">Sinclair, Leni, 1940-</persname>
-        <corpname source="lcnaf" encodinganalog="710">Strata Corporation.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">Trans-Love Energies Unlimited.</corpname>
+        <corpname source="lcnaf" encodinganalog="711" authfilenumber="http://id.loc.gov/authorities/names/no2010194423" ref="/agents/corporate_entities/21035">Ann Arbor Blues Festival.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/19433">Lightnin (Rock music group)</corpname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33763">Plamondon, Genie.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34731">Plamondon, Pun.</persname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/18878">Rainbow Multi-Media Corporation.</corpname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31647">Sinclair, Leni, 1940-</persname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/19633">Strata Corporation.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/22589">Trans-Love Energies Unlimited.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

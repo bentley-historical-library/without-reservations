@@ -22,7 +22,8 @@
         <item>Original encoding from MARC record using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -33,7 +34,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Wells, William Palmer, 1831-1891.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/29222">Wells, William Palmer, 1831-1891.</persname>
       </origination>
       <unittitle encodinganalog="245">William Palmer Wells papers <unitdate type="inclusive" encodinganalog="245$f" normal="1879">1879</unitdate>, <unitdate type="inclusive" encodinganalog="245$f">undated</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">86234 Aa/2</unitid>
@@ -75,8 +76,8 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6503">Lawyers--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Law.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18757">University of Michigan. Dept. of Law.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">American Citizens for Justice.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/18905">American Citizens for Justice.</corpname>
       </origination>
       <unittitle encodinganalog="245">American Citizens for Justice Records <unitdate type="inclusive" encodinganalog="245$f" normal="1983/2004">1983-2004</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">05100 Bd 2</unitid>
@@ -77,15 +78,15 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">American Citizens for Justice.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18905">American Citizens for Justice.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5880">Asian Americans--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5881">Chinese Americans--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="600">Chin, Vincent.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35037">Chin, Vincent.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5882">Minorities--Crimes against--Michigan.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname source="lcnaf" encodinganalog="610">American Citizens for Justice.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18905">American Citizens for Justice.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5881">Chinese Americans--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5880">Asian Americans--Michigan.</subject>
       </controlaccess>

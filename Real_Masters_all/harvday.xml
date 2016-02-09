@@ -42,7 +42,8 @@
         <item>headings deleted and other changes made to conform to new style, GK</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -53,7 +54,7 @@
   <archdesc level="collection" type="inventory" audience="external" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Day, Harvey S.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33682">Day, Harvey S.</persname>
       </origination>
       <unittitle encodinganalog="245">Harvey S. Day Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1831/1935">1831-1935</unitdate></unittitle>
       <unitid label="Call No." encodinganalog="099" type="call number">851074 Aa 2</unitid>
@@ -98,8 +99,8 @@
       </controlaccess>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Day, Harvey S.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81142236">Holstein-Friesian Association of America.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33682">Day, Harvey S.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81142236" ref="/agents/corporate_entities/20925">Holstein-Friesian Association of America.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6675">Agriculture--Michigan--Washtenaw County.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6033">Cookery.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8154">Dairying--Michigan--Washtenaw County.</subject>
@@ -108,7 +109,7 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Day, Matthew.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28260">Day, Matthew.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="in-depth">

@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Taratsas, Euline McCorkle, 1936-2001.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32861">Taratsas, Euline McCorkle, 1936-2001.</persname>
       </origination>
       <unittitle encodinganalog="245">Euline McCorkle Taratsas Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1951/2001">1951-2001</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1972/1993">1972-1993</unitdate></unittitle>
       <abstract>A polio survivor, Taratsas worked on behalf of people with disabilities and contributed to many advocacy organizations, particularly the National Association for the Physically Handicapped, the Physically Impaired Association of Michigan, and the Ann Arbor Center for Independent Living. Biographical/personal materials includes interview, correspondence, and photographs; files relating to her organizational affiliations; subject files pertaining to her advocacy work; and collected scrapbooks of photographs and memorabilia of polio survivors at University Hospital of the University of Michigan, 1951-1964.</abstract>
@@ -92,13 +93,13 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Center for Independent Living.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">National Association of the Physically Handicapped.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Physically Impaired Association of Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19094">Ann Arbor Center for Independent Living.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21592">National Association of the Physically Handicapped.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18065">Physically Impaired Association of Michigan.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6184">People with disabilities--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10337">People with disabilities--Services for--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10338">Poliomyelitis--Patients.</subject>
-        <persname source="lcnaf" encodinganalog="600">Taratsas, Euline McCorkle, 1936-2001.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32861">Taratsas, Euline McCorkle, 1936-2001.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10339">Women with disabilities--Michigan.</subject>
       </controlaccess>
       <controlaccess>
@@ -106,10 +107,10 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10340">Breathing apparatus.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5267">Children--Health and welfare--Michigan.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5377">Medical equipment and supplies.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80010387">Milliken, William G., 1922-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80010387" ref="/agents/people/28573">Milliken, William G., 1922-</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5378">People with disabilities--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="600">Taratsas, Euline McCorkle, 1936-2001.</persname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. University Hospital.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32861">Taratsas, Euline McCorkle, 1936-2001.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20510">University of Michigan. University Hospital.</corpname>
       </controlaccess>
       <subject source="lctgm" encodinganalog="650" ref="/subjects/5379">Wheelchairs.</subject>
       <controlaccess>

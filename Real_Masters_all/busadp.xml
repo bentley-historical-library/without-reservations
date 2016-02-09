@@ -47,7 +47,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -58,7 +59,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. School of Business Administration.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/19814">University of Michigan. School of Business Administration.</corpname>
       </origination>
       <unittitle encodinganalog="245">Ross School of Business Administration (University of Michigan) Publications <unitdate type="inclusive" encodinganalog="245$f" normal="1916/2013">1916-2013</unitdate></unittitle>
       <abstract>Includes addresses, annual reports, bibliographies, brochures and pamphlets, bulletins and college catalogs, directories, manuals, newsletters, programs, proposals, reports, statistics, and yearbooks. Also contains publications from the Bureau of Business Research, Center for International Business Education, Division of Research, Executive Education Center, Program in International Business and the Public Utility Executive Program. Also includes conference publications from meetings held at the university and sponsored or co-sponsored by the School of Business Administration. There are also some publications describing various development campaigns and the Summer Session. Also includes the publication entitled "Dividend". Some publications (or their successors) may no longer be available in print. but are available the school's website.</abstract>
@@ -109,20 +110,20 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79073704">University of Michigan. Graduate School of Business Administration.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Ross School of Business.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Alumni and alumnae.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79073704" ref="/agents/corporate_entities/20964">University of Michigan. Graduate School of Business Administration.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20629">University of Michigan. Ross School of Business.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Alumni and alumnae.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Students--Social life and customs.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n79076044">University of Michigan. Bureau of Business Research.</corpname>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/no2010107047">University of Michigan. Center for International Business Education.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Ross School of Business. Division of Research.</corpname>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/nr96011046">University of Michigan. Executive Education Center.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Program in International Business.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Public Utility Executive Program.</corpname>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n79073704">University of Michigan. Graduate School of Business Administration.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n79076044" ref="/agents/corporate_entities/21299">University of Michigan. Bureau of Business Research.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/no2010107047" ref="/agents/corporate_entities/21427">University of Michigan. Center for International Business Education.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/23048">University of Michigan. Ross School of Business. Division of Research.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/nr96011046" ref="/agents/corporate_entities/19171">University of Michigan. Executive Education Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/20749">University of Michigan. Program in International Business.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/20041">University of Michigan. Public Utility Executive Program.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n79073704" ref="/agents/corporate_entities/20964">University of Michigan. Graduate School of Business Administration.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
@@ -578,7 +579,10 @@
                   </daodesc>
                 </dao>
               </did>
-            <odd><p>(2004 Bulletin for the University of Michigan School of Business Master of Business Administration [MBA] and Masters of Accounting [MAcc] programs.  Includes program requirements, degree progress regulations, grade policies, guidelines for academic counseling and course registration, and information on academic honors and graduation. Also details residency requirements, services available to students, and student rights and responsibilities.  Does not cover academic rules and regulations for the global and executive MBA programs.  This document is accurate as of October 2004.)</p></odd></c04>
+              <odd>
+                <p>(2004 Bulletin for the University of Michigan School of Business Master of Business Administration [MBA] and Masters of Accounting [MAcc] programs.  Includes program requirements, degree progress regulations, grade policies, guidelines for academic counseling and course registration, and information on academic honors and graduation. Also details residency requirements, services available to students, and student rights and responsibilities.  Does not cover academic rules and regulations for the global and executive MBA programs.  This document is accurate as of October 2004.)</p>
+              </odd>
+            </c04>
             <c04 level="file">
               <did>
                 <physloc>Online</physloc>
@@ -594,7 +598,10 @@
                   </daodesc>
                 </dao>
               </did>
-            <odd><p>(2005 Bulletin for the Master of Business Administration [MBA] and Masters of Accounting [MAcc] programs at the University of Michigan Ross School of Business.  Includes program requirements, degree progress regulations, grade policies, guidelines for academic counseling and course registration, and information on academic honors and graduation. Also details residency requirements, services available to students, and student rights and responsibilities.  Does not cover academic rules and regulations for the global and executive MBA programs.  This document is accurate as of February 2006.)</p></odd></c04>
+              <odd>
+                <p>(2005 Bulletin for the Master of Business Administration [MBA] and Masters of Accounting [MAcc] programs at the University of Michigan Ross School of Business.  Includes program requirements, degree progress regulations, grade policies, guidelines for academic counseling and course registration, and information on academic honors and graduation. Also details residency requirements, services available to students, and student rights and responsibilities.  Does not cover academic rules and regulations for the global and executive MBA programs.  This document is accurate as of February 2006.)</p>
+              </odd>
+            </c04>
             <c04 level="file">
               <did>
                 <physloc>Online</physloc>
@@ -610,7 +617,10 @@
                   </daodesc>
                 </dao>
               </did>
-            <odd><p>(2006 Bulletin for the Master of Business Administration [MBA] and Masters of Accounting [MAcc] programs at the University of Michigan Ross School of Business.  Includes program requirements, degree progress regulations, grade policies, guidelines for academic counseling and course registration, and information on academic honors and graduation. Also details residency requirements, services available to students, and student rights and responsibilities.  Does not cover academic rules and regulations for the global and executive MBA programs.  This document is accurate as of June 2006.)</p></odd></c04>
+              <odd>
+                <p>(2006 Bulletin for the Master of Business Administration [MBA] and Masters of Accounting [MAcc] programs at the University of Michigan Ross School of Business.  Includes program requirements, degree progress regulations, grade policies, guidelines for academic counseling and course registration, and information on academic honors and graduation. Also details residency requirements, services available to students, and student rights and responsibilities.  Does not cover academic rules and regulations for the global and executive MBA programs.  This document is accurate as of June 2006.)</p>
+              </odd>
+            </c04>
             <c04 level="file">
               <did>
                 <physloc>Online</physloc>
@@ -626,7 +636,10 @@
                   </daodesc>
                 </dao>
               </did>
-            <odd><p>(2007-2008 Bulletin for the Master of Business Administration [MBA] and Masters of Accounting [MAcc] programs at the University of Michigan Ross School of Business.  Includes program requirements, degree progress regulations, grade policies, guidelines for academic counseling and course registration, and information on academic honors and graduation. Also details residency requirements, services available to students, and student rights and responsibilities.  Does not cover academic rules and regulations for the global and executive MBA programs. This document is accurate as of June 2007)</p></odd></c04>
+              <odd>
+                <p>(2007-2008 Bulletin for the Master of Business Administration [MBA] and Masters of Accounting [MAcc] programs at the University of Michigan Ross School of Business.  Includes program requirements, degree progress regulations, grade policies, guidelines for academic counseling and course registration, and information on academic honors and graduation. Also details residency requirements, services available to students, and student rights and responsibilities.  Does not cover academic rules and regulations for the global and executive MBA programs. This document is accurate as of June 2007)</p>
+              </odd>
+            </c04>
             <c04 level="file">
               <did>
                 <physloc>Online</physloc>
@@ -642,7 +655,10 @@
                   </daodesc>
                 </dao>
               </did>
-            <odd><p>(2008-2009 Bulletin for the Master of Business Administration [MBA] and Masters of Accounting [MAcc] programs at the University of Michigan Ross School of Business.  Includes program requirements, degree progress regulations, grade policies, guidelines for academic counseling and course registration, and information on academic honors and graduation. Also details residency requirements, services available to students, and student rights and responsibilities.  Does not cover academic rules and regulations for the global and executive MBA programs. This document is accurate as of September 2008.)</p></odd></c04>
+              <odd>
+                <p>(2008-2009 Bulletin for the Master of Business Administration [MBA] and Masters of Accounting [MAcc] programs at the University of Michigan Ross School of Business.  Includes program requirements, degree progress regulations, grade policies, guidelines for academic counseling and course registration, and information on academic honors and graduation. Also details residency requirements, services available to students, and student rights and responsibilities.  Does not cover academic rules and regulations for the global and executive MBA programs. This document is accurate as of September 2008.)</p>
+              </odd>
+            </c04>
             <c04 level="file">
               <did>
                 <physloc>Online</physloc>
@@ -658,7 +674,10 @@
                   </daodesc>
                 </dao>
               </did>
-            <odd><p>(2009-2010 Bulletin for the Master of Business Administration [MBA], Masters of Accounting [MAcc], and Master of Supply Chain Management [MSCM] programs at the University of Michigan Ross School of Business.  Includes program requirements, degree progress regulations, grade policies, guidelines for academic counseling and course registration, and information on academic honors and graduation. Also details residency requirements, services available to students, and student rights and responsibilities.  Does not cover academic rules and regulations for the global and executive MBA programs. This document is accurate as of June 2009.)</p></odd></c04>
+              <odd>
+                <p>(2009-2010 Bulletin for the Master of Business Administration [MBA], Masters of Accounting [MAcc], and Master of Supply Chain Management [MSCM] programs at the University of Michigan Ross School of Business.  Includes program requirements, degree progress regulations, grade policies, guidelines for academic counseling and course registration, and information on academic honors and graduation. Also details residency requirements, services available to students, and student rights and responsibilities.  Does not cover academic rules and regulations for the global and executive MBA programs. This document is accurate as of June 2009.)</p>
+              </odd>
+            </c04>
             <c04 level="file">
               <did>
                 <physloc>Online</physloc>
@@ -674,7 +693,10 @@
                   </daodesc>
                 </dao>
               </did>
-            <odd><p>(2010-2011 Bulletin for the Master of Business Administration [MBA], Masters of Accounting [MAcc], and Master of Supply Chain Management [MSCM] programs at the University of Michigan Ross School of Business.  Includes program requirements, degree progress regulations, grade policies, guidelines for academic counseling and course registration, and information on academic honors and graduation. Also details residency requirements, services available to students, and student rights and responsibilities.  Does not cover academic rules and regulations for the global and executive MBA programs. This document is accurate as of July 2010.)</p></odd></c04>
+              <odd>
+                <p>(2010-2011 Bulletin for the Master of Business Administration [MBA], Masters of Accounting [MAcc], and Master of Supply Chain Management [MSCM] programs at the University of Michigan Ross School of Business.  Includes program requirements, degree progress regulations, grade policies, guidelines for academic counseling and course registration, and information on academic honors and graduation. Also details residency requirements, services available to students, and student rights and responsibilities.  Does not cover academic rules and regulations for the global and executive MBA programs. This document is accurate as of July 2010.)</p>
+              </odd>
+            </c04>
             <c04 level="file">
               <did>
                 <physloc>Online</physloc>
@@ -690,7 +712,10 @@
                   </daodesc>
                 </dao>
               </did>
-            <odd><p>(2011-2012 Bulletin for the Master of Business Administration [MBA], Masters of Accounting [MAcc], and Master of Supply Chain Management [MSCM] programs at the University of Michigan Ross School of Business.  Includes program requirements, degree progress regulations, grade policies, guidelines for academic counseling and course registration, and information on academic honors and graduation. Also details residency requirements, services available to students, and student rights and responsibilities.  Does not cover academic rules and regulations for the global and executive MBA programs. This document is accurate as of August 2011.)</p></odd></c04>
+              <odd>
+                <p>(2011-2012 Bulletin for the Master of Business Administration [MBA], Masters of Accounting [MAcc], and Master of Supply Chain Management [MSCM] programs at the University of Michigan Ross School of Business.  Includes program requirements, degree progress regulations, grade policies, guidelines for academic counseling and course registration, and information on academic honors and graduation. Also details residency requirements, services available to students, and student rights and responsibilities.  Does not cover academic rules and regulations for the global and executive MBA programs. This document is accurate as of August 2011.)</p>
+              </odd>
+            </c04>
             <c04 level="file">
               <did>
                 <physloc>Online</physloc>
@@ -706,7 +731,10 @@
                   </daodesc>
                 </dao>
               </did>
-            <odd><p>(2012-2013 Bulletin for the Master of Business Administration [MBA], Masters of Accounting [MAcc], and Master of Supply Chain Management [MSCM] programs at the University of Michigan Ross School of Business.  Includes program requirements, degree progress regulations, grade policies, guidelines for academic counseling and course registration, and information on academic honors and graduation. Also details residency requirements, services available to students, and student rights and responsibilities.  Does not cover academic rules and regulations for the global and executive MBA programs. This document is accurate as of January 2013.)</p></odd></c04>
+              <odd>
+                <p>(2012-2013 Bulletin for the Master of Business Administration [MBA], Masters of Accounting [MAcc], and Master of Supply Chain Management [MSCM] programs at the University of Michigan Ross School of Business.  Includes program requirements, degree progress regulations, grade policies, guidelines for academic counseling and course registration, and information on academic honors and graduation. Also details residency requirements, services available to students, and student rights and responsibilities.  Does not cover academic rules and regulations for the global and executive MBA programs. This document is accurate as of January 2013.)</p>
+              </odd>
+            </c04>
           </c03>
           <c03 level="file">
             <did>
@@ -760,7 +788,10 @@
                   </daodesc>
                 </dao>
               </did>
-            <odd><p>(2004 Bulletin for the University of Michigan School of Business Bachelor of Business Administration [BBA] program.  Includes both pre-application and degree requirements, registration and credit transfer procedures, grading policies and academic honors, and information on curriculum planning and graduation.  Also details residency requirements, services available to students, and student rights and responsibilities. This document is accurate as of September 2004.)</p></odd></c04>
+              <odd>
+                <p>(2004 Bulletin for the University of Michigan School of Business Bachelor of Business Administration [BBA] program.  Includes both pre-application and degree requirements, registration and credit transfer procedures, grading policies and academic honors, and information on curriculum planning and graduation.  Also details residency requirements, services available to students, and student rights and responsibilities. This document is accurate as of September 2004.)</p>
+              </odd>
+            </c04>
             <c04 level="file">
               <did>
                 <physloc>Online</physloc>
@@ -776,7 +807,10 @@
                   </daodesc>
                 </dao>
               </did>
-            <odd><p>(2005 Bulletin for the Bachelor of Business Administration [BBA] program at the University of Michigan Ross School of Business.  Includes both pre-application and degree requirements, registration and credit transfer procedures, grading policies and academic honors, and information on curriculum planning and graduation.  Also details residency requirements, services available to students, and student rights and responsibilities. This document is accurate as of August 2005.)</p></odd></c04>
+              <odd>
+                <p>(2005 Bulletin for the Bachelor of Business Administration [BBA] program at the University of Michigan Ross School of Business.  Includes both pre-application and degree requirements, registration and credit transfer procedures, grading policies and academic honors, and information on curriculum planning and graduation.  Also details residency requirements, services available to students, and student rights and responsibilities. This document is accurate as of August 2005.)</p>
+              </odd>
+            </c04>
             <c04 level="file">
               <did>
                 <physloc>Online</physloc>
@@ -792,7 +826,10 @@
                   </daodesc>
                 </dao>
               </did>
-            <odd><p>(2006 Bulletin for the Bachelor of Business Administration [BBA] program at the University of Michigan Ross School of Business.  Includes both pre-application and degree requirements, registration and credit transfer procedures, grading policies and academic honors, and information on curriculum planning and graduation.  Also details residency requirements, services available to students, and student rights and responsibilities. This document is accurate as of June 2006.)</p></odd></c04>
+              <odd>
+                <p>(2006 Bulletin for the Bachelor of Business Administration [BBA] program at the University of Michigan Ross School of Business.  Includes both pre-application and degree requirements, registration and credit transfer procedures, grading policies and academic honors, and information on curriculum planning and graduation.  Also details residency requirements, services available to students, and student rights and responsibilities. This document is accurate as of June 2006.)</p>
+              </odd>
+            </c04>
             <c04 level="file">
               <did>
                 <physloc>Online</physloc>
@@ -808,7 +845,10 @@
                   </daodesc>
                 </dao>
               </did>
-            <odd><p>(2007-2008 Bulletin for the Bachelor of Business Administration [BBA] program at the University of Michigan Ross School of Business.  Includes both pre-application and degree requirements, registration and credit transfer procedures, grading policies and academic honors, and information on curriculum planning and graduation.  Also details residency requirements, services available to students, and student rights and responsibilities. This document is accurate as of August 2007.)</p></odd></c04>
+              <odd>
+                <p>(2007-2008 Bulletin for the Bachelor of Business Administration [BBA] program at the University of Michigan Ross School of Business.  Includes both pre-application and degree requirements, registration and credit transfer procedures, grading policies and academic honors, and information on curriculum planning and graduation.  Also details residency requirements, services available to students, and student rights and responsibilities. This document is accurate as of August 2007.)</p>
+              </odd>
+            </c04>
             <c04 level="file">
               <did>
                 <physloc>Online</physloc>
@@ -824,7 +864,10 @@
                   </daodesc>
                 </dao>
               </did>
-            <odd><p>(2008-2009 Bulletin for the Bachelor of Business Administration [BBA] program at the University of Michigan Ross School of Business.  Includes both pre-application and degree requirements, registration and credit transfer procedures, grading policies and academic honors, and information on curriculum planning and graduation.  Also details residency requirements, services available to students, and student rights and responsibilities.  This document is accurate as of September 2008)</p></odd></c04>
+              <odd>
+                <p>(2008-2009 Bulletin for the Bachelor of Business Administration [BBA] program at the University of Michigan Ross School of Business.  Includes both pre-application and degree requirements, registration and credit transfer procedures, grading policies and academic honors, and information on curriculum planning and graduation.  Also details residency requirements, services available to students, and student rights and responsibilities.  This document is accurate as of September 2008)</p>
+              </odd>
+            </c04>
             <c04 level="file">
               <did>
                 <physloc>Online</physloc>
@@ -840,7 +883,10 @@
                   </daodesc>
                 </dao>
               </did>
-            <odd><p>(2009-2010 Bulletin for the Bachelor of Business Administration [BBA] program at the University of Michigan Ross School of Business.  Includes both pre-application and degree requirements, registration and credit transfer procedures, grading policies and academic honors, and information on curriculum planning and graduation.  Also details residency requirements, services available to students, and student rights and responsibilities.  This document is accurate as of June 2009.)</p></odd></c04>
+              <odd>
+                <p>(2009-2010 Bulletin for the Bachelor of Business Administration [BBA] program at the University of Michigan Ross School of Business.  Includes both pre-application and degree requirements, registration and credit transfer procedures, grading policies and academic honors, and information on curriculum planning and graduation.  Also details residency requirements, services available to students, and student rights and responsibilities.  This document is accurate as of June 2009.)</p>
+              </odd>
+            </c04>
             <c04 level="file">
               <did>
                 <physloc>Online</physloc>
@@ -856,7 +902,10 @@
                   </daodesc>
                 </dao>
               </did>
-            <odd><p>(2010-2011 Bulletin for the Bachelor of Business Administration [BBA] program at the University of Michigan Ross School of Business.  Includes both pre-application and degree requirements, registration and credit transfer procedures, grading policies and academic honors, and information on curriculum planning and graduation.  Also details residency requirements, services available to students, and student rights and responsibilities. This document is accurate as of July 2010.)</p></odd></c04>
+              <odd>
+                <p>(2010-2011 Bulletin for the Bachelor of Business Administration [BBA] program at the University of Michigan Ross School of Business.  Includes both pre-application and degree requirements, registration and credit transfer procedures, grading policies and academic honors, and information on curriculum planning and graduation.  Also details residency requirements, services available to students, and student rights and responsibilities. This document is accurate as of July 2010.)</p>
+              </odd>
+            </c04>
             <c04 level="file">
               <did>
                 <physloc>Online</physloc>
@@ -872,7 +921,10 @@
                   </daodesc>
                 </dao>
               </did>
-            <odd><p>(2011-2012 Bulletin for the Bachelor of Business Administration [BBA] program at the University of Michigan Ross School of Business.  Includes both pre-application and degree requirements, registration and credit transfer procedures, grading policies and academic honors, and information on curriculum planning and graduation.  Also details residency requirements, services available to students, and student rights and responsibilities. This document is accurate as of June 2011.)</p></odd></c04>
+              <odd>
+                <p>(2011-2012 Bulletin for the Bachelor of Business Administration [BBA] program at the University of Michigan Ross School of Business.  Includes both pre-application and degree requirements, registration and credit transfer procedures, grading policies and academic honors, and information on curriculum planning and graduation.  Also details residency requirements, services available to students, and student rights and responsibilities. This document is accurate as of June 2011.)</p>
+              </odd>
+            </c04>
             <c04 level="file">
               <did>
                 <physloc>Online</physloc>
@@ -888,7 +940,10 @@
                   </daodesc>
                 </dao>
               </did>
-            <odd><p>(2012-2013 Bulletin for the Bachelor of Business Administration [BBA] program at the University of Michigan Ross School of Business.  Includes both pre-application and degree requirements, registration and credit transfer procedures, grading policies and academic honors, and information on curriculum planning and graduation.  Also details residency requirements, services available to students, and student rights and responsibilities. This document is accurate as of November 2012.)</p></odd></c04>
+              <odd>
+                <p>(2012-2013 Bulletin for the Bachelor of Business Administration [BBA] program at the University of Michigan Ross School of Business.  Includes both pre-application and degree requirements, registration and credit transfer procedures, grading policies and academic honors, and information on curriculum planning and graduation.  Also details residency requirements, services available to students, and student rights and responsibilities. This document is accurate as of November 2012.)</p>
+              </odd>
+            </c04>
           </c03>
         </c02>
         <c02 level="item">

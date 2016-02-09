@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Williams, W. L. (William Lee), 1937-1986</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32942">Williams, W. L. (William Lee), 1937-1986</persname>
       </origination>
       <unittitle encodinganalog="245">W. L. Williams Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1962/1986">1962-1986</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1967/1986">1967-1986</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">9533 Aa 2</unitid>
@@ -80,12 +81,12 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85085921">Williams, W. L. (William Lee), 1937-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85085921" ref="/agents/people/32944">Williams, W. L. (William Lee), 1937-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6902">Physicists--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10754">Physics--Experiments.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10755">Physics--Study and teaching.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Physics.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17629">University of Michigan. Dept. of Physics.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Academic Freedom Lecture Fund.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/19700">University of Michigan. Academic Freedom Lecture Fund.</corpname>
       </origination>
       <unittitle encodinganalog="245">Academic Freedom Lecture Fund (University of Michigan), Records <unitdate type="inclusive" encodinganalog="245$f" normal="2000/9999">2000-[ongoing]</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">0373 Bimu 2</unitid>
@@ -102,7 +103,7 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Academic Freedom Lecture Fund.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21472">Academic Freedom Lecture Fund.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5744">Academic freedom--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5745">Freedom of speech--United States.</subject>
         <subject source="lcsh" encodinganalog="611" ref="/subjects/5746">Davis, Markert, Nickerson lecture on academic and intellectual freedom.</subject>

@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n80010387">Milliken, William G., 1922-</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n80010387" ref="/agents/people/28573">Milliken, William G., 1922-</persname>
       </origination>
       <unittitle encodinganalog="245">William G. Milliken papers <unitdate type="inclusive" encodinganalog="245$f" normal="1961/1982">1961-1982</unitdate></unittitle>
       <abstract>Republican governor of Michigan, 1969-1982. Papers include governor's office correspondence, administrative and subject files, staff files, materials relating to his campaigns for governor and Republican Party affairs, and a limited amount of photographs and sound recordings.</abstract>
@@ -115,7 +116,7 @@
         <geogname source="local" encodinganalog="691" ref="/subjects/810">Michigan--Politics and government--1961-1970.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/801">Michigan--Politics and government--1971-1980.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/802">Michigan--Politics and government--1981-1990.</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80010387">Milliken, William G., 1922-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80010387" ref="/agents/people/28573">Milliken, William G., 1922-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5954">Governors--Michigan.</subject>
       </controlaccess>
       <controlaccess>
@@ -124,10 +125,10 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4764">Copper mining--Michigan.</subject>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/594">East Lansing (Mich.)--Apartment houses.</geogname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/595">Jackson (Mich.)--Prison facilities.</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80010387">Milliken, William G., 1922-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80010387" ref="/agents/people/28573">Milliken, William G., 1922-</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4846">Prison facilities--Michigan--Jackson.</subject>
-        <corpname source="lcnaf" encodinganalog="610">State Prison of Southern Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88638148">White Pine Copper Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19428">State Prison of Southern Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88638148" ref="/agents/corporate_entities/18144">White Pine Copper Company.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2382">White Pine (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5954">Governors--Michigan.</subject>
       </controlaccess>

@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Finney, Edward A.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/31422">Finney, Edward A.</persname>
       </origination>
       <unittitle encodinganalog="245">Edward A. Finney photograph collection <unitdate type="inclusive" encodinganalog="245$f" normal="1898/1913" certainty="approximate">circa 1898-1913</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">9298 Aa Microcopy; UAs</unitid>
@@ -88,11 +89,11 @@
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1050">Calumet (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7786">Copper Miners' Strike, Mich., 1913-1914.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87910587">Michigan. National Guard.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87910587" ref="/agents/corporate_entities/19723">Michigan. National Guard.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3697">Military camps.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4261">Miners' strikes.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4010">Strikes.</subject>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Michigan Infantry Regiment, 31st (1898-1899). Company D.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22985">United States. Army. Michigan Infantry Regiment, 31st (1898-1899). Company D.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6036">Spanish-American War, 1898.</subject>
       </controlaccess>
       <controlaccess>

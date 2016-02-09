@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n50058117">Michigan Historical Records Survey.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n50058117" ref="/agents/corporate_entities/20660">Michigan Historical Records Survey.</corpname>
       </origination>
       <unittitle encodinganalog="245">Michigan Imprints Inventory records <unitdate type="inclusive" encodinganalog="245$f" normal="1936/1941">1936-1941</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851852 Ca 2</unitid>
@@ -86,10 +87,10 @@
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="630" ref="/subjects/9370">American imprints inventory.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1299">Michigan--Bibliography.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50058117">Michigan Historical Records Survey.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50058117" ref="/agents/corporate_entities/20660">Michigan Historical Records Survey.</corpname>
         <subject source="lcsh" encodinganalog="630" ref="/subjects/9371">Michigan imprints inventory.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9372">Publishers and publishing--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">United States. Work Projects Administration.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18632">United States. Work Projects Administration.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -204,7 +205,7 @@
     </dsc>
     <descgrp type="add">
       <bibliography>
-        <head>Bibliography</head>
+      <head>Bibliography</head>
         <list>
           <head>Publications of the Michigan Imprints Inventory</head>
           <item><bibref><title render="italic">Preliminary Check List of Michigan Imprints, 1796-1850</title> (Detroit: Michigan Historical Records Survey Project, 1942)</bibref> [Bentley call number EX/5/H673/P924]</item>

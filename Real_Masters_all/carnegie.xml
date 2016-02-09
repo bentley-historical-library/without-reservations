@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Carnegie Corporation of New York. Aging Society Project (1982-1986)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/23110">Carnegie Corporation of New York. Aging Society Project (1982-1986)</corpname>
       </origination>
       <unittitle encodinganalog="245">Carnegie Corporation of New York. Aging Society Project (1982-1986) records <unitdate type="inclusive" encodinganalog="245$f" normal="1982/1986">1982-1986</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">8819 Bs 2</unitid>
@@ -83,11 +84,11 @@
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6582">Aging.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6583">Gerontology.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79043490">University of Michigan. Institute of Gerontology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79043490" ref="/agents/corporate_entities/17505">University of Michigan. Institute of Gerontology.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80040454">Bronte, Lydia, 1938-2003</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80040454" ref="/agents/people/32698">Bronte, Lydia, 1938-2003</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

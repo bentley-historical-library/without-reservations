@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Holmes, Roy Hinman, 1882-1949.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/34904">Holmes, Roy Hinman, 1882-1949.</persname>
       </origination>
       <unittitle encodinganalog="245">Roy Hinman Holmes papers <unitdate type="inclusive" encodinganalog="245$f" normal="1899/1950">1899-1950</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851500 Aa 2</unitid>
@@ -84,7 +85,7 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6058">Agriculture--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Alpha Kappa Delta. Alpha Chapter (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22328">Alpha Kappa Delta. Alpha Chapter (Ann Arbor, Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2040">Bellevue (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n84228687.html" ref="/subjects/2041">Breckenridge (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85189101.html" ref="/subjects/917">Clinton (Lenawee County, Mich.)</geogname>
@@ -101,7 +102,7 @@
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n88179734.html" ref="/subjects/2045">Lake Odessa (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2046">Lakeview (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81018695.html" ref="/subjects/1311">Lenawee County (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Lincoln Consolidated School (Ypsilanti, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20910">Lincoln Consolidated School (Ypsilanti, Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1304">Livingston County (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2047">Marlette (Mich. : Township)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/863">Michigan--Emigration and immigration.</geogname>
@@ -113,9 +114,9 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6668">Race relations.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8319">Rural development.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2050">Saganing (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">University High School (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Sociology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19689">University High School (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22170">University of Michigan. Dept. of Sociology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/938">Upper Peninsula (Mich.)</geogname>
       </controlaccess>
     </controlaccess>

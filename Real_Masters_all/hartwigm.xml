@@ -35,7 +35,8 @@
         <item>Encoded finding aid from Word 6.0 file.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc level="collection" type="inventory" audience="external" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">Hartwig, Marie Dorothy, 1906-</persname>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/28055">Hartwig, Marie Dorothy, 1906-</persname>
       </origination>
       <unittitle encodinganalog="245">Marie D. Hartwig Papers <unitdate encodinganalog="245$f" type="inclusive" normal="1927/1988">1927-1988</unitdate></unittitle>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">90151 Aa/2</unitid>
@@ -100,13 +101,13 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Hartwig, Marie Dorothy, 1906-</persname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan League.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28055">Hartwig, Marie Dorothy, 1906-</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22077">Michigan League.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6272">Physical education for women--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5716">Recreation--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Physical Education for Women.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Women's Athletic Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21545">University of Michigan. Dept. of Physical Education for Women.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21996">University of Michigan. Women's Athletic Association.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7325">Athletes--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5747">College teachers--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7326">Women athletes--Michigan--Ann Arbor.</subject>
@@ -115,9 +116,9 @@
       <controlaccess>
         <head>Subjects - Visual Material:</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4434">Field hockey.</subject>
-        <persname source="lcnaf" encodinganalog="600">Hartwig, Marie Dorothy, 1906-</persname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--1951-1960.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28055">Hartwig, Marie Dorothy, 1906-</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Students--1951-1960.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3569">Women.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5862">Women college students--Michigan--Ann Arbor.</subject>
       </controlaccess>

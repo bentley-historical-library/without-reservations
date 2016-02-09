@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Residential College.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/21856">University of Michigan. Residential College.</corpname>
       </origination>
       <unittitle encodinganalog="245">Residential College (University of Michigan) publications <unitdate type="inclusive" encodinganalog="245$f" normal="1956/2011">1956-2011</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">979, Bimu, C26, 2</unitid>
@@ -135,13 +136,13 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Residential College.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Students--Social life and customs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21856">University of Michigan. Residential College.</corpname>
         <genreform source="aat" encodinganalog="655" ref="/subjects/3272">Schedules (time plans)</genreform>
-        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Residential College Players.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Residential College Writers Group.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">Mackenzie High School/Residential College Educational Project.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">Mackenzie High School/University of Michigan Writing Program.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/21566">University of Michigan. Residential College Players.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/22058">University of Michigan. Residential College Writers Group.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/18619">Mackenzie High School/Residential College Educational Project.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/22852">Mackenzie High School/University of Michigan Writing Program.</corpname>
         <title source="aacr2" encodinganalog="740" ref="/subjects/112">Ar see nooz.</title>
         <title source="aacr2" encodinganalog="740" ref="/subjects/113">R.C. news.</title>
         <title source="aacr2" encodinganalog="740" ref="/subjects/114">R.C. newsletter.</title>

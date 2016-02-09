@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n86866497">Michigan Nature Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n86866497" ref="/agents/corporate_entities/20512">Michigan Nature Association.</corpname>
       </origination>
       <unittitle encodinganalog="245">Michigan Nature Association records <unitdate type="inclusive" encodinganalog="245$f" normal="1945/2013">1945-2013</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1961/1999">1961-1999</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">93844 Aa 2</unitid>
@@ -85,19 +86,19 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6215">Conservation of natural resources--Michigan.</subject>
-        <persname encodinganalog="600" source="lcnaf">Daubendiek, Bertha A. (Bertha Antoine)</persname>
+        <persname encodinganalog="600" source="lcnaf" ref="/agents/people/28839">Daubendiek, Bertha A. (Bertha Antoine)</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6653">Environmental protection--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n86866497">Michigan Nature Association.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50001776">Detroit Edison Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n86866497" ref="/agents/corporate_entities/20512">Michigan Nature Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50001776" ref="/agents/corporate_entities/18202">Detroit Edison Company.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9353">Natural areas--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="710">Eastern Michigan Nature Association.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">Macomb Nature Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/18195">Eastern Michigan Nature Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/21873">Macomb Nature Association.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4881">Land--Michigan.</subject>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/588">Michigan--Land.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n86866497">Michigan Nature Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n86866497" ref="/agents/corporate_entities/20512">Michigan Nature Association.</corpname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/589">Michigan--Parks.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9353">Natural areas--Michigan.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4431">Parks--Michigan.</subject>

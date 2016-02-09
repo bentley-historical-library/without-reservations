@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Plumer, James Marshall, 1899-1960.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/36089">Plumer, James Marshall, 1899-1960.</persname>
       </origination>
       <unittitle encodinganalog="245">James M. Plumer papers <unitdate type="inclusive" encodinganalog="245$f" normal="1921/1958">1921-1958</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85328 Aa 2</unitid>
@@ -78,20 +79,20 @@
       <controlaccess>
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/946">China--History--Republic, 1912-1949.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80004216">China. Hai guan zong shui wu si shu.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80004216" ref="/agents/corporate_entities/18020">China. Hai guan zong shui wu si shu.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/969">India.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no95039483">Plumer, James Marshall.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no95039483" ref="/agents/people/30108">Plumer, James Marshall.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/946">China--History--Republic, 1912-1949.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80004216">China. Hai guan zong shui wu si shu.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80004216" ref="/agents/corporate_entities/18020">China. Hai guan zong shui wu si shu.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2554">Hong Kong (China)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/969">India.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/948">Japan.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/944">Philippines--History--1898-1946.</geogname>
-        <famname source="lcnaf" encodinganalog="600">Plummer family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1448">Plummer family.</famname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5109">Shipping.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3868">Ships.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5928">Tourism.</subject>

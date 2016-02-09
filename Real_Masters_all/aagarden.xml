@@ -23,7 +23,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Ann Arbor Garden Club.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/20314">Ann Arbor Garden Club.</corpname>
       </origination>
       <unittitle encodinganalog="245">Ann Arbor Garden Club Records <unitdate type="inclusive" encodinganalog="245$f" normal="1930/1965">1930-1965</unitdate></unittitle>
       <abstract>Reports of the club's presidents and treasurers, committee reports, constitution and by-laws, membership records, and bulletins, 1930-1965.</abstract>
@@ -77,16 +78,16 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Garden Club.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20314">Ann Arbor Garden Club.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5696">Gardening.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5697">Women--Michigan--Ann Arbor--Societies and clubs.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Garden Club.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20314">Ann Arbor Garden Club.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3528">Exhibitions.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3529">Gardens.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Yost Field House (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22770">Yost Field House (University of Michigan)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

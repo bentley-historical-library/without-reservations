@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Vivian, Weston Edward, 1924-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/31624">Vivian, Weston Edward, 1924-</persname>
       </origination>
       <unittitle encodinganalog="245">Weston E. Vivian Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1964/1968">1964-1968</unitdate></unittitle>
       <abstract>Democratic US Congressman from the 2nd Michigan Congressional District, 1965-1967. Campaign files, 1964, 1966 and 1968; files documenting his activities as member of the 89th Congress; subject files detailing views of constituents on such subjects as the Vietnam War, civil rights, Lyndon Johnson's anti-poverty program, and other issues of the 1960s; also clippings, photographs, and audio tapes.</abstract>
@@ -89,13 +90,13 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6867">Civil rights--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731">Democratic Party (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731" ref="/agents/corporate_entities/21108">Democratic Party (Mich.)</corpname>
         <geogname source="local" encodinganalog="691" ref="/subjects/810">Michigan--Politics and government--1961-1970.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10581">Poverty.</subject>
-        <corpname source="lcnaf" encodinganalog="610">United States. Congress--Elections, 1964.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United States--Congress--Elections--1966.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Congress--Elections, 1968.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79107874">United States. Congress. House.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19794">United States. Congress--Elections, 1964.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18207">United States--Congress--Elections--1966.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19794">United States. Congress--Elections, 1968.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79107874" ref="/agents/corporate_entities/19180">United States. Congress. House.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/942">United States--Politics and government--1963-1969.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5937">Vietnamese Conflict, 1961-1975.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/910">Michigan--Politics and government--1951-</geogname>
@@ -104,23 +105,23 @@
         <head>Subjects - Visual Material:</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3572">Children.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10582">Head Start programs.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79026910">Humphrey, Hubert H. (Hubert Horatio), 1911-1978.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79091168">Kennedy, Edward M. (Edward Moore), 1932-2009</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80035888">Kennedy, Robert F., 1925-1968.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79026910" ref="/agents/people/27550">Humphrey, Hubert H. (Hubert Horatio), 1911-1978.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79091168" ref="/agents/people/28461">Kennedy, Edward M. (Edward Moore), 1932-2009</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80035888" ref="/agents/people/34966">Kennedy, Robert F., 1925-1968.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1164">Monroe (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n86140966">Peterson, Esther, 1906-1997</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n86140966" ref="/agents/people/33978">Peterson, Esther, 1906-1997</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5091">Political elections--1964.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5167">Political elections--1966.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3825">Politics and government--1961-1970.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5468">Space flight.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79107874">United States. Congress. House.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n78087581">United States. National Aeronautics and Space Administration.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Vivian, Weston Edward, 1924-</persname>
-        <famname source="lcnaf" encodinganalog="600">Vivian family.</famname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79107874" ref="/agents/corporate_entities/19180">United States. Congress. House.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n78087581" ref="/agents/corporate_entities/22673">United States. National Aeronautics and Space Administration.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31624">Vivian, Weston Edward, 1924-</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1254">Vivian family.</famname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Sound Recordings</head>
-        <persname source="lcnaf" encodinganalog="600">Vivian, Weston Edward, 1924-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31624">Vivian, Weston Edward, 1924-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6641">Elections--Michigan--1964.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6550">Elections--Michigan--1966.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7219">Elections--Michigan--1968.</subject>

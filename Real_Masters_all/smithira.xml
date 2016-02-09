@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Smith, Ira Melville, 1885-1977.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30974">Smith, Ira Melville, 1885-1977.</persname>
       </origination>
       <unittitle encodinganalog="245">Ira M. Smith Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1919/1969">1919-1969</unitdate></unittitle>
       <abstract>Registrar of the University of Michigan. Files concerning University admissions policy, the work of the registrar as liaison between the University and secondary schools, the relationship of the University to other educational associations, and the maintenance of student records at the University; and files relating to his work with University, community, and other social organizations; also photographs.</abstract>
@@ -92,31 +93,31 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">American National Red Cross. Washtenaw County Chapter.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr95028030">Ann Arbor Chamber of Commerce.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Federal Savings.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2001079420">Ann Arbor Rotary Club.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79053967">Boy Scouts of America.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21208">American National Red Cross. Washtenaw County Chapter.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr95028030" ref="/agents/corporate_entities/17518">Ann Arbor Chamber of Commerce.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21757">Ann Arbor Federal Savings.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2001079420" ref="/agents/corporate_entities/19090">Ann Arbor Rotary Club.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79053967" ref="/agents/corporate_entities/18952">Boy Scouts of America.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5704">Education--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5859">Greek letter societies--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Michigan College Association.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Council of Churches and Christian Education.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Smith, Ira Melville, 1885-1977.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18763">Michigan College Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19740">Michigan Council of Churches and Christian Education.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30974">Smith, Ira Melville, 1885-1977.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7745">Students--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6059">Universities and colleges--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Administration.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Admission.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr93034095">University of Michigan. Alumni Association.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Board in Control of Intercollegiate Athletics.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Bureau of Appointments and Occupational Information.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. International Center.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr90028381">University of Michigan. Office of the Registrar.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Student Religious Association.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Societies, etc.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. University College.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Young Men's Christian Association (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Administration.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Admission.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr93034095" ref="/agents/corporate_entities/17992">University of Michigan. Alumni Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17969">University of Michigan. Board in Control of Intercollegiate Athletics.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20687">University of Michigan. Bureau of Appointments and Occupational Information.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21497">University of Michigan. International Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr90028381" ref="/agents/corporate_entities/21122">University of Michigan. Office of the Registrar.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Students.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17956">University of Michigan. Student Religious Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Students--Societies, etc.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17675">University of Michigan. University College.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/23070">Young Men's Christian Association (Ann Arbor, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
@@ -134,9 +135,9 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4842">Office workers.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3578">Parties.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3553">Schools--Michigan--Ann Arbor.</subject>
-        <persname source="lcnaf" encodinganalog="600">Smith, Ira Melville, 1885-1977.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30974">Smith, Ira Melville, 1885-1977.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3580">Sports.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University Elementary School (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20174">University Elementary School (Ann Arbor, Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3569">Women.</subject>
       </controlaccess>
       <controlaccess>

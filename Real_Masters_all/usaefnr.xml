@@ -28,7 +28,8 @@
         <item>Original encoding from National Archives microfilm publications, Pamphlet describing M924.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">United States. Army. American Expeditionary Forces, North Russia.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/22443">United States. Army. American Expeditionary Forces, North Russia.</corpname>
       </origination>
       <unittitle encodinganalog="245">Historical files of the American Expeditionary Force, North Russia <unitdate type="inclusive" encodinganalog="245$f" normal="1918/1919">1918-1919</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">89348 Ca Microcopy</unitid>
@@ -105,8 +106,8 @@
         <head>Subjects:</head>
         <subject encodinganalog="690" source="local" authfilenumber="http://id.loc.gov/authorities/names/n2008059426" ref="/subjects/5619">Polar Bear Expedition.</subject>
         <geogname encodinganalog="651" source="lcsh" ref="/subjects/883">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <corpname encodinganalog="610" source="lcnaf">United States. Army. American Expeditionary Forces, North Russia.</corpname>
-        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n82129076">United States. Army. Infantry, 339th.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/22443">United States. Army. American Expeditionary Forces, North Russia.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n82129076" ref="/agents/corporate_entities/21288">United States. Army. Infantry, 339th.</corpname>
         <subject encodinganalog="650" source="lcsh" ref="/subjects/5737">World War, 1914-1918.</subject>
       </controlaccess>
     </controlaccess>

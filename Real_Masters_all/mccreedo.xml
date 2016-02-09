@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2010 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">McCree, Dores.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28359">McCree, Dores.</persname>
       </origination>
       <unittitle encodinganalog="245">Dores McCree papers <unitdate type="inclusive" encodinganalog="245$f" normal="1985/1999">1985-1999</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2015007 Aa 2</unitid>
@@ -79,11 +80,11 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">McCree, Dores.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28359">McCree, Dores.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7349">Minorities--Education, Higher--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Law School.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Law School--Directories.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Law School.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20498">University of Michigan. Law School--Directories.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Students.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

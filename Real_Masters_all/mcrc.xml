@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Mill Creek Research Council, inc.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/18347">Mill Creek Research Council, inc.</corpname>
       </origination>
       <unittitle encodinganalog="245">Mill Creek Research Council, inc. records <unitdate type="inclusive" encodinganalog="245$f" normal="1960/1988">1960-1988</unitdate></unittitle>
       <abstract>Citizen action group formed in 1964-1965 by Mrs. Virginia Denham to oppose the flooding of the Mill Creek area in Lima Township, Washtenaw County, Michigan, to improve sewage treatment for communities downstream on the Huron River. The organization also opposed creation of a Mill Creek Metropark by the Huron-Clinton Metropolitan Authority an developed the South Lima Township Historical District plan. Correspondence, environmental impact statements, administrative files, newsletters, newspaper articles, topical files, maps, and photographs.</abstract>
@@ -88,15 +89,15 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6532">Citizens' associations--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6653">Environmental protection--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9037">Historic districts--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50057722">Huron-Clinton Metropolitan Authority.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50057722" ref="/agents/corporate_entities/22987">Huron-Clinton Metropolitan Authority.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/853">Huron River (Oakland County-Monroe County, Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2217">Lima (Mich. : Township)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1904">Mill Creek Metropark (Mich. : Proposed)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Mill Creek Research Council, inc.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18347">Mill Creek Research Council, inc.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6842">Sewerage--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/847">Washtenaw County (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9038">Water--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="700">Denham, Virginia.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30551">Denham, Virginia.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
@@ -110,7 +111,7 @@
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/565">Lima (Mich. : Township)--Dwellings.</geogname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/566">Lima (Mich. : Township)--Farms.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2320">Mill Creek (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Mill Creek Research Council, inc.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18347">Mill Creek Research Council, inc.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4601">Mobile homes.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2321">Sutton Lake (Mich.</geogname>
       </controlaccess>

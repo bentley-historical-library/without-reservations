@@ -27,7 +27,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Affirmations Lesbian/Gay Community Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/22174">Affirmations Lesbian/Gay Community Center.</corpname>
       </origination>
       <unittitle encodinganalog="245">Affirmations Lesbian/Gay Community Center Records <unitdate type="inclusive" encodinganalog="245$f" normal="1989/2004">1989-2004</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">0544 Bj 2 Bj Outsize</unitid>
@@ -82,7 +83,7 @@
     <controlaccess>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname encodinganalog="610" source="lcnaf">Affirmations Lesbian/Gay Community Center.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/22174">Affirmations Lesbian/Gay Community Center.</corpname>
         <subject encodinganalog="650" source="lcsh" ref="/subjects/5767">Gay men--Michigan.</subject>
         <subject encodinganalog="650" source="lcsh" ref="/subjects/5768">Lesbians--Michigan.</subject>
         <subject encodinganalog="650" source="lcsh" ref="/subjects/5769">Gays--Michigan.</subject>

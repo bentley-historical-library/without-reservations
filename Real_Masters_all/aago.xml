@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Ann Arbor Golf and Outing Club.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/22241">Ann Arbor Golf and Outing Club.</corpname>
       </origination>
       <unittitle encodinganalog="245">Ann Arbor Golf and Outing Club records <unitdate type="inclusive" encodinganalog="245$f" normal="1899/1999">1899-1999</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85614 Bk 2; Bk Microcopy</unitid>
@@ -86,7 +87,7 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5698">Golf.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Golf and Outing Club.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22241">Ann Arbor Golf and Outing Club.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5699">Country clubs--Michigan--Ann Arbor.</subject>
       </controlaccess>
     </controlaccess>

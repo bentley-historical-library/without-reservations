@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Kraus, Edward Henry, 1875-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30122">Kraus, Edward Henry, 1875-</persname>
       </origination>
       <unittitle encodinganalog="245">Edward Henry Kraus pamphlets and reprints <unitdate type="inclusive" encodinganalog="245$f" normal="1902/1949">1902-1949</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">DA 2; K91; P186</unitid>
@@ -81,7 +82,7 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname encodinganalog="610" source="lcnaf">University of Michigan. Mineralogy Laboratory.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/18630">University of Michigan. Mineralogy Laboratory.</corpname>
         <subject encodinganalog="650" source="lcsh" ref="/subjects/8729">Mineralogy.</subject>
       </controlaccess>
     </controlaccess>

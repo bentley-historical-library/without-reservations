@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Corsa, Leslie, 1920-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/27992">Corsa, Leslie, 1920-</persname>
       </origination>
       <unittitle encodinganalog="245">Leslie Corsa papers <unitdate type="inclusive" encodinganalog="245$f" normal="1937/1984">1937-1984</unitdate></unittitle>
       <abstract>Population planning director of Center for Population Planning at the University of Michigan. Diaries, correspondence, research on population planning in China, faculty minutes and general files for Center and Department of Population Planning; also materials relating to the School of Public Health.</abstract>
@@ -85,16 +86,16 @@
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1466">China--History--1949-</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6393">Birth control.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7038">Population policy.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Center for Population Planning.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Population Planning.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80020716">University of Michigan. School of Public Health.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22832">University of Michigan. Center for Population Planning.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22368">University of Michigan. Dept. of Population Planning.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80020716" ref="/agents/corporate_entities/22180">University of Michigan. School of Public Health.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3572">Children.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4048">Cooking utensils.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87153294">Corsa, Leslie, 1920-1984</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87153294" ref="/agents/people/31620">Corsa, Leslie, 1920-1984</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3760">Offices.</subject>
       </controlaccess>
       <controlaccess>

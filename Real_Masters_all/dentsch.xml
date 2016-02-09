@@ -35,7 +35,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="101" authfilenumber="http://id.loc.gov/authorities/names/n85129645">University of Michigan. School of Dentistry.</corpname>
+        <corpname source="lcnaf" encodinganalog="101" authfilenumber="http://id.loc.gov/authorities/names/n85129645" ref="/agents/corporate_entities/20854">University of Michigan. School of Dentistry.</corpname>
       </origination>
       <unittitle encodinganalog="245">School of Dentistry (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1873/2010">1873-2010</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">87316 BImu Bimu C121 2</unitid>
@@ -182,27 +183,27 @@
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7231">Dentistry--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7232">Dentists--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Buildings.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88628334">University of Michigan. Dental Research Institute.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Societies, etc.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85129645">University of Michigan. School of Dentistry.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Student notebooks.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79055095">W. K. Kellogg Foundation.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Washtenaw County Dental Association (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Buildings.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88628334" ref="/agents/corporate_entities/22338">University of Michigan. Dental Research Institute.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Students.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Students--Societies, etc.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85129645" ref="/agents/corporate_entities/20854">University of Michigan. School of Dentistry.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Student notebooks.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79055095" ref="/agents/corporate_entities/22564">W. K. Kellogg Foundation.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17844">Washtenaw County Dental Association (Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5859">Greek letter societies--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6112">Students, Foreign--Michigan--Ann Arbor.</subject>
-        <persname source="lcnaf" encodinganalog="700">Hoff, Nelville Soule, 1854-1926.</persname>
-        <persname source="lcnaf" encodinganalog="700">Lyons, Chalmers John, 1874-1935.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr89010212">Taft, J. (Jonathan), 1820-1903.</persname>
-        <persname source="lcnaf" encodinganalog="700">Ward, Marcus Llewellyn, 1875-1963.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33970">Hoff, Nelville Soule, 1854-1926.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33498">Lyons, Chalmers John, 1874-1935.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr89010212" ref="/agents/people/33191">Taft, J. (Jonathan), 1820-1903.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29542">Ward, Marcus Llewellyn, 1875-1963.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4126">Dentistry--United States.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3760">Offices.</subject>
-        <corpname source="lcnaf" encodinganalog="610">School of Dentistry Building (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85129645">University of Michigan. School of Dentistry.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18104">School of Dentistry Building (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85129645" ref="/agents/corporate_entities/20854">University of Michigan. School of Dentistry.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
@@ -6378,7 +6379,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Archived version of the School of Dentistry website as it appeared on May 15, 2002. Documents the academic programs, accomplishments, resources, events, and people at the School of Dentistry. Content includes important news and announcements, publications (such as newsletters and course catalogs), and information about admissions, curriculum, degree requirements, faculty, and the overall mission of the School)</p></odd></c03>
+            <odd>
+              <p>(Archived version of the School of Dentistry website as it appeared on May 15, 2002. Documents the academic programs, accomplishments, resources, events, and people at the School of Dentistry. Content includes important news and announcements, publications (such as newsletters and course catalogs), and information about admissions, curriculum, degree requirements, faculty, and the overall mission of the School)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
@@ -6394,7 +6398,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Archived version of the School of Dentistry website as it appeared on June 23, 2003. Documents the academic programs, accomplishments, resources, events, and people at the School of Dentistry. Content includes important news and announcements, publications (such as newsletters and course catalogs), and information about admissions, curriculum, degree requirements, faculty, and the overall mission of the School)</p></odd></c03>
+            <odd>
+              <p>(Archived version of the School of Dentistry website as it appeared on June 23, 2003. Documents the academic programs, accomplishments, resources, events, and people at the School of Dentistry. Content includes important news and announcements, publications (such as newsletters and course catalogs), and information about admissions, curriculum, degree requirements, faculty, and the overall mission of the School)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
@@ -6410,7 +6417,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Archived version of the School of Dentistry website as it appeared on May 15, 2008. Documents the academic programs, accomplishments, resources, events, and people at the School of Dentistry. Content includes important news and announcements, publications (such as newsletters and course catalogs), and information about admissions, curriculum, degree requirements, faculty, and the overall mission of the School)</p></odd></c03>
+            <odd>
+              <p>(Archived version of the School of Dentistry website as it appeared on May 15, 2008. Documents the academic programs, accomplishments, resources, events, and people at the School of Dentistry. Content includes important news and announcements, publications (such as newsletters and course catalogs), and information about admissions, curriculum, degree requirements, faculty, and the overall mission of the School)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>

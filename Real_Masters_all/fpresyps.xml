@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">First United Presbyterian Church (Ypsilanti, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/20835">First United Presbyterian Church (Ypsilanti, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">First United Presbyterian Church (Ypsilanti, Mich.) records <unitdate type="inclusive" encodinganalog="245$f" normal="1829/1979">1829-1979</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">86931 Ba 2</unitid>
@@ -78,12 +79,12 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">First Congregational Society (Ypsilanti, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">First Presbyterian Church (Ypsilanti, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">First United Presbyterian Church (Ypsilanti, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Congregational churches--Michigan--Ypsilanti.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17414">First Congregational Society (Ypsilanti, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17416">First Presbyterian Church (Ypsilanti, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20835">First United Presbyterian Church (Ypsilanti, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21452">Congregational churches--Michigan--Ypsilanti.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7823">Registers of births, etc.--Michigan--Ypsilanti.</subject>
-        <corpname source="lcnaf" encodinganalog="610">United Presbyterian Church in the U.S.A.--Michigan--Ypsilanti.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17442">United Presbyterian Church in the U.S.A.--Michigan--Ypsilanti.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7157">Women--Michigan--Ypsilanti--Societies and clubs.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80006284.html" ref="/subjects/999">Ypsilanti (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7746">Women--Religious life--Michigan--Ypsilanti.</subject>
@@ -91,8 +92,8 @@
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3962">Churches--Michigan--Ypsilanti.</subject>
-        <corpname source="lcnaf" encodinganalog="610">First United Presbyterian Church (Ypsilanti, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">First Presbyterian Church (Ypsilanti, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20835">First United Presbyterian Church (Ypsilanti, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17416">First Presbyterian Church (Ypsilanti, Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4288">Presbyterian churches--Michigan--Ypsilanti.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1865">Ypsilanti (Mich.)--Churches.</geogname>
       </controlaccess>

@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Butler, Irene Linda Lather, 1901-1991.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30555">Butler, Irene Linda Lather, 1901-1991.</persname>
       </origination>
       <unittitle encodinganalog="245">Irene Linda Lather Butler papers <unitdate type="inclusive" encodinganalog="245$f" normal="1923/1991">1923-1991</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">93800 Aa 2</unitid>
@@ -77,7 +78,7 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6625">Artists--Michigan--Grand Rapids.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88119541">Butler, Irene Linda Lather.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88119541" ref="/agents/people/35393">Butler, Irene Linda Lather.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6626">Courtship.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79133151.html" ref="/subjects/1102">Grand Rapids (Mich.)</geogname>
         <genreform source="aat" encodinganalog="655" ref="/subjects/3213">Love letters.</genreform>
@@ -89,7 +90,7 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Butler, William.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30193">Butler, William.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

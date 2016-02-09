@@ -27,7 +27,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Meyers, Allen H., 1908-1976.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28899">Meyers, Allen H., 1908-1976.</persname>
       </origination>
       <unittitle encodinganalog="245">Allen H. Meyers Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1935/1971">1935-1971</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">85285 Aa/2</unitid>
@@ -81,7 +82,7 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6782">Aeronautics.</subject>
-        <persname source="lcnaf" encodinganalog="600">Meyers, Allen H., 1908-1976.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28899">Meyers, Allen H., 1908-1976.</persname>
         <geogname source="local" encodinganalog="691" ref="/subjects/834">Tecumseh (Mich.)--Businesses.</geogname>
       </controlaccess>
       <controlaccess>
@@ -92,9 +93,9 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4754">Industrial buildings--Michigan--Tecumseh.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3639">Interiors.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3615">Laborers.</subject>
-        <persname source="lcnaf" encodinganalog="600">Meyers, Allen H., 1908-1976.</persname>
-        <persname source="lcnaf" encodinganalog="600">Meyers, Gladys.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Meyers Aircraft Company.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28899">Meyers, Allen H., 1908-1976.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33243">Meyers, Gladys.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21737">Meyers Aircraft Company.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4755">Submarines.</subject>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/574">Tecumseh (Mich.)--Airplane industry.</geogname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/575">Tecumseh (Mich.)--Industrial buildings.</geogname>
@@ -102,7 +103,7 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79043370">Hughes, Howard, 1905-1976.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79043370" ref="/agents/people/28646">Hughes, Howard, 1905-1976.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Hubbell, Theodore H.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33072">Hubbell, Theodore H.</persname>
       </origination>
       <unittitle encodinganalog="245">Theodore H. Hubbell papers <unitdate type="inclusive" encodinganalog="245$f" normal="1833/1988">1833-1988</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1852/1970">1852-1970</unitdate></unittitle>
       <abstract>Professor of entomology at the University of Michigan. Personal and professional papers of Hubbell and his wife Grace Griffin Hubbell; also collected genealogical and family papers relating to the Hubbell and Hussey families (Grace Griffin Hubbell's mother was Lenora Hussey Griffin); Hussey family series includes papers of John Milton and Mary C. Hussey and their children and relate to John M. Hussey's Civil War service, Ohio agriculture and Grange activities and family life and customs; Hubbell family series includes papers of Clarence W. and Winifred Waters Hubbell relating in part to his work as engineer in the Philippines, 1907-1913; and collected Hubbell family photos and albums, including views of Benzonia, Michigan family farm and relating to C. W. Hubbell's service as engineer in the Philippine Islands, 1909-1911; also personal photograph series, including various residences of Hubbell, his scientific field trips to Tennessee, Florida, and the Philippines, and postcard views of Michigan communities.</abstract>
@@ -90,17 +91,17 @@
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7113">Agriculture--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8360">Entomology.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no00039433">Hubbell, Theodore Huntington, 1897-1989.</persname>
-        <famname source="lcnaf" encodinganalog="600">Hubbell family.</famname>
-        <famname source="lcnaf" encodinganalog="600">Hussey family.</famname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no00039433" ref="/agents/people/34915">Hubbell, Theodore Huntington, 1897-1989.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1333">Hubbell family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1602">Hussey family.</famname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1578">Ohio.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2103">Ohio--Social life and customs.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50082367">National Grange.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50082367" ref="/agents/corporate_entities/21998">National Grange.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/944">Philippines--History--1898-1946.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/909">United States--History--Civil War, 1861-1865.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Zoology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79115934">University of Michigan. Museum of Zoology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19260">University of Michigan. Dept. of Zoology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79115934" ref="/agents/corporate_entities/22720">University of Michigan. Museum of Zoology.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5764">Women--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
@@ -111,24 +112,24 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3944">Dwellings.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n83069938.html" ref="/subjects/2105">Fort Sill (Okla.)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82137791.html" ref="/subjects/1094">Frankfort (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no00039433">Hubbell, Theodore Huntington, 1897-1989.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no00039433" ref="/agents/people/34915">Hubbell, Theodore Huntington, 1897-1989.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1976">Milford (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">University Museums Building (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20340">University Museums Building (University of Michigan)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/944">Philippines--History--1898-1946.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">University Hall (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22990">University Hall (University of Michigan)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5737">World War, 1914-1918.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Hubbell, Clarence, 1870-1950.</persname>
-        <persname source="lcnaf" encodinganalog="700">Hubbell, Grace Griffin.</persname>
-        <persname source="lcnaf" encodinganalog="700">Hubbell, Winifred.</persname>
-        <persname source="lcnaf" encodinganalog="700">Hussey, John Milton.</persname>
-        <persname source="lcnaf" encodinganalog="700">Hussey, Mary C.</persname>
-        <persname source="lcnaf" encodinganalog="700">Hussey, Roland F.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008189002">Hussey, William Joseph, 1862-1926.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no00039450">Rogers, J. Speed (James Speed), 1892-1955</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2007120169">Steere, Joseph Beal, 1842-1940.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31093">Hubbell, Clarence, 1870-1950.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34975">Hubbell, Grace Griffin.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35867">Hubbell, Winifred.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28422">Hussey, John Milton.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30714">Hussey, Mary C.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34406">Hussey, Roland F.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008189002" ref="/agents/people/27638">Hussey, William Joseph, 1862-1926.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no00039450" ref="/agents/people/32863">Rogers, J. Speed (James Speed), 1892-1955</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2007120169" ref="/agents/people/35250">Steere, Joseph Beal, 1842-1940.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

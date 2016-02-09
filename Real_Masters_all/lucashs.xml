@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Lucas, Henry Stephen, 1889-1961.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33822">Lucas, Henry Stephen, 1889-1961.</persname>
       </origination>
       <unittitle encodinganalog="245">Henry Stephen Lucas collection <unitdate type="inclusive" encodinganalog="245$f" normal="1846/1930">1846-1930</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851749 mf 511c-mf 513c; Aa 1</unitid>
@@ -89,7 +90,7 @@
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/866">United States--Emigration and immigration.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1119">Holland (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="630" ref="/subjects/8909">Netherlanders in America.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Washington.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22150">University of Washington.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1692">Netherlands--Emigration and immigration.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7048">Immigrants--United States.</subject>
       </controlaccess>

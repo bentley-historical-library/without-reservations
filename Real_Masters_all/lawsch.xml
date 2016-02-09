@@ -43,7 +43,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -54,7 +55,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan--Law School.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/18699">University of Michigan--Law School.</corpname>
       </origination>
       <unittitle encodinganalog="245">Law School (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1852/2010">1852-2010</unitdate></unittitle>
       <abstract>Records of the Law School document the evolution of legal education at the University of Michigan as well as tenures of various deans and faculty. Documentation includes historical and class files; student organizations and activities; planning and construction of Law School buildings; information on William W. Cook and his bequest; topical files; deans' correspondence; reports and minutes. Also included are materials related to the Thomas M Cooley and William W. Cook lecture series and portraits of faculty and students, photographs of activities of the Judge Advocate General's School held at the Law School during World War II, the construction of the Law Quadrangle and Law Library addition, and student activities.</abstract>
@@ -248,26 +249,26 @@
     <controlaccess>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Hutchins Hall (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Lawyers' Club (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Administration.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Buildings.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Law School.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22861">Hutchins Hall (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17486">Lawyers' Club (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Administration.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Buildings.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Law School.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5850">Law.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79043447">Acheson, Dean, 1893-1971.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Dominick's (Restaurant: Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Law Quadrangle (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Judge Advocate General's School (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Buildings.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87101574">University of Michigan. Law Library.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Law School.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79043447" ref="/agents/people/28411">Acheson, Dean, 1893-1971.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21764">Dominick's (Restaurant: Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19786">Law Quadrangle (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22528">United States. Judge Advocate General's School (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Buildings.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87101574" ref="/agents/corporate_entities/17727">University of Michigan. Law Library.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Law School.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Students--Social life and customs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Students.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2188">Ann Arbor (Mich.)--Restaurants.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5710">African Americans.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8773">Restaurants--Michigan--Ann Arbor.</subject>
@@ -287,15 +288,15 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Allen, Frances Alfred, 1919-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2001090656">Bates, Henry Moore, 1869-1949.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80062320">Bollinger, Lee C., 1946-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88002366">Hutchins, Harry B. (Harry Burns), 1847-1930.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no97025557">Joiner, Charles Wycliffe, 1916-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82153768">Sandalow, Terrance, 1934-</persname>
-        <persname source="lcnaf" encodinganalog="700">Smith, Allan Frederick, 1911-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80098082">Stason, E. Blythe (Edwin Blythe), 1891-1972.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81120959">St. Antoine, Theodore J., 1929-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33078">Allen, Frances Alfred, 1919-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2001090656" ref="/agents/people/35952">Bates, Henry Moore, 1869-1949.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80062320" ref="/agents/people/31210">Bollinger, Lee C., 1946-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88002366" ref="/agents/people/28685">Hutchins, Harry B. (Harry Burns), 1847-1930.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no97025557" ref="/agents/people/27141">Joiner, Charles Wycliffe, 1916-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82153768" ref="/agents/people/27225">Sandalow, Terrance, 1934-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30301">Smith, Allan Frederick, 1911-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80098082" ref="/agents/people/28371">Stason, E. Blythe (Edwin Blythe), 1891-1972.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81120959" ref="/agents/people/34883">St. Antoine, Theodore J., 1929-</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -16040,7 +16041,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Archived version of the Law School website as it appeared on May 15, 2002.  Documents the academic programs, accomplishments, resources, events, and people at the Law School. Content includes important news and announcements, publications such as newsletters and the student handbook, and information about admissions, curriculum, degree requirements, alumni relations, and the overall mission of School. Several sections of the site were not captured in this web crawl; coverage is best in the prospective and current student sections.  Also included is the Law Library website, which presents information on policies, procedures, resources, and the mission of the Law Library.)</p></odd></c03>
+            <odd>
+              <p>(Archived version of the Law School website as it appeared on May 15, 2002.  Documents the academic programs, accomplishments, resources, events, and people at the Law School. Content includes important news and announcements, publications such as newsletters and the student handbook, and information about admissions, curriculum, degree requirements, alumni relations, and the overall mission of School. Several sections of the site were not captured in this web crawl; coverage is best in the prospective and current student sections.  Also included is the Law Library website, which presents information on policies, procedures, resources, and the mission of the Law Library.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
@@ -16056,7 +16060,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Archived version of the Law School website as it appeared on June 23, 2003. [Note that some dates on the website, such as the copyright date, are generated dynamically and therefore do not reflect the state of the site on its actual capture date.] Documents academic programs, accomplishments, resources, events, and people at the Law School. Content includes important news and announcements, publications such as newsletters and the student handbook, and information about admissions, curriculum, centers and programs, alumni and development, and the overall mission of the School.  Also included is the Law Library website, which presents information on policies, procedures, resources, and the mission of the Law Library.)</p></odd></c03>
+            <odd>
+              <p>(Archived version of the Law School website as it appeared on June 23, 2003. [Note that some dates on the website, such as the copyright date, are generated dynamically and therefore do not reflect the state of the site on its actual capture date.] Documents academic programs, accomplishments, resources, events, and people at the Law School. Content includes important news and announcements, publications such as newsletters and the student handbook, and information about admissions, curriculum, centers and programs, alumni and development, and the overall mission of the School.  Also included is the Law Library website, which presents information on policies, procedures, resources, and the mission of the Law Library.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
@@ -16072,7 +16079,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Archived version of the Law School website as it appeared on May 19, 2006. [Note that some dates on the website, such as the copyright date, are generated dynamically and therefore do not reflect the state of the site on its actual capture date.] Documents academic programs, accomplishments, resources, events, and people at the Law School. Content includes important news and announcements, publications such as newsletters and the student handbook, and information about admissions, curriculum, centers and programs, alumni and development, and the overall mission of the School.  Also included is the Law Library website, which presents information on policies, procedures, resources, and the mission of the Law Library.)</p></odd></c03>
+            <odd>
+              <p>(Archived version of the Law School website as it appeared on May 19, 2006. [Note that some dates on the website, such as the copyright date, are generated dynamically and therefore do not reflect the state of the site on its actual capture date.] Documents academic programs, accomplishments, resources, events, and people at the Law School. Content includes important news and announcements, publications such as newsletters and the student handbook, and information about admissions, curriculum, centers and programs, alumni and development, and the overall mission of the School.  Also included is the Law Library website, which presents information on policies, procedures, resources, and the mission of the Law Library.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
@@ -16088,7 +16098,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Archived version of the Law School website as it appeared on May 14, 2008. Documents academic programs, accomplishments, resources, events, and people at the Law School. Content includes important news and announcements, publications such as newsletters, and information about admissions, curriculum, centers and programs, alumni and development, and the overall mission of the School. [Note that left-hand menu options on this archived website with the word 'Expand' in them and a repeated title will generate an error -- try accessing these links from the 'site map' instead.] Also included is the Law Library website, which presents information on policies, procedures, resources, and the mission of the Law Library.)</p></odd></c03>
+            <odd>
+              <p>(Archived version of the Law School website as it appeared on May 14, 2008. Documents academic programs, accomplishments, resources, events, and people at the Law School. Content includes important news and announcements, publications such as newsletters, and information about admissions, curriculum, centers and programs, alumni and development, and the overall mission of the School. [Note that left-hand menu options on this archived website with the word 'Expand' in them and a repeated title will generate an error -- try accessing these links from the 'site map' instead.] Also included is the Law Library website, which presents information on policies, procedures, resources, and the mission of the Law Library.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>

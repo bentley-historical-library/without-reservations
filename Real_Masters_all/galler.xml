@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Galler, Bernard A.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28122">Galler, Bernard A.</persname>
       </origination>
       <unittitle encodinganalog="245">Bernard A. Galler Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1956/1996">1956-1996</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1960/1986">1960-1986</unitdate></unittitle>
       <abstract>University of Michigan professor of mathematics, charter member of the department of computer and communication sciences; papers include biographical information; correspondence, 1959-1993; files relating to his participation on various boards and professional organizations; and files pertaining to his University of Michigan research activities and to his participation in university affairs and governance.</abstract>
@@ -91,17 +92,17 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80015740">American Federation of Information Processing Societies.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n78096869">Association for Computing Machinery.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80015740" ref="/agents/corporate_entities/21169">American Federation of Information Processing Societies.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n78096869" ref="/agents/corporate_entities/21663">Association for Computing Machinery.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7916">Computers--Study and teaching.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Corporation for Research and Educational Networking.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18726">Corporation for Research and Educational Networking.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7917">Computer science.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88647701">Galler, Bernard A., 1928-</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80094504">University of Michigan. College of Engineering.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88650382">University of Michigan. Computing Center.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Computer and Communication Sciences.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Electrical Engineering and Computer Sciences.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88647701" ref="/agents/people/35131">Galler, Bernard A., 1928-</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80094504" ref="/agents/corporate_entities/17661">University of Michigan. College of Engineering.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88650382" ref="/agents/corporate_entities/20287">University of Michigan. Computing Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19853">University of Michigan. Dept. of Computer and Communication Sciences.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22736">University of Michigan. Dept. of Electrical Engineering and Computer Sciences.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

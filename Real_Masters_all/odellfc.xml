@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">O'Dell, Frederick C. (Frederick Charles)</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/31986">O'Dell, Frederick C. (Frederick Charles)</persname>
       </origination>
       <unittitle encodinganalog="245">Frederick C. O'Dell Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1918/1919">1918-1919</unitdate></unittitle>
       <abstract>Master engineer of 1st Battalion, 310th U.S. Army Engineers, in charge of the Army Topographical Office in Archangel, Russia during the Allied intervention in Russia, 1918-1920, the "Polar Bear Expedition." Collection includes maps, architectural drawings, photographs, and miscellanea relating to the work of the 310th Engineers in Russia. Architectural drawings include plans for buildings and fortifications.</abstract>
@@ -96,7 +97,7 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">O'Dell, Frederick C. (Frederick Charles)</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31986">O'Dell, Frederick C. (Frederick Charles)</persname>
         <subject source="local" encodinganalog="690" authfilenumber="http://id.loc.gov/authorities/names/n2008059426" ref="/subjects/5619">Polar Bear Expedition.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/883">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
       </controlaccess>
@@ -110,7 +111,7 @@
         <subject source="local" encodinganalog="690" authfilenumber="http://id.loc.gov/authorities/names/n2008059426" ref="/subjects/5619">Polar Bear Expedition.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3720">Soldiers--American--Russia (Federation)</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/883">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Engineer Regiment, 310th.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18859">United States. Army. Engineer Regiment, 310th.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects: Maps</head>
@@ -118,7 +119,7 @@
         <subject source="local" encodinganalog="690" ref="/subjects/5652">Polar Bear Expedition--Maps.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2441">Soviet Union--History--Allied intervention, 1918-1920--Maps.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2442">Soviet Union--History--Revolution, 1917-1921--Campaigns--Maps.</geogname>
-        <corpname source="lcnaf" encodinganalog="710">United States. Army. Engineer Regiment, 310th.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/18859">United States. Army. Engineer Regiment, 310th.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

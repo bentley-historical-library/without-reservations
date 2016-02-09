@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Ann Arbor Junior Chamber of Commerce (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/22807">Ann Arbor Junior Chamber of Commerce (Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">Ann Arbor Junior Chamber of Commerce records <unitdate type="inclusive" encodinganalog="245$f" normal="1936/1985">1936-1985</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">8537 Bm 2; Bm Outsize</unitid>
@@ -82,13 +83,13 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Junior Chamber of Commerce (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22807">Ann Arbor Junior Chamber of Commerce (Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5705">Social service--Michigan--Ann Arbor--Societies, etc.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3532">African Americans--Women.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Junior Chamber of Commerce (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22807">Ann Arbor Junior Chamber of Commerce (Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3533">Clowns.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3534">Community service.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3535">Fund raising.</subject>

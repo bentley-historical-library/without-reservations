@@ -43,7 +43,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -54,7 +55,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Crary, Douglas D., 1910-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32954">Crary, Douglas D., 1910-</persname>
       </origination>
       <unittitle encodinganalog="245">Douglas D. Crary papers <unitdate type="inclusive" encodinganalog="245$f" normal="1943/2003">1943-2003</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1965/1973">1965-1973</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">91455 Aa 2</unitid>
@@ -98,22 +99,22 @@
       <controlaccess>
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html" ref="/subjects/860">Ann Arbor (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Art Association.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor (Mich.). Common Council.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82061924">Ann Arbor (Mich.). Planning Commission.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22429">Ann Arbor Art Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17397">Ann Arbor (Mich.). Common Council.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82061924" ref="/agents/corporate_entities/22026">Ann Arbor (Mich.). Planning Commission.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/857">Ann Arbor (Mich.)--Politics and government.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Campus Ecumenical Center (Ann Arbor, Mich.)</corpname>
-        <persname source="lcnaf" encodinganalog="600">Crary, Douglas D., 1910-</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no99005250">Huron River Watershed Council.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20664">Campus Ecumenical Center (Ann Arbor, Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32954">Crary, Douglas D., 1910-</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no99005250" ref="/agents/corporate_entities/19646">Huron River Watershed Council.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5686">Municipal government--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Administration.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Civil Affairs Training School (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Student housing.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Administration.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19523">United States. Civil Affairs Training School (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Student housing.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects: Visual Materials</head>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html" ref="/subjects/860">Ann Arbor (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Antiques Market.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21648">Ann Arbor Antiques Market.</corpname>
         <genreform source="lctgm" encodinganalog="655" ref="/subjects/3405">Antique stores--Michigan--Ann Arbor.</genreform>
         <genreform source="lctgm" encodinganalog="655" ref="/subjects/3406">Vaccinations--Michigan.</genreform>
       </controlaccess>

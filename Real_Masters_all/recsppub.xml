@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Department of Recreational Sports</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/21457">University of Michigan. Department of Recreational Sports</corpname>
       </origination>
       <unittitle encodinganalog="245">Department of Recreational Sports (University of Michigan) publications <unitdate type="inclusive" encodinganalog="245$f" normal="1976/2000">1976-2000</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">97144 Bimu 2</unitid>
@@ -81,9 +82,9 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Recreational Sports.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Sports.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Athletic Dept.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19570">University of Michigan. Dept. of Recreational Sports.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Sports.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21800">University of Michigan. Athletic Dept.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9880">Intramural sports--Michigan--Ann Arbor.</subject>
         <title source="aacr2" encodinganalog="740" ref="/subjects/110">Recreational drop-in schedule.</title>
         <title source="aacr2" encodinganalog="740" ref="/subjects/111">Recreational sports program and policy guide.</title>

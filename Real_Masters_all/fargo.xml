@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Fargo Engineering Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/22666">Fargo Engineering Company.</corpname>
       </origination>
       <unittitle encodinganalog="245">Fargo Engineering Company records <unitdate type="inclusive" encodinganalog="245$f" normal="1897/1951">1897-1951</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1910/1930">1910-1930</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">9543 Bb 2</unitid>
@@ -82,7 +83,7 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Fargo Engineering Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22666">Fargo Engineering Company.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7718">Civil engineering--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7719">Dams--Connecticut--Design and construction.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7720">Dams--Iowa--Design and construction.</subject>
@@ -91,7 +92,7 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7723">Dams--Texas--Design and construction.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7724">Dams--Wisconsin--Design and construction.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7725">Dams--Surveying.</subject>
-        <persname source="lcnaf" encodinganalog="600">Fargo, William G., 1867-1957.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32777">Fargo, William G., 1867-1957.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7726">Hydroelectric power plants--Connecticut.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7727">Hydroelectric power plants--Iowa.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7728">Hydroelectric power plants--Michigan.</subject>
@@ -105,7 +106,7 @@
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname source="lcnaf" encodinganalog="610">Fargo Engineering Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22666">Fargo Engineering Company.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4224">Dams--Connecticut.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4225">Dams--Iowa.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4226">Dams--Michigan.</subject>

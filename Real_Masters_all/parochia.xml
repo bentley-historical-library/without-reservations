@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Council About Parochiaid.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/19890">Council About Parochiaid.</corpname>
       </origination>
       <unittitle encodinganalog="245">Council About Parochiaid records <unitdate type="inclusive" encodinganalog="245$f" normal="1970/1978">1970-1978</unitdate></unittitle>
       <abstract>Michigan organization formed to oppose public aid to non-public schools and students, variously known as CAP, and the Council Against Parochiaid. Minutes of meetings, correspondence, and other materials relating to their support of Proposal C in the Michigan election of 1970, and their opposition to Proposal H (the Voucher Plan) in the election of 1978.</abstract>
@@ -85,7 +86,7 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7220">Elections--Michigan--1970.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5821">Elections--Michigan--1978.</subject>
         <subject source="local" encodinganalog="690" ref="/subjects/5630">Parochiaid.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Council About Parochiaid.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19890">Council About Parochiaid.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7123">Government aid to private schools--Michigan.</subject>
       </controlaccess>
     </controlaccess>

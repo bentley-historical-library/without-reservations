@@ -24,7 +24,8 @@
         <item>Original encoding from Word 10.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Michigan Citizen (Highland Park, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/19013">Michigan Citizen (Highland Park, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245"> Michigan Citizen Records<unitdate type="inclusive" encodinganalog="245$f"> 1933-2015 </unitdate> <unitdate type="bulk" encodinganalog="245$g"> 1990-2010 </unitdate></unittitle>
       <physdesc altrender="part">
@@ -107,7 +108,7 @@
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1040">Benton Harbor (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/933">Detroit (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1785">Highland Park (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Citizen (Highland Park, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19013">Michigan Citizen (Highland Park, Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9338">Newspapers--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1251">Wayne County (Mich.)</geogname>
       </controlaccess>
@@ -3915,7 +3916,10 @@
               </daodesc>
             </dao>
           </did>
-        <odd><p>(Photo Archive for the Michigan Citizen containing image files of newspaper filler pieces, permanent ads, customer promo ads, and the Detroit Business Directory from 1998 to 1999.)</p></odd></c02>
+          <odd>
+            <p>(Photo Archive for the Michigan Citizen containing image files of newspaper filler pieces, permanent ads, customer promo ads, and the Detroit Business Directory from 1998 to 1999.)</p>
+          </odd>
+        </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [7900184427818536159]">46</container>

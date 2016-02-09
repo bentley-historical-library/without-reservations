@@ -27,7 +27,8 @@
         <item>Edited to reflect migration of content from CD-ROM to Deep Blue JMBG</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Matuszewski, Walter C.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28688">Matuszewski, Walter C.</persname>
       </origination>
       <unittitle encodinganalog="245">Walter C. Matuszewski photograph collection <unitdate type="inclusive" encodinganalog="245$f" normal="1919">1919</unitdate></unittitle>
       <abstract>Walter C. Matuszewski served as a private in Company G, 339th Infantry, during the American intervention at Archangel, Russia, the "Polar Bear Expedition." Group portrait of Company G, 339th U.S. Infantry taken at Brest, France, June 1919.</abstract>
@@ -81,9 +82,9 @@
       </p>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Matuszewski, Walter C.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28688">Matuszewski, Walter C.</persname>
         <geogname source="lcnaf" encodinganalog="651" ref="/subjects/760">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Infantry, 339th. Company G.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21981">United States. Army. Infantry, 339th. Company G.</corpname>
         <subject source="local" encodinganalog="690" authfilenumber="http://id.loc.gov/authorities/names/n2008059426" ref="/subjects/5619">Polar Bear Expedition.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4696">Soldiers--American--France.</subject>
       </controlaccess>

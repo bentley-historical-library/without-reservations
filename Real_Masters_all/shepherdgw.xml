@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2010 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n50023039">Shepherd, George W.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n50023039" ref="/agents/people/27628">Shepherd, George W.</persname>
       </origination>
       <unittitle encodinganalog="245">George W. Shepherd papers <unitdate type="inclusive" encodinganalog="245$f" normal="1919/1965">1919-1965</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1919/1939">1919-1939</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2014151 Aa 2</unitid>
@@ -88,14 +89,14 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80057046">Chiang, Kai-Shek 1887-1975.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80057046" ref="/agents/people/29114">Chiang, Kai-Shek 1887-1975.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/946">China--History--Republic, 1912-1949.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2795">Politics and government--1912-1949.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2796">Social conditions.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10075">Missionaries--China--20th century.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no94035480">New Life Movement.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50023039">Shepherd, George W.</persname>
-        <persname source="lcnaf" encodinganalog="600">Shepherd, Clara Sargent.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no94035480" ref="/agents/corporate_entities/20583">New Life Movement.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50023039" ref="/agents/people/27628">Shepherd, George W.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35023">Shepherd, Clara Sargent.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
@@ -106,7 +107,7 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Shepherd, Clara Sargent.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35023">Shepherd, Clara Sargent.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

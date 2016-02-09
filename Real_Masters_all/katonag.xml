@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Katona, George, 1901-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/29034">Katona, George, 1901-</persname>
       </origination>
       <unittitle encodinganalog="245">George Katona Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1929/1981">1929-1981</unitdate></unittitle>
       <abstract>Professor of economics and psychology, and research coordinator for the Survey Research Center, Institute for Social Research, at the University of Michigan. Research reports, addresses and speeches, miscellaneous correspondence, personal material, and photographs.</abstract>
@@ -80,15 +81,15 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80004235">Katona, George, 1901-1981</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80004235" ref="/agents/people/28525">Katona, George, 1901-1981</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6669">Social surveys--Research.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Institute for Social Research.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19820">University of Michigan. Institute for Social Research.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3567">Charitable organizations.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80004235">Katona, George, 1901-1981</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80004235" ref="/agents/people/28525">Katona, George, 1901-1981</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

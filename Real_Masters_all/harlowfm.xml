@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Harlow family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/1290">Harlow family.</famname>
       </origination>
       <unittitle encodinganalog="245">Harlow family papers <unitdate type="inclusive" encodinganalog="245$f" normal="1836/1950">1836-1950</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851420 Aa 2</unitid>
@@ -81,7 +82,7 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <famname source="lcnaf" encodinganalog="600">Harlow family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1290">Harlow family.</famname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8135">Iron industry and trade--Michigan--Marquette.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/997">Marquette (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/938">Upper Peninsula (Mich.)</geogname>
@@ -90,12 +91,12 @@
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4421">Bridges--Michigan--Marquette.</subject>
-        <persname source="lcnaf" encodinganalog="600">Clark, Frederick Owen, b. 1842.</persname>
-        <famname source="lcnaf" encodinganalog="600">Clark family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33602">Clark, Frederick Owen, b. 1842.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1612">Clark family.</famname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4422">Dwellings--Michigan--Marquette.</subject>
-        <persname source="lcnaf" encodinganalog="600">Harlow, Amos R.</persname>
-        <persname source="lcnaf" encodinganalog="600">Harlow, Ella.</persname>
-        <famname source="lcnaf" encodinganalog="600">Harlow family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/27276">Harlow, Amos R.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31418">Harlow, Ella.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1290">Harlow family.</famname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/324">Marquette (Mich.)--Bridges.</geogname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/325">Marquette (Mich.)--Dwellings.</geogname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/326">Marquette (Mich.)--Sculpture.</geogname>
@@ -103,9 +104,9 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Clark, Frederick Owen, b. 1842.</persname>
-        <persname source="lcnaf" encodinganalog="700">Harlow, Amos R.</persname>
-        <persname source="lcnaf" encodinganalog="700">Harlow, Ellen J.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33602">Clark, Frederick Owen, b. 1842.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27276">Harlow, Amos R.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/36033">Harlow, Ellen J.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

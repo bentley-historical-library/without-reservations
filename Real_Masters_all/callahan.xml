@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Callahan, Patrick Henry, 1866-1940.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/31516">Callahan, Patrick Henry, 1866-1940.</persname>
       </origination>
       <unittitle encodinganalog="245">Patrick Henry Callahan papers <unitdate type="inclusive" encodinganalog="245$f" normal="1925/1938">1925-1938</unitdate>, <unitdate type="inclusive" encodinganalog="245$f">undated</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85894 Aa 2</unitid>
@@ -75,10 +76,10 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Association of Catholics Favoring Prohibition.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Bryan, William Jennings, 1860-1925.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Catholic Church.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Democratic Party (U.S.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21965">Association of Catholics Favoring Prohibition.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32814">Bryan, William Jennings, 1860-1925.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20943">Catholic Church.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19754">Democratic Party (U.S.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6663">Presidents--United States--Election--1928.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6664">Presidents--United States--Election--1932.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5878">Prohibition--United States.</subject>
@@ -90,7 +91,7 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Christgau, Oscar Gottlieb.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35356">Christgau, Oscar Gottlieb.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

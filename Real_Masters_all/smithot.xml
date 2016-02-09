@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Smith, Otis Milton, 1922-1993.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/34384">Smith, Otis Milton, 1922-1993.</persname>
       </origination>
       <unittitle encodinganalog="245">Otis M. Smith Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1949/1993">1949-1993</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1957/1971">1957-1971</unitdate></unittitle>
       <abstract>Attorney, Michigan state official, justice of the Michigan Supreme Court, 1961-1966, member of the University of Michigan Board of Regents, 1967-1971, general counsel and vice president of the General Motors Corporation. Series consist of Personal which includes biographical information and photographs; Speeches (1963-1992); Michigan Public Service Commission files (1957-1959); Auditor General files (1959-1961); General Motors Corporation files (1967-1969); University of Michigan Board of Regents files (1967-1971) which documents in part the Black Action Movement, the controversy over the role of R.O.T.C., and other issues involving the administration of the university; campaign files (1966-1968); and Michigan Supreme Court files (1961-1966).</abstract>
@@ -88,26 +89,26 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname encodinganalog="610" source="lcnaf">Black Action Movement (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79079577">General Motors Corporation.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82140150">Michigan. Office of the Auditor General.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81074669">Michigan. Supreme Court.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83162856">Michigan. Public Service Commission.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n00093572">Smith, Otis Milton, 1922-1994.</persname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Administration.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998">University of Michigan. Board of Regents.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80013543">United States. Army. Reserve Officers' Training Corps.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/21428">Black Action Movement (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79079577" ref="/agents/corporate_entities/17535">General Motors Corporation.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82140150" ref="/agents/corporate_entities/20743">Michigan. Office of the Auditor General.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81074669" ref="/agents/corporate_entities/19121">Michigan. Supreme Court.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83162856" ref="/agents/corporate_entities/20202">Michigan. Public Service Commission.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n00093572" ref="/agents/people/33520">Smith, Otis Milton, 1922-1994.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Administration.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998" ref="/agents/corporate_entities/18212">University of Michigan. Board of Regents.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80013543" ref="/agents/corporate_entities/18659">United States. Army. Reserve Officers' Training Corps.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79041741">Douglas, William O. (William Orville), 1898-1980.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79041741" ref="/agents/people/32997">Douglas, William O. (William Orville), 1898-1980.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4246">Judges--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79055297">Kennedy, John F. (John Fitzgerald), 1917-1963.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50040903">Marshall, Thurgood, 1908-1993.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79055297" ref="/agents/people/27145">Kennedy, John F. (John Fitzgerald), 1917-1963.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50040903" ref="/agents/people/34075">Marshall, Thurgood, 1908-1993.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4067">Political elections.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n00093572">Smith, Otis Milton, 1922-1994.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79029742">Truman, Harry S., 1884-1972.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80084463">Williams, G. Mennen, 1911-1988.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n00093572" ref="/agents/people/33520">Smith, Otis Milton, 1922-1994.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79029742" ref="/agents/people/27998">Truman, Harry S., 1884-1972.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80084463" ref="/agents/people/30999">Williams, G. Mennen, 1911-1988.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

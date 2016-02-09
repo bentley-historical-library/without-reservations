@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Services for Students with Disabilities.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/20897">University of Michigan. Services for Students with Disabilities.</corpname>
       </origination>
       <unittitle encodinganalog="245">Services for Students with Disabilities (University of Michigan) publications. <unitdate type="inclusive" encodinganalog="245$f" normal="1974/9999">1974-[ongoing]</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1974/1994">1974-1994</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">03110 Bimu 2</unitid>
@@ -78,13 +79,13 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Services for Students with Disabilities.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Disabled Student Services Program.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Office of Disabled Student Services.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20897">University of Michigan. Services for Students with Disabilities.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19376">University of Michigan. Disabled Student Services Program.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19676">University of Michigan. Office of Disabled Student Services.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10211">College students with disabilities--Michigan--Ann Arbor.</subject>
-        <persname source="lcnaf" encodinganalog="700">Singer, Emily K.--University of Michigan Learning disabilities handbook for students, faculty and administration, 1991.</persname>
-        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Disabled Student Services Program.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Office of Disabled Student Services.</corpname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29249">Singer, Emily K.--University of Michigan Learning disabilities handbook for students, faculty and administration, 1991.</persname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/19376">University of Michigan. Disabled Student Services Program.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/19676">University of Michigan. Office of Disabled Student Services.</corpname>
         <title source="aacr2" encodinganalog="740" ref="/subjects/158">Disability resource guide for the University of Michigan.</title>
         <title source="aacr2" encodinganalog="740" ref="/subjects/159">Meeting the challenge guide to barrier free learning.</title>
         <title source="aacr2" encodinganalog="740" ref="/subjects/160">Resource handbook for students with handicaps at the University of Michigan.</title>

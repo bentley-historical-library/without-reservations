@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n83029012">University of Michigan. Mental Health Research Institute.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n83029012" ref="/agents/corporate_entities/22178">University of Michigan. Mental Health Research Institute.</corpname>
       </origination>
       <unittitle encodinganalog="245">Mental Health Research Institute (University of Michigan) Publications <unitdate type="inclusive" encodinganalog="245$f" normal="1957/1999">1957-1999</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">9741 Bimu C6 2</unitid>
@@ -81,8 +82,8 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83029012">University of Michigan. Mental Health Research Institute.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Alumni and alumnae.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83029012" ref="/agents/corporate_entities/22178">University of Michigan. Mental Health Research Institute.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Alumni and alumnae.</corpname>
         <title source="aacr2" encodinganalog="740" ref="/subjects/88">Markey grant progress report.</title>
         <title source="aacr2" encodinganalog="740" ref="/subjects/89">Construction of hypothesis model for concept identification.</title>
         <title source="aacr2" encodinganalog="740" ref="/subjects/90">MHRI newsletter.</title>

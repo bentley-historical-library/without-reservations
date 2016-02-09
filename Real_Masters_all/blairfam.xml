@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Blair family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/1402">Blair family.</famname>
       </origination>
       <unittitle encodinganalog="245">Austin Blair Family Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1849/1981">1849-1981</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1895/1920">1895-1920</unitdate></unittitle>
       <abstract>Materials collected by Helen Blair Lamar and subsequently donated to the Blair Society for Genealogical Research and pertaining to the Austin Blair family of Michigan and related family lines, the Hanks family and the North family. The collection, arranged by family name and then by individual, includes original with some typed transcripts of family letters, diaries, legal documents, poetry, personal items, and visual materials.</abstract>
@@ -91,29 +92,29 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <famname source="lcnaf" encodinganalog="600">Blair family.</famname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no97005930">Blair, Austin, 1818-1894.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85170646">Blair Society for Genealogical Research.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n90620372">Blair, Charles A. (Charles Austin), 1854-1912.</persname>
-        <persname source="lcnaf" encodinganalog="600">Blair, Effie.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1402">Blair family.</famname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no97005930" ref="/agents/people/35590">Blair, Austin, 1818-1894.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85170646" ref="/agents/corporate_entities/18858">Blair Society for Genealogical Research.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n90620372" ref="/agents/people/35969">Blair, Charles A. (Charles Austin), 1854-1912.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29153">Blair, Effie.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1317">Florida--History.</geogname>
-        <famname source="lcnaf" encodinganalog="600">Hanks family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1411">Hanks family.</famname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/924">Jackson (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6374">Judges' spouses--Michigan--Jackson.</subject>
-        <famname source="lcnaf" encodinganalog="600">North family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1289">North family.</famname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6375">Pineapple industry--Florida.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6376">Women--Michigan--Jackson.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1318">Wyoming--History.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <famname source="lcnaf" encodinganalog="600">Blair family.</famname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no97005930">Blair, Austin, 1818-1894.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85170646">Blair Society for Genealogical Research.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n90620372">Blair, Charles A. (Charles Austin), 1854-1912.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80045878">Greeley, Horace, 1811-1872.</persname>
-        <famname source="lcnaf" encodinganalog="600">Hanks family.</famname>
-        <famname source="lcnaf" encodinganalog="600">North family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1402">Blair family.</famname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no97005930" ref="/agents/people/35590">Blair, Austin, 1818-1894.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85170646" ref="/agents/corporate_entities/18858">Blair Society for Genealogical Research.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n90620372" ref="/agents/people/35969">Blair, Charles A. (Charles Austin), 1854-1912.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80045878" ref="/agents/people/30560">Greeley, Horace, 1811-1872.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1411">Hanks family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1289">North family.</famname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1319">Portage Lake (Jackson County, Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6375">Pineapple industry--Florida.</subject>
       </controlaccess>

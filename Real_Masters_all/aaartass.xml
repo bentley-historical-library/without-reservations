@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Ann Arbor Art Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/22429">Ann Arbor Art Association.</corpname>
       </origination>
       <unittitle encodinganalog="245">Ann Arbor Art Association Records <unitdate type="inclusive" encodinganalog="245$f" normal="1909/1969">1909-1969</unitdate></unittitle>
       <abstract>Constitution, by-laws, minutes of meetings, reports, membership lists, scrapbooks, correspondence and exhibit materials.</abstract>

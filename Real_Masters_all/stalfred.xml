@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">St. Alfred's Episcopal Church (Oxford, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/20584">St. Alfred's Episcopal Church (Oxford, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">St. Alfred's Episcopal Church, Oxford, Michigan, records <unitdate type="inclusive" encodinganalog="245$f" normal="1954/1996">1954-1996</unitdate></unittitle>
       <abstract>Administrative files, bishop's committee meeting minutes, correspondence, church financial records.</abstract>
@@ -90,13 +91,13 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">St. Alfred's Episcopal Church (Oxford, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Episcopal Church--Michigan--Oxford.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20584">St. Alfred's Episcopal Church (Oxford, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18160">Episcopal Church--Michigan--Oxford.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2836">Oxford (Mich.)--Church history.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <corpname source="lcnaf" encodinganalog="610">St. Alfred's Episcopal Church (0xford, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21760">St. Alfred's Episcopal Church (0xford, Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5324">Churches--Michigan--Oxford.</subject>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/498">Oxford (Mich.)--Churches.</geogname>
       </controlaccess>

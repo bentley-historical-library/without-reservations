@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Meally, John Edward, 1864-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/29120">Meally, John Edward, 1864-</persname>
       </origination>
       <unittitle encodinganalog="245">John E. Meally Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1893/1949">1893-1949</unitdate></unittitle>
       <abstract>Methodist minister; Correspondence and other papers relating primarily to his ministerial career.</abstract>
@@ -79,10 +80,10 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5707">Clergy--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="600">Meally, John Edward, 1864-</persname>
-        <corpname source="lcnaf" encodinganalog="610">Methodist Episcopal Church--Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Methodist Episcopal Church. Detroit Conference.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Peoples' Congress of Applied Religion.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29120">Meally, John Edward, 1864-</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19286">Methodist Episcopal Church--Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22489">Methodist Episcopal Church. Detroit Conference.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18064">Peoples' Congress of Applied Religion.</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85149733.html" ref="/subjects/2324">Plymouth (Mich. : Township)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/877">Superior (Washtenaw County, Mich. : Township)</geogname>
       </controlaccess>
@@ -91,24 +92,24 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4727">Churches--Michigan--Farmington.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4728">Dwellings--Michigan--Plymouth.</subject>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/422">Farmington (Mich.)--Churches.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Farmington Methodist Church (Farmington, Mich.)</corpname>
-        <persname source="lcnaf" encodinganalog="600">Meally, John Edward, 1864-</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19810">Farmington Methodist Church (Farmington, Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29120">Meally, John Edward, 1864-</persname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/567">Plymouth (Mich.)--Dwellings.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4729">Teachers--Michigan--Plymouth.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Baldwin, C. W.</persname>
-        <persname source="lcnaf" encodinganalog="700">Barton, Charles Morris.</persname>
-        <persname source="lcnaf" encodinganalog="700">Brashares, Charles W., 1891-1982.</persname>
-        <persname source="lcnaf" encodinganalog="700">Cook, William Randolph, 1866-1946.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n2011034836">Crane, Henry Hitt, 1890-1977.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79063546">Fosdick, Harry Emerson, 1878-1969.</persname>
-        <persname source="lcnaf" encodinganalog="700">Johnson, Edward Shurley, 1896-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85059686">Leete, Frederick Deland, 1866-1958.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50050879">Lindsey, Ben B. (Ben Barr), 1869-1943.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n90659233">Oxnam, G. Bromley (Garfield Bromley), 1891-1963.</persname>
-        <persname source="lcnaf" encodinganalog="700">Reed, Marshall Russell, 1891-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27860">Baldwin, C. W.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27374">Barton, Charles Morris.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27132">Brashares, Charles W., 1891-1982.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31480">Cook, William Randolph, 1866-1946.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n2011034836" ref="/agents/people/28618">Crane, Henry Hitt, 1890-1977.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79063546" ref="/agents/people/33121">Fosdick, Harry Emerson, 1878-1969.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30745">Johnson, Edward Shurley, 1896-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85059686" ref="/agents/people/30552">Leete, Frederick Deland, 1866-1958.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50050879" ref="/agents/people/30063">Lindsey, Ben B. (Ben Barr), 1869-1943.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n90659233" ref="/agents/people/27587">Oxnam, G. Bromley (Garfield Bromley), 1891-1963.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32292">Reed, Marshall Russell, 1891-</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

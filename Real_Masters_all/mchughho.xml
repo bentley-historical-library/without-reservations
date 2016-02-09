@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">McHugh and Hoffman.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/21522">McHugh and Hoffman.</corpname>
       </origination>
       <unittitle encodinganalog="245">McHugh and Hoffman records <unitdate type="inclusive" encodinganalog="245$f" normal="1957/1995">1957-1995</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">07165 Bb 2</unitid>
@@ -83,10 +84,10 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Bowen, John Edmund.</persname>
-        <persname source="lcnaf" encodinganalog="600">Hoffman, Peter.</persname>
-        <corpname source="lcnaf" encodinganalog="610">McHugh and Hoffman.</corpname>
-        <persname source="lcnaf" encodinganalog="600">McHugh, Philip.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32570">Bowen, John Edmund.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28944">Hoffman, Peter.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21522">McHugh and Hoffman.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32940">McHugh, Philip.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9013">Television broadcasting of news--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9014">Television viewers--United States--Attitudes.</subject>
       </controlaccess>

@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">King, Jane Otteson</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/29671">King, Jane Otteson</persname>
       </origination>
       <unittitle encodinganalog="245">Jane Otteson King papers <unitdate type="inclusive" encodinganalog="245$f" normal="1961">1961</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2012042 Aa2</unitid>
@@ -83,8 +84,8 @@
       <controlaccess>
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/985">Soviet Union--Description and travel.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82217048">University of Michigan. Symphony Band.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Band.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82217048" ref="/agents/corporate_entities/22209">University of Michigan. Symphony Band.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22672">University of Michigan. Band.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

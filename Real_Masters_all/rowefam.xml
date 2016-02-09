@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Rowe family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/1641">Rowe family.</famname>
       </origination>
       <unittitle encodinganalog="245">Rowe Family Papers [microform] <unitdate type="inclusive" encodinganalog="245$f" normal="1840/1990">1840-1990</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1840/1949" certainty="approximate">1840s-1940s</unitdate></unittitle>
       <abstract>Residents of Highland Township, Oakland County, Michigan. Civil War reminiscences and other papers of James D. Rowe, soldier in the 1st Michigan Cavalry; Civil War letters of Spencer D. Lee, related family member, also in the 1st Michigan Cavalry; business records of Grant and Carrie Jackson Rowe, publishers of the Milford Times; sermons of Samuel Simpson Marquis as transcribed by Mrs. G. S. Rowe; collected materials largely concerning Milford and Highland Township history; and miscellaneous photographs and Civil War print.</abstract>
@@ -101,34 +102,34 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9947">American newspapers--Michigan--Milford.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5809">Business records.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85156589.html" ref="/subjects/2765">Highland (Oakland County, Mich. : Township)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Kalamazoo College.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19788">Kalamazoo College.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1976">Milford (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="611" ref="/subjects/9948">Milford times.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091869.html" ref="/subjects/1856">Oakland County (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9949">Phrenology.</subject>
-        <famname source="lcnaf" encodinganalog="600">Rowe family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1641">Rowe family.</famname>
         <geogname source="local" encodinganalog="691" ref="/subjects/841">South Dakota--Blizzard, 1888.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9950">Spiritualism--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n92061975">United States. Army. Michigan Cavalry Regiment, 1st (1861-1866)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n92061975" ref="/agents/corporate_entities/21312">United States. Army. Michigan Cavalry Regiment, 1st (1861-1866)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/909">United States--History--Civil War, 1861-1865.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Contributors: Mixed Materials</head>
-        <persname source="lcnaf" encodinganalog="700">Lee, Sarah.</persname>
-        <persname source="lcnaf" encodinganalog="700">Lee, Spencer D.</persname>
-        <persname source="lcnaf" encodinganalog="700">Marquis, Samuel Simpson, 1866-</persname>
-        <persname source="lcnaf" encodinganalog="700">Rowe, Carrie Jackson.</persname>
-        <persname source="lcnaf" encodinganalog="700">Rowe, Grant.</persname>
-        <persname source="lcnaf" encodinganalog="700">Rowe, James Delos, 1838-1925.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28782">Lee, Sarah.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32440">Lee, Spencer D.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28798">Marquis, Samuel Simpson, 1866-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35671">Rowe, Carrie Jackson.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34719">Rowe, Grant.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34536">Rowe, James Delos, 1838-1925.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material</head>
-        <persname source="lcnaf" encodinganalog="600">Brodhead, Thornton F., d. 1862.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29113">Brodhead, Thornton F., d. 1862.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5170">Dwellings--Michigan--Highland (Oakland County : Township)</subject>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/658">Highland (Oakland County Mich. : Township)--Dwellings.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3639">Interiors.</subject>
-        <persname source="lcnaf" encodinganalog="600">Rowe, James Delos, 1838-1925.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n92061975">United States. Army. Michigan Cavalry Regiment, 1st (1861-1866)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34536">Rowe, James Delos, 1838-1925.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n92061975" ref="/agents/corporate_entities/21312">United States. Army. Michigan Cavalry Regiment, 1st (1861-1866)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/909">United States--History--Civil War, 1861-1865.</geogname>
       </controlaccess>
       <controlaccess>
@@ -136,12 +137,12 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9951">Journalists--Michigan--Milford.</subject>
         <subject source="lcsh" encodinganalog="611" ref="/subjects/9948">Milford times.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9947">American newspapers--Michigan--Milford.</subject>
-        <persname source="lcnaf" encodinganalog="600">Rowe, Carrie Jackson.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35671">Rowe, Carrie Jackson.</persname>
       </controlaccess>
       <controlaccess>
         <head>Contributors: Sound Recordings</head>
-        <persname source="lcnaf" encodinganalog="700">Rowe, Carrie Jackson.</persname>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n90645803">WJR (Radio station : Detroit, Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35671">Rowe, Carrie Jackson.</persname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n90645803" ref="/agents/corporate_entities/17634">WJR (Radio station : Detroit, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

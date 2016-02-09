@@ -35,7 +35,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal. A complete reconversion of the earlier EAD file.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n98020761">Interlochen Center for the Arts.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n98020761" ref="/agents/corporate_entities/19234">Interlochen Center for the Arts.</corpname>
       </origination>
       <unittitle encodinganalog="245">Interlochen Center for The Arts records <unitdate type="inclusive" encodinganalog="245$f" normal="1927/2005">1927-2005</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1935/1994">1935-1994</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851981 BImu Bimu C367 2</unitid>
@@ -179,15 +180,15 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85375762">American Federation of Musicians.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85375762" ref="/agents/corporate_entities/22942">American Federation of Musicians.</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82066429.html" ref="/subjects/2118">Interlochen (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Interlochen Arts Academy (Interlochen, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Interlochen Arts Camp.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n98020761">Interlochen Center for the Arts.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21877">Interlochen Arts Academy (Interlochen, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21690">Interlochen Arts Camp.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n98020761" ref="/agents/corporate_entities/19234">Interlochen Center for the Arts.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8429">Music--Michigan--Interlochen.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8430">Musicians--Michigan--Interlochen.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2007028492">National Music Camp.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no00010229">Petrillo, James C. (James Caesar), 1892-1984</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2007028492" ref="/agents/corporate_entities/21322">National Music Camp.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no00010229" ref="/agents/people/28044">Petrillo, James C. (James Caesar), 1892-1984</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8431">Radio and music--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8432">Radio broadcasting--Michigan--Interlochen.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8433">Music camps--Michigan--Interlochen.</subject>
@@ -195,48 +196,48 @@
       <controlaccess>
         <head>Subjects - Visual Material:</head>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82066429.html" ref="/subjects/2118">Interlochen (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n91111361">Maddy, Joseph E. (Joseph Edgar), 1891-1966.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n91111361" ref="/agents/people/34266">Maddy, Joseph E. (Joseph Edgar), 1891-1966.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4507">Music--Michigan--Interlochen.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4508">Music camps--Michigan--Interlochen.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4509">Musicians--Michigan--Interlochen.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2007028492">National Music Camp.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2007028492" ref="/agents/corporate_entities/21322">National Music Camp.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects -Sound recordings:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n98020761">Interlochen Center for the Arts.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2007028492">National Music Camp.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n98020761" ref="/agents/corporate_entities/19234">Interlochen Center for the Arts.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2007028492" ref="/agents/corporate_entities/21322">National Music Camp.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n94105471">Brucker, Wilber Marion, 1894-1968.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79015686">Casals, Pablo, 1876-1973.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n93804792">Charters, W. W. (Werrett Wallace), 1875-1952.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n83044046">Dow, Alden B., 1904-1983</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n83173677">Dow, Herbert Henry, 1866-1930.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2003084987">Dunham, Franklin, 1892-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no90014271">Dykema, Peter W. (Peter William), 1873-1951.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr89008677">Earhart, Will.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81016940">Fennell, Frederick.</persname>
-        <persname source="lcnaf" encodinganalog="700">Gordon, Edgar B.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79124007">Grainger, Percy, 1882-1961.</persname>
-        <persname source="lcnaf" encodinganalog="700">Grofe, Ferde, 1892-1972.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79089449">Hanson, Howard, 1896-1981</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82025113">Heifetz, Jascha, 1901-1987</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n91070264">Insull, Samuel, 1859-1938.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79140998">Kresge, Stanley Sebastian, 1900-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81043282">Maazel, Lorin, 1930-2014</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n91111361">Maddy, Joseph E. (Joseph Edgar), 1891-1966.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80122958">Ormandy, Eugene, 1899-1985.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79068399">Sibelius, Jean, 1865-1957.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50045033">Vandenberg, Arthur H. (Arthur Hendrick), 1884-1951.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2010113234">Waller, Judith C. (Judith Cary), 1889-1973</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n83176688">Whiteman, Paul, 1890-1967.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n94105471" ref="/agents/people/31334">Brucker, Wilber Marion, 1894-1968.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79015686" ref="/agents/people/30344">Casals, Pablo, 1876-1973.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n93804792" ref="/agents/people/31840">Charters, W. W. (Werrett Wallace), 1875-1952.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n83044046" ref="/agents/people/30364">Dow, Alden B., 1904-1983</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n83173677" ref="/agents/people/27810">Dow, Herbert Henry, 1866-1930.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2003084987" ref="/agents/people/36050">Dunham, Franklin, 1892-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no90014271" ref="/agents/people/33748">Dykema, Peter W. (Peter William), 1873-1951.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr89008677" ref="/agents/people/35786">Earhart, Will.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81016940" ref="/agents/people/32174">Fennell, Frederick.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34237">Gordon, Edgar B.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79124007" ref="/agents/people/28672">Grainger, Percy, 1882-1961.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27655">Grofe, Ferde, 1892-1972.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79089449" ref="/agents/people/29756">Hanson, Howard, 1896-1981</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82025113" ref="/agents/people/32796">Heifetz, Jascha, 1901-1987</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n91070264" ref="/agents/people/28877">Insull, Samuel, 1859-1938.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79140998" ref="/agents/people/30702">Kresge, Stanley Sebastian, 1900-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81043282" ref="/agents/people/32851">Maazel, Lorin, 1930-2014</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n91111361" ref="/agents/people/34266">Maddy, Joseph E. (Joseph Edgar), 1891-1966.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80122958" ref="/agents/people/28453">Ormandy, Eugene, 1899-1985.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79068399" ref="/agents/people/35772">Sibelius, Jean, 1865-1957.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50045033" ref="/agents/people/30760">Vandenberg, Arthur H. (Arthur Hendrick), 1884-1951.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2010113234" ref="/agents/people/28378">Waller, Judith C. (Judith Cary), 1889-1973</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n83176688" ref="/agents/people/29377">Whiteman, Paul, 1890-1967.</persname>
       </controlaccess>
       <controlaccess>
         <head>Contributors - Sound recordings:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n91111361">Maddy, Joseph E. (Joseph Edgar), 1891-1966.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr93051793">Johnson, Thor.</persname>
-        <persname source="lcnaf" encodinganalog="700">Wilson, George.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n91111361" ref="/agents/people/34266">Maddy, Joseph E. (Joseph Edgar), 1891-1966.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr93051793" ref="/agents/people/30222">Johnson, Thor.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29996">Wilson, George.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

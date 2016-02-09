@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2010 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Pohrt, Karl, 1948-2013.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33298">Pohrt, Karl, 1948-2013.</persname>
       </origination>
       <unittitle encodinganalog="245"> Karl Pohrt papers <unitdate type="inclusive" encodinganalog="245$f"> 1976-2013 </unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="miu-h" countrycode="us" type="call number"> 2014105 Aa 2 UAl </unitid>
@@ -98,15 +99,15 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Bear Claw Press.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18666">Bear Claw Press.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9545">Book industries and trade--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9792">Bookstores--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5683">Festivals--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9793">Independent bookstores--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8006">Indians of North America--Folklore.</subject>
-        <persname source="lcnaf" encodinganalog="600">Pohrt, Karl, 1948-2013.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33298">Pohrt, Karl, 1948-2013.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9794">Publishers and publishing--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Shaman Drum Bookshop.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18841">Shaman Drum Bookshop.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
@@ -115,8 +116,8 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Pohrt, Richard A., 1911-2005.</persname>
-        <persname source="lcnaf" encodinganalog="700">Snyder, Gary, 1930-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35307">Pohrt, Richard A., 1911-2005.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33851">Snyder, Gary, 1930-</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
@@ -256,7 +257,10 @@
                   </daodesc>
                 </dao>
               </did>
-            <odd><p>(Dr. Julie Ellison of the University of Michigan and Karl Pohrt speak about the role of the Shaman Drum Bookshop in the Ann Arbor community. Film produced and directed by Beth Tanenhaus Winsten.)</p></odd></c04>
+              <odd>
+                <p>(Dr. Julie Ellison of the University of Michigan and Karl Pohrt speak about the role of the Shaman Drum Bookshop in the Ann Arbor community. Film produced and directed by Beth Tanenhaus Winsten.)</p>
+              </odd>
+            </c04>
             <c04 level="file">
               <did>
                 <physloc>Online</physloc>
@@ -270,7 +274,10 @@
                   </daodesc>
                 </dao>
               </did>
-            <odd><p>(Reflections on the contributions of the Shaman Drum bookshop to Ann Arbor community life)</p></odd></c04>
+              <odd>
+                <p>(Reflections on the contributions of the Shaman Drum bookshop to Ann Arbor community life)</p>
+              </odd>
+            </c04>
           </c03>
         </c02>
         <c02 level="file">
@@ -468,7 +475,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Images of Reading the World reception at French Embassy in Washington, D.C. in 2006)</p></odd></c03>
+            <odd>
+              <p>(Images of Reading the World reception at French Embassy in Washington, D.C. in 2006)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <unittitle>Photograph Albums</unittitle>
@@ -594,7 +604,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Photos of Ann Arbor Book Festival events and programming)</p></odd></c03>
+            <odd>
+              <p>(Photos of Ann Arbor Book Festival events and programming)</p>
+            </odd>
+          </c03>
         </c02>
         <c02 level="file">
           <did>
@@ -615,7 +628,10 @@
               </daodesc>
             </dao>
           </did>
-        <odd><p>(Campaign lawn sign from Karl Pohrt's run for city council nomination in 2002)</p></odd></c02>
+          <odd>
+            <p>(Campaign lawn sign from Karl Pohrt's run for city council nomination in 2002)</p>
+          </odd>
+        </c02>
       </c01>
       <c01 level="series">
         <did>
@@ -769,7 +785,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Personal correspondence of Karl Pohrt to various recipients.  Topics include literary works, travels and conferences, family life and Pohrt's health.)</p></odd></c03>
+            <odd>
+              <p>(Personal correspondence of Karl Pohrt to various recipients.  Topics include literary works, travels and conferences, family life and Pohrt's health.)</p>
+            </odd>
+          </c03>
         </c02>
         <c02 level="file">
           <did>
@@ -817,7 +836,10 @@
                   </daodesc>
                 </dao>
               </did>
-            <odd><p>(Two poems by Karl Pohrt: "Sung Dynasty Figure of Boy" and "The Language of Rain.")</p></odd></c04>
+              <odd>
+                <p>(Two poems by Karl Pohrt: "Sung Dynasty Figure of Boy" and "The Language of Rain.")</p>
+              </odd>
+            </c04>
           </c03>
           <c03 level="file">
             <did>
@@ -832,7 +854,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Includes Pohrt's personal blog, thereisnogap.com, as well as Pohrt's reflections on his life, books, religion and spirituality, and battle with cancer)</p></odd></c03>
+            <odd>
+              <p>(Includes Pohrt's personal blog, thereisnogap.com, as well as Pohrt's reflections on his life, books, religion and spirituality, and battle with cancer)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
@@ -846,7 +871,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Eulogy for Karl Pohrt by George Eley and obituary for Pohrt's mother)</p></odd></c03>
+            <odd>
+              <p>(Eulogy for Karl Pohrt by George Eley and obituary for Pohrt's mother)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
@@ -860,7 +888,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Includes articles and interviews with writers, filmmakers, and scholars, as well as interviews with vicar of the Episcopal Church of the Incarnation in Ann Arbor.)</p></odd></c03>
+            <odd>
+              <p>(Includes articles and interviews with writers, filmmakers, and scholars, as well as interviews with vicar of the Episcopal Church of the Incarnation in Ann Arbor.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3048470478537639]">2</container>
@@ -899,7 +930,10 @@
                   </daodesc>
                 </dao>
               </did>
-            <odd><p>(Photos of poet Gary Snyder from his first meeting with Karl Pohrt.)</p></odd></c04>
+              <odd>
+                <p>(Photos of poet Gary Snyder from his first meeting with Karl Pohrt.)</p>
+              </odd>
+            </c04>
           </c03>
           <c03 level="file">
             <did>
@@ -966,7 +1000,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Journals and notes from Pohrt's stay in Nicaragua)</p></odd></c03>
+            <odd>
+              <p>(Journals and notes from Pohrt's stay in Nicaragua)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
@@ -980,7 +1017,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Includes notes and travel journal entries from road trip to Oaxaca, Mexico.)</p></odd></c03>
+            <odd>
+              <p>(Includes notes and travel journal entries from road trip to Oaxaca, Mexico.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3048470478537639]">2</container>

@@ -39,7 +39,8 @@
         <item>Original encoding from Word 6.0 finding aid.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -50,7 +51,7 @@
   <archdesc level="collection" type="inventory" audience="external" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">Roach, Thomas A., 1929-</persname>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/34629">Roach, Thomas A., 1929-</persname>
       </origination>
       <unittitle encodinganalog="245">Thomas A. Roach Papers <unitdate type="inclusive" encodinganalog="245$g" normal="1970/2002">1970-2002</unitdate></unittitle>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">9743 AA 2</unitid>
@@ -92,13 +93,13 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Roach, Thomas A., 1929-</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731">Democratic Party (Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34629">Roach, Thomas A., 1929-</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731" ref="/agents/corporate_entities/21108">Democratic Party (Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9538">Disinvestment--South Africa.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9917">Investments, American--South Africa.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2752">South Africa--Foreign economic relations--United States.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2753">United States--Foreign economic relations--South Africa.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998">University of Michigan. Board of Regents.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998" ref="/agents/corporate_entities/18212">University of Michigan. Board of Regents.</corpname>
         <geogname source="local" encodinganalog="691" ref="/subjects/801">Michigan--Politics and government--1971-1980.</geogname>
       </controlaccess>
     </controlaccess>

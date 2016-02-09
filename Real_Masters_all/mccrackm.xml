@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">McCracken, Marian, 1920-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/34899">McCracken, Marian, 1920-</persname>
       </origination>
       <unittitle encodinganalog="245">Marian McCracken papers <unitdate type="inclusive" encodinganalog="245$f" normal="1968/1999">1968-1999</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">9643 Aa 2</unitid>
@@ -81,10 +82,10 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">McCracken, Marian, 1920-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34899">McCracken, Marian, 1920-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7432">Feminists--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">National Organization for Women. Michigan Conference.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Peoples Campaign for Choice.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21909">National Organization for Women. Michigan Conference.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18750">Peoples Campaign for Choice.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

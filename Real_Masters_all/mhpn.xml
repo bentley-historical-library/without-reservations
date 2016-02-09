@@ -27,7 +27,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Michigan Historic Preservation Network.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/22804">Michigan Historic Preservation Network.</corpname>
       </origination>
       <unittitle encodinganalog="245">Michigan Historic Preservation Network Records <unitdate type="inclusive" encodinganalog="245$f" normal="1980/2004">1980-2004</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">0519 Bp 2</unitid>
@@ -90,7 +91,7 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Historic Preservation Network.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22804">Michigan Historic Preservation Network.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7884">Historic preservation--Michigan.</subject>
       </controlaccess>
       <controlaccess>
@@ -98,8 +99,8 @@
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/849">Ann Arbor (Mich.)--Buildings, structures, etc.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1405">Belle Isle (Detroit, Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n2008001022.html" ref="/subjects/2350">Corktown (Detroit, Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2004021043">University of Michigan. Detroit Observatory.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Buildings.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2004021043" ref="/agents/corporate_entities/21669">University of Michigan. Detroit Observatory.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Buildings.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4797">Libraries--Michigan--Detroit.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4798">Libraries--Michigan--Saginaw.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2351">Ypsilanti (Mich.)--Buildings, structures, etc.</geogname>

@@ -32,7 +32,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -43,7 +44,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Steneck, Nicholas H.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33418">Steneck, Nicholas H.</persname>
       </origination>
       <unittitle encodinganalog="245">Nicholas H. Steneck papers <unitdate type="inclusive" encodinganalog="245$f" normal="1971/2005">1971-2005</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2008141 Aa 2</unitid>
@@ -90,12 +91,12 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname encodinganalog="610" source="lcnaf">University of Michiana--Faculty.</corpname>
-        <corpname encodinganalog="610" source="lcnaf">University of Michiana--History.</corpname>
-        <corpname encodinganalog="610" source="lcnaf">University of Michigan. Collegiate Institute for Values and Science.</corpname>
-        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n92805073">University of Michigan. Historical Center for the Health Sciences.</corpname>
-        <corpname encodinganalog="610" source="lcnaf">University of Michigan. Integrated Premedical-Medical Program.</corpname>
-        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/20688">University of Michiana--Faculty.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/20688">University of Michiana--History.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/19923">University of Michigan. Collegiate Institute for Values and Science.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n92805073" ref="/agents/corporate_entities/21041">University of Michigan. Historical Center for the Health Sciences.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/21343">University of Michigan. Integrated Premedical-Medical Program.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/18699">University of Michigan.</corpname>
         <subject encodinganalog="650" source="lcsh" ref="/subjects/6846">Values--Study and teaching.</subject>
         <subject encodinganalog="650" source="lcsh" ref="/subjects/6847">Science--Social aspects.</subject>
       </controlaccess>

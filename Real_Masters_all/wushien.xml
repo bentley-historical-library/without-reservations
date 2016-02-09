@@ -39,7 +39,8 @@
         <item>original encoding from Word 6.0 file.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -50,7 +51,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf">Wu, Shien-Ming, 1924-1992</persname>
+        <persname source="lcnaf" ref="/agents/people/33630">Wu, Shien-Ming, 1924-1992</persname>
       </origination>
       <unittitle encodinganalog="245">Shien-Ming Wu papers <unitdate type="inclusive" encodinganalog="245$f" normal="1960/1992">1960-1992</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1975/1987">1975-1987</unitdate></unittitle>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">9802 Aa 2</unitid>
@@ -93,9 +94,9 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Wu, Shien-Minh, 1924-1992.</persname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83062297">University of Michigan. Dept. of Mechanical Engineering.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34965">Wu, Shien-Minh, 1924-1992.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83062297" ref="/agents/corporate_entities/23114">University of Michigan. Dept. of Mechanical Engineering.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6415">Mechanical engineering.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10850">Chinese Americans--Michigan--Ann Arbor.</subject>
       </controlaccess>

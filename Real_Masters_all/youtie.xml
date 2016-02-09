@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2010 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Youtie, Herbert Chayyim, 1904-1980.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28626">Youtie, Herbert Chayyim, 1904-1980.</persname>
       </origination>
       <unittitle encodinganalog="245">Herbert C. and Louise C. Youtie papers <unitdate type="inclusive" encodinganalog="245$f" normal="1921/1986">1921-1986</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2014083 Aa 2</unitid>
@@ -91,9 +92,9 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10859">Greek language--Texts.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10860">Manuscripts, Greek (Papyri)</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10861">Ostraka.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50014614">Youtie, Herbert Chayyim, 1904-1980.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n96034625">Youtie, Louise C. (Louise Canberg)</persname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Library.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50014614" ref="/agents/people/28626">Youtie, Herbert Chayyim, 1904-1980.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n96034625" ref="/agents/people/28252">Youtie, Louise C. (Louise Canberg)</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20906">University of Michigan. Library.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -114,7 +115,10 @@
               </daodesc>
             </dao>
           </did>
-        <odd><p>(Herbert C. Youtie was Research Professor of Papyrology and Associate Professor of Greek at the University of Michigan. Louise C. Youtie was a scholar of Greek and Papyrology. The Youties’ expertise in the field of papyrology was internationally renowned. Their papers document their work transcribing, studying, and interpreting script found in papyri and ostraka. Materials include correspondence, publication drafts, research paperwork, and photographs of papyri. This document is a detailed index of collection contents in spreadsheet form prepared by and received from the University of Michigan Papyrology Collection. Provides item level description of materials and references scans made by the unit.)</p></odd></c02>
+          <odd>
+            <p>(Herbert C. Youtie was Research Professor of Papyrology and Associate Professor of Greek at the University of Michigan. Louise C. Youtie was a scholar of Greek and Papyrology. The Youties’ expertise in the field of papyrology was internationally renowned. Their papers document their work transcribing, studying, and interpreting script found in papyri and ostraka. Materials include correspondence, publication drafts, research paperwork, and photographs of papyri. This document is a detailed index of collection contents in spreadsheet form prepared by and received from the University of Michigan Papyrology Collection. Provides item level description of materials and references scans made by the unit.)</p>
+          </odd>
+        </c02>
       </c01>
       <c01 level="series">
         <did>

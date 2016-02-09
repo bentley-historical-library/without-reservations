@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Harrison, G. B. (George Bagshawe), 1894-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28243">Harrison, G. B. (George Bagshawe), 1894-</persname>
       </origination>
       <unittitle encodinganalog="245">G. B. Harrison Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1910/1981">1910-1981</unitdate></unittitle>
       <abstract>Scholar and professor of English at University of Michigan. Diaries, manuscripts of dramas and other writings, Shakespearean notes and lecture materials and personal and professional correspondence, including correspondence and other material relating to his service with the British Infantry during World War I.</abstract>
@@ -86,19 +87,19 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6096">Authors, American--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Catholic Church.</corpname>
-        <persname authfilenumber="http://id.loc.gov/authorities/names/n80020447" source="lcnaf">Harrison, G. B. (George Bagshawe), 1894-1991</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20943">Catholic Church.</corpname>
+        <persname authfilenumber="http://id.loc.gov/authorities/names/n80020447" source="lcnaf" ref="/agents/people/28220">Harrison, G. B. (George Bagshawe), 1894-1991</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/969">India.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1994">Iraq.</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n78095332">Shakespeare, William, 1564-1616.</persname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of English Language and Literature.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n78095332" ref="/agents/people/28176">Shakespeare, William, 1564-1616.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17386">University of Michigan. Dept. of English Language and Literature.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5737">World War, 1914-1918.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85005560">Cullinan, Gerald.</persname>
-        <persname source="lcnaf" encodinganalog="700">Hamilton, Guy.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85005560" ref="/agents/people/30870">Cullinan, Gerald.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30609">Hamilton, Guy.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

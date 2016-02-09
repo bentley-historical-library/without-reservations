@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Dept. of Biology.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/21655">University of Michigan. Dept. of Biology.</corpname>
       </origination>
       <unittitle encodinganalog="245">Dept. of Biology (University of Michigan) Records <unitdate encodinganalog="245$g" normal="1879/9999" type="inclusive">1879-[ongoing]</unitdate></unittitle>
       <abstract>Department of Biology (established 1986) of the University of Michigan, and of its predecessor unit, the Division of Biological Sciences, and the departments (Botany and Zoology) that comprised the division. Records include minutes, correspondence, course materials, and various subject files.</abstract>
@@ -82,14 +83,14 @@
     <controlaccess>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Botany.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Zoology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Matthaei Botanical Gardens.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79107928">University of Michigan. Great Lakes Research Division.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82037749">University of Michigan. Institute of Human Biology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82039321">University of Michigan. Laboratory of Vertebrate Biology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80149747">University of Michigan. Biological Station.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17473">University of Michigan. Dept. of Botany.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19260">University of Michigan. Dept. of Zoology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19102">University of Michigan. Matthaei Botanical Gardens.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79107928" ref="/agents/corporate_entities/23117">University of Michigan. Great Lakes Research Division.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82037749" ref="/agents/corporate_entities/21853">University of Michigan. Institute of Human Biology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82039321" ref="/agents/corporate_entities/22363">University of Michigan. Laboratory of Vertebrate Biology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80149747" ref="/agents/corporate_entities/17751">University of Michigan. Biological Station.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Students.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5863">Minority college students--Michigan--Ann Arbor.</subject>
       </controlaccess>
     </controlaccess>

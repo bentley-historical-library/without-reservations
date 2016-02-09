@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Hucker, Charles O.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/31604">Hucker, Charles O.</persname>
       </origination>
       <unittitle encodinganalog="245">Charles O. Hucker Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1949/1982">1949-1982</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">85210 Aa 2</unitid>
@@ -76,11 +77,11 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80076415">Association for Asian Studies.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80076415" ref="/agents/corporate_entities/18683">Association for Asian Studies.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2107">China--Study and teaching--Michigan--Ann Arbor.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of History.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Far Eastern Languages and Literatures.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17887">University of Michigan. Dept. of History.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18252">University of Michigan. Dept. of Far Eastern Languages and Literatures.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

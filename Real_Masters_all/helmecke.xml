@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Helmecke family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/1614">Helmecke family.</famname>
       </origination>
       <unittitle encodinganalog="245">Helmecke family papers <unitdate type="inclusive" encodinganalog="245$f" normal="1908/1914">1908-1914</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">861026 Aa 2</unitid>
@@ -78,23 +79,23 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Deutscher Verein (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21296">Deutscher Verein (University of Michigan)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6477">Women--Michigan--Grand Rapids.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Cercle Français.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Correspondence.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs--1901-1910.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs--1911-1920.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21219">University of Michigan. Cercle Français.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Students--Correspondence.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Students--Social life and customs--1901-1910.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Students--Social life and customs--1911-1920.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600">Helmecke, Carl Albert.</persname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Cross Country Club.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Engineering. Class of 1912.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34533">Helmecke, Carl Albert.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21270">University of Michigan. Cross Country Club.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/23119">University of Michigan. Dept. of Engineering. Class of 1912.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Helmecke, Carl Albert.</persname>
-        <persname source="lcnaf" encodinganalog="700">Helmecke, Marie Gertrud.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34533">Helmecke, Carl Albert.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30839">Helmecke, Marie Gertrud.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

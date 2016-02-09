@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Trevor, John Bond, 1878-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33019">Trevor, John Bond, 1878-</persname>
       </origination>
       <unittitle encodinganalog="245">John Bond Trevor Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1921/1951">1921-1951</unitdate></unittitle>
       <abstract>New York attorney, officer of the American Coalition of Patriotic, Civic and Fraternal Societies, 1927-1950, and activist in the movement to restrict immigration into the United States. Minutes, resolutions, and other records of the American Coalition; also correspondence of Trevor with congressman Albert Johnson of Washington state relating to immigration matters.</abstract>
@@ -85,10 +86,10 @@
     <controlaccess>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">American Coalition of Patriotic, Civic, and Fraternal Societies.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18457">American Coalition of Patriotic, Civic, and Fraternal Societies.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7048">Immigrants--United States.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87890457">Johnson, Albert, 1869-1957.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008053389">Trevor, John B. (John Bond), 1878-1956</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87890457" ref="/agents/people/33366">Johnson, Albert, 1869-1957.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008053389" ref="/agents/people/32778">Trevor, John B. (John Bond), 1878-1956</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/866">United States--Emigration and immigration.</geogname>
       </controlaccess>
     </controlaccess>

@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Schmid, Friedrich, 1807-1883</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/35962">Schmid, Friedrich, 1807-1883</persname>
       </origination>
       <unittitle encodinganalog="245">Friedrich Schmid church records <unitdate type="inclusive" encodinganalog="245$f" normal="1833/1875">1833-1875</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2013093 Aa 3</unitid>
@@ -85,11 +86,11 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Schmid, Friedrich, 1807-1883</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35962">Schmid, Friedrich, 1807-1883</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10022">Marriage records--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7777">Registers of births, etc.--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Salem Evangelical Lutheran Church (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Zion Lutheran Church (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22350">Salem Evangelical Lutheran Church (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22003">Zion Lutheran Church (Ann Arbor, Mich.)</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -110,7 +111,10 @@
               </daodesc>
             </dao>
           </did>
-        <odd><p>(Family register from the records of Zion Lutheran Church; Information likely refers to congregants of Salem Lutheran Church (Ann Arbor, Mich.), the first Evangelical Lutheran Congregation formed by Rev. Friedrich Schmid in Scio Township after his arrival in the United States in 1833.  May also include information on families from other congregations.  The register appears to have been regularly updated through the 1830s and includes information about family members from the late-eighteenth through the mid-nineteenth centuries.  Records are in German and a single family's entry extends across facing pages, with documentation of the names and birthdates of husband and wife, their wedding date, and names of their respective parents.  Entries also record the number and names of children as well as information on their birth dates, confirmation or first communion, weddings and deaths.)</p></odd></c02>
+          <odd>
+            <p>(Family register from the records of Zion Lutheran Church; Information likely refers to congregants of Salem Lutheran Church (Ann Arbor, Mich.), the first Evangelical Lutheran Congregation formed by Rev. Friedrich Schmid in Scio Township after his arrival in the United States in 1833.  May also include information on families from other congregations.  The register appears to have been regularly updated through the 1830s and includes information about family members from the late-eighteenth through the mid-nineteenth centuries.  Records are in German and a single family's entry extends across facing pages, with documentation of the names and birthdates of husband and wife, their wedding date, and names of their respective parents.  Entries also record the number and names of children as well as information on their birth dates, confirmation or first communion, weddings and deaths.)</p>
+          </odd>
+        </c02>
         <c02 level="file">
           <did>
             <physloc>Online</physloc>
@@ -124,7 +128,10 @@
               </daodesc>
             </dao>
           </did>
-        <odd><p>(Record of baptisms performed by Rev. Friedrich Schmid and/or others from 1833-1845.  Information likely refers to congregants of Bethlehem Church (Ann Arbor, Mich., the precursor organization of  Zion Lutheran Church (Ann Arbor, Mich.); may include records related to other congregations in Schmid's jurisdiction.  Baptismal records are in German and extend across facing pages.  Information includes the Christian name of the child, parents' names, place and time of birth, place and time of baptism, the clergyman who performed the baptism, and witnesses to the baptism.)</p></odd></c02>
+          <odd>
+            <p>(Record of baptisms performed by Rev. Friedrich Schmid and/or others from 1833-1845.  Information likely refers to congregants of Bethlehem Church (Ann Arbor, Mich., the precursor organization of  Zion Lutheran Church (Ann Arbor, Mich.); may include records related to other congregations in Schmid's jurisdiction.  Baptismal records are in German and extend across facing pages.  Information includes the Christian name of the child, parents' names, place and time of birth, place and time of baptism, the clergyman who performed the baptism, and witnesses to the baptism.)</p>
+          </odd>
+        </c02>
         <c02 level="file">
           <did>
             <physloc>Online</physloc>
@@ -138,7 +145,10 @@
               </daodesc>
             </dao>
           </did>
-        <odd><p>(Record of baptisms performed by Rev. Friedrich Schmid and/or others from 1845-1875.  Information likely refers to congregants of Bethlehm Church (Ann Arbor, Mich., the precursor organization of  Zion Lutheran Church); may include records related to other congregations in Schmid's jurisdiction (such as Salem Lutheran Church).  Baptismal records are in German and extend across facing pages.  Information includes the Christian name of the child, parents' names, place and time of birth, place and time of baptism, the clergyman who performed the baptism, and witnesses to the baptism.)</p></odd></c02>
+          <odd>
+            <p>(Record of baptisms performed by Rev. Friedrich Schmid and/or others from 1845-1875.  Information likely refers to congregants of Bethlehm Church (Ann Arbor, Mich., the precursor organization of  Zion Lutheran Church); may include records related to other congregations in Schmid's jurisdiction (such as Salem Lutheran Church).  Baptismal records are in German and extend across facing pages.  Information includes the Christian name of the child, parents' names, place and time of birth, place and time of baptism, the clergyman who performed the baptism, and witnesses to the baptism.)</p>
+          </odd>
+        </c02>
         <c02 level="file">
           <did>
             <physloc>Online</physloc>
@@ -152,7 +162,10 @@
               </daodesc>
             </dao>
           </did>
-        <odd><p>(Record of deaths maintained by Rev. Friedrich Schmid from 1833-1871 at Salem Lutheran Church (Ann Arbor, Mich.); date range reflects Schmid's involvement with the community from the original log cabin church in Scio Township through his retirement.  May also include information related to other congregations.  Death records are in German and extend across facing pages.  Information includes the name of the deceased; his or her standing, character, religion and previous residence; the parents and spouses of the deceased; age at death; cause of death; and the time and place of death and burial.)</p></odd></c02>
+          <odd>
+            <p>(Record of deaths maintained by Rev. Friedrich Schmid from 1833-1871 at Salem Lutheran Church (Ann Arbor, Mich.); date range reflects Schmid's involvement with the community from the original log cabin church in Scio Township through his retirement.  May also include information related to other congregations.  Death records are in German and extend across facing pages.  Information includes the name of the deceased; his or her standing, character, religion and previous residence; the parents and spouses of the deceased; age at death; cause of death; and the time and place of death and burial.)</p>
+          </odd>
+        </c02>
         <c02 level="file">
           <did>
             <physloc>Online</physloc>
@@ -166,7 +179,10 @@
               </daodesc>
             </dao>
           </did>
-        <odd><p>(Record of marriages from 1833-1871; maintained by Rev. Friedrich Schmid and originally part of the records of Zion Lutheran Church of Ann Arbor.   Information likely refers to congregants of Bethlehem Church (Ann Arbor, Mich., the precursor organization of  Zion Luthearn Church); may include records related to other congregations in Schmid's jurisdiction (such as Salem Lutheran Church).  Records are in German and entries extend across facing pages.  Information includes the names of the bride and groom; details on their standing, character, profession, residence, or religion; the parents of the bride and groom; prior marital status of participants, with names of previous spouse if widowed or divorced; date and location of wedding; and the clergyman who performed the ceremony.)</p></odd></c02>
+          <odd>
+            <p>(Record of marriages from 1833-1871; maintained by Rev. Friedrich Schmid and originally part of the records of Zion Lutheran Church of Ann Arbor.   Information likely refers to congregants of Bethlehem Church (Ann Arbor, Mich., the precursor organization of  Zion Luthearn Church); may include records related to other congregations in Schmid's jurisdiction (such as Salem Lutheran Church).  Records are in German and entries extend across facing pages.  Information includes the names of the bride and groom; details on their standing, character, profession, residence, or religion; the parents of the bride and groom; prior marital status of participants, with names of previous spouse if widowed or divorced; date and location of wedding; and the clergyman who performed the ceremony.)</p>
+          </odd>
+        </c02>
       </c01>
     </dsc>
   </archdesc>

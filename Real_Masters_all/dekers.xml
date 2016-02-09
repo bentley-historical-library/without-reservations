@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Dekers Blue Line Club.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/20315">Dekers Blue Line Club.</corpname>
       </origination>
       <unittitle encodinganalog="245">Dekers Blue Line Club <unitdate type="inclusive" encodinganalog="245$f" normal="1962/2005">1962-2005</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1970/2000">1970-2000</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">0699 Bimu 2</unitid>
@@ -87,15 +88,15 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname encodinganalog="610" source="lcnaf">Dekers Blue Line Club.</corpname>
-        <corpname encodinganalog="610" source="lcnaf">University of Michigan--Hockey.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/20315">Dekers Blue Line Club.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/18699">University of Michigan--Hockey.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3730">Ice hockey--Michigan.</subject>
         <title encodinganalog="740" source="aacr2" ref="/subjects/42">Inside the Goal Crease</title>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname encodinganalog="610" source="lcnaf">Dekers Blue Line Club.</corpname>
-        <corpname encodinganalog="610" source="lcnaf">University of Michigan--Hockey.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/20315">Dekers Blue Line Club.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/18699">University of Michigan--Hockey.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

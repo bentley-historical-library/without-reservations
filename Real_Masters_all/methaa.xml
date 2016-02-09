@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">First United Methodist Church of Ann Arbor (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/18820">First United Methodist Church of Ann Arbor (Ann Arbor, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">First United Methodist Church of Ann Arbor (Ann Arbor, Mich.) records <unitdate type="inclusive" encodinganalog="245$f" normal="1833/1992">1833-1992</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1875/1978">1875-1978</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">86971 Ba 2</unitid>
@@ -81,14 +82,14 @@
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/882">Ann Arbor (Mich.)--Church history.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7777">Registers of births, etc.--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">United Methodist Church (U.S.)--Michigan--Ann Arbor.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">First United Methodist Church of Ann Arbor (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19031">United Methodist Church (U.S.)--Michigan--Ann Arbor.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18820">First United Methodist Church of Ann Arbor (Ann Arbor, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/211">Ann Arbor (Mich.)--Churches.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3541">Churches--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">First United Methodist Church of Ann Arbor (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18820">First United Methodist Church of Ann Arbor (Ann Arbor, Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4751">Methodist churches--Michigan--Ann Arbor.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3524">Parades and processions.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4752">Temperance--Michigan--Ann Arbor.</subject>

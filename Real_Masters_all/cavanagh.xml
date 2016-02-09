@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Cavanagh Family</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/1529">Cavanagh Family</famname>
       </origination>
       <unittitle encodinganalog="245">Cavanagh Family papers <unitdate type="inclusive" encodinganalog="245$f" normal="1857/2006">1857-2006</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">0665 Aa 2; UAm</unitid>
@@ -80,22 +81,22 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <famname source="lcnaf" encodinganalog="600">Cavanaugh family.</famname>
-        <persname source="lcnaf" encodinganalog="600">Cavanagh, George, 1872-1950.</persname>
-        <famname source="lcnaf" encodinganalog="600">Johnston family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1634">Cavanaugh family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32598">Cavanagh, George, 1872-1950.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1257">Johnston family.</famname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6736">Motion picture theaters--Michigan--Yale.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1464">Saint Clair County (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n97100418.html" ref="/subjects/1465">Yale (Mich.)</geogname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <famname source="lcnaf" encodinganalog="600">Cavanaugh family.</famname>
-        <famname source="lcnaf" encodinganalog="600">Johnston family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1634">Cavanaugh family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1257">Johnston family.</famname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n97100418.html" ref="/subjects/1465">Yale (Mich.)</geogname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Cameron, Martha Cavanagh.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28222">Cameron, Martha Cavanagh.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

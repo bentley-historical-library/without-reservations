@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Jay, Philip, 1898-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/34079">Jay, Philip, 1898-</persname>
       </origination>
       <unittitle encodinganalog="245">Philip Jay papers <unitdate type="inclusive" encodinganalog="245$f" normal="1925/1970">1925-1970</unitdate></unittitle>
       <physdesc altrender="whole">
@@ -92,8 +93,8 @@
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7232">Dentists--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7231">Dentistry--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85129645">University of Michigan. School of Dentistry.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85129645" ref="/agents/corporate_entities/20854">University of Michigan. School of Dentistry.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8460">Water--Fluoridation.</subject>
       </controlaccess>
     </controlaccess>

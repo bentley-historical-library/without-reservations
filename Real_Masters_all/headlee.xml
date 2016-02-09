@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Headlee, Richard H., 1930-2004</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33308">Headlee, Richard H., 1930-2004</persname>
       </origination>
       <unittitle encodinganalog="245">Richard H. Headlee papers <unitdate type="inclusive" encodinganalog="245$f" normal="1976/1992">1976-1992</unitdate></unittitle>
       <abstract>Life insurance executive, leader of a citizens tax limitation movement in Michigan, officer of Taxpayers United for Tax Limitation. Subject files relating to the tax limitation movement in Michigan, especially the work of Taxpayers United for Tax Limitation and Taxpayers United Federation; includes photographs, video cassettes, and news clippings.</abstract>
@@ -83,19 +84,19 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5821">Elections--Michigan--1978.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no93027777">Headlee, Richard H. (Richard Harold), 1930-2004</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no93027777" ref="/agents/people/35771">Headlee, Richard H. (Richard Harold), 1930-2004</persname>
         <geogname source="local" encodinganalog="691" ref="/subjects/801">Michigan--Politics and government--1971-1980.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8197">Tax and expenditure limitations--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6214">Taxation--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Taxpayers United Federation.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Taxpayers United for Tax Limitation.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17696">Taxpayers United Federation.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19779">Taxpayers United for Tax Limitation.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no93027777">Headlee, Richard H. (Richard Harold), 1930-2004</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n86008183">North, Oliver.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no93027777" ref="/agents/people/35771">Headlee, Richard H. (Richard Harold), 1930-2004</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n86008183" ref="/agents/people/30450">North, Oliver.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8197">Tax and expenditure limitations--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Taxpayers United for Tax Limitation.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19779">Taxpayers United for Tax Limitation.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

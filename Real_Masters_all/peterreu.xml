@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Peterson, Reuben, 1862-1942.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/34863">Peterson, Reuben, 1862-1942.</persname>
       </origination>
       <unittitle encodinganalog="245">Reuben Peterson papers <unitdate type="inclusive" encodinganalog="245$f" normal="1890/1942">1890-1942</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">852155 Aa 2; Ac</unitid>
@@ -83,22 +84,22 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5719">Hospitals--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5720">Medicine--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6056">Physicians--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151">University of Michigan. Medical School.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. University Hospital.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151" ref="/agents/corporate_entities/20391">University of Michigan. Medical School.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20510">University of Michigan. University Hospital.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Angell, Carleton Watson, 1887-1963.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008186663">Beal, Junius E. (Junius Emery), 1860-1942.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85250562">Dock, George, 1860-1951</persname>
-        <persname source="lcnaf" encodinganalog="700">Forsythe, Warren Ellsworth, 1885-1960.</persname>
-        <persname source="lcnaf" encodinganalog="700">Furstenberg, Albert Carl, 1890-1969.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50007348">Mayo, William James, 1861-1939.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n93802467">Miller, Norman F.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84805970">Robbins, Frank Egleston, 1884-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79022932">Roosevelt, Franklin D. (Franklin Delano), 1882-1945.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87828171">Ruthven, Alexander Grant, 1882-1971.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33345">Angell, Carleton Watson, 1887-1963.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008186663" ref="/agents/people/34937">Beal, Junius E. (Junius Emery), 1860-1942.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85250562" ref="/agents/people/28326">Dock, George, 1860-1951</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27939">Forsythe, Warren Ellsworth, 1885-1960.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30904">Furstenberg, Albert Carl, 1890-1969.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50007348" ref="/agents/people/28541">Mayo, William James, 1861-1939.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n93802467" ref="/agents/people/30559">Miller, Norman F.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84805970" ref="/agents/people/32852">Robbins, Frank Egleston, 1884-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79022932" ref="/agents/people/33929">Roosevelt, Franklin D. (Franklin Delano), 1882-1945.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87828171" ref="/agents/people/30884">Ruthven, Alexander Grant, 1882-1971.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

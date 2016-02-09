@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">King, Robert</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32426">King, Robert</persname>
       </origination>
       <unittitle encodinganalog="245">Robert King papers <unitdate type="inclusive" encodinganalog="245$f" normal="1887/1942">1887-1942</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851635 Aa 2</unitid>
@@ -78,10 +79,10 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Ashland Iron Mining Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18512">Ashland Iron Mining Company.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5809">Business records.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091930.html" ref="/subjects/1930">Gogebic County (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Hayes Mining Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22375">Hayes Mining Company.</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85207518.html" ref="/subjects/2159">Hurley (Wis.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8699">Iron mines and mining--Wisconsin--Hurley.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8700">Iron mines and mining--Michigan--Ironwood.</subject>
@@ -89,8 +90,8 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86869621">Hayes, E. A. (Everis Anson), 1855-1942.</persname>
-        <persname source="lcnaf" encodinganalog="700">Hayes, Jay Orley, 1857-1948.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86869621" ref="/agents/people/32804">Hayes, E. A. (Everis Anson), 1855-1942.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35447">Hayes, Jay Orley, 1857-1948.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

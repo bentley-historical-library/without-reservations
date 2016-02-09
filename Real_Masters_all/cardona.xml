@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Cardona, Ana Luisa.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/29491">Cardona, Ana Luisa.</persname>
       </origination>
       <unittitle encodinganalog="245">Ana Luisa Cardona papers <unitdate type="inclusive" encodinganalog="245$f" normal="1973/2011">1973-2011</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2010015 Aa 2; UAm</unitid>
@@ -96,11 +97,11 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr93049540">Alliance for Cultural Democracy.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Casa de Unidad (Detroit, Mich.)</corpname>
-        <persname source="lcnaf" encodinganalog="600">Cardona, Ana Luisa.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50039039">Delano, Jack.</persname>
-        <persname source="lcnaf" encodinganalog="600">Perazza, Julio.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr93049540" ref="/agents/corporate_entities/20112">Alliance for Cultural Democracy.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17744">Casa de Unidad (Detroit, Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29491">Cardona, Ana Luisa.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50039039" ref="/agents/people/32459">Delano, Jack.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28093">Perazza, Julio.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6690">Hispanic Americans--Michigan--Detroit.</subject>
       </controlaccess>
       <controlaccess>
@@ -447,7 +448,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Digital copy of interview with Jack Delano conducted by Ana Cardona in 1983.)</p></odd></c03>
+            <odd>
+              <p>(Digital copy of interview with Jack Delano conducted by Ana Cardona in 1983.)</p>
+            </odd>
+          </c03>
         </c02>
         <c02 level="file">
           <did>
@@ -592,7 +596,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Compilations of notable dates for the Artes Unidas de Michigan 2005 calendar. Includes lists of dates/events for each month and a bibliography.)</p></odd></c03>
+            <odd>
+              <p>(Compilations of notable dates for the Artes Unidas de Michigan 2005 calendar. Includes lists of dates/events for each month and a bibliography.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
@@ -606,7 +613,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Mailing list for Artes Unidas de Michigan. Consists primarily of Hispanic and Latino organizations in Michigan.)</p></odd></c03>
+            <odd>
+              <p>(Mailing list for Artes Unidas de Michigan. Consists primarily of Hispanic and Latino organizations in Michigan.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [716199609344151940139939]">2</container>
@@ -676,7 +686,10 @@
               </daodesc>
             </dao>
           </did>
-        <odd><p>(Miscellaneous materials, circa March 1997.  Includes correspondence with Daniel del Solar and Jack Delano as well as poetry and an essay entitled 'An Adult's Lesson in Civics.')</p></odd></c02>
+          <odd>
+            <p>(Miscellaneous materials, circa March 1997.  Includes correspondence with Daniel del Solar and Jack Delano as well as poetry and an essay entitled 'An Adult's Lesson in Civics.')</p>
+          </odd>
+        </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [345649888454964913166301]">3</container>
@@ -805,7 +818,10 @@
               </daodesc>
             </dao>
           </did>
-        <odd><p>(Files from floppy disk labeled 'Southmost Story' mostly relating to efforts to improve the educational environment and opportunities for high school students.  In particular, focuses on efforts at Western International High School in Detroit, Michigan.  Includes correspondence, budgets, strategic plan documents, and other materials.)</p></odd></c02>
+          <odd>
+            <p>(Files from floppy disk labeled 'Southmost Story' mostly relating to efforts to improve the educational environment and opportunities for high school students.  In particular, focuses on efforts at Western International High School in Detroit, Michigan.  Includes correspondence, budgets, strategic plan documents, and other materials.)</p>
+          </odd>
+        </c02>
         <c02 level="file">
           <did>
             <container type="folder" label="Oversize Folder [9967673148192624638483]">UAm</container>

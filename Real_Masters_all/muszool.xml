@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Museum of Zoology.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/22720">University of Michigan. Museum of Zoology.</corpname>
       </origination>
       <unittitle encodinganalog="245">Museum of Zoology (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1876/1999">1876-1999</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1910/1955">1910-1955</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1975/1989">1975-1989</unitdate></unittitle>
       <abstract>A research and teaching museum at the University of Michigan, one of four units of the University Museum. Records include museum directors' topical files and correspondence; minutes, reports, and correspondence of museum committees; photographs; and various publications, largely about the museum. Subjects concern the collections, expeditions, and other activities of the museum, especially during the administrations of directors Joseph B. Steere, Alexander Ruthven, Frederick Gaige, James S. Rogers, and Theodore Hubbell.</abstract>
@@ -98,11 +99,11 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Gaige, Frederick M.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no00039433">Hubbell, Theodore Huntington, 1897-1989.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no00039450">Rogers, J. Speed (James Speed), 1892-1955</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87828171">Ruthven, Alexander Grant, 1882-1971.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2007120169">Steere, Joseph Beal, 1842-1940.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/36021">Gaige, Frederick M.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no00039433" ref="/agents/people/34915">Hubbell, Theodore Huntington, 1897-1989.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no00039450" ref="/agents/people/32863">Rogers, J. Speed (James Speed), 1892-1955</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87828171" ref="/agents/people/30884">Ruthven, Alexander Grant, 1882-1971.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2007120169" ref="/agents/people/35250">Steere, Joseph Beal, 1842-1940.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6178">Zoology.</subject>
       </controlaccess>
     </controlaccess>

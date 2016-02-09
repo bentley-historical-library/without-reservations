@@ -24,7 +24,8 @@
         <item>Original encoding from Word 10.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Brewer, Dwight J.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/27497">Brewer, Dwight J.</persname>
       </origination>
       <unittitle encodinganalog="245"> Dwight J. Brewer papers <unitdate type="inclusive" encodinganalog="245$f"> 1862-1898 </unitdate> <unitdate type="bulk" encodinganalog="245$g"> 1862-1865 </unitdate></unittitle>
       <physdesc altrender="part">
@@ -90,11 +91,11 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Brewer, Dwight J.</persname>
-        <famname source="lcnaf" encodinganalog="600">Brewer family.</famname>
-        <persname source="lcnaf" encodinganalog="600">Stearns, Edwin.</persname>
-        <famname source="lcnaf" encodinganalog="600">Stearns family.</famname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Michigan Infantry Regiment, 20th (1862-1865)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/27497">Brewer, Dwight J.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1611">Brewer family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30139">Stearns, Edwin.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1355">Stearns family.</famname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22830">United States. Army. Michigan Infantry Regiment, 20th (1862-1865)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/909">United States--History--Civil War, 1861-1865.</geogname>
       </controlaccess>
       <controlaccess>
@@ -134,7 +135,10 @@
               </daodesc>
             </dao>
           </did>
-        <odd><p>(Letters written by Dwight Brewer to his family during his service in the Company F of the 20th Michigan Infantry during the Civil War. Some letters were written together with Edwin Stearns, who served with Brewer and whose sister was married to Brwer's father.  Includes letters written from Fredericksburg and Knoxville.)</p></odd></c02>
+          <odd>
+            <p>(Letters written by Dwight Brewer to his family during his service in the Company F of the 20th Michigan Infantry during the Civil War. Some letters were written together with Edwin Stearns, who served with Brewer and whose sister was married to Brwer's father.  Includes letters written from Fredericksburg and Knoxville.)</p>
+          </odd>
+        </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [705001403819016965186]">1</container>

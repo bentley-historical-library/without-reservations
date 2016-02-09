@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Dept. of Anthropology.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/21829">University of Michigan. Dept. of Anthropology.</corpname>
       </origination>
       <unittitle encodinganalog="245">Department of Anthropology (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1927/1983">1927-1983</unitdate></unittitle>
       <abstract>Established in 1929, the University of Michigan Department of Anthropology provides instruction in ethnology, archaeology, biological anthropology, and linguistics, and is consistently ranked among the top academic programs in anthropology in the country. The records include correspondence from James B. Griffin's tenure as chair (1972-1975), meeting minutes, memos and general correspondence, and descriptions of degree requirements and courses.</abstract>
@@ -94,14 +95,14 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Anthropology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79063899">University of Michigan. Museum of Anthropology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21829">University of Michigan. Dept. of Anthropology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79063899" ref="/agents/corporate_entities/20192">University of Michigan. Museum of Anthropology.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7234">Anthropology--Study and teaching.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50031636">Griffin, James B. (James Bennett), 1905-1997</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80109844">Guthe, Carl E. (Carl Eugen), 1893-1974</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50031636" ref="/agents/people/35789">Griffin, James B. (James Bennett), 1905-1997</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80109844" ref="/agents/people/34513">Guthe, Carl E. (Carl Eugen), 1893-1974</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

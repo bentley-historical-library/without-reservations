@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Long, Thomas G., 1883-1973.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33827">Long, Thomas G., 1883-1973.</persname>
       </origination>
       <unittitle encodinganalog="245">Thomas G. Long papers <unitdate type="inclusive" encodinganalog="245$f" normal="1916/1962">1916-1962</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851710 Aa 2</unitid>
@@ -80,7 +81,7 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6460">Lawyers--Michigan--Detroit.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Bell Telephone Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18490">Michigan Bell Telephone Company.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7806">Public utilities--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8881">Telephone--Michigan.</subject>
       </controlaccess>

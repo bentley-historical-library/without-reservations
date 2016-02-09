@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Kraker, Norma F.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28910">Kraker, Norma F.</persname>
       </origination>
       <unittitle encodinganalog="245">Norma F. Kraker Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1961/1972">1961-1972</unitdate></unittitle>
       <abstract>Ann Arbor, Michigan, civic activist involved with housing and civil rights issues and organizations. Subject files relating to her work with the Ann Arbor Citizens Committee for Fair Housing Legislation and its successor organization, the Ann Arbor Committee for Housing Legislation; also files relating to the Ann Arbor Housing Commission, the Ann Arbor Human Relations Commission, and the Off-Campus Housing Bureau of the University of Michigan Office of Student Community Relations.</abstract>
@@ -79,15 +80,15 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5781">African Americans--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Committee for Housing Legislation (Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor (Mich.). Housing Commission.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor (Mich.). Human Relations Commission.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20868">Ann Arbor Committee for Housing Legislation (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/23131">Ann Arbor (Mich.). Housing Commission.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21919">Ann Arbor (Mich.). Human Relations Commission.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6599">Civil rights--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5703">Discrimination in housing--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8698">Social reformers--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Student housing.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Off-Campus Housing Bureau.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Office of Student Community Relations.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Student housing.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18656">University of Michigan. Off-Campus Housing Bureau.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18438">University of Michigan. Office of Student Community Relations.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8697">Women social reformers--Michigan--Ann Arbor.</subject>
       </controlaccess>
     </controlaccess>

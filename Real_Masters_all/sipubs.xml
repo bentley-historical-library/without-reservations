@@ -39,7 +39,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -50,7 +51,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/no97022740">University of Michigan. School of Information.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/no97022740" ref="/agents/corporate_entities/20576">University of Michigan. School of Information.</corpname>
       </origination>
       <unittitle encodinganalog="245">School of Information (University of Michigan) publications <unitdate type="inclusive" encodinganalog="245$f" normal="1916/2006">1916-2006</unitdate></unittitle>
       <abstract>Contains addresses, annual reports, bulletins and course catalogs, directories, proceedings, and reports including the Library Science Study series. Also includes newsletters such as the Doctoral Students' Memo, the Insider, New Edition, News and Notes, News from the School of Library Science, Placement Bulletin, and SILS Update. Also contains a history of the Association of library science alumni and issues of their newsletter Alumni Notes. Also includes the publications of Beta Phi Mu - Beta Phi Mu Newsletter and Musings. Contains the Dept. of Library Science summer session bulletin.</abstract>
@@ -89,7 +90,10 @@
       <p>In November 1967, a panel of library leaders, which had been invited to visit and examine the department, recommended that the department be made a separate school. On October 18, 1968, the Regents approved the request and the change became effective on July 1, 1969.</p>
       <p>Bidlack was named the school's first dean, a position which he held until his retirement in 1984. University Librarian Richard M. Dougherty became interim dean pending the arrival of Robert M. Warner as dean in April 1985. Warner came to the school after serving as Archivist of the United States. Under Warner, the school began to grow and change. The first visible sign of this came with the Regent's approval of the school's name change. As of July 1986, the School of Library Science officially became known as the School of Information and Library Studies. The name change reflected a changing emphasis in the curriculum and the changing nature of the field of librarianship through the use of computers and electronic media.</p>
       <p>Warner left the deanship in 1992 to resume teaching at the school. A new dean search brought Daniel E. Atkins, an engineer and computer scientist, to the school. In 1996 the school's name was again changed, this time to the School of Information. This change reflected an even greater shift away from traditional library studies and towards the use of new information technologies. In September 1998 Atkins resigned as Dean. Gary Olson served as Acting Dean until December 1999, when John L. King assumed the deanship.</p>
-      <p>Administrators of Library Education/Deans <chronlist><head>University Librarian</head> <chronitem><date>1877-1905</date> <event>Raymond Cazallis Davis</event></chronitem> <chronitem><date>1905-1915</date> <event>Theodore Wesley Koch</event></chronitem> <chronitem><date>1915-1941</date> <event>William Warner Bishop</event></chronitem></chronlist> <chronlist> <head>Chairman</head> <chronitem><date>1926-1940</date> <event>William Warner Bishop</event></chronitem> <chronitem><date>1940-1964</date> <event>Rudolph Hjalmar Gjelsness</event></chronitem> <chronitem><date>1964-1967</date> <event>Wallace John Bonk</event></chronitem> <chronitem><date>1967-1969</date> <event>Russell Eugene Bidlack (Acting)</event></chronitem></chronlist> <chronlist> <head>Dean</head> <chronitem><date>1969-1984</date> <event>Russell Eugene Bidlack</event></chronitem> <chronitem><date>1984-1985</date> <event>Richard Martin Dougherty (Interim)</event></chronitem> <chronitem><date>1985-1992</date> <event>Robert Mark Warner</event></chronitem> <chronitem><date>1992-1998</date> <event>Daniel Ewell Atkins, III</event></chronitem> <chronitem><date>1998-1999</date> <event>Gary M. Olson (Acting)</event></chronitem> <chronitem><date>2000-</date> <event>John L. King</event></chronitem></chronlist></p>
+      <p>Administrators of Library Education/Deans <chronlist>
+        <head>University Librarian</head> <chronitem><date>1877-1905</date> <event>Raymond Cazallis Davis</event></chronitem> <chronitem><date>1905-1915</date> <event>Theodore Wesley Koch</event></chronitem> <chronitem><date>1915-1941</date> <event>William Warner Bishop</event></chronitem></chronlist> <chronlist>
+        <head>Chairman</head> <chronitem><date>1926-1940</date> <event>William Warner Bishop</event></chronitem> <chronitem><date>1940-1964</date> <event>Rudolph Hjalmar Gjelsness</event></chronitem> <chronitem><date>1964-1967</date> <event>Wallace John Bonk</event></chronitem> <chronitem><date>1967-1969</date> <event>Russell Eugene Bidlack (Acting)</event></chronitem></chronlist> <chronlist>
+        <head>Dean</head> <chronitem><date>1969-1984</date> <event>Russell Eugene Bidlack</event></chronitem> <chronitem><date>1984-1985</date> <event>Richard Martin Dougherty (Interim)</event></chronitem> <chronitem><date>1985-1992</date> <event>Robert Mark Warner</event></chronitem> <chronitem><date>1992-1998</date> <event>Daniel Ewell Atkins, III</event></chronitem> <chronitem><date>1998-1999</date> <event>Gary M. Olson (Acting)</event></chronitem> <chronitem><date>2000-</date> <event>John L. King</event></chronitem></chronlist></p>
     </bioghist>
     <scopecontent encodinganalog="520">
       <p>The Publications of the School of Information and Library Studies are divided into three series: Unit Publications, Sub-Unit Publications and Topical Publications. Some publications (or their successors) may no longer be available in print but are available on the school s website.</p>
@@ -100,11 +104,11 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Alumni and alumnae.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no97022740">University of Michigan. School of Information.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr91040392">University of Michigan. School of Information and Library Studies.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81144007">University of Michigan. School of Library Science.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Library Science.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Alumni and alumnae.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no97022740" ref="/agents/corporate_entities/20576">University of Michigan. School of Information.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr91040392" ref="/agents/corporate_entities/19327">University of Michigan. School of Information and Library Studies.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81144007" ref="/agents/corporate_entities/17566">University of Michigan. School of Library Science.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18906">University of Michigan. Dept. of Library Science.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Publications:</head>
@@ -123,10 +127,10 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Dept. of Library Science.</corpname>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n81144007">University of Michigan. School of Library Science.</corpname>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/nr91040392">University of Michigan. School of Information and Library Studies.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Summer Session.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/18906">University of Michigan. Dept. of Library Science.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n81144007" ref="/agents/corporate_entities/17566">University of Michigan. School of Library Science.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/nr91040392" ref="/agents/corporate_entities/19327">University of Michigan. School of Information and Library Studies.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/19065">University of Michigan. Summer Session.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

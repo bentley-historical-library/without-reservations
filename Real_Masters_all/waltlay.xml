@@ -43,7 +43,8 @@
         <item>Original encoding from Microsoft Word 6.0 file</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -54,7 +55,7 @@
   <archdesc level="collection" type="inventory" audience="external" relatedencoding="MARC21">
     <did>
       <origination encodinganalog="100">
-        <persname source="lcnaf">Lay, Walter Edwin.</persname>
+        <persname source="lcnaf" ref="/agents/people/29159">Lay, Walter Edwin.</persname>
       </origination>
       <unittitle encodinganalog="245">Walter E. Lay Papers, <unitdate encodinganalog="245$f" type="inclusive" normal="1889/1993">1889-1993</unitdate></unittitle>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">9667 AA 2</unitid>
@@ -100,18 +101,18 @@
       </p>
       <controlaccess>
         <head>Subject:</head>
-        <persname source="lcnaf" encodinganalog="600">Lay, Walter Edwin.</persname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Automotive Engineering Laboratory.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83062297">University of Michigan. Dept. of Mechanical Engineering.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29159">Lay, Walter Edwin.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22333">University of Michigan. Automotive Engineering Laboratory.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83062297" ref="/agents/corporate_entities/23114">University of Michigan. Dept. of Mechanical Engineering.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subject- Visual Materials:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10271">Automobiles--Design and construction.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4039">Laboratories--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Automotive Engineering Laboratory.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Walter E. Lay Automotive Laboratory (University of Michigan)</corpname>
-        <persname source="lcnaf">Lay, Walter Edwin.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22333">University of Michigan. Automotive Engineering Laboratory.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18462">Walter E. Lay Automotive Laboratory (University of Michigan)</corpname>
+        <persname source="lcnaf" ref="/agents/people/29159">Lay, Walter Edwin.</persname>
       </controlaccess>
       <controlaccess>
         <head>Form and GenreTerms:</head>

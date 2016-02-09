@@ -43,7 +43,8 @@
         <item>original encoding to BHL standard</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -54,7 +55,7 @@
   <archdesc level="collection" type="inventory" audience="external" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/no2003056349">Williams, Charles David, 1860-1923.</persname>
+        <persname encodinganalog="100" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/no2003056349" ref="/agents/people/27433">Williams, Charles David, 1860-1923.</persname>
       </origination>
       <unittitle encodinganalog="245">Charles David Williams papers <unitdate encodinganalog="245$f" type="inclusive" normal="1878/1923">1878-1923</unitdate></unittitle>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">86339 Aa 2</unitid>
@@ -102,8 +103,8 @@
         <head>Subject Terms:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5707">Clergy--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79086863.html" ref="/subjects/1468">Cleveland (Ohio)</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50051668">Eddy, Sherwood, 1871-1963.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85813454">Episcopal Church. Diocese of Michigan.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50051668" ref="/agents/people/35416">Eddy, Sherwood, 1871-1963.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85813454" ref="/agents/corporate_entities/19782">Episcopal Church. Diocese of Michigan.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/984">Europe.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6742">Forest fires--Michigan--Metz.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6743">Labor--Michigan.</subject>
@@ -111,8 +112,8 @@
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1470">Michigan--Church history.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6744">Sociology, Christian.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6034">Voyages and travels.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n93019960">Trinity Cathedral (Cleveland, Ohio)</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2003056349">Williams, Charles David, 1860-1923.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n93019960" ref="/agents/corporate_entities/21483">Trinity Cathedral (Cleveland, Ohio)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2003056349" ref="/agents/people/27433">Williams, Charles David, 1860-1923.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/972">Europe--Description and travel.</geogname>
       </controlaccess>
       <controlaccess>
@@ -123,22 +124,22 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Ford, Charles O.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n91107274">Garfield, Lucretia Rudolph, 1832-1918.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n93019768">Mather, Samuel, 1851-1931.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79018599">Niebuhr, Reinhold, 1892-1971.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50054020">Rauschenbusch, Walter, 1861-1918.</persname>
-        <persname source="lcnaf" encodinganalog="700">Williams, Benedict.</persname>
-        <persname source="lcnaf" encodinganalog="700">Williams, Lucy V.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35570">Ford, Charles O.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n91107274" ref="/agents/people/29165">Garfield, Lucretia Rudolph, 1832-1918.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n93019768" ref="/agents/people/34703">Mather, Samuel, 1851-1931.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79018599" ref="/agents/people/32513">Niebuhr, Reinhold, 1892-1971.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50054020" ref="/agents/people/32844">Rauschenbusch, Walter, 1861-1918.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35126">Williams, Benedict.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28702">Williams, Lucy V.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3995">Churches--Ohio.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3691">Clergymen.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Episcopal Church.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18160">Episcopal Church.</corpname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/253">Ohio--Churches.</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2003056349">Williams, Charles David, 1860-1923.</persname>
-        <persname source="lcnaf" encodinganalog="600">Williams, Lucy V.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2003056349" ref="/agents/people/27433">Williams, Charles David, 1860-1923.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28702">Williams, Lucy V.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5737">World War, 1914-1918.</subject>
       </controlaccess>
     </controlaccess>

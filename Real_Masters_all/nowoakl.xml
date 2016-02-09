@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">National Organization for Women. Oakland County Chapter.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/18151">National Organization for Women. Oakland County Chapter.</corpname>
       </origination>
       <unittitle encodinganalog="245">National Organization for Women, Oakland County Chapter Records <unitdate type="inclusive" encodinganalog="245$f" normal="1978/2002">1978-2002</unitdate></unittitle>
       <abstract>Administrative files include minutes, membership materials, and newsletters. Topical concern activities and relationship with Michigan NOW and other state NOW chapters.</abstract>
@@ -87,9 +88,9 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">National Organization for Women. Oakland County Chapter.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18151">National Organization for Women. Oakland County Chapter.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9590">Feminism--Michigan--Oakland County.</subject>
-        <corpname source="lcnaf" encodinganalog="610">National Organization for Women. Michigan Conference.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21909">National Organization for Women. Michigan Conference.</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091869.html" ref="/subjects/1856">Oakland County (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6248">Women's rights--Michigan.</subject>
       </controlaccess>

@@ -31,18 +31,21 @@
       </change>
       <change>
         <date>June 15, 1997</date>
-        <item>Bill Landis <note><p>Finding aid updated to current BHL EAD encoding standards.</p></note></item>
+        <item>Bill Landis <note>
+          <p>Finding aid updated to current BHL EAD encoding standards.</p></note></item>
       </change>
       <change>
         <date>July 12, 1997</date>
-        <item>Bill Landis <note><p>Second update following discussion with Greg Kinney.</p></note></item>
+        <item>Bill Landis <note>
+          <p>Second update following discussion with Greg Kinney.</p></note></item>
       </change>
       <change>
         <date>8/9/1997</date>
         <item>headings removed and other changes made to conform to new style</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -53,7 +56,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf">Flood, Merrill Meeks, 1908-</persname>
+        <persname source="lcnaf" ref="/agents/people/31753">Flood, Merrill Meeks, 1908-</persname>
       </origination>
       <unittitle encodinganalog="245">Merrill M. Flood Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1930/1991">1930-1991</unitdate>, <unitdate type="bulk" normal="1943/1990">1943-1990</unitdate></unittitle>
       <unitid label="Call No." encodinganalog="099" type="call number">9757 Aa 2</unitid>
@@ -102,11 +105,11 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Floor, Merrill Meeks, 1908-</persname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83029012">University of Michigan. Mental Health Research Institute.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Faculty Research Program on University Governance.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n78083407">Rand Corporation.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33361">Floor, Merrill Meeks, 1908-</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83029012" ref="/agents/corporate_entities/22178">University of Michigan. Mental Health Research Institute.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20352">University of Michigan. Faculty Research Program on University Governance.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n78083407" ref="/agents/corporate_entities/23107">Rand Corporation.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7094">Organization--Research.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7813">Decision-making, Group.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7814">Aerial observation (Military Science)</subject>

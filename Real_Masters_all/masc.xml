@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Michigan Association of Speech Communication.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/22643">Michigan Association of Speech Communication.</corpname>
       </origination>
       <unittitle encodinganalog="245">Michigan Association of Speech Communication records <unitdate type="inclusive" encodinganalog="245$f" normal="1940/1997">1940-1997</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1970/1990">1970-1990</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85289 Bi 2</unitid>
@@ -82,8 +83,8 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8981">Communication--Study and teaching.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Association of Speech Communication.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">Michigan Speech Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22643">Michigan Association of Speech Communication.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/17896">Michigan Speech Association.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

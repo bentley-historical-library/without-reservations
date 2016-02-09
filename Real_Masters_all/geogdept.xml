@@ -27,7 +27,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Dept. of Geography.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/20547">University of Michigan. Dept. of Geography.</corpname>
       </origination>
       <unittitle encodinganalog="245">Dept. of Geography (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1925/1982">1925-1982</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">87148 Bimu C26 2</unitid>
@@ -82,11 +83,11 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Chi Gamma Phi.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21375">Chi Gamma Phi.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7956">Geography.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Quadrangle Club (University of Michigan)</corpname>
-        <persname source="lcnaf" encodinganalog="700">Davis, Charles Moler, 1900-</persname>
-        <persname source="lcnaf" encodinganalog="700">McMurry, Kenneth Charles.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22719">Quadrangle Club (University of Michigan)</corpname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35740">Davis, Charles Moler, 1900-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35298">McMurry, Kenneth Charles.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/no2004052855">Johnston, Clarence Thomas, 1872-1970.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/no2004052855" ref="/agents/people/29541">Johnston, Clarence Thomas, 1872-1970.</persname>
       </origination>
       <unittitle encodinganalog="245">Clarence T. Johnston papers <unitdate type="inclusive" encodinganalog="245$f" normal="1888/1941">1888-1941</unitdate></unittitle>
       <abstract>Professor of engineering at the University of Michigan. Photos of Johnston's personal and family life in Wyoming and Michigan, including student activities at the University of Michigan; photos of his work on water projects in the West and in Egypt; and photos of Camp Davis, the summer engineering camp of the University of Michigan in Cheboygan Co., Michigan.</abstract>
@@ -106,14 +107,14 @@
       <controlaccess>
         <head>Subjects</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6424">Engineers--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">First Congregational Church (Ann Arbor, Mich.)</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2004052855">Johnston, Clarence Thomas, 1872-1970.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. Relicted Lands Commission.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">State Drain Commissioners Association (Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Student Religious Association.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80094504">University of Michigan. College of Engineering.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Senate Council.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17875">First Congregational Church (Ann Arbor, Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2004052855" ref="/agents/people/29541">Johnston, Clarence Thomas, 1872-1970.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18904">Michigan. Relicted Lands Commission.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20949">State Drain Commissioners Association (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17956">University of Michigan. Student Religious Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80094504" ref="/agents/corporate_entities/17661">University of Michigan. College of Engineering.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18429">University of Michigan. Senate Council.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
@@ -129,12 +130,12 @@
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1676">Idaho.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6772">Indians of North America.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4534">Irrigation.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2004052855">Johnston, Clarence Thomas, 1872-1970.</persname>
-        <famname source="lcnaf" encodinganalog="600">Johnston family.</famname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2004052855" ref="/agents/people/29541">Johnston, Clarence Thomas, 1872-1970.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1257">Johnston family.</famname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4335">Photographers.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4026">Surveying--Wyoming.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4027">Surveying--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Students--Social life and customs.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1610">Wyoming.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1646">Yellowstone National Park.</geogname>
       </controlaccess>

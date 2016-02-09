@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Kefauver, Lee, 1934-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32305">Kefauver, Lee, 1934-</persname>
       </origination>
       <unittitle encodinganalog="245">Lee Kefauver Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1970/1985">1970-1985</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1972/1977">1972-1977</unitdate></unittitle>
       <abstract>Feminist active in various civic and political causes and organizations, including the League of Women Voters, the Michigan Republican Party, and the Women's Equity Action League. Files relating to her work with different organizations and to her interest in political and women's rights issues.</abstract>
@@ -86,11 +87,11 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Kefauver, Lee, 1934-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32305">Kefauver, Lee, 1934-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7432">Feminists--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79142550">League of Women Voters of Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79051102">Women's Equity Action League.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79142550" ref="/agents/corporate_entities/20967">League of Women Voters of Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21402">Republican Party (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79051102" ref="/agents/corporate_entities/20264">Women's Equity Action League.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6248">Women's rights--Michigan.</subject>
       </controlaccess>
     </controlaccess>

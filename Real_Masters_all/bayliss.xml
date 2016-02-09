@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Bayliss Public Library (Sault Sainte Marie, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/22488">Bayliss Public Library (Sault Sainte Marie, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">Sault Sainte Marie collection <unitdate type="inclusive" encodinganalog="245$f" normal="1802/1930" certainty="approximate">circa 1802-1930</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">89182 Bz Microcopy</unitid>
@@ -82,7 +83,7 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">American Fur Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22388">American Fur Company.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6197">Automobile industry and trade--Michigan--Chippewa County.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/996">Chippewa County (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6198">Fur trade--Michigan.</subject>

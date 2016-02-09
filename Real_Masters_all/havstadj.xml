@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Havstad, Jeaneane.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/29156">Havstad, Jeaneane.</persname>
       </origination>
       <unittitle encodinganalog="245">Jeaneane Havstad papers <unitdate type="inclusive" encodinganalog="245$f" normal="1968/1982">1968-1982</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1972/1976">1972-1976</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2012057 Aa 2</unitid>
@@ -83,9 +84,9 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Havstad, Jeaneane.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Human Rights party (Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">New Democratic Coalition of Michigan.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29156">Havstad, Jeaneane.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20637">Human Rights party (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21628">New Democratic Coalition of Michigan.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6909">Elections--Michigan--1972.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7857">Radicalism--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8179">Women--Political activity--Michigan.</subject>

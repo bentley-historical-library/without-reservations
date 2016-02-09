@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Kenny R.E.H.A.B.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/17640">Kenny R.E.H.A.B.</corpname>
       </origination>
       <unittitle encodinganalog="245">Kenny R.E.H.A.B. Records <unitdate type="inclusive" encodinganalog="245$f" normal="1945/1997">1945-1997</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1950/1964">1950-1964</unitdate></unittitle>
       <abstract>Detroit-area chapter (est. 1946) of organization founded to provide the Kenny method treatment for neuromuscular diseases. Records include administrative files of the Detroit Chapter of the Sister Elizabeth Kenny Foundation; collected information pertaining to the Minneapolis headquarters of the Foundation and about Sister Kenny; informational publications; scrapbooks containing clippings and scattered photographs; and slides of 40th anniversary programs in 1986.</abstract>
@@ -84,19 +85,19 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Kenny R.E.H.A.B.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80037749">Kenny, Elizabeth, 1886-1952.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17640">Kenny R.E.H.A.B.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80037749" ref="/agents/people/27404">Kenny, Elizabeth, 1886-1952.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6518">Poliomyelitis.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Sister Elizabeth Kenny Foundation.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18987">Sister Elizabeth Kenny Foundation.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <corpname source="lcnaf" encodinganalog="610">Kenny R.E.H.A.B.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17640">Kenny R.E.H.A.B.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5267">Children--Health and welfare--Michigan.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5268">Iron lungs.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5269">Poliomyelitis--Michigan.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5270">Sick children.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Sister Elizabeth Kenny Polio Hospital (Farmington Hills, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21269">Sister Elizabeth Kenny Polio Hospital (Farmington Hills, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

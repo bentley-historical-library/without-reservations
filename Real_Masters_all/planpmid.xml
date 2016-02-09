@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Planned Parenthood of Mid-Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/22284">Planned Parenthood of Mid-Michigan.</corpname>
       </origination>
       <unittitle encodinganalog="245">Planned Parenthood of Mid-Michigan Records <unitdate type="inclusive" encodinganalog="245$f" normal="1911/2007">1911-2007</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1940/1995">1940-1995</unitdate></unittitle>
       <abstract>The records of Planned Parenthood of Mid-Michigan document the history of the organization and the family planning services it has provided to Michigan residents. The records are a good source of information on the history of birth control, abortion, sex education, and women’s health issues in the state from the 1930s to the turn of the twenty first century. In addition to the Planned Parenthood of Mid-Michigan files, the collection includes records documenting the Planned Parenthood Association of Southwestern Michigan and Planned Parenthood of Southeast Michigan, dating from the period before these two organizations merged with Planned Parenthood of Mid-Michigan. Materials include board minutes and reports, correspondence, organizational handbooks and policy statements, pamphlets, newsletters, newspaper clippings, scrapbooks, photographs, and videotapes.</abstract>
@@ -94,11 +95,11 @@
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7260">Abortion.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6393">Birth control.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Planned Parenthood Association of Southwestern Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Planned Parenthood Federation of America.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Planned Parenthood of Mid-Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Planned Parenthood of Southeast Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Washtenaw County League for Planned Parenthood.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19046">Planned Parenthood Association of Southwestern Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18152">Planned Parenthood Federation of America.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22284">Planned Parenthood of Mid-Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22665">Planned Parenthood of Southeast Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18030">Washtenaw County League for Planned Parenthood.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9276">Pro-choice movement--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9786">Reproductive health.</subject>
       </controlaccess>
@@ -109,14 +110,14 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4700">Demonstrations--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9276">Pro-choice movement--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6764">Pro-life movement--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Planned Parenthood Association of Southwestern Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Planned Parenthood of Mid-Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Planned Parenthood of Southeastern Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Washtenaw County League for Planned Parenthood.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19046">Planned Parenthood Association of Southwestern Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22284">Planned Parenthood of Mid-Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18057">Planned Parenthood of Southeastern Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18030">Washtenaw County League for Planned Parenthood.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <corpname source="lcnaf" encodinganalog="710">Washtenaw County League for Planned Parenthood.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/18030">Washtenaw County League for Planned Parenthood.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

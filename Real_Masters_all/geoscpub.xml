@@ -39,7 +39,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -50,7 +51,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Dept. of Geological Sciences.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/21610">University of Michigan. Dept. of Geological Sciences.</corpname>
       </origination>
       <unittitle encodinganalog="245">Dept. of Geological Sciences (University of Michigan.) publications <unitdate type="inclusive" encodinganalog="245$f" normal="1933/2006">1933-2006</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1945/2006">1945-2006</unitdate></unittitle>
       <abstract>The University of Michigan. Department of Geological Sciences Publications (.8 linear ft.) include bibliographies, brochures, directories, flyers and newsletters dating from 1933 to the present. These publications primarily document the activities of the department, faculty, staff, students and alumni. In addition, there is information on the summer geology program run by the University of Michigan at Camp Davis in Jackson, Wyoming and Mill Springs, Kentucky.</abstract>
@@ -93,12 +94,12 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Geological Sciences.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Geology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Geology and Mineralogy.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21610">University of Michigan. Dept. of Geological Sciences.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19240">University of Michigan. Dept. of Geology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17695">University of Michigan. Dept. of Geology and Mineralogy.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7958">Geology--Study and teaching (Higher)--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Dept. of Geology.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Dept. of Geology and Mineralogy.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/19240">University of Michigan. Dept. of Geology.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/17695">University of Michigan. Dept. of Geology and Mineralogy.</corpname>
         <title source="aacr2" encodinganalog="740" ref="/subjects/57">Geoalumni news.</title>
         <title source="aacr2" encodinganalog="740" ref="/subjects/58">Geoscience news.</title>
         <title source="aacr2" encodinganalog="740" ref="/subjects/59">Contributions to mineralogical sciences from the Department of Geology and Mineralogy from the time of the organization of the department.</title>

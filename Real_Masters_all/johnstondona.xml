@@ -32,7 +32,8 @@
         <item>Original encoding from Word 10.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -43,7 +44,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="110"> Johnston, Donald A., III </persname>
+        <persname source="lcnaf" encodinganalog="110" ref="/agents/people/29333"> Johnston, Donald A., III </persname>
       </origination>
       <unittitle encodinganalog="245"> Donald A. Johnston papers <unitdate type="inclusive" encodinganalog="245$f" normal="1979/2012"> 1979-2012 </unitdate> <unitdate type="bulk" encodinganalog="245$g" normal="1989/2012"> 1989-2012 </unitdate> </unittitle>
       <physdesc altrender="whole">
@@ -96,12 +97,12 @@
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8503">Court administration--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8504">Court administration--United States.</subject>
-        <persname source="lcnaf" encodinganalog="600">Johnston, Donald A., III, 1944-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33605">Johnston, Donald A., III, 1944-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8505">Judges--Michigan--Kent County (Mich.)</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1366">Kent County (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. Circuit Court (Kent County)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United States. District Court (Michigan : Eastern District)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Judicial Institute.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22699">Michigan. Circuit Court (Kent County)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21060">United States. District Court (Michigan : Eastern District)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18092">Michigan Judicial Institute.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -279,8 +280,8 @@
     </dsc>
     <descgrp type="add">
       <relatedmaterial>
-        <head>Related Material</head>
-        <p>Researchers interested in the judicial process in Michigan or in judges with ties to the state may also wish to consult the following collections held by the Bentley Historical Library:</p>
+      <head>Related Material</head>
+      <p>Researchers interested in the judicial process in Michigan or in judges with ties to the state may also wish to consult the following collections held by the Bentley Historical Library:</p>
         <list type="simple">
           <item>
             <title href="http://quod.lib.umich.edu/cgi/f/findaid/findaid-idx?c=bhlead;idno=umich-bhl-9931" show="new" actuate="onrequest">Donald E. Aams papers</title>

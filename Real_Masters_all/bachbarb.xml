@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Bach, Barbara.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30136">Bach, Barbara.</persname>
       </origination>
       <unittitle encodinganalog="245">Barbara Bach papers <unitdate type="inclusive" encodinganalog="245$f" normal="1960/2008">1960-2008</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1975/2007">1975-2007</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2013048 Aa 2</unitid>
@@ -95,11 +96,11 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Bach, Barbara.</persname>
-        <persname source="lcnaf" encodinganalog="600">Wheeler, Albert Harold, 1915-1994.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Inventors Council of Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Community College Association.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr91019172">Michigan Technology Council.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30136">Bach, Barbara.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/36004">Wheeler, Albert Harold, 1915-1994.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18380">Inventors Council of Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18691">Michigan Community College Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr91019172" ref="/agents/corporate_entities/18716">Michigan Technology Council.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6030">Businesswomen--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6031">Community colleges--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6032">Fund raisers (Persons)--Michigan--Ann Arbor.</subject>

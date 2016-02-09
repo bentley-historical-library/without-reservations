@@ -23,7 +23,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Adams, Clark J., 1904-1981.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33567">Adams, Clark J., 1904-1981.</persname>
       </origination>
       <unittitle encodinganalog="245">Clark J. Adams Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1920/1983">1920-1983</unitdate></unittitle>
       <abstract>Attorney, Michigan State Representative, Justice of the Michigan Supreme Court; biographical information, topical files, and visual materials</abstract>
@@ -78,23 +79,23 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Adams, Clark J., 1904-1981.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33567">Adams, Clark J., 1904-1981.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5757">Judges--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5758">Lawyers--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81074669">Michigan. Supreme Court.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81074669" ref="/agents/corporate_entities/19121">Michigan. Supreme Court.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Adams, Adeline B.</persname>
-        <persname source="lcnaf" encodinganalog="600">Adams, Clark J., 1904-1981.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28778">Adams, Adeline B.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33567">Adams, Clark J., 1904-1981.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3574">Clothing and dress.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3587">Courtrooms.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3588">Government officials.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Lawyers' Club (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17486">Lawyers' Club (University of Michigan)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3589">Politicians' wives.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Pontiac Silverdome (Pontiac, Mich.)</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80084463">Williams, G. Mennen, 1911-1988.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80070288">Williams, G. Mennen, Mrs.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22129">Pontiac Silverdome (Pontiac, Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80084463" ref="/agents/people/30999">Williams, G. Mennen, 1911-1988.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80070288" ref="/agents/people/35258">Williams, G. Mennen, Mrs.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

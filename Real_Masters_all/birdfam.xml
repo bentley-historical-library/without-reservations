@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Bird family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/1336">Bird family.</famname>
       </origination>
       <unittitle encodinganalog="245">Bird Family Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1835/1914">1835-1914</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">85497 Aa 2</unitid>
@@ -68,7 +69,7 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Bird General Store (Clayton, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19884">Bird General Store (Clayton, Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1310">Clayton (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6086">Freemasonry--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6359">General stores--Michigan--Clayton.</subject>
@@ -77,9 +78,9 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Bird, Chauncey.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2009002467">Bird, John E. (John Everett), 1862-1928.</persname>
-        <persname source="lcnaf" encodinganalog="700">Bird, Reuben E. (Reuben Everett), 1811-1885.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32106">Bird, Chauncey.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2009002467" ref="/agents/people/31091">Bird, John E. (John Everett), 1862-1928.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28447">Bird, Reuben E. (Reuben Everett), 1811-1885.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Cognitive Science and Machine Intelligence Laboratory.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/20441">University of Michigan. Cognitive Science and Machine Intelligence Laboratory.</corpname>
       </origination>
       <unittitle encodinganalog="245">Cognitive Science and Machine Intelligence Laboratory (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1980/1990">1980-1990</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">0590 Bimu 2</unitid>
@@ -87,11 +88,11 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Cognitive Science and Machine Intelligence Laboratory.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20441">University of Michigan. Cognitive Science and Machine Intelligence Laboratory.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7098">Artificial intelligence.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7099">Human-computer interaction--Study and teaching.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7100">Interactive computer systems.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82015388">Olson, Gary M.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82015388" ref="/agents/people/34349">Olson, Gary M.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

@@ -32,7 +32,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -43,7 +44,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Kamm, Greg</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/29248">Kamm, Greg</persname>
       </origination>
       <unittitle encodinganalog="245">Greg Kamm papers <unitdate type="inclusive" encodinganalog="245$f" normal="1963/2008">1963-2008</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2009188 Aa2 UAm</unitid>
@@ -94,11 +95,11 @@
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8607">Election monitoring.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5770">Gay rights--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Gay Liberation Movement (East Lansing, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Kalamazoo Gay Liberation.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Kamm, Greg, 1950-2008.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20702">Gay Liberation Movement (East Lansing, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22040">Kalamazoo Gay Liberation.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28887">Kamm, Greg, 1950-2008.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8608">Students--Political activity.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50010551">Students for a Democratic Society (U.S.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50010551" ref="/agents/corporate_entities/22536">Students for a Democratic Society (U.S.)</corpname>
         <genreform source="aat" encodinganalog="655" ref="/subjects/3297">Alternative publications--Michigan.</genreform>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8609">English teachers.</subject>
       </controlaccess>
@@ -106,10 +107,10 @@
         <head>Subjects - Visual Materials:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8610">Election monitoring--Mozambique--1994.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8611">Election monitoring--South Africa--1994.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Gay Liberation Movement (East Lansing, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20702">Gay Liberation Movement (East Lansing, Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3664">Gay rights--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Kalamazoo Gay Liberation.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Kamm, Greg, 1950-2008.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22040">Kalamazoo Gay Liberation.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28887">Kamm, Greg, 1950-2008.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4548">Student movements.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4549">Teaching--South Korea.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4550">Teaching--Thailand.</subject>

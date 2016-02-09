@@ -31,7 +31,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n79022290">Kamisar, Yale.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n79022290" ref="/agents/people/33588">Kamisar, Yale.</persname>
       </origination>
       <unittitle encodinganalog="245">Yale Kamisar papers <unitdate type="inclusive" encodinganalog="245$f" normal="1955/2010">1955-2010</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1965/2004">1965-2004</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">0596 Aa 2</unitid>
@@ -90,10 +91,10 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79022290">Kamisar, Yale.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79022290" ref="/agents/people/33588">Kamisar, Yale.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8600">Law--Study and teaching--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Law School.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Law School.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8601">Criminal law--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8602">Exclusionary rule (Evidence)--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8603">Self-incrimination--United States--History.</subject>
@@ -103,8 +104,8 @@
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79022290">Kamisar, Yale.</persname>
-        <persname source="lcnaf" encodinganalog="600">Urban, Otto.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79022290" ref="/agents/people/33588">Kamisar, Yale.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31336">Urban, Otto.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

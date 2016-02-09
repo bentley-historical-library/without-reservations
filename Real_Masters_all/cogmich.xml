@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Church of God in Michigan. General Assembly records</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/23023">Church of God in Michigan. General Assembly records</corpname>
       </origination>
       <unittitle encodinganalog="245">Church of God in Michigan. General Assembly records <unitdate type="inclusive" encodinganalog="245$f" normal="1880/1988">1880-1988</unitdate></unittitle>
       <abstract>Governing body of the Church of God denomination in Michigan. Administrative records, 1925-1988, including annual reports, minutes of Michigan Ministerial Assembly, and minutes and reports of various church committees, divisions, and boards; correspondence with various individual congregations, also collected historical materials about specific congregations; correspondence of executive secretary-treasurer Gale Hetrick; correspondence files of other clergy and church officials; historical materials collected by Hetrick as background for his history of the church; audio-tapes; and photographs.</abstract>
@@ -91,13 +92,13 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Church of God (Anderson, Ind.)--Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Church of God in Michigan. General Assembly.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20016">Church of God (Anderson, Ind.)--Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18265">Church of God in Michigan. General Assembly.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <corpname source="lcnaf" encodinganalog="610">Church of God (Anderson, Ind.)--Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Church of God in Michigan. General Assembly.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20016">Church of God (Anderson, Ind.)--Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18265">Church of God in Michigan. General Assembly.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

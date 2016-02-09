@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Norman, Arthur Geoffrey, 1905-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28619">Norman, Arthur Geoffrey, 1905-</persname>
       </origination>
       <unittitle encodinganalog="245">Arthur Geoffrey Norman Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1947/1972">1947-1972</unitdate></unittitle>
       <abstract>Professor of botany at the University of Michigan, director of the Botanical Gardens, later vice-president for research. Correspondence, speeches, publications and reviews, and topical files relating to scientific interests, atomic energy, and the work of the Phoenix Project.</abstract>
@@ -86,13 +87,13 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6153">Botany.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n84055147">Michigan Memorial Phoenix Project.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2010133617">Norman, A. G. (Arthur Geoffrey), 1905-1982</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n84055147" ref="/agents/corporate_entities/22659">Michigan Memorial Phoenix Project.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2010133617" ref="/agents/people/27197">Norman, A. G. (Arthur Geoffrey), 1905-1982</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7908">Nuclear energy.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Matthaei Botanical Gardens.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Botany.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Vice-President for Research.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19102">University of Michigan. Matthaei Botanical Gardens.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17473">University of Michigan. Dept. of Botany.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20303">University of Michigan. Vice-President for Research.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

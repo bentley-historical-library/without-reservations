@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">L.G. Bates General Store (Elsie, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/22910">L.G. Bates General Store (Elsie, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">L.G. Bates General Store (Elsie, Mich.) records <unitdate type="inclusive" encodinganalog="245$f" normal="1857/1920">1857-1920</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85151 Bb.2/2; BB.2 Outsize</unitid>
@@ -85,25 +86,25 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Bates, LaMott G., b. 1847.</persname>
-        <famname source="lcnaf" encodinganalog="600">Bates family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33991">Bates, LaMott G., b. 1847.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1242">Bates family.</famname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2090">Clinton County (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8806">General stores--Michigan--Elsie.</subject>
-        <famname source="lcnaf" encodinganalog="600">Sickels family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1501">Sickels family.</famname>
         <geogname source="local" encodinganalog="691" ref="/subjects/832">Elsie (Mich.)--Businesses.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <famname source="lcnaf" encodinganalog="600">Bates family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1242">Bates family.</famname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3572">Children.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4645">Dentistry--Michigan--Elsie.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4646">Dwellings--Michigan--Elsie.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n98032923.html" ref="/subjects/1087">Elsie (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Interiors--Dentist office.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21059">Interiors--Dentist office.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4647">Interiors--Michigan--Elsie.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3620">Railroad accidents.</subject>
-        <famname source="lcnaf" encodinganalog="600">Sickels family.</famname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Student housing.</corpname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1501">Sickels family.</famname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Student housing.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8807">Veterans--Michigan--Elsie.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3569">Women.</subject>
       </controlaccess>

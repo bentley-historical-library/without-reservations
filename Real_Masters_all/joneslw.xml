@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Jones, Lawrence W. (Lawrence William)</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32091">Jones, Lawrence W. (Lawrence William)</persname>
       </origination>
       <unittitle encodinganalog="245">Lawrence W. Jones papers <unitdate type="inclusive" encodinganalog="245$f" normal="1952/2006">1952-2006</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1984/1989">1984-1989</unitdate></unittitle>
       <abstract>University of Michigan physicist, involved in effort to have Superconducting Super Collider located in Michigan. Papers include documentation of the state of Michigan's proposal for the SSC and some material related to his teaching and professional activities.</abstract>
@@ -96,16 +97,16 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no91022935">Jones, Lawrence W. (Lawrence William), 1925-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no91022935" ref="/agents/people/34556">Jones, Lawrence W. (Lawrence William), 1925-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8514">Particle accelerators--Location--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8515">Superconducting super collider--Location--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6903">Physics.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8516">Cosmic rays--Research.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7056">Nuclear physics.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Research.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Physics.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2008083180">Midwestern Universities Research Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Research.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17629">University of Michigan. Dept. of Physics.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2008083180" ref="/agents/corporate_entities/17899">Midwestern Universities Research Association.</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n88026008.html" ref="/subjects/1795">Stockbridge (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1077">Dundee (Mich.)</geogname>
       </controlaccess>

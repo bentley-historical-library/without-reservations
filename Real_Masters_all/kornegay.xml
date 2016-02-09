@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Kornegay, Francis A.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/35690">Kornegay, Francis A.</persname>
       </origination>
       <unittitle encodinganalog="245">Francis A. Kornegay Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1936/1977">1936-1977</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1944/1977">1944-1977</unitdate></unittitle>
       <abstract>Executive director of the Detroit Urban League, 1960-1978; general chronological files, topical files, correspondence, speeches, personal, Detroit Urban League materials, and other organizational activities files.</abstract>
@@ -103,8 +104,8 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6671">Charities--Michigan--Detroit.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7379">Civil rights--Michigan--Detroit.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539.html" ref="/subjects/933">Detroit (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n90622974">Detroit (Mich.). Commission on Community Relations.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n92054296">Detroit Urban League.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n90622974" ref="/agents/corporate_entities/18842">Detroit (Mich.). Commission on Community Relations.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n92054296" ref="/agents/corporate_entities/22702">Detroit Urban League.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6509">Education--Michigan--Detroit.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7382">Labor--Michigan--Detroit.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7383">Municipal government--Michigan--Detroit.</subject>

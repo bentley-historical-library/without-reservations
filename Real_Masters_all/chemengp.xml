@@ -23,7 +23,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Department of Chemical Engineering.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/22195">University of Michigan. Department of Chemical Engineering.</corpname>
       </origination>
       <unittitle encodinganalog="245">Department of Chemical Engineering (University of Michigan) publications <unitdate type="inclusive" encodinganalog="245$f" normal="1916/2004">1916-2004</unitdate>, <unitdate type="inclusive" encodinganalog="245$g" normal="1969/1990">1969-1990</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">9724; Bimu; C146; 2</unitid>
@@ -78,9 +79,9 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Chemical Engineering.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Donald L. Katz Lectureship in Chemical Engineering.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">Donald L. Katz Lectureship in Chemical Engineering.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21689">University of Michigan. Dept. of Chemical Engineering.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18238">Donald L. Katz Lectureship in Chemical Engineering.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/18238">Donald L. Katz Lectureship in Chemical Engineering.</corpname>
         <title source="aacr2" encodinganalog="740" ref="/subjects/33">History of chemical engineering at the University of Michigan.</title>
         <title source="aacr2" encodinganalog="740" ref="/subjects/34">How to succeed in chemical engineering at the University of Michigan.</title>
       </controlaccess>

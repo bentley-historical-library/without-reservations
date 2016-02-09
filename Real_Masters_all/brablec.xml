@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Brablec, Carl, 1908-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/29336">Brablec, Carl, 1908-</persname>
       </origination>
       <unittitle encodinganalog="245">Carl Brablec papers <unitdate type="inclusive" encodinganalog="245$f" normal="1957/1976">1957-1976</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">8564 Aa 2</unitid>
@@ -80,7 +81,7 @@
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6452">Czech Americans--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/863">Michigan--Emigration and immigration.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998">University of Michigan. Board of Regents.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998" ref="/agents/corporate_entities/18212">University of Michigan. Board of Regents.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6453">Slovak Americans--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1354">Czech Republic--Emigration and immigration.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5709">Immigrants--Michigan.</subject>

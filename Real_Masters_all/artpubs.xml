@@ -35,7 +35,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. School of Art and Design.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/21022">University of Michigan. School of Art and Design.</corpname>
       </origination>
       <unittitle encodinganalog="245">School of Art and Design (University of Michigan) publications <unitdate type="inclusive" encodinganalog="245$f" normal="1947/2010">1947-2010</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1985/2007">1985-2007</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">0513 Bimu C676 2</unitid>
@@ -89,10 +90,10 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82166173">University of Michigan. School of Art.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. School of Art and Design.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82166171">University of Michigan. College of Architecture and Design.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82166173" ref="/agents/corporate_entities/23144">University of Michigan. School of Art.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21022">University of Michigan. School of Art and Design.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82166171" ref="/agents/corporate_entities/20611">University of Michigan. College of Architecture and Design.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Students--Social life and customs.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

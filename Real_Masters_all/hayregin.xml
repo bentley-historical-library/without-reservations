@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Hay, Regina, 1896-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/35753">Hay, Regina, 1896-</persname>
       </origination>
       <unittitle encodinganalog="245">Regina Hay papers <unitdate type="inclusive" encodinganalog="245$f" normal="1930/1966">1930-1966</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85200 Aa 2; AC; UAm</unitid>
@@ -85,9 +86,9 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8184">Presidents--United States--Election--1948.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Republican National Convention (24th : 1948: Philadelphia, Pa.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Republican National Committee (U.S.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21585">Republican National Convention (24th : 1948: Philadelphia, Pa.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21402">Republican Party (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19659">Republican National Committee (U.S.)</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85081932.html" ref="/subjects/1793">Romeo (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1271">United States--Politics and government--1933-1953.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1272">United States--Politics and government--1953-1961.</geogname>
@@ -95,17 +96,17 @@
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79066408">Eisenhower, Dwight D. (Dwight David), 1890-1969.</persname>
-        <persname source="lcnaf" encodinganalog="600">Hay, Regina, 1896-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79066408" ref="/agents/people/30871">Eisenhower, Dwight D. (Dwight David), 1890-1969.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35753">Hay, Regina, 1896-</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4067">Political elections.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Republican National Convention (24th : 1948: Philadelphia, Pa.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Republican National Committee (U.S.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50045033">Vandenberg, Arthur H. (Arthur Hendrick), 1884-1951.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21585">Republican National Convention (24th : 1948: Philadelphia, Pa.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19659">Republican National Committee (U.S.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21402">Republican Party (Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50045033" ref="/agents/people/30760">Vandenberg, Arthur H. (Arthur Hendrick), 1884-1951.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3569">Women.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008190043">Alger, Frederick Moulton, 1907-1967.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50019256">Willkie, Wendell L. (Wendell Lewis), 1892-1944.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no93003543">Crooks, Richard, 1900-1972.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008190043" ref="/agents/people/31427">Alger, Frederick Moulton, 1907-1967.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50019256" ref="/agents/people/33671">Willkie, Wendell L. (Wendell Lewis), 1892-1944.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no93003543" ref="/agents/people/34913">Crooks, Richard, 1900-1972.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

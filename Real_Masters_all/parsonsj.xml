@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal. After major revision to earlier finding aid, including adding digital images</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Parsons, Jeffrey R. 1939-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32402">Parsons, Jeffrey R. 1939-</persname>
       </origination>
       <unittitle encodinganalog="245">Jeffrey R. Parsons papers <unitdate type="inclusive" encodinganalog="245$f" normal="1960/2013">1960-2013</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1966/1992">1966-1992</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2012180 Aa2</unitid>
@@ -97,12 +98,12 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n77005667">Blanton, Richard E.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79056565">Parsons, Jeffrey R.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n90623626">Parsons, Mary Hrones.</persname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Anthropology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79063899">University of Michigan. Museum of Anthropology.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n77005667" ref="/agents/people/30302">Blanton, Richard E.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79056565" ref="/agents/people/29835">Parsons, Jeffrey R.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n90623626" ref="/agents/people/34296">Parsons, Mary Hrones.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21829">University of Michigan. Dept. of Anthropology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79063899" ref="/agents/corporate_entities/20192">University of Michigan. Museum of Anthropology.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8078">Anthropology--History.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7234">Anthropology--Study and teaching.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6632">Archaeology.</subject>
@@ -115,7 +116,7 @@
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79056565">Parsons, Jeffrey R.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79056565" ref="/agents/people/29835">Parsons, Jeffrey R.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5070">Anthropology--Mexico.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3876">Archaeology.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9711">Basins (Geology)--Mexico.</subject>

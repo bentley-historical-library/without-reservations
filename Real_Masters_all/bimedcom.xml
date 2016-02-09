@@ -28,7 +28,8 @@
         <item>Updated with 2006 and 2007 accessions, complete reencoding</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">BMC Media Services</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/22201">BMC Media Services</corpname>
       </origination>
       <unittitle encodinganalog="245">BMC Media Services records <unitdate type="inclusive" encodinganalog="245$f" normal="1851/2003">1851-2003</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">93851 BImu C 46 2</unitid>
@@ -89,22 +90,22 @@
     <controlaccess>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151">University of Michigan. Medical School.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151" ref="/agents/corporate_entities/20391">University of Michigan. Medical School.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Child, Charles Gardner, 1908-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34774">Child, Charles Gardner, 1908-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6343">Health facilities--Design and construction.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6344">Hospitals--Design and construction.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3848">Medicine--Michigan.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3849">Surgery.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151">University of Michigan. Medical School.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Hospitals.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Replacement Hospital Project.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Medical School--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151" ref="/agents/corporate_entities/20391">University of Michigan. Medical School.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19020">University of Michigan. Hospitals.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20051">University of Michigan. Replacement Hospital Project.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Students.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20391">University of Michigan. Medical School--Faculty.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3850">Medical education--Michigan--Ann Arbor.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79090011">Barnard, Christiaan, 1922-2001</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79090011" ref="/agents/people/29404">Barnard, Christiaan, 1922-2001</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

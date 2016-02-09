@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Baker, Deane.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32187">Baker, Deane.</persname>
       </origination>
       <unittitle encodinganalog="245">Deane Baker papers <unitdate type="inclusive" encodinganalog="245$f" normal="1945/2004">1945-2004</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1972/1996">1972-1996</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2008039 Aa 2 Ac</unitid>
@@ -88,11 +89,11 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Baker, Deane.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32187">Baker, Deane.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5820">Elections--Michigan--1976.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5823">Elections--Michigan--1982.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998">University of Michigan. Board of Regents.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21402">Republican Party (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998" ref="/agents/corporate_entities/18212">University of Michigan. Board of Regents.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

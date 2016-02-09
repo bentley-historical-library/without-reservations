@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">McKenzie, Walter I. (Walter Ingles), 1888-1962.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33810">McKenzie, Walter I. (Walter Ingles), 1888-1962.</persname>
       </origination>
       <unittitle encodinganalog="245">Walter I. McKenzie Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1914/1962">1914-1962</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1918/1919">1918-1919</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1946/1947">1946-1947</unitdate></unittitle>
       <abstract>Detroit attorney, assistant U. S. Prosecutor at the International Military Tribunal for the Far East following World War II; correspondence and official court materials largely relating to Japanese intervention in Manchuria; materials relating to service in Polar Expedition to northern Russian during World War I; miscellaneous papers relating to other political and legal activities; and photographs.</abstract>
@@ -90,9 +91,9 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80152331">International Military Tribunal for the Far East.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80152331" ref="/agents/corporate_entities/18018">International Military Tribunal for the Far East.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/948">Japan.</geogname>
-        <persname source="lcnaf" encodinganalog="600">McKenzie, Walter I. (Walter Ingles), 1888-1962.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33810">McKenzie, Walter I. (Walter Ingles), 1888-1962.</persname>
         <subject source="local" encodinganalog="690" authfilenumber="http://id.loc.gov/authorities/names/n2008059426" ref="/subjects/5619">Polar Bear Expedition.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/883">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/988">United States--Foreign relations--Japan.</geogname>
@@ -102,14 +103,14 @@
       <controlaccess>
         <head>Subjects - Visual Material:</head>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539.html" ref="/subjects/933">Detroit (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80152331">International Military Tribunal for the Far East.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80152331" ref="/agents/corporate_entities/18018">International Military Tribunal for the Far East.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/948">Japan.</geogname>
-        <persname source="lcnaf" encodinganalog="600">McKenzie, Walter I. (Walter Ingles), 1888-1962.</persname>
-        <famname source="lcnaf" encodinganalog="600">McKenzie family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33810">McKenzie, Walter I. (Walter Ingles), 1888-1962.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1267">McKenzie family.</famname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3723">Military art and science.</subject>
         <subject source="local" encodinganalog="690" authfilenumber="http://id.loc.gov/authorities/names/n2008059426" ref="/subjects/5619">Polar Bear Expedition.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/883">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81094908">Veterans of Foreign Wars of the United States.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81094908" ref="/agents/corporate_entities/18431">Veterans of Foreign Wars of the United States.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Huddleston, Eugene L., 1931-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33584">Huddleston, Eugene L., 1931-</persname>
       </origination>
       <unittitle encodinganalog="245">Eugene L. Huddleston collection of railroad slides <unitdate type="inclusive" encodinganalog="245$f" normal="1950/1999" certainty="approximate">1950s-1990s</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2010221 Aa 2</unitid>
@@ -84,7 +85,7 @@
       </p>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname source="lcnaf" encodinganalog="610">Chesapeake and Ohio Railway Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/23039">Chesapeake and Ohio Railway Company.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4495">Railroads--Kentucky.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3789">Railroads--Michigan.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4496">Railroads--Ontario.</subject>

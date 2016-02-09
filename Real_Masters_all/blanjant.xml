@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Blanchard, Janet.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/34824">Blanchard, Janet.</persname>
       </origination>
       <unittitle encodinganalog="245">Janet Blanchard Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1987/1990">1987-1990</unitdate></unittitle>
       <abstract>Career state government worker, later wife of Michigan governor James J. Blanchard. Files detailing her career in state government and her later duties as wife of Michigan governor James J. Blanchard, 1989-1990. The collection includes extensive documentation of the Governor's Task Force on Telecommunications (1990) on which she served.</abstract>
@@ -78,18 +79,18 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Blanchard, Janet.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85203480">Blanchard, James J., 1942-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34824">Blanchard, Janet.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85203480" ref="/agents/people/27444">Blanchard, James J., 1942-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6391">Governors' spouses--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85203482">Michigan. Governor (1983-1991 : Blanchard)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n93036919">Michigan. Governor's Telecommunication Task Force.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85203482" ref="/agents/corporate_entities/21781">Michigan. Governor (1983-1991 : Blanchard)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n93036919" ref="/agents/corporate_entities/22845">Michigan. Governor's Telecommunication Task Force.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6392">Women--Michigan.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Blanchard, Janet.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Information Technology Network, Inc.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Children's Trust Fund for the Prevention of Child Abuse.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34824">Blanchard, Janet.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22890">Michigan Information Technology Network, Inc.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21148">Children's Trust Fund for the Prevention of Child Abuse.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3791">Schools--Michigan.</subject>
       </controlaccess>
       <controlaccess>

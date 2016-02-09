@@ -35,7 +35,8 @@
         <item>Original encoding from Word 6.0 file using EAD vers. 1.0</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Kahn, Reuben Leon</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33591">Kahn, Reuben Leon</persname>
       </origination>
       <unittitle encodinganalog="245">Reuben Leon Kahn Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1915/1979">1915-1979</unitdate></unittitle>
       <abstract>The Reuben Leon Kahn collection consists of the personal and professional papers of the developer of the Kahn precipitation test for syphilis. Kahn taught bacteriology and serology at the University of Michigan from 1928 until his retirement in 1956.</abstract>
@@ -90,21 +91,21 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no96025159">Kahn, Reuben L. (Reuben Leon), 1887-1979.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no96025159" ref="/agents/people/30701">Kahn, Reuben L. (Reuben Leon), 1887-1979.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6056">Physicians--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7706">Scientists--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8595">Syphilis.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151">University of Michigan. Medical School.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151" ref="/agents/corporate_entities/20391">University of Michigan. Medical School.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no96025159">Kahn, Reuben L. (Reuben Leon), 1887-1979.</persname>
-        <famname source="lcnaf" encodinganalog="600">Kahn family.</famname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no96025159" ref="/agents/people/30701">Kahn, Reuben L. (Reuben Leon), 1887-1979.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1443">Kahn family.</famname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3742">Laboratories.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4073">Physicians--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151">University of Michigan. Medical School.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151" ref="/agents/corporate_entities/20391">University of Michigan. Medical School.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3543">Classrooms--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>

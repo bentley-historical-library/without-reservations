@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Polar Bear Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/18948">Polar Bear Association.</corpname>
       </origination>
       <unittitle encodinganalog="245">Polar Bear Association photograph collection <unitdate type="inclusive" encodinganalog="245$f" normal="1930">1930</unitdate></unittitle>
       <abstract>Photographs of memorial ceremonies at the Polar Bear Memorial in White Chapel Memorial Park Cemetery, Troy, Michigan.</abstract>
@@ -86,7 +87,7 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5075">Monuments and memorials--Michigan--Troy.</subject>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/636">Troy (Mich.)--Cemeteries.</geogname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/637">Troy (Mich.)--Monuments and memorials.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">White Chapel Memorial Park Cemetery (Troy, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21254">White Chapel Memorial Park Cemetery (Troy, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

@@ -35,7 +35,8 @@
         <item>Original encoding from Word. 6.0 file.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc level="recordgrp" type="inventory" audience="external" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf">Allied Theatres of Michigan.</corpname>
+        <corpname source="lcnaf" ref="/agents/corporate_entities/22400">Allied Theatres of Michigan.</corpname>
       </origination>
       <unittitle encodinganalog="245">Allied Theatres of Michigan records <unitdate encodinganalog="245$f" type="inclusive" normal="1917/1963">1917-1963</unitdate></unittitle>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">9838 Bb 2</unitid>
@@ -95,14 +96,14 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Allied Theatres of Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22400">Allied Theatres of Michigan.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6005">Motion picture theaters--Management.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6006">Motion picture theater managers--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6007">Trade associations--Michigan.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname source="lcnaf" encodinganalog="610">Allied Theatres of Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22400">Allied Theatres of Michigan.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

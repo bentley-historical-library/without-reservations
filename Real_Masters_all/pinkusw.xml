@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2010 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Pinkus, Walter</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/31265">Pinkus, Walter</persname>
       </origination>
       <unittitle encodinganalog="245">Walter Pinkus Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1960/2011">1960-2011</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2014146 Aa 2</unitid>
@@ -92,9 +93,9 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7312">Engineering--Research.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6424">Engineers--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7284">Space sciences.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr92020254">University of Michigan. Space Physics Research Laboratory.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr92020254" ref="/agents/corporate_entities/20853">University of Michigan. Space Physics Research Laboratory.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9777">University of Michigan--Staff.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Research.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Research.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
@@ -136,7 +137,10 @@
               </daodesc>
             </dao>
           </did>
-        <odd><p>(The collection contains information relating to Pinkus's career with the Univeristy of Michigan's Space Physics Research Labratory (SPRL). At SPRL Pinkus worked on several instruments built for various National Aeronautics and Space Administration (NASA) missions. Included are correspondence, performance reviews, schematics, project books, and research reports on various instruments, such as, the Galileo space probe, the High Resolution Doppler Imager (HRDI), and the TIMED Doppler Interferometer (TIDI).)</p></odd></c02>
+          <odd>
+            <p>(The collection contains information relating to Pinkus's career with the Univeristy of Michigan's Space Physics Research Labratory (SPRL). At SPRL Pinkus worked on several instruments built for various National Aeronautics and Space Administration (NASA) missions. Included are correspondence, performance reviews, schematics, project books, and research reports on various instruments, such as, the Galileo space probe, the High Resolution Doppler Imager (HRDI), and the TIMED Doppler Interferometer (TIDI).)</p>
+          </odd>
+        </c02>
       </c01>
       <c01 level="series">
         <did>

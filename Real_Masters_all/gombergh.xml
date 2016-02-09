@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Gomberg, H. J. (Henry Jacob), 1918-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32240">Gomberg, H. J. (Henry Jacob), 1918-</persname>
       </origination>
       <unittitle encodinganalog="245">H. J. (Henry Jacob) Gomberg Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1941/1995">1941-1995</unitdate>, <unitdate type="bulk" encodinganalog="245$f" normal="1955/1980">1955-1980</unitdate></unittitle>
       <abstract>University of Michigan professor of nuclear engineering; files relating to his Central American peace interests and to the peaceful uses of nuclear energy; also class notes, personal / biographical information, and visual material.</abstract>
@@ -91,14 +92,14 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8019">Central America--Social conditions--1979-</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr92042836">Gomberg, H. J. (Henry Jacob), 1918-1995</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr92042836" ref="/agents/people/30340">Gomberg, H. J. (Henry Jacob), 1918-1995</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7908">Nuclear energy.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8020">Nuclear engineering.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr92042836">Gomberg, H. J. (Henry Jacob), 1918-1995</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr92042836" ref="/agents/people/30340">Gomberg, H. J. (Henry Jacob), 1918-1995</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4360">Nuclear power plants.</subject>
       </controlaccess>
       <controlaccess>

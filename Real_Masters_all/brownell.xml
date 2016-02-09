@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Brownell, Lloyd E., 1915-1976.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32002">Brownell, Lloyd E., 1915-1976.</persname>
       </origination>
       <unittitle encodinganalog="245">Lloyd E. Brownell papers <unitdate type="inclusive" encodinganalog="245$f" normal="1951/1960">1951-1960</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1951/1954">1951-1954</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">861083 Aa 2</unitid>
@@ -79,13 +80,13 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85802235">Brownell, Lloyd E. (Lloyd Earl), 1915-1976</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85802235" ref="/agents/people/30827">Brownell, Lloyd E. (Lloyd Earl), 1915-1976</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6205">Food.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6506">Irradiated foods.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6507">Radiation.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80094504">University of Michigan. College of Engineering.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr92042294">University of Michigan. Fission Products Laboratory.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80094504" ref="/agents/corporate_entities/17661">University of Michigan. College of Engineering.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr92042294" ref="/agents/corporate_entities/22787">University of Michigan. Fission Products Laboratory.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

@@ -42,7 +42,8 @@
         <item>Finding aid updated to current BHL EAD encoding standards by Bill Landis</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -53,7 +54,7 @@
   <archdesc level="collection" relatedencoding="MARC21" type="inventory">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/nr2003027797">Bromage, Arthur W. (Arthur Watson), 1904-1979.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/nr2003027797" ref="/agents/people/33197">Bromage, Arthur W. (Arthur Watson), 1904-1979.</persname>
       </origination>
       <unittitle encodinganalog="245">Arthur W Bromage papers <unitdate type="inclusive" encodinganalog="245$f" normal="1917/1979">1917-1979</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1935/1975">1935-1975</unitdate></unittitle>
       <unitid label="Call No." countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">8582 Aa 2</unitid>
@@ -102,9 +103,9 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr2003027797">Bromage, Arthur W. (Arthur Watson), 1904-1979.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor (Mich.). Common Council.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Political Science.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr2003027797" ref="/agents/people/33197">Bromage, Arthur W. (Arthur Watson), 1904-1979.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17397">Ann Arbor (Mich.). Common Council.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19154">University of Michigan. Dept. of Political Science.</corpname>
         <subject source="lcsh" encodinganalog="610" ref="/subjects/6491">University of Michigan--Faculty.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5706">World War, 1939-1945.</subject>
         <subject source="lcsh" encodinganalog="651" ref="/subjects/6492">Bavaria (Germany)--Politics and government--1945-</subject>

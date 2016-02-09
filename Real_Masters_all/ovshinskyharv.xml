@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2010 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Ovshinsky, Harvey.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32649">Ovshinsky, Harvey.</persname>
       </origination>
       <unittitle encodinganalog="245"> Harvey Ovshinsky papers <unitdate type="inclusive" encodinganalog="245$f"> 1948-2014 </unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="miu-h" countrycode="us" type="call number"> 2015038 Aa 2 AC </unitid>
@@ -105,10 +106,10 @@
       <controlaccess>
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/933">Detroit (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Fifth Estate.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">HKO Media (Firm)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20505">Fifth Estate.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19623">HKO Media (Firm)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5933">Journalists--Michigan--Detroit.</subject>
-        <persname source="lcnaf" encodinganalog="600">Ovshinsky, Harvey.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32649">Ovshinsky, Harvey.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7120">Radio broadcasting--Michigan--Detroit.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9649">Radio journalists--Michigan--Detroit.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9650">Radio producers and directors--Michigan--Detroit.</subject>
@@ -268,7 +269,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Short monster film (duration three and half minutes) created by Harvey Ovshinsky and brother Dale Ovshinsky in 1964 during Harvey Ovshinsky's high school years.)</p></odd></c03>
+            <odd>
+              <p>(Short monster film (duration three and half minutes) created by Harvey Ovshinsky and brother Dale Ovshinsky in 1964 during Harvey Ovshinsky's high school years.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [460994344996831494902]">1</container>
@@ -1764,7 +1768,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Documentary on deer hunting in Northern Michigan, produced by Harvey Ovshinsky for WDIV (running time approximately forty-five minutes). Copyright Post-Newsweek Stations, Michigan, Inc., 1983.)</p></odd></c03>
+            <odd>
+              <p>(Documentary on deer hunting in Northern Michigan, produced by Harvey Ovshinsky for WDIV (running time approximately forty-five minutes). Copyright Post-Newsweek Stations, Michigan, Inc., 1983.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [3997144892260749864]">12</container>
@@ -1817,7 +1824,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Harvey Ovshinsky discusses his a career in radio in this one hour excerpt from a longer interview.)</p></odd></c03>
+            <odd>
+              <p>(Harvey Ovshinsky discusses his a career in radio in this one hour excerpt from a longer interview.)</p>
+            </odd>
+          </c03>
         </c02>
       </c01>
     </dsc>

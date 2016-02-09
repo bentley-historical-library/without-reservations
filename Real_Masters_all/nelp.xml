@@ -27,7 +27,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. New England Literature Program.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/20631">University of Michigan. New England Literature Program.</corpname>
       </origination>
       <unittitle encodinganalog="245">New England Literature Program (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1975/2007">1975-2007</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">0372 Bimu C26 2</unitid>
@@ -83,12 +84,12 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. New England Literature Program.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20631">University of Michigan. New England Literature Program.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9541">Creative writing.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9542">Diaries--Authorship.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of English Language and Literature.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Curricula.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82020424">University of Michigan. College of Literature, Science, and the Arts.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17386">University of Michigan. Dept. of English Language and Literature.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Curricula.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82020424" ref="/agents/corporate_entities/21562">University of Michigan. College of Literature, Science, and the Arts.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

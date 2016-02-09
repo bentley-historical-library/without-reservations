@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Schimpke, Albert J., 1899-1985, collector</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28968">Schimpke, Albert J., 1899-1985, collector</persname>
       </origination>
       <unittitle encodinganalog="245">Albert J. Schimpke collection of R.G. Peters materials <unitdate type="inclusive" encodinganalog="245$f" normal="1890/1970" certainty="approximate">1890-circa 1970</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">88142 Aa 2; UAm</unitid>
@@ -91,7 +92,7 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9953">Logging--Michigan--Manistee.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9954">Lumbering--Michigan--Manistee.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/865">Manistee (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600">Peters, Richard G., b. 1832.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34239">Peters, Richard G., b. 1832.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
@@ -111,9 +112,9 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3616">Lumber industry.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/865">Manistee (Mich.)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4885">Mills.</subject>
-        <persname source="lcnaf" encodinganalog="600">Peters, Richard G., b. 1832.</persname>
-        <famname source="lcnaf" encodinganalog="600">Peters family.</famname>
-        <corpname source="lcnaf" encodinganalog="610">Peters Salt &amp; Lumber Company.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34239">Peters, Richard G., b. 1832.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1356">Peters family.</famname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20793">Peters Salt &amp; Lumber Company.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3620">Railroad accidents.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4946">Railroad bridges.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5202">Railroad construction and maintenance.</subject>
@@ -126,7 +127,7 @@
       </controlaccess>
       <controlaccess>
         <head>Subjects - Sound Recordings:</head>
-        <persname source="lcnaf" encodinganalog="600">Schimpke, Albert J., 1899-1985.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28968">Schimpke, Albert J., 1899-1985.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6798">Lumbering--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/865">Manistee (Mich.)</geogname>
       </controlaccess>

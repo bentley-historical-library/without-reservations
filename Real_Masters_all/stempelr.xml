@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Stempel, Robert C. (Robert Carl), 1933-2011.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33941">Stempel, Robert C. (Robert Carl), 1933-2011.</persname>
       </origination>
       <unittitle encodinganalog="245">Robert C. Stempel papers <unitdate type="inclusive" encodinganalog="245$f" normal="1965/2007">1965-2007</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2012040 Aa 2; UAm</unitid>
@@ -94,14 +95,14 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85078870">Ovshinsky, Stanford R.</persname>
-        <persname source="lcnaf" encodinganalog="600">Stempel, Robert C. (Robert Carl), 1933-2011.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Council of Great Lakes Industries.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Energy Conversion Devices, Inc.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">General Motors Corporation--Management.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no88006486">National Commission against Drunk Driving (U.S.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Oakland County Business Roundtable.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Presidential Business Delegation to Asia and the Pacific.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85078870" ref="/agents/people/27402">Ovshinsky, Stanford R.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33941">Stempel, Robert C. (Robert Carl), 1933-2011.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22392">Council of Great Lakes Industries.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22532">Energy Conversion Devices, Inc.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17535">General Motors Corporation--Management.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no88006486" ref="/agents/corporate_entities/20896">National Commission against Drunk Driving (U.S.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21078">Oakland County Business Roundtable.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19963">United States. Presidential Business Delegation to Asia and the Pacific.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6788">Automobile industry and trade.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10248">Automobiles--Catalytic converters.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10249">Automobiles--Motors--Exhaust gas.</subject>

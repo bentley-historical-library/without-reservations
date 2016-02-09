@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Woods, John A., 1914-1989.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28038">Woods, John A., 1914-1989.</persname>
       </origination>
       <unittitle encodinganalog="245">John A. Woods papers <unitdate type="inclusive" encodinganalog="245$f" normal="1932/1989">1932-1989</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1970/1989">1970-1989</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">91466 Aa 2</unitid>
@@ -84,20 +85,20 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80060458">African Methodist Episcopal Church.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80060458" ref="/agents/corporate_entities/18286">African Methodist Episcopal Church.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5684">African Americans--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9555">African American churches--Michigan--Ann Arbor.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/882">Ann Arbor (Mich.)--Church history.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Bethel A.M.E. Church (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21052">Bethel A.M.E. Church (Ann Arbor, Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6466">Clergy--Michigan--Ann Arbor.</subject>
-        <persname source="lcnaf" encodinganalog="600">Woods, John A., 1914-1989.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28038">Woods, John A., 1914-1989.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9555">African American churches--Michigan--Ann Arbor.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5026">African Americans--Michigan.</subject>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/211">Ann Arbor (Mich.)--Churches.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Bethel A.M.E. Church (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21052">Bethel A.M.E. Church (Ann Arbor, Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3541">Churches--Michigan--Ann Arbor.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3900">Clergy.</subject>
       </controlaccess>

@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Flack, Robert Bruce.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/31659">Flack, Robert Bruce.</persname>
       </origination>
       <unittitle encodinganalog="245">Robert Bruce Flack papers <unitdate type="inclusive" encodinganalog="245$f" normal="1950/1951" certainty="approximate">circa 1950-1951</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2013164 Aa3</unitid>
@@ -86,11 +87,11 @@
       </p>
       <controlaccess>
         <head>Subjects</head>
-        <persname source="lcnaf" encodinganalog="600">Flack, Robert Bruce.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31659">Flack, Robert Bruce.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7800">Memorial Day.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6152">Soldiers--American--Russia (Federation)</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/883">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Infantry, 339th. Machine Gun Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21686">United States. Army. Infantry, 339th. Machine Gun Company.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5737">World War, 1914-1918.</subject>
         <genreform source="aat" encodinganalog="655" ref="/subjects/3137">Photographs.</genreform>
         <subject source="local" encodinganalog="690" authfilenumber="http://id.loc.gov/authorities/names/n2008059426" ref="/subjects/5619">Polar Bear Expedition.</subject>

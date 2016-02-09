@@ -42,7 +42,8 @@
         <item>headings removed and other changes made to conform to new style, GK</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -53,7 +54,7 @@
   <archdesc level="recordgrp" type="inventory" audience="external" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/nr91019172">Michigan Technology Council.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/nr91019172" ref="/agents/corporate_entities/18716">Michigan Technology Council.</corpname>
       </origination>
       <unittitle encodinganalog="245">Michigan Technology Council records <unitdate type="inclusive" encodinganalog="245$f" normal="1968/1987">1968-1987</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1978/1983">1978-1983</unitdate></unittitle>
       <unitid label="Call No." encodinganalog="099" type="call number">9722 Bimu 2</unitid>
@@ -99,9 +100,9 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/nr91019172">Michigan Technology Council.</corpname>
-        <corpname source="lcnaf">University of Michigan. Institute of Science and Technology.</corpname>
-        <corpname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/nr95028030">Ann Arbor Chamber of Commerce.</corpname>
+        <corpname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/nr91019172" ref="/agents/corporate_entities/18716">Michigan Technology Council.</corpname>
+        <corpname source="lcnaf" ref="/agents/corporate_entities/17728">University of Michigan. Institute of Science and Technology.</corpname>
+        <corpname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/nr95028030" ref="/agents/corporate_entities/17518">Ann Arbor Chamber of Commerce.</corpname>
         <subject source="lcsh" ref="/subjects/8397">Research, Industrial--Michigan.</subject>
         <subject source="lcsh" ref="/subjects/8398">Science and Industry--Michigan.</subject>
         <subject source="lcsh" ref="/subjects/7031">Biotechnology--Research--Michigan.</subject>

@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Lane, Charles W. (Charles Wesley), 1919-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33649">Lane, Charles W. (Charles Wesley), 1919-</persname>
       </origination>
       <unittitle encodinganalog="245">Charles W. Lane papers <unitdate type="inclusive" encodinganalog="245$f" normal="1935/1997">1935-1997</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1958/1969">1958-1969</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">9840 Aa 2</unitid>
@@ -89,11 +90,11 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Lane, Charles W. (Charles Wesley), 1919-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33649">Lane, Charles W. (Charles Wesley), 1919-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6486">Architectural practice--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6485">Architects--Michigan--Ann Arbor.</subject>
-        <persname source="lcnaf" encodinganalog="600">Brigham, George Bickford, 1889-</persname>
-        <corpname source="lcnaf" encodinganalog="610">Huron High School (Ann Arbor, Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28629">Brigham, George Bickford, 1889-</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21963">Huron High School (Ann Arbor, Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/849">Ann Arbor (Mich.)--Buildings, structures, etc.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6489">Buildings, Prefabricated.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8756">Mobile home parks--Michigan.</subject>
@@ -102,9 +103,9 @@
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600">Lane, Charles W. (Charles Wesley), 1919-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33649">Lane, Charles W. (Charles Wesley), 1919-</persname>
         <subject source="aat" encodinganalog="650" ref="/subjects/5604">Architectural drawings.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Huron High School (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21963">Huron High School (Ann Arbor, Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1259">Hawaii.</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82038025.html" ref="/subjects/2183">Houma (La.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6125">Iwo Jima, Battle of, Japan, 1945.</subject>

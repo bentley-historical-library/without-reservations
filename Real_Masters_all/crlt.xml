@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/no2008033735">University of Michigan. Center for Research on Learning and Teaching.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/no2008033735" ref="/agents/corporate_entities/21046">University of Michigan. Center for Research on Learning and Teaching.</corpname>
       </origination>
       <unittitle encodinganalog="245">Center for Research on Learning and Teaching (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1961/9999">1961-[ongoing]</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1972/2004">1972-2004</unitdate></unittitle>
       <abstract>Center devoted to assisting faculty in the task of providing effective instruction, including evaluation and research. Series in the record group include Budget, Correspondence, Topical, and Grants; files related to the administration and research and educational activities of the center, and of its directors Stanford Ericksen and Wilbert J. McKeachie.</abstract>
@@ -130,12 +131,12 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6146">Learning, Psychology of.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7088">Learning--Research.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7089">Motivation in education.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2008033735">University of Michigan. Center for Research on Learning and Teaching.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2008033735" ref="/agents/corporate_entities/21046">University of Michigan. Center for Research on Learning and Teaching.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84044085">Ericksen, Stanford C. (Stanford Clark), 1911-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50013517">McKeachie, Wilbert James, 1921-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84044085" ref="/agents/people/32899">Ericksen, Stanford C. (Stanford Clark), 1911-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50013517" ref="/agents/people/32559">McKeachie, Wilbert James, 1921-</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

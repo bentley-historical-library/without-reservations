@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Vaughan, Henry Frieze, 1889-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/29502">Vaughan, Henry Frieze, 1889-</persname>
       </origination>
       <unittitle encodinganalog="245">Henry F. Vaughan Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1913/1971">1913-1971</unitdate></unittitle>
       <abstract>Commissioner of the Detroit Department of Health, later dean of the School of Public Health of the University of Michigan. Correspondence and manuscripts of articles and speeches; papers detailing his activities with the American Public Health Association, the Association of Schools of Public Health, the Detroit Department of Health, the Michigan Department of Health, and the W. K. Kellogg Foundation.</abstract>
@@ -81,18 +82,18 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80024253">American Public Health Association.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Association of Schools of Public Health.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Detroit (Mich.). Dept. of Health.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79055095">W. K. Kellogg Foundation.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. Dept. of Health.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80024253" ref="/agents/corporate_entities/19283">American Public Health Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22646">Association of Schools of Public Health.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17650">Detroit (Mich.). Dept. of Health.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79055095" ref="/agents/corporate_entities/22564">W. K. Kellogg Foundation.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18481">Michigan. Dept. of Health.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6056">Physicians--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6020">Public health--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6057">Public health--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80020716">University of Michigan. School of Public Health.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80020716" ref="/agents/corporate_entities/22180">University of Michigan. School of Public Health.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8658">Physicians--Michigan--Detroit.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2010188324">Vaughan, Henry F. (Henry Frieze), 1889-1979</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2010188324" ref="/agents/people/34866">Vaughan, Henry F. (Henry Frieze), 1889-1979</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

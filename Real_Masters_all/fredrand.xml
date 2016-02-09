@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Frederickson, Randa, collector.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33105">Frederickson, Randa, collector.</persname>
       </origination>
       <unittitle encodinganalog="245">Randa Frederickson collection. <unitdate type="inclusive" encodinganalog="245$f" normal="1894/1978">1894-1978</unitdate>, <unitdate type="inclusive" encodinganalog="245$f">undated</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">861130 Aa 2; UAm</unitid>
@@ -80,19 +81,19 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <famname source="lcnaf" encodinganalog="600">Bahle family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1446">Bahle family.</famname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/863">Michigan--Emigration and immigration.</geogname>
-        <famname source="lcnaf" encodinganalog="600">Garth family.</famname>
-        <famname source="lcnaf" encodinganalog="600">Holden family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1567">Garth family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1465">Holden family.</famname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n2009001239.html" ref="/subjects/1881">Northport (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7886">Norwegian Americans--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="600">Talgø, Elisabeth Holden.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28343">Talgø, Elisabeth Holden.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1882">Norway--Emigration and immigration.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5709">Immigrants--Michigan.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <famname source="lcnaf" encodinganalog="600">Bahle family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1446">Bahle family.</famname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4290">Churches--Michigan--Northport.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4283">Farms.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3615">Laborers.</subject>
@@ -100,7 +101,7 @@
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1883">North Manitou Island (Mich.)</geogname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/296">Northport (Mich.)--Buildings.</geogname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/297">Northport (Mich.)--Churches.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Norwegian Evangelical Lutheran Church (Northport, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21600">Norwegian Evangelical Lutheran Church (Northport, Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4291">Roads--Michigan--Northport.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4292">Schools--Michigan--Northport.</subject>
       </controlaccess>

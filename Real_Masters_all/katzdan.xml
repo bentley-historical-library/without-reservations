@@ -39,7 +39,8 @@
         <item>Original encoding from Word 6.0 file</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -50,7 +51,7 @@
   <archdesc level="collection" type="inventory" audience="external" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname encodinganalog="100" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n80060596">Katz, Daniel, 1903-1998</persname>
+        <persname encodinganalog="100" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n80060596" ref="/agents/people/29779">Katz, Daniel, 1903-1998</persname>
       </origination>
       <unittitle encodinganalog="245">Daniel Katz papers <unitdate encodinganalog="245$f" type="inclusive" normal="1925/1997">1925-1997</unitdate></unittitle>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">90190 Aa 2</unitid>
@@ -98,13 +99,13 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80060596">Katz, Daniel, 1903-1998</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80060596" ref="/agents/people/29779">Katz, Daniel, 1903-1998</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8615">Nationalism.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8616">Organizational behavior.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7003">Social psychology.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Psychology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79106618">University of Michigan. Survey Research Center.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19242">University of Michigan. Dept. of Psychology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79106618" ref="/agents/corporate_entities/18811">University of Michigan. Survey Research Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

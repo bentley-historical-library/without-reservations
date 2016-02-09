@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Tomlinson, Owen A., 1882-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28400">Tomlinson, Owen A., 1882-</persname>
       </origination>
       <unittitle encodinganalog="245">Owen A. Tomlinson papers <unitdate type="inclusive" encodinganalog="245$f" normal="1899/1920">1899-1920</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85419 Aa 2; UAm</unitid>
@@ -88,11 +89,11 @@
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/930">China--History--1861-1912.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10406">Filipinos.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10407">Headhunters.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50082162">Philippine Constabulary.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50082162" ref="/agents/corporate_entities/19582">Philippine Constabulary.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/944">Philippines--History--1898-1946.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4970">Soldiers--American--Philippines.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79063202">United States. Army.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n86828116">Worcester, Dean C. (Dean Conant), 1866-1924.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79063202" ref="/agents/corporate_entities/18156">United States. Army.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n86828116" ref="/agents/people/29209">Worcester, Dean C. (Dean Conant), 1866-1924.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/946">China--History--Republic, 1912-1949.</geogname>
       </controlaccess>
       <controlaccess>

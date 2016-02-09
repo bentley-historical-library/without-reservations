@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Program for Inter-Institutional Collaboration in Area Studies.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/20409">University of Michigan. Program for Inter-Institutional Collaboration in Area Studies.</corpname>
       </origination>
       <unittitle encodinganalog="245">Program for Inter-Institutional Collaboration in Area Studies (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1985/1995">1985-1995</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">9815 Bimu 2</unitid>
@@ -118,12 +119,12 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Program for Inter-Institutional Collaboration in Area Studies.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20409">University of Michigan. Program for Inter-Institutional Collaboration in Area Studies.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10481">Area studies.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8099">Universities and colleges--Middle West.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10482">Language and languages--Study and teaching (Higher)</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81080143">Great Lakes Colleges Association.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50074245">Associated Colleges of the Midwest.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81080143" ref="/agents/corporate_entities/20689">Great Lakes Colleges Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50074245" ref="/agents/corporate_entities/20831">Associated Colleges of the Midwest.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

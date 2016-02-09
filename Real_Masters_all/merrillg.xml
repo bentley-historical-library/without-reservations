@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Merrill, George Washington, 1856-1937.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/31469">Merrill, George Washington, 1856-1937.</persname>
       </origination>
       <unittitle encodinganalog="245">George Washington Merrill photographs <unitdate type="inclusive" encodinganalog="245$f" normal="1874/1918" certainty="approximate">circa 1874-1918</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">0738 Aa 2</unitid>
@@ -78,10 +79,10 @@
       </p>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600">Merrill, George Washington, 1856-1937.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31469">Merrill, George Washington, 1856-1937.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4739">City &amp; town life--Michigan--Detroit.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539.html" ref="/subjects/933">Detroit (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n84076025">Grand Army of the Republic.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n84076025" ref="/agents/corporate_entities/18142">Grand Army of the Republic.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4740">Cities &amp; towns--Michigan--Detroit.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4485">Ice skating--Michigan.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4741">Business districts--Michigan--Detroit.</subject>

@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Bureau of School Services.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/18688">University of Michigan. Bureau of School Services.</corpname>
       </origination>
       <unittitle encodinganalog="245">Bureau of School Services (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1871/1992">1871-1992</unitdate></unittitle>
       <abstract>University of Michigan unit established in 1871 to accredit secondary schools. Consists primarily of accreditation inspection reports, 1871-1992, representing over 1,000 public and private high schools in Michigan. Reports include information on demographics, facilities, finances, curriculum, staffing, and reviewers comments. Some early reports were completed by John Dewey. Files are arranged by school alphabetically by city. The state assumed accreditation responsibility in 1992.</abstract>
@@ -96,21 +97,21 @@
       <controlaccess>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5752">Education--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6483">Schools--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Committee on Diploma Schools.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82098946">University of Michigan. School of Education.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19620">University of Michigan. Committee on Diploma Schools.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82098946" ref="/agents/corporate_entities/20661">University of Michigan. School of Education.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6551">Education, Secondary--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6552">High Schools--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6553">School management and organization--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6554">Accreditation (Education)</subject>
-        <corpname source="lcnaf" encodinganalog="610">Detroit High School Study Commission.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83008247">North Central Association of Colleges and Schools (U.S.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2005048410">University of Michigan. Bureau of Cooperation with Educational Institutions.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19825">Detroit High School Study Commission.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83008247" ref="/agents/corporate_entities/21960">North Central Association of Colleges and Schools (U.S.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2005048410" ref="/agents/corporate_entities/20364">University of Michigan. Bureau of Cooperation with Educational Institutions.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79060532">Dewey, John, 1859-1952.</persname>
-        <persname source="lcnaf" encodinganalog="700">Robinson, Remus, 1904-1970.</persname>
-        <persname source="lcnaf" encodinganalog="700">Whitney, Allen Sisson, 1857-1944.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79060532" ref="/agents/people/35090">Dewey, John, 1859-1952.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33219">Robinson, Remus, 1904-1970.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29605">Whitney, Allen Sisson, 1857-1944.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

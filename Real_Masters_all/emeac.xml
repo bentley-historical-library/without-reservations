@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">East Michigan Environmental Action Council.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/17391">East Michigan Environmental Action Council.</corpname>
       </origination>
       <unittitle encodinganalog="245">East Michigan Environmental Action Council Records <unitdate type="inclusive" encodinganalog="245$f" normal="1969/1989">1969-1989</unitdate></unittitle>
       <abstract>Citizens action group concerned with health and environmental issues. Series in record group include Administrative, Grants and Proposals, Litigation, Topical, and Great Lakes and Water Resources Planning Commission.</abstract>
@@ -86,7 +87,7 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6532">Citizens' associations--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6215">Conservation of natural resources--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6653">Environmental protection--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88031223">Michigan. Great Lakes and Water Resources Planning Commission.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88031223" ref="/agents/corporate_entities/19296">Michigan. Great Lakes and Water Resources Planning Commission.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7436">Hazardous wastes--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7437">Refuse and refuse disposal.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7119">Water.</subject>

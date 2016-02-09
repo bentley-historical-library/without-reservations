@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Cary, William M.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33782">Cary, William M.</persname>
       </origination>
       <unittitle encodinganalog="245">William M. Cary Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1963/1986">1963-1986</unitdate></unittitle>
       <abstract>Environmental education teacher at East Grand Rapids, Michigan, High School and member of the board of the West Michigan Environmental Action Council. Subject files consisting of newsletters, reports, testimonies, and printed material relating to Michigan environmental issues.</abstract>
@@ -78,10 +79,10 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Cary, William M.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33782">Cary, William M.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6215">Conservation of natural resources--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6653">Environmental protection--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80056569">West Michigan Environmental Action Council.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80056569" ref="/agents/corporate_entities/21748">West Michigan Environmental Action Council.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

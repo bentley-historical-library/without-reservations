@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">American National Red Cross. Washtenaw County Chapter.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/21208">American National Red Cross. Washtenaw County Chapter.</corpname>
       </origination>
       <unittitle encodinganalog="245">American National Red Cross, Washtenaw County Chapter records <unitdate type="inclusive" encodinganalog="245$f" normal="1916/1976">1916-1976</unitdate></unittitle>
       <abstract>History; board minutes and other records of the chapter, and of the Ann Arbor and Ypsilanti branches; activities files detailing work of chapter in matters of public health and wartime home services; newsletters; scrapbooks and newspaper clippings; and photographs.</abstract>
@@ -92,9 +93,9 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">American National Red Cross. Ann Arbor Branch.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">American National Red Cross. Washtenaw County Chapter.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">American National Red Cross. Ypsilanti Branch.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17734">American National Red Cross. Ann Arbor Branch.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21208">American National Red Cross. Washtenaw County Chapter.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18756">American National Red Cross. Ypsilanti Branch.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5891">Charities--Michigan--Washtenaw County.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5892">Nursing--Michigan--Washtenaw County.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5893">Public health--Michigan--Washtenaw County.</subject>
@@ -103,7 +104,7 @@
       </controlaccess>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">American National Red Cross. Washtenaw County Chapter.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21208">American National Red Cross. Washtenaw County Chapter.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3646">War work--Michigan--Washtenaw County.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3647">Women--Michigan--Washtenaw County.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5896">World War, 1939-1945--Social aspects--Michigan--Washtenaw County.</subject>

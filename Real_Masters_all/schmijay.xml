@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Schmidt, Jay Handler, 1891-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32234">Schmidt, Jay Handler, 1891-</persname>
       </origination>
       <unittitle encodinganalog="245">Jay Handler Schmidt papers <unitdate type="inclusive" encodinganalog="245$f" normal="1918/1968">1918-1968</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">852222 Aa 2</unitid>
@@ -76,16 +77,16 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79021469">Dewey, Thomas E. (Thomas Edmund), 1902-1971.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79021469" ref="/agents/people/34514">Dewey, Thomas E. (Thomas Edmund), 1902-1971.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7298">Presidents--United States--Election--1944.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8184">Presidents--United States--Election--1948.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1271">United States--Politics and government--1933-1953.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Alumni and alumnae.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr93034095">University of Michigan. Alumni Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Alumni and alumnae.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr93034095" ref="/agents/corporate_entities/17992">University of Michigan. Alumni Association.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79021469">Dewey, Thomas E. (Thomas Edmund), 1902-1971.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79021469" ref="/agents/people/34514">Dewey, Thomas E. (Thomas Edmund), 1902-1971.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1768">France.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/919">Germany.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4697">Military bands.</subject>

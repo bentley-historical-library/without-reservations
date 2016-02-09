@@ -35,7 +35,8 @@
         <item>original encoding from Word 6.0 file</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc level="collection" type="inventory" audience="external" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">Fischer, Carl Hahn, 1903-</persname>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/35004">Fischer, Carl Hahn, 1903-</persname>
       </origination>
       <unittitle encodinganalog="245">Carl H. Fischer Papers <unitdate encodinganalog="245$f" type="inclusive" normal="1936/1985">1936-1985</unitdate>, <unitdate encodinganalog="245$g" type="bulk" normal="1950/1970">1950-1970</unitdate></unittitle>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">9801 Aa 2</unitid>
@@ -94,10 +95,10 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Fischer, Carl Hahn, 1903-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35004">Fischer, Carl Hahn, 1903-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7798">Insurance--Mathematics.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79073704">University of Michigan. School of Business Administration.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79073704" ref="/agents/corporate_entities/19814">University of Michigan. School of Business Administration.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

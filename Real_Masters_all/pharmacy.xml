@@ -47,7 +47,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -58,7 +59,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. College of Pharmacy.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/22419">University of Michigan. College of Pharmacy.</corpname>
       </origination>
       <unittitle encodinganalog="245">College of Pharmacy (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1864/2010">1864-2010</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1940/2000">1940-2000</unitdate></unittitle>
       <abstract>Background files with historical information and biographical data on college deans and faculty; chronological files, 1868-1994, including faculty and executive committee minutes, annual reports, and subject files, largely of deans Howard Lewis, Charles H. Stocking, Thomas D. Rowe, and Ara G. Paul; records of Prescott Club, organization of pharmacy students; and photographs.</abstract>
@@ -177,13 +178,13 @@
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7331">Pharmacy--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9752">Pharmacy--Study and teaching--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Prescott Club (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. College of Pharmacy.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Societies, etc.</corpname>
-        <persname source="lcnaf" encodinganalog="700">Lewis, Howard Bishop, 1887-1954.</persname>
-        <persname source="lcnaf" encodinganalog="700">Paul, Ara G. (Ara Garo), 1929-</persname>
-        <persname source="lcnaf" encodinganalog="700">Rowe, Thomas Dudley, 1910-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2005038608">Stocking, Charles Howard, 1882-1958.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18355">Prescott Club (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22419">University of Michigan. College of Pharmacy.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Students--Societies, etc.</corpname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34471">Lewis, Howard Bishop, 1887-1954.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31233">Paul, Ara G. (Ara Garo), 1929-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30125">Rowe, Thomas Dudley, 1910-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2005038608" ref="/agents/people/29007">Stocking, Charles Howard, 1882-1958.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
@@ -7362,7 +7363,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Archived version of the College of Pharmacy website as it appeared on May 15, 2002. Documents the academic programs, accomplishments, resources, events, and people at the College of Pharmacy. Content includes important news and announcements, publications (such as newsletters and course catalogs), and information about admissions, curriculum, degree requirements, faculty, and the overall mission of the College.)</p></odd></c03>
+            <odd>
+              <p>(Archived version of the College of Pharmacy website as it appeared on May 15, 2002. Documents the academic programs, accomplishments, resources, events, and people at the College of Pharmacy. Content includes important news and announcements, publications (such as newsletters and course catalogs), and information about admissions, curriculum, degree requirements, faculty, and the overall mission of the College.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
@@ -7378,7 +7382,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Archived version of the College of Pharmacy website as it appeared on May 22, 2003. Documents the academic programs, accomplishments, resources, events, and people at the College of Pharmacy. Content includes important news and announcements, publications (such as newsletters and course catalogs), and information about admissions, curriculum, degree requirements, faculty, and the overall mission of the College.)</p></odd></c03>
+            <odd>
+              <p>(Archived version of the College of Pharmacy website as it appeared on May 22, 2003. Documents the academic programs, accomplishments, resources, events, and people at the College of Pharmacy. Content includes important news and announcements, publications (such as newsletters and course catalogs), and information about admissions, curriculum, degree requirements, faculty, and the overall mission of the College.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
@@ -7394,7 +7401,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(This College of Pharmacy archived website documents the academic programs, accomplishments, resources, events, and people at the College of Pharmacy. Content includes important news and announcements, publications (such as newsletters and course catalogs), and information about admissions, curriculum, degree requirements, faculty, and the overall mission of the College)</p></odd></c03>
+            <odd>
+              <p>(This College of Pharmacy archived website documents the academic programs, accomplishments, resources, events, and people at the College of Pharmacy. Content includes important news and announcements, publications (such as newsletters and course catalogs), and information about admissions, curriculum, degree requirements, faculty, and the overall mission of the College)</p>
+            </odd>
+          </c03>
         </c02>
         <c02 level="file">
           <did>

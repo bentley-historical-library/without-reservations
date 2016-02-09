@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Phillips, Albert James, 1899-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/27358">Phillips, Albert James, 1899-</persname>
       </origination>
       <unittitle encodinganalog="245">Albert James Phillips papers <unitdate type="inclusive" encodinganalog="245$f" normal="1925/1962">1925-1962</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">852037 Aa 2</unitid>
@@ -81,8 +82,8 @@
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5752">Education--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1140">Lansing (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50069813">Michigan Education Association.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. Tax Study Commission.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50069813" ref="/agents/corporate_entities/20036">Michigan Education Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22191">Michigan. Tax Study Commission.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6214">Taxation--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9760">Teachers--Michigan--Lansing.</subject>
       </controlaccess>

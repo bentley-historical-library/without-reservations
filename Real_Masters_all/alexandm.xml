@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Alexander, Michael T.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/34110">Alexander, Michael T.</persname>
       </origination>
       <unittitle encodinganalog="245">Michael T. Alexander papers <unitdate type="inclusive" encodinganalog="245$f" normal="1968/1994">1968-1994</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1982/1992">1982-1992</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2012025 Aa 2</unitid>
@@ -101,14 +102,14 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Alexander, Michael T.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34110">Alexander, Michael T.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5827">Computer networks.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5828">Information technology.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5829">MTS (Computer system)</subject>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Terminal System.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr92011114">University of Michigan. Information Technology Division.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88650382">University of Michigan. Computing Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22275">Michigan Terminal System.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr92011114" ref="/agents/corporate_entities/17411">University of Michigan. Information Technology Division.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88650382" ref="/agents/corporate_entities/20287">University of Michigan. Computing Center.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -1529,7 +1530,7 @@
     <descgrp type="add">
       <relatedmaterial>
         <head>Related Material</head>
-        <p>Material at the Bentley Historical Library related to the Michael T. Alexander papers include the following: <list type="simple"><item>Units and departments: <sublist type="simple"><subitem><archref href="http://quod.lib.umich.edu/cgi/f/findaid/findaid-idx?c=bhlead;idno=umich-bhl-9551" show="new" actuate="onrequest">Computing Center records</archref></subitem><subitem><archref href="http://quod.lib.umich.edu/cgi/f/findaid/findaid-idx?c=bhlead;idno=umich-bhl-0351" show="new" actuate="onrequest">Computing Center publications</archref></subitem><subitem><archref href="http://quod.lib.umich.edu/cgi/f/findaid/findaid-idx?c=bhlead;idno=umich-bhl-0351" show="new" actuate="onrequest">Information Technology Division records</archref></subitem><subitem><archref href="http://quod.lib.umich.edu/cgi/f/findaid/findaid-idx?c=bhlead;idno=umich-bhl-9938" show="new" actuate="onrequest">Inter-University Consortium for Political and Social Research records</archref></subitem><subitem><archref href="http://quod.lib.umich.edu/cgi/f/findaid/findaid-idx?c=bhlead;idno=umich-bhl-87180" show="new" actuate="onrequest">Logic of Computers Group records</archref></subitem><subitem><archref href="http://quod.lib.umich.edu/cgi/f/findaid/findaid-idx?c=bhlead;idno=umich-bhl-05138" show="new" actuate="onrequest">Merit Network, Inc. records</archref></subitem><subitem><archref href="http://quod.lib.umich.edu/cgi/f/findaid/findaid-idx?c=bhlead;idno=umich-bhl-91470" show="new" actuate="onrequest">University Committee on Computer Policy and Utilization records</archref></subitem></sublist> </item><item>Individuals associated with the Computing Center and its work: <sublist type="simple"><subitem><archref href="http://quod.lib.umich.edu/cgi/f/findaid/findaid-idx?c=bhlead;idno=umich-bhl-90185" actuate="onrequest" show="new">Arthur W. Burks papers</archref></subitem><subitem><archref href="http://quod.lib.umich.edu/cgi/f/findaid/findaid-idx?c=bhlead;idno=umich-bhl-0066" show="new" actuate="onrequest">Bernard Galler papers</archref></subitem><subitem><archref href="http://quod.lib.umich.edu/cgi/f/findaid/findaid-idx?c=bhlead;idno=umich-bhl-9914" show="new" actuate="onload">Aaron Finerman papers</archref></subitem></sublist> </item></list> </p>
+        <p>Material at the Bentley Historical Library related to the Michael T. Alexander papers include the following: <list type="simple"><item>Units and departments: <sublist type="simple"><subitem><archref href="http://quod.lib.umich.edu/cgi/f/findaid/findaid-idx?c=bhlead;idno=umich-bhl-9551" show="new" actuate="onrequest">Computing Center records</archref></subitem> <subitem><archref href="http://quod.lib.umich.edu/cgi/f/findaid/findaid-idx?c=bhlead;idno=umich-bhl-0351" show="new" actuate="onrequest">Computing Center publications</archref></subitem> <subitem><archref href="http://quod.lib.umich.edu/cgi/f/findaid/findaid-idx?c=bhlead;idno=umich-bhl-0351" show="new" actuate="onrequest">Information Technology Division records</archref></subitem> <subitem><archref href="http://quod.lib.umich.edu/cgi/f/findaid/findaid-idx?c=bhlead;idno=umich-bhl-9938" show="new" actuate="onrequest">Inter-University Consortium for Political and Social Research records</archref></subitem> <subitem><archref href="http://quod.lib.umich.edu/cgi/f/findaid/findaid-idx?c=bhlead;idno=umich-bhl-87180" show="new" actuate="onrequest">Logic of Computers Group records</archref></subitem> <subitem><archref href="http://quod.lib.umich.edu/cgi/f/findaid/findaid-idx?c=bhlead;idno=umich-bhl-05138" show="new" actuate="onrequest">Merit Network, Inc. records</archref></subitem> <subitem><archref href="http://quod.lib.umich.edu/cgi/f/findaid/findaid-idx?c=bhlead;idno=umich-bhl-91470" show="new" actuate="onrequest">University Committee on Computer Policy and Utilization records</archref></subitem></sublist> </item><item>Individuals associated with the Computing Center and its work: <sublist type="simple"><subitem><archref href="http://quod.lib.umich.edu/cgi/f/findaid/findaid-idx?c=bhlead;idno=umich-bhl-90185" actuate="onrequest" show="new">Arthur W. Burks papers</archref></subitem> <subitem><archref href="http://quod.lib.umich.edu/cgi/f/findaid/findaid-idx?c=bhlead;idno=umich-bhl-0066" show="new" actuate="onrequest">Bernard Galler papers</archref></subitem> <subitem><archref href="http://quod.lib.umich.edu/cgi/f/findaid/findaid-idx?c=bhlead;idno=umich-bhl-9914" show="new" actuate="onload">Aaron Finerman papers</archref></subitem></sublist> </item></list> </p>
         <p>The HathiTrust Digital Library (http://hathitrust.org) also contains various publications and papers by or about the U-M Computing Center. These materials have been collected into a <bibref href="http://babel.hathitrust.org/cgi/mb?a=listis;c=1889583521" actuate="onrequest" show="new">UM Computing Center Collection</bibref> </p>
         <p><bibref href="http://archive.michigan-terminal-system.org/home" actuate="onrequest" show="new"><title>Michigan Terminal System Archive</title></bibref>: http://archive.michigan-terminal-system.org/home (Accessed on February 3, 2012.)</p>
         <p><bibref href="http://en.wikipedia.org/wiki/Michigan_Terminal_System" show="new" actuate="onrequest"><title>MTS page on Wikipedia</title></bibref>: http://en.wikipedia.org/wiki/Michigan_Terminal_System (Accessed 2012.)</p>

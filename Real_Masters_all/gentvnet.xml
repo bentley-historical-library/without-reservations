@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">General Television Network.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/21478">General Television Network.</corpname>
       </origination>
       <unittitle encodinganalog="245">General Television Network records <unitdate type="inclusive" encodinganalog="245$f" normal="1954/1997">1954-1997</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2008179 Bb 2</unitid>
@@ -85,7 +86,7 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7951">Closed-circuit television--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">General Television Network.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21478">General Television Network.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7952">Telecommunication--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7953">Television--Production and direction--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7954">Television advertising--Michigan.</subject>

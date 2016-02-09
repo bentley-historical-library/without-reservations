@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. East Quad Memory Project</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/19177">University of Michigan. East Quad Memory Project</corpname>
       </origination>
       <unittitle encodinganalog="245">East Quad Memory Project (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1977/2012">1977-2012</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2012064 Bimu 2</unitid>
@@ -89,13 +90,13 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">East Quadrangle (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">East Quad Memory Project.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Residential College.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Student housing.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">East Quadapalooza.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19214">East Quadrangle (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17487">East Quad Memory Project.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21856">University of Michigan. Residential College.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Student housing.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Students--Social life and customs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17884">East Quadapalooza.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5752">Education--Michigan.</subject>
       </controlaccess>
     </controlaccess>
@@ -131,7 +132,10 @@
               <extent altrender="materialtype spaceoccupied">10 digital files</extent>
             </physdesc>
           </did>
-        <odd><p>(East Quadapalooza was an event organized by Rosie Levine and held in the East Quad's Greene Lounge from 5-8 p.m. on March 30, 2012. Professors, administrators, staff, alumni, and current students shared memories of life in East Quad over the years, many of which were captured on digital video. The evening concluded with a music performance at the Halfway Inn.)</p></odd></c02>
+          <odd>
+            <p>(East Quadapalooza was an event organized by Rosie Levine and held in the East Quad's Greene Lounge from 5-8 p.m. on March 30, 2012. Professors, administrators, staff, alumni, and current students shared memories of life in East Quad over the years, many of which were captured on digital video. The evening concluded with a music performance at the Halfway Inn.)</p>
+          </odd>
+        </c02>
       </c01>
       <c01 level="series">
         <did>
@@ -150,7 +154,10 @@
               </daodesc>
             </dao>
           </did>
-        <odd><p>(Materials collected and donated as part of the East Quad Memory Project. The series includes email correspondence with individuals associated with East Quad, a collection of recipes from the Halfway Inn cafe, an index of murals, and a documentary video created for the Residential College's fortieth anniversary)</p></odd></c02>
+          <odd>
+            <p>(Materials collected and donated as part of the East Quad Memory Project. The series includes email correspondence with individuals associated with East Quad, a collection of recipes from the Halfway Inn cafe, an index of murals, and a documentary video created for the Residential College's fortieth anniversary)</p>
+          </odd>
+        </c02>
         <c02 level="file">
           <did>
             <physloc>Online</physloc>
@@ -161,7 +168,10 @@
               </daodesc>
             </dao>
           </did>
-        <odd><p>(Materials collected and donated as part of the East Quad Memory Project. The series includes email correspondence with individuals associated with East Quad, a collection of recipes from the Halfway Inn cafe, an index of murals, and a documentary video created for the Residential College's fortieth anniversary)</p></odd></c02>
+          <odd>
+            <p>(Materials collected and donated as part of the East Quad Memory Project. The series includes email correspondence with individuals associated with East Quad, a collection of recipes from the Halfway Inn cafe, an index of murals, and a documentary video created for the Residential College's fortieth anniversary)</p>
+          </odd>
+        </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [711789682458209521453951]">1</container>
@@ -178,7 +188,10 @@
               </daodesc>
             </dao>
           </did>
-        <odd><p>(Materials collected and donated as part of the East Quad Memory Project. The series includes email correspondence with individuals associated with East Quad, a collection of recipes from the Halfway Inn cafe, an index of murals, and a documentary video created for the Residential College's fortieth anniversary)</p></odd></c02>
+          <odd>
+            <p>(Materials collected and donated as part of the East Quad Memory Project. The series includes email correspondence with individuals associated with East Quad, a collection of recipes from the Halfway Inn cafe, an index of murals, and a documentary video created for the Residential College's fortieth anniversary)</p>
+          </odd>
+        </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [711789682458209521453951]">1</container>
@@ -201,7 +214,10 @@
               </daodesc>
             </dao>
           </did>
-        <odd><p>(Materials collected and donated as part of the East Quad Memory Project. The series includes email correspondence with individuals associated with East Quad, a collection of recipes from the Halfway Inn cafe, an index of murals, and a documentary video created for the Residential College's fortieth anniversary)</p></odd></c02>
+          <odd>
+            <p>(Materials collected and donated as part of the East Quad Memory Project. The series includes email correspondence with individuals associated with East Quad, a collection of recipes from the Halfway Inn cafe, an index of murals, and a documentary video created for the Residential College's fortieth anniversary)</p>
+          </odd>
+        </c02>
       </c01>
     </dsc>
   </archdesc>

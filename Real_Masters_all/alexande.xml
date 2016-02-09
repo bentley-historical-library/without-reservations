@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Alexander, Robert, 1945-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/35899">Alexander, Robert, 1945-</persname>
       </origination>
       <unittitle encodinganalog="245">Robert Alexander Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1970/1982">1970-1982</unitdate></unittitle>
       <abstract>Ann Arbor, Michigan political activist and campaign worker on behalf of Human Rights Party and Democratic Party candidates. Files and photographs (circa 1970-1980) relating to the Fred Harris presidential campaign in 1976, the Ed Pierce campaigns for Michigan state office in 1976, 1978, 1980 and 1982, and the Zolton Ferency campaign for governor of Michigan in 1978.</abstract>
@@ -89,31 +90,31 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Alexander, Robert, 1945-</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731">Democratic Party (Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35899">Alexander, Robert, 1945-</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731" ref="/agents/corporate_entities/21108">Democratic Party (Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5820">Elections--Michigan--1976.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5821">Elections--Michigan--1978.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5822">Elections--Michigan--1980.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5823">Elections--Michigan--1982.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5824">Elections--United States.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2009000067">Ferency, Zolton A., 1922-1993</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79117243">Harris, Fred R., 1930-</persname>
-        <corpname source="lcnaf" encodinganalog="610">Human Rights Party (Ann Arbor, Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2009000067" ref="/agents/people/34778">Ferency, Zolton A., 1922-1993</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79117243" ref="/agents/people/28293">Harris, Fred R., 1930-</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19768">Human Rights Party (Ann Arbor, Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/910">Michigan--Politics and government--1951-</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/801">Michigan--Politics and government--1971-1980.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/802">Michigan--Politics and government--1981-1990.</geogname>
-        <persname source="lcnaf" encodinganalog="600">Pierce, Edward, 1930-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32077">Pierce, Edward, 1930-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5825">Presidents--United States--Election--1976.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5826">Radicalism--Michigan--Ann Arbor.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/911">United States--Politics and government--1974-1977.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Alexander, Robert, 1945-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35899">Alexander, Robert, 1945-</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/857">Ann Arbor (Mich.)--Politics and government.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731">Democratic Party (Mich.)</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79117243">Harris, Fred R., 1930-</persname>
-        <corpname source="lcnaf" encodinganalog="610">Human Rights Party (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731" ref="/agents/corporate_entities/21108">Democratic Party (Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79117243" ref="/agents/people/28293">Harris, Fred R., 1930-</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19768">Human Rights Party (Ann Arbor, Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3627">Political elections--1976.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3628">Politics and government--1971-1980.</subject>
       </controlaccess>

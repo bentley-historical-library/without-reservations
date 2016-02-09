@@ -27,7 +27,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">Greenman, Emerson Frank, 1895-1973.</persname>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/32839">Greenman, Emerson Frank, 1895-1973.</persname>
       </origination>
       <unittitle encodinganalog="245">Emerson Frank Greenman Papers <unitdate encodinganalog="245$f" type="inclusive" normal="1888/1984">1888-1984</unitdate>, <unitdate encodinganalog="245$g" type="bulk" normal="1924/1972">1924-1972</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">851362 Aa 2</unitid>
@@ -92,12 +93,12 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6097">Indians of North America--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1358">McBain (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85155116.html" ref="/subjects/1168">Mount Pleasant (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2011098905">Mount Pleasant Indian School.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Pontiac, Ottawa Chief, d. 1769.</persname>
-        <persname source="lcnaf" encodinganalog="600">Greenman, Emerson Frank, 1895-1973.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79063899">University of Michigan. Museum of Anthropology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82146244">Michigan Archaeological Society.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2011098905" ref="/agents/corporate_entities/18914">Mount Pleasant Indian School.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30357">Pontiac, Ottawa Chief, d. 1769.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32839">Greenman, Emerson Frank, 1895-1973.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79063899" ref="/agents/corporate_entities/20192">University of Michigan. Museum of Anthropology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82146244" ref="/agents/corporate_entities/18006">Michigan Archaeological Society.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6632">Archaeology.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8076">Excavations (Archaeology)--Ontario.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1943">Manitoulin Island (Ont.)</geogname>
@@ -112,7 +113,7 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3693">Boats.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091936.html" ref="/subjects/979">Cheboygan County (Mich.)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3899">Churches.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Clinton Inn (Clinton, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22098">Clinton Inn (Clinton, Mich.)</corpname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/318">Clinton (Mich.)--Hotels and taverns.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4400">Courthouses--Michigan--Monroe.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n83128558.html" ref="/subjects/1067">Cross Village (Mich.)</geogname>

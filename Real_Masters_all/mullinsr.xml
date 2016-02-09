@@ -31,7 +31,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal. Major revision replacing previous EAD file prepared by K. Steiner.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname encodinganalog="100" source="lcnaf">Mullins, Raymond G., 1943-</persname>
+        <persname encodinganalog="100" source="lcnaf" ref="/agents/people/29517">Mullins, Raymond G., 1943-</persname>
       </origination>
       <unittitle encodinganalog="245">Raymond G. Mullins Papers <unitdate encodinganalog="245$f" type="inclusive" normal="1953/2010">1953-2010</unitdate>, <unitdate encodinganalog="245$g" type="bulk" normal="1970/1990">1970-1990</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">9919 Aa 2</unitid>
@@ -100,19 +101,19 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Mullins, Raymond G., 1943-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29517">Mullins, Raymond G., 1943-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9489">African Americans--Michigan--Ypsilanti.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9490">Civil rights--Michigan--Ypsilanti.</subject>
-        <corpname source="lcnaf" encodinganalog="610">National Association for the Advancement of Colored People. Ypsilanti-Willow Run Branch.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Brown Chapel African Methodist Episcopal Church (Ypsilanti, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19024">National Association for the Advancement of Colored People. Ypsilanti-Willow Run Branch.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19222">Brown Chapel African Methodist Episcopal Church (Ypsilanti, Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2407">Ypsilanti (Mich.)--Race relations.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9491">African Americans--Civil rights.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600">Mullins, Raymond G., 1943-</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79054611">Ali, Muhammad, 1942-</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no91007047">Riegle, Donald W., 1938-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29517">Mullins, Raymond G., 1943-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79054611" ref="/agents/people/31033">Ali, Muhammad, 1942-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no91007047" ref="/agents/people/28024">Riegle, Donald W., 1938-</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

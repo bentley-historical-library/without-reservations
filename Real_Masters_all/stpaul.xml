@@ -31,7 +31,8 @@
         <item>Original encoding in EAD Vers. 1.0 from Word 6.0 file using Word macros and some hand tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">St. Paul United Church of Christ (Lansing, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/18702">St. Paul United Church of Christ (Lansing, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245$a">St. Paul United Church of Christ (Lansing, Mich.) records <unitdate type="inclusive" encodinganalog="245$f" normal="1886/1998">1886-1998</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1940/1998">1940-1998</unitdate></unittitle>
       <abstract>Church in Lansing, Michigan, founded in 1886 and dissolved in 1998. Record group includes the following series: history, membership, property, administration, bulletins and newsletters, women's organizations, Sunday School, and photographs.</abstract>
@@ -207,12 +208,12 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">St. Paul United Church of Christ (Lansing, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18702">St. Paul United Church of Christ (Lansing, Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2903">Lansing (Mich.)--Church history.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <corpname source="lcnaf" encodinganalog="610">St. Paul United Church of Christ (Lansing, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18702">St. Paul United Church of Christ (Lansing, Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2904">Lansing (Mich.)--Churches.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4296">Churches--Michigan--Lansing.</subject>
       </controlaccess>

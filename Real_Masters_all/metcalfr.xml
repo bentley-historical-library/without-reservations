@@ -32,7 +32,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -43,7 +44,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Metcalf, Robert Clarence</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/34584">Metcalf, Robert Clarence</persname>
       </origination>
       <unittitle encodinganalog="245">Robert C. Metcalf papers <unitdate type="inclusive" encodinganalog="245$g" normal="1950/2008">1950-2008</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1950/1999">1950-1999</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2009179 Aa 2</unitid>
@@ -1507,16 +1508,16 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9262">Architecture--Ohio.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9263">Architecture, Domestic.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9264">Modern movement (Architecture)</subject>
-        <persname source="lcnaf" encodinganalog="600">Balogh, Tivadar.</persname>
-        <persname source="lcnaf" encodinganalog="600">Brigham, George Bickford, 1889-</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88657401">Dennison, David M. (David Mathias), 1900-1976.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79033067">Elving, Philip Juliber, 1913-</persname>
-        <persname source="lcnaf" encodinganalog="600">Huebner, Gertrude, 1915-</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no91022935">Jones, Lawrence W. (Lawrence William), 1925-</persname>
-        <persname source="lcnaf" encodinganalog="600">Metcalf, Robert Clarence, 1923-</persname>
-        <persname source="lcnaf" encodinganalog="600">Werner, William A.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82166171">University of Michigan. College of Architecture and Design.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/27729">Balogh, Tivadar.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28629">Brigham, George Bickford, 1889-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88657401" ref="/agents/people/29818">Dennison, David M. (David Mathias), 1900-1976.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79033067" ref="/agents/people/28550">Elving, Philip Juliber, 1913-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28468">Huebner, Gertrude, 1915-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no91022935" ref="/agents/people/34556">Jones, Lawrence W. (Lawrence William), 1925-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33063">Metcalf, Robert Clarence, 1923-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29543">Werner, William A.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82166171" ref="/agents/corporate_entities/20611">University of Michigan. College of Architecture and Design.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
@@ -1526,13 +1527,13 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9262">Architecture--Ohio.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9263">Architecture, Domestic.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9264">Modern movement (Architecture)</subject>
-        <persname source="lcnaf" encodinganalog="600">Balogh, Tivadar.</persname>
-        <persname source="lcnaf" encodinganalog="600">Brigham, George Bickford, 1889-</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88657401">Dennison, David M. (David Mathias), 1900-1976.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79033067">Elving, Philip Juliber, 1913-</persname>
-        <persname source="lcnaf" encodinganalog="600">Huebner, Gertrude, 1915-</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no91022935">Jones, Lawrence W. (Lawrence William), 1925-</persname>
-        <persname source="lcnaf" encodinganalog="600">Werner, William A.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/27729">Balogh, Tivadar.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28629">Brigham, George Bickford, 1889-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88657401" ref="/agents/people/29818">Dennison, David M. (David Mathias), 1900-1976.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79033067" ref="/agents/people/28550">Elving, Philip Juliber, 1913-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28468">Huebner, Gertrude, 1915-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no91022935" ref="/agents/people/34556">Jones, Lawrence W. (Lawrence William), 1925-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29543">Werner, William A.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

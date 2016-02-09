@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/no00070108">Patterson, L. Brooks.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/no00070108" ref="/agents/people/28098">Patterson, L. Brooks.</persname>
       </origination>
       <unittitle encodinganalog="245">L. Brooks Patterson papers <unitdate type="inclusive" encodinganalog="245$f" normal="1975/2007">1975-2007</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">07184 Aa 2</unitid>
@@ -79,10 +80,10 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no00070108">Patterson, L. Brooks.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Oakland County (Mich.). Executive.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no00070108" ref="/agents/people/28098">Patterson, L. Brooks.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19608">Oakland County (Mich.). Executive.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2471">Oakland County (Mich.)--Politics and government.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21402">Republican Party (Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

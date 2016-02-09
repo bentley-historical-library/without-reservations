@@ -31,7 +31,8 @@
         <item>Original encoding from Word 6.0 file with some hand-tagging</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n87887131">Second Baptist Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n87887131" ref="/agents/corporate_entities/23060">Second Baptist Church (Detroit, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245$a">Second Baptist Church (Detroit, Mich.) Records <unitdate type="inclusive" encodinganalog="245$f" normal="1911/1989">1911-1989</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1926/1988">1926-1988</unitdate></unittitle>
       <abstract>Oldest African American church in Michigan; administrative records, papers of individual pastors, church publications.</abstract>
@@ -192,8 +193,8 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7388">Afro-Americans--Michigan--Detroit.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7883">Baptists, Black--Michigan--Detroit.</subject>
         <geogname source="local" encodinganalog="691" ref="/subjects/843">Detroit (Mich.)--Church history.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80085248">Ford Motor Company.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87887131">Second Baptist Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80085248" ref="/agents/corporate_entities/19767">Ford Motor Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87887131" ref="/agents/corporate_entities/23060">Second Baptist Church (Detroit, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
@@ -201,12 +202,12 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4453">Afro-Americans--Michigan--Detroit.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3674">Churches--Michigan--Detroit.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2297">Detroit (Mich.)--Churches.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87887131">Second Baptist Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87887131" ref="/agents/corporate_entities/23060">Second Baptist Church (Detroit, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Banks, A. A. (Allan A.)</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2010039247">Bradby, Robert L.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34344">Banks, A. A. (Allan A.)</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2010039247" ref="/agents/people/29540">Bradby, Robert L.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

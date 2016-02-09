@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Burroughs, Robert Eli, 1904-1978.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/35654">Burroughs, Robert Eli, 1904-1978.</persname>
       </origination>
       <unittitle encodinganalog="245">Robert Eli Burroughs papers <unitdate type="inclusive" encodinganalog="245$f" normal="1941/1970">1941-1970</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">861082 Aa 2</unitid>
@@ -82,10 +83,10 @@
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6424">Engineers--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6601">Engineering.</subject>
-        <corpname source="lcnaf" encodinganalog="610">National Conference on the Administration of Research.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88629496">University of Michigan. Engineering Research Institute.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82139340">University of Michigan. Office of Research Administration.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Research.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19668">National Conference on the Administration of Research.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88629496" ref="/agents/corporate_entities/20096">University of Michigan. Engineering Research Institute.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82139340" ref="/agents/corporate_entities/22842">University of Michigan. Office of Research Administration.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Research.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

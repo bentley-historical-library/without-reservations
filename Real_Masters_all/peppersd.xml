@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Pepper, Samuel Dewitt, 1877-1960.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/35340">Pepper, Samuel Dewitt, 1877-1960.</persname>
       </origination>
       <unittitle encodinganalog="245">Samuel D. Pepper Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1893/1952">1893-1952</unitdate></unittitle>
       <abstract>Port Huron, Michigan attorney; officer in the Michigan National Guard beginning in 1905, later Judge Advocate with the U.S. Army during World War I. After the war, Pepper was chief law officer of the MNG where he was advisor during the Flint Sit-Down strike of 1937. Biographical material; correspondence with family and friends concerning in part current events and politics in pre-World War I Canada; correspondence with wife Katherine while serving in France 1918-1919; papers relating to his official responsibilities with the Michigan National Guard, as Judge Advocate, and as member of veterans organizations; include files relating to the Copper Miners' Strike of 1913 and to the Flint Sit-Down strike; also diaries, 1916-1919, of his experiences serving on the Mexican border and in France during the First World War; papers relating to Republican party activities in 1920 and 1924; and photographs.</abstract>
@@ -97,12 +98,12 @@
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1768">France.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7070">General Motors Corporation Sit-Down Strike, 1936-1937.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2311">Mexico--Foreign relations--United States.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87910587">Michigan. National Guard.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87910587" ref="/agents/corporate_entities/19723">Michigan. National Guard.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9737">Military art and science.</subject>
-        <persname source="lcnaf" encodinganalog="600">Pepper, Samuel Dewitt, 1877-1960.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35340">Pepper, Samuel Dewitt, 1877-1960.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21402">Republican Party (Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8277">Strikes and lockouts--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army--Military life.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18156">United States. Army--Military life.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2546">United States--Foreign relations--Mexico.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6589">Veterans--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5737">World War, 1914-1918.</subject>
@@ -112,13 +113,13 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4123">Airplanes.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4064">Aeronautics.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1050">Calumet (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Camp Grayling (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20437">Camp Grayling (Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5081">Cannons.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3574">Clothing and dress.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7786">Copper Miners' Strike, Mich., 1913-1914.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87910587">Michigan. National Guard.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87910587" ref="/agents/corporate_entities/19723">Michigan. National Guard.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3697">Military camps.</subject>
-        <persname source="lcnaf" encodinganalog="600">Pepper, Samuel Dewitt, 1877-1960.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35340">Pepper, Samuel Dewitt, 1877-1960.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4859">Storms.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4010">Strikes.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3569">Women.</subject>

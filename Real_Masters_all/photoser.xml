@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Photo and Campus Service.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/18898">University of Michigan. Photo and Campus Service.</corpname>
       </origination>
       <unittitle encodinganalog="245">Photo and Campus Services (University of Michigan) photographs <unitdate type="inclusive" encodinganalog="245$f" normal="1960/1987">1960-1987</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1969/1970">1969-1970</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1980/1984">1980-1984</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">94135 Bimu 2</unitid>
@@ -92,16 +93,16 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5101">Educational buildings.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5102">Galleries and museums--Michigan--Ann Arbor.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4359">Hospitals--Michigan--Ann Arbor.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50003218">Newcomb, Theodore Mead, 1903-1984.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50003218" ref="/agents/people/30958">Newcomb, Theodore Mead, 1903-1984.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5103">Pedestrian bridges.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5104">Plazas--Michigan--Ann Arbor.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5105">Roads--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Buildings.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87101574">University of Michigan. Law Library.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Student housing.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. University Hospital.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50082736">Schembechler, Bo.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Buildings.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87101574" ref="/agents/corporate_entities/17727">University of Michigan. Law Library.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Student housing.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20510">University of Michigan. University Hospital.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50082736" ref="/agents/people/34620">Schembechler, Bo.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5993">College sports--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9766">Coaches (Athletics)</subject>
       </controlaccess>

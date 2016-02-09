@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">De Leon, Ted.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/35832">De Leon, Ted.</persname>
       </origination>
       <unittitle encodinganalog="245">Ted De Leon papers <unitdate type="inclusive" encodinganalog="245$f" normal="1975/2006">1975-2006</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1975/1979">1975-1979</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1994/2001">1994-2001</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2013129 Aa 2 UAl</unitid>
@@ -86,12 +87,12 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">De Leon, Ted.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Circle of Indigenous Races for Community, Leadership and Empowerment (Organization)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Mestizo Anishnabe Health Alliance.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Trabajadores de la Raza (Organization)--Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50079726">Michigan State University. School of Social Work.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81033118">University of Michigan. School of Social Work.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35832">De Leon, Ted.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17796">Circle of Indigenous Races for Community, Leadership and Empowerment (Organization)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17493">Mestizo Anishnabe Health Alliance.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18581">Trabajadores de la Raza (Organization)--Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50079726" ref="/agents/corporate_entities/22460">Michigan State University. School of Social Work.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81033118" ref="/agents/corporate_entities/22674">University of Michigan. School of Social Work.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7208">Hispanic Americans--Economic conditions.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7209">Hispanic Americans--Health and hygiene.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7210">Hispanic Americans--Social life and customs.</subject>

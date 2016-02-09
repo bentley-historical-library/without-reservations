@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Bishop, William Warner, 1871-1955.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32755">Bishop, William Warner, 1871-1955.</persname>
       </origination>
       <unittitle encodinganalog="245">William Warner Bishop pamphlets and reprints <unitdate type="inclusive" encodinganalog="245$f" normal="1900/1951">1900-1951</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">721 DA 2; B622.8; P186</unitid>
@@ -81,7 +82,7 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n78089035">Library of Congress.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n78089035" ref="/agents/corporate_entities/20710">Library of Congress.</corpname>
         <subject encodinganalog="650" source="lcsh" ref="/subjects/6370">Libraries.</subject>
         <subject encodinganalog="650" source="lcsh" ref="/subjects/6371">Librarianship.</subject>
       </controlaccess>

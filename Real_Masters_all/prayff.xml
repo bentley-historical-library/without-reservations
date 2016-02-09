@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Pray, Frank F.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30334">Pray, Frank F.</persname>
       </origination>
       <unittitle encodinganalog="245">Frank F. Pray Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1908/1969">1908-1969</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1910/1915">1910-1915</unitdate></unittitle>
       <abstract>Jackson, Michigan physician; medical records, files pertaining to farm business, and personal miscellaneous.</abstract>
@@ -80,16 +81,16 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6056">Physicians--Michigan--Ann Arbor.</subject>
-        <persname source="lcnaf" encodinganalog="600">Pray, Frank F.</persname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Examinations.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Outlines, syllabi, etc.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Homoeopathic Medical School.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30334">Pray, Frank F.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Examinations.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Students--Outlines, syllabi, etc.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18418">University of Michigan. Homoeopathic Medical School.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9838">Physicians--Michigan--Jackson.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Pray, Frank F.</persname>
-        <persname source="lcnaf" encodinganalog="600">Pray, George R. (George Raymond), 1878-1967.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30334">Pray, Frank F.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30225">Pray, George R. (George Raymond), 1878-1967.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

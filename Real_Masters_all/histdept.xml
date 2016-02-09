@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Dept. of History.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/17887">University of Michigan. Dept. of History.</corpname>
       </origination>
       <unittitle encodinganalog="245">Dept. of History (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1884/2011">1884-2011</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1970/1990">1970-1990</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">87137 Bimu C26 2</unitid>
@@ -91,7 +92,7 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of History.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17887">University of Michigan. Dept. of History.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8240">History--Study and teaching.</subject>
       </controlaccess>
     </controlaccess>

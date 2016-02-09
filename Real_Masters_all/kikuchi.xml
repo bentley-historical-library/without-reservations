@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n79069421">Kikuchi, Chihiro, 1914-</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n79069421" ref="/agents/people/29512">Kikuchi, Chihiro, 1914-</persname>
       </origination>
       <unittitle encodinganalog="245">Chihiro Kikuchi papers <unitdate type="inclusive" encodinganalog="245$f" normal="1942/1988">1942-1988</unitdate></unittitle>
       <abstract>Professor of nuclear engineering at the University of Michigan; specialist in the field of solid-state physics, notably the ruby maser and electron spin resonance; and advocate of nuclear power. Papers include biographical materials; correspondence; electron spin resonance and ruby maser research project files; physics and mathematics notebooks; course files; scientific papers, speeches, and testimonies; and visual materials, mainly intended to accompany lectures.</abstract>
@@ -84,22 +85,22 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8685">Electron paramagnetic resonance.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79069421">Kikuchi, Chihiro, 1914-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79069421" ref="/agents/people/29512">Kikuchi, Chihiro, 1914-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8686">Masers.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7908">Nuclear energy.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8020">Nuclear engineering.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6903">Physics.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80094504">University of Michigan. College of Engineering.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Nuclear Engineering.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Willow Run Laboratories.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80094504" ref="/agents/corporate_entities/17661">University of Michigan. College of Engineering.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18213">University of Michigan. Dept. of Nuclear Engineering.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21821">University of Michigan. Willow Run Laboratories.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79069421">Kikuchi, Chihiro, 1914-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79069421" ref="/agents/people/29512">Kikuchi, Chihiro, 1914-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8686">Masers.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Nuclear Engineering.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Willow Run Laboratories.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18213">University of Michigan. Dept. of Nuclear Engineering.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21821">University of Michigan. Willow Run Laboratories.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

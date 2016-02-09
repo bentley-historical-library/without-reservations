@@ -23,7 +23,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Ann Arbor Cooperative Society</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/21152">Ann Arbor Cooperative Society</corpname>
       </origination>
       <unittitle encodinganalog="245">Ann Arbor Cooperative Society Records <unitdate type="inclusive" encodinganalog="245$f" normal="1936/1983">1936-1983</unitdate></unittitle>
       <abstract>As its name implies, the Ann Arbor Cooperative Society was a cooperative corporation that offered its members a wide range of services. These included a credit union, legal and tax preparation services, home insulation and maintenance services, memorial advising and planning services, vacation property, discount ticket sales to amusement parks, and bulk purchasing. The records of the Society reflect its diverse activities, and include minutes, financial statements, audits, manager's reports, by-laws, news sheet, correspondence, and subject files relating to cooperative projects.</abstract>
@@ -79,7 +80,7 @@
       <controlaccess>
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html" ref="/subjects/860">Ann Arbor (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Cooperative Society (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21594">Ann Arbor Cooperative Society (Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5690">Consumer cooperatives--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5691">Cooperative societies--Michigan--Ann Arbor.</subject>
       </controlaccess>

@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Elms, Patrice I., 1943-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/35896">Elms, Patrice I., 1943-</persname>
       </origination>
       <unittitle encodinganalog="245">Patrice I. Elms Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1972/1997">1972-1997</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1987/1992">1987-1992</unitdate></unittitle>
       <abstract>Feminist, active in various women's rights organizations and causes; the files concerns her activities with American Association of University Women and the People's Campaign for Choice, 1987-1988; also included are Topical Files, 1972-1999 and Audiovisual Materials, 1986-1997</abstract>
@@ -81,19 +82,19 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7260">Abortion.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79100563">American Association of University Women.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Elms, Patrice I., 1943-</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79100563" ref="/agents/corporate_entities/18616">American Association of University Women.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35896">Elms, Patrice I., 1943-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7432">Feminists--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Peoples Campaign for Choice.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18750">Peoples Campaign for Choice.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7433">Women's rights.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7260">Abortion.</subject>
-        <persname source="lcnaf" encodinganalog="600">Elms, Patrice I., 1943-</persname>
-        <corpname source="lcnaf" encodinganalog="610">Peoples Campaign for Choice.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35896">Elms, Patrice I., 1943-</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18750">Peoples Campaign for Choice.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7434">Prayers in the public schools.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n95028442">Promise Keepers (Organization)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n95028442" ref="/agents/corporate_entities/20789">Promise Keepers (Organization)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

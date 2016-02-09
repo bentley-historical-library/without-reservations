@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Travis, Noble, 1901-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/27709">Travis, Noble, 1901-</persname>
       </origination>
       <unittitle encodinganalog="245">Noble Travis papers <unitdate type="inclusive" encodinganalog="245$f" normal="1927/1970">1927-1970</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85491 Aa 2</unitid>
@@ -79,12 +80,12 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6782">Aeronautics.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80081052">Detroit Chamber of Commerce.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80081052" ref="/agents/corporate_entities/21609">Detroit Chamber of Commerce.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7748">Elections--Michigan--1942.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6416">Elections--Michigan--1944.</subject>
-        <persname source="lcnaf" encodinganalog="600">McKay, Frank D., 1883-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28112">McKay, Frank D., 1883-</persname>
         <geogname source="local" encodinganalog="691" ref="/subjects/812">Michigan--Politics and government--1939-1945.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.). Wayne County Republican Precinct Organization.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17587">Republican Party (Mich.). Wayne County Republican Precinct Organization.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/884">Michigan--Politics and government--1837-1950.</geogname>
       </controlaccess>
     </controlaccess>

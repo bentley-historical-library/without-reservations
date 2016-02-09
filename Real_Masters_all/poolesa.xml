@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Poole, S. Alicia.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/34422">Poole, S. Alicia.</persname>
       </origination>
       <unittitle encodinganalog="245">S. Alicia Poole papers and photographs <unitdate type="inclusive" encodinganalog="245$f" normal="1860/1959" certainty="approximate">1860s-1950s</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">852054 Aa 2</unitid>
@@ -76,11 +77,11 @@
       <controlaccess>
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81139923.html" ref="/subjects/949">Mackinac Island (Mich.)</geogname>
-        <famname source="lcnaf" encodinganalog="600">Poole family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1579">Poole family.</famname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <famname source="lcnaf" encodinganalog="600">Boardman family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1553">Boardman family.</famname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5120">Buildings--Michigan--Mackinac Island.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5121">Business enterprises--Michigan--Mackinac Island.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3604">Carriages and coaches.</subject>
@@ -88,10 +89,10 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5122">Dwellings--Michigan--Mackinac Island.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3737">Ferries.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2572">Fort Mackinac (Mackinac Island, Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Grand Hotel (Mackinac Island, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21434">Grand Hotel (Mackinac Island, Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5028">Hotels and taverns--Michigan--Mackinac Island.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3639">Interiors.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Iroquois Hotel (Mackinac Island, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19864">Iroquois Hotel (Mackinac Island, Mich.)</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5123">Lighthouses--Michigan--Mackinac, Straits of.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81139923.html" ref="/subjects/949">Mackinac Island (Mich.)</geogname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/556">Mackinac Island (Mich.)--Buildings.</geogname>
@@ -101,8 +102,8 @@
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/949">Mackinac Island (Mich.)</geogname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/646">Mackinac, Straits of (Mich.)--Lighthouses.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3813">Monuments and memorials.</subject>
-        <persname source="lcnaf" encodinganalog="600">Poole, S. Alicia.</persname>
-        <famname source="lcnaf" encodinganalog="600">Poole family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34422">Poole, S. Alicia.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1579">Poole family.</famname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4386">Resorts--Michigan--Mackinac Island.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3931">Ships--Great Lakes.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5124">Streets--Michigan--Mackinac Island.</subject>

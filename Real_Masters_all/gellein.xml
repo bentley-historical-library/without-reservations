@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Gellein, Hilmer.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/35541">Gellein, Hilmer.</persname>
       </origination>
       <unittitle encodinganalog="245">Hilmer Gellein papers <unitdate type="inclusive" encodinganalog="245$f" normal="1925/1946">1925-1946</unitdate>, <unitdate type="inclusive" encodinganalog="245$f">undated</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851280 Aa 2</unitid>
@@ -79,9 +80,9 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7765">Crime.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. Dept. of Corrections.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n86025928">Murphy, Frank, 1890-1949.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n2003033602">Sweet, Ossian, 1895-1960.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20722">Michigan. Dept. of Corrections.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n86025928" ref="/agents/people/32445">Murphy, Frank, 1890-1949.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n2003033602" ref="/agents/people/32736">Sweet, Ossian, 1895-1960.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

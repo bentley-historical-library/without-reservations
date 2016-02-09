@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Edwards, J. Edgar (Joseph Edgar), 1909-1973.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/35902">Edwards, J. Edgar (Joseph Edgar), 1909-1973.</persname>
       </origination>
       <unittitle encodinganalog="245">J. Edgar Edwards Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1938/1973">1938-1973</unitdate></unittitle>
       <abstract>Minister and director of the Guild House, Ann Arbor, Michigan, religious cooperative. Sermons, prayers, addresses, poetry, course notes from Union Theological Seminary, and marriage ceremonies; also papers concerning the 1965 and 1967 teach-ins at the University of Michigan on the war in Vietnam, draft counseling, conscientious objection, Students for a Democratic Society and other political groups, and miscellanea.</abstract>
@@ -80,16 +81,16 @@
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6466">Clergy--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7368">Conscientious objectors.</subject>
-        <persname source="lcnaf" encodinganalog="600">Edwards, J. Edgar (Joseph Edgar), 1909-1973.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Guild House (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="611">International Conference on Alternative Perspectives on Vietnam (1965: University of Michigan)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35902">Edwards, J. Edgar (Joseph Edgar), 1909-1973.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22766">Guild House (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="611" ref="/agents/corporate_entities/20960">International Conference on Alternative Perspectives on Vietnam (1965: University of Michigan)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/851">Michigan--Social life and customs--20th century.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/820">Michigan--Social life and customs--1961-1970.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5776">Peace--Societies, etc.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50010551">Students for a Democratic Society (U.S.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79073878">Union Theological Seminary (New York, N.Y.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Religion.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs--1961-1970.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50010551" ref="/agents/corporate_entities/22536">Students for a Democratic Society (U.S.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79073878" ref="/agents/corporate_entities/20502">Union Theological Seminary (New York, N.Y.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Religion.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Students--Social life and customs--1961-1970.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5937">Vietnamese Conflict, 1961-1975.</subject>
       </controlaccess>
     </controlaccess>

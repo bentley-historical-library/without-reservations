@@ -55,7 +55,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -66,7 +67,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n81080002">Bolcom, William.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n81080002" ref="/agents/people/30473">Bolcom, William.</persname>
       </origination>
       <unittitle encodinganalog="245">William Bolcom and Joan Morris papers <unitdate type="inclusive" encodinganalog="245$f" normal="1960/2012">1960-2012</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">0074 Aa 2; UAl</unitid>
@@ -120,23 +121,23 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81080002">Bolcom, William.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81080002" ref="/agents/people/30473">Bolcom, William.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6173">Composers--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6412">Mezzo-sopranos--United States.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82099779">Morris, Joan, 1943-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82099779" ref="/agents/people/32346">Morris, Joan, 1943-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6413">Music--Performance.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6414">Pianists--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82063886">University of Michigan. School of Music.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82063886" ref="/agents/corporate_entities/18354">University of Michigan. School of Music.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81080002">Bolcom, William.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82099779">Morris, Joan, 1943-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81080002" ref="/agents/people/30473">Bolcom, William.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82099779" ref="/agents/people/32346">Morris, Joan, 1943-</persname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82099779">Morris, Joan, 1943-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82099779" ref="/agents/people/32346">Morris, Joan, 1943-</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

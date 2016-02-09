@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Faeth, G. M. (Gerard M.)</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33911">Faeth, G. M. (Gerard M.)</persname>
       </origination>
       <unittitle encodinganalog="245">G. M. (Gerard M.) Faeth papers <unitdate type="inclusive" encodinganalog="245$f" normal="1964/2005">1964-2005</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1985/2005">1985-2005</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">0726 Aa 2</unitid>
@@ -99,12 +100,12 @@
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7701">Aircraft exhaust emissions.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7702">Combustion--Research.</subject>
-        <persname source="lcnaf" encodinganalog="600">Faeth, G. M. (Gerard M.)</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33911">Faeth, G. M. (Gerard M.)</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7703">Heat transmission.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n78087581">United States. National Aeronautics and Space Administration.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Aerospace Engineering.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83062297">University of Michigan. Dept. of Mechanical Engineering.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n78087581" ref="/agents/corporate_entities/22673">United States. National Aeronautics and Space Administration.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22491">University of Michigan. Dept. of Aerospace Engineering.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83062297" ref="/agents/corporate_entities/23114">University of Michigan. Dept. of Mechanical Engineering.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

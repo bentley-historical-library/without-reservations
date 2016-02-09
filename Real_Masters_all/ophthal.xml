@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Dept. of Ophthalmology.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/21759">University of Michigan. Dept. of Ophthalmology.</corpname>
       </origination>
       <unittitle encodinganalog="245">Dept. of Ophthalmology (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1951/2003">1951-2003</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1968/1990">1968-1990</unitdate></unittitle>
       <abstract>The Department of Ophthalmology is a teaching and research unit of the University of Michigan Medical School. Records include chairman's topical file relating to the administration and programs of the department. The majority of the documentation is from the tenure of Paul R. Lichter, although the tenures of John Henderson and Bruce Fralick are also represented. Documentation relates to the administration and programs of the department, and the construction of the W.K. Kellogg Eye Center.</abstract>
@@ -136,10 +137,10 @@
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6055">Medicine--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7245">Ophthalmology--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Ophthalmology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151">University of Michigan. Medical School.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr90002302">University of Michigan. W. K. Kellogg Eye Center.</corpname>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/nr90002302">University of Michigan. W. K. Kellogg Eye Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21759">University of Michigan. Dept. of Ophthalmology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151" ref="/agents/corporate_entities/20391">University of Michigan. Medical School.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr90002302" ref="/agents/corporate_entities/19498">University of Michigan. W. K. Kellogg Eye Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/nr90002302" ref="/agents/corporate_entities/19498">University of Michigan. W. K. Kellogg Eye Center.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

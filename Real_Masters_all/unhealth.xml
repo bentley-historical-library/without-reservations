@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. University Health Service.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/21796">University of Michigan. University Health Service.</corpname>
       </origination>
       <unittitle encodinganalog="245">University Health Service (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1912/1998">1912-1998</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1970/1998">1970-1998</unitdate></unittitle>
       <abstract>Campus health service for University of Michigan faculty, staff and students. Records include annual reports; collected historical papers; reports of survey findings and questionnaire results on health service related issues; planning documents; and clippings; and photographs.</abstract>
@@ -129,14 +130,14 @@
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10502">AIDS (Disease)--Michigan--Ann Arbor--Prevention.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10503">Public health--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. University Health Service.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21796">University of Michigan. University Health Service.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10504">Health education--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10505">Health attitudes--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5677">Substance abuse--Michigan--Ann Arbor--Prevention.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85804361">Vaughan, Victor C. (Victor Clarence), 1851-1929.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85804361" ref="/agents/people/33869">Vaughan, Victor C. (Victor Clarence), 1851-1929.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

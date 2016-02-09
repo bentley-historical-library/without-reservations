@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Moncrieff, Frederick E.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/29270">Moncrieff, Frederick E.</persname>
       </origination>
       <unittitle encodinganalog="245">Frederick E. Moncrieff papers <unitdate type="inclusive" encodinganalog="245$f" normal="1947/2000">1947-2000</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1961">1961</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">93268 Aa2</unitid>
@@ -94,29 +95,29 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9443">Band music--Michigan--Ann Arbor.</subject>
-        <persname source="lcnaf" encodinganalog="600">Moncrieff, Frederick E.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29270">Moncrieff, Frederick E.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/985">Soviet Union--Description and travel.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89008286">University of Michigan. News and Information Services.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82217048">University of Michigan. Symphony Band.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89008286" ref="/agents/corporate_entities/18945">University of Michigan. News and Information Services.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82217048" ref="/agents/corporate_entities/22209">University of Michigan. Symphony Band.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/207">Ann Arbor (Mich.)--Dwellings.</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3596">Bands.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4928">Dwellings--Michigan--Lodi Plains.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Kempf House (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Lodi Academy.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22230">Kempf House (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18668">Lodi Academy.</corpname>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/599">Lodi Plains (Mich.)--Dwellings.</geogname>
-        <persname source="lcnaf" encodinganalog="600">Moncrieff, Frederick E.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Wilson-Wahr House (Ann Arbor, Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29270">Moncrieff, Frederick E.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21696">Wilson-Wahr House (Ann Arbor, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Sound Recordings:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79085230">Cavender, George.</persname>
-        <persname source="lcnaf" encodinganalog="600">Moncrieff, Frederick E.</persname>
-        <persname source="lcnaf" encodinganalog="600">Munson, Gregory W.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82217046">Revelli, William D. (William Donald), 1902-1994.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82217048">University of Michigan. Symphony Band.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79085230" ref="/agents/people/27376">Cavender, George.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29270">Moncrieff, Frederick E.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28144">Munson, Gregory W.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82217046" ref="/agents/people/35515">Revelli, William D. (William Donald), 1902-1994.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82217048" ref="/agents/corporate_entities/22209">University of Michigan. Symphony Band.</corpname>
         <genreform source="aat" encodinganalog="655" ref="/subjects/3139">Sound recordings.</genreform>
       </controlaccess>
       <controlaccess>
@@ -395,9 +396,9 @@
     </dsc>
     <descgrp type="add">
       <relatedmaterial>
-        <head>Related Material</head>
-        <p>For additional material relating to Moncrieff's work, researchers are encouraged to consult the records of the University of Michigan News and Information Services, including both photographic and press files.</p>
-        <p>Additional material on the 1961 Symphony Band Tour may be found in the following record groups and collections:</p>
+      <head>Related Material</head>
+      <p>For additional material relating to Moncrieff's work, researchers are encouraged to consult the records of the University of Michigan News and Information Services, including both photographic and press files.</p>
+      <p>Additional material on the 1961 Symphony Band Tour may be found in the following record groups and collections:</p>
         <list type="simple">
           <item>
             <archref>William D. Revelli papers</archref>

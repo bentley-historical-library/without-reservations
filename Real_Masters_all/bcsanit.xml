@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="100">Battle Creek Sanitarium.</corpname>
+        <corpname source="lcnaf" encodinganalog="100" ref="/agents/corporate_entities/21704">Battle Creek Sanitarium.</corpname>
       </origination>
       <unittitle encodinganalog="245">[Miscellaneous brochures, pamphlets, etc.] <unitdate type="inclusive" encodinganalog="245$f" normal="1880/1950" certainty="approximate">circa 1880-1950</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">FF 4 B336 B863 (729)</unitid>
@@ -76,14 +77,14 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Battle Creek Sanitarium.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21704">Battle Creek Sanitarium.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6208">Hospitals--Michigan--Battle Creek.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6209">Health resorts--Michigan--Battle Creek.</subject>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50060957">Kellogg, John Harvey, 1852-1943.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50060957" ref="/agents/people/33548">Kellogg, John Harvey, 1852-1943.</persname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50060957">Kellogg, John Harvey, 1852-1943.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50060957" ref="/agents/people/33548">Kellogg, John Harvey, 1852-1943.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

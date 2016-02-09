@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">St. Matthew's Episcopal Church (Sparta, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/19712">St. Matthew's Episcopal Church (Sparta, Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">St. Matthew's Episcopal Church, Sparta, Mich., records <unitdate type="inclusive" encodinganalog="245$f" normal="1955/2003">1955-2003</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">0649 Ba 2</unitid>
@@ -74,8 +75,8 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname encodinganalog="610" source="lcnaf">Episcopal Church--Michigan--Sparta.</corpname>
-        <corpname encodinganalog="610" source="lcnaf">St. Matthew's Episcopal Church (Sparta, Mich.)</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/18160">Episcopal Church--Michigan--Sparta.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/19712">St. Matthew's Episcopal Church (Sparta, Mich.)</corpname>
         <geogname encodinganalog="655" source="lcsh" ref="/subjects/2856">Sparta (Mich.)--Church history.</geogname>
       </controlaccess>
     </controlaccess>

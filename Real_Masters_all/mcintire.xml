@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">McIntire, Carl, 1906-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32179">McIntire, Carl, 1906-</persname>
       </origination>
       <unittitle encodinganalog="245">Carl McIntire Collection <unitdate type="inclusive" encodinganalog="245$f" normal="1933/1993">1933-1993</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1960/1979" certainty="approximate">1960s-1970s</unitdate></unittitle>
       <abstract>Fundamentalist clergyman, founder of the International Council of Christian Churches, editor of the <title render="italic">Christian Beacon</title>; sermons, tracts, books and other materials written by McIntire; some photographs and a cassette tape.</abstract>
@@ -86,10 +87,10 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9015">Afro-Americans--Civil rights.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88005019">American Council of Christian Churches.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Bible Presbyterian Church. Collingswood Synod.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88005019" ref="/agents/corporate_entities/23069">American Council of Christian Churches.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21794">Bible Presbyterian Church. Collingswood Synod.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9016">Capitalism--United States--Religious aspects.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Catholic Church.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20943">Catholic Church.</corpname>
         <title source="lcnaf" encodinganalog="730" ref="/subjects/199">Christian Beacon</title>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6398">Church and state--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9017">Clergy--New Jersey--Political activity.</subject>
@@ -97,30 +98,30 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7280">Conservatism.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9018">Ecumenical movement.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9019">Fundamentalism.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83052162">International Council of Christian Churches.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88005003">McIntire, Carl, 1906-2002.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83052162" ref="/agents/corporate_entities/21313">International Council of Christian Churches.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88005003" ref="/agents/people/30002">McIntire, Carl, 1906-2002.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9020">Modernist-fundamentalist controversy.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79110396">National Council of the Churches of Christ in the United States of America.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79110396" ref="/agents/corporate_entities/18340">National Council of the Churches of Christ in the United States of America.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9021">Patriotism--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9022">Prayer in the public schools--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5937">Vietnamese Conflict, 1961-1975.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81002984">World Council of Churches.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81002984" ref="/agents/corporate_entities/18879">World Council of Churches.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88005003">McIntire, Carl, 1906-2002.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88005003" ref="/agents/people/30002">McIntire, Carl, 1906-2002.</persname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <corpname source="lcnaf" encodinganalog="710">Christian Beacon Press.</corpname>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n83052162">International Council of Christian Churches.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">Twentieth Century Reformation Hour (Organization)</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/20954">Christian Beacon Press.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n83052162" ref="/agents/corporate_entities/21313">International Council of Christian Churches.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/20519">Twentieth Century Reformation Hour (Organization)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Sound Recordings</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88005003">McIntire, Carl, 1906-2002.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88005003" ref="/agents/people/30002">McIntire, Carl, 1906-2002.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6368">Sermons--American.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n95008820">Bible Presbyterian Church of Collingswood (Collingswood, N.J.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n95008820" ref="/agents/corporate_entities/19840">Bible Presbyterian Church of Collingswood (Collingswood, N.J.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

@@ -55,7 +55,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -66,7 +67,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/nr89016998">University of Michigan. Board of Regents.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/nr89016998" ref="/agents/corporate_entities/18212">University of Michigan. Board of Regents.</corpname>
       </origination>
       <unittitle encodinganalog="245">Board of Regents (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1817/2011">1817-2011</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1899/1988">1899-1988</unitdate></unittitle>
       <abstract>The University of Michigan's highest governing body is the Board of Regents. The Regents deal with virtually every aspect of university policy and campus life. The records of the Regents reflect this broad range of interests and authority. This record group contains exhibits from meetings beginning in 1899. These exhibits are the most complete record of the actions of the Regents, supplementing and detailing the published minutes <title render="italic">Proceedings of the Board of Regents</title>. Additional documentation in this record group includes manuscript minutes, 1837-1870, correspondence, material by and about the Regents, photographs, audio recordings of meetings, 1977-2004, and material on recent presidential searches.</abstract>
@@ -152,50 +153,50 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50036849">Adams, Henry Carter, 1851-1921.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Association for the Promotion of Female Education.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Catholepistemiad (Detroit, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Detroit Classical Academy.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Douglas, Silas H. (Silas Hamilton), 1816-1890.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85158203">Felch, Alpheus, 1804-1896.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85801636">Frieze, Henry S. (Henry Simmons), 1817-1889.</persname>
-        <persname source="lcnaf" encodinganalog="600">Jenner, William Le Baron, 1832-1907.</persname>
-        <persname source="lcnaf" encodinganalog="600">Kersey, Jonathan, 1786-1859.</persname>
-        <persname source="lcnaf" encodinganalog="600">Rose, Preston Benjamin, 1834-1912.</persname>
-        <corpname source="lcnaf" encodinganalog="610">South College (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Administration.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Board of Trustees.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Buildings.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82166171">University of Michigan. College of Architecture and Design.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80094504">University of Michigan. College of Engineering.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82020424">University of Michigan. College of Literature, Science, and the Arts.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79067259">University of Michigan. Dept. of Chemistry.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Finance.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Homoeopathic Medical School.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Lands.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Law School.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Regulations.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Library.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151">University of Michigan. Medical School.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. President.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85129645">University of Michigan. School of Dentistry.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82098946">University of Michigan. School of Education.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Secretary.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. University Hospital.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Veterans Administration Hospital (Ann Arbor, Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50036849" ref="/agents/people/34828">Adams, Henry Carter, 1851-1921.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/23055">Association for the Promotion of Female Education.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22778">Catholepistemiad (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19349">Detroit Classical Academy.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35363">Douglas, Silas H. (Silas Hamilton), 1816-1890.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85158203" ref="/agents/people/27783">Felch, Alpheus, 1804-1896.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85801636" ref="/agents/people/29620">Frieze, Henry S. (Henry Simmons), 1817-1889.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35769">Jenner, William Le Baron, 1832-1907.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33623">Kersey, Jonathan, 1786-1859.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29192">Rose, Preston Benjamin, 1834-1912.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20318">South College (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Administration.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20720">University of Michigan. Board of Trustees.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Buildings.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82166171" ref="/agents/corporate_entities/20611">University of Michigan. College of Architecture and Design.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80094504" ref="/agents/corporate_entities/17661">University of Michigan. College of Engineering.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82020424" ref="/agents/corporate_entities/21562">University of Michigan. College of Literature, Science, and the Arts.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79067259" ref="/agents/corporate_entities/21763">University of Michigan. Dept. of Chemistry.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Finance.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18418">University of Michigan. Homoeopathic Medical School.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Lands.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Law School.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Regulations.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20906">University of Michigan. Library.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151" ref="/agents/corporate_entities/20391">University of Michigan. Medical School.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19760">University of Michigan. President.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85129645" ref="/agents/corporate_entities/20854">University of Michigan. School of Dentistry.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82098946" ref="/agents/corporate_entities/20661">University of Michigan. School of Education.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20098">University of Michigan. Secretary.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Students.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20510">University of Michigan. University Hospital.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19827">Veterans Administration Hospital (Ann Arbor, Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5764">Women--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5862">Women college students--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Gores, Walter J., d. 1966.</persname>
-        <persname source="lcnaf" encodinganalog="600">Hildebrandi, Herbert W.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80005801">Johnson, Lyndon B. (Lyndon Baines), 1908-1973.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998">University of Michigan. Board of Regents.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Commencements.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Flags.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30378">Gores, Walter J., d. 1966.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34287">Hildebrandi, Herbert W.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80005801" ref="/agents/people/28424">Johnson, Lyndon B. (Lyndon Baines), 1908-1973.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998" ref="/agents/corporate_entities/18212">University of Michigan. Board of Regents.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Commencements.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Flags.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
@@ -13417,7 +13418,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Archived version of the Board of Regents website as it appeared on October 28, 2005. Documents the mission, activities, policies, and individuals involved with the Board of Regents as presented on its public website. Content includes publications (such as reports and administrative documents) and information about meetings, initiatives, and governance.)</p></odd></c03>
+            <odd>
+              <p>(Archived version of the Board of Regents website as it appeared on October 28, 2005. Documents the mission, activities, policies, and individuals involved with the Board of Regents as presented on its public website. Content includes publications (such as reports and administrative documents) and information about meetings, initiatives, and governance.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
@@ -13447,7 +13451,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Archived version of the Board of Regents website as it appeared on December 7, 2006. Documents the mission, activities, policies, and individuals involved with the Board of Regents as presented on its public website. Content includes publications (such as reports and administrative documents) and information about meetings, initiatives, and governance.)</p></odd></c03>
+            <odd>
+              <p>(Archived version of the Board of Regents website as it appeared on December 7, 2006. Documents the mission, activities, policies, and individuals involved with the Board of Regents as presented on its public website. Content includes publications (such as reports and administrative documents) and information about meetings, initiatives, and governance.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>

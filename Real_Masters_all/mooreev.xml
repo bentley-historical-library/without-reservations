@@ -35,7 +35,8 @@
         <item>Original encoding from Word 6.0 file using EAD vers. 1.0</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname authfilenumber="http://id.loc.gov/authorities/names/no92016853" source="lcnaf">Moore, Earl Vincent, 1890-1987.</persname>
+        <persname authfilenumber="http://id.loc.gov/authorities/names/no92016853" source="lcnaf" ref="/agents/people/30734">Moore, Earl Vincent, 1890-1987.</persname>
       </origination>
       <unittitle encodinganalog="245">Earl V. Moore papers <unitdate type="inclusive" encodinganalog="245$f" normal="1870/1987" certainty="approximate">1870s-1987</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1920/1969" certainty="approximate">1920s-1960s</unitdate></unittitle>
       <abstract>The Earl V. Moore collection consists of the personal and professional papers of a noted musician, composer and director. Moore taught music at the University of Michigan from 1916 and served as director of the School of Music from1923 until his retirement in 1960.</abstract>
@@ -100,30 +101,30 @@
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9460">Carillons--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9461">Frieze Memorial Organ.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no92016853">Moore, Earl Vincent, 1890-1987.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no92016853" ref="/agents/people/30734">Moore, Earl Vincent, 1890-1987.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9462">Organs--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5731">Music--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5732">Musicians--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">St. Andrew's Episcopal Church (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82063886">University of Michigan. School of Music.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21165">St. Andrew's Episcopal Church (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82063886" ref="/agents/corporate_entities/18354">University of Michigan. School of Music.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html" ref="/subjects/860">Ann Arbor (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Baird Carillon (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no96013362">University of Michigan. Choral Union.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Hill Auditorium (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Union Opera--1909.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no92016853">Moore, Earl Vincent, 1890-1987.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22346">Baird Carillon (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no96013362" ref="/agents/corporate_entities/17378">University of Michigan. Choral Union.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21176">Hill Auditorium (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20466">Michigan Union Opera--1909.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no92016853" ref="/agents/people/30734">Moore, Earl Vincent, 1890-1987.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4012">Musicians.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4013">Organs.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Phi Delta Theta Fraternity. Michigan Alpha Chapter (University of Michigan)</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008187792">Sink, Charles A. (Charles Albert), 1879-1972.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no92003683">Stanley, Albert A. (Albert Augustus), 1851-1932.</persname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Block M--1919.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Dramatics.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Junior Hop.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22716">Phi Delta Theta Fraternity. Michigan Alpha Chapter (University of Michigan)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008187792" ref="/agents/people/34916">Sink, Charles A. (Charles Albert), 1879-1972.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no92003683" ref="/agents/people/28987">Stanley, Albert A. (Albert Augustus), 1851-1932.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Block M--1919.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Dramatics.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22533">University of Michigan. Junior Hop.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4155">Dancing--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>

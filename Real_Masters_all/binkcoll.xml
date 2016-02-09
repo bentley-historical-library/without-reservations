@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Binkowski, Don, 1929-, collector.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/31256">Binkowski, Don, 1929-, collector.</persname>
       </origination>
       <unittitle encodinganalog="245">Don Binkowski collected materials <unitdate type="inclusive" encodinganalog="245$f" normal="1825/2013">1825-2013</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2011046 Aa 2; Ac</unitid>
@@ -108,18 +109,18 @@
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no95022095">Binkowski, Don, 1929-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no95022095" ref="/agents/people/31256">Binkowski, Don, 1929-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6065">Polish Americans--Michigan.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3851">Strikes--Michigan--Detroit.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3852">Strikes--Michigan--Flint.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3853">Strikes--Michigan--Monroe.</subject>
-        <corpname source="lcnaf" encodinganalog="610">American Brass Company--Strikes.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Chrysler Corporation--Strikes.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Federal Screw Works--Strikes.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Ford Motor Company--Strikes.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">General Motors Corporation--Strikes.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Newton Packing Company--Strikes.</corpname>
-        <corpname encodinganalog="610">Yale &amp; Towne Manufacturing Company--Strikes.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21466">American Brass Company--Strikes.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20618">Chrysler Corporation--Strikes.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20370">Federal Screw Works--Strikes.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19767">Ford Motor Company--Strikes.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17535">General Motors Corporation--Strikes.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22887">Newton Packing Company--Strikes.</corpname>
+        <corpname encodinganalog="610" ref="/agents/corporate_entities/22480">Yale &amp; Towne Manufacturing Company--Strikes.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
@@ -852,7 +853,10 @@
                   </daodesc>
                 </dao>
               </did>
-            <odd><p>(Celebration of life service for Stanislaw Rys)</p></odd></c04>
+              <odd>
+                <p>(Celebration of life service for Stanislaw Rys)</p>
+              </odd>
+            </c04>
           </c03>
           <c03 level="file">
             <did>
@@ -1110,7 +1114,10 @@
               </daodesc>
             </dao>
           </did>
-        <odd><p>(Video of 1984 United Democrats of Warren Democrat of the Year Dinner honoring Ralph Liberato)</p></odd></c02>
+          <odd>
+            <p>(Video of 1984 United Democrats of Warren Democrat of the Year Dinner honoring Ralph Liberato)</p>
+          </odd>
+        </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [1108663218498069321]">5</container>
@@ -1476,7 +1483,10 @@
                   </daodesc>
                 </dao>
               </did>
-            <odd><p>("Detroit: City on the Move" documentary from 1965, showing various activities in the city, including construction, shipping, social events, sports, etc., with commentary by mayor Jerome Cavanagh)</p></odd></c04>
+              <odd>
+                <p>("Detroit: City on the Move" documentary from 1965, showing various activities in the city, including construction, shipping, social events, sports, etc., with commentary by mayor Jerome Cavanagh)</p>
+              </odd>
+            </c04>
           </c03>
           <c03 level="file">
             <did>
@@ -1595,7 +1605,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(23 Video Clips on history of Polish American community of Hamtramck, Michigan featuring images, narration, and oral history interviews.  Topics include 1920s and Prohibition, the influence of the church, race relations, and the Great Depression.)</p></odd></c03>
+            <odd>
+              <p>(23 Video Clips on history of Polish American community of Hamtramck, Michigan featuring images, narration, and oral history interviews.  Topics include 1920s and Prohibition, the influence of the church, race relations, and the Great Depression.)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [1010013201454183801299567]">9</container>
@@ -1789,7 +1802,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(Archived website featuring history of Warren and Center Line; includes 6,000 pages and approximately 5,000 images, compiled by Professor Wesley E. Arnold)</p></odd></c03>
+            <odd>
+              <p>(Archived website featuring history of Warren and Center Line; includes 6,000 pages and approximately 5,000 images, compiled by Professor Wesley E. Arnold)</p>
+            </odd>
+          </c03>
           <c03 level="file">
             <did>
               <container type="box" label="Box [34045981845076843498]">10</container>

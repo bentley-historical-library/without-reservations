@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Elliott, Margaret, 1891-1978.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/31097">Elliott, Margaret, 1891-1978.</persname>
       </origination>
       <unittitle encodinganalog="245">Margaret Elliott papers <unitdate type="inclusive" encodinganalog="245$f" normal="1920/1951">1920-1951</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">9456 Aa 2</unitid>
@@ -78,11 +79,11 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79100563">American Association of University Women.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Elliott, Margaret, 1891-1978.</persname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Economics.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79073704">University of Michigan. School of Business Administration.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79100563" ref="/agents/corporate_entities/18616">American Association of University Women.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31097">Elliott, Margaret, 1891-1978.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18829">University of Michigan. Dept. of Economics.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79073704" ref="/agents/corporate_entities/19814">University of Michigan. School of Business Administration.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5747">College teachers--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5748">Women college teachers--Michigan--Ann Arbor.</subject>
       </controlaccess>

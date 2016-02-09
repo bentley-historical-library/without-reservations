@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Kellogg African American Health Care Project.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/22594">Kellogg African American Health Care Project.</corpname>
       </origination>
       <unittitle encodinganalog="245">Kellogg African American Health Care Project records <unitdate type="inclusive" encodinganalog="245$f" normal="1918/2008">1918-2008</unitdate></unittitle>
       <abstract>Project funded by the W.K. Kellogg Foundation to document the health care experiences of African Americans in southeastern Michigan consisting primarily of oral history interviews with African American health care practitioners and administrators covering the period 1940-1969, background files relating to the project, and oral history transcripts and tape recordings. Project funded by the W.K. Kellogg Foundation to document the health care experiences of African Americans in southeastern Michigan consisting primarily of oral history interviews with African American health care practitioners and administrators covering the period 1940-1969. Background files relating to the project, and 42 oral history interview transcripts and tape recordings. Interviews discuss biographical details, desegregation efforts in Detroit area hospitals, and social conditions facing African Americans.</abstract>
@@ -136,16 +137,16 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Kellogg African American Health Care Project.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22594">Kellogg African American Health Care Project.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8634">African Americans--Michigan--Detroit Metropolitan Area.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8635">African Americans--Medical care.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8636">African American physicians--Michigan--Detroit Metropolitan Area.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8637">African American nurses--Michigan--Detroit Metropolitan Area.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8638">Discrimination in medical care.</subject>
-        <persname source="lcnaf" encodinganalog="600">Young, Watson.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n84044756">Wright, Charles H., 1918-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30445">Young, Watson.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n84044756" ref="/agents/people/30078">Wright, Charles H., 1918-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8639">African American dentists--Michigan--Detroit Metropolitan Area.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151">University of Michigan. Medical School.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151" ref="/agents/corporate_entities/20391">University of Michigan. Medical School.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

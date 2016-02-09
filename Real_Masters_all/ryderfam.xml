@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Ryder family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/1253">Ryder family.</famname>
       </origination>
       <unittitle encodinganalog="245">Ryder Family Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1861/1969">1861-1969</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1861/1863">1861-1863</unitdate></unittitle>
       <abstract>Livonia, Michigan family; Civil War correspondence and diary of Alfred G. Ryder, Co. H, First Michigan Cavalry, and correspondence of John E. Ryder, Co. C, Twenty-forth Michigan Infantry, including mention of the battle of Gettysburg. Collection includes originals, some transcripts, and photocopies of documents still in family possession.</abstract>
@@ -97,17 +98,17 @@
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6564">Gettysburg (Pa.), Battle of, 1863.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82268584.html" ref="/subjects/1819">Livonia (Mich.)</geogname>
-        <famname source="lcnaf" encodinganalog="600">Ryder family.</famname>
-        <persname source="lcnaf" encodinganalog="600">Ryder, Alfred G., 1841-1863.</persname>
-        <persname source="lcnaf" encodinganalog="600">Ryder, John E., 1843-1863.</persname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Michigan Cavalry Regiment, 1st (1861-1866). Company H.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Michigan Infantry Regiment, 24th (1862-1865). Company C.</corpname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1253">Ryder family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34688">Ryder, Alfred G., 1841-1863.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30093">Ryder, John E., 1843-1863.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21559">United States. Army. Michigan Cavalry Regiment, 1st (1861-1866). Company H.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20795">United States. Army. Michigan Infantry Regiment, 24th (1862-1865). Company C.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/909">United States--History--Civil War, 1861-1865.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Ryder, Alfred G., 1841-1863.</persname>
-        <persname source="lcnaf" encodinganalog="700">Ryder, John E., 1843-1863.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34688">Ryder, Alfred G., 1841-1863.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30093">Ryder, John E., 1843-1863.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

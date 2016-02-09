@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Tennyson, Katharine.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/29350">Tennyson, Katharine.</persname>
       </origination>
       <unittitle encodinganalog="245">Katharine Tennyson papers <unitdate type="inclusive" encodinganalog="245$f" normal="1969/1973">1969-1973</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">0535 Aa 2</unitid>
@@ -78,12 +79,12 @@
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8689">Abortion--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6243">Abortion--Law and legislation--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Abortion Referendum Committee.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Organization for the Repeal of Abortion Laws.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22334">Michigan Abortion Referendum Committee.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20636">Michigan Organization for the Repeal of Abortion Laws.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/910">Michigan--Politics and government--1951-</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/801">Michigan--Politics and government--1971-1980.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9276">Pro-choice movement--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="600">Tennyson, Katharine.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29350">Tennyson, Katharine.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6248">Women's rights--Michigan.</subject>
       </controlaccess>
     </controlaccess>

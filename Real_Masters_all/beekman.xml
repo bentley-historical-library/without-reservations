@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Beekman, Lynwood.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28479">Beekman, Lynwood.</persname>
       </origination>
       <unittitle encodinganalog="245">Lynwood Beekman papers <unitdate type="inclusive" encodinganalog="245$f" normal="1966/2007">1966-2007</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1977/1998">1977-1998</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2011041 Aa 2</unitid>
@@ -80,9 +81,9 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Beekman, Lynwood.</persname>
-        <persname source="lcnaf" encodinganalog="600">Beekman, Marvin E.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. Dept. of Education.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28479">Beekman, Lynwood.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34877">Beekman, Marvin E.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20982">Michigan. Dept. of Education.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6249">Special education--Law and legislation--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6250">Special education--Michigan--History.</subject>
       </controlaccess>

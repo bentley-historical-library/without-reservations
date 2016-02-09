@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Dance Gallery Foundation.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/21515">Dance Gallery Foundation.</corpname>
       </origination>
       <unittitle encodinganalog="245">Dance Gallery Foundation records <unitdate type="inclusive" encodinganalog="245$f" normal="1980/2008">1980-2008</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1993/2008">1993-2008</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2008093 Bp2</unitid>
@@ -83,8 +84,8 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Dance Gallery Studio.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Peter Sparling Dance Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22395">Dance Gallery Studio.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21768">Peter Sparling Dance Company.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7139">Choreographers.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7140">Dancers.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5692">Dance--Michigan--Ann Arbor.</subject>
@@ -92,14 +93,14 @@
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname source="lcnaf" encodinganalog="610">Dance Gallery Studio.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Peter Sparling Dance Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22395">Dance Gallery Studio.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21768">Peter Sparling Dance Company.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7139">Choreographers.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7140">Dancers.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5692">Dance--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7141">Modern Dance.</subject>
-        <persname source="lcnaf" encodinganalog="600">Sparling, Peter, 1951-</persname>
-        <persname source="lcnaf" encodinganalog="600">Sparling, Peter, 1951-, Performances.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28402">Sparling, Peter, 1951-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28402">Sparling, Peter, 1951-, Performances.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

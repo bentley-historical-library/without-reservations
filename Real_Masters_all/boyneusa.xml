@@ -32,7 +32,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -43,7 +44,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Boyne USA Resorts.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/18192">Boyne USA Resorts.</corpname>
       </origination>
       <unittitle encodinganalog="245">Boyne USA Resorts records <unitdate type="inclusive" encodinganalog="245$f" normal="1935/2005">1935-2005</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1950/2002" certainty="approximate">1950s-2002</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2010215 Bb 2</unitid>
@@ -109,13 +110,13 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2014142504">Big Sky Resort.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Boyne Highlands.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80157107">Boyne Mountain.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Boyne USA Resorts.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Gatlinburg Sky Lift.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Inn at Bay Harbor.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Kircher, Everett F.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2014142504" ref="/agents/corporate_entities/19892">Big Sky Resort.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21762">Boyne Highlands.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80157107" ref="/agents/corporate_entities/19607">Boyne Mountain.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18192">Boyne USA Resorts.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21900">Gatlinburg Sky Lift.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20880">Inn at Bay Harbor.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31303">Kircher, Everett F.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6440">Downhill skiing--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6441">Downhill skiing--Montana.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6442">Golf--Michigan.</subject>
@@ -134,13 +135,13 @@
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600">Kircher, Everett F.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2014142504">Big Sky Resort.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80157107">Boyne Mountain.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Boyne Highlands.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Boyne USA Resorts.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Gatlinburg Sky Lift.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Inn at Bay Harbor.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31303">Kircher, Everett F.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2014142504" ref="/agents/corporate_entities/19892">Big Sky Resort.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80157107" ref="/agents/corporate_entities/19607">Boyne Mountain.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21762">Boyne Highlands.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18192">Boyne USA Resorts.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21900">Gatlinburg Sky Lift.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20880">Inn at Bay Harbor.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3893">Golf--Michigan.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3894">Golf--Montana.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3895">Ski resorts--Michigan.</subject>
@@ -155,7 +156,7 @@
       </controlaccess>
       <controlaccess>
         <head>Subjects - Sound Recordings:</head>
-        <corpname source="lcnaf" encodinganalog="610">Boyne USA Resorts.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18192">Boyne USA Resorts.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6450">Radio advertising.</subject>
       </controlaccess>
       <controlaccess>

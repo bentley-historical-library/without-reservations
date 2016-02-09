@@ -46,7 +46,8 @@
         <item>Headings removed and other changes made to conform to new style, GK</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -57,7 +58,7 @@
   <archdesc level="collection" type="inventory" audience="external" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/no95041513">Rosinger, Lawrence K. (Lawrence Kaelter), 1915-</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/no95041513" ref="/agents/people/33140">Rosinger, Lawrence K. (Lawrence Kaelter), 1915-</persname>
       </origination>
       <unittitle encodinganalog="245">Lawrence K. Rosinger Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1937/1994">1937-1994</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1937/1973">1937-1973</unitdate></unittitle>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">9541 Aa 2</unitid>
@@ -109,15 +110,15 @@
       </controlaccess>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/no95041513">Rosinger, Lawrence K. (Lawrence Kaelter), 1915-</persname>
-        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n50042000">Chou, En-lai, 1898-1976.</persname>
-        <persname source="lcnaf">Jao, Shu-shih, 1901-</persname>
-        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n78087649">Mao, Tse-tung, 1893-1976.</persname>
-        <corpname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n85145583">American Institute of Pacific Relations.</corpname>
-        <corpname source="lcnaf">Chung-kuo kuo min tang.</corpname>
-        <corpname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79110461">Foreign Policy Association.</corpname>
-        <corpname source="lcnaf">Chung-kuo kung ch'an tang.</corpname>
-        <corpname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n80104340">United States. Congress. Senate. Committee on the Judiciary. Subcommittee to Investigate the Administration of the Internal Security Act and other Internal Security Laws.</corpname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/no95041513" ref="/agents/people/33140">Rosinger, Lawrence K. (Lawrence Kaelter), 1915-</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n50042000" ref="/agents/people/29877">Chou, En-lai, 1898-1976.</persname>
+        <persname source="lcnaf" ref="/agents/people/30986">Jao, Shu-shih, 1901-</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n78087649" ref="/agents/people/30281">Mao, Tse-tung, 1893-1976.</persname>
+        <corpname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n85145583" ref="/agents/corporate_entities/22064">American Institute of Pacific Relations.</corpname>
+        <corpname source="lcnaf" ref="/agents/corporate_entities/19509">Chung-kuo kuo min tang.</corpname>
+        <corpname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79110461" ref="/agents/corporate_entities/19363">Foreign Policy Association.</corpname>
+        <corpname source="lcnaf" ref="/agents/corporate_entities/22740">Chung-kuo kung ch'an tang.</corpname>
+        <corpname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n80104340" ref="/agents/corporate_entities/20917">United States. Congress. Senate. Committee on the Judiciary. Subcommittee to Investigate the Administration of the Internal Security Act and other Internal Security Laws.</corpname>
         <subject source="lcsh" ref="/subjects/9939">East Asia--History--Study and teaching.</subject>
         <subject source="lcsh" ref="/subjects/9940">China--History--Civil War, 1945-1949.</subject>
         <subject source="lcsh" ref="/subjects/9941">China--Politics and government--1945-1949.</subject>

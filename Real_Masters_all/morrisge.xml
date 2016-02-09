@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n90648714">Morris, George Sylvester, 1840-1889.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n90648714" ref="/agents/people/32572">Morris, George Sylvester, 1840-1889.</persname>
       </origination>
       <unittitle encodinganalog="245">George S. Morris Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1852/1889">1852-1889</unitdate>, <unitdate type="inclusive" encodinganalog="245$f" normal="1910/1915">1910-1915</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1852/1889">1852-1889</unitdate></unittitle>
       <abstract>Professor of philosophy at Johns Hopkins University and University of Michigan. Correspondence; notes and lectures on philosophical topics, notably ethics, political philosophy, logic and aesthetics; diary and journal, including account of European trip, 1866-1867; photographs; and later materials collected by Robert M. Wenley preparatory to writing a biography of George S. Morris, 1910-1915.</abstract>
@@ -86,34 +87,34 @@
       <controlaccess>
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/972">Europe--Description and travel.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79061226">Johns Hopkins University.</corpname>
-        <persname encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n90648714" source="lcnaf">Morris, George Sylvester, 1840-1889.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79061226" ref="/agents/corporate_entities/21712">Johns Hopkins University.</corpname>
+        <persname encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n90648714" source="lcnaf" ref="/agents/people/32572">Morris, George Sylvester, 1840-1889.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6465">Philosophy.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6034">Voyages and travels.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Philosophy.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82143110">University of Michigan. Dept. of Romance Languages.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18059">University of Michigan. Dept. of Philosophy.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82143110" ref="/agents/corporate_entities/21333">University of Michigan. Dept. of Romance Languages.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/207">Ann Arbor (Mich.)--Dwellings.</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n90648714">Morris, George Sylvester, 1840-1889.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n90648714" ref="/agents/people/32572">Morris, George Sylvester, 1840-1889.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4938">Living rooms--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87145383">Adams, Charles Kendall, 1835-1902.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no90002065">Angell, James Burrill, 1829-1916.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79027161">Chamberlain, Joshua Lawrence, 1828-1914.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79060532">Dewey, John, 1859-1952.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85801636">Frieze, Henry S. (Henry Simmons), 1817-1889.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50033408">Gilman, Daniel Coit, 1831-1908.</persname>
-        <persname source="lcnaf" encodinganalog="700">Muirhead, John Henry, 1855-1940.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79073670">Schaff, Philip, 1819-1893.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50017038">Tyler, Moses Coit, 1835-1900.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85260751">Ueberweg, Friedrich, 1826-1871.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr95007910">Ulrici, Hermann, 1806-1884.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr00017036">Wenley, R. M. (Robert Mark), 1861-1929.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87145383" ref="/agents/people/27976">Adams, Charles Kendall, 1835-1902.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no90002065" ref="/agents/people/29871">Angell, James Burrill, 1829-1916.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79027161" ref="/agents/people/30815">Chamberlain, Joshua Lawrence, 1828-1914.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79060532" ref="/agents/people/35090">Dewey, John, 1859-1952.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85801636" ref="/agents/people/29620">Frieze, Henry S. (Henry Simmons), 1817-1889.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50033408" ref="/agents/people/33982">Gilman, Daniel Coit, 1831-1908.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30830">Muirhead, John Henry, 1855-1940.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79073670" ref="/agents/people/30311">Schaff, Philip, 1819-1893.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50017038" ref="/agents/people/27983">Tyler, Moses Coit, 1835-1900.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85260751" ref="/agents/people/34265">Ueberweg, Friedrich, 1826-1871.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr95007910" ref="/agents/people/35679">Ulrici, Hermann, 1806-1884.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr00017036" ref="/agents/people/29806">Wenley, R. M. (Robert Mark), 1861-1929.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

@@ -39,7 +39,8 @@
         <item>Original encoding from Word 6.0 file.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -50,7 +51,7 @@
   <archdesc level="recordgrp" type="inventory" audience="external" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Institute for Social Research.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/19820">University of Michigan. Institute for Social Research.</corpname>
       </origination>
       <unittitle encodinganalog="245">Institute for Social Research (University of Michigan), records <unitdate type="inclusive" encodinganalog="245$f" normal="1936/2013">1936-2013</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1946/1986">1946-1986</unitdate></unittitle>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">8941 Bimu 2</unitid>
@@ -297,7 +298,7 @@
       </p>
     </bioghist>
     <arrangement encodinganalog="351">
-      <p>The records of the Institute for Social Research are arranged in four subgroups reflecting the organizational of ISR and separate subgroup for photographs. The subgroups and principal series include: <list type="simple"><item>ISR Administrative Files <sublist type="simple"><subitem>Governance Committees (boxes 1-10)</subitem><subitem>Reports and Policies (box 10)</subitem><subitem>Director's Files (box 10-20)</subitem><subitem>Assistant Director's Files (box 21-23)</subitem></sublist> </item><item>Center for the Research Utilization of Scientific Knowledge (box 24-25)</item><item>Research Center for Group Dynamics (box 25-26)</item><item>Survey Research Center <sublist type="simple"><subitem>Committees and Other Groups (box 26-31)</subitem><subitem>Correspondence (box 31-33)</subitem><subitem>Topical Files (box 33-39)</subitem><subitem>Reports, Policies and Press Releases (box 39)</subitem><subitem>Project Files (box 40-50)</subitem></sublist> </item><item>Photographs</item></list> </p>
+      <p>The records of the Institute for Social Research are arranged in four subgroups reflecting the organizational of ISR and separate subgroup for photographs. The subgroups and principal series include: <list type="simple"><item>ISR Administrative Files <sublist type="simple"><subitem>Governance Committees (boxes 1-10)</subitem> <subitem>Reports and Policies (box 10)</subitem> <subitem>Director's Files (box 10-20)</subitem> <subitem>Assistant Director's Files (box 21-23)</subitem></sublist> </item><item>Center for the Research Utilization of Scientific Knowledge (box 24-25)</item><item>Research Center for Group Dynamics (box 25-26)</item><item>Survey Research Center <sublist type="simple"><subitem>Committees and Other Groups (box 26-31)</subitem> <subitem>Correspondence (box 31-33)</subitem> <subitem>Topical Files (box 33-39)</subitem> <subitem>Reports, Policies and Press Releases (box 39)</subitem> <subitem>Project Files (box 40-50)</subitem></sublist> </item><item>Photographs</item></list> </p>
     </arrangement>
     <scopecontent encodinganalog="520">
       <p>Comprised of 68.5 linear feet of material spanning the years 1936 to 2013 these records document the founding and subsequent development of ISR and its related centers. The records provide an overview of the administration of ISR and the evolution of social science survey research methodology.</p>
@@ -309,24 +310,24 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Institute for Social Research.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80046411">Campbell, Angus, 1910-1980</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nb99032402">Cartwright, Dorwin.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79144950">Converse, Philip E., 1928-2014</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79141035">Inter-university Consortium for Political and Social Research.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50038806">Juster, F. Thomas (Francis Thomas), 1926-</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79045499">Lewin, Kurt, 1890-1947.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50050159">Likert, Rensis, 1903-1981</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19820">University of Michigan. Institute for Social Research.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80046411" ref="/agents/people/28622">Campbell, Angus, 1910-1980</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nb99032402" ref="/agents/people/34690">Cartwright, Dorwin.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79144950" ref="/agents/people/28582">Converse, Philip E., 1928-2014</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79141035" ref="/agents/corporate_entities/21739">Inter-university Consortium for Political and Social Research.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50038806" ref="/agents/people/33564">Juster, F. Thomas (Francis Thomas), 1926-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79045499" ref="/agents/people/29418">Lewin, Kurt, 1890-1947.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50050159" ref="/agents/people/32746">Likert, Rensis, 1903-1981</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8447">Public opinion.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6668">Race relations.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7003">Social psychology.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6680">Social sciences--Research.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6681">Social surveys.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80050053">University of Michigan. Center for Political Studies.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2010107007">University of Michigan. Center for Research on Utilization of Scientific Knowledge.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Research.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83174853">University of Michigan. Research Center for Group Dynamics.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79106618">University of Michigan. Survey Research Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80050053" ref="/agents/corporate_entities/20195">University of Michigan. Center for Political Studies.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2010107007" ref="/agents/corporate_entities/20539">University of Michigan. Center for Research on Utilization of Scientific Knowledge.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Research.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83174853" ref="/agents/corporate_entities/20492">University of Michigan. Research Center for Group Dynamics.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79106618" ref="/agents/corporate_entities/18811">University of Michigan. Survey Research Center.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

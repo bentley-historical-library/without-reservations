@@ -27,7 +27,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Nicoloff, George.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/35015">Nicoloff, George.</persname>
       </origination>
       <unittitle encodinganalog="245">George Nicoloff Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1935/2004">1935-2004</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1970/1990">1970-1990</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">05117 Aa 2</unitid>
@@ -83,14 +84,14 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Nicoloff, George.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35015">Nicoloff, George.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9563">Clergy.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9564">Bulgarian Americans--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9565">Macedonian Americans--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n86096369">Macedonian Patriotic Organizations of the United States and Canada.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Orthodox Church in America. Bulgarian Diocese in U.S.A. &amp; Canada.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Saint Paul Macedono-Bulgarian Orthodox Cathedral (Dearborn Heights, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. Clement Ohridsky Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n86096369" ref="/agents/corporate_entities/21532">Macedonian Patriotic Organizations of the United States and Canada.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17981">Orthodox Church in America. Bulgarian Diocese in U.S.A. &amp; Canada.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21805">Saint Paul Macedono-Bulgarian Orthodox Cathedral (Dearborn Heights, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20206">St. Clement Ohridsky Church (Detroit, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

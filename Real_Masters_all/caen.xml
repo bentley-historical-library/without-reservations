@@ -32,7 +32,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -43,7 +44,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Computer-Aided Engineering Network.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/22789">University of Michigan. Computer-Aided Engineering Network.</corpname>
       </origination>
       <unittitle encodinganalog="245">Computer-Aided Engineering Network (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1983/2008">1983-2008</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1986/2005">1986-2005</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2011123 BIU 2</unitid>
@@ -100,19 +101,19 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname encodinganalog="610" source="lcnaf">University of Michigan. Computer-Aided Engineering Network.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/22789">University of Michigan. Computer-Aided Engineering Network.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6585">Computers.</subject>
-        <persname source="lcnaf" encodinganalog="600">Frank, Randy.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28161">Frank, Randy.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname encodinganalog="610" source="lcnaf">University of Michigan. Computer-Aided Engineering Network.</corpname>
-        <corpname encodinganalog="610" source="lcnaf">Duderstadt Center.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/22789">University of Michigan. Computer-Aided Engineering Network.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" ref="/agents/corporate_entities/19430">Duderstadt Center.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6585">Computers.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname encodinganalog="700" source="lcnaf">Killey, Pul.</persname>
+        <persname encodinganalog="700" source="lcnaf" ref="/agents/people/28751">Killey, Pul.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

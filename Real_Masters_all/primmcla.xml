@@ -28,7 +28,8 @@
         <item>Edited to reflect migration of content from CD-ROM to Deep Blue JMBG</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Primm, Clarence J., 1886-1957.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30953">Primm, Clarence J., 1886-1957.</persname>
       </origination>
       <unittitle encodinganalog="245">Clarence J. Primm papers <unitdate type="inclusive" encodinganalog="245$f" normal="1918/1951">1918-1951</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2009187 Aa 2</unitid>
@@ -87,11 +88,11 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Primm, Clarence J., 1886-1957.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30953">Primm, Clarence J., 1886-1957.</persname>
         <geogname source="lcnaf" encodinganalog="651." ref="/subjects/760">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5737">World War, 1914-1918.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82129076">United States. Army. Infantry, 339th.</corpname>
-        <corpname encodinganalog="690" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n2008059426">Polar Bear Expedition.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82129076" ref="/agents/corporate_entities/21288">United States. Army. Infantry, 339th.</corpname>
+        <corpname encodinganalog="690" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n2008059426" ref="/agents/corporate_entities/21526">Polar Bear Expedition.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

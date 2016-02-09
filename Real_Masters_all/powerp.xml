@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Power, Philip H. (Philip Harwick), 1938-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/34377">Power, Philip H. (Philip Harwick), 1938-</persname>
       </origination>
       <unittitle encodinganalog="245">Philip Power Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1976/1998">1976-1998</unitdate></unittitle>
       <abstract>Newspaper publisher, regent of the University of Michigan; collection documents Power's tenure on the University of Michigan Board of Regents, his interest in international freedom of the press, and his involvement with the Michigan Job Training Program.</abstract>
@@ -85,13 +86,13 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7347">Education, Higher--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6984">Journalists--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9831">Freedom of the press.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. Commission to Study Higher Education.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Job Training Coordinating Council.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17470">Michigan. Commission to Study Higher Education.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18125">Michigan Job Training Coordinating Council.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7682">Occupational training--Michigan.</subject>
-        <persname source="lcnaf">Power, Philip H. (Philip Harwick), 1938-</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79054523">UNESCO.</corpname>
+        <persname source="lcnaf" ref="/agents/people/34377">Power, Philip H. (Philip Harwick), 1938-</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79054523" ref="/agents/corporate_entities/21444">UNESCO.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6059">Universities and colleges--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998">University of Michigan. Board of Regents.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998" ref="/agents/corporate_entities/18212">University of Michigan. Board of Regents.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

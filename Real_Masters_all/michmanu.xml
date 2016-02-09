@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Michigan Manufacturer's Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/21496">Michigan Manufacturer's Association.</corpname>
       </origination>
       <unittitle encodinganalog="245">Michigan Manufacturers Association records <unitdate type="inclusive" encodinganalog="245$f" normal="1902/1997">1902-1997</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">0786 Bc 2</unitid>
@@ -80,7 +81,7 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Manufacturer's Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21496">Michigan Manufacturer's Association.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6942">Manufactures--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6944">Manufacturing industries--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1618">Michigan--Economic conditions.</geogname>
@@ -88,10 +89,10 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Lovett, John L.</persname>
-        <persname source="lcnaf" encodinganalog="700">McCurry, John C.</persname>
-        <persname source="lcnaf" encodinganalog="700">Thodis, John G.</persname>
-        <persname source="lcnaf" encodinganalog="700">Van Peursem, George M.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35138">Lovett, John L.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27257">McCurry, John C.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28767">Thodis, John G.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28766">Van Peursem, George M.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

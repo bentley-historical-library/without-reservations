@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Edwin S. George Reserve (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/22425">Edwin S. George Reserve (Mich.)</corpname>
       </origination>
       <unittitle encodinganalog="245">Edwin S. George Reserve (Mich.) records <unitdate type="inclusive" encodinganalog="245$f" normal="1924/2013">1924-2013</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1941/1995">1941-1995</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2013089 Bimu C459 2</unitid>
@@ -103,8 +104,8 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7573">Insects--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1304">Livingston County (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7574">Natural history--Michigan--Edwin S. George Reserve.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Department of Ecology and Evolutionary Biology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79115934">University of Michigan. Museum of Zoology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17423">University of Michigan. Department of Ecology and Evolutionary Biology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79115934" ref="/agents/corporate_entities/22720">University of Michigan. Museum of Zoology.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7575">White-tailed deer--Michigan--Edwin S. George Reserve.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7576">Wildlife management--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7577">Zoology--Michigan--Edwin S. George Reserve.</subject>
@@ -2660,7 +2661,10 @@
                 </daodesc>
               </dao>
             </did>
-          <odd><p>(The Evans Old Field Plant Database contains FileMaker and Excel files of data collected by Dr. Francis C. Evans during a 50-year study on successional change on Evans Old Field on the Edwin S. George Reserve. Data include plant phenology, location, and abundances observed from 1948 to 1997.)</p></odd></c03>
+            <odd>
+              <p>(The Evans Old Field Plant Database contains FileMaker and Excel files of data collected by Dr. Francis C. Evans during a 50-year study on successional change on Evans Old Field on the Edwin S. George Reserve. Data include plant phenology, location, and abundances observed from 1948 to 1997.)</p>
+            </odd>
+          </c03>
         </c02>
         <c02 level="subseries">
           <did>

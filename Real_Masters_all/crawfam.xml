@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Crawford family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/1369">Crawford family.</famname>
       </origination>
       <unittitle encodinganalog="245">Crawford Family papers <unitdate type="inclusive" encodinganalog="245$f" normal="1898">1898</unitdate>, <unitdate type="inclusive" encodinganalog="245$f" normal="1917/1919">1917-1919</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">91460 Aa 2</unitid>
@@ -81,15 +82,15 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Crawford, Harry M.</persname>
-        <famname source="lcnaf" encodinganalog="600">Crawford family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33127">Crawford, Harry M.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1369">Crawford family.</famname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1204">Pontiac (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5737">World War, 1914-1918.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6036">Spanish-American War, 1898.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600">Crawford, Harry M.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33127">Crawford, Harry M.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5737">World War, 1914-1918.</subject>
       </controlaccess>
       <controlaccess>

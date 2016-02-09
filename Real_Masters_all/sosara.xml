@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">So, Sara Armstrong.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/31662">So, Sara Armstrong.</persname>
       </origination>
       <unittitle encodinganalog="245">Sara Armstrong So papers <unitdate type="inclusive" encodinganalog="245$f" normal="2006/2013">2006-2013</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2013145 Aa 2</unitid>
@@ -91,10 +92,10 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10178">Afghan War, 2001-</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87910587">Michigan. National Guard.</corpname>
-        <persname source="lcnaf" encodinganalog="600">So, Sara Armstrong.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87910587" ref="/agents/corporate_entities/19723">Michigan. National Guard.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31662">So, Sara Armstrong.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2828">United States--Armed Forces--Afghanistan.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army--Military life.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18156">United States. Army--Military life.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9918">Women soldiers--United States.</subject>
       </controlaccess>
       <controlaccess>
@@ -103,13 +104,13 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5299">Afghans.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5300">Aircraft.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10179">Improvised Explosive Devices.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87910587">Michigan. National Guard.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87910587" ref="/agents/corporate_entities/19723">Michigan. National Guard.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3697">Military camps.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4166">Military life.</subject>
-        <persname source="lcnaf" encodinganalog="600">So, Sara Armstrong.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31662">So, Sara Armstrong.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4315">Soldiers.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2828">United States--Armed Forces--Afghanistan.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army--Military life.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18156">United States. Army--Military life.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10180">Women soldiers.</subject>
       </controlaccess>
       <controlaccess>
@@ -206,7 +207,10 @@
               </daodesc>
             </dao>
           </did>
-        <odd><p>(Includes several photographs of So with her family prior to leaving for Afghanistan.)</p></odd></c02>
+          <odd>
+            <p>(Includes several photographs of So with her family prior to leaving for Afghanistan.)</p>
+          </odd>
+        </c02>
         <c02 level="file">
           <did>
             <physloc>Online</physloc>
@@ -220,7 +224,10 @@
               </daodesc>
             </dao>
           </did>
-        <odd><p>(Includes over 200 photgraphs from So's deployment in western Afghanistan where she was a memeber of the Security Forces Advice and Assist Team.  Photographs feature So with members of her team, members of the Afghan border police battalion, Afghan children, as well as landscapes, daily life activity, and military aircrafts.)</p></odd></c02>
+          <odd>
+            <p>(Includes over 200 photgraphs from So's deployment in western Afghanistan where she was a memeber of the Security Forces Advice and Assist Team.  Photographs feature So with members of her team, members of the Afghan border police battalion, Afghan children, as well as landscapes, daily life activity, and military aircrafts.)</p>
+          </odd>
+        </c02>
         <c02 level="file">
           <did>
             <physloc>Online</physloc>
@@ -234,7 +241,10 @@
               </daodesc>
             </dao>
           </did>
-        <odd><p>(Includes several photographs of So in Afghanistan receiving a promotion as well as a couple photographs of a military aircraft.)</p></odd></c02>
+          <odd>
+            <p>(Includes several photographs of So in Afghanistan receiving a promotion as well as a couple photographs of a military aircraft.)</p>
+          </odd>
+        </c02>
         <c02 level="file">
           <did>
             <unittitle>Afghanistan Videos (supply drop-off from a military aircraft and detonation of an IED) <unitdate type="inclusive" normal="2012/2013">2012-2013</unitdate></unittitle>
@@ -247,7 +257,10 @@
               </daodesc>
             </dao>
           </did>
-        <odd><p>(Includes two short videos from So's deployment in western Afghanistan where she was a memeber of the Security Forces Advice and Assist Team. The videos show what appears to be a supply drop-off from a military aircraft and detonation of an IED.)</p></odd></c02>
+          <odd>
+            <p>(Includes two short videos from So's deployment in western Afghanistan where she was a memeber of the Security Forces Advice and Assist Team. The videos show what appears to be a supply drop-off from a military aircraft and detonation of an IED.)</p>
+          </odd>
+        </c02>
       </c01>
     </dsc>
   </archdesc>

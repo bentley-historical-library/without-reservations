@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Van Wagoner, Murray Delos, 1898-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28035">Van Wagoner, Murray Delos, 1898-</persname>
       </origination>
       <unittitle encodinganalog="245">Murray D. Van Wagoner Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1921/1949">1921-1949</unitdate></unittitle>
       <abstract>Construction engineer and Michigan Democratic politician; served terms as Oakland County Drain Commissioner, Michigan State Highway Commissioner, and as Governor, 1941-1942; include correspondence, scrapbooks, appointment books, and assorted miscellanea.</abstract>
@@ -94,7 +95,7 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731">Democratic Party (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731" ref="/agents/corporate_entities/21108">Democratic Party (Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6228">Elections--Michigan--1930.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6229">Elections--Michigan--1932.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7046">Elections--Michigan--1940.</subject>
@@ -103,9 +104,9 @@
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/884">Michigan--Politics and government--1837-1950.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/803">Michigan--Politics and government--1929-1938.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/812">Michigan--Politics and government--1939-1945.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan. State Highway Dept.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20511">Michigan. State Highway Dept.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6429">Roads--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="600">Van Wagoner, Murray Delos, 1898-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28035">Van Wagoner, Murray Delos, 1898-</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
@@ -113,16 +114,16 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4022">Boat and ship industry.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3693">Boats.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3733">Bridges.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79145293">Cagney, James, 1899-1986.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79145293" ref="/agents/people/29292">Cagney, James, 1899-1986.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2090">Clinton County (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008182100">Comstock, William Alfred, 1877-1949.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008182100" ref="/agents/people/27481">Comstock, William Alfred, 1877-1949.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3641">Construction industry.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n84804477">Cooley, Mortimer E. (Mortimer Elwyn), 1855-1944.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n84804477" ref="/agents/people/35934">Cooley, Mortimer E. (Mortimer Elwyn), 1855-1944.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4567">Defense industry.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1910">Detroit River (Mich. and Ont.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50001642">Detroit Tigers (Baseball team)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50001642" ref="/agents/corporate_entities/21904">Detroit Tigers (Baseball team)</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091915.html" ref="/subjects/1861">Eaton County (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50080187">Ellington, Duke, 1899-1974.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50080187" ref="/agents/people/33269">Ellington, Duke, 1899-1974.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/984">Europe.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10566">Governors--Michigan--Inauguration--1937.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5954">Governors--Michigan.</subject>
@@ -132,50 +133,50 @@
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1374">Mackinac Bridge (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85081920.html" ref="/subjects/1157">Marine City (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/978">Mexico.</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n86025928">Murphy, Frank, 1890-1949.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n86025928" ref="/agents/people/32445">Murphy, Frank, 1890-1949.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3524">Parades and processions.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4964">Politics and government--1939-1945.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3789">Railroads--Michigan.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5465">Regattas.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3749">Roads--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79022932">Roosevelt, Franklin D. (Franklin Delano), 1882-1945.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79022932" ref="/agents/people/33929">Roosevelt, Franklin D. (Franklin Delano), 1882-1945.</persname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81003784.html" ref="/subjects/936">Sault Sainte Marie (Mich.)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3679">Swimming.</subject>
-        <persname source="lcnaf" encodinganalog="600">Van Wagoner, Murray Delos, 1898-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28035">Van Wagoner, Murray Delos, 1898-</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3719">Veterans--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80002425">Wallace, Henry Agard, 1888-1965.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80002425" ref="/agents/people/35009">Wallace, Henry Agard, 1888-1965.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2775">West (U.S.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80026788">Western Michigan University.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80084463">Williams, G. Mennen, 1911-1988.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Willow Run Bomber Plant.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80026788" ref="/agents/corporate_entities/21639">Western Michigan University.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80084463" ref="/agents/people/30999">Williams, G. Mennen, 1911-1988.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20260">Willow Run Bomber Plant.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3892">Winter.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5706">World War, 1939-1945.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2007125178">Brown, Prentiss M. (Prentiss Marsh), 1889-1973.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84804477">Cooley, Mortimer E. (Mortimer Elwyn), 1855-1944.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79079611">De Kruif, Paul, 1890-1971.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008187778">Dickinson, Luren Dudley, 1859-1943.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79135041">Farley, James A. (James Aloysius), 1888-1976.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008183317">Fitzgerald, Frank Dwight, 1885-1939.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008189249">Kelly, Harry F. (Harry Francis), 1895-1971.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008190250">Kennedy, G. Donald (George Donald), 1900-1988</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86025928">Murphy, Frank, 1890-1949.</persname>
-        <persname source="lcnaf" encodinganalog="700">Murphy, George, 1897-1961.</persname>
-        <persname source="lcnaf" encodinganalog="700">Osborn, Chase S. (Chase Salmon), b. 1860.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79115506">Pearson, Drew, 1897-1969.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n94057548">Pollock, James K. (James Kerr), 1898-1968</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50048290">Romney, George W., 1907-1995.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79144645">Roosevelt, Eleanor, 1884-1962.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79022932">Roosevelt, Franklin D. (Franklin Delano), 1882-1945.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n91061944">Scholle, August, 1904-</persname>
-        <persname source="lcnaf" encodinganalog="700">Tufty, Esther Van Wagoner, d. 1986.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n92051380">Yost, Fielding Harris, 1871-1946.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2007125178" ref="/agents/people/28086">Brown, Prentiss M. (Prentiss Marsh), 1889-1973.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84804477" ref="/agents/people/35934">Cooley, Mortimer E. (Mortimer Elwyn), 1855-1944.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79079611" ref="/agents/people/27156">De Kruif, Paul, 1890-1971.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008187778" ref="/agents/people/35714">Dickinson, Luren Dudley, 1859-1943.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79135041" ref="/agents/people/34818">Farley, James A. (James Aloysius), 1888-1976.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008183317" ref="/agents/people/35527">Fitzgerald, Frank Dwight, 1885-1939.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008189249" ref="/agents/people/34560">Kelly, Harry F. (Harry Francis), 1895-1971.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008190250" ref="/agents/people/28358">Kennedy, G. Donald (George Donald), 1900-1988</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86025928" ref="/agents/people/32445">Murphy, Frank, 1890-1949.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27616">Murphy, George, 1897-1961.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29580">Osborn, Chase S. (Chase Salmon), b. 1860.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79115506" ref="/agents/people/29188">Pearson, Drew, 1897-1969.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n94057548" ref="/agents/people/30979">Pollock, James K. (James Kerr), 1898-1968</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50048290" ref="/agents/people/31530">Romney, George W., 1907-1995.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79144645" ref="/agents/people/29501">Roosevelt, Eleanor, 1884-1962.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79022932" ref="/agents/people/33929">Roosevelt, Franklin D. (Franklin Delano), 1882-1945.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n91061944" ref="/agents/people/27885">Scholle, August, 1904-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28218">Tufty, Esther Van Wagoner, d. 1986.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n92051380" ref="/agents/people/28695">Yost, Fielding Harris, 1871-1946.</persname>
       </controlaccess>
       <controlaccess>
         <head>Contributors - Visual Materials</head>
-        <persname source="lcnaf" encodinganalog="700">Williams, Frank.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28627">Williams, Frank.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

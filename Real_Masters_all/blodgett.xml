@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Blodgett family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/1370">Blodgett family.</famname>
       </origination>
       <unittitle encodinganalog="245">Blodgett Family papers <unitdate type="inclusive" encodinganalog="245$f" normal="1872/1953">1872-1953</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1884/1934">1884-1934</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851371 Aa 2; AC</unitid>
@@ -220,7 +221,7 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <famname source="lcnaf" encodinganalog="600">Blodgett family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1370">Blodgett family.</famname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5809">Business records.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1281">California.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1324">Canada.</geogname>
@@ -234,15 +235,15 @@
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3724">Banquets.</subject>
-        <persname source="lcnaf" encodinganalog="600">Blodgett, Delos A., 1825-1908.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008188992">Blodgett, John Wood, 1860-1951.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34289">Blodgett, Delos A., 1825-1908.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008188992" ref="/agents/people/33312">Blodgett, John Wood, 1860-1951.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3616">Lumber industry.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Republican National Committee (U.S.)</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79027239">Roosevelt, Theodore, 1858-1919.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19659">Republican National Committee (U.S.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79027239" ref="/agents/people/27924">Roosevelt, Theodore, 1858-1919.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Maps:</head>
-        <corpname source="lcnaf" encodinganalog="610">Blodgett Company--Maps.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17653">Blodgett Company--Maps.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1327">California--Maps.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1328">Clare County (Mich.)--Maps.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6400">Forests and forestry--United States--Maps.</subject>
@@ -265,15 +266,15 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Blodgett, Delos A., 1825-1908.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008188992">Blodgett, John Wood, 1860-1951.</persname>
-        <persname source="lcnaf" encodinganalog="700">Blodgett, John W., Jr.</persname>
-        <corpname source="lcnaf" encodinganalog="710">Blodgett Company.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">Hill-Davis Company.</corpname>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n84006786">Michigan-California Lumber Company.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">Michigan Timber Company.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">Tidewater Timber Company.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">Wright-Blodgett Company.</corpname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34289">Blodgett, Delos A., 1825-1908.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008188992" ref="/agents/people/33312">Blodgett, John Wood, 1860-1951.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33616">Blodgett, John W., Jr.</persname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/17653">Blodgett Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/19599">Hill-Davis Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n84006786" ref="/agents/corporate_entities/19896">Michigan-California Lumber Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/21458">Michigan Timber Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/18674">Tidewater Timber Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/21217">Wright-Blodgett Company.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

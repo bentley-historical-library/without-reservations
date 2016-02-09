@@ -39,7 +39,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -50,7 +51,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Dept. of Anatomy and Cell Biology.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/18492">University of Michigan. Dept. of Anatomy and Cell Biology.</corpname>
       </origination>
       <unittitle encodinganalog="245">Dept. of Anatomy and Cell Biology (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1902/1989">1902-1989</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1935/1982">1935-1982</unitdate></unittitle>
       <abstract>Teaching and research unit of the University of Michigan Medical School. Records include correspondence, 1936-1953, of department chairman Bradley M. Patten; lists of examination questions, 1910-1921; schedules of lectures for courses, 1936-1958; information sheets on faculty members, 1932-1933; minutes of the General Committee of the Division of the Biological Sciences, 1951-1952; and grant applications and annual reports of the chairman A. Kent Christensen, 1978-1982.</abstract>
@@ -179,11 +180,11 @@
       <controlaccess>
         <head>Subjects:</head>
         <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3458">Cartoons.</genreform>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Anatomy and Cell Biology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Division of Biological Sciences.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151">University of Michigan. Medical School.</corpname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80089461">Patten, Bradley M. (Bradley Merrill), 1889-1971</persname>
-        <persname source="lcnaf" encodinganalog="700">Christensen, A. Kent.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18492">University of Michigan. Dept. of Anatomy and Cell Biology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/23088">University of Michigan. Division of Biological Sciences.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151" ref="/agents/corporate_entities/20391">University of Michigan. Medical School.</corpname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80089461" ref="/agents/people/30853">Patten, Bradley M. (Bradley Merrill), 1889-1971</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27221">Christensen, A. Kent.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

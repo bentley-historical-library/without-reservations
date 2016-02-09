@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Ramsey, Leon, 1897-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/35971">Ramsey, Leon, 1897-</persname>
       </origination>
       <unittitle encodinganalog="245">Leon Ramsey papers <unitdate type="inclusive" encodinganalog="245$f" normal="1917/1919">1917-1919</unitdate>, <unitdate type="inclusive" encodinganalog="245$f" normal="1960/1969" certainty="approximate">1960s</unitdate></unittitle>
       <abstract>Soldier from Armada, Mich., member of Headquarters Company, 339th U.S. Infantry who served in the Allied intervention in Russia, 1918-1920, the "Polar Bear Expedition." Collection includes correspondence describing his experiences in the army during training at Camp Custer, Mich., and during his service in Russia; also miscellanea, photographs, and a paper based on Ramsey's correspondence, probably written by John O. Ramsey.</abstract>
@@ -79,7 +80,7 @@
       </p>
       <controlaccess>
         <head>Subjects</head>
-        <persname source="lcnaf" encodinganalog="600">Ramsey, Leon, 1897-</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35971">Ramsey, Leon, 1897-</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/883">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n94064669.html" ref="/subjects/905">Fort Custer (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5737">World War, 1914-1918.</subject>

@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n92076718">White, Peter, 1830-1908.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n92076718" ref="/agents/people/33826">White, Peter, 1830-1908.</persname>
       </origination>
       <unittitle encodinganalog="245">Peter White Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1848/1915">1848-1915</unitdate></unittitle>
       <abstract>Marquette, Michigan businessman, Democratic state senator, and Republican regent of the University of Michigan. Letterbooks and correspondence relating to activities in the Democratic Party in Michigan, particularly in the Upper Peninsula, to his service within the state legislature, and to state and national elections, 1876-1896; also correspondence and other records concerning his extensive business interests that include Northern Michigan iron, insurance, banking, and general investments.</abstract>
@@ -98,8 +99,8 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10718">American newspapers--Michigan--Lansing.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10719">American newspapers--Michigan--Marquette.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10720">Banks and banking--Michigan--Upper Peninsula.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr90009135">Chandler, Zachariah, 1813-1879.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731">Democratic Party (Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr90009135" ref="/agents/people/30961">Chandler, Zachariah, 1813-1879.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731" ref="/agents/corporate_entities/21108">Democratic Party (Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10721">Depressions--1873--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10722">Elections--Michigan--1876.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6174">Elections--Michigan--1878.</subject>
@@ -110,7 +111,7 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9498">Elections--Michigan--1888.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9703">Elections--Michigan--1892.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6218">Elections--Michigan--1896.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Episcopal Church--Michigan--Marquette.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18160">Episcopal Church--Michigan--Marquette.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10723">General stores--Michigan--Upper Peninsula.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79133151.html" ref="/subjects/1102">Grand Rapids (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6097">Indians of North America--Michigan.</subject>
@@ -121,53 +122,53 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10724">Manufactures--Michigan--Upper Peninsula.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/997">Marquette (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1934">Marquette County (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79059059">Michigan. Legislature.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83166536">Michigan. Mackinac Island State Park Commission.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Mining School.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Pioneer and Historical Society.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79059059" ref="/agents/corporate_entities/22038">Michigan. Legislature.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83166536" ref="/agents/corporate_entities/22623">Michigan. Mackinac Island State Park Commission.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22432">Michigan Mining School.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18908">Michigan Pioneer and Historical Society.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/884">Michigan--Politics and government--1837-1950.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/804">Michigan--Politics and government--1866-1876.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/805">Michigan--Politics and government--1877-1898.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/806">Michigan--Politics and government--1899-1916.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81093636">Northern Michigan College of Education.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Peter White Insurance Agency (Marquette, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81093636" ref="/agents/corporate_entities/17878">Northern Michigan College of Education.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22501">Peter White Insurance Agency (Marquette, Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/3092">Presque Isle (Marquette, Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6705">Railroads--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">St. Paul's Episcopal Church (Marquette, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21402">Republican Party (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17819">St. Paul's Episcopal Church (Marquette, Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/998">Sault Sainte Marie Canal (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7985">Shipping--Great Lakes.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/909">United States--History--Civil War, 1861-1865.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998">University of Michigan. Board of Regents.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998" ref="/agents/corporate_entities/18212">University of Michigan. Board of Regents.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/938">Upper Peninsula (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n92076718">White, Peter, 1830-1908.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n92076718" ref="/agents/people/33826">White, Peter, 1830-1908.</persname>
         <subject source="lcnaf" encodinganalog="611" authfilenumber="http://id.loc.gov/authorities/names/n80008759" ref="/subjects/5618">World's Columbian Exposition (1893: Chicago, Ill.)</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n92076718">White, Peter, 1830-1908.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n92076718" ref="/agents/people/33826">White, Peter, 1830-1908.</persname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50036849">Adams, Henry Carter, 1851-1921.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no90002065">Angell, James Burrill, 1829-1916.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no91021187">Baldwin, Henry P. (Henry Porter), 1814-1892.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85809443">Barbour, Levi L. (Levi Lewis), 1840-1925.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85828317">Barnes, O. M. (Orlando Mack), 1825-1899.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n96090166">Dickinson, Donald McDonald, 1846-1917.</persname>
-        <persname source="lcnaf" encodinganalog="700">Grant, Claudius Buchanan, 1835-1921.</persname>
-        <persname source="lcnaf" encodinganalog="700">Graveraet, Robert.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85306243">Harvey, Charles Thompson, 1829-1912.</persname>
-        <persname source="lcnaf" encodinganalog="700">Lawton, Charles De Witt, 1835-1909.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80090331">McLaughlin, Andrew Cunningham, 1861-1947.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n2005173297">McMillan, James, 1838-1902.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50006099">Morgan, Lewis Henry, 1818-1881.</persname>
-        <persname source="lcnaf" encodinganalog="700">Osborn, Chase S. (Chase Salmon), b. 1860.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86868022">Pingree, Hazen S., 1840-1901.</persname>
-        <persname source="lcnaf" encodinganalog="700">Smith, Samuel William, 1852-1931.</persname>
-        <persname source="lcnaf" encodinganalog="700">Thurber, Henry Thomas, 1853-1904.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88022440">Warner, Frederick Maltby, 1865-1923.</persname>
-        <persname source="lcnaf" encodinganalog="700">Winans, Edwin B., 1826-1894.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50036849" ref="/agents/people/34828">Adams, Henry Carter, 1851-1921.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no90002065" ref="/agents/people/29871">Angell, James Burrill, 1829-1916.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no91021187" ref="/agents/people/29282">Baldwin, Henry P. (Henry Porter), 1814-1892.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85809443" ref="/agents/people/33045">Barbour, Levi L. (Levi Lewis), 1840-1925.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85828317" ref="/agents/people/33290">Barnes, O. M. (Orlando Mack), 1825-1899.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n96090166" ref="/agents/people/35950">Dickinson, Donald McDonald, 1846-1917.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29889">Grant, Claudius Buchanan, 1835-1921.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31498">Graveraet, Robert.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85306243" ref="/agents/people/27273">Harvey, Charles Thompson, 1829-1912.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30906">Lawton, Charles De Witt, 1835-1909.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80090331" ref="/agents/people/30595">McLaughlin, Andrew Cunningham, 1861-1947.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n2005173297" ref="/agents/people/30963">McMillan, James, 1838-1902.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50006099" ref="/agents/people/33294">Morgan, Lewis Henry, 1818-1881.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29580">Osborn, Chase S. (Chase Salmon), b. 1860.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86868022" ref="/agents/people/29825">Pingree, Hazen S., 1840-1901.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27886">Smith, Samuel William, 1852-1931.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32866">Thurber, Henry Thomas, 1853-1904.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88022440" ref="/agents/people/28278">Warner, Frederick Maltby, 1865-1923.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31671">Winans, Edwin B., 1826-1894.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

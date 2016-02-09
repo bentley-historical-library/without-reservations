@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Evangelical Lutheran Synod of Missouri, Ohio and Other States. Michigan District. Lutheran Schools Committee.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/21010">Evangelical Lutheran Synod of Missouri, Ohio and Other States. Michigan District. Lutheran Schools Committee.</corpname>
       </origination>
       <unittitle encodinganalog="245">Evangelical Lutheran Synod of Missouri, Ohio and Other States. Michigan District. Lutheran Schools Committee Records <unitdate type="inclusive" encodinganalog="245$f" normal="1920/1924">1920-1924</unitdate>, <unitdate type="inclusive" encodinganalog="245$f" normal="1940">1940</unitdate></unittitle>
       <abstract>Correspondence, mailings, published information, and news clippings relating to 1920 and 1924 ballot proposals that would have abolished parochial schools in Michigan.</abstract>
@@ -84,8 +85,8 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8778">Church schools--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6061">Elections--Michigan--1920.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6062">Elections--Michigan--1924.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Evangelical Lutheran Synod of Missouri, Ohio, and Other States. Michigan District.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Evangelical Lutheran Synod of Missouri, Ohio and Other States. Michigan District. Lutheran Schools Committee.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22889">Evangelical Lutheran Synod of Missouri, Ohio, and Other States. Michigan District.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21010">Evangelical Lutheran Synod of Missouri, Ohio and Other States. Michigan District. Lutheran Schools Committee.</corpname>
         <geogname source="local" encodinganalog="691" ref="/subjects/807">Michigan--Politics and government--1917-1921.</geogname>
         <geogname source="local" encodinganalog="691" ref="/subjects/808">Michigan--Politics and government--1922-1928.</geogname>
       </controlaccess>

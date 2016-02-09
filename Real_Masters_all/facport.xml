@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110" role="Collector">Michigan Historical Collections.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" role="Collector" ref="/agents/corporate_entities/22991">Michigan Historical Collections.</corpname>
       </origination>
       <unittitle encodinganalog="245">University of Michigan Faculty and Staff Portraits <unitdate type="inclusive" encodinganalog="245$f" normal="1860/1960" certainty="approximate">circa 1860-1960</unitdate></unittitle>
       <abstract>Portrait photographs of University of Michigan faculty, administrators and staff.</abstract>
@@ -86,8 +87,8 @@
       </p>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Employees--Portraits.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty--Portraits.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Employees--Portraits.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty--Portraits.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

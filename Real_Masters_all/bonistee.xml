@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Bonisteel, Roscoe O. (Roscoe Osmond), b. 1888.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32347">Bonisteel, Roscoe O. (Roscoe Osmond), b. 1888.</persname>
       </origination>
       <unittitle encodinganalog="245">Roscoe O. Bonisteel Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1903/1972">1903-1972</unitdate></unittitle>
       <abstract>Ann Arbor, Michigan, attorney, Republican regent of the University of Michigan. Correspondence and other materials relating to state and local Republican party affairs, particularly the election of 1944 and the Constitutional Convention, 1961-1962; organizational files, primarily concerning activities with the Rotary Club, the Free and Accepted Order of Masons, the National Music Camp at Interlochen, the American Bar Association, the First Presbyterian Church of Ann Arbor, the Historical Society of Michigan, Cleary College, Dickinson College in Carlisle, Pennsylvania, and the Wayne State University Board of Governors; and photographs.</abstract>
@@ -95,40 +96,40 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n78083441">American Bar Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n78083441" ref="/agents/corporate_entities/19078">American Bar Association.</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html" ref="/subjects/860">Ann Arbor (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600">Bonisteel, Roscoe O. (Roscoe Osmond), b. 1888.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Cleary College (Ypsilanti, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Dickinson College.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32347">Bonisteel, Roscoe O. (Roscoe Osmond), b. 1888.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19554">Cleary College (Ypsilanti, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22063">Dickinson College.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6416">Elections--Michigan--1944.</subject>
-        <corpname source="lcnaf" encodinganalog="610">First Presbyterian Church (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18768">First Presbyterian Church (Ann Arbor, Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6417">Freemasonry--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81006621">Historical Society of Michigan (1874- )</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n91059253">Michigan. Constitutional Convention (1961-1962)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2007028492">National Music Camp.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Presbyterian Church--Michigan--Ann Arbor.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998">University of Michigan. Board of Regents.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79063305">Wayne State University.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81006621" ref="/agents/corporate_entities/20734">Historical Society of Michigan (1874- )</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n91059253" ref="/agents/corporate_entities/18122">Michigan. Constitutional Convention (1961-1962)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2007028492" ref="/agents/corporate_entities/21322">National Music Camp.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19977">Presbyterian Church--Michigan--Ann Arbor.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21402">Republican Party (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998" ref="/agents/corporate_entities/18212">University of Michigan. Board of Regents.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79063305" ref="/agents/corporate_entities/18778">Wayne State University.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no90002065">Angell, James Burrill, 1829-1916.</persname>
-        <famname source="lcnaf" encodinganalog="600">Bonisteel family.</famname>
-        <persname source="lcnaf" encodinganalog="600">Bonisteel, Roscoe O. (Roscoe Osmond), b. 1888.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88650119">Burton, Marion Le Roy, 1874-1925.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Cleary College (Ypsilanti, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Dickinson College.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no90002065" ref="/agents/people/29871">Angell, James Burrill, 1829-1916.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1287">Bonisteel family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32347">Bonisteel, Roscoe O. (Roscoe Osmond), b. 1888.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88650119" ref="/agents/people/34362">Burton, Marion Le Roy, 1874-1925.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19554">Cleary College (Ypsilanti, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22063">Dickinson College.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3873">Families.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6417">Freemasonry--Michigan--Ann Arbor.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88002366">Hutchins, Harry B. (Harry Burns), 1847-1930.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88002366" ref="/agents/people/28685">Hutchins, Harry B. (Harry Burns), 1847-1930.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3874">Leisure.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2007028492">National Music Camp.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2007028492" ref="/agents/corporate_entities/21322">National Music Camp.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3648">Rites and ceremonies.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3809">Travel.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998">University of Michigan. Board of Regents.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Commencements--1964.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Law School--Alumni.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998" ref="/agents/corporate_entities/18212">University of Michigan. Board of Regents.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Commencements--1964.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20498">University of Michigan. Law School--Alumni.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

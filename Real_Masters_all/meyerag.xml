@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Meyer, Alfred G.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/27265">Meyer, Alfred G.</persname>
       </origination>
       <unittitle encodinganalog="245">Alfred G. Meyer Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1860/1998" certainty="approximate">circa 1860-1998</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1930/1979" certainty="approximate">1930s-1970s</unitdate></unittitle>
       <abstract>Professor of political science at Michigan State University and at the University of Michigan; director of the U-M Center for Russian and Eastern European Studies; specialist in communist ideology and the Soviet political system. The collection is composed of four series. The personal series consists of biographical information including autobiography detailing flight of his family from Nazi Germany, his education, and his academic career; the series also contains files relating to his education and to the history of his family; including extensive family correspondence, partially in German, primarily in the period of 1924-1945. The other, smaller, series in the collection pertain to his career and to his writings.</abstract>
@@ -82,18 +83,18 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Meyer, Alfred G.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/27265">Meyer, Alfred G.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/866">United States--Emigration and immigration.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2331">Germany--Emigration and immigration.</geogname>
-        <famname source="lcnaf" encodinganalog="600">Myers family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1365">Myers family.</famname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9265">Refugees, Jewish--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9266">Refugees, Jewish--Germany.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Political Science.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19154">University of Michigan. Dept. of Political Science.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Meyer, Alfred G.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/27265">Meyer, Alfred G.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/866">United States--Emigration and immigration.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2331">Germany--Emigration and immigration.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9265">Refugees, Jewish--United States.</subject>

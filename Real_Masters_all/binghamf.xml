@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Bingham family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/1272">Bingham family.</famname>
       </origination>
       <unittitle encodinganalog="245">Abel Bingham Family Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1817/1910">1817-1910</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1828/1866">1828-1866</unitdate></unittitle>
       <abstract>Missionary family to Sault Ste. Marie, Michigan; correspondence, sermons of Abel Bingham, diaries of Hannah Bingham reflecting her daily activities and religious convictions.</abstract>
@@ -78,13 +79,13 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Baptists--Michigan--Grand Rapids.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Baptists--Michigan--Sault Sainte Marie.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21769">Baptists--Michigan--Grand Rapids.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21769">Baptists--Michigan--Sault Sainte Marie.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6346">Baptists--Missions--Michigan.</subject>
-        <famname source="lcnaf" encodinganalog="600">Bingham family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1272">Bingham family.</famname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6347">Clergy--Michigan--Grand Rapids.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6348">Clergy--Michigan--Sault Sainte Marie.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Fountain Street Baptist Church (Grand Rapids, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17996">Fountain Street Baptist Church (Grand Rapids, Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79133151.html" ref="/subjects/1102">Grand Rapids (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6097">Indians of North America--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6349">Indians of North America--Missions--Michigan.</subject>
@@ -103,14 +104,14 @@
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Bingham, Abel, 1786-1865.</persname>
-        <persname source="lcnaf" encodinganalog="600">Bingham, Hannah, 1794-1868.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35073">Bingham, Abel, 1786-1865.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31160">Bingham, Hannah, 1794-1868.</persname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Bingham, Abel, 1786-1865.</persname>
-        <persname source="lcnaf" encodinganalog="700">Bingham, Hannah, 1794-1868.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n89626569">Sherman, James Schoolcraft, 1855-1912.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35073">Bingham, Abel, 1786-1865.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31160">Bingham, Hannah, 1794-1868.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n89626569" ref="/agents/people/31388">Sherman, James Schoolcraft, 1855-1912.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

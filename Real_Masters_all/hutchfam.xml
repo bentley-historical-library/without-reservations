@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="110">Hutchins family.</famname>
+        <famname source="lcnaf" encodinganalog="110" ref="/agents/families/1387">Hutchins family.</famname>
       </origination>
       <unittitle encodinganalog="245">Hutchins family papers <unitdate type="inclusive" encodinganalog="245$f" normal="1837/1951">1837-1951</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851509 Aa 2; AC; UAm</unitid>
@@ -88,7 +89,7 @@
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81050398.html" ref="/subjects/1441">Allegan County (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2113">Ganges (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82084368.html" ref="/subjects/1805">Saugatuck (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Saugatuck and Ganges Telephone Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18379">Saugatuck and Ganges Telephone Company.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8383">Telephone--Michigan--Allegan County.</subject>
       </controlaccess>
       <controlaccess>
@@ -100,16 +101,16 @@
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/344">Fennville (Mich.)--Dwellings.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/2113">Ganges (Mich.)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3614">Hunting--Michigan.</subject>
-        <famname source="lcnaf" encodinganalog="600">Hutchins family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1387">Hutchins family.</famname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3616">Lumber industry.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3579">Recreation.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3569">Women.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Hutchins, Evert O. (Evert Olney), 1890-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n95066627">Hutchins, Henry Hudson, 1853-1933.</persname>
-        <famname source="lcnaf" encodinganalog="700">Robertson family.</famname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28742">Hutchins, Evert O. (Evert Olney), 1890-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n95066627" ref="/agents/people/33514">Hutchins, Henry Hudson, 1853-1933.</persname>
+        <famname source="lcnaf" encodinganalog="700" ref="/agents/families/1244">Robertson family.</famname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

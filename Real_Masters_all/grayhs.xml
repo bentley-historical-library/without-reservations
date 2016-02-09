@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Gray, Harold Studley, 1894-1972.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28026">Gray, Harold Studley, 1894-1972.</persname>
       </origination>
       <unittitle encodinganalog="245">Harold S. Gray Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1896/1972">1896-1972</unitdate></unittitle>
       <abstract>Conscientious objector during World Wars I and II and founder of the farming cooperative Saline Valley Farms. Correspondence, diaries, notebooks, and other materials relating to all phases of his career, including his work as Y.M.C.A. worker in England, 1916-1917, and as teacher at Central China University, Wuchang, China, 1922-1926; also family correspondence of Philip H. and Almena S. Gray, 1874-1926; also photographs and motion pictures.</abstract>
@@ -101,16 +102,16 @@
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/946">China--History--Republic, 1912-1949.</geogname>
         <subject source="lcsh" encodinganalog="611" ref="/subjects/8066">The Christian century.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2010051901">Columbia Conserve Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2010051901" ref="/agents/corporate_entities/22682">Columbia Conserve Company.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7368">Conscientious objectors.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8067">Cooperative societies--Michigan--Saline.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1284">England.</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8068">Farm life--Michigan--Saline.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87862138">Fellowship of Reconciliation (U.S.)</corpname>
-        <persname source="lcnaf" encodinganalog="600">Gray, Almena Studley.</persname>
-        <persname source="lcnaf" encodinganalog="600">Gray, Harold Studley, 1894-1972.</persname>
-        <persname source="lcnaf" encodinganalog="600">Gray, John Simpson, 1841-1906.</persname>
-        <persname source="lcnaf" encodinganalog="600">Gray, Philip Hayward, 1865-1922.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87862138" ref="/agents/corporate_entities/18053">Fellowship of Reconciliation (U.S.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29490">Gray, Almena Studley.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28026">Gray, Harold Studley, 1894-1972.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32926">Gray, John Simpson, 1841-1906.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33634">Gray, Philip Hayward, 1865-1922.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5775">Pacifism.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1223">Saline (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1940">Saline Valley Farms (Saline, Mich.)</geogname>
@@ -128,7 +129,7 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4387">Dwellings--Michigan--Detroit.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3944">Dwellings.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4283">Farms.</subject>
-        <persname source="lcnaf" encodinganalog="600">Gray, Harold Studley, 1894-1972.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28026">Gray, Harold Studley, 1894-1972.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3639">Interiors.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81139923.html" ref="/subjects/949">Mackinac Island (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1941">Oscoda (Mich.)</geogname>
@@ -137,47 +138,47 @@
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3579">Recreation.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4082">Resorts--Michigan.</subject>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1940">Saline Valley Farms (Saline, Mich.)</geogname>
-        <famname source="lcnaf" encodinganalog="600">Studley family.</famname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1636">Studley family.</famname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4071">Traffic accidents.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5737">World War, 1914-1918.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Sound Recordings</head>
-        <persname source="lcnaf" encodinganalog="600">Gray, Harold Studley, 1894-1972.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28026">Gray, Harold Studley, 1894-1972.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1940">Saline Valley Farms (Saline, Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="700">Vaughn, Marian.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28472">Vaughn, Marian.</persname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Allinson, Brent Dow.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50017585">Baldwin, Roger N. (Roger Nash), 1884-1981</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n93017621">Bennett, James O'Donnell, 1870-1940.</persname>
-        <persname source="lcnaf" encodinganalog="700">Chaplin, Maxwell.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86070545">Couzens, James, 1872-1936.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n2011034836">Crane, Henry Hitt, 1890-1977.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82006311">Dunham, Arthur, 1893-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50051668">Eddy, Sherwood, 1871-1963.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82028403">Fey, Harold E. (Harold Edward), 1898-1990</persname>
-        <persname source="lcnaf" encodinganalog="700">Hapgood, William Powers, 1872-1960.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n90721773">Hennacy, Ammon, 1893-1970.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50040595">Jones, Edgar De Witt, 1876-1956.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n90685771">Jones, Paul, 1880-1941.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81024889">Libby, Frederick J. (Frederick Joseph), 1874-1970</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n90684742">Lunde, Erling H.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50005688">Morrison, Charles Clayton, 1874-1966</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79055261">Mott, John Raleigh, 1865-1955.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50027660">Muste, Abraham John, 1885-1967.</persname>
-        <persname source="lcnaf" encodinganalog="700">Nelson, Walter Morrow.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50051853">Page, Kirby, 1890-1957.</persname>
-        <persname source="lcnaf" encodinganalog="700">Porter, David R.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n90662480">Sayre, John Nevin, 1884-1977.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n90690301">Shaw, Mark Revell, 1889-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50012975">Swomley, John M., 1915-2010</persname>
-        <persname source="lcnaf" encodinganalog="700">Thomas, Emma Mattoon.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n90680060">Thomas, Evan W. (Evan Welling), 1890-1974.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50010195">Thomas, Norman, 1884-1968.</persname>
-        <persname source="lcnaf" encodinganalog="700">Vaughan, Harold M.</persname>
-        <persname source="lcnaf" encodinganalog="700">Zhang, Fuliang, b. 1889.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28777">Allinson, Brent Dow.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50017585" ref="/agents/people/27660">Baldwin, Roger N. (Roger Nash), 1884-1981</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n93017621" ref="/agents/people/28511">Bennett, James O'Donnell, 1870-1940.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30800">Chaplin, Maxwell.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86070545" ref="/agents/people/29430">Couzens, James, 1872-1936.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n2011034836" ref="/agents/people/28618">Crane, Henry Hitt, 1890-1977.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82006311" ref="/agents/people/28185">Dunham, Arthur, 1893-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50051668" ref="/agents/people/35416">Eddy, Sherwood, 1871-1963.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82028403" ref="/agents/people/32752">Fey, Harold E. (Harold Edward), 1898-1990</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32682">Hapgood, William Powers, 1872-1960.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n90721773" ref="/agents/people/31951">Hennacy, Ammon, 1893-1970.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50040595" ref="/agents/people/35830">Jones, Edgar De Witt, 1876-1956.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n90685771" ref="/agents/people/28752">Jones, Paul, 1880-1941.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81024889" ref="/agents/people/30171">Libby, Frederick J. (Frederick Joseph), 1874-1970</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n90684742" ref="/agents/people/33422">Lunde, Erling H.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50005688" ref="/agents/people/32285">Morrison, Charles Clayton, 1874-1966</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79055261" ref="/agents/people/31462">Mott, John Raleigh, 1865-1955.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50027660" ref="/agents/people/31567">Muste, Abraham John, 1885-1967.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33723">Nelson, Walter Morrow.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50051853" ref="/agents/people/35329">Page, Kirby, 1890-1957.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29828">Porter, David R.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n90662480" ref="/agents/people/29858">Sayre, John Nevin, 1884-1977.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n90690301" ref="/agents/people/33041">Shaw, Mark Revell, 1889-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50012975" ref="/agents/people/36032">Swomley, John M., 1915-2010</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27222">Thomas, Emma Mattoon.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n90680060" ref="/agents/people/28607">Thomas, Evan W. (Evan Welling), 1890-1974.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50010195" ref="/agents/people/33980">Thomas, Norman, 1884-1968.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33391">Vaughan, Harold M.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28315">Zhang, Fuliang, b. 1889.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

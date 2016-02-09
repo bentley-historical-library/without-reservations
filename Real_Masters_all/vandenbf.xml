@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Vandenberg family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/1517">Vandenberg family.</famname>
       </origination>
       <unittitle encodinganalog="245">Vandenberg Family papers <unitdate type="inclusive" encodinganalog="245$f" normal="1923/1965">1923-1965</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">86162 Aa 2</unitid>
@@ -81,18 +82,18 @@
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79133151.html" ref="/subjects/1102">Grand Rapids (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6879">Presidents--United States--Election--1952.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6477">Women--Michigan--Grand Rapids.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21402">Republican Party (Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1272">United States--Politics and government--1953-1961.</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1576">United States--Politics and government--1945-1953.</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79018774.html" ref="/subjects/1453">Washington (D.C.)</geogname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79021469">Dewey, Thomas E. (Thomas Edmund), 1902-1971.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79066408">Eisenhower, Dwight D. (Dwight David), 1890-1969.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50049079">Rockefeller, Nelson A. (Nelson Aldrich), 1908-1979.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50045033">Vandenberg, Arthur H. (Arthur Hendrick), 1884-1951.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008112511">Vandenberg, Arthur Hendrick, 1907-1968.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79021469" ref="/agents/people/34514">Dewey, Thomas E. (Thomas Edmund), 1902-1971.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79066408" ref="/agents/people/30871">Eisenhower, Dwight D. (Dwight David), 1890-1969.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50049079" ref="/agents/people/34189">Rockefeller, Nelson A. (Nelson Aldrich), 1908-1979.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50045033" ref="/agents/people/30760">Vandenberg, Arthur H. (Arthur Hendrick), 1884-1951.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008112511" ref="/agents/people/32438">Vandenberg, Arthur Hendrick, 1907-1968.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

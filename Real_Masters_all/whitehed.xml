@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Whitehead family</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/1511">Whitehead family</famname>
       </origination>
       <unittitle encodinganalog="245">Whitehead family papers <unitdate type="inclusive" encodinganalog="245$f" normal="1862/1900">1862-1900</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85490 Aa 2</unitid>
@@ -88,8 +89,8 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Whitehead, Edward.</persname>
-        <persname source="lcnaf" encodinganalog="700">Whitehead, Nellie Wilson.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30303">Whitehead, Edward.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30439">Whitehead, Nellie Wilson.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

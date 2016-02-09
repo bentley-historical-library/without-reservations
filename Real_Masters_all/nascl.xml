@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">North American Student Cooperative League.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/21485">North American Student Cooperative League.</corpname>
       </origination>
       <unittitle encodinganalog="245">North American Student Cooperative League records <unitdate type="inclusive" encodinganalog="245$f" normal="1936/1977">1936-1977</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85525 Bj 2</unitid>
@@ -80,7 +81,7 @@
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6555">Cooperative societies--United States.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6269">Universities and colleges--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr94000463">Inter-Cooperative Council (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr94000463" ref="/agents/corporate_entities/19101">Inter-Cooperative Council (Ann Arbor, Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5856">Cooperative societies--Michigan.</subject>
       </controlaccess>
       <controlaccess>
@@ -101,10 +102,10 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Beall, Hayes.</persname>
-        <persname source="lcnaf" encodinganalog="700">Buchele, Luther.</persname>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n80087505">Cooperative League of the U.S.A.</corpname>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n50066015">United States National Student Association.</corpname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28698">Beall, Hayes.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35808">Buchele, Luther.</persname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n80087505" ref="/agents/corporate_entities/21338">Cooperative League of the U.S.A.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n50066015" ref="/agents/corporate_entities/22539">United States National Student Association.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

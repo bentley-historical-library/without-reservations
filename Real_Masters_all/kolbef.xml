@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Kolbe, Frank F.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32608">Kolbe, Frank F.</persname>
       </origination>
       <unittitle encodinganalog="245">Frank F. Kolbe papers <unitdate type="inclusive" encodinganalog="245$f" normal="1944/1977">1944-1977</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85246 Aa 2</unitid>
@@ -82,17 +83,17 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8722">Coal trade.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6047">Inventions.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7760">Mines and mineral resources--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50060825">National Coal Association.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United Electric Coal Companies (Chicago, Ill.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50060825" ref="/agents/corporate_entities/22768">National Coal Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18784">United Electric Coal Companies (Chicago, Ill.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4589">Coal mines.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3575">Costumes.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4362">Horseback riding.</subject>
-        <persname source="lcnaf" encodinganalog="600">Kolbe, Frank F.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32608">Kolbe, Frank F.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3874">Leisure.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50060825">National Coal Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50060825" ref="/agents/corporate_entities/22768">National Coal Association.</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1291">Poland.</geogname>
       </controlaccess>
       <controlaccess>

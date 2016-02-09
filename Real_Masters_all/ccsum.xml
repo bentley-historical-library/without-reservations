@@ -35,7 +35,8 @@
         <item>Original Encoding from Word 6.0 file in Version 1.0 using word macros and A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Center for Chinese Studies.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/21344">University of Michigan. Center for Chinese Studies.</corpname>
       </origination>
       <unittitle encodinganalog="245$a">Center for Chinese Studies (University of Michigan) Records <unitdate type="inclusive" encodinganalog="245$f" normal="1958/2010">1958-2010</unitdate>, <unitdate type="bulk" encodinganalog="245$f" normal="1963/1982">1963-1982</unitdate></unittitle>
       <abstract>A cross-disciplinary center for the study of Chinese history, culture and contemporary Chines society at the University of Michigan, includes administrative records of the Center and information on research, lecture series, exhibits and other activities of the center.</abstract>
@@ -164,8 +165,8 @@
         <head>Subjects:</head>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1466">China--History--1949-</geogname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1467">China--Study and teaching.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83202561">University of Michigan. Asia Library.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Research.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83202561" ref="/agents/corporate_entities/19140">University of Michigan. Asia Library.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Research.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
@@ -175,9 +176,9 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50001232">Feuerwerker, Albert.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79134145">Murphey, Rhoads, 1919-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79005659">Whiting, Allen Suess, 1926-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50001232" ref="/agents/people/33415">Feuerwerker, Albert.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79134145" ref="/agents/people/33931">Murphey, Rhoads, 1919-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79005659" ref="/agents/people/36003">Whiting, Allen Suess, 1926-</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

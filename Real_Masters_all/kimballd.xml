@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Kimball, Donald A., 1907-1998.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/35346">Kimball, Donald A., 1907-1998.</persname>
       </origination>
       <unittitle encodinganalog="245">Donald A. Kimball Architectural Drawings and Photographs <unitdate type="inclusive" encodinganalog="245$f" normal="1935/1954">1935-1954</unitdate></unittitle>
       <abstract>Saginaw based Michigan architect; 1929 graduate of University of Michigan's School of Architecture. Designed a variety of private and public buildings in the 1940s and early 1950s, mainly in mid and northern Michigan. Collection comprised of six pencil and watercolor renderings, sixty-three measured working drawings, and twenty-two black and white photographs.</abstract>
@@ -83,7 +84,7 @@
       </p>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Kimball, Donald A., 1907-1998.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35346">Kimball, Donald A., 1907-1998.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8687">Architects--Michigan--Saginaw.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4576">Architecture--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8688">Architecture, Domestic--Michigan.</subject>

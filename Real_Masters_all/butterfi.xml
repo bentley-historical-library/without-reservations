@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n87907120">Butterfield, Ira William, 1915-</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n87907120" ref="/agents/people/33075">Butterfield, Ira William, 1915-</persname>
       </origination>
       <unittitle encodinganalog="245">Ira W. Butterfield (1915-1995) papers <unitdate type="inclusive" encodinganalog="245$f" normal="1875/1990">1875-1990</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1944/1990">1944-1990</unitdate></unittitle>
       <abstract>Records relating to the First Congregational Church of Bay City, Michigan, collected by Ira Butterfield and his father George Butterfield; include correspondence written to wife during World War II while on duty in the Philippines with the Judge Advocate's office; other series concern his activities with the Bay County Council on Juvenile Delinquency, his various campaigns for public office, and his interest in Michigan archaeology; and photographs to be used in political advertisements probably from his campaign for Bay County District Judge in 1974; also photographs taken 1945-1946 while serving in the military with the Judge Advocate's office in the Philippines</abstract>
@@ -105,10 +106,10 @@
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6632">Archaeology.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6633">Church buildings--Michigan--Bay City.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Bay County Council on Juvenile Delinquency (Mich.)</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87907120">Butterfield, Ira William, 1915-</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18623">Bay County Council on Juvenile Delinquency (Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87907120" ref="/agents/people/33075">Butterfield, Ira William, 1915-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6634">Congregational churches--Michigan--Bay City.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n98023666">First Congregational Church (Bay City, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n98023666" ref="/agents/corporate_entities/21602">First Congregational Church (Bay City, Mich.)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6635">Juvenile delinquency--Michigan--Bay County.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6636">Petroglyphs--Michigan--Sanilac County.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6637">World War, 1939-1945--Philippines.</subject>
@@ -121,7 +122,7 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Butterfield, George Ernest, 1883-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29778">Butterfield, George Ernest, 1883-</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

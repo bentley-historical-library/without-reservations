@@ -38,7 +38,8 @@
         <item>Converted to EAD version 1.0 using WORD 6 macro and some hand tagging.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -49,7 +50,7 @@
   <archdesc level="collection" type="inventory" audience="external" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Hampton, Will E., 1864-1959.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33551">Hampton, Will E., 1864-1959.</persname>
       </origination>
       <unittitle encodinganalog="245">Will E. Hampton papers [microform] <unitdate type="inclusive" encodinganalog="245$g" normal="1839/1959">1839-1959</unitdate></unittitle>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">851396 Aa 2</unitid>
@@ -100,11 +101,11 @@
       </p>
       <controlaccess>
         <head>Subject Terms</head>
-        <persname source="lcnaf" encodinganalog="600">Hampton, Will E., 1864-1959.</persname>
-        <persname source="lcnaf" encodinganalog="600">Hampton, Carlos D.</persname>
-        <persname source="lcnaf" encodinganalog="600">Hampton, Corneia C.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80014436">Knights of Pythias.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Michigan Regiment, 4th (1862-1866)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33551">Hampton, Will E., 1864-1959.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32369">Hampton, Carlos D.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28270">Hampton, Corneia C.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80014436" ref="/agents/corporate_entities/17693">Knights of Pythias.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18128">United States. Army. Michigan Regiment, 4th (1862-1866)</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6772">Indians of North America.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5860">Physicians--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8126">Women--History.</subject>
@@ -119,8 +120,8 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors</head>
-        <persname source="lcnaf" encodinganalog="700">Hampton, Carlos D.</persname>
-        <persname source="lcnaf" encodinganalog="700">Hampton, Cornelia D.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32369">Hampton, Carlos D.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32978">Hampton, Cornelia D.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

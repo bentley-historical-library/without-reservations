@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal. A complete reencoding of revised finding aid.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Matthaei Botanical Gardens.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/19102">University of Michigan. Matthaei Botanical Gardens.</corpname>
       </origination>
       <unittitle encodinganalog="245">Matthaei Botanical Gardens (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1905/2007">1905-2007</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1965/2004">1965-2004</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">8728 Bimu C26 2</unitid>
@@ -103,12 +104,12 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6153">Botany.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5696">Gardening.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8982">Horticulture.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Matthaei Botanical Gardens.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19102">University of Michigan. Matthaei Botanical Gardens.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Matthaei Botanical Gardens--Maps.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Matthaei Botanical Gardens.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19102">University of Michigan. Matthaei Botanical Gardens--Maps.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/19102">University of Michigan. Matthaei Botanical Gardens.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

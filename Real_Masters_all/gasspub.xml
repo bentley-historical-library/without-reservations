@@ -39,7 +39,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -50,7 +51,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Gilbert and Sullivan Society.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/21714">University of Michigan. Gilbert and Sullivan Society.</corpname>
       </origination>
       <unittitle encodinganalog="245">Gilbert and Sullivan Society (University of Michigan), publications <unitdate type="inclusive" normal="1947/2011" encodinganalog="245$f">1947-2011</unitdate></unittitle>
       <abstract>Publications of University of Michigan organization which produces Gilbert and Sullivan operettas, including flyers, newsletters and a history of the organization.</abstract>
@@ -95,10 +96,10 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Gilbert and Sullivan Society.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Gilbert and Sullivan Society. Friends.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Gilbert and Sullivan Society. Friends.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21714">University of Michigan. Gilbert and Sullivan Society.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17967">University of Michigan. Gilbert and Sullivan Society. Friends.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Students--Social life and customs.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/17967">University of Michigan. Gilbert and Sullivan Society. Friends.</corpname>
         <title encodinganalog="740" source="aacr2" ref="/subjects/56">Pudding full of plums.</title>
       </controlaccess>
       <controlaccess>

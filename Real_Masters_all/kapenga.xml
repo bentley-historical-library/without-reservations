@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Kapenga, Gladys</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/27300">Kapenga, Gladys</persname>
       </origination>
       <unittitle encodinganalog="245">Gladys Kapenga papers <unitdate type="inclusive" encodinganalog="245$f" normal="1960/2010" certainty="approximate">circa 1960-2010</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1985/2007">1985-2007</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2012045 Aa 2</unitid>
@@ -84,10 +85,10 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Burlingame Congregational United Church of Christ (Wyoming, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Church Women United--Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United Church of Christ--Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United Church of Christ. Michigan Conference.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/23065">Burlingame Congregational United Church of Christ (Wyoming, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17977">Church Women United--Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22456">United Church of Christ--Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22465">United Church of Christ. Michigan Conference.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6353">Women--Religious life--Michigan.</subject>
       </controlaccess>
     </controlaccess>

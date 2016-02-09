@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. War historian.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/19460">University of Michigan. War historian.</corpname>
       </origination>
       <unittitle encodinganalog="245">War Historian (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1941/1945">1941-1945</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">87367 Bimu E27 2</unitid>
@@ -82,17 +83,17 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10613">Japanese language.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. War historian.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19460">University of Michigan. War historian.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6069">World War, 1939-1945--Education and the war.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6070">World War, 1939-1945--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <corpname source="lcnaf" encodinganalog="710">United States. Army. Japanese Language School (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="710">United States. Civil Affairs Training School (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="710">University of Michigan. War Board.</corpname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no97068662">Bald, F. Clever (Frederick Clever), 1897-1970.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2007059707">Niehuss, Marvin Lemmon, 1903-2003</persname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/20825">United States. Army. Japanese Language School (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/19523">United States. Civil Affairs Training School (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/19088">University of Michigan. War Board.</corpname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no97068662" ref="/agents/people/29429">Bald, F. Clever (Frederick Clever), 1897-1970.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2007059707" ref="/agents/people/35548">Niehuss, Marvin Lemmon, 1903-2003</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

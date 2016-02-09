@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Nursing History Society.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/20716">University of Michigan. Nursing History Society.</corpname>
       </origination>
       <unittitle encodinganalog="245">Nursing History Society (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1940/1995">1940-1995</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">89158 Bimu C275 2</unitid>
@@ -78,15 +79,15 @@
       <controlaccess>
         <head>Subjects:</head>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6114">Nursing--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Nursing History Society.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no96022006">University of Michigan. School of Nursing.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Student notebooks.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20716">University of Michigan. Nursing History Society.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no96022006" ref="/agents/corporate_entities/19444">University of Michigan. School of Nursing.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Student notebooks.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5032">Nursing--Michigan--Ann Arbor.</subject>
         <genreform source="aat" encodinganalog="655" ref="/subjects/3137">Photographs.</genreform>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Hospitals.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19020">University of Michigan. Hospitals.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

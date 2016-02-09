@@ -27,7 +27,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -38,7 +39,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Milliken, Helen (Helen Wallbank)</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/33026">Milliken, Helen (Helen Wallbank)</persname>
       </origination>
       <unittitle encodinganalog="245">Helen W. Milliken Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1965/1982">1965-1982</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1969/1982">1969-1982</unitdate></unittitle>
       <abstract>Civic leader, wife of Michigan governor William Milliken; topical files relating to Artrain, the Michigan Council for the Arts, the International Women's Year, Youth for Understanding, women's rights issues, notably the Equal Rights Amendment, and environmental protection issues; correspondence files; appearance files; and photographs.</abstract>
@@ -84,7 +85,7 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no94022928">Artrain.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no94022928" ref="/agents/corporate_entities/21680">Artrain.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9277">Arts.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9393">Civic leaders--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6653">Environmental protection--Michigan.</subject>
@@ -92,25 +93,25 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5954">Governors--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6391">Governors' spouses--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5765">International Women's Year, 1975.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80081634">Michigan Council for the Arts.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Milliken, Helen (Helen Wallbank)</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80010387">Milliken, William G., 1922-</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80081634" ref="/agents/corporate_entities/22158">Michigan Council for the Arts.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33026">Milliken, Helen (Helen Wallbank)</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80010387" ref="/agents/people/28573">Milliken, William G., 1922-</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/9394">Women civic leaders--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5760">Women in politics--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6248">Women's rights--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Youth for Understanding (Organization)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20467">Youth for Understanding (Organization)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4911">Afro-Americans--Arts and crafts.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3559">Art.</subject>
-        <corpname source="lcsh" encodinganalog="650" authfilenumber="http://id.loc.gov/authorities/names/no94022928">Artrain.</corpname>
+        <corpname source="lcsh" encodinganalog="650" authfilenumber="http://id.loc.gov/authorities/names/no94022928" ref="/agents/corporate_entities/21680">Artrain.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3572">Children.</subject>
-        <persname source="lcnaf" encodinganalog="600">Cunningham, DeVon.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35631">Cunningham, DeVon.</persname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/980">Kalamazoo (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600">Milliken, Helen W. (Helen Wallbank)</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80010387">Milliken, William G., 1922-</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79059917">Project Head Start (U.S.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34800">Milliken, Helen W. (Helen Wallbank)</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80010387" ref="/agents/people/28573">Milliken, William G., 1922-</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79059917" ref="/agents/corporate_entities/19832">Project Head Start (U.S.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

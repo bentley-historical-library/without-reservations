@@ -35,7 +35,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -46,7 +47,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/nr92024162">Houghton, Douglass, 1809-1845.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/nr92024162" ref="/agents/people/35759">Houghton, Douglass, 1809-1845.</persname>
       </origination>
       <unittitle encodinganalog="245">Douglass Houghton Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1829/1845">1829-1845</unitdate></unittitle>
       <abstract>State geologist of Michigan. Field notes, 1837-1841, of his geological survey of the state, including some original drawings [original and typescript copies, and microfilm of pages 197-291]; letter book, 1841-1845; miscellaneous correspondence and field notes, including letter, May 31, 1841, to Abram Sager; notes and other papers collected by Mrs. John Ehlers for her book on Houghton, including copies of papers of Bela Hubbard; and photographs.</abstract>
@@ -100,15 +101,15 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Ehlers, John, Mrs.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29258">Ehlers, John, Mrs.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8340">Geology--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr92024162">Houghton, Douglass, 1809-1845.</persname>
-        <persname source="lcnaf" encodinganalog="600">Sager, Abram, 1810-1877.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr92024162" ref="/agents/people/35759">Houghton, Douglass, 1809-1845.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31639">Sager, Abram, 1810-1877.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6682">Surveyors--Michigan.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr92024162">Houghton, Douglass, 1809-1845.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr92024162" ref="/agents/people/35759">Houghton, Douglass, 1809-1845.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Maps</head>
@@ -161,9 +162,9 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n83196231">Hubbard, Bela, 1814-1896.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81076840">Mason, Stevens Thomson, 1811-1843.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88159841">Woodbridge, William, 1780-1861.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n83196231" ref="/agents/people/32471">Hubbard, Bela, 1814-1896.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81076840" ref="/agents/people/31553">Mason, Stevens Thomson, 1811-1843.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88159841" ref="/agents/people/28491">Woodbridge, William, 1780-1861.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
@@ -349,11 +350,11 @@
       </relatedmaterial>
       <descgrp>
         <odd>
-          <head>Index to Maps in the Houghton Papers</head>
-          <p>This inventory includes the manuscript maps drawn on and pasted into the pages of the field notes volume, other manuscript maps that have been removed from the volume and stored with outsize unbound manuscripts, a complementary group of maps in the collections of the Michigan State Archives, and a group of photostatic copies at the William L. Clements Library. Photostat use copies of most of the original maps in this collection are also available at the Bentley Historical Library.</p>
-          <p>The maps fall into three main groups: <list type="ordered"><item>Maps of the Lake Huron shore of the Lower Peninsula from north of Port Huron north to Mackinac Island and the Lake Michigan shore south from Mackinac to the South Haven area, probably drawn in 1838.</item><item>Maps of the St. Marys River and the Lake Huron and Lake Michigan shore of the Upper Peninsula, probably drawn in 1839.</item><item>Maps of the Lake Superior shore of the Upper Peninsula, from Sault Ste. Marie to La Pointe, Wis., probably drawn in 1840.</item></list></p>
-          <p>A few maps can be dated earlier or later than these groups, or cannot be dated.</p>
-          <p>The maps in the field notes volume are listed in the order in which they are bound, followed by the outsize maps, the State Archives maps, and the Clements Library maps.</p>
+        <head>Index to Maps in the Houghton Papers</head>
+        <p>This inventory includes the manuscript maps drawn on and pasted into the pages of the field notes volume, other manuscript maps that have been removed from the volume and stored with outsize unbound manuscripts, a complementary group of maps in the collections of the Michigan State Archives, and a group of photostatic copies at the William L. Clements Library. Photostat use copies of most of the original maps in this collection are also available at the Bentley Historical Library.</p>
+        <p>The maps fall into three main groups: <list type="ordered"><item>Maps of the Lake Huron shore of the Lower Peninsula from north of Port Huron north to Mackinac Island and the Lake Michigan shore south from Mackinac to the South Haven area, probably drawn in 1838.</item><item>Maps of the St. Marys River and the Lake Huron and Lake Michigan shore of the Upper Peninsula, probably drawn in 1839.</item><item>Maps of the Lake Superior shore of the Upper Peninsula, from Sault Ste. Marie to La Pointe, Wis., probably drawn in 1840.</item></list></p>
+        <p>A few maps can be dated earlier or later than these groups, or cannot be dated.</p>
+        <p>The maps in the field notes volume are listed in the order in which they are bound, followed by the outsize maps, the State Archives maps, and the Clements Library maps.</p>
           <list type="simple">
             <head>Maps Found in Field Notes volume</head>
             <item>

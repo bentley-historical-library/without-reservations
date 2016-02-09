@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">McKeachie, Wilbert James, 1921-</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32559">McKeachie, Wilbert James, 1921-</persname>
       </origination>
       <unittitle encodinganalog="245">Wilbert J. McKeachie papers <unitdate type="inclusive" encodinganalog="245$f" normal="1941/1991">1941-1991</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1960/1991">1960-1991</unitdate></unittitle>
       <abstract>Professor of psychology at the University of Michigan, director of the university's Center for Research on Learning and Teaching. Papers include two subgroups, Psychology and Center for Research on Learning and Teaching. The Psychology subgroup includes American Psychological Association files, correspondence, course materials, speeches, and topical files. The CRLT subgroup includes correspondence, course materials and topical files.</abstract>
@@ -90,15 +91,15 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80126082">American Psychological Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80126082" ref="/agents/corporate_entities/22813">American Psychological Association.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6146">Learning, Psychology of.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8645">Psychology.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8368">Teaching.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Sports.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Board in Control of Intercollegiate Athletics.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2008033735">University of Michigan. Center for Research on Learning and Teaching.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Psychology.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Sports.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17969">University of Michigan. Board in Control of Intercollegiate Athletics.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2008033735" ref="/agents/corporate_entities/21046">University of Michigan. Center for Research on Learning and Teaching.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19242">University of Michigan. Dept. of Psychology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">

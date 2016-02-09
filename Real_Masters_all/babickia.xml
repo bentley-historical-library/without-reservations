@@ -40,7 +40,8 @@
         <item>Original encoding.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -51,7 +52,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Babicki, Andrew.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/34868">Babicki, Andrew.</persname>
       </origination>
       <unittitle encodinganalog="245">Andrew Babicki collection <unitdate type="inclusive" encodinganalog="245$f" normal="1916/1936">1916-1936</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2009120 Aa 2</unitid>
@@ -104,41 +105,41 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Ahrens, Henry.</persname>
-        <persname source="lcnaf" encodinganalog="600">Kaser, Ernest.</persname>
-        <persname source="lcnaf" encodinganalog="600">McCarthy, Thomas J.</persname>
-        <persname source="lcnaf" encodinganalog="600">Olson, Carl G.</persname>
-        <persname source="lcnaf" encodinganalog="600">Stage, Jesse H.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/33163">Ahrens, Henry.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30975">Kaser, Ernest.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32809">McCarthy, Thomas J.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29841">Olson, Carl G.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29448">Stage, Jesse H.</persname>
         <subject source="local" encodinganalog="690" authfilenumber="http://id.loc.gov/authorities/names/n2008059426" ref="/subjects/5619">Polar Bear Expedition.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Tuscania (Ship)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Depot Brigade, 160th.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Engineer Regiment, 310th.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Field Artillery, 330th.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n90629988">United States. Army. Infantry Regiment, 126th.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Infantry Regiment, 128th.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82129076">United States. Army. Infantry, 339th.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18754">Tuscania (Ship)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18445">United States. Army. Depot Brigade, 160th.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18859">United States. Army. Engineer Regiment, 310th.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21572">United States. Army. Field Artillery, 330th.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n90629988" ref="/agents/corporate_entities/19943">United States. Army. Infantry Regiment, 126th.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22146">United States. Army. Infantry Regiment, 128th.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82129076" ref="/agents/corporate_entities/21288">United States. Army. Infantry, 339th.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6025">World War, 1914-1918--Michigan.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n94064669.html" ref="/subjects/905">Fort Custer (Mich.)</geogname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3624">Soldiers--American.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Tuscania (Ship)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Depot Brigade, 160th.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n90630002">United States. Army. Division, 32nd.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Engineer Regiment, 310th.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2015029364">United States. Army. Field Artillery, 119th.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Field Artillery, 330th.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Field Signal Battalion, 214th.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Infantry Regiment, 125th. Company D.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n90629988">United States. Army. Infantry Regiment, 126th.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Infantry Regiment, 128th.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Infantry, 337th.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82129076">United States. Army. Infantry, 339th.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Infantry, 340th.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Machine Gun Battalion, 41st.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Officers' Training School (Camp Custer, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Supply Battalion, 107th.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18754">Tuscania (Ship)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18445">United States. Army. Depot Brigade, 160th.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n90630002" ref="/agents/corporate_entities/19205">United States. Army. Division, 32nd.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18859">United States. Army. Engineer Regiment, 310th.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2015029364" ref="/agents/corporate_entities/19524">United States. Army. Field Artillery, 119th.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21572">United States. Army. Field Artillery, 330th.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21544">United States. Army. Field Signal Battalion, 214th.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18497">United States. Army. Infantry Regiment, 125th. Company D.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n90629988" ref="/agents/corporate_entities/19943">United States. Army. Infantry Regiment, 126th.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22146">United States. Army. Infantry Regiment, 128th.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20704">United States. Army. Infantry, 337th.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82129076" ref="/agents/corporate_entities/21288">United States. Army. Infantry, 339th.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20648">United States. Army. Infantry, 340th.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19995">United States. Army. Machine Gun Battalion, 41st.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21350">United States. Army. Officers' Training School (Camp Custer, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19806">United States. Army. Supply Battalion, 107th.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5737">World War, 1914-1918.</subject>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n94064669.html" ref="/subjects/905">Fort Custer (Mich.)</geogname>
         <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/no2010112167.html" ref="/subjects/971">Camp MacArthur (Tex.)</geogname>
@@ -420,8 +421,11 @@
               </daodesc>
             </dao>
           </did>
-        <odd><p>(Digitized version of a panoramic photograph depicting Company D, 125th Infantry Division &#13;
-in May 1919)</p></odd></c02>
+          <odd>
+            <p>(Digitized version of a panoramic photograph depicting Company D, 125th Infantry Division &#13;
+in May 1919)</p>
+          </odd>
+        </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [4281701642849632722898558]">1</container>

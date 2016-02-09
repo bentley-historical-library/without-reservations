@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2010 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/no00025473">King, Emery C.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/no00025473" ref="/agents/people/30602">King, Emery C.</persname>
       </origination>
       <unittitle encodinganalog="245">Emery C. King and Jacqueline C. King collection <unitdate type="inclusive" encodinganalog="245$f" normal="1991/1998">1991-1998</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2014069 Aa 2</unitid>
@@ -95,16 +96,16 @@
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8695">African Americans--Economic conditions--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/8696">African Americans--Employment--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7045">Discrimination in employment--United States.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n93095146">Ford Motor Company. Rouge River Plant.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n78038631">National Negro Labor Council (U.S.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n93095146" ref="/agents/corporate_entities/19051">Ford Motor Company. Rouge River Plant.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n78038631" ref="/agents/corporate_entities/22689">National Negro Labor Council (U.S.)</corpname>
         <genreform source="aat" encodinganalog="655" ref="/subjects/3307">Digital moving image formats.</genreform>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no00025473">King, Emery C.</persname>
-        <persname source="lcnaf" encodinganalog="700">King, Jacqueline C.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no99013765">Owens, John P.</persname>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/no2003004101">Kingberry Productions.</corpname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no00025473" ref="/agents/people/30602">King, Emery C.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28195">King, Jacqueline C.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no99013765" ref="/agents/people/31225">Owens, John P.</persname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/no2003004101" ref="/agents/corporate_entities/18817">Kingberry Productions.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
@@ -183,7 +184,10 @@
               </daodesc>
             </dao>
           </did>
-        <odd><p>(Documentary video about the history of the National Negro Labor Council, the NNLC, that was produced by WDIV-TV in association with Kingberry Productions. Using archival footage, photographs, and interviews with surviving members of the NNLC and others, the film looks at the history of the NNLC and the battles it fought to end racism and discrimination in the workplace and in labor unions. The interviews were taken after the first NNLC reunion in Detroit that commemorated the organization's 40th anniversary. In addition to the interviews with NNLC members, the documentary includes footage of speeches by Walter Reuther, Herbert Brownell, and Martin Luther King, Jr., and audio recordings from the proceedings of the House Un-American Activities Committee.  The documentary was produced, written and edited by John Owens; narrated by Emery King; Emery and Jacqueline Casselberry King executive producers.)</p></odd></c02>
+          <odd>
+            <p>(Documentary video about the history of the National Negro Labor Council, the NNLC, that was produced by WDIV-TV in association with Kingberry Productions. Using archival footage, photographs, and interviews with surviving members of the NNLC and others, the film looks at the history of the NNLC and the battles it fought to end racism and discrimination in the workplace and in labor unions. The interviews were taken after the first NNLC reunion in Detroit that commemorated the organization's 40th anniversary. In addition to the interviews with NNLC members, the documentary includes footage of speeches by Walter Reuther, Herbert Brownell, and Martin Luther King, Jr., and audio recordings from the proceedings of the House Un-American Activities Committee.  The documentary was produced, written and edited by John Owens; narrated by Emery King; Emery and Jacqueline Casselberry King executive producers.)</p>
+          </odd>
+        </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [99510423788729288]">1</container>
@@ -259,7 +263,10 @@
               </daodesc>
             </dao>
           </did>
-        <odd><p>(Documentary video about the history of the Ford Rouge River plant from the early 1920s to early 1940s that was produced by WDIV-TV in association with Kingberry Productions. The documentary features interviews of those who worked at the plant as well as archival footage and photographs and showcases the diversity of racial and ethnic backgrounds represented as well as struggles for labor rights, such as the ability to unionize. The documentary was produced, written and edited by John Owens; narrated by Emery King; Emery and Jacqueline Casselberry King executive producers.)</p></odd></c02>
+          <odd>
+            <p>(Documentary video about the history of the Ford Rouge River plant from the early 1920s to early 1940s that was produced by WDIV-TV in association with Kingberry Productions. The documentary features interviews of those who worked at the plant as well as archival footage and photographs and showcases the diversity of racial and ethnic backgrounds represented as well as struggles for labor rights, such as the ability to unionize. The documentary was produced, written and edited by John Owens; narrated by Emery King; Emery and Jacqueline Casselberry King executive producers.)</p>
+          </odd>
+        </c02>
         <c02 level="file">
           <did>
             <container type="box" label="Box [900367649990215351323683]">2</container>

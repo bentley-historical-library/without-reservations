@@ -31,7 +31,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Albright, William.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/35175">Albright, William.</persname>
       </origination>
       <unittitle encodinganalog="245">William Albright Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1962/1998">1962-1998</unitdate></unittitle>
       <abstract>William Albright--organist, composer, and University of Michigan faculty member--was born in Indiana in 1944 and died in 1998. Albright earned three music composition degrees from the University of Michigan before becoming a member of the composition faculty at the U. of M. School of Music. Albright is probably best known for his piano and organ performance. He helped to bring about a revival of ragtime, and sought inclusion of ragtime and other types of popular music in many of his compositions. He composed for many single instruments--especially the organ--and ensembles, and for orchestra. He also composed hymns, and was the music director for the First Unitarian Universalist Church of Ann Arbor, Michigan. He studied composition with Ross Lee Finney, George Rochberg, and Olivier Messiaen, among others, at Michigan and at summer workshops, and organ with Marilyn Mason. The collection includes biographical materials, correspondence, programs, professional files, University of Michigan School of Music files, and scores and recordings of William Albright works (including notes, sketches, and manuscripts) and works by his friends, students, and teachers.</abstract>
@@ -144,10 +145,10 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Albright, William.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82063886">University of Michigan. School of Music.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">First Unitarian Universalist Church (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr95015291">University of Michigan. Contemporary Directions Ensemble.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35175">Albright, William.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82063886" ref="/agents/corporate_entities/18354">University of Michigan. School of Music.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20170">First Unitarian Universalist Church (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr95015291" ref="/agents/corporate_entities/21461">University of Michigan. Contemporary Directions Ensemble.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5731">Music--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5796">Composition (Music)</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5797">Electronic music.</subject>
@@ -162,14 +163,14 @@
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr95015291">University of Michigan. Contemporary Directions Ensemble.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr95015291" ref="/agents/corporate_entities/21461">University of Michigan. Contemporary Directions Ensemble.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5731">Music--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5803">Ragtime music.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81080002">Bolcom, William.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81080002" ref="/agents/people/30473">Bolcom, William.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Sound Recordings:</head>
-        <persname source="lcnaf" encodinganalog="600">Albright, William.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35175">Albright, William.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5731">Music--Michigan--Ann Arbor.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5796">Composition (Music)</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/5797">Electronic music.</subject>
@@ -182,43 +183,43 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80057037">Finney, Ross Lee, 1906-1997</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80149470">Hodkinson, Sydney.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79091198">Messiaen, Olivier, 1908-1992</persname>
-        <persname source="lcnaf" encodinganalog="700">Morris, Robert, 1943-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81062079">Bassett, Leslie, 1923-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81080002">Bolcom, William.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr96015638">Chambers, Evan K., 1963-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no96003563">Banfield, William C., 1961-</persname>
-        <persname source="lcnaf" encodinganalog="700">Hershey, Sharon.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n96053461">Rouse, Steve.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81018884">Schwartz, Elliott, 1936-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84183730">Curtis-Smith, C. (Curtis), 1941-2014</persname>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n82063886">University of Michigan. School of Music.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">First Unitarian Universalist Church (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/nr95015291">University of Michigan. Contemporary Directions Ensemble.</corpname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80057037" ref="/agents/people/35370">Finney, Ross Lee, 1906-1997</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80149470" ref="/agents/people/32772">Hodkinson, Sydney.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79091198" ref="/agents/people/28785">Messiaen, Olivier, 1908-1992</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29962">Morris, Robert, 1943-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81062079" ref="/agents/people/32568">Bassett, Leslie, 1923-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81080002" ref="/agents/people/30473">Bolcom, William.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr96015638" ref="/agents/people/32519">Chambers, Evan K., 1963-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no96003563" ref="/agents/people/32553">Banfield, William C., 1961-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33843">Hershey, Sharon.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n96053461" ref="/agents/people/30085">Rouse, Steve.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81018884" ref="/agents/people/27306">Schwartz, Elliott, 1936-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84183730" ref="/agents/people/27128">Curtis-Smith, C. (Curtis), 1941-2014</persname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n82063886" ref="/agents/corporate_entities/18354">University of Michigan. School of Music.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/20170">First Unitarian Universalist Church (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/nr95015291" ref="/agents/corporate_entities/21461">University of Michigan. Contemporary Directions Ensemble.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors - Visual Material:</head>
-        <corpname source="lcnaf" encodinganalog="710">First Unitarian Universalist Church (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/20170">First Unitarian Universalist Church (Ann Arbor, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors - Sound Recordings:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80057037">Finney, Ross Lee, 1906-1997</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80149470">Hodkinson, Sydney.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79091198">Messiaen, Olivier, 1908-1992</persname>
-        <persname source="lcnaf" encodinganalog="700">Morris, Robert, 1943-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81062079">Bassett, Leslie, 1923-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81080002">Bolcom, William.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr96015638">Chambers, Evan K., 1963-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no96003563">Banfield, William C., 1961-</persname>
-        <persname source="lcnaf" encodinganalog="700">Hershey, Sharon.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n96053461">Rouse, Steve.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81018884">Schwartz, Elliott, 1936-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84183730">Curtis-Smith, C. (Curtis), 1941-2014</persname>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n82063886">University of Michigan. School of Music.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">First Unitarian Universalist Church (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/nr95015291">University of Michigan. Contemporary Directions Ensemble.</corpname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80057037" ref="/agents/people/35370">Finney, Ross Lee, 1906-1997</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80149470" ref="/agents/people/32772">Hodkinson, Sydney.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79091198" ref="/agents/people/28785">Messiaen, Olivier, 1908-1992</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29962">Morris, Robert, 1943-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81062079" ref="/agents/people/32568">Bassett, Leslie, 1923-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81080002" ref="/agents/people/30473">Bolcom, William.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr96015638" ref="/agents/people/32519">Chambers, Evan K., 1963-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no96003563" ref="/agents/people/32553">Banfield, William C., 1961-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33843">Hershey, Sharon.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n96053461" ref="/agents/people/30085">Rouse, Steve.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81018884" ref="/agents/people/27306">Schwartz, Elliott, 1936-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84183730" ref="/agents/people/27128">Curtis-Smith, C. (Curtis), 1941-2014</persname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n82063886" ref="/agents/corporate_entities/18354">University of Michigan. School of Music.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/20170">First Unitarian Universalist Church (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/nr95015291" ref="/agents/corporate_entities/21461">University of Michigan. Contemporary Directions Ensemble.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>

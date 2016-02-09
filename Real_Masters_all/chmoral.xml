@@ -24,7 +24,8 @@
         <item>Complete reencoding of revised f.a. from Word 2007 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Center for the History of Medicine.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/19109">University of Michigan. Center for the History of Medicine.</corpname>
       </origination>
       <unittitle encodinganalog="245">Center for the History of Medicine (University of Michigan) Oral History Interviews <unitdate type="inclusive" encodinganalog="245$f" normal="2002/2007">2002-2007</unitdate>, <unitdate type="inclusive" encodinganalog="245$f" normal="2011">2011</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">05104 Bimu C502 2</unitid>
@@ -89,35 +90,35 @@
       </p>
       <controlaccess>
         <head>Subjects - Sound Recordings:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Center for the History of Medicine.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19109">University of Michigan. Center for the History of Medicine.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6816">Medical sciences--Michigan.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6817">Medicine.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151">University of Michigan. Medical School.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n92805073">University of Michigan. Historical Center for the Health Sciences.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151" ref="/agents/corporate_entities/20391">University of Michigan. Medical School.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n92805073" ref="/agents/corporate_entities/21041">University of Michigan. Historical Center for the Health Sciences.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr92042288">Abrams, G. D. (Gerald David), 1932-</persname>
-        <persname source="lcnaf" encodinganalog="700">Bartlett, Robert H.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80004975">Bohr, David F., 1915-</persname>
-        <persname source="lcnaf" encodinganalog="700">Bole, Giles G.</persname>
-        <persname source="lcnaf" encodinganalog="700">Bull, Frances E.</persname>
-        <persname source="lcnaf" encodinganalog="700">Christensen, A. Kent.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79148968">Davenport, Horace W. (Horace Willard), 1912-2005</persname>
-        <persname source="lcnaf" encodinganalog="700">Dean, George Arthur.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2005104141">Fajans, Stefan S.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88008510">Gelehrter, Thomas D.</persname>
-        <persname source="lcnaf" encodinganalog="700">Henderson, John W. (John Woodworth), 1916-</persname>
-        <persname source="lcnaf" encodinganalog="700">Hubbard, William N.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50038845">Judge, Richard D.</persname>
-        <persname source="lcnaf" encodinganalog="700">Margolis, Philip M., 1925-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n92805027">Morley, George W.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n83060062">Neidhardt, Frederick C. (Frederick Carl), 1931-</persname>
-        <persname source="lcnaf" encodinganalog="700">Punch, Margaret R.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n00120652">Sloan, Herbert, 1914-</persname>
-        <persname source="lcnaf" encodinganalog="700">Swain, Henry H.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80016050">Turcotte, Jeremiah G., 1933-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr92042288" ref="/agents/people/32449">Abrams, G. D. (Gerald David), 1932-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35504">Bartlett, Robert H.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80004975" ref="/agents/people/36135">Bohr, David F., 1915-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32120">Bole, Giles G.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31174">Bull, Frances E.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27221">Christensen, A. Kent.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79148968" ref="/agents/people/35074">Davenport, Horace W. (Horace Willard), 1912-2005</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34379">Dean, George Arthur.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2005104141" ref="/agents/people/28433">Fajans, Stefan S.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88008510" ref="/agents/people/30920">Gelehrter, Thomas D.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33964">Henderson, John W. (John Woodworth), 1916-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34924">Hubbard, William N.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50038845" ref="/agents/people/28971">Judge, Richard D.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29230">Margolis, Philip M., 1925-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n92805027" ref="/agents/people/32739">Morley, George W.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n83060062" ref="/agents/people/32463">Neidhardt, Frederick C. (Frederick Carl), 1931-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28485">Punch, Margaret R.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n00120652" ref="/agents/people/35079">Sloan, Herbert, 1914-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32962">Swain, Henry H.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80016050" ref="/agents/people/33262">Turcotte, Jeremiah G., 1933-</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

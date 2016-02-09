@@ -31,7 +31,8 @@
         <item>Original encoding in EAD2002 using manual tagging.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -42,7 +43,7 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Trimberger, Frank P.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32151">Trimberger, Frank P.</persname>
       </origination>
       <unittitle encodinganalog="245">Frank P. Trimberger photograph collection <unitdate type="inclusive" encodinganalog="245$f" normal="1918/1919" certainty="approximate">circa 1918-1919</unitdate></unittitle>
       <abstract>Scanned copy of photographs of Frank P. Trimberger, who served as a private in Company B, 310th Engineers, during the American intervention at Archangel, Russia, the "Polar Bear Expedition."</abstract>
@@ -85,9 +86,9 @@
       </p>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <persname source="lcnaf" encodinganalog="600">Trimberger, Frank P.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32151">Trimberger, Frank P.</persname>
         <geogname source="lcnaf" encodinganalog="651" ref="/subjects/760">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Engineer Regiment, 310th. Company B.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19559">United States. Army. Engineer Regiment, 310th. Company B.</corpname>
         <subject source="local" encodinganalog="690" authfilenumber="http://id.loc.gov/authorities/names/n2008059426" ref="/subjects/5619">Polar Bear Expedition.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3624">Soldiers--American.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5397">Barracks--American.</subject>

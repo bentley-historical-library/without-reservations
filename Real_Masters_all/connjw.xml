@@ -23,7 +23,8 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -34,7 +35,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Conn, Jerome W., 1907-1994.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/30586">Conn, Jerome W., 1907-1994.</persname>
       </origination>
       <unittitle encodinganalog="245">Jerome W. Conn papers <unitdate type="inclusive" encodinganalog="245$f" normal="1931/1994">1931-1994</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1954/1975">1954-1975</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">9617 Aa 2</unitid>
@@ -75,16 +76,16 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Conn, Jerome W., 1907-1994.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30586">Conn, Jerome W., 1907-1994.</persname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6999">Aldosterone.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/7000">Hypertension.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Division of Endocrinology and Metabolism.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151">University of Michigan. Medical School.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17424">University of Michigan. Division of Endocrinology and Metabolism.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151" ref="/agents/corporate_entities/20391">University of Michigan. Medical School.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600">Conn, Jerome W., 1907-1994.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30586">Conn, Jerome W., 1907-1994.</persname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4039">Laboratories--Michigan--Ann Arbor.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/4040">Teachers--Michigan--Ann Arbor.</subject>
         <geogname source="lctgm" encodinganalog="651" ref="/subjects/265">Ann Arbor (Mich.)--Laboratories.</geogname>

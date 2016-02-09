@@ -47,7 +47,8 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/2"/></eadheader>
+    <classification ref="/repositories/2/classifications/2"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -58,7 +59,7 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan--Law School.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/18699">University of Michigan--Law School.</corpname>
       </origination>
       <unittitle encodinganalog="245">[Law School (University of Michigan) publications] <unitdate type="inclusive" encodinganalog="245$f" normal="1859/2015">1859-2015</unitdate></unittitle>
       <abstract>Includes addresses and lectures, annual reports, bibliographies, brochures and pamphlets, bulletins and college catalogs, and directories. Also includes histories such as <title render="italic">The Law School, 1940-1973</title>; <title render="italic">Legal Education at Michigan</title>, 1859-1959; and <title render="italic">A Short History and Some of the Graduate of the Department</title>. Also contains journals such as the <title render="italic">Michigan Journal of International Law</title></abstract>
@@ -109,12 +110,12 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Law School.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Law.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Barristers Society (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Law Quadrangle (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Dept. of Law.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">Barristers Society (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Law School.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18757">University of Michigan. Dept. of Law.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20855">Barristers Society (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19786">Law Quadrangle (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/18757">University of Michigan. Dept. of Law.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/20855">Barristers Society (University of Michigan)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Publications</head>
@@ -501,7 +502,10 @@
                       </daodesc>
                     </dao>
                   </did>
-                <odd><p>(Academic requirements and policy for the University of Michigan Law School's Juris Doctor degree. Approved 1996, last revised November 2002.)</p></odd></c06>
+                  <odd>
+                    <p>(Academic requirements and policy for the University of Michigan Law School's Juris Doctor degree. Approved 1996, last revised November 2002.)</p>
+                  </odd>
+                </c06>
                 <c06 level="file">
                   <did>
                     <physloc>Online</physloc>
@@ -512,7 +516,10 @@
                       </daodesc>
                     </dao>
                   </did>
-                <odd><p>(Academic requirements and policy for the University of Michigan Law School's Juris Doctor degree. Approved 1996, last revised May 2005.)</p></odd></c06>
+                  <odd>
+                    <p>(Academic requirements and policy for the University of Michigan Law School's Juris Doctor degree. Approved 1996, last revised May 2005.)</p>
+                  </odd>
+                </c06>
                 <c06 level="file">
                   <did>
                     <physloc>Online</physloc>
@@ -523,7 +530,10 @@
                       </daodesc>
                     </dao>
                   </did>
-                <odd><p>(Academic requirements and policy for the University of Michigan Law School's Juris Doctor degree.  Approved April 1996; revised June 1996, June 1998, May 2000, February 2001, April 2001, March 2002, November 2002, May 2005, and April 2007.)</p></odd></c06>
+                  <odd>
+                    <p>(Academic requirements and policy for the University of Michigan Law School's Juris Doctor degree.  Approved April 1996; revised June 1996, June 1998, May 2000, February 2001, April 2001, March 2002, November 2002, May 2005, and April 2007.)</p>
+                  </odd>
+                </c06>
                 <c06 level="file">
                   <did>
                     <physloc>Online</physloc>
@@ -534,7 +544,10 @@
                       </daodesc>
                     </dao>
                   </did>
-                <odd><p>(Academic requirements and policy for the University of Michigan Law School's Juris Doctor program.  Approved April 1996; revised June 1996, June 1998, May 2000, February 2001, April 2001, March 2002, November 2002, May 2005, April 2007 and January 2008.)</p></odd></c06>
+                  <odd>
+                    <p>(Academic requirements and policy for the University of Michigan Law School's Juris Doctor program.  Approved April 1996; revised June 1996, June 1998, May 2000, February 2001, April 2001, March 2002, November 2002, May 2005, April 2007 and January 2008.)</p>
+                  </odd>
+                </c06>
                 <c06 level="file">
                   <did>
                     <physloc>Online</physloc>
@@ -545,7 +558,10 @@
                       </daodesc>
                     </dao>
                   </did>
-                <odd><p>(Academic requirements and policy for the University of Michigan Law School's Juris Doctor degree.  Approved April 1996; revised June 1996, June 1998, May 2000, February 2001, April 2001, March 2002, November 2002, May 2005, April 2007, January 2008, and May 2009.)</p></odd></c06>
+                  <odd>
+                    <p>(Academic requirements and policy for the University of Michigan Law School's Juris Doctor degree.  Approved April 1996; revised June 1996, June 1998, May 2000, February 2001, April 2001, March 2002, November 2002, May 2005, April 2007, January 2008, and May 2009.)</p>
+                  </odd>
+                </c06>
                 <c06 level="file">
                   <did>
                     <physloc>Online</physloc>
@@ -556,7 +572,10 @@
                       </daodesc>
                     </dao>
                   </did>
-                <odd><p>(Academic requirements and policy for the University of Michigan Law School's Juris Doctor Degree.  Approved April 1996; revised June 1996, June 1998, May 2000, February 2001, April 2001, March 2002, November 2002, May 2005, April 2007, January 2008, May 2009, and May 2010.)</p></odd></c06>
+                  <odd>
+                    <p>(Academic requirements and policy for the University of Michigan Law School's Juris Doctor Degree.  Approved April 1996; revised June 1996, June 1998, May 2000, February 2001, April 2001, March 2002, November 2002, May 2005, April 2007, January 2008, May 2009, and May 2010.)</p>
+                  </odd>
+                </c06>
                 <c06 level="file">
                   <did>
                     <physloc>Online</physloc>
@@ -567,7 +586,10 @@
                       </daodesc>
                     </dao>
                   </did>
-                <odd><p>(Academic requirements and policy for the University of Michigan Law School's Juris Doctor degree.  Approved April 1996; revised June 1996, June 1998, May 2000, February 2001, April 2001, March 2002, November 2002, May 2005, April 2007, January 2008, May 2009, May 2010, May 2011, and August 2011.)</p></odd></c06>
+                  <odd>
+                    <p>(Academic requirements and policy for the University of Michigan Law School's Juris Doctor degree.  Approved April 1996; revised June 1996, June 1998, May 2000, February 2001, April 2001, March 2002, November 2002, May 2005, April 2007, January 2008, May 2009, May 2010, May 2011, and August 2011.)</p>
+                  </odd>
+                </c06>
               </c05>
               <c05 level="file">
                 <did>
@@ -583,8 +605,11 @@
                       </daodesc>
                     </dao>
                   </did>
-                <odd><p>(Academic requirements and policy for the University of Michigan Law School effective July 1, 2003.  Information and requirements were  revised April 24, 2004, and applicable to students who matriculate &#13;
-in the LL.M./S.J.D. program or the S.J.D. program on or after August, 2003.)</p></odd></c06>
+                  <odd>
+                    <p>(Academic requirements and policy for the University of Michigan Law School effective July 1, 2003.  Information and requirements were  revised April 24, 2004, and applicable to students who matriculate &#13;
+in the LL.M./S.J.D. program or the S.J.D. program on or after August, 2003.)</p>
+                  </odd>
+                </c06>
                 <c06 level="file">
                   <did>
                     <physloc>Online</physloc>
@@ -595,7 +620,10 @@ in the LL.M./S.J.D. program or the S.J.D. program on or after August, 2003.)</p>
                       </daodesc>
                     </dao>
                   </did>
-                <odd><p>(Academic requirements and policy for the University of Michigan Law School, effective November 4, 1994. Information and requirements were subsequently revised May 6, 1999, December 17, 1999, August 22, 2001, January 17, 2003, April 24, 2004, and April 11, 2006 and applicable to students who matriculated in the S.J.D. program before August 2003.)</p></odd></c06>
+                  <odd>
+                    <p>(Academic requirements and policy for the University of Michigan Law School, effective November 4, 1994. Information and requirements were subsequently revised May 6, 1999, December 17, 1999, August 22, 2001, January 17, 2003, April 24, 2004, and April 11, 2006 and applicable to students who matriculated in the S.J.D. program before August 2003.)</p>
+                  </odd>
+                </c06>
                 <c06 level="file">
                   <did>
                     <physloc>Online</physloc>
@@ -606,7 +634,10 @@ in the LL.M./S.J.D. program or the S.J.D. program on or after August, 2003.)</p>
                       </daodesc>
                     </dao>
                   </did>
-                <odd><p>(Academic requirements and policy for the University of Michigan Law School, effective July 1, 2003.  Information and requirements revised April 24, 2004, May 3, 2005, and April 11, 2006 and applicable to students who matriculate in the LL.M./S.J.D. program or the S.J.D. program on or after August, 2003.)</p></odd></c06>
+                  <odd>
+                    <p>(Academic requirements and policy for the University of Michigan Law School, effective July 1, 2003.  Information and requirements revised April 24, 2004, May 3, 2005, and April 11, 2006 and applicable to students who matriculate in the LL.M./S.J.D. program or the S.J.D. program on or after August, 2003.)</p>
+                  </odd>
+                </c06>
               </c05>
               <c05 level="file">
                 <did>
@@ -621,7 +652,10 @@ in the LL.M./S.J.D. program or the S.J.D. program on or after August, 2003.)</p>
                     </daodesc>
                   </dao>
                 </did>
-              <odd><p>(Academic requirements and policy for the University of Michigan Law School's Master of Comparative Law (M.C.L.) and Master of Laws (LL.M.) degrees.  Effective February 8, 2005.)</p></odd></c05>
+                <odd>
+                  <p>(Academic requirements and policy for the University of Michigan Law School's Master of Comparative Law (M.C.L.) and Master of Laws (LL.M.) degrees.  Effective February 8, 2005.)</p>
+                </odd>
+              </c05>
             </c04>
             <c04 level="file">
               <did>

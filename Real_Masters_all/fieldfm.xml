@@ -24,7 +24,8 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -35,7 +36,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Field family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/1368">Field family.</famname>
       </origination>
       <unittitle encodinganalog="245">Field Family papers <unitdate type="inclusive" encodinganalog="245$f" normal="1836/1940">1836-1940</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851213 Aa 2</unitid>
@@ -78,8 +79,8 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <famname source="lcnaf" encodinganalog="600">Buck family.</famname>
-        <corpname source="lcnaf" encodinganalog="610">Church of Christ (Englishville, Mich.)</corpname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1275">Buck family.</famname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21098">Church of Christ (Englishville, Mich.)</corpname>
         <geogname source="lcsh" encodinganalog="651" ref="/subjects/1382">Englishville (Mich.)</geogname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6565">Farm life--Michigan--Kent County.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6566">Farmers--Michigan--Kent County.</subject>
@@ -91,11 +92,11 @@
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Bennett, Flora.</persname>
-        <persname source="lcnaf" encodinganalog="700">Buck, Myron.</persname>
-        <persname source="lcnaf" encodinganalog="700">Buck, Susan Field.</persname>
-        <persname source="lcnaf" encodinganalog="700">Field, Abby, 1844-1901.</persname>
-        <persname source="lcnaf" encodinganalog="700">Field, Sylvester.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29884">Bennett, Flora.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31276">Buck, Myron.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27808">Buck, Susan Field.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31831">Field, Abby, 1844-1901.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30504">Field, Sylvester.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>

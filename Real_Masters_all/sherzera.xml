@@ -28,7 +28,8 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
-  <classification ref="/repositories/2/classifications/1"/></eadheader>
+    <classification ref="/repositories/2/classifications/1"/>
+  </eadheader>
   <frontmatter>
     <titlepage>
       <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
@@ -39,7 +40,7 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Sherzer, Allen F.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/27762">Sherzer, Allen F.</persname>
       </origination>
       <unittitle encodinganalog="245">Allen F. Sherzer visual materials collection <unitdate type="inclusive" encodinganalog="245$f" normal="1880/1949" certainty="approximate">1880s-1940s (scattered dates)</unitdate></unittitle>
       <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">0069 Aa 2; UAl</unitid>
@@ -95,15 +96,15 @@
       </p>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <persname source="lcnaf" encodinganalog="600">Sherzer, Allen F.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2002009556">Sherzer, W. H. (William Hittell), 1860-1932.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Delta Upsilon Fraternity. University of Michigan Chapter.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs--1921-1930.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/27762">Sherzer, Allen F.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2002009556" ref="/agents/people/32747">Sherzer, W. H. (William Hittell), 1860-1932.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19551">Delta Upsilon Fraternity. University of Michigan Chapter.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Students--Social life and customs--1921-1930.</corpname>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10081">World War, 1914-1918--New York (State)</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10082">World War, 1914-1918--Massachusetts.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/6091">World War, 1914-1918--France.</subject>
         <subject source="lcsh" encodinganalog="650" ref="/subjects/10083">World War, 1914-1918--Posters.</subject>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Field Artillery, 301st.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20991">United States. Army. Field Artillery, 301st.</corpname>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/3723">Military art and science.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5246">Military camps--New York (State)--Old Fort Niagara.</subject>
         <subject source="lctgm" encodinganalog="650" ref="/subjects/5247">Military camps--Massachusetts--Fort Devens.</subject>
