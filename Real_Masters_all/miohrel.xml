@@ -28,6 +28,7 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
+    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
@@ -39,10 +40,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Michigan-Ohio Regional Education Laboratory.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/22410">Michigan-Ohio Regional Education Laboratory.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Michigan-Ohio Regional Education Laboratory records <unitdate type="inclusive" encodinganalog="245$f" normal="1966/1969">1966-1969</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851868 Bh 2</unitid>
+      <unittitle encodinganalog="245">Michigan-Ohio Regional Education Laboratory records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1966/1969">1966-1969</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851868 Bh 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Minutes of board of directors, office files, tapes of educational programs and talks, and reports and publications.</abstract>
       <repository>
@@ -83,13 +83,13 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">African Americans--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">African Americans--Ohio.</subject>
-        <subject source="lcsh" encodinganalog="650">Education--Ohio.</subject>
-        <subject source="lcsh" encodinganalog="650">Education--Michigan.</subject>
-        <geogname source="lcsh" encodinganalog="651">Ohio.</geogname>
-        <subject source="lcsh" encodinganalog="650">Teachers--Ohio.</subject>
-        <subject source="lcsh" encodinganalog="650">Teachers--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5781">African Americans--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9398">African Americans--Ohio.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9399">Education--Ohio.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5752">Education--Michigan.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1578">Ohio.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9400">Teachers--Ohio.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8292">Teachers--Michigan.</subject>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -99,19 +99,13 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1966/1969">1966-1969</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2564980331035225]">1</container>
+            <unitdate type="inclusive" normal="1966/1969">1966-1969</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1966/1969">1966-1969</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [5400233347640502311]">2</container>
+            <unitdate type="inclusive" normal="1966/1969">1966-1969</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -120,22 +114,13 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">3</container>
+            <container type="box" label="Box [4175814580459144140786846]">3</container>
             <unittitle>Correspondence, administrative materials, etc.</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">4</container>
-            <unittitle>Correspondence, administrative materials, etc.</unittitle>
-          </did>
-          <odd>
-            <p>(continued)</p>
-          </odd>
-        </c02>
-        <c02 level="file">
-          <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [18803438200009194]">4</container>
             <unittitle>Correspondence, administrative materials, etc.</unittitle>
           </did>
           <odd>
@@ -144,7 +129,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [6092904746319016621353]">5</container>
             <unittitle>Correspondence, administrative materials, etc.</unittitle>
           </did>
           <odd>
@@ -153,7 +138,16 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">7</container>
+            <container type="box" label="Box [191657520488938230155753]">6</container>
+            <unittitle>Correspondence, administrative materials, etc.</unittitle>
+          </did>
+          <odd>
+            <p>(continued)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box [94684200344044303847930]">7</container>
             <unittitle>Correspondence, administrative materials, and tapes</unittitle>
           </did>
         </c02>
@@ -164,13 +158,13 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">8</container>
+            <container type="box" label="Box [102984418400884415]">8</container>
             <unittitle>Miscellaneous</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">9</container>
+            <container type="box" label="Box [959278164134367516]">9</container>
             <unittitle>Miscellaneous</unittitle>
           </did>
           <odd>
@@ -179,7 +173,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">10</container>
+            <container type="box" label="Box [445319747520069124]">10</container>
             <unittitle>Miscellaneous</unittitle>
           </did>
           <odd>

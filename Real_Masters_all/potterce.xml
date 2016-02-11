@@ -27,6 +27,7 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
+    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
@@ -38,10 +39,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/nr92042890">Potter, Charles E. (Charles Edward), 1916-1979.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/nr92042890" ref="/agents/people/34155">Potter, Charles E. (Charles Edward), 1916-1979.</persname>
       </origination>
-      <unittitle encodinganalog="245">Charles E. Potter Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1947/1958">1947-1958</unitdate></unittitle>
-      <abstract>Republican U. S. Congressman from Lapeer, Michigan, 1946-1952; U.S. Senator, 1952-1959. Scrapbooks containing clippings, press releases, speeches, newsletters, and photographs; senatorial campaign files, 1952 and 1958; statements about state and national issues; files relating to legislation which he introduced; Potter's voting record in Congress; and photographs and motion pictures.</abstract>
+      <unittitle encodinganalog="245">Charles E. Potter Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1947/1958">1947-1958</unitdate><abstract>Republican U. S. Congressman from Lapeer, Michigan, 1946-1952; U.S. Senator, 1952-1959. Scrapbooks containing clippings, press releases, speeches, newsletters, and photographs; senatorial campaign files, 1952 and 1958; statements about state and national issues; files relating to legislation which he introduced; Potter's voting record in Congress; and photographs and motion pictures.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">85444 AC, Aa 2, UAm, Ac</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="part">
@@ -88,42 +88,42 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651">Great Lakes.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Michigan--Politics and government--1837-1950.</geogname>
-        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1946-1960.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Michigan--Politics and government--1951-</geogname>
-        <subject source="lcsh" encodinganalog="650">Old age.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr92042890">Potter, Charles E. (Charles Edward), 1916-1979.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
-        <subject source="lcsh" encodinganalog="650">Shipping--Great Lakes.</subject>
-        <corpname source="lcnaf" encodinganalog="610">United States. Congress--Elections, 1952.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Congress--Elections, 1958.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79107874">United States. Congress. House.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79022161">United States. Congress. Senate.</corpname>
-        <geogname source="lcsh" encodinganalog="651">United States--Politics and government--1953-1961.</geogname>
-        <geogname source="lcsh" encodinganalog="651">United States--Politics and government--1945-1953.</geogname>
-        <subject source="lcsh" encodinganalog="650">Veterans--United States.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1992">Great Lakes.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/884">Michigan--Politics and government--1837-1950.</geogname>
+        <geogname source="local" encodinganalog="691" ref="/subjects/809">Michigan--Politics and government--1946-1960.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/910">Michigan--Politics and government--1951-</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7570">Old age.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr92042890" ref="/agents/people/34155">Potter, Charles E. (Charles Edward), 1916-1979.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21402">Republican Party (Mich.)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7985">Shipping--Great Lakes.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19794">United States. Congress--Elections, 1952.<term type="topical">Elections, 1952.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19794">United States. Congress--Elections, 1958.<term type="topical">Elections, 1958.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79107874" ref="/agents/corporate_entities/19180">United States. Congress. House.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79022161" ref="/agents/corporate_entities/18116">United States. Congress. Senate.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1272">United States--Politics and government--1953-1961.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1576">United States--Politics and government--1945-1953.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7919">Veterans--United States.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <subject source="lctgm" encodinganalog="650">Broadcasting.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79066408">Eisenhower, Dwight D. (Dwight David), 1890-1969.</persname>
-        <subject source="lctgm" encodinganalog="650">Handicapped persons.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79043290">McCarthy, Joseph, 1908-1957.</persname>
-        <subject source="lctgm" encodinganalog="650">Music.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79018757">Nixon, Richard M. (Richard Milhous), 1913-1994.</persname>
-        <subject source="lcsh" encodinganalog="650">Political elections--1956.</subject>
-        <subject source="lcsh" encodinganalog="650">Political elections--1958.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr92042890">Potter, Charles E. (Charles Edward), 1916-1979.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
-        <geogname source="lcsh" encodinganalog="651">Saint Lawrence Seaway.</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79029742">Truman, Harry S., 1884-1972.</persname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4240">Broadcasting.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79066408" ref="/agents/people/30871">Eisenhower, Dwight D. (Dwight David), 1890-1969.</persname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3590">Handicapped persons.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79043290" ref="/agents/people/27888">McCarthy, Joseph, 1908-1957.</persname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4272">Music.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79018757" ref="/agents/people/30955">Nixon, Richard M. (Richard Milhous), 1913-1994.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9827">Political elections--1956.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9828">Political elections--1958.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr92042890" ref="/agents/people/34155">Potter, Charles E. (Charles Edward), 1916-1979.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21402">Republican Party (Mich.)</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1634">Saint Lawrence Seaway.</geogname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79029742" ref="/agents/people/27998">Truman, Harry S., 1884-1972.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Motion pictures.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="aat" encodinganalog="655">Scrapbooks.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3163">Motion pictures.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3137">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Scrapbooks.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -133,19 +133,18 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>Book: <title render="italic">Days of Shame</title>, <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [37954435196376272]">1</container>
+            <unittitle>Book: <title render="italic">Days of Shame</title></unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [37954435196376272]">1</container>
             <unittitle>Biographical material</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [37954435196376272]">1</container>
             <unittitle>Awards and citations (military, political and civic)</unittitle>
           </did>
           <odd>
@@ -154,7 +153,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [37954435196376272]">1</container>
             <unittitle>Articles (miscellaneous)</unittitle>
           </did>
         </c02>
@@ -165,65 +164,62 @@
         </did>
         <c02 level="subseries">
           <did>
-            <unittitle>Election of <unitdate type="inclusive" normal="1952">1952</unitdate></unittitle>
-          </did>
+            <unittitle>Election of</unittitle><unitdate type="inclusive" normal="1952">1952</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [37954435196376272]">1</container>
               <unittitle>Campaign advertisements, cards and ephemera</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [37954435196376272]">1</container>
               <unittitle>Campaign program</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>Campaign speeches <unitdate>undated</unitdate>, <unitdate type="inclusive" normal="1952-05/1952-11">May-November 1952</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [37954435196376272]">1</container>
+              <unittitle>Campaign speeches</unittitle><unitdate>undated</unitdate><unitdate type="inclusive" normal="1952-05/1952-11">May-November 1952</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">6 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>Campaign press releases <unitdate type="inclusive" normal="1952-04/1952-11">April-November 1952</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [37954435196376272]">1</container>
+              <unittitle>Campaign press releases</unittitle><unitdate type="inclusive" normal="1952-04/1952-11">April-November 1952</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [37954435196376272]">1</container>
               <unittitle>Issues (veterans' legislation) correspondence</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [37954435196376272]">1</container>
               <unittitle>Issues (miscellaneous) correspondence</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [37954435196376272]">1</container>
               <unittitle>Ethnic groups</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [37954435196376272]">1</container>
               <unittitle>Petitions</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [37954435196376272]">1</container>
               <unittitle>Campaign material and election certificates</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">7 items</extent>
@@ -236,13 +232,11 @@
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>Election of <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
-          </did>
+            <unittitle>Election of</unittitle><unitdate type="inclusive" normal="1958">1958</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>Campaign press releases <unitdate type="inclusive" normal="1958-08/1958-11">August-November 1958</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [37954435196376272]">1</container>
+              <unittitle>Campaign press releases</unittitle><unitdate type="inclusive" normal="1958-08/1958-11">August-November 1958</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -253,13 +247,13 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">1</container>
+                <container type="box" label="Box [37954435196376272]">1</container>
                 <unittitle>Advertising and ephemera</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">1</container>
+                <container type="box" label="Box [37954435196376272]">1</container>
                 <unittitle>Contributors</unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -268,80 +262,79 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">1</container>
+                <container type="box" label="Box [37954435196376272]">1</container>
                 <unittitle>Election-challengers</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">1</container>
+                <container type="box" label="Box [37954435196376272]">1</container>
                 <unittitle>Mailing lists</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">1</container>
+                <container type="box" label="Box [37954435196376272]">1</container>
                 <unittitle>National Federation of Republican Women</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">1</container>
+                <container type="box" label="Box [37954435196376272]">1</container>
                 <unittitle>Newspapers and radio campaign</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">1</container>
+                <container type="box" label="Box [37954435196376272]">1</container>
                 <unittitle>Organization</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">1</container>
+                <container type="box" label="Box [37954435196376272]">1</container>
                 <unittitle>Republican National Committee</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">1</container>
+                <container type="box" label="Box [37954435196376272]">1</container>
                 <unittitle>Republican State Central Committee</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">1</container>
+                <container type="box" label="Box [37954435196376272]">1</container>
                 <unittitle>Republican State Central Committee (violation of corrupt practices act)</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">1</container>
+                <container type="box" label="Box [37954435196376272]">1</container>
                 <unittitle>Republican publications</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">1</container>
+                <container type="box" label="Box [37954435196376272]">1</container>
                 <unittitle>State operating fund</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">1</container>
-                <unittitle>Vote analyses <unitdate type="inclusive" normal="1956/1958">1956-1958</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [37954435196376272]">1</container>
+                <unittitle>Vote analyses</unittitle><unitdate type="inclusive" normal="1956/1958">1956-1958</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">1</container>
+                <container type="box" label="Box [37954435196376272]">1</container>
                 <unittitle>Votes cost (primary)</unittitle>
               </did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [37954435196376272]">1</container>
               <unittitle>Notebook containing lists and information about county Republican workers</unittitle>
             </did>
           </c03>
@@ -360,42 +353,37 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>News releases <unitdate type="inclusive" normal="1953/1956-06">1953-June 1956</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [37954435196376272]">1</container>
+              <unittitle>News releases</unittitle><unitdate type="inclusive" normal="1953/1956-06">1953-June 1956</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">5 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>News releases <unitdate type="inclusive" normal="1956-07/1958-08">July 1956-August 1958</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [38214616724782222041917]">2</container>
+              <unittitle>News releases</unittitle><unitdate type="inclusive" normal="1956-07/1958-08">July 1956-August 1958</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">12 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>Congressional Record tear-sheets <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [38214616724782222041917]">2</container>
+              <unittitle>Congressional Record tear-sheets</unittitle><unitdate type="inclusive" normal="1958">1958</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>Radio and television broadcasts <unitdate type="inclusive" normal="1950/1957">1950-1957</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [38214616724782222041917]">2</container>
+              <unittitle>Radio and television broadcasts</unittitle><unitdate type="inclusive" normal="1950/1957">1950-1957</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">4 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>Statements <unitdate type="inclusive" normal="1953/1957">1953-1957</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [38214616724782222041917]">2</container>
+              <unittitle>Statements</unittitle><unitdate type="inclusive" normal="1953/1957">1953-1957</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">6 folders</extent>
               </physdesc>
             </did>
@@ -405,16 +393,15 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>Letters of appreciation from constituents and others <unitdate type="inclusive" normal="1952/1958">1952-1958</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [38214616724782222041917]">2</container>
+              <unittitle>Letters of appreciation from constituents and others</unittitle><unitdate type="inclusive" normal="1952/1958">1952-1958</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">11 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [38214616724782222041917]">2</container>
               <unittitle>
                 <genreform source="aat" normal="Sound recordings">Audio-tapes</genreform>
               </unittitle>
@@ -425,9 +412,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>Senator Potter's Reports <unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [38214616724782222041917]">2</container>
+              <unittitle>Senator Potter's Reports</unittitle><unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -436,7 +422,7 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">3</container>
+              <container type="box" label="Box [4724844483503739]">3</container>
               <unittitle>80th Congress: H. R. 5758: Armed Forces Leave Act of 1946</unittitle>
             </did>
           </c03>
@@ -446,13 +432,13 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
+                <container type="box" label="Box [4724844483503739]">3</container>
                 <unittitle>H. R. 961, etc.: Upper Peninsula Fish Hatchery</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
+                <container type="box" label="Box [4724844483503739]">3</container>
                 <unittitle>H. R. 5346: Long-range Shipping Bill</unittitle>
               </did>
             </c04>
@@ -463,43 +449,43 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
+                <container type="box" label="Box [4724844483503739]">3</container>
                 <unittitle>H. R. J. 159: St. Lawrence Seaway</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
+                <container type="box" label="Box [4724844483503739]">3</container>
                 <unittitle>H. R. J. 242: Special National Election</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
+                <container type="box" label="Box [4724844483503739]">3</container>
                 <unittitle>H. R. 261: Bonus for Combat Troops</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
+                <container type="box" label="Box [4724844483503739]">3</container>
                 <unittitle>H. R. 1898: Authorization for Secretary of Commerce to compile statistical data relating to travel</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
+                <container type="box" label="Box [4724844483503739]">3</container>
                 <unittitle>H. R. 2995: To amend joint resolution regarding Great Lakes sea lampreys</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
+                <container type="box" label="Box [4724844483503739]">3</container>
                 <unittitle>H. R. 3180: Establish Federal Education Agency</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
+                <container type="box" label="Box [4724844483503739]">3</container>
                 <unittitle>H. R. 6500: To amend joint resolution regarding Great Lakes sea lampreys</unittitle>
               </did>
             </c04>
@@ -510,31 +496,31 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
+                <container type="box" label="Box [4724844483503739]">3</container>
                 <unittitle>Senate Congressional Resolution 40: To place inscription "United States of America" on export containers</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
+                <container type="box" label="Box [4724844483503739]">3</container>
                 <unittitle>S. J. Res. 95: John J. Pershing memorial</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
+                <container type="box" label="Box [4724844483503739]">3</container>
                 <unittitle>S. 1442: Federal Power Act</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
+                <container type="box" label="Box [4724844483503739]">3</container>
                 <unittitle>S. 2150: St. Lawrence Seaway</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
+                <container type="box" label="Box [4724844483503739]">3</container>
                 <unittitle>S. 3596: Federal Trade Commission Act</unittitle>
               </did>
             </c04>
@@ -545,25 +531,25 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
+                <container type="box" label="Box [4724844483503739]">3</container>
                 <unittitle>S. 17: Repeal of manufacturers' excise tax on automobiles, etc.</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
+                <container type="box" label="Box [4724844483503739]">3</container>
                 <unittitle>S. Con. Res. 18: re. mental illness</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
+                <container type="box" label="Box [4724844483503739]">3</container>
                 <unittitle>S. J. Res.177: sale of certain war-built tankers</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
+                <container type="box" label="Box [4724844483503739]">3</container>
                 <unittitle>S. 693: Establishment of the United States Commission on the Aging and Aged</unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">3 folders</extent>
@@ -572,55 +558,54 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
-                <unittitle>S. 771: Communications Act of <unitdate type="inclusive" normal="1934">1934</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [4724844483503739]">3</container>
+                <unittitle>S. 771: Communications Act of</unittitle><unitdate type="inclusive" normal="1934">1934</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
+                <container type="box" label="Box [4724844483503739]">3</container>
                 <unittitle>S. 1032: Great Lakes connecting channels above Lake Erie</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
+                <container type="box" label="Box [4724844483503739]">3</container>
                 <unittitle>S. 1381: To incorporate the Society of the 28th Division</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
+                <container type="box" label="Box [4724844483503739]">3</container>
                 <unittitle>S. 2707: To establish Technological laboratory under Fish and Wildlife Service to serve Great Lakes region</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
+                <container type="box" label="Box [4724844483503739]">3</container>
                 <unittitle>S. 3108: To encourage construction of modern Great Lakes bulk cargo vessels</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
+                <container type="box" label="Box [4724844483503739]">3</container>
                 <unittitle>S. 3447: To give effect to convention on Great Lakes Fisheries</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
+                <container type="box" label="Box [4724844483503739]">3</container>
                 <unittitle>S. 3617: re. prescribing criminal penalties for subversive activities</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
+                <container type="box" label="Box [4724844483503739]">3</container>
                 <unittitle>S. 4159: re. discrimination against ports on Great Lakes</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
+                <container type="box" label="Box [4724844483503739]">3</container>
                 <unittitle>S. 4174: re. excise tax on passenger automobiles</unittitle>
               </did>
             </c04>
@@ -631,19 +616,19 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
+                <container type="box" label="Box [4724844483503739]">3</container>
                 <unittitle>S. Res. 17: re. section 2, rule XXII of the Standing Rules of the Senate</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
+                <container type="box" label="Box [4724844483503739]">3</container>
                 <unittitle>S. J. Res. 93: Sale of war-built vessels for servicing ports on Great Lakes</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
+                <container type="box" label="Box [4724844483503739]">3</container>
                 <unittitle>S. J. Res. 106: Commission to investigate utilization of radio and television frequencies</unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">5 folders</extent>
@@ -652,109 +637,106 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [638957877436092900984653]">4</container>
                 <unittitle>S. Res. 251: Opposing television broadcasting charges</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [638957877436092900984653]">4</container>
                 <unittitle>S. 258: To establish a commission on the Aged and Aging</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">4</container>
-                <unittitle>S. 534: To amend Merchant Marine Act <unitdate type="inclusive" normal="1936">1936</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [638957877436092900984653]">4</container>
+                <unittitle>S. 534: To amend Merchant Marine Act</unittitle><unitdate type="inclusive" normal="1936">1936</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [638957877436092900984653]">4</container>
                 <unittitle>S. 551: To repeal manufacturers excise tax on autos and trucks</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [638957877436092900984653]">4</container>
                 <unittitle>S. 901: To amend Agricultural Adjustment Act of 1938</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [638957877436092900984653]">4</container>
                 <unittitle>S. 902: To transfer certain lands to state of Michigan</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [638957877436092900984653]">4</container>
                 <unittitle>S. 1223: National Cemetery at Fort Custer, Michigan</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [638957877436092900984653]">4</container>
                 <unittitle>S. 1285: To incorporate Military Order of Purple Heart</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [638957877436092900984653]">4</container>
                 <unittitle>S. 1440: To incorporate veterans of World War I</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [638957877436092900984653]">4</container>
                 <unittitle>S. 1514: To amend Commodity Exchange Act to prohibit trading in onion futures</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [638957877436092900984653]">4</container>
                 <unittitle>S. 1577: To repeal section of Communications Act of 1934</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [638957877436092900984653]">4</container>
                 <unittitle>S. 1598: re. restrictions on importation of hardwood plywood</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">4</container>
-                <unittitle>S. 1695: To amend Internal Revenue Code of (tax revision for small business)<unitdate type="inclusive" normal="1954">1954</unitdate> (deductions for teachers)</unittitle>
-              </did>
+                <container type="box" label="Box [638957877436092900984653]">4</container>
+                <unittitle>S. 1695: To amend Internal Revenue Code of (tax revision for small business) (deductions for teachers)</unittitle><unitdate type="inclusive" normal="1954">1954</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [638957877436092900984653]">4</container>
                 <unittitle>S. 1820: Tax relief for small business</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [638957877436092900984653]">4</container>
                 <unittitle>S. 2624: Designation of the Wiley-Dondero lock</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">4</container>
-                <unittitle>S. 2998: To amend Internal Revenue Code of <unitdate type="inclusive" normal="1954">1954</unitdate> (import tax on copper)</unittitle>
-              </did>
+                <container type="box" label="Box [638957877436092900984653]">4</container>
+                <unittitle>S. 2998: To amend Internal Revenue Code of  (import tax on copper)</unittitle><unitdate type="inclusive" normal="1954">1954</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [638957877436092900984653]">4</container>
                 <unittitle>S. 3337: To amend Medals of Honor Act (acts of heroism on inland waterways vessels)</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [638957877436092900984653]">4</container>
                 <unittitle>S. 3865: Distribution of automobiles in interstate commerce</unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">3 folders</extent>
@@ -763,31 +745,31 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [638957877436092900984653]">4</container>
                 <unittitle>S. 4177: Acquisition of site for Federal Building in Detroit</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [638957877436092900984653]">4</container>
                 <unittitle>S. 4220: To provide for conveyance of certain lands to the state of Michigan</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [638957877436092900984653]">4</container>
                 <unittitle>S. 4293: re. distribution and sale of complex mechanical products through small business</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [638957877436092900984653]">4</container>
                 <unittitle>H. R. 8381: To amend Internal Revenue Code of 1954</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [638957877436092900984653]">4</container>
                 <unittitle>H. R. 13382: To amend Internal Revenue Code of 1954 (tax revision for small business)</unittitle>
               </did>
             </c04>
@@ -799,43 +781,39 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">4</container>
-              <unittitle>Lapeer dinner <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [638957877436092900984653]">4</container>
+              <unittitle>Lapeer dinner</unittitle><unitdate type="inclusive" normal="1955">1955</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">4</container>
-              <unittitle>Correspondence with Ernest R. Breech (and enclosures) concerning Congressional investigating committees <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [638957877436092900984653]">4</container>
+              <unittitle>Correspondence with Ernest R. Breech (and enclosures) concerning Congressional investigating committees</unittitle><unitdate type="inclusive" normal="1955">1955</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">4</container>
-              <unittitle>Subcommittee on Korean War Atrocities <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [638957877436092900984653]">4</container>
+              <unittitle>Subcommittee on Korean War Atrocities</unittitle><unitdate type="inclusive" normal="1953">1953</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">4</container>
-              <unittitle>Special Subcommittee on Investigation <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [638957877436092900984653]">4</container>
+              <unittitle>Special Subcommittee on Investigation</unittitle><unitdate type="inclusive" normal="1954">1954</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">4</container>
+              <container type="box" label="Box [638957877436092900984653]">4</container>
               <unittitle>Notebook re. hearings on status and development of UHF-TV channels</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">4</container>
+              <container type="box" label="Box [638957877436092900984653]">4</container>
               <unittitle>Michigan Minute Men for Eisenhower</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">4</container>
+              <container type="box" label="Box [638957877436092900984653]">4</container>
               <unittitle>Papers re. alleged members of Communist Party in Michigan</unittitle>
             </did>
           </c03>
@@ -846,25 +824,22 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">5</container>
-              <unittitle>"Eisenhower the Man," <unitdate type="inclusive" normal="1953-10-01">October 1, 1953</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [43747695640056328506273]">5</container>
+              <unittitle>"Eisenhower the Man,"</unittitle><unitdate type="inclusive" normal="1953-10-01">October 1, 1953</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">5</container>
-              <unittitle>"How Can We Make America Invulnerable," <unitdate type="inclusive" normal="1953-10-05">October 5, 1953</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [43747695640056328506273]">5</container>
+              <unittitle>"How Can We Make America Invulnerable,"</unittitle><unitdate type="inclusive" normal="1953-10-05">October 5, 1953</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">5</container>
-              <unittitle>Mutual Security (Harry Dexter White) <unitdate type="inclusive" normal="1954-07-30">July 30, 1954</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [43747695640056328506273]">5</container>
+              <unittitle>Mutual Security (Harry Dexter White)</unittitle><unitdate type="inclusive" normal="1954-07-30">July 30, 1954</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">5</container>
+              <container type="box" label="Box [43747695640056328506273]">5</container>
               <unittitle>Miscellaneous</unittitle>
             </did>
           </c03>
@@ -875,22 +850,20 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">5</container>
-              <unittitle>Voting record notebooks <unitdate type="inclusive" normal="1953/1958">1953-1958</unitdate> (arranged by subject)</unittitle>
-            </did>
+              <container type="box" label="Box [43747695640056328506273]">5</container>
+              <unittitle>Voting record notebooks  (arranged by subject)</unittitle><unitdate type="inclusive" normal="1953/1958">1953-1958</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">5</container>
-              <unittitle>Voting record (correspondence and other materials concerning Senate voting record) <unitdate type="inclusive" normal="1952/1958">1952-1958</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [43747695640056328506273]">5</container>
+              <unittitle>Voting record (correspondence and other materials concerning Senate voting record)</unittitle><unitdate type="inclusive" normal="1952/1958">1952-1958</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">6 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">5</container>
+              <container type="box" label="Box [43747695640056328506273]">5</container>
               <unittitle>Voting record (miscellaneous)</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
@@ -899,15 +872,14 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">5</container>
+              <container type="box" label="Box [43747695640056328506273]">5</container>
               <unittitle>Form responses to constituent correspondence (partially indexed)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">6</container>
-              <unittitle>Voting Record <unitdate type="inclusive" normal="1941/1958">1941-1958</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [30988285493890431389]">6</container>
+              <unittitle>Voting Record</unittitle><unitdate type="inclusive" normal="1941/1958">1941-1958</unitdate></did>
           </c03>
         </c02>
       </c01>
@@ -920,21 +892,18 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">7</container>
-            <unittitle>Scrapbooks containing copies of press releases, speeches, radio and television broadcasts, and newsletters <unitdate type="inclusive" normal="1949/1957">1949-1957</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [22135230451726431901512]">7</container>
+            <unittitle>Scrapbooks containing copies of press releases, speeches, radio and television broadcasts, and newsletters</unittitle><unitdate type="inclusive" normal="1949/1957">1949-1957</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">8</container>
-            <unittitle>Scrapbooks containing copies of press releases, speeches, radio and television broadcasts, and newsletters <unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6458917436656850]">8</container>
+            <unittitle>Scrapbooks containing copies of press releases, speeches, radio and television broadcasts, and newsletters</unittitle><unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">8</container>
-            <unittitle>Scrapbook containing <title render="italic">Congressional Record</title> excerpts, <unitdate type="inclusive" normal="1948/1950">1948-1950</unitdate>, <unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6458917436656850]">8</container>
+            <unittitle>Scrapbook containing <title render="italic">Congressional Record</title> excerpts</unittitle><unitdate type="inclusive" normal="1948/1950">1948-1950</unitdate><unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -942,69 +911,58 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">1</container>
-              <unittitle>Vol. 1 <unitdate type="inclusive" normal="1947/1948">1947-1948</unitdate></unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [30778104488474119]">1</container>
+              <unittitle>Vol. 1</unittitle><unitdate type="inclusive" normal="1947/1948">1947-1948</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">2</container>
-              <unittitle>Vol. 2 <unitdate type="inclusive" normal="1949/1950">1949-1950</unitdate></unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [9454806469019999947]">2</container>
+              <unittitle>Vol. 2</unittitle><unitdate type="inclusive" normal="1949/1950">1949-1950</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">3</container>
-              <unittitle>Vol. 3 <unitdate type="inclusive" normal="1951/1952">1951-1952</unitdate></unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [6594404961333462397]">3</container>
+              <unittitle>Vol. 3</unittitle><unitdate type="inclusive" normal="1951/1952">1951-1952</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">4</container>
-              <unittitle>Vol. 4 <unitdate type="inclusive" normal="1952">1952</unitdate></unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [396771884728098985661]">4</container>
+              <unittitle>Vol. 4</unittitle><unitdate type="inclusive" normal="1952">1952</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">5</container>
-              <unittitle>Vol. 5 <unitdate type="inclusive" normal="1953/1954">1953-1954</unitdate></unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [10574097049373867481]">5</container>
+              <unittitle>Vol. 5</unittitle><unitdate type="inclusive" normal="1953/1954">1953-1954</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">6</container>
-              <unittitle>Vol. 6 <unitdate type="inclusive" normal="1952-12/1954-11">December 1952-November 1954</unitdate></unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [498005883548970831793]">6</container>
+              <unittitle>Vol. 6</unittitle><unitdate type="inclusive" normal="1952-12/1954-11">December 1952-November 1954</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">7</container>
-              <unittitle>Vol. 7 <unitdate type="inclusive" normal="1955/1956">1955-1956</unitdate></unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [827609758436050327521]">7</container>
+              <unittitle>Vol. 7</unittitle><unitdate type="inclusive" normal="1955/1956">1955-1956</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">8</container>
-              <unittitle>Vol. 8 <unitdate type="inclusive" normal="1955/1956">1955-1956</unitdate></unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [231493988434859165690497]">8</container>
+              <unittitle>Vol. 8</unittitle><unitdate type="inclusive" normal="1955/1956">1955-1956</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">9</container>
-              <unittitle>Vol. 9 <unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate></unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [770995413921682258]">9</container>
+              <unittitle>Vol. 9</unittitle><unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">10</container>
-              <unittitle>Vol. 10 <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [7914419544208508161459]">10</container>
+              <unittitle>Vol. 10</unittitle><unitdate type="inclusive" normal="1957">1957</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">11</container>
-              <unittitle>Vol. 11 <unitdate type="inclusive" normal="1958-01/1958-03">January-March 1958</unitdate></unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [130484408725261070]">11</container>
+              <unittitle>Vol. 11</unittitle><unitdate type="inclusive" normal="1958-01/1958-03">January-March 1958</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -1013,111 +971,85 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1952">1952</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [1289436141827540325]">9</container>
+              <unitdate type="inclusive" normal="1952">1952</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">4 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1958">1958</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [1289436141827540325]">9</container>
+              <unitdate type="inclusive" normal="1958">1958</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">4 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <unittitle><unitdate type="inclusive" normal="1958-03">March 1958</unitdate> (outstate)</unittitle>
-            </did>
+              <container type="box" label="Box [1289436141827540325]">9</container>
+              <unittitle>(outstate)</unittitle><unitdate type="inclusive" normal="1958-03">March 1958</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1958-04">April 1958</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [1289436141827540325]">9</container>
+              <unitdate type="inclusive" normal="1958-04">April 1958</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
+              <container type="box" label="Box [1289436141827540325]">9</container>
               <unittitle>Apr.1958 (outstate)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <unittitle><unitdate type="inclusive" normal="1958-05">May 1958</unitdate> (outstate)</unittitle>
-            </did>
+              <container type="box" label="Box [1289436141827540325]">9</container>
+              <unittitle>(outstate)</unittitle><unitdate type="inclusive" normal="1958-05">May 1958</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1958-06">June 1958</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [1289436141827540325]">9</container>
+              <unitdate type="inclusive" normal="1958-06">June 1958</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <unittitle><unitdate type="inclusive" normal="1958-06">June 1958</unitdate> (outstate)</unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [1289436141827540325]">9</container>
+              <unittitle>(outstate)</unittitle><unitdate type="inclusive" normal="1958-06">June 1958</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">10</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1958-07">July 1958</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [855616429807216197]">10</container>
+              <unitdate type="inclusive" normal="1958-07">July 1958</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">10</container>
-              <unittitle><unitdate type="inclusive" normal="1958-07">July 1958</unitdate> (outstate)</unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [855616429807216197]">10</container>
+              <unittitle>(outstate)</unittitle><unitdate type="inclusive" normal="1958-07">July 1958</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">10</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1958-08">August 1958</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [855616429807216197]">10</container>
+              <unitdate type="inclusive" normal="1958-08">August 1958</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">10</container>
-              <unittitle><unitdate type="inclusive" normal="1958-08">August 1958</unitdate> (outstate)</unittitle>
-            </did>
+              <container type="box" label="Box [855616429807216197]">10</container>
+              <unittitle>(outstate)</unittitle><unitdate type="inclusive" normal="1958-08">August 1958</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">10</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1958-09/1958-10">September-October 1958</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [855616429807216197]">10</container>
+              <unitdate type="inclusive" normal="1958-09/1958-10">September-October 1958</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">10</container>
+              <container type="box" label="Box [855616429807216197]">10</container>
               <unittitle>Miscellaneous; loose clippings from scrapbooks</unittitle>
             </did>
           </c03>
@@ -1145,96 +1077,75 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">10</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1947/1952">1947-1952</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [855616429807216197]">10</container>
+                <unitdate type="inclusive" normal="1947/1952">1947-1952</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">10</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1953">1953</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [855616429807216197]">10</container>
+                <unitdate type="inclusive" normal="1953">1953</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">10</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1954">1954</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [855616429807216197]">10</container>
+                <unitdate type="inclusive" normal="1954">1954</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">10</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1955">1955</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [855616429807216197]">10</container>
+                <unitdate type="inclusive" normal="1955">1955</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1956">1956</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1956">1956</unitdate></did>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box">10</container>
+                  <container type="box" label="Box [855616429807216197]">10</container>
                   <unittitle>Lewis E. Berry swearing-in</unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box">10</container>
+                  <container type="box" label="Box [855616429807216197]">10</container>
                   <unittitle>Eisenhower reelection campaign</unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box">10</container>
+                  <container type="box" label="Box [855616429807216197]">10</container>
                   <unittitle>Presentation of silver star, etc</unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box">10</container>
+                  <container type="box" label="Box [855616429807216197]">10</container>
                   <unittitle>Miscellaneous</unittitle>
                 </did>
               </c05>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">10</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1957">1957</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [855616429807216197]">10</container>
+                <unitdate type="inclusive" normal="1957">1957</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1958">1958</unitdate>
-                </unittitle>
-              </did>
+                <unitdate type="inclusive" normal="1958">1958</unitdate></did>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box">10</container>
+                  <container type="box" label="Box [855616429807216197]">10</container>
                   <unittitle>Mackinac Bridge dedication</unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box">10</container>
+                  <container type="box" label="Box [855616429807216197]">10</container>
                   <unittitle>Reelection campaign (<title render="italic">Life Magazine</title> photos)</unittitle>
                 </did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box">10</container>
+                  <container type="box" label="Box [855616429807216197]">10</container>
                   <unittitle>Miscellaneous</unittitle>
                 </did>
               </c05>
@@ -1246,59 +1157,57 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">10</container>
-                <unittitle>Campaign and publicity photos <unitdate>undated</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [855616429807216197]">10</container>
+                <unittitle>Campaign and publicity photos</unittitle><unitdate>undated</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">10</container>
-                <unittitle>Groups <unitdate>undated</unitdate></unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [855616429807216197]">10</container>
+                <unittitle>Groups</unittitle><unitdate>undated</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">3 folders</extent>
                 </physdesc>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">10</container>
+                <container type="box" label="Box [855616429807216197]">10</container>
                 <unittitle>McCarthy hearings (television photos)</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">10</container>
+                <container type="box" label="Box [855616429807216197]">10</container>
                 <unittitle>Mrs. Potter</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">10</container>
+                <container type="box" label="Box [855616429807216197]">10</container>
                 <unittitle>Portraits</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">10</container>
+                <container type="box" label="Box [855616429807216197]">10</container>
                 <unittitle>Portraits of others</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">10</container>
+                <container type="box" label="Box [855616429807216197]">10</container>
                 <unittitle>Presidents Truman and Eisenhower</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">10</container>
+                <container type="box" label="Box [855616429807216197]">10</container>
                 <unittitle>Vice President Nixon</unittitle>
               </did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">10</container>
+              <container type="box" label="Box [855616429807216197]">10</container>
               <unittitle>Negatives</unittitle>
             </did>
           </c03>
@@ -1314,11 +1223,10 @@
           </did>
           <c03 level="file">
             <did>
-              <unittitle>Campaign commercials <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
-            </did>
+              <unittitle>Campaign commercials</unittitle><unitdate type="inclusive" normal="1958">1958</unitdate></did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">10</container>
+                <container type="box" label="Box [855616429807216197]">10</container>
                 <unittitle>"Barber shop"</unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">20 seconds</extent>
@@ -1327,7 +1235,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">10</container>
+                <container type="box" label="Box [855616429807216197]">10</container>
                 <unittitle>"Congressional record"</unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">60 seconds</extent>
@@ -1336,7 +1244,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">10</container>
+                <container type="box" label="Box [855616429807216197]">10</container>
                 <unittitle>"I stand on my record"</unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">8 seconds</extent>
@@ -1345,7 +1253,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">10</container>
+                <container type="box" label="Box [855616429807216197]">10</container>
                 <unittitle>"Lorraine Potter"</unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">20 seconds</extent>
@@ -1354,7 +1262,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">10</container>
+                <container type="box" label="Box [855616429807216197]">10</container>
                 <unittitle>"Lorraine Potter"</unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">60 seconds</extent>
@@ -1363,34 +1271,31 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">10</container>
+                <container type="box" label="Box [855616429807216197]">10</container>
                 <unittitle>"Man in the street"</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">10</container>
+                <container type="box" label="Box [855616429807216197]">10</container>
                 <unittitle>"Spot the question mark"</unittitle>
               </did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">10</container>
-              <unittitle>Eisenhower press conference <unitdate type="inclusive" normal="1958-10-01">October 1, 1958</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [855616429807216197]">10</container>
+              <unittitle>Eisenhower press conference</unittitle><unitdate type="inclusive" normal="1958-10-01">October 1, 1958</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">10</container>
-              <unittitle>Quarternotes sing for the St. Lawrence Seaway, with Sen. Potter's remarks <unitdate type="inclusive" normal="1958-03-07">March 7, 1958</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [855616429807216197]">10</container>
+              <unittitle>Quarternotes sing for the St. Lawrence Seaway, with Sen. Potter's remarks</unittitle><unitdate type="inclusive" normal="1958-03-07">March 7, 1958</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="reel" label="Film Reel">1</container>
-              <unittitle>"First Federal Presents..." (Sen. Potter and Sen. Green discussing aid for the handicapped) <unitdate type="inclusive" normal="1958-06-01">June 1, 1958</unitdate></unittitle>
-            </did>
+              <container type="reel" label="Film Reel [40907494483319]">1</container>
+              <unittitle>"First Federal Presents..." (Sen. Potter and Sen. Green discussing aid for the handicapped)</unittitle><unitdate type="inclusive" normal="1958-06-01">June 1, 1958</unitdate></did>
           </c03>
         </c02>
       </c01>

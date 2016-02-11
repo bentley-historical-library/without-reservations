@@ -24,6 +24,7 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
+    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Cook, Marshall L., 1858-1955.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32221">Cook, Marshall L., 1858-1955.</persname>
       </origination>
-      <unittitle encodinganalog="245">Marshall L. Cook and William R. Cook papers <unitdate type="inclusive" encodinganalog="245$f" normal="1880/1945">1880-1945</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851174 Aa 2</unitid>
+      <unittitle encodinganalog="245">Marshall L. Cook and William R. Cook papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1880/1945">1880-1945</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851174 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Editor and publisher, with his brother, William Randolph Cook, of the Hastings Banner in Hastings, Michigan. Correspondence, 1893-1941, relating to operations of their paper and other business enterprises, including material concerning Republican politics, the temperance movement, their activities and interest in the Rotary Club, the Salvation Army, and the Young Men's Christian Association.</abstract>
       <physdesc altrender="whole">
@@ -80,118 +80,118 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651">Barry County (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600">Cook, Marshall L., 1858-1955.</persname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Congress--Elections, 1896.</corpname>
-        <subject source="lcsh" encodinganalog="650">Elections--Michigan--1896.</subject>
-        <subject source="lcsh" encodinganalog="650">Elections--Michigan--1900.</subject>
-        <subject source="lcsh" encodinganalog="650">Elections--Michigan--1902.</subject>
-        <subject source="lcsh" encodinganalog="650">Elections--Michigan--1908.</subject>
-        <subject source="lcsh" encodinganalog="650">Presidents--United States--Election--1908.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85081913.html">Hastings (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="630">Hastings banner.</subject>
-        <subject source="lcsh" encodinganalog="650">American newspapers--Michigan--Hastings.</subject>
-        <subject source="lcsh" encodinganalog="650">Prohibition--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Hastings Rotary Club (Hastings, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79046615">Salvation Army.</corpname>
-        <subject source="lcsh" encodinganalog="650">Temperance--Michigan--Hastings.</subject>
-        <subject source="lcsh" encodinganalog="650">Presidents--United States--Election--1916.</subject>
-        <subject source="lcsh" encodinganalog="650">Elections--Michigan--1910.</subject>
-        <subject source="lcsh" encodinganalog="650">Elections--Michigan--1912.</subject>
-        <subject source="lcsh" encodinganalog="650">Elections--Michigan--1914.</subject>
-        <subject source="lcsh" encodinganalog="650">Elections--Michigan--1916.</subject>
-        <corpname source="lcnaf" encodinganalog="610">United States. Congress--Elections, 1910.</corpname>
-        <geogname source="lcsh" encodinganalog="651">United States--Politics and government--1865-1900.</geogname>
-        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1877-1898.</geogname>
-        <geogname source="lcsh" encodinganalog="651">United States--Politics and government--1901-1953.</geogname>
-        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1899-1916.</geogname>
-        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1917-1921.</geogname>
-        <subject source="lcsh" encodinganalog="650">World War, 1914-1918.</subject>
-        <subject source="lcsh" encodinganalog="650">Young Men's Christian Associations.</subject>
-        <geogname source="lcsh" encodinganalog="651">Michigan--Politics and government--1837-1950.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1573">Barry County (Mich.)</geogname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32221">Cook, Marshall L., 1858-1955.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19794">United States. Congress--Elections, 1896.<term type="topical">Elections, 1896.</term></corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6218">Elections--Michigan--1896.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7004">Elections--Michigan--1900.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7005">Elections--Michigan--1902.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6220">Elections--Michigan--1908.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6088">Presidents--United States--Election--1908.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85081913.html" ref="/subjects/1115">Hastings (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="630" ref="/subjects/7006">Hastings banner.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7007">American newspapers--Michigan--Hastings.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6524">Prohibition--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21402">Republican Party (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18129">Hastings Rotary Club (Hastings, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79046615" ref="/agents/corporate_entities/21171">Salvation Army.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7008">Temperance--Michigan--Hastings.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7009">Presidents--United States--Election--1916.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6221">Elections--Michigan--1910.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6222">Elections--Michigan--1912.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6223">Elections--Michigan--1914.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6224">Elections--Michigan--1916.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19794">United States. Congress--Elections, 1910.<term type="topical">Elections, 1910.</term></corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1632">United States--Politics and government--1865-1900.</geogname>
+        <geogname source="local" encodinganalog="691" ref="/subjects/805">Michigan--Politics and government--1877-1898.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1633">United States--Politics and government--1901-1953.</geogname>
+        <geogname source="local" encodinganalog="691" ref="/subjects/806">Michigan--Politics and government--1899-1916.</geogname>
+        <geogname source="local" encodinganalog="691" ref="/subjects/807">Michigan--Politics and government--1917-1921.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5737">World War, 1914-1918.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6579">Young Men's Christian Associations.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/884">Michigan--Politics and government--1837-1950.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Aitken, David Demerest, 1853-1930.</persname>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n50061214">American Press Association.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">American Protective Tariff League.</corpname>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/no99031082">Anti-Saloon League of Michigan.</corpname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008188971">Bliss, Aaron Thomas, 1837-1906.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008188992">Blodgett, John Wood, 1860-1951.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n94105471">Brucker, Wilber Marion, 1894-1968.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no95042265">Burrows, Julius C. (Julius Caesar), 1837-1915.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n89602139">Burton, Clarence Monroe, 1853-1932.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88650119">Burton, Marion Le Roy, 1874-1925.</persname>
-        <persname source="lcnaf" encodinganalog="700">Cady, Burt D., 1874-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50032468">Carnegie, Andrew, 1835-1919.</persname>
-        <persname source="lcnaf" encodinganalog="700">Cook, William Randolph, 1866-1946.</persname>
-        <persname source="lcnaf" encodinganalog="700">Cooper, Harry D., 1863-1933.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86070545">Couzens, James, 1872-1936.</persname>
-        <persname source="lcnaf" encodinganalog="700">Cramton, Louis C. (Louis Convers), b. 1875.</persname>
-        <persname source="lcnaf" encodinganalog="700">Davidson, James Edward, 1867-</persname>
-        <persname source="lcnaf" encodinganalog="700">DeFoe, Murl Holcomb, 1879-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n97046996">Denby, Edwin, 1870-1929.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no97034883">Dickie, Samuel, 1851-1925.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008187778">Dickinson, Luren Dudley, 1859-1943.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008183572">Diekema, Gerrit John, 1859-1930.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2009000103">Dillman, Grover C. (Grover Cleveland), 1889-1979</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008186658">Fellows, Grant, 1865-1929.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n96085441">Ferris, Woodbridge N., 1853-1928.</persname>
-        <persname source="lcnaf" encodinganalog="700">Ferry, Dexter Mason, 1833-1907.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008183317">Fitzgerald, Frank Dwight, 1885-1939.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88274247">Fordney, Joseph W. (Joseph Warren), 1853-1932.</persname>
-        <persname source="lcnaf" encodinganalog="700">Foulkes, George Ernest, 1878-1960.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87891315">Fuller, George N. (George Newman), 1873-1957.</persname>
-        <persname source="lcnaf" encodinganalog="700">Fuller, Oramel B., b. 1858.</persname>
-        <persname source="lcnaf" encodinganalog="700">Glasgow, Cassius L., b. 1859.</persname>
-        <persname source="lcnaf" encodinganalog="700">Gore, Victor M.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008183293">Green, Fred W. (Fred Warren), 1872-1936.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008187813">Groesbeck, Alexander J. (Alexander Joseph), 1873-1953.</persname>
-        <persname source="lcnaf" encodinganalog="700">Hamilton, Edward LaRue, 1857-1923.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86012004">Hays, Will H. (Will Harrison), 1879-1954.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84034811">Hitchcock, Frank H. (Frank Harris), 1867-1935.</persname>
-        <persname source="lcnaf" encodinganalog="700">Hoffman, Clare Eugene, 1875-1967.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008186678">Hudson, Joseph Lowthian, 1846-1912.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008031481">Kelley, Patrick Henry, 1867-1925.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008031630">Ketcham, John Clark, 1873-1941.</persname>
-        <persname source="lcnaf" encodinganalog="700">King, Paul H.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008186689">Knappen, Loyal Edwin, 1854-1930.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86034285">Knox, Frank, 1874-1944.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86111015">Landon, Alfred M. (Alfred Mossman), 1887-1987.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008183527">Lawrence, Howard Cyrus, 1890-1961.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2010145273">McLaughlin, James Campbell, 1858-1932.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n2005173297">McMillan, James, 1838-1902.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no97067271">Martindale, Frederick C.</persname>
-        <corpname source="lcnaf" encodinganalog="710">Michigan Dry Campaign Committee.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">Michigan League for Good Roads.</corpname>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n86013774">Michigan Press Association.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">Michigan Republican Newspaper Association.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">Michigan War Preparedness Board.</corpname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n89125977">Newberry, Truman Handy, 1864-1945.</persname>
-        <persname source="lcnaf" encodinganalog="700">Osborn, Chase S. (Chase Salmon), b. 1860.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2012004395">Pattengill, Henry Romaine, 1852-1918.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88655160">Patton, John, 1850-1907.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n78097059">Pinchot, Gifford, 1865-1946.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008089537">Potter, William W., 1869-1940.</persname>
-        <persname source="lcnaf" encodinganalog="700">Powers, Perry Francis, 1857-1945.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008186715">Rich, John Treadway, 1841-1926.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79144645">Roosevelt, Eleanor, 1884-1962.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008183271">Sawyer, Walter H. (Walter Hulme), 1861-1931.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87870665">Shafer, Paul W. (Paul Werntz), 1893-1954.</persname>
-        <persname source="lcnaf" encodinganalog="700">Sigler, Kim, b. 1894.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008187860">Sleeper, Albert E., 1862-1934.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008188967">Smith, John McMunn C., 1853-1923.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008187805">Smith, Shirley Wheeler, 1875-1959.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no98099507">Smith, William Alden, 1859-1932.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79022244">Taft, William H. (William Howard), 1857-1930.</persname>
-        <persname source="lcnaf" encodinganalog="700">Thomas, Henry F., 1843-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008188960">Townsend, Charles E. (Charles Elroy), 1856-1924.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50045033">Vandenberg, Arthur H. (Arthur Hendrick), 1884-1951.</persname>
-        <persname source="lcnaf" encodinganalog="700">Vaughan, Coleman C., 1857-</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88022440">Warner, Frederick Maltby, 1865-1923.</persname>
-        <persname source="lcnaf" encodinganalog="700">Weissert, Charles Adam, 1878-1947.</persname>
-        <persname source="lcnaf" encodinganalog="700">Wright, Luther Lamphere, 1856-1922.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/36046">Aitken, David Demerest, 1853-1930.</persname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n50061214" ref="/agents/corporate_entities/18831">American Press Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/22642">American Protective Tariff League.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/no99031082" ref="/agents/corporate_entities/21053">Anti-Saloon League of Michigan.</corpname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008188971" ref="/agents/people/36041">Bliss, Aaron Thomas, 1837-1906.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008188992" ref="/agents/people/33312">Blodgett, John Wood, 1860-1951.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n94105471" ref="/agents/people/31334">Brucker, Wilber Marion, 1894-1968.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no95042265" ref="/agents/people/29510">Burrows, Julius C. (Julius Caesar), 1837-1915.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n89602139" ref="/agents/people/32750">Burton, Clarence Monroe, 1853-1932.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88650119" ref="/agents/people/34362">Burton, Marion Le Roy, 1874-1925.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32783">Cady, Burt D., 1874-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50032468" ref="/agents/people/31205">Carnegie, Andrew, 1835-1919.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31480">Cook, William Randolph, 1866-1946.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31573">Cooper, Harry D., 1863-1933.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86070545" ref="/agents/people/29430">Couzens, James, 1872-1936.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28852">Cramton, Louis C. (Louis Convers), b. 1875.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31088">Davidson, James Edward, 1867-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32673">DeFoe, Murl Holcomb, 1879-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n97046996" ref="/agents/people/34762">Denby, Edwin, 1870-1929.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no97034883" ref="/agents/people/28561">Dickie, Samuel, 1851-1925.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008187778" ref="/agents/people/35714">Dickinson, Luren Dudley, 1859-1943.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008183572" ref="/agents/people/29012">Diekema, Gerrit John, 1859-1930.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2009000103" ref="/agents/people/29755">Dillman, Grover C. (Grover Cleveland), 1889-1979</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008186658" ref="/agents/people/33430">Fellows, Grant, 1865-1929.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n96085441" ref="/agents/people/34446">Ferris, Woodbridge N., 1853-1928.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29798">Ferry, Dexter Mason, 1833-1907.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008183317" ref="/agents/people/35527">Fitzgerald, Frank Dwight, 1885-1939.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88274247" ref="/agents/people/31633">Fordney, Joseph W. (Joseph Warren), 1853-1932.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34490">Foulkes, George Ernest, 1878-1960.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87891315" ref="/agents/people/33733">Fuller, George N. (George Newman), 1873-1957.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32054">Fuller, Oramel B., b. 1858.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31296">Glasgow, Cassius L., b. 1859.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30127">Gore, Victor M.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008183293" ref="/agents/people/29195">Green, Fred W. (Fred Warren), 1872-1936.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008187813" ref="/agents/people/27833">Groesbeck, Alexander J. (Alexander Joseph), 1873-1953.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28294">Hamilton, Edward LaRue, 1857-1923.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86012004" ref="/agents/people/29876">Hays, Will H. (Will Harrison), 1879-1954.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84034811" ref="/agents/people/33225">Hitchcock, Frank H. (Frank Harris), 1867-1935.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29320">Hoffman, Clare Eugene, 1875-1967.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008186678" ref="/agents/people/27805">Hudson, Joseph Lowthian, 1846-1912.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008031481" ref="/agents/people/32362">Kelley, Patrick Henry, 1867-1925.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008031630" ref="/agents/people/27700">Ketcham, John Clark, 1873-1941.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/36034">King, Paul H.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008186689" ref="/agents/people/28103">Knappen, Loyal Edwin, 1854-1930.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86034285" ref="/agents/people/27548">Knox, Frank, 1874-1944.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86111015" ref="/agents/people/28470">Landon, Alfred M. (Alfred Mossman), 1887-1987.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008183527" ref="/agents/people/35563">Lawrence, Howard Cyrus, 1890-1961.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2010145273" ref="/agents/people/27742">McLaughlin, James Campbell, 1858-1932.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n2005173297" ref="/agents/people/30963">McMillan, James, 1838-1902.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no97067271" ref="/agents/people/27524">Martindale, Frederick C.</persname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/22113">Michigan Dry Campaign Committee.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/21334">Michigan League for Good Roads.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n86013774" ref="/agents/corporate_entities/19136">Michigan Press Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/19272">Michigan Republican Newspaper Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/22367">Michigan War Preparedness Board.</corpname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n89125977" ref="/agents/people/28380">Newberry, Truman Handy, 1864-1945.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29580">Osborn, Chase S. (Chase Salmon), b. 1860.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2012004395" ref="/agents/people/27765">Pattengill, Henry Romaine, 1852-1918.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88655160" ref="/agents/people/27456">Patton, John, 1850-1907.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n78097059" ref="/agents/people/32794">Pinchot, Gifford, 1865-1946.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008089537" ref="/agents/people/32610">Potter, William W., 1869-1940.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29704">Powers, Perry Francis, 1857-1945.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008186715" ref="/agents/people/30782">Rich, John Treadway, 1841-1926.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79144645" ref="/agents/people/29501">Roosevelt, Eleanor, 1884-1962.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008183271" ref="/agents/people/31804">Sawyer, Walter H. (Walter Hulme), 1861-1931.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87870665" ref="/agents/people/28399">Shafer, Paul W. (Paul Werntz), 1893-1954.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29831">Sigler, Kim, b. 1894.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008187860" ref="/agents/people/27177">Sleeper, Albert E., 1862-1934.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008188967" ref="/agents/people/32212">Smith, John McMunn C., 1853-1923.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008187805" ref="/agents/people/31878">Smith, Shirley Wheeler, 1875-1959.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no98099507" ref="/agents/people/32170">Smith, William Alden, 1859-1932.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79022244" ref="/agents/people/30014">Taft, William H. (William Howard), 1857-1930.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/28310">Thomas, Henry F., 1843-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008188960" ref="/agents/people/30634">Townsend, Charles E. (Charles Elroy), 1856-1924.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50045033" ref="/agents/people/30760">Vandenberg, Arthur H. (Arthur Hendrick), 1884-1951.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35321">Vaughan, Coleman C., 1857-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88022440" ref="/agents/people/28278">Warner, Frederick Maltby, 1865-1923.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31441">Weissert, Charles Adam, 1878-1947.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32159">Wright, Luther Lamphere, 1856-1922.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -201,46 +201,34 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>
-              <unitdate type="inclusive">Undated</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2418191449691224708725]">1</container>
+            <unitdate type="inclusive">Undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1876-10-03/1891-06-18">October 3, 1876-June 18, 1891</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2418191449691224708725]">1</container>
+            <unitdate type="inclusive" normal="1876-10-03/1891-06-18">October 3, 1876-June 18, 1891</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1893">1893</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [2418191449691224708725]">1</container>
+            <unitdate type="inclusive" normal="1893">1893</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1894">1894</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1894">1894</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [2418191449691224708725]">1</container>
               <unittitle>Personal and Political</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [2418191449691224708725]">1</container>
               <unittitle>Business</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -250,22 +238,16 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1895">1895</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [2418191449691224708725]">1</container>
+            <unitdate type="inclusive" normal="1895">1895</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1896">1896</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [2418191449691224708725]">1</container>
+            <unitdate type="inclusive" normal="1896">1896</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">6 folders</extent>
             </physdesc>
           </did>
@@ -275,32 +257,23 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1899">1899</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [2418191449691224708725]">1</container>
+            <unitdate type="inclusive" normal="1899">1899</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1900">1900</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [2418191449691224708725]">1</container>
+            <unitdate type="inclusive" normal="1900">1900</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1901">1901</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1901">1901</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [2418191449691224708725]">1</container>
               <unittitle>Business</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -309,19 +282,19 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [2418191449691224708725]">1</container>
               <unittitle>Personal</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [2418191449691224708725]">1</container>
               <unittitle>Political</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [2418191449691224708725]">1</container>
               <unittitle>Michigan Press Association</unittitle>
             </did>
             <odd>
@@ -331,13 +304,10 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1902">1902</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1902">1902</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [2418191449691224708725]">1</container>
               <unittitle>Business</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -346,13 +316,13 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [2418191449691224708725]">1</container>
               <unittitle>Personal</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [2418191449691224708725]">1</container>
               <unittitle>Political</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -361,20 +331,17 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [2418191449691224708725]">1</container>
               <unittitle>Michigan Press Association</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1903">1903</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1903">1903</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [2418191449691224708725]">1</container>
               <unittitle>Business</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -383,13 +350,13 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [2418191449691224708725]">1</container>
               <unittitle>Personal</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [2418191449691224708725]">1</container>
               <unittitle>Political</unittitle>
             </did>
             <odd>
@@ -398,20 +365,17 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [2418191449691224708725]">1</container>
               <unittitle>Michigan Press Association</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1904">1904</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1904">1904</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [2418191449691224708725]">1</container>
               <unittitle>Business</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -420,108 +384,96 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [2418191449691224708725]">1</container>
               <unittitle>Personal</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [2418191449691224708725]">1</container>
               <unittitle>Political</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [2418191449691224708725]">1</container>
               <unittitle>Michigan Press Association</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1905">1905</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1905">1905</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [530903564399172261]">2</container>
               <unittitle>Business</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [530903564399172261]">2</container>
               <unittitle>Political</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [530903564399172261]">2</container>
               <unittitle>Michigan Press Association</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1906">1906</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [530903564399172261]">2</container>
+            <unitdate type="inclusive" normal="1906">1906</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1907">1907</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1907">1907</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [530903564399172261]">2</container>
               <unittitle>Business</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [530903564399172261]">2</container>
               <unittitle>Church, post office and other civic affairs</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [530903564399172261]">2</container>
               <unittitle>Personal</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [530903564399172261]">2</container>
               <unittitle>Political</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1908">1908</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1908">1908</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [530903564399172261]">2</container>
               <unittitle>Business</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [530903564399172261]">2</container>
               <unittitle>Personal</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [530903564399172261]">2</container>
               <unittitle>Political</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
@@ -530,20 +482,17 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [530903564399172261]">2</container>
               <unittitle>Local option, church and other civic activities</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1909">1909</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1909">1909</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [530903564399172261]">2</container>
               <unittitle>Business</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -552,13 +501,13 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [530903564399172261]">2</container>
               <unittitle>Church and civic</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [530903564399172261]">2</container>
               <unittitle>Michigan Republican Editors Association</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
@@ -570,7 +519,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [530903564399172261]">2</container>
               <unittitle>Local option campaign and enforcement</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -579,7 +528,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [530903564399172261]">2</container>
               <unittitle>Personal</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -588,7 +537,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [530903564399172261]">2</container>
               <unittitle>Political</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
@@ -597,20 +546,17 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [530903564399172261]">2</container>
               <unittitle>Michigan Press Association</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1910">1910</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1910">1910</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [530903564399172261]">2</container>
               <unittitle>Business</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -619,7 +565,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [530903564399172261]">2</container>
               <unittitle>Church, school and civic activities</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -628,7 +574,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [530903564399172261]">2</container>
               <unittitle>Local option campaign</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -637,7 +583,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [530903564399172261]">2</container>
               <unittitle>Michigan Republican Editors Association</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -646,7 +592,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [530903564399172261]">2</container>
               <unittitle>Personal</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -655,7 +601,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">3</container>
+              <container type="box" label="Box [001205994850266895849]">3</container>
               <unittitle>Political</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">4 folders</extent>
@@ -664,57 +610,51 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">3</container>
+              <container type="box" label="Box [001205994850266895849]">3</container>
               <unittitle>Michigan Press Association</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1911">1911</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1911">1911</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">3</container>
+              <container type="box" label="Box [001205994850266895849]">3</container>
               <unittitle>Business</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">3</container>
+              <container type="box" label="Box [001205994850266895849]">3</container>
               <unittitle>Personal</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">3</container>
+              <container type="box" label="Box [001205994850266895849]">3</container>
               <unittitle>Political</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1912">1912</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1912">1912</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">3</container>
+              <container type="box" label="Box [001205994850266895849]">3</container>
               <unittitle>Lumber business and timber purchases</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">3</container>
+              <container type="box" label="Box [001205994850266895849]">3</container>
               <unittitle>Personal</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">3</container>
+              <container type="box" label="Box [001205994850266895849]">3</container>
               <unittitle>Political</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -724,62 +664,56 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1913">1913</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1913">1913</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">3</container>
+              <container type="box" label="Box [001205994850266895849]">3</container>
               <unittitle>Business</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">3</container>
+              <container type="box" label="Box [001205994850266895849]">3</container>
               <unittitle>Lumber business</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">3</container>
+              <container type="box" label="Box [001205994850266895849]">3</container>
               <unittitle>Personal</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">3</container>
+              <container type="box" label="Box [001205994850266895849]">3</container>
               <unittitle>Political</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1914">1914</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1914">1914</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">3</container>
+              <container type="box" label="Box [001205994850266895849]">3</container>
               <unittitle>Business</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">3</container>
+              <container type="box" label="Box [001205994850266895849]">3</container>
               <unittitle>Church, prohibition, Y.M.C.A., other civic activities</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">3</container>
+              <container type="box" label="Box [001205994850266895849]">3</container>
               <unittitle>Lumbers operations</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">3</container>
+              <container type="box" label="Box [001205994850266895849]">3</container>
               <unittitle>Personal</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -788,7 +722,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">3</container>
+              <container type="box" label="Box [001205994850266895849]">3</container>
               <unittitle>Political</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -798,50 +732,44 @@
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1915">1915</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1915">1915</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">3</container>
+              <container type="box" label="Box [001205994850266895849]">3</container>
               <unittitle>Business</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">3</container>
+              <container type="box" label="Box [001205994850266895849]">3</container>
               <unittitle>Concerning church, Y.M.C.A., prohibition and Albion College</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">3</container>
+              <container type="box" label="Box [001205994850266895849]">3</container>
               <unittitle>Personal</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">3</container>
+              <container type="box" label="Box [001205994850266895849]">3</container>
               <unittitle>Political</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">3</container>
+              <container type="box" label="Box [001205994850266895849]">3</container>
               <unittitle>Lumber operations</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1916">1916</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1916">1916</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">3</container>
+              <container type="box" label="Box [001205994850266895849]">3</container>
               <unittitle>Business</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -850,7 +778,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">3</container>
+              <container type="box" label="Box [001205994850266895849]">3</container>
               <unittitle>Personal</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -859,7 +787,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">3</container>
+              <container type="box" label="Box [001205994850266895849]">3</container>
               <unittitle>Political</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -868,59 +796,47 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">3</container>
+              <container type="box" label="Box [001205994850266895849]">3</container>
               <unittitle>Church and local option</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">3</container>
+              <container type="box" label="Box [001205994850266895849]">3</container>
               <unittitle>Hospital, Y.M.C.A., other civic activities</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1917">1917</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [5154017545946293764]">4</container>
+            <unitdate type="inclusive" normal="1917">1917</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1918">1918</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [5154017545946293764]">4</container>
+            <unitdate type="inclusive" normal="1918">1918</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1919">1919</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [5154017545946293764]">4</container>
+            <unitdate type="inclusive" normal="1919">1919</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">6 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1920">1920</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1920">1920</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">4</container>
+              <container type="box" label="Box [5154017545946293764]">4</container>
               <unittitle>Business and personal</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -929,7 +845,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">4</container>
+              <container type="box" label="Box [5154017545946293764]">4</container>
               <unittitle>Salvation Army Drive</unittitle>
             </did>
             <odd>
@@ -939,228 +855,156 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1921">1921</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [5154017545946293764]">4</container>
+            <unitdate type="inclusive" normal="1921">1921</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1922">1922</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [5154017545946293764]">4</container>
+            <unitdate type="inclusive" normal="1922">1922</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1923">1923</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [5154017545946293764]">4</container>
+            <unitdate type="inclusive" normal="1923">1923</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1924">1924</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [5154017545946293764]">4</container>
+            <unitdate type="inclusive" normal="1924">1924</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1925">1925</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [5154017545946293764]">4</container>
+            <unitdate type="inclusive" normal="1925">1925</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1926">1926</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [5154017545946293764]">4</container>
+            <unitdate type="inclusive" normal="1926">1926</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1927">1927</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [5154017545946293764]">4</container>
+            <unitdate type="inclusive" normal="1927">1927</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1928">1928</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [5154017545946293764]">4</container>
+            <unitdate type="inclusive" normal="1928">1928</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1929">1929</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [5154017545946293764]">4</container>
+            <unitdate type="inclusive" normal="1929">1929</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1930">1930</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [5154017545946293764]">4</container>
+            <unitdate type="inclusive" normal="1930">1930</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1931">1931</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [5154017545946293764]">4</container>
+            <unitdate type="inclusive" normal="1931">1931</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1932">1932</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [59230425694889413938292318]">5</container>
+            <unitdate type="inclusive" normal="1932">1932</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1933">1933</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [59230425694889413938292318]">5</container>
+            <unitdate type="inclusive" normal="1933">1933</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1934">1934</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [59230425694889413938292318]">5</container>
+            <unitdate type="inclusive" normal="1934">1934</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1935">1935</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [59230425694889413938292318]">5</container>
+            <unitdate type="inclusive" normal="1935">1935</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1936">1936</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [59230425694889413938292318]">5</container>
+            <unitdate type="inclusive" normal="1936">1936</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1937">1937</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [59230425694889413938292318]">5</container>
+            <unitdate type="inclusive" normal="1937">1937</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1938">1938</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [59230425694889413938292318]">5</container>
+            <unitdate type="inclusive" normal="1938">1938</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1939">1939</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [59230425694889413938292318]">5</container>
+            <unitdate type="inclusive" normal="1939">1939</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1940">1940</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [59230425694889413938292318]">5</container>
+            <unitdate type="inclusive" normal="1940">1940</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1941">1941</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [59230425694889413938292318]">5</container>
+            <unitdate type="inclusive" normal="1941">1941</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1942">1942</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [59230425694889413938292318]">5</container>
+            <unitdate type="inclusive" normal="1942">1942</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1943/1944">1943-1944</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [59230425694889413938292318]">5</container>
+            <unitdate type="inclusive" normal="1943/1944">1943-1944</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1945/1950">1945-1950</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [59230425694889413938292318]">5</container>
+            <unitdate type="inclusive" normal="1945/1950">1945-1950</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -1172,215 +1016,175 @@
         </odd>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1930">1930</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [59230425694889413938292318]">5</container>
+            <unitdate type="inclusive" normal="1930">1930</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1931">1931</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1931">1931</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">5</container>
+              <container type="box" label="Box [59230425694889413938292318]">5</container>
               <unittitle>Minutes and reports</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">5</container>
+              <container type="box" label="Box [59230425694889413938292318]">5</container>
               <unittitle>Correspondence</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1932">1932</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1932">1932</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">5</container>
+              <container type="box" label="Box [59230425694889413938292318]">5</container>
               <unittitle>Minutes and reports</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">5</container>
+              <container type="box" label="Box [59230425694889413938292318]">5</container>
               <unittitle>Correspondence</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1933">1933</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1933">1933</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">5</container>
+              <container type="box" label="Box [59230425694889413938292318]">5</container>
               <unittitle>Minutes and reports</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">5</container>
+              <container type="box" label="Box [59230425694889413938292318]">5</container>
               <unittitle>Correspondence</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1934">1934</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1934">1934</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">5</container>
+              <container type="box" label="Box [59230425694889413938292318]">5</container>
               <unittitle>Minutes and reports</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">5</container>
+              <container type="box" label="Box [59230425694889413938292318]">5</container>
               <unittitle>Correspondence</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1935">1935</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1935">1935</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">6</container>
+              <container type="box" label="Box [4644681452806981477]">6</container>
               <unittitle>Minutes and reports</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">6</container>
+              <container type="box" label="Box [4644681452806981477]">6</container>
               <unittitle>Correspondence</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1936">1936</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1936">1936</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">6</container>
+              <container type="box" label="Box [4644681452806981477]">6</container>
               <unittitle>Minutes and reports</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">6</container>
+              <container type="box" label="Box [4644681452806981477]">6</container>
               <unittitle>Correspondence</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1937">1937</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1937">1937</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">6</container>
+              <container type="box" label="Box [4644681452806981477]">6</container>
               <unittitle>Minutes and reports</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">6</container>
+              <container type="box" label="Box [4644681452806981477]">6</container>
               <unittitle>Correspondence</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1938">1938</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1938">1938</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">6</container>
+              <container type="box" label="Box [4644681452806981477]">6</container>
               <unittitle>Minutes and reports</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1939">1939</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1939">1939</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">6</container>
+              <container type="box" label="Box [4644681452806981477]">6</container>
               <unittitle>Minutes and reports</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1940">1940</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1940">1940</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">6</container>
+              <container type="box" label="Box [4644681452806981477]">6</container>
               <unittitle>Minutes and reports</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1941">1941</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1941">1941</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">6</container>
+              <container type="box" label="Box [4644681452806981477]">6</container>
               <unittitle>Minutes and reports</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1942">1942</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1942">1942</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">6</container>
+              <container type="box" label="Box [4644681452806981477]">6</container>
               <unittitle>Minutes and reports</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
-            <unittitle>Committees and attendance records <unitdate type="inclusive" normal="1920/1940">1920-1940</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [4644681452806981477]">6</container>
+            <unittitle>Committees and attendance records</unittitle><unitdate type="inclusive" normal="1920/1940">1920-1940</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -1389,16 +1193,15 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
-            <unittitle>Political articles and a speech, election campaign <unitdate type="inclusive" normal="1900">1900</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [4644681452806981477]">6</container>
+            <unittitle>Political articles and a speech, election campaign</unittitle><unitdate type="inclusive" normal="1900">1900</unitdate></did>
           <odd>
             <p>(include articles on the Grange as an organization and dealing with Trusts)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [4644681452806981477]">6</container>
             <unittitle>Miscellaneous</unittitle>
           </did>
           <odd>
@@ -1407,18 +1210,16 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
-            <unittitle>Bills and receipts <unitdate type="inclusive" normal="1906/1941">1906-1941</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [4644681452806981477]">6</container>
+            <unittitle>Bills and receipts</unittitle><unitdate type="inclusive" normal="1906/1941">1906-1941</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">12 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
-            <unittitle>Financial daybook and ledger <unitdate type="inclusive" normal="1896/1915">1896-1915</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [4644681452806981477]">6</container>
+            <unittitle>Financial daybook and ledger</unittitle><unitdate type="inclusive" normal="1896/1915">1896-1915</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 volumes</extent>
             </physdesc>
           </did>

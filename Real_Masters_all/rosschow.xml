@@ -27,6 +27,7 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
+    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
@@ -38,10 +39,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Ross, C. Howard, 1890-1980.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/34291">Ross, C. Howard, 1890-1980.</persname>
       </origination>
-      <unittitle encodinganalog="245">C. Howard Ross Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1955/1980" certainty="approximate">circa 1955-1980</unitdate></unittitle>
-      <abstract>Ann Arbor, Michigan, physician, researcher and speaker on such topics as geriatrics, local history, and the use of herbs and plants in medical treatment. Correspondence, published and unpublished writings, speeches and talks, clippings, photographs, and other papers relating to his various interests.</abstract>
+      <unittitle encodinganalog="245">C. Howard Ross Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1955/1980" certainty="approximate">circa 1955-1980</unitdate><abstract>Ann Arbor, Michigan, physician, researcher and speaker on such topics as geriatrics, local history, and the use of herbs and plants in medical treatment. Correspondence, published and unpublished writings, speeches and talks, clippings, photographs, and other papers relating to his various interests.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">85367 Aa 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="whole">
@@ -82,97 +82,95 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651">Ann Arbor (Mich.)--History.</geogname>
-        <subject source="lcsh" encodinganalog="650">Medicine--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Physicians--Michigan--Ann Arbor.</subject>
-        <persname source="lcnaf" encodinganalog="100">Ross, C. Howard, 1890-1980.</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/850">Ann Arbor (Mich.)--History.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6055">Medicine--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6056">Physicians--Michigan--Ann Arbor.</subject>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/34291">Ross, C. Howard, 1890-1980.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html">Ann Arbor (Mich.)</geogname>
-        <geogname source="lctgm" encodinganalog="651">Ann Arbor (Mich.)--Buildings.</geogname>
-        <geogname source="lctgm" encodinganalog="651">Ann Arbor (Mich.)--Business enterprises.</geogname>
-        <geogname source="lctgm" encodinganalog="651">Ann Arbor (Mich.)--Courthouses.</geogname>
-        <geogname source="lctgm" encodinganalog="651">Ann Arbor (Mich.)--Hotels and taverns.</geogname>
-        <geogname source="lctgm" encodinganalog="651">Ann Arbor (Mich.)--Streets.</geogname>
-        <persname source="lcnaf" encodinganalog="600">Binder, Charles.</persname>
-        <subject source="lctgm" encodinganalog="650">Buildings--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Charles Binder Saloon (Ann Arbor, Mich.)</corpname>
-        <persname source="lcnaf" encodinganalog="600">Cooper, Harry D., 1863-1933.</persname>
-        <subject source="lctgm" encodinganalog="650">Courthouses--Michigan--Ann Arbor.</subject>
-        <subject source="lctgm" encodinganalog="650">Hotels and taverns--Michigan--Ann Arbor.</subject>
-        <subject source="lctgm" encodinganalog="650">Streets--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Class of 1916.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Student housing--1901-1910.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Washtenaw County Courthouse (Ann Arbor, Mich.)</corpname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html" ref="/subjects/860">Ann Arbor (Mich.)</geogname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/214">Ann Arbor (Mich.)--Buildings.</geogname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/210">Ann Arbor (Mich.)--Business enterprises.</geogname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/226">Ann Arbor (Mich.)--Courthouses.</geogname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/657">Ann Arbor (Mich.)--Hotels and taverns.</geogname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/209">Ann Arbor (Mich.)--Streets.</geogname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/27561">Binder, Charles.</persname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3538">Buildings--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17390">Charles Binder Saloon (Ann Arbor, Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/31573">Cooper, Harry D., 1863-1933.</persname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3544">Courthouses--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4049">Hotels and taverns--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3795">Streets--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21198">University of Michigan. Class of 1916.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Student housing--1901-1910.<term type="temporal">1901-1910.</term><term type="topical">Student housing</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22269">Washtenaw County Courthouse (Ann Arbor, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3137">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Topical Files <unitdate type="inclusive" normal="1955/1980" certainty="approximate">circa 1955-1980</unitdate></unittitle>
-        </did>
+          <unittitle>Topical Files</unittitle><unitdate type="inclusive" normal="1955/1980" certainty="approximate">circa 1955-1980</unitdate></did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [937143667446931824163]">1</container>
             <unittitle>Abortion (views about)</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [937143667446931824163]">1</container>
             <unittitle>American Medical Writers Association</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [937143667446931824163]">1</container>
             <unittitle>Ann Arbor Historical Foundation</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [937143667446931824163]">1</container>
             <unittitle>Awards</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [937143667446931824163]">1</container>
             <unittitle>Biographical</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>Christmas greetings <unitdate type="inclusive" normal="1967/1980">1967-1980</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [937143667446931824163]">1</container>
+            <unittitle>Christmas greetings</unittitle><unitdate type="inclusive" normal="1967/1980">1967-1980</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [937143667446931824163]">1</container>
             <unittitle>Clippings about</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [937143667446931824163]">1</container>
             <unittitle>Committee on Courses on Medical Economics and Ethics</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [937143667446931824163]">1</container>
             <unittitle>Correspondence</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [937143667446931824163]">1</container>
             <unittitle>Fox, Winslow (article, "Physicians Walk Among Many Religions")</unittitle>
           </did>
         </c02>
@@ -182,13 +180,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [937143667446931824163]">1</container>
               <unittitle>"Adventures in Royalty and Botany"</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [937143667446931824163]">1</container>
               <unittitle>American History</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -197,50 +195,50 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [937143667446931824163]">1</container>
               <unittitle>European History</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [937143667446931824163]">1</container>
               <unittitle>Medicine</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [937143667446931824163]">1</container>
               <unittitle>"Professor Joseph B. Steere"</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [937143667446931824163]">1</container>
             <unittitle>Poems</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [937143667446931824163]">1</container>
             <unittitle>Radio Talks</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [937143667446931824163]">1</container>
             <unittitle>Review</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [937143667446931824163]">1</container>
             <unittitle>Speeches</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [937143667446931824163]">1</container>
             <unittitle>Washtenaw Historical Society</unittitle>
           </did>
         </c02>
@@ -250,44 +248,44 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [937143667446931824163]">1</container>
               <unittitle>Geriatrics</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [937143667446931824163]">1</container>
               <unittitle>Medicine</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [937143667446931824163]">1</container>
               <unittitle>Miscellaneous</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [937143667446931824163]">1</container>
               <unittitle>"Dr. Tom Lovell, the Cobbler Poet"</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [937143667446931824163]">1</container>
               <unittitle>"Michigan's Railroad Jack"</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [937143667446931824163]">1</container>
               <unittitle>"The Practice of Medicine in the Revolutionary War"</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [937143667446931824163]">1</container>
             <unittitle>
               <genreform source="aat" normal="Photographs">Photographs</genreform>
             </unittitle>

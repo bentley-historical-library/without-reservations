@@ -24,6 +24,7 @@
         <item>Original encoding from Word 2010 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
+    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Cherrin, Daniel.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/35535">Cherrin, Daniel.</persname>
       </origination>
-      <unittitle encodinganalog="245"> Daniel Cherrin papers <unitdate type="inclusive" encodinganalog="245$f" normal="2008/2009">2008-2009</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number"> 2015026 Aa 3 </unitid>
+      <unittitle encodinganalog="245">Daniel Cherrin papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="2008/2009">2008-2009</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number"> 2015026 Aa 3 </unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract> Press Secretary and Director of Communications for the City of Detroit and Mayor Kenneth Cockrel, Jr. following the resignation of Kwame Kilpatrick. Includes records of finances, official communications and news stories, and Cockrel's work on various initiatives such as support for the auto industry, Cobo Center expansion, Angel's Night, and Detroit's bond ratings. </abstract>
       <physdesc altrender="whole">
@@ -88,20 +88,20 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Automobile industry and trade--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="600">Cherrin, Daniel.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Cobo Hall (Detroit, Mich.)</corpname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539.html">Detroit (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Detroit (Mich.)--Politics and government--21st century.</geogname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85185363">Detroit (Mich.). Mayor.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6702">Automobile industry and trade--Michigan.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35535">Cherrin, Daniel.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22028">Cobo Hall (Detroit, Mich.)</corpname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539.html" ref="/subjects/933">Detroit (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1551">Detroit (Mich.)--Politics and government--21st century.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85185363" ref="/agents/corporate_entities/17466">Detroit (Mich.). Mayor.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors: </head>
-        <persname source="lcnaf" encodinganalog="700">Cockrel, Kenneth, Jr.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/33793">Cockrel, Kenneth, Jr.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Digital file formats.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3189">Digital file formats.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -115,58 +115,66 @@
         <c02 level="file">
           <did>
             <physloc>Online</physloc>
-            <unittitle>Articles, Op-Eds, and Website, <unitdate type="inclusive" normal="2008/2009">2008-2009</unitdate></unittitle>
-            <physdesc>
+            <unittitle>Articles, Op-Eds, and Website</unittitle><unitdate type="inclusive" normal="2008/2009">2008-2009</unitdate><physdesc>
               <physfacet>.ZIP file</physfacet>
             </physdesc>
-            <dao href="http://hdl.handle.net/2027.42/111843" show="new" actuate="onrequest">
+            <dao href="http://hdl.handle.net/2027.42/111843" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/677">
               <daodesc>
                 <p>[view item]</p>
               </daodesc>
             </dao>
           </did>
+          <odd>
+            <p>(Articles about Mayor Ken Cockrel's transition and performance as well as op-ed pieces and news releases produced by the Mayor's office on various issues.  Also includes snapshots of various pages on the mayor's website as it appeared in 2008-2009.)</p>
+          </odd>
         </c02>
         <c02 level="file">
           <did>
             <physloc>Online</physloc>
-            <unittitle>Biographies and Campaign Materials, <unitdate type="inclusive" normal="2008/2009">2008-2009</unitdate></unittitle>
-            <physdesc>
+            <unittitle>Biographies and Campaign Materials</unittitle><unitdate type="inclusive" normal="2008/2009">2008-2009</unitdate><physdesc>
               <physfacet>.ZIP file</physfacet>
             </physdesc>
-            <dao href="http://hdl.handle.net/2027.42/111842" show="new" actuate="onrequest">
+            <dao href="http://hdl.handle.net/2027.42/111842" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/678">
               <daodesc>
                 <p>[view item]</p>
               </daodesc>
             </dao>
           </did>
+          <odd>
+            <p>(Biographies of Ken Cockrel, Jr. a dn Deputy Mayor Saul Green in addition to an October 2008 statement by Cockrel on his campaign finances and April 2009 poll results on the Detroit mayoral race.)</p>
+          </odd>
         </c02>
         <c02 level="file">
           <did>
             <physloc>Online</physloc>
-            <unittitle>Talking Points and Speeches, <unitdate type="inclusive" normal="2009">2009</unitdate></unittitle>
-            <physdesc>
+            <unittitle>Talking Points and Speeches</unittitle><unitdate type="inclusive" normal="2009">2009</unitdate><physdesc>
               <physfacet>.ZIP file</physfacet>
             </physdesc>
-            <dao href="http://hdl.handle.net/2027.42/111840" show="new" actuate="onrequest">
+            <dao href="http://hdl.handle.net/2027.42/111840" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/679">
               <daodesc>
                 <p>[view item]</p>
               </daodesc>
             </dao>
           </did>
+          <odd>
+            <p>(Talking points and speeches related to various issues addressed by Mayor Ken Cockrel, Jr.  Topics include the opening of a new Census Bureau office, cable commission, Spring Clean Up and Detroit Recycles, and the 2009 State of the City Address.)</p>
+          </odd>
         </c02>
         <c02 level="file">
           <did>
             <physloc>Online</physloc>
-            <unittitle>Other Correspondence, <unitdate type="inclusive" normal="2008">2008</unitdate></unittitle>
-            <physdesc>
+            <unittitle>Other Correspondence</unittitle><unitdate type="inclusive" normal="2008">2008</unitdate><physdesc>
               <physfacet>.ZIP file</physfacet>
             </physdesc>
-            <dao href="http://hdl.handle.net/2027.42/111841" show="new" actuate="onrequest">
+            <dao href="http://hdl.handle.net/2027.42/111841" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/680">
               <daodesc>
                 <p>[view item]</p>
               </daodesc>
             </dao>
           </did>
+          <odd>
+            <p>(Miscellaneous correspondence; includes a birthday letter to the Rev. James Holley of the Historic Little Rock Baptist Church and a draft of an open letterfor visitors to Detroit.)</p>
+          </odd>
         </c02>
       </c01>
       <c01 level="series">
@@ -179,16 +187,18 @@
         <c02 level="file">
           <did>
             <physloc>Online</physloc>
-            <unittitle>Finances, <unitdate type="inclusive" normal="2008/2009">2008-2009</unitdate></unittitle>
-            <physdesc>
+            <unittitle>Finances</unittitle><unitdate type="inclusive" normal="2008/2009">2008-2009</unitdate><physdesc>
               <physfacet>.ZIP file</physfacet>
             </physdesc>
-            <dao href="http://hdl.handle.net/2027.42/111839" show="new" actuate="onrequest">
+            <dao href="http://hdl.handle.net/2027.42/111839" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/681">
               <daodesc>
                 <p>[view item]</p>
               </daodesc>
             </dao>
           </did>
+          <odd>
+            <p>(Records related to the city of Detroit's finances and budget under Mayor Ken Cockrel, Jr. Includes budget planning documents, press releases and talking points for FY 2009-2010 as well as cash flow records for 2008-2009. Also contains a list of Finance Department accomplishments under Mayor Cockrel.)</p>
+          </odd>
         </c02>
       </c01>
       <c01 level="series">
@@ -201,58 +211,66 @@
         <c02 level="file">
           <did>
             <physloc>Online</physloc>
-            <unittitle>Angel's Night, <unitdate type="inclusive" normal="2008">2008</unitdate></unittitle>
-            <physdesc>
+            <unittitle>Angel's Night</unittitle><unitdate type="inclusive" normal="2008">2008</unitdate><physdesc>
               <physfacet>.ZIP file</physfacet>
             </physdesc>
-            <dao href="http://hdl.handle.net/2027.42/111835" show="new" actuate="onrequest">
+            <dao href="http://hdl.handle.net/2027.42/111835" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/682">
               <daodesc>
                 <p>[view item]</p>
               </daodesc>
             </dao>
           </did>
+          <odd>
+            <p>(Press materials and incident reports related to Angel's Night, an event established by former Mayor Dennis Archer in 1995 to ensure public safety and prevent incidents of arson in Detroit around October 29-31 (a period formerly known as Devil's Night).  Approximately 40,000 Detroiters help patrol the city and are credited with a marked decrease in fires and acts of vandalism.)</p>
+          </odd>
         </c02>
         <c02 level="file">
           <did>
             <physloc>Online</physloc>
-            <unittitle>Auto Industry Federal Bridge Loan, <unitdate type="inclusive" normal="2008/2009">2008-2009</unitdate></unittitle>
-            <physdesc>
+            <unittitle>Auto Industry Federal Bridge Loan</unittitle><unitdate type="inclusive" normal="2008/2009">2008-2009</unitdate><physdesc>
               <physfacet>.ZIP file</physfacet>
             </physdesc>
-            <dao href="http://hdl.handle.net/2027.42/111836" show="new" actuate="onrequest">
+            <dao href="http://hdl.handle.net/2027.42/111836" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/683">
               <daodesc>
                 <p>[view item]</p>
               </daodesc>
             </dao>
           </did>
+          <odd>
+            <p>(Records related to bridge loans provided by the United States government to Detroit's automotive industry.  Includes op-ed pieces, correspondence to government officials including President George W. Bush, Secretary of the Treasury Timothy Geithner, and Ed Montgomery (member of the Presidential Task Force on the Auto Industry and Director of Recovery for Auto Communities and Workers),)</p>
+          </odd>
         </c02>
         <c02 level="file">
           <did>
             <physloc>Online</physloc>
-            <unittitle>Cobo Center Expansion, <unitdate type="inclusive" normal="2008/2009">2008-2009</unitdate></unittitle>
-            <physdesc>
+            <unittitle>Cobo Center Expansion</unittitle><unitdate type="inclusive" normal="2008/2009">2008-2009</unitdate><physdesc>
               <physfacet>.ZIP file</physfacet>
             </physdesc>
-            <dao href="http://hdl.handle.net/2027.42/111837" show="new" actuate="onrequest">
+            <dao href="http://hdl.handle.net/2027.42/111837" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/684">
               <daodesc>
                 <p>[view item]</p>
               </daodesc>
             </dao>
           </did>
+          <odd>
+            <p>(Records related efforts to pass an expansion bill in the Michigan legislature for Detroit's Cobo Center exhibit hall.  Includes press releases, media plans, and talking points.)</p>
+          </odd>
         </c02>
         <c02 level="file">
           <did>
             <physloc>Online</physloc>
-            <unittitle>Detroit Bond and Credit Rating Downgrade, <unitdate type="inclusive" normal="2009">2009</unitdate></unittitle>
-            <physdesc>
+            <unittitle>Detroit Bond and Credit Rating Downgrade</unittitle><unitdate type="inclusive" normal="2009">2009</unitdate><physdesc>
               <physfacet>.ZIP file</physfacet>
             </physdesc>
-            <dao href="http://hdl.handle.net/2027.42/111838" show="new" actuate="onrequest">
+            <dao href="http://hdl.handle.net/2027.42/111838" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/685">
               <daodesc>
                 <p>[view item]</p>
               </daodesc>
             </dao>
           </did>
+          <odd>
+            <p>(Records related to Standard &amp; Poor's and Moody's decisions to downgrade the rating of Detroit's general obligation bonds and unlimited tax debt status, respectively.  Includes new releases and statements.)</p>
+          </odd>
         </c02>
       </c01>
     </dsc>

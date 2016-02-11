@@ -24,6 +24,7 @@
         <item>Original encoding from Word 10.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
+    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Brewer, Dwight J.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/27497">Brewer, Dwight J.</persname>
       </origination>
-      <unittitle encodinganalog="245"> Dwight J. Brewer papers <unitdate type="inclusive" encodinganalog="245$f"> 1862-1898 </unitdate> <unitdate type="bulk" encodinganalog="245$g"> 1862-1865 </unitdate></unittitle>
-      <physdesc altrender="part">
+      <unittitle encodinganalog="245">Dwight J. Brewer papers</unittitle><unitdate type="inclusive" encodinganalog="245$f"> 1862-1898 </unitdate><unitdate type="bulk" encodinganalog="245$g"> 1862-1865 </unitdate><physdesc altrender="part">
         <extent altrender="materialtype spaceoccupied">0.3 linear feet</extent>
       </physdesc>
       <physdesc altrender="part">
@@ -90,21 +90,21 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Brewer, Dwight J.</persname>
-        <famname source="lcnaf" encodinganalog="600">Brewer family.</famname>
-        <persname source="lcnaf" encodinganalog="600">Stearns, Edwin.</persname>
-        <famname source="lcnaf" encodinganalog="600">Stearns family.</famname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Michigan Infantry Regiment, 20th (1862-1865)</corpname>
-        <geogname source="lcsh" encodinganalog="651">United States--History--Civil War, 1861-1865.</geogname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/27497">Brewer, Dwight J.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1611">Brewer family.</famname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30139">Stearns, Edwin.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1355">Stearns family.</famname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22830">United States. Army. Michigan Infantry Regiment, 20th (1862-1865)</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/909">United States--History--Civil War, 1861-1865.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <subject source="lctgm" encodinganalog="650">Families.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3873">Families.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Digital file formats.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3189">Digital file formats.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3137">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -114,9 +114,8 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>Correspondence, <unitdate type="inclusive" normal="1862/1865">1862-1865</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [705001403819016965186]">1</container>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1862/1865">1862-1865</unitdate><physdesc altrender="whole">
               <extent>18 folders</extent>
             </physdesc>
           </did>
@@ -124,39 +123,37 @@
         <c02 level="file">
           <did>
             <physloc>Online </physloc>
-            <unittitle>Correspondence, <unitdate type="inclusive" normal="1862/1865">1862-1865</unitdate></unittitle>
-            <physdesc>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1862/1865">1862-1865</unitdate><physdesc>
               <physfacet>.ZIP file</physfacet>
             </physdesc>
-            <dao href="http://hdl.handle.net/2027.42/111875" show="new" actuate="onrequest">
+            <dao href="http://hdl.handle.net/2027.42/111875" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/580">
               <daodesc>
                 <p>[view item]</p>
               </daodesc>
             </dao>
           </did>
+          <odd>
+            <p>(Letters written by Dwight Brewer to his family during his service in the Company F of the 20th Michigan Infantry during the Civil War. Some letters were written together with Edwin Stearns, who served with Brewer and whose sister was married to Brwer's father.  Includes letters written from Fredericksburg and Knoxville.)</p>
+          </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>Diary, <unitdate type="inclusive" normal="1862/1872">1862-1872</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [705001403819016965186]">1</container>
+            <unittitle>Diary</unittitle><unitdate type="inclusive" normal="1862/1872">1862-1872</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>Military papers, original, <unitdate type="inclusive" normal="1865">1865</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [705001403819016965186]">1</container>
+            <unittitle>Military papers, original</unittitle><unitdate type="inclusive" normal="1865">1865</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>Military papers, photocopies, <unitdate type="inclusive" normal="1862/1865">1862-1865</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [705001403819016965186]">1</container>
+            <unittitle>Military papers, photocopies</unittitle><unitdate type="inclusive" normal="1862/1865">1862-1865</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>Sterns family portrait, photograph, <unitdate type="inclusive" normal="1898">1898</unitdate></unittitle>
-          </did>
+            <unittitle>Sterns family portrait, photograph</unittitle><unitdate type="inclusive" normal="1898">1898</unitdate></did>
         </c02>
       </c01>
     </dsc>

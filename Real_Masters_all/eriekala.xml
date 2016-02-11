@@ -24,6 +24,7 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
+    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
@@ -35,10 +36,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Erie and Kalamazoo Railroad.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/17978">Erie and Kalamazoo Railroad.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Erie and Kalamazoo Railroad records <unitdate type="inclusive" encodinganalog="245$f" normal="1834/1968">1834-1968</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851226 Bb 2</unitid>
+      <unittitle encodinganalog="245">Erie and Kalamazoo Railroad records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1834/1968">1834-1968</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851226 Bb 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>The first railroad west of the Appalachians. Correspondence, legal papers, receipts, account books, bank statements, and stock certificate books; also reports to the Interstate Commerce Commission and Michigan and Ohio regulatory agencies. and minutes, 1834-1919, of the Board of Directors.</abstract>
       <physdesc altrender="part">
@@ -81,18 +81,18 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Erie and Kalamazoo Railroad.</corpname>
-        <subject source="lcsh" encodinganalog="650">Railroads--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17978">Erie and Kalamazoo Railroad.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6705">Railroads--Michigan.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname source="lcnaf" encodinganalog="610">Erie and Kalamazoo Railroad.</corpname>
-        <subject source="lctgm" encodinganalog="650">Railroads--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17978">Erie and Kalamazoo Railroad.</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3789">Railroads--Michigan.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="gmgpc" encodinganalog="655">Prints.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3137">Photographs.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3462">Prints.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -102,44 +102,32 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>Minute book <unitdate type="inclusive" normal="1834/1919">1834-1919</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [647056244448341707895]">1</container>
+            <unittitle>Minute book</unittitle><unitdate type="inclusive" normal="1834/1919">1834-1919</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>Correspondence <unitdate type="inclusive" normal="1840/1952">1840-1952</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [647056244448341707895]">1</container>
+            <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1840/1952">1840-1952</unitdate></did>
           <c03 level="file">
             <did>
-              <unittitle>
-                <unitdate type="inclusive" normal="1840/1914">1840-1914</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <unitdate type="inclusive" normal="1840/1914">1840-1914</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">29 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1915/1939">1915-1939</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [267753247593029034]">2</container>
+              <unitdate type="inclusive" normal="1915/1939">1915-1939</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">32 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1939/1952">1939-1952</unitdate>
-                <unitdate type="inclusive">undated</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [829731448523784734]">3</container>
+              <unitdate type="inclusive" normal="1939/1952">1939-1952</unitdate><unitdate type="inclusive">undated</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">25 folders</extent>
               </physdesc>
             </did>
@@ -147,9 +135,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">4</container>
-            <unittitle>Business papers <unitdate type="inclusive" normal="1834/1918">1834-1918</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [050736439445153309510]">4</container>
+            <unittitle>Business papers</unittitle><unitdate type="inclusive" normal="1834/1918">1834-1918</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">47 folders</extent>
             </physdesc>
           </did>
@@ -159,9 +146,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
-            <unittitle>Business papers <unitdate type="inclusive" normal="1919/1952">1919-1952</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [771206894453951012604]">5</container>
+            <unittitle>Business papers</unittitle><unitdate type="inclusive" normal="1919/1952">1919-1952</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">33 folders</extent>
             </physdesc>
           </did>
@@ -171,39 +157,35 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [246646509408059640933]">6</container>
             <unittitle>Annual Reports to Interstate Commerce Commission</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [246646509408059640933]">6</container>
             <unittitle>Annual Reports to the Public Utilities Commission of Ohio</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">7</container>
-            <unittitle>Annual Reports to the Railroad Commission of the State of Michigan <unitdate type="inclusive" normal="1915/1918">1915-1918</unitdate>, <unitdate type="inclusive" normal="1935/1938">1935-1938</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [895714109626618792]">7</container>
+            <unittitle>Annual Reports to the Railroad Commission of the State of Michigan</unittitle><unitdate type="inclusive" normal="1915/1918">1915-1918</unitdate><unitdate type="inclusive" normal="1935/1938">1935-1938</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">7</container>
-            <unittitle>Minutes of meetings of company stockholders <unitdate type="inclusive" normal="1921/1959">1921-1959</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [895714109626618792]">7</container>
+            <unittitle>Minutes of meetings of company stockholders</unittitle><unitdate type="inclusive" normal="1921/1959">1921-1959</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">7</container>
-            <unittitle>Ledger <unitdate type="inclusive" normal="1848/1849">1848-1849</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [895714109626618792]">7</container>
+            <unittitle>Ledger</unittitle><unitdate type="inclusive" normal="1848/1849">1848-1849</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">7</container>
-            <unittitle>Journal <unitdate type="inclusive" normal="1848/1849">1848-1849</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [895714109626618792]">7</container>
+            <unittitle>Journal</unittitle><unitdate type="inclusive" normal="1848/1849">1848-1849</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -211,79 +193,77 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">7</container>
+              <container type="box" label="Box [895714109626618792]">7</container>
               <unittitle>Leases and contracts</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">7</container>
+              <container type="box" label="Box [895714109626618792]">7</container>
               <unittitle>Mortgages</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">7</container>
+              <container type="box" label="Box [895714109626618792]">7</container>
               <unittitle>Miscellaneous: notes and research material, etc.</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">7</container>
+            <container type="box" label="Box [895714109626618792]">7</container>
             <unittitle>Michigan Historical Collections file (re transfer of records to the library)</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">7</container>
+            <container type="box" label="Box [895714109626618792]">7</container>
             <unittitle>Postcards containing <genreform normal="Prints">print</genreform> image of the railroad</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">8</container>
-            <unittitle>Letterpress books <unitdate type="inclusive" normal="1902/1913">1902-1913</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [62677114838526893068]">8</container>
+            <unittitle>Letterpress books</unittitle><unitdate type="inclusive" normal="1902/1913">1902-1913</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">8</container>
+            <container type="box" label="Box [62677114838526893068]">8</container>
             <unittitle>Miscellaneous business papers</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">9</container>
+            <container type="box" label="Box [9801653435290873004]">9</container>
             <unittitle>Check registers</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">10</container>
+            <container type="box" label="Box [28441927461087851]">10</container>
             <unittitle>Check registers</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">10</container>
+            <container type="box" label="Box [28441927461087851]">10</container>
             <unittitle>Stock certificate books</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">11</container>
+            <container type="box" label="Box [52836415845826397418835]">11</container>
             <unittitle>Check registers</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">12</container>
-            <unittitle>Correspondence and unprocessed miscellanea <unitdate type="inclusive" normal="1943/1968" certainty="approximate">circa 1943-1968</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [7826812447989853468479]">12</container>
+            <unittitle>Correspondence and unprocessed miscellanea</unittitle><unitdate type="inclusive" normal="1943/1968" certainty="approximate">circa 1943-1968</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -291,27 +271,18 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1885/1922">1885-1922</unitdate>
-              </unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [759075674718555952935043]">1</container>
+              <unitdate type="inclusive" normal="1885/1922">1885-1922</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1939/1946">1939-1946</unitdate>
-              </unittitle>
-            </did>
+              <container type="volume" label="Oversize Volume [6687495471598382095]">2</container>
+              <unitdate type="inclusive" normal="1939/1946">1939-1946</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">12</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1946/1948">1946-1948</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [7826812447989853468479]">12</container>
+              <unitdate type="inclusive" normal="1946/1948">1946-1948</unitdate></did>
             <odd>
               <p>(unbound)</p>
             </odd>

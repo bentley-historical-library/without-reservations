@@ -24,6 +24,7 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
+    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Armstrong, Arthur E. (Arthur Edward), 1884-1976.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/34930">Armstrong, Arthur E. (Arthur Edward), 1884-1976.</persname>
       </origination>
-      <unittitle encodinganalog="245">Arthur E. Armstrong papers <unitdate type="inclusive" encodinganalog="245$f" normal="1911/1938">1911-1938</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">854 Aa 2</unitid>
+      <unittitle encodinganalog="245">Arthur E. Armstrong papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1911/1938">1911-1938</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">854 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Hillsdale, Michigan, Singer Sewing Machine Company representative in central China, 1911-1917; wife, Elsa F. Armstrong of Northfield, Minnesota, Evangelical Lutheran missionary in China, 1911-1917. Correspondence between Arthur and Elsa Armstrong, Elsa Armstrong's family, and other missionaries, concerning life in China; also photographs and Arthur and Elsa Armstrong's reminiscences of China.</abstract>
       <physdesc altrender="whole">
@@ -80,32 +80,32 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Missions--China.</subject>
-        <subject source="lcsh" encodinganalog="650">Missionaries--China.</subject>
-        <geogname source="lcsh" encodinganalog="651">China--History--Republic, 1912-1949.</geogname>
-        <subject source="lcsh" encodinganalog="650">Lutheran Church--Missions--China.</subject>
-        <persname source="lcnaf" encodinganalog="700">Armstrong, Elsa F. (Elsa Felland), 1890-</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5972">Missions--China.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5973">Missionaries--China.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/946">China--History--Republic, 1912-1949.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5974">Lutheran Church--Missions--China.</subject>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31162">Armstrong, Elsa F. (Elsa Felland), 1890-</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <geogname source="lcsh" encodinganalog="651">China--History--Republic, 1912-1949.</geogname>
-        <geogname source="lcsh" encodinganalog="651">China--History--Revolution, 1911-1912.</geogname>
-        <famname source="lcnaf" encodinganalog="600">Felland family.</famname>
-        <geogname source="lcsh" encodinganalog="651">Japan.</geogname>
-        <subject source="lctgm" encodinganalog="650">Missionaries--China.</subject>
-        <subject source="lctgm" encodinganalog="650">Missions--China.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85339570">Singer Sewing Machine Company.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Lutheran Church--Missions--China.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/946">China--History--Republic, 1912-1949.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/947">China--History--Revolution, 1911-1912.</geogname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1598">Felland family.</famname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/948">Japan.</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3671">Missionaries--China.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3672">Missions--China.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85339570" ref="/agents/corporate_entities/18350">Singer Sewing Machine Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20627">Lutheran Church--Missions--China.<term type="geographic">China.</term><term type="topical">Missions</term></corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Armstrong, Elsa F. (Elsa Felland), 1890-</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31162">Armstrong, Elsa F. (Elsa Felland), 1890-</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="gmgpc" encodinganalog="655">Posters.</genreform>
-        <genreform source="gmgpc" encodinganalog="655">Stereographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3137">Photographs.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3460">Posters.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3455">Stereographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -115,17 +115,13 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [0782548588232596774]">1</container>
             <unittitle>Letters of Elsa B. Felland to the Felland family</unittitle>
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>
-                <unitdate type="inclusive">Undated</unitdate>
-                <unitdate type="inclusive" normal="1917">1917</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [0782548588232596774]">1</container>
+              <unitdate type="inclusive">Undated</unitdate><unitdate type="inclusive" normal="1917">1917</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">7 folders</extent>
               </physdesc>
             </did>
@@ -137,12 +133,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>
-                <unitdate type="inclusive">Undated</unitdate>
-                <unitdate type="inclusive" normal="1913/1916">1913-1916</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [0782548588232596774]">1</container>
+              <unitdate type="inclusive">Undated</unitdate><unitdate type="inclusive" normal="1913/1916">1913-1916</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">6 folders</extent>
               </physdesc>
             </did>
@@ -154,12 +146,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>
-                <unitdate type="inclusive">Undated</unitdate>
-                <unitdate type="inclusive" normal="1917">1917</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [0782548588232596774]">1</container>
+              <unitdate type="inclusive">Undated</unitdate><unitdate type="inclusive" normal="1917">1917</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">7 folders</extent>
               </physdesc>
             </did>
@@ -171,11 +159,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1914/1916">1914-1916</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [0782548588232596774]">1</container>
+              <unitdate type="inclusive" normal="1914/1916">1914-1916</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -184,12 +169,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>
-                <unitdate type="inclusive">Undated</unitdate>
-                <unitdate type="inclusive" normal="1912/1916">1912-1916</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [0782548588232596774]">1</container>
+              <unitdate type="inclusive">Undated</unitdate><unitdate type="inclusive" normal="1912/1916">1912-1916</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -198,37 +179,32 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>
-                <unitdate type="inclusive">Undated</unitdate>
-                <unitdate type="inclusive" normal="1911/1938">1911-1938</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [0782548588232596774]">1</container>
+              <unitdate type="inclusive">Undated</unitdate><unitdate type="inclusive" normal="1911/1938">1911-1938</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [0782548588232596774]">1</container>
             <unittitle>Fragmentary letters</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [0782548588232596774]">1</container>
             <unittitle>Maps and clippings</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [0782548588232596774]">1</container>
             <unittitle>Reminiscences of Arthur E. Armstrong and Elsa B. Armstrong</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>Miscellaneous (1981 and <unitdate type="inclusive" normal="1983">1983</unitdate> accessions)</unittitle>
-          </did>
+            <container type="box" label="Box [0782548588232596774]">1</container>
+            <unittitle>Miscellaneous (1981 and  accessions)</unittitle><unitdate type="inclusive" normal="1983">1983</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -243,61 +219,60 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [369807146224116951718]">2</container>
               <unittitle>Armstrong, Ella B.: trip to China; mission scenes</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [369807146224116951718]">2</container>
               <unittitle>Armstrong family</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>Chinese civil war <unitdate type="inclusive" normal="1911/1912">1911-1912</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [369807146224116951718]">2</container>
+              <unittitle>Chinese civil war</unittitle><unitdate type="inclusive" normal="1911/1912">1911-1912</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [369807146224116951718]">2</container>
               <unittitle>Chinese life scenes</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [369807146224116951718]">2</container>
               <unittitle>Chinese urban scenes</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [369807146224116951718]">2</container>
               <unittitle>Friends and associates in China</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [369807146224116951718]">2</container>
               <unittitle>Mission building and churches</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [369807146224116951718]">2</container>
               <unittitle>Singer Sewing Machine Company in China</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [369807146224116951718]">2</container>
               <unittitle>China postcards</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [369807146224116951718]">2</container>
               <unittitle>Color prints of Japan</unittitle>
             </did>
           </c03>
@@ -307,7 +282,7 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">2</container>
+                <container type="box" label="Box [369807146224116951718]">2</container>
                 <unittitle>China</unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">6 folders</extent>
@@ -316,7 +291,7 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">2</container>
+                <container type="box" label="Box [369807146224116951718]">2</container>
                 <unittitle>World views</unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -325,32 +300,32 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">2</container>
+                <container type="box" label="Box [369807146224116951718]">2</container>
                 <unittitle>St. Louis World's Fair</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">2</container>
+                <container type="box" label="Box [369807146224116951718]">2</container>
                 <unittitle>Port Arthur</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">2</container>
+                <container type="box" label="Box [369807146224116951718]">2</container>
                 <unittitle>Philippine Islands</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">2</container>
+                <container type="box" label="Box [369807146224116951718]">2</container>
                 <unittitle>Japan</unittitle>
               </did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [369807146224116951718]">2</container>
               <unittitle>Miscellaneous</unittitle>
             </did>
           </c03>
@@ -361,38 +336,37 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [369807146224116951718]">2</container>
               <unittitle>Mission life, mostly Sinyang Girls' School</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [369807146224116951718]">2</container>
               <unittitle>Chinese urban and rural life</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [369807146224116951718]">2</container>
               <unittitle>Elsa Felland's trip to China</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>Chinese civil war <unitdate type="inclusive" normal="1911/1912">1911-1912</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [369807146224116951718]">2</container>
+              <unittitle>Chinese civil war</unittitle><unitdate type="inclusive" normal="1911/1912">1911-1912</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">3</container>
+              <container type="box" label="Box [107471944320878134076254]">3</container>
               <unittitle>Shanghai and miscellaneous Chinese scenes, Singer Sewing Machine Company, funeral of Empress Dowager, Sun Yat Sen's visit to Hankow</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">3</container>
+            <container type="box" label="Box [107471944320878134076254]">3</container>
             <unittitle>
               <genreform normal="Posters">Posters</genreform>
             </unittitle>

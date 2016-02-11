@@ -32,6 +32,7 @@
         <item>Edited to reflect migration of content from CD-ROM to Deep Blue JMBG</item>
       </change>
     </revisiondesc>
+    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
@@ -43,10 +44,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Minard, Fred E.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/31732">Minard, Fred E.</persname>
       </origination>
-      <unittitle encodinganalog="245">Fred E. Minard photograph collection <unitdate type="inclusive" encodinganalog="245$f" normal="1918/1919">1918-1919</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2009071 Aa 2</unitid>
+      <unittitle encodinganalog="245">Fred E. Minard photograph collection</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1918/1919">1918-1919</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2009071 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Photograph collection of a soldier with the 168th Co., United States Army Transportation Corps, serving near Murmansk, Russia in the Allied intervention in Russia, 1918-1919, the "Polar Bear Expedition."</abstract>
       <physdesc altrender="whole">
@@ -89,32 +89,32 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcnaf" encodinganalog="651.">England.</geogname>
-        <geogname source="lcnaf" encodinganalog="651.">France.</geogname>
-        <geogname source="lcnaf" encodinganalog="651.">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <subject source="lcsh" encodinganalog="650">World War, 1914-1918.</subject>
-        <subject source="lctgm" encodinganalog="650">Airplanes.</subject>
-        <subject source="lctgm" encodinganalog="650">Campaigns and battles--Soviet Union.</subject>
-        <subject source="lctgm" encodinganalog="650">Carts and wagons.</subject>
-        <subject source="lctgm" encodinganalog="650">Dogsleds.</subject>
-        <subject source="lctgm" encodinganalog="650">Military art and science.</subject>
-        <subject source="lctgm" encodinganalog="650">Military camps.</subject>
-        <subject source="lctgm" encodinganalog="650">Military cookery.</subject>
-        <subject source="lctgm" encodinganalog="650">Military life.</subject>
-        <subject source="lctgm" encodinganalog="650">Military parades and ceremonies.</subject>
-        <subject source="lctgm" encodinganalog="650">Railroads--Russia (Federation)</subject>
-        <subject source="lctgm" encodinganalog="650">Recreation.</subject>
-        <subject source="lctgm" encodinganalog="650">Refugees--Russian.</subject>
-        <subject source="lctgm" encodinganalog="650">Ships.</subject>
-        <subject source="lctgm" encodinganalog="650">Skiing.</subject>
-        <subject source="lctgm" encodinganalog="650">Soldiers--American--Russia (Federation)</subject>
-        <subject source="lctgm" encodinganalog="650">War casualties.</subject>
-        <subject source="lctgm" encodinganalog="650">War damage.</subject>
-        <corpname encodinganalog="690" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n2008059426">Polar Bear Expedition.</corpname>
+        <geogname source="lcnaf" encodinganalog="651." ref="/subjects/768">England.</geogname>
+        <geogname source="lcnaf" encodinganalog="651." ref="/subjects/769">France.</geogname>
+        <geogname source="lcnaf" encodinganalog="651." ref="/subjects/760">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5737">World War, 1914-1918.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4123">Airplanes.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4163">Campaigns and battles--Soviet Union.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4164">Carts and wagons.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4088">Dogsleds.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3723">Military art and science.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3697">Military camps.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4165">Military cookery.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4166">Military life.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3934">Military parades and ceremonies.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4167">Railroads--Russia (Federation)</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3579">Recreation.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4168">Refugees--Russian.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3868">Ships.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3956">Skiing.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3720">Soldiers--American--Russia (Federation)</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4169">War casualties.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4170">War damage.</subject>
+        <corpname encodinganalog="690" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n2008059426" ref="/agents/corporate_entities/21526">Polar Bear Expedition.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3137">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -131,9 +131,9 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="folder" label="Folder">1</container>
+              <container type="folder" label="Folder [71282765174838663526]">1</container>
               <unittitle>France</unittitle>
-              <dao show="new" actuate="onrequest" href="minard0001">
+              <dao show="new" actuate="onRequest" href="minard0001" ref="/repositories/2/digital_objects/2817">
                 <daodesc>
                   <p>[view items]</p>
                 </daodesc>
@@ -142,9 +142,9 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="folder" label="Folder">2</container>
+              <container type="folder" label="Folder [286930442782318304055]">2</container>
               <unittitle>Russian Expedition Photos by John Wilson</unittitle>
-              <dao show="new" actuate="onrequest" href="minard0002">
+              <dao show="new" actuate="onRequest" href="minard0002" ref="/repositories/2/digital_objects/2818">
                 <daodesc>
                   <p>[view items]</p>
                 </daodesc>
@@ -154,7 +154,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container label="Box" type="box">1</container>
+            <container label="Box [487890528479975385489404]" type="box">1</container>
             <unittitle>Photograph Prints</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
@@ -190,7 +190,7 @@
         </did>
         <c02 level="file">
           <did>
-            <container label="Box" type="box">1</container>
+            <container label="Box [487890528479975385489404]" type="box">1</container>
             <unittitle>Papers</unittitle>
           </did>
           <odd>

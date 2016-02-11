@@ -24,6 +24,7 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
+    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
@@ -35,10 +36,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Michigan Municipal League.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/17822">Michigan Municipal League.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Michigan Municipal League records <unitdate type="inclusive" encodinganalog="245$f" normal="1928/1977">1928-1977</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85324 Bm 2</unitid>
+      <unittitle encodinganalog="245">Michigan Municipal League records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1928/1977">1928-1977</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85324 Bm 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Advisory organization to Michigan local governments; correspondence, reports, and clippings and scrapbooks relating to organizational activities.</abstract>
       <physdesc altrender="whole">
@@ -78,29 +78,29 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81129560.html">Benton Harbor (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79133151.html">Grand Rapids (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Holland (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Lansing (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">Municipal government--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Taxation--Michigan.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81129560.html" ref="/subjects/1040">Benton Harbor (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79133151.html" ref="/subjects/1102">Grand Rapids (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1119">Holland (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1140">Lansing (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7051">Municipal government--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6214">Taxation--Michigan.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2009000162">Brake, D. Hale, 1891-1979</persname>
-        <persname source="lcnaf" encodinganalog="700">Brooks, Earnest C.</persname>
-        <persname source="lcnaf" encodinganalog="700">Cady, Alvah P.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008189249">Kelly, Harry F. (Harry Francis), 1895-1971.</persname>
-        <persname source="lcnaf" encodinganalog="700">McCallum, George P. (George Porterfield), 1871-1952.</persname>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/no2001029603">Michigan Municipal Finance Commission.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">Michigan Municipal Finance Commission. Tax Study Advisory Committee.</corpname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80098082">Stason, E. Blythe (Edwin Blythe), 1891-1972.</persname>
-        <persname source="lcnaf" encodinganalog="700">Taggart, Ganson, 1873-1959.</persname>
-        <persname source="lcnaf" encodinganalog="700">Troyer, Laird J.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2009000162" ref="/agents/people/31989">Brake, D. Hale, 1891-1979</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27674">Brooks, Earnest C.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27766">Cady, Alvah P.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008189249" ref="/agents/people/34560">Kelly, Harry F. (Harry Francis), 1895-1971.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35572">McCallum, George P. (George Porterfield), 1871-1952.</persname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/no2001029603" ref="/agents/corporate_entities/22479">Michigan Municipal Finance Commission.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/21264">Michigan Municipal Finance Commission. Tax Study Advisory Committee.</corpname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80098082" ref="/agents/people/28371">Stason, E. Blythe (Edwin Blythe), 1891-1972.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29836">Taggart, Ganson, 1873-1959.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35600">Troyer, Laird J.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Scrapbooks.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Scrapbooks.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -114,64 +114,57 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>Earnest C. Brooks <unitdate type="inclusive" normal="1928/1936">1928-1936</unitdate> (Holland mayor)</unittitle>
-            </did>
+              <container type="box" label="Box [181422175413939048533]">1</container>
+              <unittitle>Earnest C. Brooks  (Holland mayor)</unittitle><unitdate type="inclusive" normal="1928/1936">1928-1936</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>Alvah P. Cady <unitdate type="inclusive" normal="1928/1936">1928-1936</unitdate> (Benton Harbor city attorney)</unittitle>
-            </did>
+              <container type="box" label="Box [181422175413939048533]">1</container>
+              <unittitle>Alvah P. Cady  (Benton Harbor city attorney)</unittitle><unitdate type="inclusive" normal="1928/1936">1928-1936</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>Ganson Taggart <unitdate type="inclusive" normal="1928/1939">1928-1939</unitdate> (Grand Rapids city attorney)</unittitle>
-            </did>
+              <container type="box" label="Box [181422175413939048533]">1</container>
+              <unittitle>Ganson Taggart  (Grand Rapids city attorney)</unittitle><unitdate type="inclusive" normal="1928/1939">1928-1939</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>Laird J. Troyer <unitdate type="inclusive" normal="1929/1936">1929-1936</unitdate> (Lansing mayor)</unittitle>
-            </did>
+              <container type="box" label="Box [181422175413939048533]">1</container>
+              <unittitle>Laird J. Troyer  (Lansing mayor)</unittitle><unitdate type="inclusive" normal="1929/1936">1929-1936</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [181422175413939048533]">1</container>
               <unittitle>Detroit officials</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>Miscellaneous staff field reports <unitdate type="inclusive" normal="1934/1947">1934-1947</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [181422175413939048533]">1</container>
+            <unittitle>Miscellaneous staff field reports</unittitle><unitdate type="inclusive" normal="1934/1947">1934-1947</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [181422175413939048533]">1</container>
             <unittitle>Miscellaneous reports, memoranda and historical material</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [181422175413939048533]">1</container>
             <unittitle>Clippings and other papers concerning charter revisions in Michigan municipalities</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">2</container>
-            <unittitle><genreform normal="Scrapbooks">Scrapbooks</genreform>, <unitdate type="inclusive" normal="1935/1972">1935-1972</unitdate> containing clippings and other League materials</unittitle>
-          </did>
+            <container type="box" label="Box [368291249620572496]">2</container>
+            <unittitle><genreform normal="Scrapbooks">Scrapbooks</genreform>,  containing clippings and other League materials</unittitle><unitdate type="inclusive" normal="1935/1972">1935-1972</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">2</container>
-            <unittitle>Papers <unitdate type="inclusive" normal="1944">1944</unitdate> concerning Tax Study Advisory Committee of the Michigan Municipal Finance Commission</unittitle>
-          </did>
+            <container type="box" label="Box [368291249620572496]">2</container>
+            <unittitle>Papers  concerning Tax Study Advisory Committee of the Michigan Municipal Finance Commission</unittitle><unitdate type="inclusive" normal="1944">1944</unitdate></did>
         </c02>
       </c01>
     </dsc>

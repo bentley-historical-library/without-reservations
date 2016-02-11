@@ -24,6 +24,7 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
+    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
@@ -35,10 +36,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Louis Sands Salt and Lumber Company (Manistee, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/22477">Louis Sands Salt and Lumber Company (Manistee, Mich.)</corpname>
       </origination>
-      <unittitle encodinganalog="245">Louis Sands Salt and Lumber Company (Manistee, Mich.) records <unitdate type="inclusive" encodinganalog="245$f" normal="1863/1932">1863-1932</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851810 Bb. 2</unitid>
+      <unittitle encodinganalog="245">Louis Sands Salt and Lumber Company (Manistee, Mich.) records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1863/1932">1863-1932</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851810 Bb. 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Manistee, Michigan business firm; financial records, letterpress books, time books, and other records detailing to various business activities.</abstract>
       <physdesc altrender="part">
@@ -85,262 +85,222 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Banks and banking--Michigan--Manistee.</subject>
-        <subject source="lcsh" encodinganalog="650">Business records.</subject>
-        <subject source="lcsh" encodinganalog="650">Logging--Michigan--Manistee.</subject>
-        <subject source="lcsh" encodinganalog="650">Lumbering--Michigan--Manistee.</subject>
-        <geogname source="lcsh" encodinganalog="651">Manistee (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">Salt industry and trade--Michigan--Manistee.</subject>
-        <persname source="lcnaf" encodinganalog="600">Sands, Louis, 1825-1905.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Sands and Burr (Bankers : Manistee, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Louis Sands Salt and Lumber Company (Manistee, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Manistee River Improvement Company (Manistee, Mich.)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9981">Banks and banking--Michigan--Manistee.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5809">Business records.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9953">Logging--Michigan--Manistee.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9954">Lumbering--Michigan--Manistee.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/865">Manistee (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9955">Salt industry and trade--Michigan--Manistee.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/30930">Sands, Louis, 1825-1905.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20788">Sands and Burr (Bankers : Manistee, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22477">Louis Sands Salt and Lumber Company (Manistee, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18755">Manistee River Improvement Company (Manistee, Mich.)</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Letterpress books <unitdate type="inclusive" normal="1901/1929">1901-1929</unitdate></unittitle>
-        </did>
+          <unittitle>Letterpress books</unittitle><unitdate type="inclusive" normal="1901/1929">1901-1929</unitdate></did>
         <scopecontent>
           <p>There are two subseries of letterpress books. One, created through Sands banking activities, covers the years 1901-1929. The other subseries, correspondence of George M. Burr, trustee, is dated between 1902 and 1925. Both sets of letterpress books lack several volumes for the earliest years.</p>
         </scopecontent>
         <c02 level="subseries">
           <did>
-            <unittitle>Sands and Burr, Bankers <unitdate type="inclusive" normal="1901/1929">1901-1929</unitdate></unittitle>
-          </did>
+            <unittitle>Sands and Burr, Bankers</unittitle><unitdate type="inclusive" normal="1901/1929">1901-1929</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>Vol. 7: <unitdate type="inclusive" normal="1901-12/1902-08">December 1901-August 1902</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [80209626644935838266]">1</container>
+              <unittitle>Vol. 7:</unittitle><unitdate type="inclusive" normal="1901-12/1902-08">December 1901-August 1902</unitdate></did>
             <odd>
               <p>(Volumes nos. 1-6 were not received)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>Vol. 8: <unitdate type="inclusive" normal="1902-08/1903-06">August 1902-June 1903</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [80209626644935838266]">1</container>
+              <unittitle>Vol. 8:</unittitle><unitdate type="inclusive" normal="1902-08/1903-06">August 1902-June 1903</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>Vol. 9: <unitdate type="inclusive" normal="1903-06/1904-05">June 1903-May 1904</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [80209626644935838266]">1</container>
+              <unittitle>Vol. 9:</unittitle><unitdate type="inclusive" normal="1903-06/1904-05">June 1903-May 1904</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>Vol. 10: <unitdate type="inclusive" normal="1904-05/1905-08">May 1904-August 1905</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [80209626644935838266]">1</container>
+              <unittitle>Vol. 10:</unittitle><unitdate type="inclusive" normal="1904-05/1905-08">May 1904-August 1905</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>Vol. 11: <unitdate type="inclusive" normal="1905-08/1906-08">August 1905-August 1906</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [80209626644935838266]">1</container>
+              <unittitle>Vol. 11:</unittitle><unitdate type="inclusive" normal="1905-08/1906-08">August 1905-August 1906</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>Vol. 12: <unitdate type="inclusive" normal="1906-08/1907-08">August 1906-August 1907</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [19903046468955929]">2</container>
+              <unittitle>Vol. 12:</unittitle><unitdate type="inclusive" normal="1906-08/1907-08">August 1906-August 1907</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>Vol. 13: <unitdate type="inclusive" normal="1907-08/1908-05">August 1907-May 1908</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [19903046468955929]">2</container>
+              <unittitle>Vol. 13:</unittitle><unitdate type="inclusive" normal="1907-08/1908-05">August 1907-May 1908</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>Vol. 14: <unitdate type="inclusive" normal="1908-05/1909-03">May 1908-March 1909</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [19903046468955929]">2</container>
+              <unittitle>Vol. 14:</unittitle><unitdate type="inclusive" normal="1908-05/1909-03">May 1908-March 1909</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>Vol. 15: <unitdate type="inclusive" normal="1909-03/1910-05">March 1909-May 1910</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [19903046468955929]">2</container>
+              <unittitle>Vol. 15:</unittitle><unitdate type="inclusive" normal="1909-03/1910-05">March 1909-May 1910</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>Vol. 16: <unitdate type="inclusive" normal="1910-03/1911-03">March 1910-March 1911</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [19903046468955929]">2</container>
+              <unittitle>Vol. 16:</unittitle><unitdate type="inclusive" normal="1910-03/1911-03">March 1910-March 1911</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>Vol. 17: <unitdate type="inclusive" normal="1911-03/1912-01">March 1911-January 1912</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [19903046468955929]">2</container>
+              <unittitle>Vol. 17:</unittitle><unitdate type="inclusive" normal="1911-03/1912-01">March 1911-January 1912</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">3</container>
-              <unittitle>Vol. 18: <unitdate type="inclusive" normal="1912-01/1912-09">January 1912-September 1912</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [0121440568740]">3</container>
+              <unittitle>Vol. 18:</unittitle><unitdate type="inclusive" normal="1912-01/1912-09">January 1912-September 1912</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">3</container>
-              <unittitle>Vol. 19: <unitdate type="inclusive" normal="1912-09/1913-05">September 1912-May 1913</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [0121440568740]">3</container>
+              <unittitle>Vol. 19:</unittitle><unitdate type="inclusive" normal="1912-09/1913-05">September 1912-May 1913</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">3</container>
-              <unittitle>Vol. 20: <unitdate type="inclusive" normal="1913-05/1914-04">May 1913-April 1914</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [0121440568740]">3</container>
+              <unittitle>Vol. 20:</unittitle><unitdate type="inclusive" normal="1913-05/1914-04">May 1913-April 1914</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">3</container>
-              <unittitle>Vol. 21: <unitdate type="inclusive" normal="1914-04/1915-03">April 1914-March 1915</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [0121440568740]">3</container>
+              <unittitle>Vol. 21:</unittitle><unitdate type="inclusive" normal="1914-04/1915-03">April 1914-March 1915</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">3</container>
-              <unittitle>Vol. 22: <unitdate type="inclusive" normal="1915-03/1916-04">March 1915-April 1916</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [0121440568740]">3</container>
+              <unittitle>Vol. 22:</unittitle><unitdate type="inclusive" normal="1915-03/1916-04">March 1915-April 1916</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">4</container>
-              <unittitle>Vol. 23: <unitdate type="inclusive" normal="1916-04/1917-04">April 1916-April 1917</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [46626360414534696839]">4</container>
+              <unittitle>Vol. 23:</unittitle><unitdate type="inclusive" normal="1916-04/1917-04">April 1916-April 1917</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">4</container>
-              <unittitle>Vol. 24: <unitdate type="inclusive" normal="1917-04/1918-03">April 1917-March 1918</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [46626360414534696839]">4</container>
+              <unittitle>Vol. 24:</unittitle><unitdate type="inclusive" normal="1917-04/1918-03">April 1917-March 1918</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">4</container>
-              <unittitle>Vol. 25: <unitdate type="inclusive" normal="1918-03/1919-03">March 1918-March 1919</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [46626360414534696839]">4</container>
+              <unittitle>Vol. 25:</unittitle><unitdate type="inclusive" normal="1918-03/1919-03">March 1918-March 1919</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">4</container>
-              <unittitle>Vol. 26: <unitdate type="inclusive" normal="1919-03/1920-02">March 1919-February 1920</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [46626360414534696839]">4</container>
+              <unittitle>Vol. 26:</unittitle><unitdate type="inclusive" normal="1919-03/1920-02">March 1919-February 1920</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">4</container>
-              <unittitle>Vol. 27: <unitdate type="inclusive" normal="1920-02/1921-01">February 1920-January 1921</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [46626360414534696839]">4</container>
+              <unittitle>Vol. 27:</unittitle><unitdate type="inclusive" normal="1920-02/1921-01">February 1920-January 1921</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">5</container>
-              <unittitle>Vol. 28: <unitdate type="inclusive" normal="1921-01/1922-03">January 1921-March 1922</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [997057263748445718123]">5</container>
+              <unittitle>Vol. 28:</unittitle><unitdate type="inclusive" normal="1921-01/1922-03">January 1921-March 1922</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">5</container>
-              <unittitle>Vol. 29: <unitdate type="inclusive" normal="1922-03/1923-05">March 1922-May 1923</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [997057263748445718123]">5</container>
+              <unittitle>Vol. 29:</unittitle><unitdate type="inclusive" normal="1922-03/1923-05">March 1922-May 1923</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">5</container>
-              <unittitle>Vol. 30: <unitdate type="inclusive" normal="1923-05/1924-09">May 1923-September 1924</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [997057263748445718123]">5</container>
+              <unittitle>Vol. 30:</unittitle><unitdate type="inclusive" normal="1923-05/1924-09">May 1923-September 1924</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">5</container>
-              <unittitle>Vol. 31: <unitdate type="inclusive" normal="1924-09/1929-09">September 1924-September 1929</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [997057263748445718123]">5</container>
+              <unittitle>Vol. 31:</unittitle><unitdate type="inclusive" normal="1924-09/1929-09">September 1924-September 1929</unitdate></did>
           </c03>
         </c02>
         <c02 level="subseries">
           <did>
-            <unittitle>George M. Burr, Trustee <unitdate type="inclusive" normal="1902/1925">1902-1925</unitdate></unittitle>
-          </did>
+            <unittitle>George M. Burr, Trustee</unittitle><unitdate type="inclusive" normal="1902/1925">1902-1925</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">5</container>
-              <unittitle>Vol. 5: <unitdate type="inclusive" normal="1902-08/1903-10">August 1902-October 1903</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [997057263748445718123]">5</container>
+              <unittitle>Vol. 5:</unittitle><unitdate type="inclusive" normal="1902-08/1903-10">August 1902-October 1903</unitdate></did>
             <odd>
               <p>(Vols. 1-4 were not received)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">6</container>
-              <unittitle>Vol. 6: <unitdate type="inclusive" normal="1903-10/1905-01">October 1903-January 1905</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3859579058465144030121279]">6</container>
+              <unittitle>Vol. 6:</unittitle><unitdate type="inclusive" normal="1903-10/1905-01">October 1903-January 1905</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">6</container>
-              <unittitle>Vol. 7: <unitdate type="inclusive" normal="1905-01/1906-02">January 1905-February 1906</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3859579058465144030121279]">6</container>
+              <unittitle>Vol. 7:</unittitle><unitdate type="inclusive" normal="1905-01/1906-02">January 1905-February 1906</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">6</container>
-              <unittitle>Vol. 8: <unitdate type="inclusive" normal="1906-02/1907-08">February 1906-August 1907</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3859579058465144030121279]">6</container>
+              <unittitle>Vol. 8:</unittitle><unitdate type="inclusive" normal="1906-02/1907-08">February 1906-August 1907</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">6</container>
-              <unittitle>Vol. 9: <unitdate type="inclusive" normal="1907-08/1909-07">August 1907-July 1909</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3859579058465144030121279]">6</container>
+              <unittitle>Vol. 9:</unittitle><unitdate type="inclusive" normal="1907-08/1909-07">August 1907-July 1909</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">6</container>
-              <unittitle>Vol. 10: <unitdate type="inclusive" normal="1909-07/1912-10">July 1909-October 1912</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3859579058465144030121279]">6</container>
+              <unittitle>Vol. 10:</unittitle><unitdate type="inclusive" normal="1909-07/1912-10">July 1909-October 1912</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">7</container>
-              <unittitle>Vol. 11: <unitdate type="inclusive" normal="1912-10/1915-04">October 1912-April 1915</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [13645341785821026657]">7</container>
+              <unittitle>Vol. 11:</unittitle><unitdate type="inclusive" normal="1912-10/1915-04">October 1912-April 1915</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">7</container>
-              <unittitle>Vol. 12: <unitdate type="inclusive" normal="1915-04/1915-12">April 1915-December 1915</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [13645341785821026657]">7</container>
+              <unittitle>Vol. 12:</unittitle><unitdate type="inclusive" normal="1915-04/1915-12">April 1915-December 1915</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">7</container>
-              <unittitle>Vol. 13: <unitdate type="inclusive" normal="1915-12/1918-06">December 1915-June 1918</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [13645341785821026657]">7</container>
+              <unittitle>Vol. 13:</unittitle><unitdate type="inclusive" normal="1915-12/1918-06">December 1915-June 1918</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">7</container>
-              <unittitle>Vol. 14: <unitdate type="inclusive" normal="1918-06/1920-09">June 1918-September 1920</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [13645341785821026657]">7</container>
+              <unittitle>Vol. 14:</unittitle><unitdate type="inclusive" normal="1918-06/1920-09">June 1918-September 1920</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">7</container>
-              <unittitle>Vol. 15: <unitdate type="inclusive" normal="1920-09/1922-12">September 1920-December 1922</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [13645341785821026657]">7</container>
+              <unittitle>Vol. 15:</unittitle><unitdate type="inclusive" normal="1920-09/1922-12">September 1920-December 1922</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">7</container>
-              <unittitle>Vol. 16: <unitdate type="inclusive" normal="1922-12/1925-06">December 1922-June 1925</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [13645341785821026657]">7</container>
+              <unittitle>Vol. 16:</unittitle><unitdate type="inclusive" normal="1922-12/1925-06">December 1922-June 1925</unitdate></did>
           </c03>
         </c02>
       </c01>
@@ -354,15 +314,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">8</container>
-              <unittitle>Business journal <unitdate type="inclusive" normal="1873/1874">1873-1874</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9598505436709296]">8</container>
+              <unittitle>Business journal</unittitle><unitdate type="inclusive" normal="1873/1874">1873-1874</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">8</container>
-              <unittitle>Bills <unitdate type="inclusive" normal="1905/1908">1905-1908</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9598505436709296]">8</container>
+              <unittitle>Bills</unittitle><unitdate type="inclusive" normal="1905/1908">1905-1908</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -371,13 +329,12 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">8</container>
-              <unittitle>Correspondence with Michigan Trust Co. <unitdate type="inclusive" normal="1910/1929">1910-1929</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9598505436709296]">8</container>
+              <unittitle>Correspondence with Michigan Trust Co.</unittitle><unitdate type="inclusive" normal="1910/1929">1910-1929</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">8</container>
+              <container type="box" label="Box [9598505436709296]">8</container>
               <unittitle>Miscellaneous</unittitle>
             </did>
           </c03>
@@ -388,21 +345,18 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">8</container>
-              <unittitle>Annual reports <unitdate type="inclusive" normal="1884/1900">1884-1900</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9598505436709296]">8</container>
+              <unittitle>Annual reports</unittitle><unitdate type="inclusive" normal="1884/1900">1884-1900</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">8</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1884/1895">1884-1895</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9598505436709296]">8</container>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1884/1895">1884-1895</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">8</container>
-              <unittitle>Correspondence <unitdate type="inclusive" normal="1896/1900">1896-1900</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9598505436709296]">8</container>
+              <unittitle>Correspondence</unittitle><unitdate type="inclusive" normal="1896/1900">1896-1900</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -411,7 +365,7 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">8</container>
+              <container type="box" label="Box [9598505436709296]">8</container>
               <unittitle>Miscellaneous records</unittitle>
             </did>
           </c03>
@@ -419,8 +373,7 @@
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Journals <unitdate type="inclusive" normal="1881/1925">1881-1925</unitdate></unittitle>
-        </did>
+          <unittitle>Journals</unittitle><unitdate type="inclusive" normal="1881/1925">1881-1925</unitdate></did>
         <scopecontent>
           <p>Most of the journals are from the Reitz plant, or its predecessor operations. A few journals, the purpose of which are unclear, have been arranged in chronological order.</p>
         </scopecontent>
@@ -430,105 +383,75 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1881-03/1883-08">March 1881-August 1883</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="f51f2c92-9e55-4058-b99d-27608c8fa9bc">9</container>
+              <container type="reel" label="Roll" parent="f51f2c92-9e55-4058-b99d-27608c8fa9bc">1</container>
+              <unitdate type="inclusive" normal="1881-03/1883-08">March 1881-August 1883</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1883-09/1885-02">September 1883-February 1885</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="9c36d42a-7879-45c0-bf03-435ea8919de4">9</container>
+              <container type="reel" label="Roll" parent="9c36d42a-7879-45c0-bf03-435ea8919de4">1</container>
+              <unitdate type="inclusive" normal="1883-09/1885-02">September 1883-February 1885</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1885-03/1887-12">March 1885-December 1887</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="e53ab361-577a-4e8c-afcd-71bb93c2180f">9</container>
+              <container type="reel" label="Roll" parent="e53ab361-577a-4e8c-afcd-71bb93c2180f">1</container>
+              <unitdate type="inclusive" normal="1885-03/1887-12">March 1885-December 1887</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">2</container>
-              <unittitle><unitdate type="inclusive" normal="1885-03/1887-12">March 1885-December 1887</unitdate> (cont.; beginning with August 1885)</unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="830d0502-004c-4499-b081-474cea28e5d8">9</container>
+              <container type="reel" label="Roll" parent="830d0502-004c-4499-b081-474cea28e5d8">2</container>
+              <unittitle>(cont.; beginning with August 1885)</unittitle><unitdate type="inclusive" normal="1885-03/1887-12">March 1885-December 1887</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1888-01/1890-12">January 1888-December 1890</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="bdb764e8-6453-4fb4-a919-97bb8f4b0911">9</container>
+              <container type="reel" label="Roll" parent="bdb764e8-6453-4fb4-a919-97bb8f4b0911">2</container>
+              <unitdate type="inclusive" normal="1888-01/1890-12">January 1888-December 1890</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1891-01/1895-12">January 1891-December 1895</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="440bbcaa-89b7-418c-9ebd-6c6ce4e65f64">9</container>
+              <container type="reel" label="Roll" parent="440bbcaa-89b7-418c-9ebd-6c6ce4e65f64">2</container>
+              <unitdate type="inclusive" normal="1891-01/1895-12">January 1891-December 1895</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">3</container>
-              <unittitle><unitdate type="inclusive" normal="1891-01/1895-12">January 1891-December 1895</unitdate> (cont.; beginning with April 1891)</unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="e4d0b16d-2867-49ad-a3ec-de76861ef6fa">9</container>
+              <container type="reel" label="Roll" parent="e4d0b16d-2867-49ad-a3ec-de76861ef6fa">3</container>
+              <unittitle>(cont.; beginning with April 1891)</unittitle><unitdate type="inclusive" normal="1891-01/1895-12">January 1891-December 1895</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1896-01/1899-11">January 1896-November 1899</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="6aaed27f-b18d-47d3-9dbe-7bce39ac745e">9</container>
+              <container type="reel" label="Roll" parent="6aaed27f-b18d-47d3-9dbe-7bce39ac745e">3</container>
+              <unitdate type="inclusive" normal="1896-01/1899-11">January 1896-November 1899</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1899-12/1901-12">December 1899-December 1901</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="78dd0c4e-d77d-4f4d-adeb-02cc80e76b2a">9</container>
+              <container type="reel" label="Roll" parent="78dd0c4e-d77d-4f4d-adeb-02cc80e76b2a">4</container>
+              <unitdate type="inclusive" normal="1899-12/1901-12">December 1899-December 1901</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1902-01/1905-12">January 1902-December 1905</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="978f23e0-3c89-470f-ab51-d36f378ba71a">9</container>
+              <container type="reel" label="Roll" parent="978f23e0-3c89-470f-ab51-d36f378ba71a">4</container>
+              <unitdate type="inclusive" normal="1902-01/1905-12">January 1902-December 1905</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">5</container>
-              <unittitle><unitdate type="inclusive" normal="1902-01/1905-12">January 1902-December 1905</unitdate> (cont.; beginning with March 1905)</unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="4328c9ac-8fba-4701-a03a-75281e67213d">9</container>
+              <container type="reel" label="Roll" parent="4328c9ac-8fba-4701-a03a-75281e67213d">5</container>
+              <unittitle>(cont.; beginning with March 1905)</unittitle><unitdate type="inclusive" normal="1902-01/1905-12">January 1902-December 1905</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1898-10/1901-12">October 1898-December 1901</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="f6819aa6-878e-437c-b95e-5a7ad95fa0d2">9</container>
+              <container type="reel" label="Roll" parent="f6819aa6-878e-437c-b95e-5a7ad95fa0d2">5</container>
+              <unitdate type="inclusive" normal="1898-10/1901-12">October 1898-December 1901</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -537,73 +460,51 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1871-04/1879-04">April 1871-April 1879</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="71ae36ef-0896-439f-bff7-31982289117c">9</container>
+              <container type="reel" label="Roll" parent="71ae36ef-0896-439f-bff7-31982289117c">5</container>
+              <unitdate type="inclusive" normal="1871-04/1879-04">April 1871-April 1879</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1881-07/1882-04">July 1881-April 1882</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="65186f20-878c-4ccf-865f-7a973d45a901">9</container>
+              <container type="reel" label="Roll" parent="65186f20-878c-4ccf-865f-7a973d45a901">5</container>
+              <unitdate type="inclusive" normal="1881-07/1882-04">July 1881-April 1882</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1888-05/1898-12">May 1888-December 1898</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="91749680-5321-4f90-8271-53f407c7f2f0">9</container>
+              <container type="reel" label="Roll" parent="91749680-5321-4f90-8271-53f407c7f2f0">5</container>
+              <unitdate type="inclusive" normal="1888-05/1898-12">May 1888-December 1898</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1891-02/1895-11">February 1891-November 1895</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="a46d4b8f-5de5-434b-aeaf-5e747cb44131">9</container>
+              <container type="reel" label="Roll" parent="a46d4b8f-5de5-434b-aeaf-5e747cb44131">5</container>
+              <unitdate type="inclusive" normal="1891-02/1895-11">February 1891-November 1895</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1895-12/1897-12">December 1895-December 1897</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="e54d7dc2-108e-4b68-93b8-44efcf520be6">9</container>
+              <container type="reel" label="Roll" parent="e54d7dc2-108e-4b68-93b8-44efcf520be6">6</container>
+              <unitdate type="inclusive" normal="1895-12/1897-12">December 1895-December 1897</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1904-05/1906-12">May 1904-December 1906</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="66b8655e-bc4f-40dc-8512-9be5706d74cc">9</container>
+              <container type="reel" label="Roll" parent="66b8655e-bc4f-40dc-8512-9be5706d74cc">6</container>
+              <unitdate type="inclusive" normal="1904-05/1906-12">May 1904-December 1906</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1905-04/1925-07">April 1905-July 1925</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="b5b7b02f-e6b5-4aae-984e-f87bdbaf6861">9</container>
+              <container type="reel" label="Roll" parent="b5b7b02f-e6b5-4aae-984e-f87bdbaf6861">6</container>
+              <unitdate type="inclusive" normal="1905-04/1925-07">April 1905-July 1925</unitdate></did>
           </c03>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Ledgers <unitdate type="inclusive" normal="1871/1932">1871-1932</unitdate></unittitle>
-        </did>
+          <unittitle>Ledgers</unittitle><unitdate type="inclusive" normal="1871/1932">1871-1932</unitdate></did>
         <scopecontent>
           <p>Of the major record series, the ledgers are by far the most difficult to use. They have been divided into three groups, arbitrarily labeled 1, 2, and 3. The ledgers in groups 1 and 2 appear to be related to one another, but there is no indication as to what operations they were maintained for. Group 3 is a totally arbitrary arrangement of ledgers that did not appear to fit into either of the first two groups.</p>
         </scopecontent>
@@ -613,89 +514,63 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1871-04/1876-08">April 1871-August 1876</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="0baae287-54b8-49d2-8ac5-00f810e63ae5">9</container>
+              <container type="reel" label="Roll" parent="0baae287-54b8-49d2-8ac5-00f810e63ae5">6</container>
+              <unitdate type="inclusive" normal="1871-04/1876-08">April 1871-August 1876</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1876-08/1879-03">August 1876-March 1879</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="ce151535-38ff-4d36-91ab-33086e151b98">9</container>
+              <container type="reel" label="Roll" parent="ce151535-38ff-4d36-91ab-33086e151b98">6</container>
+              <unitdate type="inclusive" normal="1876-08/1879-03">August 1876-March 1879</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">7</container>
-              <unittitle><unitdate type="inclusive" normal="1876-08/1879-03">August 1876-March 1879</unitdate> (cont.)</unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="ff495531-a6c6-4e02-8810-db65ccd966ac">9</container>
+              <container type="reel" label="Roll" parent="ff495531-a6c6-4e02-8810-db65ccd966ac">7</container>
+              <unittitle>(cont.)</unittitle><unitdate type="inclusive" normal="1876-08/1879-03">August 1876-March 1879</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">7</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1879-04/1883-06">April 1879-June 1883</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="0f505034-0587-4773-86f9-682850b7172c">9</container>
+              <container type="reel" label="Roll" parent="0f505034-0587-4773-86f9-682850b7172c">7</container>
+              <unitdate type="inclusive" normal="1879-04/1883-06">April 1879-June 1883</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">7</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1883-06/1886-03">June 1883-March 1886</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="a61d5b19-5b89-42c9-b0cd-be390716f30e">9</container>
+              <container type="reel" label="Roll" parent="a61d5b19-5b89-42c9-b0cd-be390716f30e">7</container>
+              <unitdate type="inclusive" normal="1883-06/1886-03">June 1883-March 1886</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">8</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1883-06/1886-03">June 1883-March 1886</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="987df150-f965-42c1-9e96-61916b38e5f8">9</container>
+              <container type="reel" label="Roll" parent="987df150-f965-42c1-9e96-61916b38e5f8">8</container>
+              <unitdate type="inclusive" normal="1883-06/1886-03">June 1883-March 1886</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">8</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1888-10/1891-02">October 1888-February 1891</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="577de785-8823-400e-8566-580ed76238c8">9</container>
+              <container type="reel" label="Roll" parent="577de785-8823-400e-8566-580ed76238c8">8</container>
+              <unitdate type="inclusive" normal="1888-10/1891-02">October 1888-February 1891</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">8</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1891-02/1894-12">February 1891-December 1894</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="e1793667-ab21-4bbf-9f6c-c051a1e5c84b">9</container>
+              <container type="reel" label="Roll" parent="e1793667-ab21-4bbf-9f6c-c051a1e5c84b">8</container>
+              <unitdate type="inclusive" normal="1891-02/1894-12">February 1891-December 1894</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">8</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1895-01/1897-11">January 1895-November 1897</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="a4007e66-3cba-4cfa-86e7-66fff70c3acd">9</container>
+              <container type="reel" label="Roll" parent="a4007e66-3cba-4cfa-86e7-66fff70c3acd">8</container>
+              <unitdate type="inclusive" normal="1895-01/1897-11">January 1895-November 1897</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">9</container>
-              <unittitle><unitdate type="inclusive" normal="1895-01/1897-11">January 1895-November 1897</unitdate> (cont.)</unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="e0221cfa-1657-4b1d-a3b3-f51fedb12107">9</container>
+              <container type="reel" label="Roll" parent="e0221cfa-1657-4b1d-a3b3-f51fedb12107">9</container>
+              <unittitle>(cont.)</unittitle><unitdate type="inclusive" normal="1895-01/1897-11">January 1895-November 1897</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -704,146 +579,105 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">9</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1881-03/1885-02">March 1881-February 1885</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="67577798-ed31-48b1-93a4-2db03fb843e9">9</container>
+              <container type="reel" label="Roll" parent="67577798-ed31-48b1-93a4-2db03fb843e9">9</container>
+              <unitdate type="inclusive" normal="1881-03/1885-02">March 1881-February 1885</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">9</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1885-03/1887-12">March 1885-December 1887</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="de954541-ee04-4946-a0d5-ef41a634948f">9</container>
+              <container type="reel" label="Roll" parent="de954541-ee04-4946-a0d5-ef41a634948f">9</container>
+              <unitdate type="inclusive" normal="1885-03/1887-12">March 1885-December 1887</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">9</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1888-01/1890-12">January 1888-December 1890</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="cea29d6f-57cd-4255-9c16-5f8c214f784d">9</container>
+              <container type="reel" label="Roll" parent="cea29d6f-57cd-4255-9c16-5f8c214f784d">9</container>
+              <unitdate type="inclusive" normal="1888-01/1890-12">January 1888-December 1890</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">10</container>
-              <unittitle><unitdate type="inclusive" normal="1888-01/1890-12">January 1888-December 1890</unitdate> (cont.)</unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="2e8eeee2-d911-43fc-bc64-2b7f52cffd17">9</container>
+              <container type="reel" label="Roll" parent="2e8eeee2-d911-43fc-bc64-2b7f52cffd17">10</container>
+              <unittitle>(cont.)</unittitle><unitdate type="inclusive" normal="1888-01/1890-12">January 1888-December 1890</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">10</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1891-01/1895-04">January 1891-April 1895</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="59188c16-1928-46ac-9aad-9c5143ac697a">9</container>
+              <container type="reel" label="Roll" parent="59188c16-1928-46ac-9aad-9c5143ac697a">10</container>
+              <unitdate type="inclusive" normal="1891-01/1895-04">January 1891-April 1895</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">10</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1895-04/1898-12">April 1895-December 1898</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="89322a3d-c20a-41f6-a0b6-8b331bd53dfd">9</container>
+              <container type="reel" label="Roll" parent="89322a3d-c20a-41f6-a0b6-8b331bd53dfd">10</container>
+              <unitdate type="inclusive" normal="1895-04/1898-12">April 1895-December 1898</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">11</container>
-              <unittitle><unitdate type="inclusive" normal="1895-04/1898-12">April 1895-December 1898</unitdate> (cont.)</unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="9af81b25-ff01-48ee-a26d-f997923ed0a4">9</container>
+              <container type="reel" label="Roll" parent="9af81b25-ff01-48ee-a26d-f997923ed0a4">11</container>
+              <unittitle>(cont.)</unittitle><unitdate type="inclusive" normal="1895-04/1898-12">April 1895-December 1898</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">11</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1899-01/1901-12">January 1899-December 1901</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="b43d7645-e831-4b13-8384-130f40b736fc">9</container>
+              <container type="reel" label="Roll" parent="b43d7645-e831-4b13-8384-130f40b736fc">11</container>
+              <unitdate type="inclusive" normal="1899-01/1901-12">January 1899-December 1901</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">11</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1902-01/1905-04">January 1902-April 1905</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="496360ac-52a6-450a-b58f-6599d387f52a">9</container>
+              <container type="reel" label="Roll" parent="496360ac-52a6-450a-b58f-6599d387f52a">11</container>
+              <unitdate type="inclusive" normal="1902-01/1905-04">January 1902-April 1905</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">12</container>
-              <unittitle><unitdate type="inclusive" normal="1902-01/1905-04">January 1902-April 1905</unitdate> (cont.)</unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="d7b776e9-af58-49c9-9d41-0c78020bc86c">9</container>
+              <container type="reel" label="Roll" parent="d7b776e9-af58-49c9-9d41-0c78020bc86c">12</container>
+              <unittitle>(cont.)</unittitle><unitdate type="inclusive" normal="1902-01/1905-04">January 1902-April 1905</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">12</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1905-04/1909-12">April 1905-December 1909</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="e871ece0-5c7f-4523-96ef-e56067cdbce0">9</container>
+              <container type="reel" label="Roll" parent="e871ece0-5c7f-4523-96ef-e56067cdbce0">12</container>
+              <unitdate type="inclusive" normal="1905-04/1909-12">April 1905-December 1909</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">12</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1910-01/1914-12">January 1910-December 1914</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="e761e28a-8a9c-41a7-8199-41167927cea8">9</container>
+              <container type="reel" label="Roll" parent="e761e28a-8a9c-41a7-8199-41167927cea8">12</container>
+              <unitdate type="inclusive" normal="1910-01/1914-12">January 1910-December 1914</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">13</container>
-              <unittitle><unitdate type="inclusive" normal="1910-01/1914-12">January 1910-December 1914</unitdate> (cont.)</unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="1f23621d-0605-42f3-924d-10643726f62a">9</container>
+              <container type="reel" label="Roll" parent="1f23621d-0605-42f3-924d-10643726f62a">13</container>
+              <unittitle>(cont.)</unittitle><unitdate type="inclusive" normal="1910-01/1914-12">January 1910-December 1914</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">13</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1915-01/1919-12">January 1915-December 1919</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="a64c349e-39d9-4f38-b2da-37fa4f4a09e7">9</container>
+              <container type="reel" label="Roll" parent="a64c349e-39d9-4f38-b2da-37fa4f4a09e7">13</container>
+              <unitdate type="inclusive" normal="1915-01/1919-12">January 1915-December 1919</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">13</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1920-01/1925-03">January 1920-March 1925</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="72d93722-cfdc-455e-a565-daaabc737072">9</container>
+              <container type="reel" label="Roll" parent="72d93722-cfdc-455e-a565-daaabc737072">13</container>
+              <unitdate type="inclusive" normal="1920-01/1925-03">January 1920-March 1925</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">14</container>
-              <unittitle><unitdate type="inclusive" normal="1920-01/1925-03">January 1920-March 1925</unitdate> (cont.)</unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="64f51b79-ffc6-44b4-9cd4-d4c54e7bd757">9</container>
+              <container type="reel" label="Roll" parent="64f51b79-ffc6-44b4-9cd4-d4c54e7bd757">14</container>
+              <unittitle>(cont.)</unittitle><unitdate type="inclusive" normal="1920-01/1925-03">January 1920-March 1925</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">14</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1925-04/1932-06">April 1925-June 1932</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="4bf2b4a6-6c6b-4ddb-8614-fcca3e87310b">9</container>
+              <container type="reel" label="Roll" parent="4bf2b4a6-6c6b-4ddb-8614-fcca3e87310b">14</container>
+              <unitdate type="inclusive" normal="1925-04/1932-06">April 1925-June 1932</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -852,211 +686,147 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">14</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1864-11/1866-09">November 1864-September 1866</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="219cb89f-4a31-4685-a55e-f25ccab7a2e9">9</container>
+              <container type="reel" label="Roll" parent="219cb89f-4a31-4685-a55e-f25ccab7a2e9">14</container>
+              <unitdate type="inclusive" normal="1864-11/1866-09">November 1864-September 1866</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">14</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1873-12/1874-10">December 1873-October 1874</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="a493dd50-1709-496d-876e-3b4506b8cd81">9</container>
+              <container type="reel" label="Roll" parent="a493dd50-1709-496d-876e-3b4506b8cd81">14</container>
+              <unitdate type="inclusive" normal="1873-12/1874-10">December 1873-October 1874</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">14</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1874-04/1878-03">April 1874-March 1878</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="469a5d0a-67a9-46c9-b518-b04a16d78eb4">9</container>
+              <container type="reel" label="Roll" parent="469a5d0a-67a9-46c9-b518-b04a16d78eb4">14</container>
+              <unitdate type="inclusive" normal="1874-04/1878-03">April 1874-March 1878</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">14</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1875-04/1877-05">April 1875-May 1877</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="29199fdb-36b6-437d-8be1-c9bbdf18e64c">9</container>
+              <container type="reel" label="Roll" parent="29199fdb-36b6-437d-8be1-c9bbdf18e64c">14</container>
+              <unitdate type="inclusive" normal="1875-04/1877-05">April 1875-May 1877</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">15</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1876-01/1876-11">January 1876-November 1876</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="0e534bbb-3574-4c3a-904d-e267f25dba35">9</container>
+              <container type="reel" label="Roll" parent="0e534bbb-3574-4c3a-904d-e267f25dba35">15</container>
+              <unitdate type="inclusive" normal="1876-01/1876-11">January 1876-November 1876</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">15</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1879-05/1880-05">May 1879-May 1880</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="f2d328b3-a026-488e-be5b-190564270e16">9</container>
+              <container type="reel" label="Roll" parent="f2d328b3-a026-488e-be5b-190564270e16">15</container>
+              <unitdate type="inclusive" normal="1879-05/1880-05">May 1879-May 1880</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">15</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1881-07/1883-11">July 1881-November 1883</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="8f500d47-0e91-4dd1-8c81-3ddda8c4ae46">9</container>
+              <container type="reel" label="Roll" parent="8f500d47-0e91-4dd1-8c81-3ddda8c4ae46">15</container>
+              <unitdate type="inclusive" normal="1881-07/1883-11">July 1881-November 1883</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">15</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1883-11/1885-04">November 1883-April 1885</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="52d3ce83-4fd3-42ac-a7da-59964df95b48">9</container>
+              <container type="reel" label="Roll" parent="52d3ce83-4fd3-42ac-a7da-59964df95b48">15</container>
+              <unitdate type="inclusive" normal="1883-11/1885-04">November 1883-April 1885</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">15</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1884-11/1888-07">November 1884-July 1888</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="88eeedf5-a4ea-4888-a1da-9ed3a92c5432">9</container>
+              <container type="reel" label="Roll" parent="88eeedf5-a4ea-4888-a1da-9ed3a92c5432">15</container>
+              <unitdate type="inclusive" normal="1884-11/1888-07">November 1884-July 1888</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">16</container>
-              <unittitle><unitdate type="inclusive" normal="1884-11/1888-07">November 1884-July 1888</unitdate> (cont.)</unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="c0971d48-bb9f-4bb0-a1c0-be324be97549">9</container>
+              <container type="reel" label="Roll" parent="c0971d48-bb9f-4bb0-a1c0-be324be97549">16</container>
+              <unittitle>(cont.)</unittitle><unitdate type="inclusive" normal="1884-11/1888-07">November 1884-July 1888</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">16</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1885-05/1886-09">May 1885-September 1886</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="fb27dc6e-53b3-413d-aaed-86fe99128541">9</container>
+              <container type="reel" label="Roll" parent="fb27dc6e-53b3-413d-aaed-86fe99128541">16</container>
+              <unitdate type="inclusive" normal="1885-05/1886-09">May 1885-September 1886</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">16</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1887-06/1888-10">June 1887-October 1888</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="67ea1674-3a70-4319-a846-b937ccafd93e">9</container>
+              <container type="reel" label="Roll" parent="67ea1674-3a70-4319-a846-b937ccafd93e">16</container>
+              <unitdate type="inclusive" normal="1887-06/1888-10">June 1887-October 1888</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">16</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1891-03/1892-12">March 1891-December 1892</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="b99b4fed-6d1f-496a-bf20-0319257395cf">9</container>
+              <container type="reel" label="Roll" parent="b99b4fed-6d1f-496a-bf20-0319257395cf">16</container>
+              <unitdate type="inclusive" normal="1891-03/1892-12">March 1891-December 1892</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">17</container>
-              <unittitle><unitdate type="inclusive" normal="1891-03/1892-12">March 1891-December 1892</unitdate> (cont.)</unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="e2c1b2f9-f091-492c-ba20-89ada72bcc21">9</container>
+              <container type="reel" label="Roll" parent="e2c1b2f9-f091-492c-ba20-89ada72bcc21">17</container>
+              <unittitle>(cont.)</unittitle><unitdate type="inclusive" normal="1891-03/1892-12">March 1891-December 1892</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">17</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1893-04/1894-09">April 1893-September 1894</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="d2f2bb0a-c180-4759-9bfd-8ed677978380">9</container>
+              <container type="reel" label="Roll" parent="d2f2bb0a-c180-4759-9bfd-8ed677978380">17</container>
+              <unitdate type="inclusive" normal="1893-04/1894-09">April 1893-September 1894</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">17</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1898-10/1901-12">October 1898-December 1901</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="e93fa7b9-f5e5-4c36-81d1-d97b7d675e62">9</container>
+              <container type="reel" label="Roll" parent="e93fa7b9-f5e5-4c36-81d1-d97b7d675e62">17</container>
+              <unitdate type="inclusive" normal="1898-10/1901-12">October 1898-December 1901</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">17</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1899-01/1909-05">January 1899-May 1909</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="dee9d2ff-45e5-432e-a6a8-b25a15c09217">9</container>
+              <container type="reel" label="Roll" parent="dee9d2ff-45e5-432e-a6a8-b25a15c09217">17</container>
+              <unitdate type="inclusive" normal="1899-01/1909-05">January 1899-May 1909</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">17</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1901-01/1902-10">January 1901-October 1902</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="9c3ab0e5-50dc-4024-a5d7-15f9df195eb7">9</container>
+              <container type="reel" label="Roll" parent="9c3ab0e5-50dc-4024-a5d7-15f9df195eb7">17</container>
+              <unitdate type="inclusive" normal="1901-01/1902-10">January 1901-October 1902</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">17</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1905-02/1909-06">February 1905-June 1909</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="1e9d92d7-0e5f-435c-a428-dbf68e7a7769">9</container>
+              <container type="reel" label="Roll" parent="1e9d92d7-0e5f-435c-a428-dbf68e7a7769">17</container>
+              <unitdate type="inclusive" normal="1905-02/1909-06">February 1905-June 1909</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">18</container>
-              <unittitle><unitdate type="inclusive" normal="1905-02/1909-06">February 1905-June 1909</unitdate> (cont.)</unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="ecf3f9eb-cc6b-424f-92dc-6a8f375bb6d9">9</container>
+              <container type="reel" label="Roll" parent="ecf3f9eb-cc6b-424f-92dc-6a8f375bb6d9">18</container>
+              <unittitle>(cont.)</unittitle><unitdate type="inclusive" normal="1905-02/1909-06">February 1905-June 1909</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">18</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1906-01/1908-03">January 1906-March 1908</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="902135b6-1171-4014-82f2-145a1e21713d">9</container>
+              <container type="reel" label="Roll" parent="902135b6-1171-4014-82f2-145a1e21713d">18</container>
+              <unitdate type="inclusive" normal="1906-01/1908-03">January 1906-March 1908</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">18</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1910-05/1913-03">May 1910-March 1913</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="62d73fdc-773a-41c5-a14d-6eb149df333b">9</container>
+              <container type="reel" label="Roll" parent="62d73fdc-773a-41c5-a14d-6eb149df333b">18</container>
+              <unitdate type="inclusive" normal="1910-05/1913-03">May 1910-March 1913</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">18</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1923-05/1923-11">May 1923-November 1923</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="25411d6a-88c4-4484-8f1c-9dc9104cf3a4">9</container>
+              <container type="reel" label="Roll" parent="25411d6a-88c4-4484-8f1c-9dc9104cf3a4">18</container>
+              <unitdate type="inclusive" normal="1923-05/1923-11">May 1923-November 1923</unitdate></did>
           </c03>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Time books <unitdate type="inclusive" normal="1884/1930">1884-1930</unitdate></unittitle>
-        </did>
+          <unittitle>Time books</unittitle><unitdate type="inclusive" normal="1884/1930">1884-1930</unitdate></did>
         <scopecontent>
           <p>Like the journals, the source of most of the time books is identifiable. Of the two sets of time books, one comes from the "Third Ward Plant", and the other from the "Fourth Ward Plant". Sands' time books are of particular interest because his firm was a major employer of immigrant Swedes.</p>
         </scopecontent>
@@ -1066,89 +836,63 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">18</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1884-07/1888-10">July 1884-October 1888</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="11276783-6534-4f2f-a9f7-f4785d3efbee">9</container>
+              <container type="reel" label="Roll" parent="11276783-6534-4f2f-a9f7-f4785d3efbee">18</container>
+              <unitdate type="inclusive" normal="1884-07/1888-10">July 1884-October 1888</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">18</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1888-11/1892-12">November 1888-December 1892</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="45dd770d-d311-438e-b28d-6d1116715d94">9</container>
+              <container type="reel" label="Roll" parent="45dd770d-d311-438e-b28d-6d1116715d94">18</container>
+              <unitdate type="inclusive" normal="1888-11/1892-12">November 1888-December 1892</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">19</container>
-              <unittitle><unitdate type="inclusive" normal="1888-11/1892-12">November 1888-December 1892</unitdate> (cont.; beginning with June 1889)</unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="74c23a44-d035-4c1e-99ed-404ecba21fb3">9</container>
+              <container type="reel" label="Roll" parent="74c23a44-d035-4c1e-99ed-404ecba21fb3">19</container>
+              <unittitle>(cont.; beginning with June 1889)</unittitle><unitdate type="inclusive" normal="1888-11/1892-12">November 1888-December 1892</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">19</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1893-04/1896-09">April 1893-September 1896</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="3d7547ac-e2fa-4ef1-99b3-04e4861b37fa">9</container>
+              <container type="reel" label="Roll" parent="3d7547ac-e2fa-4ef1-99b3-04e4861b37fa">19</container>
+              <unitdate type="inclusive" normal="1893-04/1896-09">April 1893-September 1896</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">19</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1896-10/1899-08">October 1896-August 1899</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="8d30085e-8a87-4981-898f-dd92e5ccb82c">9</container>
+              <container type="reel" label="Roll" parent="8d30085e-8a87-4981-898f-dd92e5ccb82c">19</container>
+              <unitdate type="inclusive" normal="1896-10/1899-08">October 1896-August 1899</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">19</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1899-09/1902-10">September 1899-October 1902</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="d2e7b6da-0464-46d1-bc66-399dec5a355b">9</container>
+              <container type="reel" label="Roll" parent="d2e7b6da-0464-46d1-bc66-399dec5a355b">19</container>
+              <unitdate type="inclusive" normal="1899-09/1902-10">September 1899-October 1902</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">20</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1902-11/1906-04">November 1902-April 1906</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="7aaee0c7-692f-456d-a1be-a4719dcb0418">9</container>
+              <container type="reel" label="Roll" parent="7aaee0c7-692f-456d-a1be-a4719dcb0418">20</container>
+              <unitdate type="inclusive" normal="1902-11/1906-04">November 1902-April 1906</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">20</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1906-05/1910-02">May 1906-February 1910</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="edf8ce4b-2348-49c6-a3d9-bccdc61eb8e1">9</container>
+              <container type="reel" label="Roll" parent="edf8ce4b-2348-49c6-a3d9-bccdc61eb8e1">20</container>
+              <unitdate type="inclusive" normal="1906-05/1910-02">May 1906-February 1910</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">21</container>
-              <unittitle><unitdate type="inclusive" normal="1906-05/1910-02">May 1906-February 1910</unitdate> (cont.; beginning with October 1908)</unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="50279591-1659-4791-8a4a-89c7a2cab192">9</container>
+              <container type="reel" label="Roll" parent="50279591-1659-4791-8a4a-89c7a2cab192">21</container>
+              <unittitle>(cont.; beginning with October 1908)</unittitle><unitdate type="inclusive" normal="1906-05/1910-02">May 1906-February 1910</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">21</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1910-03/1913-07">March 1910-July 1913</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="1c1277e1-b60f-4aac-bf52-df8ed0c014df">9</container>
+              <container type="reel" label="Roll" parent="1c1277e1-b60f-4aac-bf52-df8ed0c014df">21</container>
+              <unitdate type="inclusive" normal="1910-03/1913-07">March 1910-July 1913</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -1157,64 +901,45 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">21</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1891-03/1895-04">March 1891-April 1895</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="ca7a1a01-4037-46ca-9929-5fcc58fc5b74">9</container>
+              <container type="reel" label="Roll" parent="ca7a1a01-4037-46ca-9929-5fcc58fc5b74">21</container>
+              <unitdate type="inclusive" normal="1891-03/1895-04">March 1891-April 1895</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">21</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1895-05/1897-06">May 1895-June 1897</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="2f923211-ca58-4c08-995f-08fe87abd265">9</container>
+              <container type="reel" label="Roll" parent="2f923211-ca58-4c08-995f-08fe87abd265">21</container>
+              <unitdate type="inclusive" normal="1895-05/1897-06">May 1895-June 1897</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">21</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1898-06/1902-10">June 1898-October 1902</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="c13f4fa6-341f-4231-9dc1-a060837ce8f4">9</container>
+              <container type="reel" label="Roll" parent="c13f4fa6-341f-4231-9dc1-a060837ce8f4">21</container>
+              <unitdate type="inclusive" normal="1898-06/1902-10">June 1898-October 1902</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">21</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1902-11/1906-06">November 1902-June 1906</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="d4351844-c899-4564-be4b-5b9db65c5488">9</container>
+              <container type="reel" label="Roll" parent="d4351844-c899-4564-be4b-5b9db65c5488">21</container>
+              <unitdate type="inclusive" normal="1902-11/1906-06">November 1902-June 1906</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">22</container>
-              <unittitle><unitdate type="inclusive" normal="1902-11/1906-06">November 1902-June 1906</unitdate> (cont.; beginning with <unitdate type="inclusive" normal="1903-08">August 1903</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="4ffed417-73e4-46df-b595-bd96036ade5a">9</container>
+              <container type="reel" label="Roll" parent="4ffed417-73e4-46df-b595-bd96036ade5a">22</container>
+              <unittitle>November 1902-June 1906 (cont.; beginning with August 1903</unittitle><unitdate type="inclusive" normal="1902-11/1906-06">November 1902-June 1906</unitdate><unitdate type="inclusive" normal="1903-08">August 1903</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">22</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1906-07/1910-09">July 1906-September 1910</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="31d4adf8-0101-408a-bcfc-1f2393aeba88">9</container>
+              <container type="reel" label="Roll" parent="31d4adf8-0101-408a-bcfc-1f2393aeba88">22</container>
+              <unitdate type="inclusive" normal="1906-07/1910-09">July 1906-September 1910</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">22</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1910-09/1913-07">September 1910-July 1913</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="3730c340-5fc4-4140-89b2-b2c5012de54f">9</container>
+              <container type="reel" label="Roll" parent="3730c340-5fc4-4140-89b2-b2c5012de54f">22</container>
+              <unitdate type="inclusive" normal="1910-09/1913-07">September 1910-July 1913</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -1223,28 +948,21 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">22</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1924-01/1926-12">January 1924-December 1926</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="485edc0a-d650-46fb-a99f-a24fbe6dc5e2">9</container>
+              <container type="reel" label="Roll" parent="485edc0a-d650-46fb-a99f-a24fbe6dc5e2">22</container>
+              <unitdate type="inclusive" normal="1924-01/1926-12">January 1924-December 1926</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">22</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1928-04/1930-10">April 1928-October 1930</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="7b5ebddb-5a83-4998-a844-d03839763404">9</container>
+              <container type="reel" label="Roll" parent="7b5ebddb-5a83-4998-a844-d03839763404">22</container>
+              <unitdate type="inclusive" normal="1928-04/1930-10">April 1928-October 1930</unitdate></did>
           </c03>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Subsidiary volumes <unitdate type="inclusive" normal="1866/1925">1866-1925</unitdate></unittitle>
-        </did>
+          <unittitle>Subsidiary volumes</unittitle><unitdate type="inclusive" normal="1866/1925">1866-1925</unitdate></did>
         <scopecontent>
           <p>Subsidiary volumes contain record books which were related to a particular aspect of Sands business ventures, but which do not seem to be basic records of the firm. Among these volumes are the camp and mill scales records, the sales and purchases books, the salt production records and finally an inventory done for the receiver of the Louis Sands estate on March 20, 1925.</p>
         </scopecontent>
@@ -1254,71 +972,51 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">23</container>
-              <unittitle><unitdate type="inclusive" normal="1866-01/1867-03">January 1866-March 1867</unitdate> (log book)</unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="db362064-37b4-4a41-b908-75421496e836">9</container>
+              <container type="reel" label="Roll" parent="db362064-37b4-4a41-b908-75421496e836">23</container>
+              <unittitle>(log book)</unittitle><unitdate type="inclusive" normal="1866-01/1867-03">January 1866-March 1867</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">23</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1880-12/1890-08">December 1880-August 1890</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="17265c1a-b554-4639-a567-93bcdd24f8bf">9</container>
+              <container type="reel" label="Roll" parent="17265c1a-b554-4639-a567-93bcdd24f8bf">23</container>
+              <unitdate type="inclusive" normal="1880-12/1890-08">December 1880-August 1890</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">23</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1890-11/1898-11">November 1890-November 1898</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="ec1a0e86-1de4-4595-a1dd-f067f6be89e9">9</container>
+              <container type="reel" label="Roll" parent="ec1a0e86-1de4-4595-a1dd-f067f6be89e9">23</container>
+              <unitdate type="inclusive" normal="1890-11/1898-11">November 1890-November 1898</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">23</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1899-04/1907-11">April 1899-November 1907</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="951b288e-6e14-4e42-a470-5e412180c8b7">9</container>
+              <container type="reel" label="Roll" parent="951b288e-6e14-4e42-a470-5e412180c8b7">23</container>
+              <unitdate type="inclusive" normal="1899-04/1907-11">April 1899-November 1907</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">23</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1899-05/1907-11">May 1899-November 1907</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="e586b113-38f4-48de-b473-59b43df8aca9">9</container>
+              <container type="reel" label="Roll" parent="e586b113-38f4-48de-b473-59b43df8aca9">23</container>
+              <unitdate type="inclusive" normal="1899-05/1907-11">May 1899-November 1907</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">24</container>
-              <unittitle><unitdate type="inclusive" normal="1899-05/1907-11">May 1899-November 1907</unitdate> (cont.; beginning with June 1901)</unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="02ab8964-e053-4ef9-a5f5-7508e0506eee">9</container>
+              <container type="reel" label="Roll" parent="02ab8964-e053-4ef9-a5f5-7508e0506eee">24</container>
+              <unittitle>(cont.; beginning with June 1901)</unittitle><unitdate type="inclusive" normal="1899-05/1907-11">May 1899-November 1907</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">24</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1920-01/1923-12">January 1920-December 1923</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="57ad5448-df47-4ef7-923f-5fb46f864b37">9</container>
+              <container type="reel" label="Roll" parent="57ad5448-df47-4ef7-923f-5fb46f864b37">24</container>
+              <unitdate type="inclusive" normal="1920-01/1923-12">January 1920-December 1923</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">24</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1921-12/1925-09">December 1921-September 1925</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="80d5e4dc-36e0-4578-8e77-b3bd91ef687a">9</container>
+              <container type="reel" label="Roll" parent="80d5e4dc-36e0-4578-8e77-b3bd91ef687a">24</container>
+              <unitdate type="inclusive" normal="1921-12/1925-09">December 1921-September 1925</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -1327,65 +1025,48 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">24</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1875-10/1877-10">October 1875-October 1877</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="058d83d9-ca8a-48d9-9652-161c4bcc2a7b">9</container>
+              <container type="reel" label="Roll" parent="058d83d9-ca8a-48d9-9652-161c4bcc2a7b">24</container>
+              <unitdate type="inclusive" normal="1875-10/1877-10">October 1875-October 1877</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">24</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1889-09/1897-06">September 1889-June 1897</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="32192209-fa1e-4218-a76b-04f06b4526aa">9</container>
+              <container type="reel" label="Roll" parent="32192209-fa1e-4218-a76b-04f06b4526aa">24</container>
+              <unitdate type="inclusive" normal="1889-09/1897-06">September 1889-June 1897</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">24</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1899-09/1908-07">September 1899-July 1908</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="56b39e6d-6427-40f1-b788-2b54aa658940">9</container>
+              <container type="reel" label="Roll" parent="56b39e6d-6427-40f1-b788-2b54aa658940">24</container>
+              <unitdate type="inclusive" normal="1899-09/1908-07">September 1899-July 1908</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">25</container>
-              <unittitle><unitdate type="inclusive" normal="1899-09/1908-07">September 1899-July 1908</unitdate> (cont.; beginning with July 1900)</unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="6158e159-85a2-44e1-8246-82a54337d3c8">9</container>
+              <container type="reel" label="Roll" parent="6158e159-85a2-44e1-8246-82a54337d3c8">25</container>
+              <unittitle>(cont.; beginning with July 1900)</unittitle><unitdate type="inclusive" normal="1899-09/1908-07">September 1899-July 1908</unitdate></did>
             <odd>
               <p>[re-shot on reel 30]</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">25</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1908-08/1916-04">August 1908-April 1916</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="16fdf069-2b2e-4f36-bbf5-3cd8d3346306">9</container>
+              <container type="reel" label="Roll" parent="16fdf069-2b2e-4f36-bbf5-3cd8d3346306">25</container>
+              <unitdate type="inclusive" normal="1908-08/1916-04">August 1908-April 1916</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">25</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1916-05/1925-09">May 1916-September 1925</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="ce01d70e-3fcc-4772-b9e0-b1b0a21bdf12">9</container>
+              <container type="reel" label="Roll" parent="ce01d70e-3fcc-4772-b9e0-b1b0a21bdf12">25</container>
+              <unitdate type="inclusive" normal="1916-05/1925-09">May 1916-September 1925</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">26</container>
-              <unittitle><unitdate type="inclusive" normal="1916-05/1925-09">May 1916-September 1925</unitdate> (cont.; beginning February 1922)</unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="ed3d2bf0-90fa-4619-b544-1a52a510f2b5">9</container>
+              <container type="reel" label="Roll" parent="ed3d2bf0-90fa-4619-b544-1a52a510f2b5">26</container>
+              <unittitle>(cont.; beginning February 1922)</unittitle><unitdate type="inclusive" normal="1916-05/1925-09">May 1916-September 1925</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -1394,53 +1075,40 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">26</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1896-12/1904-12">December 1896-December 1904</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="b8fcd48f-7ed7-425f-8f04-2b58d2504e49">9</container>
+              <container type="reel" label="Roll" parent="b8fcd48f-7ed7-425f-8f04-2b58d2504e49">26</container>
+              <unitdate type="inclusive" normal="1896-12/1904-12">December 1896-December 1904</unitdate></did>
             <odd>
               <p>(volume re-shot on reel 30)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">26</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1905-01/1912-09">January 1905-September 1912</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="03d7cac4-c38f-43c9-ae8f-4176eaa87c03">9</container>
+              <container type="reel" label="Roll" parent="03d7cac4-c38f-43c9-ae8f-4176eaa87c03">26</container>
+              <unitdate type="inclusive" normal="1905-01/1912-09">January 1905-September 1912</unitdate></did>
             <odd>
               <p>(volume re-shot on reel 30)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">26</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1912-10/1920-05">October 1912-May 1920</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="461fb683-2070-48df-b72a-72b6304aede7">9</container>
+              <container type="reel" label="Roll" parent="461fb683-2070-48df-b72a-72b6304aede7">26</container>
+              <unitdate type="inclusive" normal="1912-10/1920-05">October 1912-May 1920</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">26</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1920-06/1925-11">June 1920-November 1925</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="cd162158-84e9-41fe-bc0b-4d73aebeca05">9</container>
+              <container type="reel" label="Roll" parent="cd162158-84e9-41fe-bc0b-4d73aebeca05">26</container>
+              <unitdate type="inclusive" normal="1920-06/1925-11">June 1920-November 1925</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">9</container>
-            <container type="reel" label="Roll">26</container>
-            <unittitle>Inventory for Receiver of Louis Sands <unitdate type="inclusive" normal="1925-03-20">March 20, 1925</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [16640454485625522346]" id="1ddab5ef-3da3-4629-8213-245de23f5886">9</container>
+            <container type="reel" label="Roll" parent="1ddab5ef-3da3-4629-8213-245de23f5886">26</container>
+            <unittitle>Inventory for Receiver of Louis Sands</unittitle><unitdate type="inclusive" normal="1925-03-20">March 20, 1925</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -1456,34 +1124,30 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">26</container>
-              <unittitle>Stock book <unitdate type="inclusive" normal="1870-09/1900-09">September 1870-September 1900</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="194c9518-d233-4172-aa3f-c7d9b49f5aa2">9</container>
+              <container type="reel" label="Roll" parent="194c9518-d233-4172-aa3f-c7d9b49f5aa2">26</container>
+              <unittitle>Stock book</unittitle><unitdate type="inclusive" normal="1870-09/1900-09">September 1870-September 1900</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">27</container>
-              <unittitle>Stock book <unitdate type="inclusive" normal="1870-09/1900-12">September 1870-December 1900</unitdate> (cont.)</unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="afb57855-be34-4169-867f-c68a1a302323">9</container>
+              <container type="reel" label="Roll" parent="afb57855-be34-4169-867f-c68a1a302323">27</container>
+              <unittitle>Stock book  (cont.)</unittitle><unitdate type="inclusive" normal="1870-09/1900-12">September 1870-December 1900</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">27</container>
-              <unittitle>Journal <unitdate type="inclusive" normal="1870-09/1900-12">September 1870-December 1900</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="f3c8d092-9f62-4d11-908c-c6789ab9c83b">9</container>
+              <container type="reel" label="Roll" parent="f3c8d092-9f62-4d11-908c-c6789ab9c83b">27</container>
+              <unittitle>Journal</unittitle><unitdate type="inclusive" normal="1870-09/1900-12">September 1870-December 1900</unitdate></did>
             <odd>
               <p>(volume re-shot on reel 30)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">27</container>
-              <unittitle>Ledger <unitdate type="inclusive" normal="1870-09/1900-12">September 1870-December 1900</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="99a3e83d-c0fc-485d-851a-e6bd703d90cf">9</container>
+              <container type="reel" label="Roll" parent="99a3e83d-c0fc-485d-851a-e6bd703d90cf">27</container>
+              <unittitle>Ledger</unittitle><unitdate type="inclusive" normal="1870-09/1900-12">September 1870-December 1900</unitdate></did>
             <odd>
               <p>(target in error; volume re-shot on reel 30)</p>
             </odd>
@@ -1495,24 +1159,21 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">27</container>
-              <unittitle>Journal <unitdate type="inclusive" normal="1879-01/1881-01">January 1879-January 1881</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="6b377585-8333-4f0c-b280-273623eefff2">9</container>
+              <container type="reel" label="Roll" parent="6b377585-8333-4f0c-b280-273623eefff2">27</container>
+              <unittitle>Journal</unittitle><unitdate type="inclusive" normal="1879-01/1881-01">January 1879-January 1881</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">27</container>
-              <unittitle>Ledger <unitdate type="inclusive" normal="1879-01/1880-08">January 1879-August 1880</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="426f5480-536b-4056-8e3b-30a5a0831a9f">9</container>
+              <container type="reel" label="Roll" parent="426f5480-536b-4056-8e3b-30a5a0831a9f">27</container>
+              <unittitle>Ledger</unittitle><unitdate type="inclusive" normal="1879-01/1880-08">January 1879-August 1880</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">27</container>
-              <unittitle>Ledger <unitdate type="inclusive" normal="1879-01/1880-12">January 1879-December 1880</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="2d9a3d9e-1e21-4a36-9372-78d3e37e0308">9</container>
+              <container type="reel" label="Roll" parent="2d9a3d9e-1e21-4a36-9372-78d3e37e0308">27</container>
+              <unittitle>Ledger</unittitle><unitdate type="inclusive" normal="1879-01/1880-12">January 1879-December 1880</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -1521,17 +1182,15 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">27</container>
-              <unittitle>Ledger <unitdate type="inclusive" normal="1894-05/1901-12">May 1894-December 1901</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="7dc8e819-18e5-4799-b46c-587cfb035d06">9</container>
+              <container type="reel" label="Roll" parent="7dc8e819-18e5-4799-b46c-587cfb035d06">27</container>
+              <unittitle>Ledger</unittitle><unitdate type="inclusive" normal="1894-05/1901-12">May 1894-December 1901</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">28</container>
-              <unittitle>Ledger <unitdate type="inclusive" normal="1894-05/1901-12">May 1894-December 1901</unitdate> (cont.)</unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="946066b8-c493-4aa2-bbca-2dabffbfbe56">9</container>
+              <container type="reel" label="Roll" parent="946066b8-c493-4aa2-bbca-2dabffbfbe56">28</container>
+              <unittitle>Ledger  (cont.)</unittitle><unitdate type="inclusive" normal="1894-05/1901-12">May 1894-December 1901</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -1540,10 +1199,9 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">28</container>
-              <unittitle>Journal <unitdate type="inclusive" normal="1863-06/1866-03">June 1863-March 1866</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="de03e9c8-e039-40ff-ab13-483220acd61a">9</container>
+              <container type="reel" label="Roll" parent="de03e9c8-e039-40ff-ab13-483220acd61a">28</container>
+              <unittitle>Journal</unittitle><unitdate type="inclusive" normal="1863-06/1866-03">June 1863-March 1866</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -1552,10 +1210,9 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">28</container>
-              <unittitle>Ledger <unitdate type="inclusive" normal="1868-07/1869-12">July 1868-December 1869</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="5e039536-9570-4fe2-92c7-81977d9ef7ff">9</container>
+              <container type="reel" label="Roll" parent="5e039536-9570-4fe2-92c7-81977d9ef7ff">28</container>
+              <unittitle>Ledger</unittitle><unitdate type="inclusive" normal="1868-07/1869-12">July 1868-December 1869</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -1564,17 +1221,15 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">28</container>
-              <unittitle>Sales <unitdate type="inclusive" normal="1873-05/1875-09">May 1873-September 1875</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="e5586a0a-88a3-4b1b-b1dc-c9d64b967822">9</container>
+              <container type="reel" label="Roll" parent="e5586a0a-88a3-4b1b-b1dc-c9d64b967822">28</container>
+              <unittitle>Sales</unittitle><unitdate type="inclusive" normal="1873-05/1875-09">May 1873-September 1875</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">29</container>
-              <unittitle>Sales <unitdate type="inclusive" normal="1873-05/1875-09">May 1873-September 1875</unitdate> (cont.; beginning May 1875)</unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="928747d5-541e-4f6f-9d15-b668caad9f60">9</container>
+              <container type="reel" label="Roll" parent="928747d5-541e-4f6f-9d15-b668caad9f60">29</container>
+              <unittitle>Sales  (cont.; beginning May 1875)</unittitle><unitdate type="inclusive" normal="1873-05/1875-09">May 1873-September 1875</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -1583,10 +1238,9 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">29</container>
-              <unittitle>Log Record <unitdate type="inclusive" normal="1896-02/1909-12">February 1896-December 1909</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="d949be45-0c38-4171-b19a-394e44d043d5">9</container>
+              <container type="reel" label="Roll" parent="d949be45-0c38-4171-b19a-394e44d043d5">29</container>
+              <unittitle>Log Record</unittitle><unitdate type="inclusive" normal="1896-02/1909-12">February 1896-December 1909</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -1595,10 +1249,9 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <container type="reel" label="Roll">29</container>
-              <unittitle>Time book (?) <unitdate type="inclusive" normal="1894-05/1898-11">May 1894-November 1898</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [16640454485625522346]" id="6135fea8-dad7-4953-b614-f6fec06abdfe">9</container>
+              <container type="reel" label="Roll" parent="6135fea8-dad7-4953-b614-f6fec06abdfe">29</container>
+              <unittitle>Time book (?)</unittitle><unitdate type="inclusive" normal="1894-05/1898-11">May 1894-November 1898</unitdate></did>
           </c03>
         </c02>
       </c01>
@@ -1611,50 +1264,45 @@
         </odd>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">9</container>
-            <container type="reel" label="Roll">30</container>
-            <unittitle>Sales and Purchase book <unitdate type="inclusive" normal="1899-09/1908-07">September 1899-July 1908</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [16640454485625522346]" id="02aabaef-7dd8-42a3-8e89-a4e4e75c76ad">9</container>
+            <container type="reel" label="Roll" parent="02aabaef-7dd8-42a3-8e89-a4e4e75c76ad">30</container>
+            <unittitle>Sales and Purchase book</unittitle><unitdate type="inclusive" normal="1899-09/1908-07">September 1899-July 1908</unitdate></did>
           <odd>
             <p>(from reel 25)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">9</container>
-            <container type="reel" label="Roll">30</container>
-            <unittitle>Salt Record <unitdate type="inclusive" normal="1896-12/1904-12">December 1896-December 1904</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [16640454485625522346]" id="6e545278-0321-4476-8a7a-b3421750eba7">9</container>
+            <container type="reel" label="Roll" parent="6e545278-0321-4476-8a7a-b3421750eba7">30</container>
+            <unittitle>Salt Record</unittitle><unitdate type="inclusive" normal="1896-12/1904-12">December 1896-December 1904</unitdate></did>
           <odd>
             <p>(from reel 26)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">9</container>
-            <container type="reel" label="Roll">30</container>
-            <unittitle>Salt Record <unitdate type="inclusive" normal="1905-01/1912-09">January 1905-September 1912</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [16640454485625522346]" id="2e98e608-9329-4914-8bfc-29a160bc0e37">9</container>
+            <container type="reel" label="Roll" parent="2e98e608-9329-4914-8bfc-29a160bc0e37">30</container>
+            <unittitle>Salt Record</unittitle><unitdate type="inclusive" normal="1905-01/1912-09">January 1905-September 1912</unitdate></did>
           <odd>
             <p>(from reel 26)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">9</container>
-            <container type="reel" label="Roll">30</container>
-            <unittitle>Manistee River Improvement Co., Journal <unitdate type="inclusive" normal="1870/1900">1870-1900</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [16640454485625522346]" id="f77f7a67-3c00-4423-88f6-3d8d6e653a43">9</container>
+            <container type="reel" label="Roll" parent="f77f7a67-3c00-4423-88f6-3d8d6e653a43">30</container>
+            <unittitle>Manistee River Improvement Co., Journal</unittitle><unitdate type="inclusive" normal="1870/1900">1870-1900</unitdate></did>
           <odd>
             <p>(from reel 27)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">9</container>
-            <container type="reel" label="Roll">30</container>
-            <unittitle>Manistee River Improvement Co., Ledger <unitdate type="inclusive" normal="1870/1900">1870-1900</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [16640454485625522346]" id="a5262981-0b93-4f8c-a2e9-cd712e2da0d4">9</container>
+            <container type="reel" label="Roll" parent="a5262981-0b93-4f8c-a2e9-cd712e2da0d4">30</container>
+            <unittitle>Manistee River Improvement Co., Ledger</unittitle><unitdate type="inclusive" normal="1870/1900">1870-1900</unitdate></did>
           <odd>
             <p>(from reel 27)</p>
           </odd>

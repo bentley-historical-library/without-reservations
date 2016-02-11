@@ -28,6 +28,7 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
+    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
@@ -39,10 +40,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Schimpke, Albert J., 1899-1985, collector</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/28968">Schimpke, Albert J., 1899-1985, collector</persname>
       </origination>
-      <unittitle encodinganalog="245">Albert J. Schimpke collection of R.G. Peters materials <unitdate type="inclusive" encodinganalog="245$f" normal="1890/1970" certainty="approximate">1890-circa 1970</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">88142 Aa 2; UAm</unitid>
+      <unittitle encodinganalog="245">Albert J. Schimpke collection of R.G. Peters materials</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1890/1970" certainty="approximate">1890-circa 1970</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">88142 Aa 2; UAm</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>The Albert J. Schimpke collection consists of photographs, audio-tapes, and other materials collected by Mr. Schimpke relating to Manistee, Michigan, especially the activities of one of its most prominent local lumbermen, Richard G. Peters.</abstract>
       <physdesc altrender="part">
@@ -88,53 +88,53 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Logging--Michigan--Manistee.</subject>
-        <subject source="lcsh" encodinganalog="650">Lumbering--Michigan--Manistee.</subject>
-        <geogname source="lcsh" encodinganalog="651">Manistee (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600">Peters, Richard G., b. 1832.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9953">Logging--Michigan--Manistee.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9954">Lumbering--Michigan--Manistee.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/865">Manistee (Mich.)</geogname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34239">Peters, Richard G., b. 1832.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <subject source="lctgm" encodinganalog="650">Aged persons.</subject>
-        <geogname source="lcsh" encodinganalog="651">Bear Lake (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81129560.html">Benton Harbor (Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Boats.</subject>
-        <subject source="lctgm" encodinganalog="650">Butcher shops.</subject>
-        <subject source="lctgm" encodinganalog="650">Cooks.</subject>
-        <subject source="lctgm" encodinganalog="650">Dining rooms.</subject>
-        <geogname source="lctgm" encodinganalog="651">Eastlake (Mich.)--Industrial buildings.</geogname>
-        <geogname source="lctgm" encodinganalog="651">Eastlake (Mich.)--Salt industry.</geogname>
-        <subject source="lctgm" encodinganalog="650">Grocery stores.</subject>
-        <subject source="lctgm" encodinganalog="650">Industrial buildings--Michigan--Eastlake.</subject>
-        <subject source="lctgm" encodinganalog="650">Interiors.</subject>
-        <subject source="lctgm" encodinganalog="650">Laborers.</subject>
-        <subject source="lctgm" encodinganalog="650">Lumber industry.</subject>
-        <geogname source="lcsh" encodinganalog="651">Manistee (Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Mills.</subject>
-        <persname source="lcnaf" encodinganalog="600">Peters, Richard G., b. 1832.</persname>
-        <famname source="lcnaf" encodinganalog="600">Peters family.</famname>
-        <corpname source="lcnaf" encodinganalog="610">Peters Salt &amp; Lumber Company.</corpname>
-        <subject source="lctgm" encodinganalog="650">Railroad accidents.</subject>
-        <subject source="lctgm" encodinganalog="650">Railroad bridges.</subject>
-        <subject source="lctgm" encodinganalog="650">Railroad construction and maintenance.</subject>
-        <subject source="lctgm" encodinganalog="650">Railroad handcars.</subject>
-        <subject source="lctgm" encodinganalog="650">Railroad shops and yards.</subject>
-        <subject source="lctgm" encodinganalog="650">Railroads--Michigan.</subject>
-        <subject source="lctgm" encodinganalog="650">Salt industry--Michigan--Eastlake.</subject>
-        <subject source="lctgm" encodinganalog="650">Schools--Michigan.</subject>
-        <subject source="lctgm" encodinganalog="650">Weddings.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3708">Aged persons.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2481">Bear Lake (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81129560.html" ref="/subjects/1040">Benton Harbor (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3693">Boats.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4913">Butcher shops.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5200">Cooks.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3991">Dining rooms.</subject>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/665">Eastlake (Mich.)--Industrial buildings.</geogname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/666">Eastlake (Mich.)--Salt industry.</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4830">Grocery stores.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5201">Industrial buildings--Michigan--Eastlake.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3639">Interiors.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3615">Laborers.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3616">Lumber industry.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/865">Manistee (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4885">Mills.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34239">Peters, Richard G., b. 1832.</persname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1356">Peters family.</famname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20793">Peters Salt &amp; Lumber Company.</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3620">Railroad accidents.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4946">Railroad bridges.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5202">Railroad construction and maintenance.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5203">Railroad handcars.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5204">Railroad shops and yards.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3789">Railroads--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/5205">Salt industry--Michigan--Eastlake.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3791">Schools--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3636">Weddings.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Sound Recordings:</head>
-        <persname source="lcnaf" encodinganalog="600">Schimpke, Albert J., 1899-1985.</persname>
-        <subject source="lcsh" encodinganalog="650">Lumbering--Michigan.</subject>
-        <geogname source="lcsh" encodinganalog="651">Manistee (Mich.)</geogname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28968">Schimpke, Albert J., 1899-1985.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6798">Lumbering--Michigan.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/865">Manistee (Mich.)</geogname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="gmgpc" encodinganalog="655">Aerial photographs.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="aat" encodinganalog="655">Sound recordings.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3452">Aerial photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3137">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3139">Sound recordings.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -147,39 +147,36 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [00124440223674526]">1</container>
             <unittitle>Peters estate</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [00124440223674526]">1</container>
             <unittitle>Miscellaneous</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>Newspaper clippings <unitdate type="inclusive" normal="1952/1954" certainty="approximate">circa 1952-1954</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [00124440223674526]">1</container>
+            <unittitle>Newspaper clippings</unittitle><unitdate type="inclusive" normal="1952/1954" certainty="approximate">circa 1952-1954</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>Manistee and Northeastern Railway Company materials <unitdate type="inclusive" normal="1956" certainty="approximate">circa 1956</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [00124440223674526]">1</container>
+            <unittitle>Manistee and Northeastern Railway Company materials</unittitle><unitdate type="inclusive" normal="1956" certainty="approximate">circa 1956</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle><genreform normal="Photographs">Photographs</genreform>, <unitdate type="inclusive" normal="1890/1915" certainty="approximate">circa 1890-1915</unitdate></unittitle>
-        </did>
+          <unittitle><genreform normal="Photographs">Photographs</genreform></unittitle><unitdate type="inclusive" normal="1890/1915" certainty="approximate">circa 1890-1915</unitdate></did>
         <scopecontent>
           <p>The second series - Photographs, ca. 1890-1915 - comprises the bulk of the collection. This series consists of prints and negatives collected by Schimpke from various donors who were involved or whose relatives were involved in Peters' operations. Although there is some relationship between several photographs and negatives in this collection, the photographs are neither numbered nor otherwise identified and are difficult to match with their negatives. The photographs have been, therefore, organized according to subject matter. Most of these images are of logging and railroad scenes. The railroad scenes depict the transporting of logs by rail, locomotives, handcars, and various train scenes. Portraits of Peters, his wife Evelyn and his brother William and employee group portraits are included. Scenes of logging camps, mills, salt and lumber plants and towns are also included as well as a folder on boats, one of which was Peters' yacht. Within this series, there are also 260 negatives and two glass negatives. This part of the collection is arranged numerically, with a few unnumbered negatives in the back. There are gaps in the numbering sequences. Most of the negatives have information on their envelopes. This often includes the name of the donor, the date of the donation, the subject, photographic developing information, and remarks. The remarks can be detailed and, in some cases, identify many of the subjects. Since most of the photographs are not identified, information on the negative jackets can be quite useful.</p>
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [00124440223674526]">1</container>
             <unittitle>Portraits of R.G. Peters, wife (Evelyn?)</unittitle>
           </did>
           <odd>
@@ -188,13 +185,13 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [00124440223674526]">1</container>
             <unittitle>Other portraits, brother William, family members, etc.</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [00124440223674526]">1</container>
             <unittitle>Group portraits of employees</unittitle>
           </did>
           <odd>
@@ -207,13 +204,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [00124440223674526]">1</container>
               <unittitle>Buildings and interiors</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [00124440223674526]">1</container>
               <unittitle>Aerial views</unittitle>
             </did>
           </c03>
@@ -224,20 +221,20 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [00124440223674526]">1</container>
               <unittitle>Logging camp scenes</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [00124440223674526]">1</container>
               <unittitle>Dining room interiors</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [00124440223674526]">1</container>
             <unittitle>Mill scenes</unittitle>
           </did>
           <odd>
@@ -250,7 +247,7 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [00124440223674526]">1</container>
               <unittitle>Panoramic views</unittitle>
             </did>
             <odd>
@@ -259,14 +256,14 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [00124440223674526]">1</container>
               <unittitle>Interiors</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [00124440223674526]">1</container>
             <unittitle>Boats</unittitle>
           </did>
           <odd>
@@ -275,7 +272,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [00124440223674526]">1</container>
             <unittitle>Logging scenes</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
@@ -287,7 +284,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [00124440223674526]">1</container>
             <unittitle>Transporting logs by rail</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -299,7 +296,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [00124440223674526]">1</container>
             <unittitle>Locomotives</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -311,37 +308,37 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [00124440223674526]">1</container>
             <unittitle>Train wreck</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [00124440223674526]">1</container>
             <unittitle>Miscellaneous train scenes</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [00124440223674526]">1</container>
             <unittitle>Handcars</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [00124440223674526]">1</container>
             <unittitle>Train trusses</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [00124440223674526]">1</container>
             <unittitle>Machine shop and Manistee and Northeastern Railway Company round house</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [00124440223674526]">1</container>
             <unittitle>Dedication of post office, Manistee (?)</unittitle>
           </did>
           <odd>
@@ -350,13 +347,13 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [00124440223674526]">1</container>
             <unittitle>Miscellaneous</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">3</container>
+            <container type="box" label="Box [06081536448606912203]">3</container>
             <unittitle>Logging scenes, group portraits of employees, trains, boats, company shops</unittitle>
           </did>
           <odd>
@@ -365,7 +362,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">2</container>
+            <container type="box" label="Box [9390183441812270378808]">2</container>
             <unittitle>Photonegatives</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">260 negatives</extent>
@@ -378,7 +375,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">2</container>
+            <container type="box" label="Box [9390183441812270378808]">2</container>
             <unittitle>Glass negatives</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 photographs</extent>
@@ -397,9 +394,8 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">4</container>
-            <unittitle>Audio cassettes of interviews with associates of R.G. Peters <unitdate type="inclusive" normal="1954/1960">1954-1960</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [03374947941027189387]">4</container>
+            <unittitle>Audio cassettes of interviews with associates of R.G. Peters</unittitle><unitdate type="inclusive" normal="1954/1960">1954-1960</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">75 audiocassettes</extent>
             </physdesc>
           </did>
@@ -409,7 +405,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [313362694733943105888730]">5</container>
             <unittitle>Reel-to-reel tape interviews</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">58 tapes</extent>
@@ -421,7 +417,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [59985300498629369221]">6</container>
             <unittitle>Reel-to-reel tape interviews</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">58 tapes</extent>

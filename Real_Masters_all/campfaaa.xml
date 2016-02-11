@@ -24,6 +24,7 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
+    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <famname source="lcnaf" encodinganalog="100">Campbell family.</famname>
+        <famname source="lcnaf" encodinganalog="100" ref="/agents/families/1388">Campbell family.</famname>
       </origination>
-      <unittitle encodinganalog="245">Campbell family papers <unitdate type="inclusive" encodinganalog="245$f" normal="1860/1865">1860-1865</unitdate>, <unitdate type="inclusive" encodinganalog="245$f" normal="1879/1949">1879-1949</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85891 Aa 2</unitid>
+      <unittitle encodinganalog="245">Campbell family papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1860/1865">1860-1865</unitdate><unitdate type="inclusive" encodinganalog="245$f" normal="1879/1949">1879-1949</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85891 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Ypsilanti and Ann Arbor, Michigan, area family; correspondence, diaries, and other family materials.</abstract>
       <physdesc altrender="whole">
@@ -78,71 +78,71 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50036849">Adams, Henry Carter, 1851-1921.</persname>
-        <subject source="lcsh" encodinganalog="650">Agriculture--Michigan--Washtenaw County.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html">Ann Arbor (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Ann Arbor High School (Mich.)--Students.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79060532">Dewey, John, 1859-1952.</persname>
-        <subject source="lcsh" encodinganalog="650">Farm life--Michigan--Washtenaw County.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50034941">Hinsdale, B. A. (Burke Aaron), 1837-1900.</persname>
-        <persname source="lcnaf" encodinganalog="600">Johnson, Lorenzo Nickerson, d.1897.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87126725">Lloyd, Alfred H. (Alfred Henry), 1864-1927.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50013667">Mead, George Herbert, 1863-1931.</persname>
-        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1877-1898.</geogname>
-        <geogname source="local" encodinganalog="691">Michigan--Social life and customs--1891-1900.</geogname>
-        <geogname source="local" encodinganalog="691">Michigan--Social life and customs--1901-1910.</geogname>
-        <subject source="lcsh" encodinganalog="650">Presidents--United States--Election--1896.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2002065707">Reighard, Jacob, 1861-1942</persname>
-        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
-        <subject source="lcsh" encodinganalog="650">Schools--Michigan--Washtenaw County.</subject>
-        <subject source="lcsh" encodinganalog="650">Silver question.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2003104243">Spalding, Volney Morgan, 1849-1918.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no92003683">Stanley, Albert A. (Albert Augustus), 1851-1932.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2007120169">Steere, Joseph Beal, 1842-1940.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80009873">Taylor, F. M. (Fred Manville), 1855-1932.</persname>
-        <subject source="lcsh" encodinganalog="650">Teachers--Michigan--Washtenaw County.</subject>
-        <geogname source="lcsh" encodinganalog="651">United States--History--Civil War, 1861-1865.</geogname>
-        <geogname source="lcsh" encodinganalog="651">United States--Politics and government--1893-1897.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Student notebooks.</corpname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87816194">Ward, Henry Baldwin, 1865-1945.</persname>
-        <geogname source="lcsh" encodinganalog="651">Washtenaw County (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80006284.html">Ypsilanti (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">Women--Michigan--Washtenaw County.</subject>
-        <famname source="lcnaf" encodinganalog="600">Campbell family.</famname>
-        <geogname source="lcsh" encodinganalog="651">Michigan--Politics and government--1837-1950.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Michigan--Social life and customs--19th century.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Michigan--Social life and customs--20th century.</geogname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50036849" ref="/agents/people/34828">Adams, Henry Carter, 1851-1921.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6675">Agriculture--Michigan--Washtenaw County.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html" ref="/subjects/860">Ann Arbor (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17826">Ann Arbor High School (Mich.)--Students.<term type="topical">Students.</term></corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79060532" ref="/agents/people/35090">Dewey, John, 1859-1952.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5848">Farm life--Michigan--Washtenaw County.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50034941" ref="/agents/people/33683">Hinsdale, B. A. (Burke Aaron), 1837-1900.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/29524">Johnson, Lorenzo Nickerson, d.1897.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87126725" ref="/agents/people/31378">Lloyd, Alfred H. (Alfred Henry), 1864-1927.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50013667" ref="/agents/people/34101">Mead, George Herbert, 1863-1931.</persname>
+        <geogname source="local" encodinganalog="691" ref="/subjects/805">Michigan--Politics and government--1877-1898.</geogname>
+        <geogname source="local" encodinganalog="691" ref="/subjects/800">Michigan--Social life and customs--1891-1900.</geogname>
+        <geogname source="local" encodinganalog="691" ref="/subjects/815">Michigan--Social life and customs--1901-1910.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6027">Presidents--United States--Election--1896.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2002065707" ref="/agents/people/30195">Reighard, Jacob, 1861-1942</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21402">Republican Party (Mich.)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6676">Schools--Michigan--Washtenaw County.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6028">Silver question.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2003104243" ref="/agents/people/29592">Spalding, Volney Morgan, 1849-1918.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no92003683" ref="/agents/people/28987">Stanley, Albert A. (Albert Augustus), 1851-1932.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2007120169" ref="/agents/people/35250">Steere, Joseph Beal, 1842-1940.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80009873" ref="/agents/people/35595">Taylor, F. M. (Fred Manville), 1855-1932.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6677">Teachers--Michigan--Washtenaw County.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/909">United States--History--Civil War, 1861-1865.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1435">United States--Politics and government--1893-1897.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Student notebooks.<term type="topical">Student notebooks.</term></corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87816194" ref="/agents/people/28177">Ward, Henry Baldwin, 1865-1945.</persname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/847">Washtenaw County (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80006284.html" ref="/subjects/999">Ypsilanti (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5894">Women--Michigan--Washtenaw County.</subject>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1388">Campbell family.</famname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/884">Michigan--Politics and government--1837-1950.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1302">Michigan--Social life and customs--19th century.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/851">Michigan--Social life and customs--20th century.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Subjects: Visual Materials</head>
-        <famname source="lcnaf" encodinganalog="600">Campbell family.</famname>
-        <subject source="lctgm" encodinganalog="650">Carriages and coaches.</subject>
-        <subject source="lctgm" encodinganalog="650">Churches--Michigan--Detroit.</subject>
-        <subject source="lctgm" encodinganalog="650">Churches--Michigan--Ypsilanti.</subject>
-        <subject source="lctgm" encodinganalog="650">Dwellings.</subject>
-        <corpname source="lcnaf" encodinganalog="610">First Presbyterian Church (Ypsilanti, Mich.)</corpname>
-        <subject source="lctgm" encodinganalog="650">Holidays.</subject>
-        <subject source="lctgm" encodinganalog="650">Interiors.</subject>
-        <geogname source="lcsh" encodinganalog="651">Muskegon (Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Parades and processions.</subject>
-        <subject source="lctgm" encodinganalog="650">Photography.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85188836.html">Pinckney (Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Recreation.</subject>
-        <geogname source="lcsh" encodinganalog="651">State Street (Ann Arbor, Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Stone School (Ann Arbor, Mich.)</corpname>
+        <famname source="lcnaf" encodinganalog="600" ref="/agents/families/1388">Campbell family.</famname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3604">Carriages and coaches.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3674">Churches--Michigan--Detroit.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3962">Churches--Michigan--Ypsilanti.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3944">Dwellings.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17416">First Presbyterian Church (Ypsilanti, Mich.)</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3888">Holidays.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3639">Interiors.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1171">Muskegon (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3524">Parades and processions.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3891">Photography.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85188836.html" ref="/subjects/1199">Pinckney (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3579">Recreation.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/856">State Street (Ann Arbor, Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21622">Stone School (Ann Arbor, Mich.)</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Campbell, Robert Clair, 1870-1945.</persname>
-        <persname source="lcnaf" encodinganalog="700">Campbell, William, b.1829.</persname>
-        <persname source="lcnaf" encodinganalog="700">Read, Carrie.</persname>
-        <persname source="lcnaf" encodinganalog="700">Read, E. Mabel.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31454">Campbell, Robert Clair, 1870-1945.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31908">Campbell, William, b.1829.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29089">Read, Carrie.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27750">Read, E. Mabel.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="gmgpc" encodinganalog="655">Cyanotypes.</genreform>
-        <genreform source="aat" encodinganalog="655">Diaries.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3475">Cyanotypes.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3146">Diaries.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3137">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -152,132 +152,87 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1860/1865">1860-1865</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [4040809284616784236537]">1</container>
+            <unitdate type="inclusive" normal="1860/1865">1860-1865</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1879/1889">1879-1889</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [4040809284616784236537]">1</container>
+            <unitdate type="inclusive" normal="1879/1889">1879-1889</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1896/1897">1896-1897</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [4040809284616784236537]">1</container>
+            <unitdate type="inclusive" normal="1896/1897">1896-1897</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1898">1898</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [4040809284616784236537]">1</container>
+            <unitdate type="inclusive" normal="1898">1898</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1899">1899</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [4040809284616784236537]">1</container>
+            <unitdate type="inclusive" normal="1899">1899</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1900/1903">1900-1903</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [4040809284616784236537]">1</container>
+            <unitdate type="inclusive" normal="1900/1903">1900-1903</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1904">1904</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [4040809284616784236537]">1</container>
+            <unitdate type="inclusive" normal="1904">1904</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1905">1905</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [4040809284616784236537]">1</container>
+            <unitdate type="inclusive" normal="1905">1905</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1906">1906</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [4040809284616784236537]">1</container>
+            <unitdate type="inclusive" normal="1906">1906</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1907">1907</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [4040809284616784236537]">1</container>
+            <unitdate type="inclusive" normal="1907">1907</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1908/1910">1908-1910</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [4040809284616784236537]">1</container>
+            <unitdate type="inclusive" normal="1908/1910">1908-1910</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1911/1919">1911-1919</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [4040809284616784236537]">1</container>
+            <unitdate type="inclusive" normal="1911/1919">1911-1919</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1920/1926">1920-1926</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [4040809284616784236537]">1</container>
+            <unitdate type="inclusive" normal="1920/1926">1920-1926</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1927/1949">1927-1949</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [4040809284616784236537]">1</container>
+            <unitdate type="inclusive" normal="1927/1949">1927-1949</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>
-              <unitdate type="inclusive">Undated</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [4040809284616784236537]">1</container>
+            <unitdate type="inclusive">Undated</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -286,18 +241,16 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle><genreform normal="Diaries">Diaries</genreform>, <unitdate type="inclusive" normal="1882/1897">1882-1897</unitdate> (some gaps)</unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [4040809284616784236537]">1</container>
+            <unittitle><genreform normal="Diaries">Diaries</genreform>,  (some gaps)</unittitle><unitdate type="inclusive" normal="1882/1897">1882-1897</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">12 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>Bank book <unitdate type="inclusive" normal="1892/1907">1892-1907</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [4040809284616784236537]">1</container>
+            <unittitle>Bank book</unittitle><unitdate type="inclusive" normal="1892/1907">1892-1907</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -306,110 +259,96 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle><genreform normal="Diaries">Diary-Account</genreform> books, <unitdate type="inclusive" normal="1892" certainty="approximate">1892</unitdate> <unitdate type="inclusive" normal="1893">1893</unitdate>, <unitdate type="inclusive" normal="1894">1894</unitdate>, <unitdate type="inclusive" normal="1899">1899</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [4040809284616784236537]">1</container>
+            <unittitle><genreform normal="Diaries">Diary-Account</genreform> books</unittitle><unitdate type="inclusive" normal="1892" certainty="approximate">1892</unitdate><unitdate type="inclusive" normal="1893">1893</unitdate><unitdate type="inclusive" normal="1894">1894</unitdate><unitdate type="inclusive" normal="1899">1899</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">2</container>
+            <container type="box" label="Box [3208852044922267103]">2</container>
             <unittitle>High school course notes (probably Ann Arbor High School): geometry and chemistry</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>University of Michigan course notes <unitdate type="inclusive" normal="1891/1894">1891-1894</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <unittitle>University of Michigan course notes</unittitle><unitdate type="inclusive" normal="1891/1894">1891-1894</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">16 volumes</extent>
             </physdesc>
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>Combined volume <unitdate type="inclusive" normal="1891">1891</unitdate>: Botany (V.M. Spalding); Zoology (J.E. Reighard), Zoology (J.B. Steere)</unittitle>
-            </did>
+              <container type="box" label="Box [3208852044922267103]">2</container>
+              <unittitle>Combined volume : Botany (V.M. Spalding); Zoology (J.E. Reighard), Zoology (J.B. Steere)</unittitle><unitdate type="inclusive" normal="1891">1891</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>Biology <unitdate type="inclusive" normal="1893">1893</unitdate>: Zoology (Ward) and Botany (Johnson)</unittitle>
-            </did>
+              <container type="box" label="Box [3208852044922267103]">2</container>
+              <unittitle>Biology : Zoology (Ward) and Botany (Johnson)</unittitle><unitdate type="inclusive" normal="1893">1893</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>Political economy (H.C. Adams) <unitdate type="inclusive" normal="1892">1892</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3208852044922267103]">2</container>
+              <unittitle>Political economy (H.C. Adams)</unittitle><unitdate type="inclusive" normal="1892">1892</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>Political philosophy (John Dewey <unitdate type="inclusive" normal="1893">1893</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [3208852044922267103]">2</container>
+              <unittitle>Political philosophy (John Dewey</unittitle><unitdate type="inclusive" normal="1893">1893</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 volumes</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>Pedagogy course 1 (B.A. Hinsdale) <unitdate type="inclusive" normal="1892">1892</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3208852044922267103]">2</container>
+              <unittitle>Pedagogy course 1 (B.A. Hinsdale)</unittitle><unitdate type="inclusive" normal="1892">1892</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>Pedagogy 2 <unitdate type="inclusive" normal="1894">1894</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3208852044922267103]">2</container>
+              <unittitle>Pedagogy 2</unittitle><unitdate type="inclusive" normal="1894">1894</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>Pedagogy (B.A. Hinsdale) <unitdate type="inclusive" normal="1892">1892</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3208852044922267103]">2</container>
+              <unittitle>Pedagogy (B.A. Hinsdale)</unittitle><unitdate type="inclusive" normal="1892">1892</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>Pedagogy (Hinsdale) <unitdate type="inclusive" normal="1893">1893</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3208852044922267103]">2</container>
+              <unittitle>Pedagogy (Hinsdale)</unittitle><unitdate type="inclusive" normal="1893">1893</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>Political economy 2 (Taylor) <unitdate type="inclusive" normal="1894">1894</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3208852044922267103]">2</container>
+              <unittitle>Political economy 2 (Taylor)</unittitle><unitdate type="inclusive" normal="1894">1894</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>Spanish exercises <unitdate type="inclusive" normal="1892">1892</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3208852044922267103]">2</container>
+              <unittitle>Spanish exercises</unittitle><unitdate type="inclusive" normal="1892">1892</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [3208852044922267103]">2</container>
               <unittitle>Qualitative chemical analysis</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>Philosophy (Mead) <unitdate type="inclusive" normal="1893">1893</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3208852044922267103]">2</container>
+              <unittitle>Philosophy (Mead)</unittitle><unitdate type="inclusive" normal="1893">1893</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>Philosophy -- British ethics (Lloyd) <unitdate type="inclusive" normal="1892">1892</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [3208852044922267103]">2</container>
+              <unittitle>Philosophy -- British ethics (Lloyd)</unittitle><unitdate type="inclusive" normal="1892">1892</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [3208852044922267103]">2</container>
               <unittitle>Music course (Stanley)</unittitle>
             </did>
           </c03>
@@ -425,7 +364,7 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [3208852044922267103]">2</container>
               <unittitle>Physical laboratory notebooks</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 volumes</extent>
@@ -434,7 +373,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [3208852044922267103]">2</container>
               <unittitle>Chemical laboratory</unittitle>
             </did>
           </c03>
@@ -445,7 +384,7 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [3208852044922267103]">2</container>
               <unittitle>Ann Arbor High School physical laboratory notebooks</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 volumes</extent>
@@ -454,26 +393,26 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [3208852044922267103]">2</container>
               <unittitle>Botany</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">2</container>
+            <container type="box" label="Box [3208852044922267103]">2</container>
             <unittitle>Miscellanea</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">2</container>
+            <container type="box" label="Box [3208852044922267103]">2</container>
             <unittitle>School essays</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">2</container>
+            <container type="box" label="Box [3208852044922267103]">2</container>
             <unittitle>Printed material</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
@@ -482,7 +421,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">2</container>
+            <container type="box" label="Box [3208852044922267103]">2</container>
             <unittitle>
               <genreform normal="Photographs">Photographs</genreform>
             </unittitle>
@@ -496,9 +435,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">2</container>
-            <unittitle><genreform normal="Diary">Diary</genreform> (unidentified), <unitdate type="inclusive" normal="1946">1946</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [3208852044922267103]">2</container>
+            <unittitle><genreform normal="Diary">Diary</genreform> (unidentified)</unittitle><unitdate type="inclusive" normal="1946">1946</unitdate></did>
         </c02>
       </c01>
     </dsc>

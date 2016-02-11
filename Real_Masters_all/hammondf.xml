@@ -24,6 +24,7 @@
         <item>Original encoding from Word 2010 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
+    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Hammond, Fred</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/31945">Hammond, Fred</persname>
       </origination>
-      <unittitle encodinganalog="245">Fred Hammond collection <unitdate type="inclusive" encodinganalog="245$f" normal="1957/1992">1957-1992</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1950/1969" certainty="approximate">1950s-1960s</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2014100 Aa 2</unitid>
+      <unittitle encodinganalog="245">Fred Hammond collection</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1957/1992">1957-1992</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1950/1969" certainty="approximate">1950s-1960s</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2014100 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Collection consists of photographs taken by photographer Fred Hammond for use by the Michigan Department of Transportation and personal photos.</abstract>
       <physdesc altrender="whole">
@@ -80,22 +80,22 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Michigan.--Department of Transportation.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17864">Michigan.--Department of Transportation.<term type="topical">Department of Transportation.</term></corpname>
       </controlaccess>
       <controlaccess>
         <head>Subject - Visual materials:</head>
-        <subject source="lctgm" encodinganalog="650">Astronomy.</subject>
-        <subject source="lctgm" encodinganalog="650">Churches--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Faith Lutheran Church (Okemos, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Michigan.--Department of Transportation.</corpname>
-        <subject source="lctgm" encodinganalog="650">Nature--Michigan.</subject>
-        <subject source="lctgm" encodinganalog="650">Road construction--Michigan.</subject>
-        <subject source="lctgm" encodinganalog="650">Tourism--Michigan.</subject>
-        <subject source="lctgm" encodinganalog="650">Transportation--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3686">Astronomy.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3779">Churches--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21492">Faith Lutheran Church (Okemos, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17864">Michigan.--Department of Transportation.<term type="topical">Department of Transportation.</term></corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4416">Nature--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3950">Road construction--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4417">Tourism--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3792">Transportation--Michigan.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3137">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -105,105 +105,88 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>Astronomy <unitdate type="inclusive">undated</unitdate>, <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [4543049284728523998460204]">1</container>
+            <unittitle>Astronomy</unittitle><unitdate type="inclusive">undated</unitdate><unitdate type="inclusive" normal="1957">1957</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>Buildings and structures <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [4543049284728523998460204]">1</container>
+            <unittitle>Buildings and structures</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>Construction <unitdate type="inclusive" normal="1958/1960">1958-1960</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [4543049284728523998460204]">1</container>
+            <unittitle>Construction</unittitle><unitdate type="inclusive" normal="1958/1960">1958-1960</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>Highway patrol photo shop pictures <unitdate type="inclusive" normal="1984">1984</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [4543049284728523998460204]">1</container>
+            <unittitle>Highway patrol photo shop pictures</unittitle><unitdate type="inclusive" normal="1984">1984</unitdate><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>Photos from Faith Lutheran Church <unitdate type="inclusive" normal="1964">1964</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [4543049284728523998460204]">1</container>
+            <unittitle>Photos from Faith Lutheran Church</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>Programs and publications <unitdate type="inclusive" normal="1957/1964">1957-1964</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [4543049284728523998460204]">1</container>
+            <unittitle>Programs and publications</unittitle><unitdate type="inclusive" normal="1957/1964">1957-1964</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>Scenes of nature <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [4543049284728523998460204]">1</container>
+            <unittitle>Scenes of nature</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>Severe weather <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [4543049284728523998460204]">1</container>
+            <unittitle>Severe weather</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>Tourist scenes <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [4543049284728523998460204]">1</container>
+            <unittitle>Tourist scenes</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>Transportation <unitdate type="inclusive">undated</unitdate>, <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [4543049284728523998460204]">1</container>
+            <unittitle>Transportation</unittitle><unitdate type="inclusive">undated</unitdate><unitdate type="inclusive" normal="1962">1962</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">2</container>
-            <unittitle>Buildings and structures <unitdate type="inclusive">undated</unitdate>, <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [985443974562651]">2</container>
+            <unittitle>Buildings and structures</unittitle><unitdate type="inclusive">undated</unitdate><unitdate type="inclusive" normal="1963">1963</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">2</container>
-            <unittitle>Construction <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [985443974562651]">2</container>
+            <unittitle>Construction</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">2</container>
-            <unittitle>Michigan Department of Transportation publications <unitdate type="inclusive" normal="1978/1992">1978-1992</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [985443974562651]">2</container>
+            <unittitle>Michigan Department of Transportation publications</unittitle><unitdate type="inclusive" normal="1978/1992">1978-1992</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">3</container>
-            <unittitle>Portraits <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [2614045379034868]">3</container>
+            <unittitle>Portraits</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">3</container>
-            <unittitle>Scenes of nature <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [2614045379034868]">3</container>
+            <unittitle>Scenes of nature</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">3</container>
-            <unittitle>Tourist scenes <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [2614045379034868]">3</container>
+            <unittitle>Tourist scenes</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">3</container>
-            <unittitle>Transportation <unitdate type="inclusive">undated</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [2614045379034868]">3</container>
+            <unittitle>Transportation</unittitle><unitdate type="inclusive">undated</unitdate></did>
         </c02>
       </c01>
     </dsc>

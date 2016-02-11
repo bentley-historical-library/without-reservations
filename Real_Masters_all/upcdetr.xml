@@ -24,6 +24,7 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
+    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
@@ -35,10 +36,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/no93017258">United Presbyterian Church in the U.S.A. Presbytery of Detroit.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/no93017258" ref="/agents/corporate_entities/21651">United Presbyterian Church in the U.S.A. Presbytery of Detroit.</corpname>
       </origination>
-      <unittitle encodinganalog="245">United Presbyterian Church in the U.S.A. Presbytery of Detroit records <unitdate type="inclusive" encodinganalog="245$f" normal="1828/1974">1828-1974</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">852270 Ba 2</unitid>
+      <unittitle encodinganalog="245">United Presbyterian Church in the U.S.A. Presbytery of Detroit records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1828/1974">1828-1974</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">852270 Ba 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Minutes, rosters of ministers, and statistical and financial records; also retired records of individual Presbyterian churches, including the; and miscellaneous synodical files.</abstract>
       <physdesc altrender="whole">
@@ -79,30 +79,30 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Broadstreet United Presbyterian Church (Detroit, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Cadillac Boulevard Presbyterian Church (Detroit, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Church of the Redeemer Presbyterian Church (Detroit, Mich.)</corpname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539.html">Detroit (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Detroit (Mich.)--Church history.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Forest Avenue Presbyterian Church (Detroit, Mich.)</corpname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n50031679.html">Hamtramck (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Hamtramck United Presbyterian Church (Mich.)</corpname>
-        <geogname source="lcnaf" encodinganalog="651">Ida (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Ida Presbyterian Church (Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Lakeshore Presbyterian Church (Port Huron, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Marston Avenue Presbyterian Church (Detroit, Mich.)</corpname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n83030021.html">Port Huron (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">United Presbyterian Church in the U.S.A.--Michigan--Detroit.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United Presbyterian Church in the U.S.A.--Michigan--Hamtramck.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United Presbyterian Church in the U.S.A.--Michigan--Port Huron.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">United Presbyterian Church in the U.S.A.--Michigan--Waterford Center.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no93013821">United Presbyterian Church in the U.S.A. Synod of Michigan.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Third Street Union Mission Sunday School (Detroit, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Waterford Center (Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Waterford Center Presbyterian Church (Mich.)</corpname>
-        <subject source="lcsh" encodinganalog="650">Welsh-Americans--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Welsh United Presbyterian Church (Detroit, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no93017258">United Presbyterian Church in the U.S.A. Presbytery of Detroit.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18107">Broadstreet United Presbyterian Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22125">Cadillac Boulevard Presbyterian Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18071">Church of the Redeemer Presbyterian Church (Detroit, Mich.)</corpname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539.html" ref="/subjects/933">Detroit (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/952">Detroit (Mich.)--Church history.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21342">Forest Avenue Presbyterian Church (Detroit, Mich.)</corpname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n50031679.html" ref="/subjects/1306">Hamtramck (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22688">Hamtramck United Presbyterian Church (Mich.)</corpname>
+        <geogname source="lcnaf" encodinganalog="651" ref="/subjects/786">Ida (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22631">Ida Presbyterian Church (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19539">Lakeshore Presbyterian Church (Port Huron, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17676">Marston Avenue Presbyterian Church (Detroit, Mich.)</corpname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n83030021.html" ref="/subjects/1206">Port Huron (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17442">United Presbyterian Church in the U.S.A.--Michigan--Detroit.<term type="geographic">Michigan</term><term type="geographic">Detroit.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17442">United Presbyterian Church in the U.S.A.--Michigan--Hamtramck.<term type="geographic">Michigan</term><term type="geographic">Hamtramck.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17442">United Presbyterian Church in the U.S.A.--Michigan--Port Huron.<term type="geographic">Michigan</term><term type="geographic">Port Huron.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17442">United Presbyterian Church in the U.S.A.--Michigan--Waterford Center.<term type="geographic">Michigan</term><term type="geographic">Waterford Center.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no93013821" ref="/agents/corporate_entities/19338">United Presbyterian Church in the U.S.A. Synod of Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21755">Third Street Union Mission Sunday School (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21413">Waterford Center (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18123">Waterford Center Presbyterian Church (Mich.)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8509">Welsh-Americans--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22961">Welsh United Presbyterian Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no93017258" ref="/agents/corporate_entities/21651">United Presbyterian Church in the U.S.A. Presbytery of Detroit.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -112,99 +112,88 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>Cadillac Blvd. Presbyterian Church (Detroit) records <unitdate type="inclusive" normal="1949/1963">1949-1963</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [980303766242573848632]">1</container>
+            <unittitle>Cadillac Blvd. Presbyterian Church (Detroit) records</unittitle><unitdate type="inclusive" normal="1949/1963">1949-1963</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">5 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>Broadstreet United Presbyterian Church (Detroit) records <unitdate type="inclusive" normal="1925/1960">1925-1960</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [980303766242573848632]">1</container>
+            <unittitle>Broadstreet United Presbyterian Church (Detroit) records</unittitle><unitdate type="inclusive" normal="1925/1960">1925-1960</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>Hamtramck United Presbyterian Church records <unitdate type="inclusive" normal="1960/1966">1960-1966</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [980303766242573848632]">1</container>
+            <unittitle>Hamtramck United Presbyterian Church records</unittitle><unitdate type="inclusive" normal="1960/1966">1960-1966</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">1 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>Third Street Union Mission Sunday School (Detroit) records <unitdate type="inclusive" normal="1867/1893">1867-1893</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [980303766242573848632]">1</container>
+            <unittitle>Third Street Union Mission Sunday School (Detroit) records</unittitle><unitdate type="inclusive" normal="1867/1893">1867-1893</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">1 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">2</container>
-            <unittitle>Lakeshore Presbyterian Church, Port Huron Session record <unitdate type="inclusive" normal="1961-12/1970-06">December 1961-June 1970</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [9176086590425070765626]">2</container>
+            <unittitle>Lakeshore Presbyterian Church, Port Huron Session record</unittitle><unitdate type="inclusive" normal="1961-12/1970-06">December 1961-June 1970</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">1 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">2</container>
-            <unittitle>Church of the Redeemer Presbyterian Church (Detroit) records <unitdate type="inclusive" normal="1888/1891">1888-1891</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [9176086590425070765626]">2</container>
+            <unittitle>Church of the Redeemer Presbyterian Church (Detroit) records</unittitle><unitdate type="inclusive" normal="1888/1891">1888-1891</unitdate><unitdate type="inclusive">undated</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">1 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">2</container>
-            <unittitle>Forest Avenue Presbyterian Church (Detroit) records <unitdate type="inclusive" normal="1893/1914">1893-1914</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [9176086590425070765626]">2</container>
+            <unittitle>Forest Avenue Presbyterian Church (Detroit) records</unittitle><unitdate type="inclusive" normal="1893/1914">1893-1914</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">1 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">2</container>
-            <unittitle>Waterford Center (Oakland County) Presbyterian Church records <unitdate type="inclusive" normal="1899/1916">1899-1916</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [9176086590425070765626]">2</container>
+            <unittitle>Waterford Center (Oakland County) Presbyterian Church records</unittitle><unitdate type="inclusive" normal="1899/1916">1899-1916</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">1 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">2</container>
-            <unittitle>Marston Avenue Presbyterian Church (Detroit) records <unitdate type="inclusive" normal="1908/1918">1908-1918</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [9176086590425070765626]">2</container>
+            <unittitle>Marston Avenue Presbyterian Church (Detroit) records</unittitle><unitdate type="inclusive" normal="1908/1918">1908-1918</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">1 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">2</container>
-            <unittitle>Ida (Monroe County) First Presbyterian Church records <unitdate type="inclusive" normal="1898/1938">1898-1938</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [9176086590425070765626]">2</container>
+            <unittitle>Ida (Monroe County) First Presbyterian Church records</unittitle><unitdate type="inclusive" normal="1898/1938">1898-1938</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">1 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">2</container>
-            <unittitle>Welsh United Presbyterian Church (Detroit) records <unitdate type="inclusive" normal="1919/1974">1919-1974</unitdate></unittitle>
-            <physdesc altrender="part">
+            <container type="box" label="Box [9176086590425070765626]">2</container>
+            <unittitle>Welsh United Presbyterian Church (Detroit) records</unittitle><unitdate type="inclusive" normal="1919/1974">1919-1974</unitdate><physdesc altrender="part">
               <extent altrender="materialtype spaceoccupied">3 volumes</extent>
             </physdesc>
             <physdesc altrender="part">
@@ -214,22 +203,21 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">3</container>
-            <unittitle>Welsh United Presbyterian Church (Detroit) records <unitdate type="inclusive" normal="1919/1974">1919-1974</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [176391147183105551]">3</container>
+            <unittitle>Welsh United Presbyterian Church (Detroit) records</unittitle><unitdate type="inclusive" normal="1919/1974">1919-1974</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">13 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">4</container>
+            <container type="box" label="Box [5405668947689710478]">4</container>
             <unittitle>Dodge Community House records</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">4</container>
+            <container type="box" label="Box [5405668947689710478]">4</container>
             <unittitle>Presbyterian Neighborhood Services files</unittitle>
           </did>
         </c02>
@@ -240,451 +228,451 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [6650968979946782394150080]">5</container>
             <unittitle>Detroit-Redford Avenue Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [6650968979946782394150080]">5</container>
             <unittitle>Detroit-Trumbull Avenue United Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [6650968979946782394150080]">5</container>
             <unittitle>Detroit-Village United Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [6650968979946782394150080]">5</container>
             <unittitle>Detroit-Ward Memorial United Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [6650968979946782394150080]">5</container>
             <unittitle>Detroit-Welsh United Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [6650968979946782394150080]">5</container>
             <unittitle>Detroit-Westminster United Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [6650968979946782394150080]">5</container>
             <unittitle>Detroit-Winchester Village United Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [6650968979946782394150080]">5</container>
             <unittitle>Detroit-Woodward Avenue United Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [6650968979946782394150080]">5</container>
             <unittitle>Drayton Plains-Community United Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [6650968979946782394150080]">5</container>
             <unittitle>East Detroit-Covenant United Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [6650968979946782394150080]">5</container>
             <unittitle>Ecorse-United Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [6650968979946782394150080]">5</container>
             <unittitle>Farmington-United Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [6650968979946782394150080]">5</container>
             <unittitle>Ferndale-Drayton Avenue United Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [6650968979946782394150080]">5</container>
             <unittitle>Flint Farnumwood United Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [6650968979946782394150080]">5</container>
             <unittitle>Fraser Peace United Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [6650968979946782394150080]">5</container>
             <unittitle>Garden City-United Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [6650968979946782394150080]">5</container>
             <unittitle>Grand Haven-First Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [6650968979946782394150080]">5</container>
             <unittitle>Grosse Ile-United Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [6650968979946782394150080]">5</container>
             <unittitle>Grosse Pointe-Memorial United Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [6650968979946782394150080]">5</container>
             <unittitle>Grosse Pointe Woods-United Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [6650968979946782394150080]">5</container>
             <unittitle>Highland Park-United Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [6650968979946782394150080]">5</container>
             <unittitle>Holly-United Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [6650968979946782394150080]">5</container>
             <unittitle>Jackson-Westminster United Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [6650968979946782394150080]">5</container>
             <unittitle>Lansing-Mt. Hope Avenue Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [6650968979946782394150080]">5</container>
             <unittitle>Lansing-North Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [6650968979946782394150080]">5</container>
             <unittitle>Lincoln Park-United Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [6650968979946782394150080]">5</container>
             <unittitle>Livonia-Rosedale Gardens Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [6650968979946782394150080]">5</container>
             <unittitle>Livonia-St. Paul's United Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [6650968979946782394150080]">5</container>
             <unittitle>Livonia-St. Timothy United Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [6650968979946782394150080]">5</container>
             <unittitle>Ludington-Community Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [6650968979946782394150080]">5</container>
             <unittitle>Mackinaw City-Church of the Straits</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [6650968979946782394150080]">5</container>
             <unittitle>Menominee-United Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [6650968979946782394150080]">5</container>
             <unittitle>Midland-Memorial Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [6650968979946782394150080]">5</container>
             <unittitle>Milford-United Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [12021465097975184981]">6</container>
             <unittitle>Monroe-First Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [12021465097975184981]">6</container>
             <unittitle>Mt. Clemens-First Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [12021465097975184981]">6</container>
             <unittitle>Muir-First Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [12021465097975184981]">6</container>
             <unittitle>Muskegon-First Presbyterian Church Northville-United Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [12021465097975184981]">6</container>
             <unittitle>Orchard Lake-Community Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [12021465097975184981]">6</container>
             <unittitle>Peck-Elk United Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [12021465097975184981]">6</container>
             <unittitle>Plymouth United Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [12021465097975184981]">6</container>
             <unittitle>Pontiac First Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [12021465097975184981]">6</container>
             <unittitle>Pontiac Church of the Atonement</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [12021465097975184981]">6</container>
             <unittitle>Pontiac Joslyn Avenue Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [12021465097975184981]">6</container>
             <unittitle>Pontiac Oakland Avenue Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [12021465097975184981]">6</container>
             <unittitle>Port Huron-First Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [12021465097975184981]">6</container>
             <unittitle>Port Huron-Lake Shores United Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [12021465097975184981]">6</container>
             <unittitle>Riverview-Presbyterian Church Rochester-University Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [12021465097975184981]">6</container>
             <unittitle>Roseville-Erin Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [12021465097975184981]">6</container>
             <unittitle>Royal Oak-First Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [12021465097975184981]">6</container>
             <unittitle>Royal Oak-First United Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [12021465097975184981]">6</container>
             <unittitle>Royal Oak-Christ Memorial Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [12021465097975184981]">6</container>
             <unittitle>Saginaw-Countryside United Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [12021465097975184981]">6</container>
             <unittitle>St. Clair Shores-Faith Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [12021465097975184981]">6</container>
             <unittitle>St. Clair Shores-Lake Shore Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [12021465097975184981]">6</container>
             <unittitle>St. Ignace-Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [12021465097975184981]">6</container>
             <unittitle>Shelby-St. Thomas Community Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [12021465097975184981]">6</container>
             <unittitle>Southfield-Northbrook United Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [12021465097975184981]">6</container>
             <unittitle>Southfield-United Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [12021465097975184981]">6</container>
             <unittitle>South Lyon United Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [12021465097975184981]">6</container>
             <unittitle>Taylor Southminster United Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [12021465097975184981]">6</container>
             <unittitle>Trenton United Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [12021465097975184981]">6</container>
             <unittitle>Trout Creek-United Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [12021465097975184981]">6</container>
             <unittitle>Troy-First Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [12021465097975184981]">6</container>
             <unittitle>Troy-Northminster Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [12021465097975184981]">6</container>
             <unittitle>Utica-United Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [12021465097975184981]">6</container>
             <unittitle>Walled Lake-Cross Roads Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [12021465097975184981]">6</container>
             <unittitle>Warren-First Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [12021465097975184981]">6</container>
             <unittitle>Warren-Celtic Cross Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [12021465097975184981]">6</container>
             <unittitle>Warren-St. Luke Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [12021465097975184981]">6</container>
             <unittitle>Waterford-Lakeland United Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [12021465097975184981]">6</container>
             <unittitle>Wayne-First Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [12021465097975184981]">6</container>
             <unittitle>Wayne-Kirk of our Savior Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [12021465097975184981]">6</container>
             <unittitle>White Lake United Presbyterian Church</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [12021465097975184981]">6</container>
             <unittitle>Wyandotte United Presbyterian Church</unittitle>
           </did>
         </c02>
@@ -695,27 +683,26 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [12021465097975184981]">6</container>
             <unittitle>Numbered files</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">7</container>
+            <container type="box" label="Box [39474574814032327779]">7</container>
             <unittitle>Numbered files (cont.)</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">8</container>
+            <container type="box" label="Box [73288759472408568589]">8</container>
             <unittitle>Numbered files (cont.)</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">8</container>
-            <unittitle>Rev. Claude Williams files <unitdate type="inclusive" normal="1943/1954">1943-1954</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [73288759472408568589]">8</container>
+            <unittitle>Rev. Claude Williams files</unittitle><unitdate type="inclusive" normal="1943/1954">1943-1954</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">6 folders</extent>
             </physdesc>
           </did>
@@ -725,7 +712,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">8</container>
+            <container type="box" label="Box [73288759472408568589]">8</container>
             <unittitle>Angela Davis Defense Fund and the church</unittitle>
           </did>
         </c02>
@@ -735,38 +722,38 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">8</container>
+              <container type="box" label="Box [73288759472408568589]">8</container>
               <unittitle>Detroit Industrial Mission</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">8</container>
+              <container type="box" label="Box [73288759472408568589]">8</container>
               <unittitle>Flint Industrial Mission</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
+              <container type="box" label="Box [553303458354838307536691]">9</container>
               <unittitle>Sterling Forest Ministry</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
+              <container type="box" label="Box [553303458354838307536691]">9</container>
               <unittitle>National Committee for Industrial Missions</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">9</container>
+            <container type="box" label="Box [553303458354838307536691]">9</container>
             <unittitle>Sabbatical Study Committee</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">9</container>
+            <container type="box" label="Box [553303458354838307536691]">9</container>
             <unittitle>Planning Committees</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -775,7 +762,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">9</container>
+            <container type="box" label="Box [553303458354838307536691]">9</container>
             <unittitle>Hugh C. White, Jr. (sermons and notes)</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -784,82 +771,77 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">9</container>
-            <unittitle>Matthew Thies (Dodge Community House) <unitdate type="inclusive" normal="1957/1959">1957-1959</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [553303458354838307536691]">9</container>
+            <unittitle>Matthew Thies (Dodge Community House)</unittitle><unitdate type="inclusive" normal="1957/1959">1957-1959</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">9</container>
-            <unittitle>Settlement Extension Service memoranda, Matthew Thies files <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [553303458354838307536691]">9</container>
+            <unittitle>Settlement Extension Service memoranda, Matthew Thies files</unittitle><unitdate type="inclusive" normal="1956">1956</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">10</container>
+            <container type="box" label="Box [0299505146408218256639]">10</container>
             <unittitle>Institute on Church in Corporate Society</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">10</container>
+            <container type="box" label="Box [0299505146408218256639]">10</container>
             <unittitle>Urban missions and ministries and related material</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">10</container>
-            <unittitle>Churches of the presbytery book of statistics <unitdate type="inclusive" normal="1927/1942">1927-1942</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0299505146408218256639]">10</container>
+            <unittitle>Churches of the presbytery book of statistics</unittitle><unitdate type="inclusive" normal="1927/1942">1927-1942</unitdate></did>
           <odd>
             <p>(include data on membership and giving)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">10</container>
+            <container type="box" label="Box [0299505146408218256639]">10</container>
             <unittitle>Michigan church census studies</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">10</container>
+            <container type="box" label="Box [0299505146408218256639]">10</container>
             <unittitle>Historian's files</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">10</container>
-            <unittitle>National Black Economic Development <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0299505146408218256639]">10</container>
+            <unittitle>National Black Economic Development</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">10</container>
+            <container type="box" label="Box [0299505146408218256639]">10</container>
             <unittitle>Presbytery newsletter, "Rejoice"</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">10</container>
+            <container type="box" label="Box [0299505146408218256639]">10</container>
             <unittitle>Scrapbook containing clippings and photographs of churches within the presbytery (unbound)</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">10</container>
-            <unittitle>Scrapbook with clippings concerning the San Antonio meeting of the General Assembly of the United Presbyterian Church <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0299505146408218256639]">10</container>
+            <unittitle>Scrapbook with clippings concerning the San Antonio meeting of the General Assembly of the United Presbyterian Church</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">10</container>
+            <container type="box" label="Box [0299505146408218256639]">10</container>
             <unittitle>Miscellaneous newspaper clippings</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">10</container>
+            <container type="box" label="Box [0299505146408218256639]">10</container>
             <unittitle>Miscellaneous</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
@@ -873,97 +855,63 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">11</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1828/1840">1828-1840</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [9843890742293931709382]">11</container>
+            <unitdate type="inclusive" normal="1828/1840">1828-1840</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">11</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1840/1847">1840-1847</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [9843890742293931709382]">11</container>
+            <unitdate type="inclusive" normal="1840/1847">1840-1847</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">11</container>
-            <unittitle><unitdate type="inclusive" normal="1848/1853">1848-1853</unitdate> (includes lists of churches, ministers, elders, etc., <unitdate type="inclusive" normal="1828/1959" certainty="approximate">circa 1828-1950s</unitdate>)</unittitle>
-          </did>
+            <container type="box" label="Box [9843890742293931709382]">11</container>
+            <unittitle>1848-1853 (includes lists of churches, ministers, elders, etc., circa 1828-1950s)</unittitle><unitdate type="inclusive" normal="1848/1853">1848-1853</unitdate><unitdate type="inclusive" normal="1828/1959" certainty="approximate">circa 1828-1950s</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">11</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1855/1869">1855-1869</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [9843890742293931709382]">11</container>
+            <unitdate type="inclusive" normal="1855/1869">1855-1869</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">12</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1869/1881">1869-1881</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [28843972048376961930871]">12</container>
+            <unitdate type="inclusive" normal="1869/1881">1869-1881</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">12</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1881/1893">1881-1893</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [28843972048376961930871]">12</container>
+            <unitdate type="inclusive" normal="1881/1893">1881-1893</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">12</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1893/1899">1893-1899</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [28843972048376961930871]">12</container>
+            <unitdate type="inclusive" normal="1893/1899">1893-1899</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">12</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1899/1904">1899-1904</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [28843972048376961930871]">12</container>
+            <unitdate type="inclusive" normal="1899/1904">1899-1904</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">12</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1904/1912">1904-1912</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [28843972048376961930871]">12</container>
+            <unitdate type="inclusive" normal="1904/1912">1904-1912</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">13</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1912/1921">1912-1921</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [925644270846406831660097]">13</container>
+            <unitdate type="inclusive" normal="1912/1921">1912-1921</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">13</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1921/1930">1921-1930</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [925644270846406831660097]">13</container>
+            <unitdate type="inclusive" normal="1921/1930">1921-1930</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">13</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1931/1940">1931-1940</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [925644270846406831660097]">13</container>
+            <unitdate type="inclusive" normal="1931/1940">1931-1940</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -972,15 +920,13 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">13</container>
-            <unittitle>Benevolent fund ledger <unitdate type="inclusive" normal="1929/1937">1929-1937</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [925644270846406831660097]">13</container>
+            <unittitle>Benevolent fund ledger</unittitle><unitdate type="inclusive" normal="1929/1937">1929-1937</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">13</container>
-            <unittitle>Record book containing annual statistics for the period <unitdate type="inclusive" normal="1829/1928">1829-1928</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [925644270846406831660097]">13</container>
+            <unittitle>Record book containing annual statistics for the period</unittitle><unitdate type="inclusive" normal="1829/1928">1829-1928</unitdate></did>
         </c02>
       </c01>
     </dsc>

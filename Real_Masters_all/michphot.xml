@@ -24,6 +24,7 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
+    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
@@ -35,10 +36,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Michigan Photographers Society.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/20620">Michigan Photographers Society.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Michigan Photographers Society photographs <unitdate type="inclusive" encodinganalog="245$f" normal="1880/1925" certainty="approximate">circa 1880-1925</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">92531 UBP.3 2; UBP.3m</unitid>
+      <unittitle encodinganalog="245">Michigan Photographers Society photographs</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1880/1925" certainty="approximate">circa 1880-1925</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">92531 UBP.3 2; UBP.3m</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Organization of Michigan photographers; collected copyprints of historical images.</abstract>
       <physdesc altrender="part">
@@ -81,55 +81,55 @@
       </p>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <subject source="lctgm" encodinganalog="650">Agricultural machinery.</subject>
-        <subject source="lctgm" encodinganalog="650">Automobiles.</subject>
-        <subject source="lctgm" encodinganalog="650">Blacksmithing.</subject>
-        <subject source="lctgm" encodinganalog="650">Boat and ship industry.</subject>
-        <subject source="lctgm" encodinganalog="650">Business enterprises.</subject>
-        <subject source="lctgm" encodinganalog="650">Carriage and coaches.</subject>
-        <subject source="lctgm" encodinganalog="650">Carts and wagons.</subject>
-        <geogname source="lcsh" encodinganalog="651">Charlevoix (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80104006.html">Charlotte (Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Construction industry.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539.html">Detroit (Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Dwellings.</subject>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n96085441">Ferris, Woodbridge N., 1853-1928.</persname>
-        <subject source="lctgm" encodinganalog="650">Football.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82166396.html">Flint (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82105515.html">Grand Haven (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Grand Haven (Mich.)--Lifesaving stations.</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82062814.html">Greenville (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n83187817.html">Harbor Springs (Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Health resorts.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81035936.html">Howell (Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Industrial buildings.</subject>
-        <subject source="lctgm" encodinganalog="650">Interiors.</subject>
-        <subject source="lctgm" encodinganalog="650">Laborers.</subject>
-        <geogname source="lcsh" encodinganalog="651">Lansing (Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Lifesaving stations--Michigan--Grand Haven.</subject>
-        <subject source="lctgm" encodinganalog="650">Lumber industry.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n89119049.html">Mancelona (Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Mills.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80060314.html">Mount Clemens (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Muskegon (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85155121.html">North Branch (Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Parades and processions.</subject>
-        <geogname source="lcsh" encodinganalog="651">Pontiac (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n83030021.html">Port Huron (Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Political parades and rallies.</subject>
-        <subject source="lctgm" encodinganalog="650">Railroad accidents.</subject>
-        <subject source="lctgm" encodinganalog="650">Railroad stations.</subject>
-        <subject source="lctgm" encodinganalog="650">Railroads--Michigan.</subject>
-        <subject source="lctgm" encodinganalog="650">Rural schools.</subject>
-        <geogname source="lcsh" encodinganalog="651">Saginaw (Mich.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Sebewaing (Mich.)</geogname>
-        <subject source="lctgm" encodinganalog="650">Ships--Great Lakes.</subject>
-        <geogname source="lctgm" encodinganalog="651">Street-railroads--Michigan.</geogname>
-        <subject source="lctgm" encodinganalog="650">Tornadoes.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3796">Agricultural machinery.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4095">Automobiles.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3600">Blacksmithing.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4022">Boat and ship industry.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4456">Business enterprises.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4882">Carriage and coaches.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4164">Carts and wagons.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1057">Charlevoix (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80104006.html" ref="/subjects/1056">Charlotte (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3641">Construction industry.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539.html" ref="/subjects/933">Detroit (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3944">Dwellings.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n96085441" ref="/agents/people/34446">Ferris, Woodbridge N., 1853-1928.</persname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3612">Football.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82166396.html" ref="/subjects/893">Flint (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82105515.html" ref="/subjects/1100">Grand Haven (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2364">Grand Haven (Mich.)--Lifesaving stations.</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82062814.html" ref="/subjects/1105">Greenville (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n83187817.html" ref="/subjects/1353">Harbor Springs (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4883">Health resorts.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81035936.html" ref="/subjects/1121">Howell (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4006">Industrial buildings.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3639">Interiors.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3615">Laborers.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1140">Lansing (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4884">Lifesaving stations--Michigan--Grand Haven.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3616">Lumber industry.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n89119049.html" ref="/subjects/2365">Mancelona (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4885">Mills.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80060314.html" ref="/subjects/1167">Mount Clemens (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1171">Muskegon (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85155121.html" ref="/subjects/2366">North Branch (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3524">Parades and processions.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1204">Pontiac (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n83030021.html" ref="/subjects/1206">Port Huron (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3548">Political parades and rallies.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3620">Railroad accidents.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4542">Railroad stations.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3789">Railroads--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3757">Rural schools.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1217">Saginaw (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2367">Sebewaing (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3931">Ships--Great Lakes.</subject>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/590">Street-railroads--Michigan.</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4639">Tornadoes.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3137">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -142,8 +142,8 @@
         </odd>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <container type="folder" label="Folder">1</container>
+            <container type="box" label="Box [0592762884087990783291]" id="c82b0d36-bc60-4e37-bfb5-53bdc566f6d1">1</container>
+            <container type="folder" label="Folder" parent="c82b0d36-bc60-4e37-bfb5-53bdc566f6d1">1</container>
             <unittitle>Charlevoix, Mich.; Mancelona, Mich. Area</unittitle>
           </did>
           <odd>
@@ -151,8 +151,7 @@
           </odd>
           <c03 level="item">
             <did>
-              <unittitle>Gov. J.W. Begole visits Charlevoix <unitdate type="inclusive" normal="1884">1884</unitdate></unittitle>
-            </did>
+              <unittitle>Gov. J.W. Begole visits Charlevoix</unittitle><unitdate type="inclusive" normal="1884">1884</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
@@ -175,8 +174,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <container type="folder" label="Folder">2</container>
+            <container type="box" label="Box [0592762884087990783291]" id="c85ca37d-d476-45e4-a2dc-8325bfe94137">1</container>
+            <container type="folder" label="Folder" parent="c85ca37d-d476-45e4-a2dc-8325bfe94137">2</container>
             <unittitle>Flint, Michigan</unittitle>
           </did>
           <odd>
@@ -184,24 +183,21 @@
           </odd>
           <c03 level="item">
             <did>
-              <unittitle>Palace Vaudeville Theatre <unitdate type="inclusive" normal="1920/1929" certainty="approximate">1920s</unitdate></unittitle>
-            </did>
+              <unittitle>Palace Vaudeville Theatre</unittitle><unitdate type="inclusive" normal="1920/1929" certainty="approximate">1920s</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <unittitle>1st annual reunion of old employees of Durant-Dort Carriage Co. <unitdate type="inclusive" normal="1925-08" certainty="approximate">circa August 1925</unitdate>;</unittitle>
-            </did>
+              <unittitle>1st annual reunion of old employees of Durant-Dort Carriage Co. ;</unittitle><unitdate type="inclusive" normal="1925-08" certainty="approximate">circa August 1925</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <unittitle>Western Union messenger boys outside office, Flint <unitdate type="inclusive" normal="1920/1929" certainty="approximate">1920s</unitdate></unittitle>
-            </did>
+              <unittitle>Western Union messenger boys outside office, Flint</unittitle><unitdate type="inclusive" normal="1920/1929" certainty="approximate">1920s</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <container type="folder" label="Folder">3</container>
+            <container type="box" label="Box [0592762884087990783291]" id="d0e4bace-7ebc-4eb5-8340-9cc8906a1c92">1</container>
+            <container type="folder" label="Folder" parent="d0e4bace-7ebc-4eb5-8340-9cc8906a1c92">3</container>
             <unittitle>Grand Haven, Mich.</unittitle>
           </did>
           <odd>
@@ -209,29 +205,25 @@
           </odd>
           <c03 level="file">
             <did>
-              <unittitle>Wholesale Grocery Supply <unitdate type="inclusive" normal="1890" certainty="approximate">circa 1890</unitdate></unittitle>
-            </did>
+              <unittitle>Wholesale Grocery Supply</unittitle><unitdate type="inclusive" normal="1890" certainty="approximate">circa 1890</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Store <unitdate type="inclusive" normal="1890" certainty="approximate">circa 1890</unitdate></unittitle>
-            </did>
+              <unittitle>Store</unittitle><unitdate type="inclusive" normal="1890" certainty="approximate">circa 1890</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Mechanics Ship Yard, on the Grand River <unitdate type="inclusive" normal="1875" certainty="approximate">circa 1875</unitdate></unittitle>
-            </did>
+              <unittitle>Mechanics Ship Yard, on the Grand River</unittitle><unitdate type="inclusive" normal="1875" certainty="approximate">circa 1875</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle>Cutler House, mineral baths, opened <unitdate type="inclusive" normal="1872">1872</unitdate></unittitle>
-            </did>
+              <unittitle>Cutler House, mineral baths, opened</unittitle><unitdate type="inclusive" normal="1872">1872</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <container type="folder" label="Folder">4</container>
+            <container type="box" label="Box [0592762884087990783291]" id="fd148250-6ca1-46e9-82d6-d1b6bb323661">1</container>
+            <container type="folder" label="Folder" parent="fd148250-6ca1-46e9-82d6-d1b6bb323661">4</container>
             <unittitle>Greenville, Mich.</unittitle>
           </did>
           <odd>
@@ -244,18 +236,15 @@
           </c03>
           <c03 level="item">
             <did>
-              <unittitle>Terpsichorean Club dance, Phelps Opera House <unitdate type="inclusive" normal="1908" certainty="approximate">circa 1908</unitdate></unittitle>
-            </did>
+              <unittitle>Terpsichorean Club dance, Phelps Opera House</unittitle><unitdate type="inclusive" normal="1908" certainty="approximate">circa 1908</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <unittitle>Electric lights on the main street <unitdate type="inclusive" normal="1909">1909</unitdate></unittitle>
-            </did>
+              <unittitle>Electric lights on the main street</unittitle><unitdate type="inclusive" normal="1909">1909</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <unittitle>Greenville Fire Dept. <unitdate type="inclusive" normal="1912">1912</unitdate></unittitle>
-            </did>
+              <unittitle>Greenville Fire Dept.</unittitle><unitdate type="inclusive" normal="1912">1912</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
@@ -268,8 +257,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <container type="folder" label="Folder">5</container>
+            <container type="box" label="Box [0592762884087990783291]" id="a92076b7-07fe-4395-9157-5e405d4b1389">1</container>
+            <container type="folder" label="Folder" parent="a92076b7-07fe-4395-9157-5e405d4b1389">5</container>
             <unittitle>Harbor Springs, Mich.</unittitle>
           </did>
           <odd>
@@ -277,23 +266,19 @@
           </odd>
           <c03 level="item">
             <did>
-              <unittitle>Ice tramway at the Knickerbocker Ice Co. <unitdate type="inclusive" normal="1899">1899</unitdate></unittitle>
-            </did>
+              <unittitle>Ice tramway at the Knickerbocker Ice Co.</unittitle><unitdate type="inclusive" normal="1899">1899</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <unittitle>Resorters boating at Harbor Point on Little Traverse Bay <unitdate type="inclusive" normal="1910" certainty="approximate">circa 1910</unitdate></unittitle>
-            </did>
+              <unittitle>Resorters boating at Harbor Point on Little Traverse Bay</unittitle><unitdate type="inclusive" normal="1910" certainty="approximate">circa 1910</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <unittitle>Young Ottawa Indian inducted into the tribe before Chief Pipi-qua (Fred Ettawageshik) <unitdate type="inclusive" normal="1946">1946</unitdate></unittitle>
-            </did>
+              <unittitle>Young Ottawa Indian inducted into the tribe before Chief Pipi-qua (Fred Ettawageshik)</unittitle><unitdate type="inclusive" normal="1946">1946</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <unittitle>Ottawas cutting wood for the "Fathers" of Holy Childhood Church and School <unitdate type="inclusive" normal="1900">1900</unitdate></unittitle>
-            </did>
+              <unittitle>Ottawas cutting wood for the "Fathers" of Holy Childhood Church and School</unittitle><unitdate type="inclusive" normal="1900">1900</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
@@ -306,8 +291,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <container type="folder" label="Folder">6</container>
+            <container type="box" label="Box [0592762884087990783291]" id="ab6e917a-93cd-44c1-844f-fec5b83a6526">1</container>
+            <container type="folder" label="Folder" parent="ab6e917a-93cd-44c1-844f-fec5b83a6526">6</container>
             <unittitle>Howell, Michigan</unittitle>
           </did>
           <odd>
@@ -330,13 +315,11 @@
           </c03>
           <c03 level="item">
             <did>
-              <unittitle>Early football action shot, the Howell High School team <unitdate type="inclusive" normal="1912" certainty="approximate">circa 1912</unitdate></unittitle>
-            </did>
+              <unittitle>Early football action shot, the Howell High School team</unittitle><unitdate type="inclusive" normal="1912" certainty="approximate">circa 1912</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <unittitle>Old steam-powered sawmill <unitdate type="inclusive" normal="1890/1899" certainty="approximate">1890s</unitdate></unittitle>
-            </did>
+              <unittitle>Old steam-powered sawmill</unittitle><unitdate type="inclusive" normal="1890/1899" certainty="approximate">1890s</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
@@ -356,8 +339,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <container type="folder" label="Folder">7</container>
+            <container type="box" label="Box [0592762884087990783291]" id="a54217c7-f577-4fbe-be0a-697f1af1a511">1</container>
+            <container type="folder" label="Folder" parent="a54217c7-f577-4fbe-be0a-697f1af1a511">7</container>
             <unittitle>Howell, Michigan</unittitle>
           </did>
           <odd>
@@ -380,8 +363,7 @@
           </c03>
           <c03 level="item">
             <did>
-              <unittitle>The old grist mill, at this time, after <unitdate type="inclusive" normal="1900">1900</unitdate> owned by A. O. Hoyland</unittitle>
-            </did>
+              <unittitle>The old grist mill, at this time, after  owned by A. O. Hoy</unittitle><unitdate type="inclusive" normal="1900">1900</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
@@ -395,14 +377,13 @@
           </c03>
           <c03 level="item">
             <did>
-              <unittitle>Autos from Lansing and points between parked on Howell's main street as part of the celebration as the Wolverine Paved Way-a brick road from Detroit to Lansing--neared completion <unitdate type="inclusive" normal="1915">1915</unitdate></unittitle>
-            </did>
+              <unittitle>Autos from Lansing and points between parked on Howell's main street as part of the celebration as the Wolverine Paved Way-a brick road from Detroit to Lansing--neared completion</unittitle><unitdate type="inclusive" normal="1915">1915</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <container type="folder" label="Folder">8</container>
+            <container type="box" label="Box [0592762884087990783291]" id="57046291-0819-417f-bc02-6889458147ce">1</container>
+            <container type="folder" label="Folder" parent="57046291-0819-417f-bc02-6889458147ce">8</container>
             <unittitle>Miscellaneous towns</unittitle>
           </did>
           <odd>
@@ -420,29 +401,25 @@
           </c03>
           <c03 level="item">
             <did>
-              <unittitle>Ferry, Detroit <unitdate type="inclusive" normal="1912" certainty="approximate">circa 1912</unitdate></unittitle>
-            </did>
+              <unittitle>Ferry, Detroit</unittitle><unitdate type="inclusive" normal="1912" certainty="approximate">circa 1912</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <unittitle>Saginaw St., Flint, Mich. <unitdate type="inclusive" normal="1890" certainty="approximate">circa 1890</unitdate></unittitle>
-            </did>
+              <unittitle>Saginaw St., Flint, Mich.</unittitle><unitdate type="inclusive" normal="1890" certainty="approximate">circa 1890</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <unittitle>Pere Marquette depot and train, Howell, Mich. <unitdate type="inclusive" normal="1915" certainty="approximate">circa 1915</unitdate></unittitle>
-            </did>
+              <unittitle>Pere Marquette depot and train, Howell, Mich.</unittitle><unitdate type="inclusive" normal="1915" certainty="approximate">circa 1915</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <unittitle>Lansing street scene with Capitol in distance <unitdate type="inclusive" normal="1880" certainty="approximate">circa 1880</unitdate></unittitle>
-            </did>
+              <unittitle>Lansing street scene with Capitol in distance</unittitle><unitdate type="inclusive" normal="1880" certainty="approximate">circa 1880</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <container type="folder" label="Folder">9</container>
+            <container type="box" label="Box [0592762884087990783291]" id="ea4d60c4-491e-4431-a032-45b4bdca1af2">1</container>
+            <container type="folder" label="Folder" parent="ea4d60c4-491e-4431-a032-45b4bdca1af2">9</container>
             <unittitle>Miscellaneous lumbering photos, unidentified localities</unittitle>
           </did>
           <odd>
@@ -455,49 +432,41 @@
           </c03>
           <c03 level="item">
             <did>
-              <unittitle>The Big Wheels with loads <unitdate type="inclusive" normal="1800/1809" certainty="approximate">1800s</unitdate></unittitle>
-            </did>
+              <unittitle>The Big Wheels with loads</unittitle><unitdate type="inclusive" normal="1800/1809" certainty="approximate">1800s</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <unittitle>Saw mill at rail head <unitdate type="inclusive" normal="1800/1809" certainty="approximate">1800s</unitdate></unittitle>
-            </did>
+              <unittitle>Saw mill at rail head</unittitle><unitdate type="inclusive" normal="1800/1809" certainty="approximate">1800s</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <unittitle>Floating restaurant for loggers <unitdate type="inclusive" normal="1800/1809" certainty="approximate">1800s</unitdate></unittitle>
-            </did>
+              <unittitle>Floating restaurant for loggers</unittitle><unitdate type="inclusive" normal="1800/1809" certainty="approximate">1800s</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <unittitle>Big Wheels with horses and oxen <unitdate type="inclusive" normal="1800/1809" certainty="approximate">1800s</unitdate></unittitle>
-            </did>
+              <unittitle>Big Wheels with horses and oxen</unittitle><unitdate type="inclusive" normal="1800/1809" certainty="approximate">1800s</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <unittitle>River dogs <unitdate type="inclusive" normal="1800/1809" certainty="approximate">1800s</unitdate></unittitle>
-            </did>
+              <unittitle>River dogs</unittitle><unitdate type="inclusive" normal="1800/1809" certainty="approximate">1800s</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <unittitle>Log bridge and crew <unitdate type="inclusive" normal="1800/1809" certainty="approximate">1800s</unitdate></unittitle>
-            </did>
+              <unittitle>Log bridge and crew</unittitle><unitdate type="inclusive" normal="1800/1809" certainty="approximate">1800s</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <unittitle>The "Big Wheels" <unitdate type="inclusive" normal="1800/1809" certainty="approximate">1800s</unitdate></unittitle>
-            </did>
+              <unittitle>The "Big Wheels"</unittitle><unitdate type="inclusive" normal="1800/1809" certainty="approximate">1800s</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <unittitle>Railhead spur; <unitdate type="inclusive" normal="1800/1809" certainty="approximate">1800s</unitdate></unittitle>
-            </did>
+              <unittitle>Railhead spur;</unittitle><unitdate type="inclusive" normal="1800/1809" certainty="approximate">1800s</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <container type="folder" label="Folder">10</container>
+            <container type="box" label="Box [0592762884087990783291]" id="d0325250-ff43-48da-82ce-b817ea960f7e">1</container>
+            <container type="folder" label="Folder" parent="d0325250-ff43-48da-82ce-b817ea960f7e">10</container>
             <unittitle>Mount Clemens, Mich.</unittitle>
           </did>
           <odd>
@@ -505,13 +474,11 @@
           </odd>
           <c03 level="item">
             <did>
-              <unittitle>Map of Mount Clemens <unitdate type="inclusive" normal="1875">1875</unitdate></unittitle>
-            </did>
+              <unittitle>Map of Mount Clemens</unittitle><unitdate type="inclusive" normal="1875">1875</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <unittitle>Drawing of Macomb County Court House, Mount Clemens <unitdate type="inclusive" normal="1840/1880">1840-1880</unitdate></unittitle>
-            </did>
+              <unittitle>Drawing of Macomb County Court House, Mount Clemens</unittitle><unitdate type="inclusive" normal="1840/1880">1840-1880</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
@@ -520,8 +487,7 @@
           </c03>
           <c03 level="item">
             <did>
-              <unittitle>Clinton River transportation-sailing and steam boats that brought freight from other nearby ports. <unitdate type="inclusive" normal="1870/1920">1870-1920</unitdate></unittitle>
-            </did>
+              <unittitle>Clinton River transportation-sailing and steam boats that brought freight from other nearby ports.</unittitle><unitdate type="inclusive" normal="1870/1920">1870-1920</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
@@ -556,8 +522,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <container type="folder" label="Folder">11</container>
+            <container type="box" label="Box [0592762884087990783291]" id="5647b96d-f294-49f2-aa95-0d688aff8f81">1</container>
+            <container type="folder" label="Folder" parent="5647b96d-f294-49f2-aa95-0d688aff8f81">11</container>
             <unittitle>Mount Clemens, Mich.</unittitle>
           </did>
           <odd>
@@ -565,13 +531,11 @@
           </odd>
           <c03 level="item">
             <did>
-              <unittitle>Macomb County Court House (1880-1929), early <unitdate type="inclusive" normal="1900/1909" certainty="approximate">1900s</unitdate></unittitle>
-            </did>
+              <unittitle>Macomb County Court House (1880-1929), early</unittitle><unitdate type="inclusive" normal="1900/1909" certainty="approximate">1900s</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <unittitle>Downtown Mount Clemens <unitdate type="inclusive" normal="1890">1890</unitdate></unittitle>
-            </did>
+              <unittitle>Downtown Mount Clemens</unittitle><unitdate type="inclusive" normal="1890">1890</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
@@ -585,8 +549,7 @@
           </c03>
           <c03 level="item">
             <did>
-              <unittitle>Mount Clemens Hunting and Fishing Club, located on Lake St. Clair off the mouth of the Clinton River, before <unitdate type="inclusive" normal="1900">1900</unitdate></unittitle>
-            </did>
+              <unittitle>Mount Clemens Hunting and Fishing Club, located on Lake St. Clair off the mouth of the Clinton River, before</unittitle><unitdate type="inclusive" normal="1900">1900</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
@@ -595,29 +558,25 @@
           </c03>
           <c03 level="item">
             <did>
-              <unittitle>Cyclone hits Mount Clemens <unitdate type="inclusive" normal="1896-05-25">May 25, 1896</unitdate></unittitle>
-            </did>
+              <unittitle>Cyclone hits Mount Clemens</unittitle><unitdate type="inclusive" normal="1896-05-25">May 25, 1896</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <unittitle>Mount Clemens first mineral bath house <unitdate type="inclusive" normal="1890" certainty="approximate">circa 1890</unitdate></unittitle>
-            </did>
+              <unittitle>Mount Clemens first mineral bath house</unittitle><unitdate type="inclusive" normal="1890" certainty="approximate">circa 1890</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <unittitle>St. Joseph Sanitarium under construction <unitdate type="inclusive" normal="1899">1899</unitdate> mineral bath house</unittitle>
-            </did>
+              <unittitle>St. Joseph Sanitarium under construction  mineral bath house</unittitle><unitdate type="inclusive" normal="1899">1899</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <unittitle>Amusement park <unitdate type="inclusive" normal="1905">1905</unitdate></unittitle>
-            </did>
+              <unittitle>Amusement park</unittitle><unitdate type="inclusive" normal="1905">1905</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <container type="folder" label="Folder">12</container>
+            <container type="box" label="Box [0592762884087990783291]" id="5ed5804e-0d33-4cbc-89db-cd198cd1eb31">1</container>
+            <container type="folder" label="Folder" parent="5ed5804e-0d33-4cbc-89db-cd198cd1eb31">12</container>
             <unittitle>Muskegon, Michigan</unittitle>
           </did>
           <odd>
@@ -625,23 +584,19 @@
           </odd>
           <c03 level="item">
             <did>
-              <unittitle>Brinman Lumber Mill <unitdate type="inclusive" normal="1889">1889</unitdate></unittitle>
-            </did>
+              <unittitle>Brinman Lumber Mill</unittitle><unitdate type="inclusive" normal="1889">1889</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <unittitle>Log rolling on Muskegon Lake <unitdate type="inclusive" normal="1887" certainty="approximate">circa 1887</unitdate></unittitle>
-            </did>
+              <unittitle>Log rolling on Muskegon Lake</unittitle><unitdate type="inclusive" normal="1887" certainty="approximate">circa 1887</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <unittitle>Lumber men's homes <unitdate type="inclusive" normal="1889">1889</unitdate></unittitle>
-            </did>
+              <unittitle>Lumber men's homes</unittitle><unitdate type="inclusive" normal="1889">1889</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <unittitle>Street car riot ? <unitdate type="inclusive" normal="1918">1918</unitdate></unittitle>
-            </did>
+              <unittitle>Street car riot ?</unittitle><unitdate type="inclusive" normal="1918">1918</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
@@ -650,8 +605,7 @@
           </c03>
           <c03 level="item">
             <did>
-              <unittitle>Western Avenue <unitdate type="inclusive" normal="1889">1889</unitdate></unittitle>
-            </did>
+              <unittitle>Western Avenue</unittitle><unitdate type="inclusive" normal="1889">1889</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
@@ -676,8 +630,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <container type="folder" label="Folder">13</container>
+            <container type="box" label="Box [0592762884087990783291]" id="ef87720b-099c-47d6-8a70-c004de8b93eb">1</container>
+            <container type="folder" label="Folder" parent="ef87720b-099c-47d6-8a70-c004de8b93eb">13</container>
             <unittitle>North Branch, Mich.</unittitle>
           </did>
           <odd>
@@ -694,8 +648,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <container type="folder" label="Folder">14</container>
+            <container type="box" label="Box [0592762884087990783291]" id="b59f6255-03ad-4f85-b833-061cd0027ab7">1</container>
+            <container type="folder" label="Folder" parent="b59f6255-03ad-4f85-b833-061cd0027ab7">14</container>
             <unittitle>Pontiac, Mich.</unittitle>
           </did>
           <odd>
@@ -719,8 +673,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <container type="folder" label="Folder">15</container>
+            <container type="box" label="Box [0592762884087990783291]" id="5dbfda8d-fc48-4aa0-8b6a-642c9582f1de">1</container>
+            <container type="folder" label="Folder" parent="5dbfda8d-fc48-4aa0-8b6a-642c9582f1de">15</container>
             <unittitle>Port Huron, Mich.</unittitle>
           </did>
           <odd>
@@ -754,8 +708,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <container type="folder" label="Folder">16</container>
+            <container type="box" label="Box [0592762884087990783291]" id="9f59d33b-754d-45bc-a696-9daf5263ad02">1</container>
+            <container type="folder" label="Folder" parent="9f59d33b-754d-45bc-a696-9daf5263ad02">16</container>
             <unittitle>Saginaw, Michigan</unittitle>
           </did>
           <odd>
@@ -772,8 +726,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <container type="folder" label="Folder">17</container>
+            <container type="box" label="Box [0592762884087990783291]" id="369f1154-895d-4adb-be8b-ecc074fd7656">1</container>
+            <container type="folder" label="Folder" parent="369f1154-895d-4adb-be8b-ecc074fd7656">17</container>
             <unittitle>Sebewaing, Mich.</unittitle>
           </did>
           <odd>
@@ -781,13 +735,11 @@
           </odd>
           <c03 level="item">
             <did>
-              <unittitle>Downtown Sebewaing, early <unitdate type="inclusive" normal="1900/1909" certainty="approximate">1900s</unitdate></unittitle>
-            </did>
+              <unittitle>Downtown Sebewaing, early</unittitle><unitdate type="inclusive" normal="1900/1909" certainty="approximate">1900s</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <unittitle>Logging near Sebewaing, early <unitdate type="inclusive" normal="1900/1909" certainty="approximate">1900s</unitdate></unittitle>
-            </did>
+              <unittitle>Logging near Sebewaing, early</unittitle><unitdate type="inclusive" normal="1900/1909" certainty="approximate">1900s</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
@@ -796,18 +748,15 @@
           </c03>
           <c03 level="item">
             <did>
-              <unittitle>Sebewaing, early <unitdate type="inclusive" normal="1900/1909" certainty="approximate">1900s</unitdate> farming</unittitle>
-            </did>
+              <unittitle>Sebewaing, early  farming</unittitle><unitdate type="inclusive" normal="1900/1909" certainty="approximate">1900s</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <unittitle>Sebewaing area, early <unitdate type="inclusive" normal="1900/1909" certainty="approximate">1900s</unitdate></unittitle>
-            </did>
+              <unittitle>Sebewaing area, early</unittitle><unitdate type="inclusive" normal="1900/1909" certainty="approximate">1900s</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <unittitle>Bach cider and wine press mill <unitdate type="inclusive" normal="1914">1914</unitdate></unittitle>
-            </did>
+              <unittitle>Bach cider and wine press mill</unittitle><unitdate type="inclusive" normal="1914">1914</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -819,9 +768,8 @@
           </odd>
           <c03 level="file">
             <did>
-              <container type="folder" label="Oversize Folder">1</container>
-              <unittitle>Addison Herrington Family, about <unitdate type="inclusive" normal="1902">1902</unitdate></unittitle>
-            </did>
+              <container type="folder" label="Oversize Folder [86784324489773051246]">1</container>
+              <unittitle>Addison Herrington Family, about</unittitle><unitdate type="inclusive" normal="1902">1902</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -833,9 +781,8 @@
           </odd>
           <c03 level="file">
             <did>
-              <container type="folder" label="Oversize Folder">1</container>
-              <unittitle>Boy sitting on bank of Muskegon River <unitdate type="inclusive" normal="1900" certainty="approximate">circa 1900</unitdate></unittitle>
-            </did>
+              <container type="folder" label="Oversize Folder [86784324489773051246]">1</container>
+              <unittitle>Boy sitting on bank of Muskegon River</unittitle><unitdate type="inclusive" normal="1900" certainty="approximate">circa 1900</unitdate></did>
           </c03>
         </c02>
       </c01>

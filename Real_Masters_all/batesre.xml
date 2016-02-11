@@ -24,6 +24,7 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
+    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
@@ -35,10 +36,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Bates Real Estate (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/19999">Bates Real Estate (Ann Arbor, Mich.)</corpname>
       </origination>
-      <unittitle encodinganalog="245">Bates Real Estate (Ann Arbor, Mich.) records <unitdate type="inclusive" encodinganalog="245$f" normal="1955/1980" certainty="approximate">circa 1955-1980</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">9524 Bb.2 2</unitid>
+      <unittitle encodinganalog="245">Bates Real Estate (Ann Arbor, Mich.) records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1955/1980" certainty="approximate">circa 1955-1980</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">9524 Bb.2 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Ann Arbor, Michigan, real estate business. Information card file of homes for sale, including price, details about the house and the property, and photograph of the house.</abstract>
       <physdesc altrender="whole">
@@ -78,20 +78,20 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Bates Real Estate.</corpname>
-        <geogname source="lcsh" encodinganalog="651">Ann Arbor (Mich.)--Commerce.</geogname>
-        <subject source="lcsh" encodinganalog="650">Architecture, Domestic--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Real estate business--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20432">Bates Real Estate.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1018">Ann Arbor (Mich.)--Commerce.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6180">Architecture, Domestic--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6181">Real estate business--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname source="lcnaf" encodinganalog="610">Bates Real Estate.</corpname>
-        <geogname source="lctgm" encodinganalog="651">Ann Arbor (Mich.)--Dwellings.</geogname>
-        <subject source="lctgm" encodinganalog="650">Dwellings--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20432">Bates Real Estate.</corpname>
+        <geogname source="lctgm" encodinganalog="651" ref="/subjects/207">Ann Arbor (Mich.)--Dwellings.</geogname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3522">Dwellings--Michigan--Ann Arbor.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3137">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -104,61 +104,61 @@
         </odd>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [07749147494147950846076]">1</container>
             <unittitle>Abbott-Boyce</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">2</container>
+            <container type="box" label="Box [5813117474488857278537]">2</container>
             <unittitle>Braeside-Cloverlawn</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">3</container>
+            <container type="box" label="Box [12524842449740351415]">3</container>
             <unittitle>Coler-Elmwood</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">4</container>
+            <container type="box" label="Box [946370541857606370141]">4</container>
             <unittitle>Encore-Gross</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [79713402862479779]">5</container>
             <unittitle>Haab-Kuehnle</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [1286141814186790514080]">6</container>
             <unittitle>Lafayette-Miller</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">7</container>
+            <container type="box" label="Box [229550045349862977038]">7</container>
             <unittitle>Miner-Plymouth</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">8</container>
+            <container type="box" label="Box [7034811614962956444391]">8</container>
             <unittitle>Pomona-Starwich</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">9</container>
+            <container type="box" label="Box [964846904296212498437]">9</container>
             <unittitle>State-Wellington</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">10</container>
+            <container type="box" label="Box [9190424691603808662]">10</container>
             <unittitle>Wells-Zukey Lake</unittitle>
           </did>
         </c02>

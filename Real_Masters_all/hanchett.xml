@@ -24,6 +24,7 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
+    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Hanchett, Benjamin Sawtell, 1868-1933.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/29344">Hanchett, Benjamin Sawtell, 1868-1933.</persname>
       </origination>
-      <unittitle encodinganalog="245">Benjamin Sawtell Hanchett Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1858">1858</unitdate>, <unitdate type="inclusive" encodinganalog="245$f" normal="1888/1958">1888-1958</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1888/1931">1888-1931</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851397 Aa 2</unitid>
+      <unittitle encodinganalog="245">Benjamin Sawtell Hanchett Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1858">1858</unitdate><unitdate type="inclusive" encodinganalog="245$f" normal="1888/1958">1888-1958</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1888/1931">1888-1931</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851397 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Correspondence relating to politics and his activities as regent of the University of Michigan; also material concerning the depression and impact of the New Deal on agriculture in Michigan.</abstract>
       <physdesc altrender="whole">
@@ -79,33 +79,33 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Agriculture--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Depressions--1929--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Farmers--Michigan--Grand Rapids.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79133151.html">Grand Rapids (Mich.)</geogname>
-        <subject source="lcsh" encodinganalog="650">New Deal, 1933-1939--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Railroads--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998">University of Michigan. Board of Regents.</corpname>
-        <geogname source="lcsh" encodinganalog="651">United States--Politics and government--1901-1953.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. President.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Grand Rapids Railway Company.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6058">Agriculture--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5966">Depressions--1929--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8128">Farmers--Michigan--Grand Rapids.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79133151.html" ref="/subjects/1102">Grand Rapids (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5967">New Deal, 1933-1939--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6705">Railroads--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998" ref="/agents/corporate_entities/18212">University of Michigan. Board of Regents.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1633">United States--Politics and government--1901-1953.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19760">University of Michigan. President.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/23124">Grand Rapids Railway Company.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88650119">Burton, Marion Le Roy, 1874-1925.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50043492">Coolidge, Calvin, 1872-1933.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008183293">Green, Fred W. (Fred Warren), 1872-1936.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008187813">Groesbeck, Alexander J. (Alexander Joseph), 1873-1953.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50023001">Harding, Warren G. (Warren Gamaliel), 1865-1923.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008189047">Mapes, Carl Edgar, 1874-1939.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n89103733">New, Harry S. (Harry Stewart), 1858-1937.</persname>
-        <persname source="lcnaf" encodinganalog="700">Osborn, Chase S. (Chase Salmon), b. 1860.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008188960">Townsend, Charles E. (Charles Elroy), 1856-1924.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2009002479">Tuttle, Arthur J., 1868-1944.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88022440">Warner, Frederick Maltby, 1865-1923.</persname>
-        <persname source="lcnaf" encodinganalog="700">Weeks, John W.</persname>
-        <persname source="lcnaf" encodinganalog="700">Hays, Will H. (Will Harrison), 1879-1954.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50016436">Smith, Alfred Emanuel, 1873-1944.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88650119" ref="/agents/people/34362">Burton, Marion Le Roy, 1874-1925.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50043492" ref="/agents/people/32262">Coolidge, Calvin, 1872-1933.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008183293" ref="/agents/people/29195">Green, Fred W. (Fred Warren), 1872-1936.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008187813" ref="/agents/people/27833">Groesbeck, Alexander J. (Alexander Joseph), 1873-1953.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50023001" ref="/agents/people/33259">Harding, Warren G. (Warren Gamaliel), 1865-1923.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008189047" ref="/agents/people/31954">Mapes, Carl Edgar, 1874-1939.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n89103733" ref="/agents/people/33005">New, Harry S. (Harry Stewart), 1858-1937.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29580">Osborn, Chase S. (Chase Salmon), b. 1860.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008188960" ref="/agents/people/30634">Townsend, Charles E. (Charles Elroy), 1856-1924.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2009002479" ref="/agents/people/30733">Tuttle, Arthur J., 1868-1944.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88022440" ref="/agents/people/28278">Warner, Frederick Maltby, 1865-1923.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/31149">Weeks, John W.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/29876">Hays, Will H. (Will Harrison), 1879-1954.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50016436" ref="/agents/people/34185">Smith, Alfred Emanuel, 1873-1944.</persname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -115,32 +115,24 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1888/1922">1888-1922</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [405196362454918415819]">1</container>
+            <unitdate type="inclusive" normal="1888/1922">1888-1922</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">41 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1923/1931">1923-1931</unitdate>
-              <unitdate type="inclusive">undated</unitdate>
-            </unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [95235488194774787526]">2</container>
+            <unitdate type="inclusive" normal="1923/1931">1923-1931</unitdate><unitdate type="inclusive">undated</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">30 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">2</container>
-            <unittitle>Family correspondence <unitdate type="inclusive" normal="1858">1858</unitdate>, <unitdate type="inclusive" normal="1935/1958">1935-1958</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [95235488194774787526]">2</container>
+            <unittitle>Family correspondence</unittitle><unitdate type="inclusive" normal="1858">1858</unitdate><unitdate type="inclusive" normal="1935/1958">1935-1958</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -152,37 +144,37 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">2</container>
+            <container type="box" label="Box [95235488194774787526]">2</container>
             <unittitle>Young Men's Christian Association</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">2</container>
+            <container type="box" label="Box [95235488194774787526]">2</container>
             <unittitle>Grand Rapids Country Club</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">2</container>
+            <container type="box" label="Box [95235488194774787526]">2</container>
             <unittitle>Market Administration, National Recovery Administration, etc.</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">2</container>
+            <container type="box" label="Box [95235488194774787526]">2</container>
             <unittitle>War Food Administration, Commodity Price Corporation</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">2</container>
+            <container type="box" label="Box [95235488194774787526]">2</container>
             <unittitle>Code Authority, Wheat Flour Milling Industry</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">3</container>
+            <container type="box" label="Box [333166704483944524522135]">3</container>
             <unittitle>Indentures, and miscellaneous legal and financial materials</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">13 folders</extent>
@@ -191,13 +183,13 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">3</container>
+            <container type="box" label="Box [333166704483944524522135]">3</container>
             <unittitle>Newspaper clippings</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">3</container>
+            <container type="box" label="Box [333166704483944524522135]">3</container>
             <unittitle>Printed miscellanea</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -206,36 +198,34 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">3</container>
+            <container type="box" label="Box [333166704483944524522135]">3</container>
             <unittitle>Jenison family miscellanea</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">3</container>
+            <container type="box" label="Box [333166704483944524522135]">3</container>
             <unittitle>Miscellanea (largely University of Michigan related</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">3</container>
+            <container type="box" label="Box [333166704483944524522135]">3</container>
             <unittitle>Photographs (mainly unidentified)</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">3</container>
-            <unittitle>Letterbooks containing copies of letters to employees (of Grand Rapids Railway Co.), other business communications, etc. <unitdate type="inclusive" normal="1892/1895">1892-1895</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [333166704483944524522135]">3</container>
+            <unittitle>Letterbooks containing copies of letters to employees (of Grand Rapids Railway Co.), other business communications, etc.</unittitle><unitdate type="inclusive" normal="1892/1895">1892-1895</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">3</container>
-            <unittitle>Letterbook containing copies of letters (mainly non-business) <unitdate type="inclusive" normal="1893/1897">1893-1897</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [333166704483944524522135]">3</container>
+            <unittitle>Letterbook containing copies of letters (mainly non-business)</unittitle><unitdate type="inclusive" normal="1893/1897">1893-1897</unitdate></did>
         </c02>
       </c01>
     </dsc>

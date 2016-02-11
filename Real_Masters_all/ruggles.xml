@@ -24,6 +24,7 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
+    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
@@ -35,10 +36,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Ruggles &amp; Rademaker.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/22817">Ruggles &amp; Rademaker.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Ruggles &amp; Rademaker records <unitdate type="inclusive" encodinganalog="245$f" normal="1868/1931">1868-1931</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85639 Bb.2/2</unitid>
+      <unittitle encodinganalog="245">Ruggles &amp; Rademaker records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1868/1931">1868-1931</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85639 Bb.2/2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Records of the Ruggles &amp; Rademaker of Manistee, Michigan, and of the predecessor land and lumber enterprises of Charles Ruggles and Edward Buckley, including the Buckley and Douglas Lumber Co., the Manistee and Northeastern Railroad, and the Emeline Bath Co. of Chicago, Ill. Financial records and business correspondence of Edward Buckley, Charles Ruggles, and John Rademaker; also files concerning lawsuit between Ruggles and Buckley.</abstract>
       <repository>
@@ -89,21 +89,21 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Baths.</subject>
-        <persname source="lcnaf" encodinganalog="600">Buckley, Edward, b. 1842.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Buckley &amp; Douglas Lumber Company.</corpname>
-        <subject source="lcsh" encodinganalog="650">Business records.</subject>
-        <geogname source="local" encodinganalog="691">Chicago (Ill.)--Businesses.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Emeline Bath Company (Chicago, Ill.)</corpname>
-        <subject source="lcsh" encodinganalog="650">Logging--Michigan--Manistee.</subject>
-        <subject source="lcsh" encodinganalog="650">Lumbering--Michigan--Manistee.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Manistee and Northeastern Railroad.</corpname>
-        <geogname source="lcsh" encodinganalog="651">Manistee (Mich.)--Economic conditions.</geogname>
-        <persname source="lcnaf" encodinganalog="600">Rademaker, John.</persname>
-        <subject source="lcsh" encodinganalog="650">Railroads--Michigan.</subject>
-        <persname source="lcnaf" encodinganalog="600">Ruggles, Charles, 1846-1930.</persname>
-        <subject source="lcsh" encodinganalog="650">Salt industry and trade--Michigan--Manistee.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Ruggles &amp; Rademaker.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9952">Baths.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32658">Buckley, Edward, b. 1842.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20894">Buckley &amp; Douglas Lumber Company.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5809">Business records.</subject>
+        <geogname source="local" encodinganalog="691" ref="/subjects/842">Chicago (Ill.)--Businesses.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19957">Emeline Bath Company (Chicago, Ill.)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9953">Logging--Michigan--Manistee.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9954">Lumbering--Michigan--Manistee.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21699">Manistee and Northeastern Railroad.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2767">Manistee (Mich.)--Economic conditions.</geogname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34659">Rademaker, John.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6705">Railroads--Michigan.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/34971">Ruggles, Charles, 1846-1930.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9955">Salt industry and trade--Michigan--Manistee.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22817">Ruggles &amp; Rademaker.</corpname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -117,15 +117,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">6</container>
-              <unittitle>Balance sheets <unitdate type="inclusive" normal="1892/1921">1892-1921</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [213492149431548732]">6</container>
+              <unittitle>Balance sheets</unittitle><unitdate type="inclusive" normal="1892/1921">1892-1921</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">6</container>
-              <unittitle>Board of Directors minutes <unitdate type="inclusive" normal="1892/1922">1892-1922</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [213492149431548732]">6</container>
+              <unittitle>Board of Directors minutes</unittitle><unitdate type="inclusive" normal="1892/1922">1892-1922</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -134,207 +132,180 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">6</container>
-              <unittitle>Board of Directors minutes <unitdate type="inclusive" normal="1887/1919">1887-1919</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [213492149431548732]">6</container>
+              <unittitle>Board of Directors minutes</unittitle><unitdate type="inclusive" normal="1887/1919">1887-1919</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">6</container>
-              <unittitle>Miscellaneous papers <unitdate type="inclusive" normal="1887/1919">1887-1919</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [213492149431548732]">6</container>
+              <unittitle>Miscellaneous papers</unittitle><unitdate type="inclusive" normal="1887/1919">1887-1919</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">7</container>
-            <unittitle>Trial Balances of Edward Buckley's books <unitdate type="inclusive" normal="1881/1903">1881-1903</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [2597852492448015929322]">7</container>
+            <unittitle>Trial Balances of Edward Buckley's books</unittitle><unitdate type="inclusive" normal="1881/1903">1881-1903</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">7</container>
-            <unittitle>Trial Balance <unitdate type="inclusive" normal="1875">1875</unitdate> (unidentified)</unittitle>
-          </did>
+            <container type="box" label="Box [2597852492448015929322]">7</container>
+            <unittitle>Trial Balance  (unidentified)</unittitle><unitdate type="inclusive" normal="1875">1875</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">7</container>
-            <unittitle>Balance sheets of Charles Ruggles <unitdate type="inclusive" normal="1869/1879">1869-1879</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [2597852492448015929322]">7</container>
+            <unittitle>Balance sheets of Charles Ruggles</unittitle><unitdate type="inclusive" normal="1869/1879">1869-1879</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">7</container>
-            <unittitle>Trial Balance of Charles Ruggles <unitdate type="inclusive" normal="1882">1882</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [2597852492448015929322]">7</container>
+            <unittitle>Trial Balance of Charles Ruggles</unittitle><unitdate type="inclusive" normal="1882">1882</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">7</container>
-            <unittitle>Edward Buckley inventories <unitdate type="inclusive" normal="1899/1903">1899-1903</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [2597852492448015929322]">7</container>
+            <unittitle>Edward Buckley inventories</unittitle><unitdate type="inclusive" normal="1899/1903">1899-1903</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">7</container>
-            <unittitle>Consolidated Speculation Record <unitdate type="inclusive" normal="1878/1879">1878-1879</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [2597852492448015929322]">7</container>
+            <unittitle>Consolidated Speculation Record</unittitle><unitdate type="inclusive" normal="1878/1879">1878-1879</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">7</container>
+            <container type="box" label="Box [2597852492448015929322]">7</container>
             <unittitle>Papers concerning the Chicago and Manistee bath houses</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">7</container>
-            <unittitle>Camp operations records <unitdate type="inclusive" normal="1896/1907">1896-1907</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [2597852492448015929322]">7</container>
+            <unittitle>Camp operations records</unittitle><unitdate type="inclusive" normal="1896/1907">1896-1907</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">10</container>
-            <unittitle>Estimators Field Notes, Lower Peninsula <unitdate type="inclusive" normal="1868/1877">1868-1877</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [43658704888000424695428]">10</container>
+            <unittitle>Estimators Field Notes, Lower Peninsula</unittitle><unitdate type="inclusive" normal="1868/1877">1868-1877</unitdate></did>
           <odd>
             <p>(see outsize material for index)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">10</container>
-            <unittitle>Estimators Field Notes, Upper Peninsula <unitdate type="inclusive" normal="1882/1910">1882-1910</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [43658704888000424695428]">10</container>
+            <unittitle>Estimators Field Notes, Upper Peninsula</unittitle><unitdate type="inclusive" normal="1882/1910">1882-1910</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume">1</container>
-            <unittitle>Woods plat and index <unitdate type="inclusive" normal="1868/1877">1868-1877</unitdate></unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [470184929590309977710]">1</container>
+            <unittitle>Woods plat and index</unittitle><unitdate type="inclusive" normal="1868/1877">1868-1877</unitdate></did>
           <odd>
             <p>(indexes Estimators Field Notes, Lower Peninsula)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">11</container>
+            <container type="box" label="Box [444218774173135839032]">11</container>
             <unittitle>California mill surveys</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">12</container>
-            <unittitle>Time statements of employees <unitdate type="inclusive" normal="1915/1918">1915-1918</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [04699314474017161697436]">12</container>
+            <unittitle>Time statements of employees</unittitle><unitdate type="inclusive" normal="1915/1918">1915-1918</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">13</container>
-            <unittitle>Time statements of employees <unitdate type="inclusive" normal="1922">1922</unitdate>, <unitdate type="inclusive" normal="1928/1931">1928-1931</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [073070125408968881]">13</container>
+            <unittitle>Time statements of employees</unittitle><unitdate type="inclusive" normal="1922">1922</unitdate><unitdate type="inclusive" normal="1928/1931">1928-1931</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">14</container>
+            <container type="box" label="Box [3356179641759470342261]">14</container>
             <unittitle>Papers concerning the Hopper Manufacturing Company deal</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">14</container>
+            <container type="box" label="Box [3356179641759470342261]">14</container>
             <unittitle>Papers concerning the Rainy Lake Company.</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">14</container>
+            <container type="box" label="Box [3356179641759470342261]">14</container>
             <unittitle>Miscellaneous Papers</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">43</container>
-            <unittitle>Contracts and deeds <unitdate type="inclusive" normal="1870/1931">1870-1931</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [5591146581268645]">43</container>
+            <unittitle>Contracts and deeds</unittitle><unitdate type="inclusive" normal="1870/1931">1870-1931</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">48</container>
-            <unittitle>Daybooks of Emeline Bath company <unitdate type="inclusive" normal="1886/1891">1886-1891</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [1049183641693747842330]">48</container>
+            <unittitle>Daybooks of Emeline Bath company</unittitle><unitdate type="inclusive" normal="1886/1891">1886-1891</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">48</container>
-            <unittitle>Ledger of Emeline Bath Company <unitdate type="inclusive" normal="1886/1891">1886-1891</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [1049183641693747842330]">48</container>
+            <unittitle>Ledger of Emeline Bath Company</unittitle><unitdate type="inclusive" normal="1886/1891">1886-1891</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">48</container>
-            <unittitle>Minute book of the Rainy Lake Company <unitdate type="inclusive" normal="1903/1906">1903-1906</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [1049183641693747842330]">48</container>
+            <unittitle>Minute book of the Rainy Lake Company</unittitle><unitdate type="inclusive" normal="1903/1906">1903-1906</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">48</container>
-            <unittitle>Amador County, California financial records <unitdate type="inclusive" normal="1918/1923">1918-1923</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [1049183641693747842330]">48</container>
+            <unittitle>Amador County, California financial records</unittitle><unitdate type="inclusive" normal="1918/1923">1918-1923</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">48</container>
+            <container type="box" label="Box [1049183641693747842330]">48</container>
             <unittitle>Record of credit reports on merchants in Manistee and elsewhere</unittitle>
           </did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Letterpress books <unitdate type="inclusive" normal="1868/1930">1868-1930</unitdate></unittitle>
-        </did>
+          <unittitle>Letterpress books</unittitle><unitdate type="inclusive" normal="1868/1930">1868-1930</unitdate></did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">15</container>
-            <unittitle>Outgoing letters <unitdate type="inclusive" normal="1868/1880">1868-1880</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [36666441587941733422]">15</container>
+            <unittitle>Outgoing letters</unittitle><unitdate type="inclusive" normal="1868/1880">1868-1880</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">16</container>
-            <unittitle>Outgoing letters <unitdate type="inclusive" normal="1880/1889">1880-1889</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [8464046155291018]">16</container>
+            <unittitle>Outgoing letters</unittitle><unitdate type="inclusive" normal="1880/1889">1880-1889</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">16</container>
-            <unittitle>Private <unitdate type="inclusive" normal="1869/1883">1869-1883</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [8464046155291018]">16</container>
+            <unittitle>Private</unittitle><unitdate type="inclusive" normal="1869/1883">1869-1883</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">17</container>
-            <unittitle>Private <unitdate type="inclusive" normal="1873/1891">1873-1891</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [80858189428013346226817]">17</container>
+            <unittitle>Private</unittitle><unitdate type="inclusive" normal="1873/1891">1873-1891</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">18</container>
-            <unittitle>Private <unitdate type="inclusive" normal="1885/1890">1885-1890</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [487515296455683538034225180]">18</container>
+            <unittitle>Private</unittitle><unitdate type="inclusive" normal="1885/1890">1885-1890</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">18</container>
-            <unittitle>Personal (incoming) <unitdate type="inclusive" normal="1899/1901">1899-1901</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [487515296455683538034225180]">18</container>
+            <unittitle>Personal (incoming)</unittitle><unitdate type="inclusive" normal="1899/1901">1899-1901</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">19</container>
-            <unittitle>Personal (incoming) <unitdate type="inclusive" normal="1901/1907">1901-1907</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [97499844391398802]">19</container>
+            <unittitle>Personal (incoming)</unittitle><unitdate type="inclusive" normal="1901/1907">1901-1907</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -342,58 +313,39 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">20</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1898/1905">1898-1905</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [46775104558990454303]">20</container>
+              <unitdate type="inclusive" normal="1898/1905">1898-1905</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">21</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1905/1908">1905-1908</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [70952833734044847767940]">21</container>
+              <unitdate type="inclusive" normal="1905/1908">1905-1908</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">22</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1908/1910">1908-1910</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [79936021784759075531021012]">22</container>
+              <unitdate type="inclusive" normal="1908/1910">1908-1910</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">23</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1911/1914">1911-1914</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [228944740962510260553]">23</container>
+              <unitdate type="inclusive" normal="1911/1914">1911-1914</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">24</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1914/1918">1914-1918</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [66019676426089452978]">24</container>
+              <unitdate type="inclusive" normal="1914/1918">1914-1918</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">25</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1922/1928">1922-1928</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [914163228546478503133877]">25</container>
+              <unitdate type="inclusive" normal="1922/1928">1922-1928</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">26</container>
-            <unittitle>General Business (outgoing) <unitdate type="inclusive" normal="1903/1930">1903-1930</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [46317943883819370835]">26</container>
+            <unittitle>General Business (outgoing)</unittitle><unitdate type="inclusive" normal="1903/1930">1903-1930</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -401,58 +353,49 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">27</container>
-              <unittitle>Edward Buckley (incoming) <unitdate type="inclusive" normal="1882/1901">1882-1901</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [098107941187608470]">27</container>
+              <unittitle>Edward Buckley (incoming)</unittitle><unitdate type="inclusive" normal="1882/1901">1882-1901</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">28</container>
-              <unittitle>General (incoming) <unitdate type="inclusive" normal="1896/1905">1896-1905</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [419284448674528471]">28</container>
+              <unittitle>General (incoming)</unittitle><unitdate type="inclusive" normal="1896/1905">1896-1905</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">29</container>
-              <unittitle>General (incoming) <unitdate type="inclusive" normal="1905/1912">1905-1912</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [65619154283489490573]">29</container>
+              <unittitle>General (incoming)</unittitle><unitdate type="inclusive" normal="1905/1912">1905-1912</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">30</container>
-              <unittitle>General (incoming) <unitdate type="inclusive" normal="1912/1916">1912-1916</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [241329930347490831488]">30</container>
+              <unittitle>General (incoming)</unittitle><unitdate type="inclusive" normal="1912/1916">1912-1916</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">31</container>
-              <unittitle>General (incoming) <unitdate type="inclusive" normal="1916/1922">1916-1922</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [12176075547896100654641]">31</container>
+              <unittitle>General (incoming)</unittitle><unitdate type="inclusive" normal="1916/1922">1916-1922</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">32</container>
-              <unittitle>General (incoming) <unitdate type="inclusive" normal="1922/1924">1922-1924</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [69204082852904999610]">32</container>
+              <unittitle>General (incoming)</unittitle><unitdate type="inclusive" normal="1922/1924">1922-1924</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">32</container>
-              <unittitle>General (outgoing) <unitdate type="inclusive" normal="1903/1927">1903-1927</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [69204082852904999610]">32</container>
+              <unittitle>General (outgoing)</unittitle><unitdate type="inclusive" normal="1903/1927">1903-1927</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">33</container>
-              <unittitle>General (outgoing) <unitdate type="inclusive" normal="1927/1930">1927-1930</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [226383969141206662715]">33</container>
+              <unittitle>General (outgoing)</unittitle><unitdate type="inclusive" normal="1927/1930">1927-1930</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">33</container>
-            <unittitle>Rainy Lake Company Letterpress book <unitdate type="inclusive" normal="1903/1906">1903-1906</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [226383969141206662715]">33</container>
+            <unittitle>Rainy Lake Company Letterpress book</unittitle><unitdate type="inclusive" normal="1903/1906">1903-1906</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -460,39 +403,33 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">33</container>
-              <unittitle>General (incoming) <unitdate type="inclusive" normal="1908/1911">1908-1911</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [226383969141206662715]">33</container>
+              <unittitle>General (incoming)</unittitle><unitdate type="inclusive" normal="1908/1911">1908-1911</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">34</container>
-              <unittitle>General (incoming) <unitdate type="inclusive" normal="1912/1918">1912-1918</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [245241173459719]">34</container>
+              <unittitle>General (incoming)</unittitle><unitdate type="inclusive" normal="1912/1918">1912-1918</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">35</container>
-              <unittitle>General (incoming) <unitdate type="inclusive" normal="1918/1920">1918-1920</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [5636903824378121050065]">35</container>
+              <unittitle>General (incoming)</unittitle><unitdate type="inclusive" normal="1918/1920">1918-1920</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">36</container>
-              <unittitle>General (incoming) <unitdate type="inclusive" normal="1920/1924">1920-1924</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [93653257141848760102471]">36</container>
+              <unittitle>General (incoming)</unittitle><unitdate type="inclusive" normal="1920/1924">1920-1924</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">37</container>
-              <unittitle>General (incoming) <unitdate type="inclusive" normal="1924/1925">1924-1925</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [19949164102401985]">37</container>
+              <unittitle>General (incoming)</unittitle><unitdate type="inclusive" normal="1924/1925">1924-1925</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">37</container>
-              <unittitle>General (outgoing) <unitdate type="inclusive" normal="1909/1930">1909-1930</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [19949164102401985]">37</container>
+              <unittitle>General (outgoing)</unittitle><unitdate type="inclusive" normal="1909/1930">1909-1930</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -501,122 +438,93 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">38</container>
-              <unittitle>General (incoming) <unitdate type="inclusive" normal="1897/1910">1897-1910</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [16066431940774402803425]">38</container>
+              <unittitle>General (incoming)</unittitle><unitdate type="inclusive" normal="1897/1910">1897-1910</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">39</container>
-              <unittitle>General (incoming) <unitdate type="inclusive" normal="1910/1916">1910-1916</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [03265522489967949413]">39</container>
+              <unittitle>General (incoming)</unittitle><unitdate type="inclusive" normal="1910/1916">1910-1916</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">40</container>
-              <unittitle>General (incoming) <unitdate type="inclusive" normal="1916/1924">1916-1924</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [767994729784017631]">40</container>
+              <unittitle>General (incoming)</unittitle><unitdate type="inclusive" normal="1916/1924">1916-1924</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">41</container>
-              <unittitle>General (incoming) <unitdate type="inclusive" normal="1924/1927">1924-1927</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [1030260499815388123]">41</container>
+              <unittitle>General (incoming)</unittitle><unitdate type="inclusive" normal="1924/1927">1924-1927</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">41</container>
-            <unittitle>Correspondence from John Rademaker to Charles Ruggles <unitdate type="inclusive" normal="1910/1924">1910-1924</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [1030260499815388123]">41</container>
+            <unittitle>Correspondence from John Rademaker to Charles Ruggles</unittitle><unitdate type="inclusive" normal="1910/1924">1910-1924</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">41</container>
-            <unittitle>South Carolina Lumber Company <unitdate type="inclusive" normal="1909/1917">1909-1917</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [1030260499815388123]">41</container>
+            <unittitle>South Carolina Lumber Company</unittitle><unitdate type="inclusive" normal="1909/1917">1909-1917</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">42</container>
-            <unittitle>Personal (outgoing) <unitdate type="inclusive" normal="1903/1930">1903-1930</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [0268531864083989746]">42</container>
+            <unittitle>Personal (outgoing)</unittitle><unitdate type="inclusive" normal="1903/1930">1903-1930</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">42</container>
+            <container type="box" label="Box [0268531864083989746]">42</container>
             <unittitle>Miscellaneous papers</unittitle>
           </did>
         </c02>
       </c01>
       <c01 level="series">
         <did>
-          <unittitle>Litigation <unitdate type="inclusive" normal="1880/1926">1880-1926</unitdate></unittitle>
-        </did>
+          <unittitle>Litigation</unittitle><unitdate type="inclusive" normal="1880/1926">1880-1926</unitdate></did>
         <c02 level="file">
           <did>
-            <unittitle>Ruggles vs. Buckley lawsuit <unitdate type="inclusive" normal="1880/1926">1880-1926</unitdate></unittitle>
-          </did>
+            <unittitle>Ruggles vs. Buckley lawsuit</unittitle><unitdate type="inclusive" normal="1880/1926">1880-1926</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1880/1902">1880-1902</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [33453494469295748092]">1</container>
+              <unitdate type="inclusive" normal="1880/1902">1880-1902</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1903/1906">1903-1906</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [901997428166972]">2</container>
+              <unitdate type="inclusive" normal="1903/1906">1903-1906</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1906/1908">1906-1908</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [3041029214770251705926]">3</container>
+              <unitdate type="inclusive" normal="1906/1908">1906-1908</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1909/1912">1909-1912</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [670431174822569792]">4</container>
+              <unitdate type="inclusive" normal="1909/1912">1909-1912</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1913/1926">1913-1926</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [5389266434596436283155]">5</container>
+              <unitdate type="inclusive" normal="1913/1926">1913-1926</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">5</container>
-              <unittitle>
-                <unitdate type="inclusive">undated</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [5389266434596436283155]">5</container>
+              <unitdate type="inclusive">undated</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">8</container>
-            <unittitle>Hulett vs. Ruggles lawsuit <unitdate type="inclusive" normal="1884/1886" certainty="approximate">circa 1884-1886</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [76521242858607625203025]">8</container>
+            <unittitle>Hulett vs. Ruggles lawsuit</unittitle><unitdate type="inclusive" normal="1884/1886" certainty="approximate">circa 1884-1886</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">9</container>
-            <unittitle>Hulett vs. Ruggles lawsuit <unitdate type="inclusive" normal="1884/1886" certainty="approximate">circa 1884-1886</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [287288834294640361985611]">9</container>
+            <unittitle>Hulett vs. Ruggles lawsuit</unittitle><unitdate type="inclusive" normal="1884/1886" certainty="approximate">circa 1884-1886</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -625,48 +533,37 @@
         </did>
         <c02 level="file">
           <did>
-            <unittitle>Employee time sheets <unitdate type="inclusive" normal="1921/1929">1921-1929</unitdate></unittitle>
-          </did>
+            <unittitle>Employee time sheets</unittitle><unitdate type="inclusive" normal="1921/1929">1921-1929</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">44</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1921/1925">1921-1925</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [175679419972101087453]">44</container>
+              <unitdate type="inclusive" normal="1921/1925">1921-1925</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">44</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1926/1929">1926-1929</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [175679419972101087453]">44</container>
+              <unitdate type="inclusive" normal="1926/1929">1926-1929</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">45</container>
-            <unittitle>Trial Balances <unitdate type="inclusive" normal="1920/1928">1920-1928</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [72414829486990836887267185]">45</container>
+            <unittitle>Trial Balances</unittitle><unitdate type="inclusive" normal="1920/1928">1920-1928</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">46</container>
-            <unittitle>Employee accident reports <unitdate type="inclusive" normal="1921/1928">1921-1928</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [44691548943986586583483]">46</container>
+            <unittitle>Employee accident reports</unittitle><unitdate type="inclusive" normal="1921/1928">1921-1928</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">47</container>
-            <unittitle>Income tax papers <unitdate type="inclusive" normal="1921/1930">1921-1930</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [4567638474831215923856]">47</container>
+            <unittitle>Income tax papers</unittitle><unitdate type="inclusive" normal="1921/1930">1921-1930</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">47</container>
-            <unittitle>Letterpress books (outgoing) <unitdate type="inclusive" normal="1920/1930">1920-1930</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [4567638474831215923856]">47</container>
+            <unittitle>Letterpress books (outgoing)</unittitle><unitdate type="inclusive" normal="1920/1930">1920-1930</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -682,164 +579,112 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">49</container>
-              <container type="reel" label="Roll">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1881/1883">1881-1883</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [22930018744388865199648]" id="1f3e4eda-bcf3-4308-94c7-2d4fd982a309">49</container>
+              <container type="reel" label="Roll" parent="1f3e4eda-bcf3-4308-94c7-2d4fd982a309">1</container>
+              <unitdate type="inclusive" normal="1881/1883">1881-1883</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">49</container>
-              <container type="reel" label="Roll">1</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1883/1884">1883-1884</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [22930018744388865199648]" id="a93d82ee-7ecb-4342-a03a-4eace16010d6">49</container>
+              <container type="reel" label="Roll" parent="a93d82ee-7ecb-4342-a03a-4eace16010d6">1</container>
+              <unitdate type="inclusive" normal="1883/1884">1883-1884</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">49</container>
-              <container type="reel" label="Roll">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1884/1886">1884-1886</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [22930018744388865199648]" id="5d1f7e43-19d6-48df-b9d5-1cd8d6c03ad5">49</container>
+              <container type="reel" label="Roll" parent="5d1f7e43-19d6-48df-b9d5-1cd8d6c03ad5">2</container>
+              <unitdate type="inclusive" normal="1884/1886">1884-1886</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">49</container>
-              <container type="reel" label="Roll">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1886/1887">1886-1887</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [22930018744388865199648]" id="08c456da-4664-4545-9981-9a5aff6e77fb">49</container>
+              <container type="reel" label="Roll" parent="08c456da-4664-4545-9981-9a5aff6e77fb">2</container>
+              <unitdate type="inclusive" normal="1886/1887">1886-1887</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">49</container>
-              <container type="reel" label="Roll">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1887/1888">1887-1888</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [22930018744388865199648]" id="aa26d2d5-f927-49f9-aeaa-04399f27223d">49</container>
+              <container type="reel" label="Roll" parent="aa26d2d5-f927-49f9-aeaa-04399f27223d">3</container>
+              <unitdate type="inclusive" normal="1887/1888">1887-1888</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">49</container>
-              <container type="reel" label="Roll">3</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1888">1888</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [22930018744388865199648]" id="fd37511a-73e1-4fb7-beaa-ad051c8392fb">49</container>
+              <container type="reel" label="Roll" parent="fd37511a-73e1-4fb7-beaa-ad051c8392fb">3</container>
+              <unitdate type="inclusive" normal="1888">1888</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">49</container>
-              <container type="reel" label="Roll">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1888/1889">1888-1889</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [22930018744388865199648]" id="eb908c16-775c-41de-9ca6-b86aab742192">49</container>
+              <container type="reel" label="Roll" parent="eb908c16-775c-41de-9ca6-b86aab742192">4</container>
+              <unitdate type="inclusive" normal="1888/1889">1888-1889</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">49</container>
-              <container type="reel" label="Roll">4</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1889/1890">1889-1890</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [22930018744388865199648]" id="3f2c6cb2-ee24-44a9-a7c1-d2e748f10b8b">49</container>
+              <container type="reel" label="Roll" parent="3f2c6cb2-ee24-44a9-a7c1-d2e748f10b8b">4</container>
+              <unitdate type="inclusive" normal="1889/1890">1889-1890</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">49</container>
-              <container type="reel" label="Roll">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1890">1890</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [22930018744388865199648]" id="bf622cff-a0db-4153-ba94-acec0faede17">49</container>
+              <container type="reel" label="Roll" parent="bf622cff-a0db-4153-ba94-acec0faede17">5</container>
+              <unitdate type="inclusive" normal="1890">1890</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">49</container>
-              <container type="reel" label="Roll">5</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1890/1891">1890-1891</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [22930018744388865199648]" id="2e0b98e4-ed45-47ef-a9e4-1f555ccc1325">49</container>
+              <container type="reel" label="Roll" parent="2e0b98e4-ed45-47ef-a9e4-1f555ccc1325">5</container>
+              <unitdate type="inclusive" normal="1890/1891">1890-1891</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">49</container>
-              <container type="reel" label="Roll">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1891/1892">1891-1892</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [22930018744388865199648]" id="97c1f8a3-2478-4a10-b978-4fb26cdca6e9">49</container>
+              <container type="reel" label="Roll" parent="97c1f8a3-2478-4a10-b978-4fb26cdca6e9">6</container>
+              <unitdate type="inclusive" normal="1891/1892">1891-1892</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">49</container>
-              <container type="reel" label="Roll">6</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1892">1892</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [22930018744388865199648]" id="ba3a6db1-5c78-4ca2-8fee-f2d91cd4a377">49</container>
+              <container type="reel" label="Roll" parent="ba3a6db1-5c78-4ca2-8fee-f2d91cd4a377">6</container>
+              <unitdate type="inclusive" normal="1892">1892</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">49</container>
-              <container type="reel" label="Roll">7</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1892/1893">1892-1893</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [22930018744388865199648]" id="e9723f26-4138-4148-a00f-930e2c32770f">49</container>
+              <container type="reel" label="Roll" parent="e9723f26-4138-4148-a00f-930e2c32770f">7</container>
+              <unitdate type="inclusive" normal="1892/1893">1892-1893</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">49</container>
-              <container type="reel" label="Roll">7</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1893/1894">1893-1894</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [22930018744388865199648]" id="27eb3dc9-ee83-4b41-b472-7ba56eadcb21">49</container>
+              <container type="reel" label="Roll" parent="27eb3dc9-ee83-4b41-b472-7ba56eadcb21">7</container>
+              <unitdate type="inclusive" normal="1893/1894">1893-1894</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">49</container>
-              <container type="reel" label="Roll">8</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1894/1896">1894-1896</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [22930018744388865199648]" id="a94d96dd-a47d-415b-89ce-336b844b24fb">49</container>
+              <container type="reel" label="Roll" parent="a94d96dd-a47d-415b-89ce-336b844b24fb">8</container>
+              <unitdate type="inclusive" normal="1894/1896">1894-1896</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">49</container>
-              <container type="reel" label="Roll">8</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1897/1906">1897-1906</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [22930018744388865199648]" id="94fef880-3586-4ac2-8e7a-402224835c86">49</container>
+              <container type="reel" label="Roll" parent="94fef880-3586-4ac2-8e7a-402224835c86">8</container>
+              <unitdate type="inclusive" normal="1897/1906">1897-1906</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">49</container>
-              <container type="reel" label="Roll">8</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1907/1910">1907-1910</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [22930018744388865199648]" id="880aa8d7-17db-4a9a-bb1e-c938b6c4c287">49</container>
+              <container type="reel" label="Roll" parent="880aa8d7-17db-4a9a-bb1e-c938b6c4c287">8</container>
+              <unitdate type="inclusive" normal="1907/1910">1907-1910</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">49</container>
-            <container type="reel" label="Roll">9</container>
-            <unittitle>Operating expenses <unitdate type="inclusive" normal="1904/1907">1904-1907</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [22930018744388865199648]" id="d7186567-82de-4495-9758-8655287c0f3c">49</container>
+            <container type="reel" label="Roll" parent="d7186567-82de-4495-9758-8655287c0f3c">9</container>
+            <unittitle>Operating expenses</unittitle><unitdate type="inclusive" normal="1904/1907">1904-1907</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -847,45 +692,34 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">49</container>
-              <container type="reel" label="Roll">9</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1881/1887">1881-1887</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [22930018744388865199648]" id="ede2fa06-9afe-4a4b-ac11-d50979c07cae">49</container>
+              <container type="reel" label="Roll" parent="ede2fa06-9afe-4a4b-ac11-d50979c07cae">9</container>
+              <unitdate type="inclusive" normal="1881/1887">1881-1887</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">49</container>
-              <container type="reel" label="Roll">9</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1880/1892">1880-1892</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [22930018744388865199648]" id="e798a776-5c6f-44fa-bdb8-daefa7e67761">49</container>
+              <container type="reel" label="Roll" parent="e798a776-5c6f-44fa-bdb8-daefa7e67761">9</container>
+              <unitdate type="inclusive" normal="1880/1892">1880-1892</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">49</container>
-              <container type="reel" label="Roll">10</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1893/1910">1893-1910</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [22930018744388865199648]" id="ace01991-4f65-41ce-afe1-6546487b193f">49</container>
+              <container type="reel" label="Roll" parent="ace01991-4f65-41ce-afe1-6546487b193f">10</container>
+              <unitdate type="inclusive" normal="1893/1910">1893-1910</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">49</container>
-            <container type="reel" label="Roll">10</container>
-            <unittitle>Land Ledger <unitdate type="inclusive" normal="1882/1902">1882-1902</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [22930018744388865199648]" id="be9e90b4-c68e-4c41-a131-f6c86849579b">49</container>
+            <container type="reel" label="Roll" parent="be9e90b4-c68e-4c41-a131-f6c86849579b">10</container>
+            <unittitle>Land Ledger</unittitle><unitdate type="inclusive" normal="1882/1902">1882-1902</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">49</container>
-            <container type="reel" label="Roll">10</container>
-            <unittitle>Time book <unitdate type="inclusive" normal="1894/1899">1894-1899</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [22930018744388865199648]" id="6f023e1e-2168-495e-a60d-a41b80d9c906">49</container>
+            <container type="reel" label="Roll" parent="6f023e1e-2168-495e-a60d-a41b80d9c906">10</container>
+            <unittitle>Time book</unittitle><unitdate type="inclusive" normal="1894/1899">1894-1899</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -893,44 +727,33 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">49</container>
-              <container type="reel" label="Roll">11</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1924/1926">1924-1926</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [22930018744388865199648]" id="6c478a91-31ce-4228-921d-f6d0787a0e83">49</container>
+              <container type="reel" label="Roll" parent="6c478a91-31ce-4228-921d-f6d0787a0e83">11</container>
+              <unitdate type="inclusive" normal="1924/1926">1924-1926</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">49</container>
-              <container type="reel" label="Roll">11</container>
-              <unittitle><unitdate type="inclusive" normal="1926/1928">1926-1928</unitdate> (pp 1-217)</unittitle>
-            </did>
+              <container type="box" label="Box [22930018744388865199648]" id="b4ccc116-62f9-477d-905d-67e76d031609">49</container>
+              <container type="reel" label="Roll" parent="b4ccc116-62f9-477d-905d-67e76d031609">11</container>
+              <unittitle>(pp 1-217)</unittitle><unitdate type="inclusive" normal="1926/1928">1926-1928</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">49</container>
-              <container type="reel" label="Roll">12</container>
-              <unittitle><unitdate type="inclusive" normal="1926/1928">1926-1928</unitdate> (pp 218-end)</unittitle>
-            </did>
+              <container type="box" label="Box [22930018744388865199648]" id="31602e70-3590-4847-8fc6-d2ef99b6e335">49</container>
+              <container type="reel" label="Roll" parent="31602e70-3590-4847-8fc6-d2ef99b6e335">12</container>
+              <unittitle>(pp 218-end)</unittitle><unitdate type="inclusive" normal="1926/1928">1926-1928</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">49</container>
-              <container type="reel" label="Roll">12</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1928">1928</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [22930018744388865199648]" id="9ef24da2-3203-42d8-ab0d-ee60ed581712">49</container>
+              <container type="reel" label="Roll" parent="9ef24da2-3203-42d8-ab0d-ee60ed581712">12</container>
+              <unitdate type="inclusive" normal="1928">1928</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">49</container>
-              <container type="reel" label="Roll">12</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1929/1930">1929-1930</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [22930018744388865199648]" id="7b494b9e-6d66-4dc6-ac01-8657f3301c14">49</container>
+              <container type="reel" label="Roll" parent="7b494b9e-6d66-4dc6-ac01-8657f3301c14">12</container>
+              <unitdate type="inclusive" normal="1929/1930">1929-1930</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -939,21 +762,15 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">49</container>
-              <container type="reel" label="Roll">13</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1920/1927">1920-1927</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [22930018744388865199648]" id="5a5f409c-c4b8-40ad-b4fb-7e0428ff7b4f">49</container>
+              <container type="reel" label="Roll" parent="5a5f409c-c4b8-40ad-b4fb-7e0428ff7b4f">13</container>
+              <unitdate type="inclusive" normal="1920/1927">1920-1927</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">49</container>
-              <container type="reel" label="Roll">13</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1928">1928</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [22930018744388865199648]" id="6aa4da06-f783-4a83-b376-5b9166563fbc">49</container>
+              <container type="reel" label="Roll" parent="6aa4da06-f783-4a83-b376-5b9166563fbc">13</container>
+              <unitdate type="inclusive" normal="1928">1928</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -962,57 +779,45 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">49</container>
-              <container type="reel" label="Roll">14</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1920/1924">1920-1924</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [22930018744388865199648]" id="0d72fe70-d296-4a6f-8e3b-5b78ebdb8b23">49</container>
+              <container type="reel" label="Roll" parent="0d72fe70-d296-4a6f-8e3b-5b78ebdb8b23">14</container>
+              <unitdate type="inclusive" normal="1920/1924">1920-1924</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">49</container>
-              <container type="reel" label="Roll">15</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1924/1928">1924-1928</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [22930018744388865199648]" id="c86dcb46-d189-4ede-a829-600de31b13c0">49</container>
+              <container type="reel" label="Roll" parent="c86dcb46-d189-4ede-a829-600de31b13c0">15</container>
+              <unitdate type="inclusive" normal="1924/1928">1924-1928</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">49</container>
-              <container type="reel" label="Roll">15</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1928/1930">1928-1930</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [22930018744388865199648]" id="4d323a59-a44c-4a56-bc38-40c1d2c31ea1">49</container>
+              <container type="reel" label="Roll" parent="4d323a59-a44c-4a56-bc38-40c1d2c31ea1">15</container>
+              <unitdate type="inclusive" normal="1928/1930">1928-1930</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">49</container>
-            <container type="reel" label="Roll">16</container>
-            <unittitle>Ruggles &amp; Rademaker Ledger <unitdate type="inclusive" normal="1920/1928">1920-1928</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [22930018744388865199648]" id="b7fbaef0-e0a7-44f3-8f88-b0196a7f3ced">49</container>
+            <container type="reel" label="Roll" parent="b7fbaef0-e0a7-44f3-8f88-b0196a7f3ced">16</container>
+            <unittitle>Ruggles &amp; Rademaker Ledger</unittitle><unitdate type="inclusive" normal="1920/1928">1920-1928</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">49</container>
-            <container type="reel" label="Roll">16</container>
-            <unittitle>Weekly Financial Reports <unitdate type="inclusive" normal="1902/1911">1902-1911</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [22930018744388865199648]" id="32927bc9-e7ec-4034-abb9-f9451414619c">49</container>
+            <container type="reel" label="Roll" parent="32927bc9-e7ec-4034-abb9-f9451414619c">16</container>
+            <unittitle>Weekly Financial Reports</unittitle><unitdate type="inclusive" normal="1902/1911">1902-1911</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">49</container>
-            <container type="reel" label="Roll">16</container>
-            <unittitle>Emeline Bath Co. <unitdate type="inclusive" normal="1887/1891">1887-1891</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [22930018744388865199648]" id="a783b56e-5234-4763-83b9-53c1633a7d7a">49</container>
+            <container type="reel" label="Roll" parent="a783b56e-5234-4763-83b9-53c1633a7d7a">16</container>
+            <unittitle>Emeline Bath Co.</unittitle><unitdate type="inclusive" normal="1887/1891">1887-1891</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">49</container>
-            <container type="reel" label="Roll">17</container>
+            <container type="box" label="Box [22930018744388865199648]" id="0cafadf1-7a69-4cfe-a7d5-47b9b5433329">49</container>
+            <container type="reel" label="Roll" parent="0cafadf1-7a69-4cfe-a7d5-47b9b5433329">17</container>
             <unittitle>Manistee and Northeastern Railway</unittitle>
           </did>
         </c02>
@@ -1022,57 +827,47 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">49</container>
-              <container type="reel" label="Roll">17</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1894/1897">1894-1897</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [22930018744388865199648]" id="6b866840-569c-46aa-89b7-ac39c9e6c211">49</container>
+              <container type="reel" label="Roll" parent="6b866840-569c-46aa-89b7-ac39c9e6c211">17</container>
+              <unitdate type="inclusive" normal="1894/1897">1894-1897</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">49</container>
-              <container type="reel" label="Roll">17</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1898/1900">1898-1900</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [22930018744388865199648]" id="2950323d-2d1c-4014-911e-89c2afe7b78a">49</container>
+              <container type="reel" label="Roll" parent="2950323d-2d1c-4014-911e-89c2afe7b78a">17</container>
+              <unitdate type="inclusive" normal="1898/1900">1898-1900</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">49</container>
-              <container type="reel" label="Roll">17</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1900/1903">1900-1903</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [22930018744388865199648]" id="1a7dac08-3387-42e1-b1ff-b6cce11b6a42">49</container>
+              <container type="reel" label="Roll" parent="1a7dac08-3387-42e1-b1ff-b6cce11b6a42">17</container>
+              <unitdate type="inclusive" normal="1900/1903">1900-1903</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">49</container>
-            <container type="reel" label="Roll">17</container>
+            <container type="box" label="Box [22930018744388865199648]" id="2dce3282-2e0a-4b86-9999-fcf5a8991d44">49</container>
+            <container type="reel" label="Roll" parent="2dce3282-2e0a-4b86-9999-fcf5a8991d44">17</container>
             <unittitle>Bills for Collection</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">49</container>
-            <container type="reel" label="Roll">17</container>
+            <container type="box" label="Box [22930018744388865199648]" id="cb9ead08-0753-4bae-a07e-ffb2ed0abc4b">49</container>
+            <container type="reel" label="Roll" parent="cb9ead08-0753-4bae-a07e-ffb2ed0abc4b">17</container>
             <unittitle>Lumber Department Records</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">49</container>
-            <container type="reel" label="Roll">18</container>
-            <unittitle>Manistee and Northeastern Railway Record of Claims <unitdate type="inclusive" normal="1904/1906">1904-1906</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [22930018744388865199648]" id="d6a1c00c-9bef-43e9-b509-cbc29c434fc0">49</container>
+            <container type="reel" label="Roll" parent="d6a1c00c-9bef-43e9-b509-cbc29c434fc0">18</container>
+            <unittitle>Manistee and Northeastern Railway Record of Claims</unittitle><unitdate type="inclusive" normal="1904/1906">1904-1906</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">49</container>
-            <container type="reel" label="Roll">18</container>
+            <container type="box" label="Box [22930018744388865199648]" id="3e130718-a59f-4786-a765-b1e6671effc3">49</container>
+            <container type="reel" label="Roll" parent="3e130718-a59f-4786-a765-b1e6671effc3">18</container>
             <unittitle>Records of Steam Barge Edward Buckley, Record Books 1-4</unittitle>
           </did>
         </c02>

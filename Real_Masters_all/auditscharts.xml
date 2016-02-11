@@ -24,6 +24,7 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
+    <classification ref="/repositories/2/classifications/2"/>
   </eadheader>
   <frontmatter>
     <titlepage>
@@ -35,10 +36,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Office of University Audits.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/19330">University of Michigan. Office of University Audits.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Office of University Audits (University of Michigan) organizational charts <unitdate type="inclusive" encodinganalog="245$f" normal="1918/2013">1918-2013</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1969/2013">1969-2013</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">87344 Bimu B8.2</unitid>
+      <unittitle encodinganalog="245">Office of University Audits (University of Michigan) organizational charts</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1918/2013">1918-2013</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="1969/2013">1969-2013</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">87344 Bimu B8.2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>The Office of University Audits University of Michigan Organizational Charts record group contains comprehensive sets of organizational charts on paper (FY 1970 -- FY 2003) and digitally (FY 1997 -- FY 2013) as well as a few scattered additional organizational charts including the Business Office (1918), the University (1933), the University Library (1968), and the College of Literature Science and the Arts (early 1970's).</abstract>
       <physdesc altrender="part">
@@ -134,12 +134,12 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Administration.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Office of University Audits.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Administration.<term type="topical">Administration.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19330">University of Michigan. Office of University Audits.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Organizational charts.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3179">Organizational charts.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -149,21 +149,18 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>Miscellaneous organizational charts <unitdate type="inclusive" normal="1918/1983">1918-1983</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [7567849814161214542]">1</container>
+            <unittitle>Miscellaneous organizational charts</unittitle><unitdate type="inclusive" normal="1918/1983">1918-1983</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>Organizational charts, LSA <unitdate type="inclusive" normal="1970/1979">1970-1979</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [7567849814161214542]">1</container>
+            <unittitle>Organizational charts, LSA</unittitle><unitdate type="inclusive" normal="1970/1979">1970-1979</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>Organizational charts, University of Michigan <unitdate type="inclusive" normal="1969/1991">1969/70-1990/91</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [7567849814161214542]">1</container>
+            <unittitle>Organizational charts, University of Michigan</unittitle><unitdate type="inclusive" normal="1969/1991">1969/70-1990/91</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">22 folders</extent>
             </physdesc>
           </did>
@@ -173,9 +170,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">2</container>
-            <unittitle>Organizational charts, University of Michigan <unitdate type="inclusive" normal="1991/2004">1991/92-2003/04</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [073154540917553473]">2</container>
+            <unittitle>Organizational charts, University of Michigan</unittitle><unitdate type="inclusive" normal="1991/2004">1991/92-2003/04</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">14 folders</extent>
             </physdesc>
           </did>
@@ -183,18 +179,46 @@
         <c02 level="file">
           <did>
             <physloc>Online</physloc>
-            <unittitle>Organizational charts, University of Michigan <unitdate type="inclusive" normal="1996/2013">1996/97-2012/13</unitdate></unittitle>
-          </did>
+            <unittitle>Organizational charts, University of Michigan</unittitle><unitdate type="inclusive" normal="1996/2013">1996/97-2012/13</unitdate></did>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
-              <unittitle>
-                <unitdate type="inclusive" normal="1997">1997</unitdate>
-              </unittitle>
-              <physdesc>
+              <unitdate type="inclusive" normal="1997">1997</unitdate><physdesc>
                 <physfacet>.ZIP file</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/108226" show="new" actuate="onrequest">
+              <dao href="http://hdl.handle.net/2027.42/108226" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/29">
+                <daodesc>
+                  <p>[view item]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <odd>
+              <p>(University of Michigan organizational charts for fiscal year 1997)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unitdate type="inclusive" normal="1998">1998</unitdate><physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/108227" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/30">
+                <daodesc>
+                  <p>[view item]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <odd>
+              <p>(University of Michigan organizational charts for fiscal year 1998)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unitdate type="inclusive" normal="1999">1999</unitdate><physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/108228" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/31">
                 <daodesc>
                   <p>[view item]</p>
                 </daodesc>
@@ -204,13 +228,26 @@
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
-              <unittitle>
-                <unitdate type="inclusive" normal="1998">1998</unitdate>
-              </unittitle>
-              <physdesc>
+              <unitdate type="inclusive" normal="2000">2000</unitdate><physdesc>
                 <physfacet>.ZIP file</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/108227" show="new" actuate="onrequest">
+              <dao href="http://hdl.handle.net/2027.42/108229" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/32">
+                <daodesc>
+                  <p>[view item]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <odd>
+              <p>(University of Michigan organizational charts for fiscal year 2000)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unitdate type="inclusive" normal="2001">2001</unitdate><physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/108230" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/33">
                 <daodesc>
                   <p>[view item]</p>
                 </daodesc>
@@ -220,242 +257,194 @@
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
-              <unittitle>
-                <unitdate type="inclusive" normal="1999">1999</unitdate>
-              </unittitle>
-              <physdesc>
+              <unitdate type="inclusive" normal="2002">2002</unitdate><physdesc>
                 <physfacet>.ZIP file</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/108228" show="new" actuate="onrequest">
+              <dao href="http://hdl.handle.net/2027.42/108231" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/34">
                 <daodesc>
                   <p>[view item]</p>
                 </daodesc>
               </dao>
             </did>
+            <odd>
+              <p>(University of Michigan organizational charts for fiscal year 2002)</p>
+            </odd>
           </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
-              <unittitle>
-                <unitdate type="inclusive" normal="2000">2000</unitdate>
-              </unittitle>
-              <physdesc>
+              <unitdate type="inclusive" normal="2003">2003</unitdate><physdesc>
                 <physfacet>.ZIP file</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/108229" show="new" actuate="onrequest">
+              <dao href="http://hdl.handle.net/2027.42/108232" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/35">
                 <daodesc>
                   <p>[view item]</p>
                 </daodesc>
               </dao>
             </did>
+            <odd>
+              <p>(University of Michigan organizational charts for fiscal year 2003)</p>
+            </odd>
           </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
-              <unittitle>
-                <unitdate type="inclusive" normal="2001">2001</unitdate>
-              </unittitle>
-              <physdesc>
+              <unitdate type="inclusive" normal="2004">2004</unitdate><physdesc>
                 <physfacet>.ZIP file</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/108230" show="new" actuate="onrequest">
+              <dao href="http://hdl.handle.net/2027.42/108233" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/36">
                 <daodesc>
                   <p>[view item]</p>
                 </daodesc>
               </dao>
             </did>
+            <odd>
+              <p>(University of Michigan organizational charts for fiscal year 2004)</p>
+            </odd>
           </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
-              <unittitle>
-                <unitdate type="inclusive" normal="2002">2002</unitdate>
-              </unittitle>
-              <physdesc>
+              <unitdate type="inclusive" normal="2005">2005</unitdate><physdesc>
                 <physfacet>.ZIP file</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/108231" show="new" actuate="onrequest">
+              <dao href="http://hdl.handle.net/2027.42/108234" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/37">
                 <daodesc>
                   <p>[view item]</p>
                 </daodesc>
               </dao>
             </did>
+            <odd>
+              <p>(University of Michigan organizational charts for fiscal year 2005)</p>
+            </odd>
           </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
-              <unittitle>
-                <unitdate type="inclusive" normal="2003">2003</unitdate>
-              </unittitle>
-              <physdesc>
+              <unitdate type="inclusive" normal="2006">2006</unitdate><physdesc>
                 <physfacet>.ZIP file</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/108232" show="new" actuate="onrequest">
+              <dao href="http://hdl.handle.net/2027.42/108235" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/38">
                 <daodesc>
                   <p>[view item]</p>
                 </daodesc>
               </dao>
             </did>
+            <odd>
+              <p>(University of Michigan organizational charts for fiscal year 2006)</p>
+            </odd>
           </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
-              <unittitle>
-                <unitdate type="inclusive" normal="2004">2004</unitdate>
-              </unittitle>
-              <physdesc>
+              <unitdate type="inclusive" normal="2007">2007</unitdate><physdesc>
                 <physfacet>.ZIP file</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/108233" show="new" actuate="onrequest">
+              <dao href="http://hdl.handle.net/2027.42/108236" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/39">
                 <daodesc>
                   <p>[view item]</p>
                 </daodesc>
               </dao>
             </did>
+            <odd>
+              <p>(University of Michigan organizational charts for fiscal year 2007)</p>
+            </odd>
           </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
-              <unittitle>
-                <unitdate type="inclusive" normal="2005">2005</unitdate>
-              </unittitle>
-              <physdesc>
+              <unitdate type="inclusive" normal="2008">2008</unitdate><physdesc>
                 <physfacet>.ZIP file</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/108234" show="new" actuate="onrequest">
+              <dao href="http://hdl.handle.net/2027.42/108237" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/40">
                 <daodesc>
                   <p>[view item]</p>
                 </daodesc>
               </dao>
             </did>
+            <odd>
+              <p>(University of Michigan organizational charts for fiscal year 2008)</p>
+            </odd>
           </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
-              <unittitle>
-                <unitdate type="inclusive" normal="2006">2006</unitdate>
-              </unittitle>
-              <physdesc>
+              <unitdate type="inclusive" normal="2009">2009</unitdate><physdesc>
                 <physfacet>.ZIP file</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/108235" show="new" actuate="onrequest">
+              <dao href="http://hdl.handle.net/2027.42/108238" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/41">
                 <daodesc>
                   <p>[view item]</p>
                 </daodesc>
               </dao>
             </did>
+            <odd>
+              <p>(University of Michigan organizational charts for fiscal year 2009)</p>
+            </odd>
           </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
-              <unittitle>
-                <unitdate type="inclusive" normal="2007">2007</unitdate>
-              </unittitle>
-              <physdesc>
+              <unitdate type="inclusive" normal="2010">2010</unitdate><physdesc>
                 <physfacet>.ZIP file</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/108236" show="new" actuate="onrequest">
+              <dao href="http://hdl.handle.net/2027.42/108239" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/42">
                 <daodesc>
                   <p>[view item]</p>
                 </daodesc>
               </dao>
             </did>
+            <odd>
+              <p>(University of Michigan organizational charts for fiscal year 2010)</p>
+            </odd>
           </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
-              <unittitle>
-                <unitdate type="inclusive" normal="2008">2008</unitdate>
-              </unittitle>
-              <physdesc>
+              <unitdate type="inclusive" normal="2011">2011</unitdate><physdesc>
                 <physfacet>.ZIP file</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/108237" show="new" actuate="onrequest">
+              <dao href="http://hdl.handle.net/2027.42/108240" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/43">
                 <daodesc>
                   <p>[view item]</p>
                 </daodesc>
               </dao>
             </did>
+            <odd>
+              <p>(University of Michigan organizational charts for fiscal year 2011)</p>
+            </odd>
           </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
-              <unittitle>
-                <unitdate type="inclusive" normal="2009">2009</unitdate>
-              </unittitle>
-              <physdesc>
+              <unitdate type="inclusive" normal="2012">2012</unitdate><physdesc>
                 <physfacet>.ZIP file</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/108238" show="new" actuate="onrequest">
+              <dao href="http://hdl.handle.net/2027.42/108241" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/44">
                 <daodesc>
                   <p>[view item]</p>
                 </daodesc>
               </dao>
             </did>
+            <odd>
+              <p>(University of Michigan organizational charts for fiscal year 2012)</p>
+            </odd>
           </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
-              <unittitle>
-                <unitdate type="inclusive" normal="2010">2010</unitdate>
-              </unittitle>
-              <physdesc>
+              <unitdate type="inclusive" normal="2013">2013</unitdate><physdesc>
                 <physfacet>.ZIP file</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/108239" show="new" actuate="onrequest">
+              <dao href="http://hdl.handle.net/2027.42/108242" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/45">
                 <daodesc>
                   <p>[view item]</p>
                 </daodesc>
               </dao>
             </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <physloc>Online</physloc>
-              <unittitle>
-                <unitdate type="inclusive" normal="2011">2011</unitdate>
-              </unittitle>
-              <physdesc>
-                <physfacet>.ZIP file</physfacet>
-              </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/108240" show="new" actuate="onrequest">
-                <daodesc>
-                  <p>[view item]</p>
-                </daodesc>
-              </dao>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <physloc>Online</physloc>
-              <unittitle>
-                <unitdate type="inclusive" normal="2012">2012</unitdate>
-              </unittitle>
-              <physdesc>
-                <physfacet>.ZIP file</physfacet>
-              </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/108241" show="new" actuate="onrequest">
-                <daodesc>
-                  <p>[view item]</p>
-                </daodesc>
-              </dao>
-            </did>
-          </c03>
-          <c03 level="file">
-            <did>
-              <physloc>Online</physloc>
-              <unittitle>
-                <unitdate type="inclusive" normal="2013">2013</unitdate>
-              </unittitle>
-              <physdesc>
-                <physfacet>.ZIP file</physfacet>
-              </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/108242" show="new" actuate="onrequest">
-                <daodesc>
-                  <p>[view item]</p>
-                </daodesc>
-              </dao>
-            </did>
+            <odd>
+              <p>(University of Michigan organizational charts for fiscal year 2013)</p>
+            </odd>
           </c03>
         </c02>
       </c01>

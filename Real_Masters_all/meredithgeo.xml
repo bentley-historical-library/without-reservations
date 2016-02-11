@@ -24,10 +24,11 @@
         <item>Original encoding from Word 10.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
+    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
-      <publisher><lb/>Bentley Historical Library<lb/>University of Michigan</publisher>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library<lb/>University of Michigan</publisher>
       <titleproper>Finding aid for<lb/> George E. Meredith papers</titleproper>
       <author>Finding aid created by<lb/> Olga Virakhovskaya, December 2015 </author>
     </titlepage>
@@ -35,10 +36,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Meredith, George E.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/35865">Meredith, George E.</persname>
       </origination>
-      <unittitle encodinganalog="245">George E. Meredith papers <unitdate type="inclusive" encodinganalog="245$f"> 1932-1936 </unitdate> </unittitle>
-      <physdesc altrender="whole">
+      <unittitle encodinganalog="245">George E. Meredith papers</unittitle><unitdate type="inclusive" encodinganalog="245$f"> 1932-1936 </unitdate><physdesc altrender="whole">
         <extent encodinganalog="300">1 folders</extent>
       </physdesc>
       <unitid encodinganalog="852$h" repositorycode="miu-h" countrycode="us" type="call number">2015066 Aa 1 </unitid>
@@ -75,10 +75,10 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <persname source="lcnaf" encodinganalog="600">Meredith, George E.</persname>
-        <persname source="lcnaf" encodinganalog="600">Meredith, Lucien M.</persname>
-        <subject source="lcsh" encodinganalog="650">Depressions--1929.</subject>
-        <subject source="lcsh" encodinganalog="650">College graduates--Employment--United States.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35865">Meredith, George E.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/28469">Meredith, Lucien M.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9249">Depressions--1929.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9250">College graduates--Employment--United States.</subject>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -88,7 +88,7 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder">1</container>
+            <container type="folder" label="Folder [503475542493980071740168]">1</container>
             <unittitle>Correspondence, football programs, ephemera</unittitle>
           </did>
         </c02>

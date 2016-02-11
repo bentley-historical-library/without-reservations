@@ -24,6 +24,7 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
+    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
@@ -35,10 +36,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">Vogel's &amp; Wurster's (Chelsea, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/20832">Vogel's &amp; Wurster's (Chelsea, Mich.)</corpname>
       </origination>
-      <unittitle encodinganalog="245">Vogel's &amp; Wurster's records <unitdate type="inclusive" encodinganalog="245$f" normal="1883/1959">1883-1959</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2011135 BB Outsize</unitid>
+      <unittitle encodinganalog="245">Vogel's &amp; Wurster's records</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1883/1959">1883-1959</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2011135 BB Outsize</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <physdesc altrender="whole">
         <extent altrender="materialtype spaceoccupied">9 oversize volumes</extent>
@@ -77,10 +77,10 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">H.S. Holmes Mercantile Company (Chelsea, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Vogel's &amp; Wurster's (Chelsea, Mich.)</corpname>
-        <subject source="lcsh" encodinganalog="650">Clothing trade--Michigan--Chelsea.</subject>
-        <geogname source="lcsh" encodinganalog="651">Chelsea (Mich.)--Commerce.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22838">H.S. Holmes Mercantile Company (Chelsea, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20832">Vogel's &amp; Wurster's (Chelsea, Mich.)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/10585">Clothing trade--Michigan--Chelsea.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/3009">Chelsea (Mich.)--Commerce.</geogname>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -90,57 +90,50 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="volume" label="Volume">1</container>
-            <unittitle>Ledger <unitdate type="inclusive" normal="1933/1959">1933-1959</unitdate></unittitle>
-          </did>
+            <container type="volume" label="Volume [120274514677062887]">1</container>
+            <unittitle>Ledger</unittitle><unitdate type="inclusive" normal="1933/1959">1933-1959</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Volume">2</container>
-            <unittitle>Journal <unitdate type="inclusive" normal="1944/1952">1944-1952</unitdate></unittitle>
-          </did>
+            <container type="volume" label="Volume [40122654847920969706765]">2</container>
+            <unittitle>Journal</unittitle><unitdate type="inclusive" normal="1944/1952">1944-1952</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Volume">3</container>
-            <unittitle>Daybook <unitdate type="inclusive" normal="1947/1951">1947-1951</unitdate></unittitle>
-          </did>
+            <container type="volume" label="Volume [38234008456966351]">3</container>
+            <unittitle>Daybook</unittitle><unitdate type="inclusive" normal="1947/1951">1947-1951</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Volume">4</container>
-            <unittitle>H.S. Holmes cashbook <unitdate type="inclusive" normal="1913/1914">1913-1914</unitdate></unittitle>
-          </did>
+            <container type="volume" label="Volume [5462742584836220]">4</container>
+            <unittitle>H.S. Holmes cashbook</unittitle><unitdate type="inclusive" normal="1913/1914">1913-1914</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Volume">5</container>
-            <unittitle>H.S. Holmes ledger <unitdate type="inclusive" normal="1887/1888">1887-1888</unitdate></unittitle>
-          </did>
+            <container type="volume" label="Volume [3532260407064722751]">5</container>
+            <unittitle>H.S. Holmes ledger</unittitle><unitdate type="inclusive" normal="1887/1888">1887-1888</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Volume">6</container>
-            <unittitle>H.S. Holmes salesbook <unitdate type="inclusive" normal="1909/1912">1909-1912</unitdate></unittitle>
-          </did>
+            <container type="volume" label="Volume [2274099564356474172900]">6</container>
+            <unittitle>H.S. Holmes salesbook</unittitle><unitdate type="inclusive" normal="1909/1912">1909-1912</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Volume">7</container>
+            <container type="volume" label="Volume [1853458441619226534399660]">7</container>
             <unittitle>H.S. Holmes index</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Volume">8</container>
+            <container type="volume" label="Volume [4194895041407349347968]">8</container>
             <unittitle>H.S. Holmes index</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Volume">9</container>
-            <unittitle>H.S. Holmes stockbook <unitdate type="inclusive" normal="1883/1904">1883-1904</unitdate></unittitle>
-          </did>
+            <container type="volume" label="Volume [130974292106924840]">9</container>
+            <unittitle>H.S. Holmes stockbook</unittitle><unitdate type="inclusive" normal="1883/1904">1883-1904</unitdate></did>
         </c02>
       </c01>
     </dsc>

@@ -35,6 +35,7 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
+    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
@@ -46,10 +47,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Lemon, William Philip, 1882-1967.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32073">Lemon, William Philip, 1882-1967.</persname>
       </origination>
-      <unittitle encodinganalog="245">William P. Lemon papers <unitdate type="inclusive" encodinganalog="245$f" normal="1908/1966">1908-1966</unitdate></unittitle>
-      <abstract>Presbyterian clergyman, longtime pastor of the First Presbyterian Church of Ann Arbor, Michigan, 1934-1951; correspondence, copies of essays and book reviews written for religious periodicals, sermons and addresses, mimeographed study notes of talks given in Detroit before the Men's Club for the Study of Religion, religious and literary notebooks, and travel journals.</abstract>
+      <unittitle encodinganalog="245">William P. Lemon papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1908/1966">1908-1966</unitdate><abstract>Presbyterian clergyman, longtime pastor of the First Presbyterian Church of Ann Arbor, Michigan, 1934-1951; correspondence, copies of essays and book reviews written for religious periodicals, sermons and addresses, mimeographed study notes of talks given in Detroit before the Men's Club for the Study of Religion, religious and literary notebooks, and travel journals.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">851727 Aa 2</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physloc>Offsite storage for boxes 1-12; prior notification required for access.</physloc>
@@ -87,39 +87,39 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Andrew Church (Minneapolis, Minn.)</corpname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html">Ann Arbor (Mich.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Calvary Presbyterian Church (Newark, N.J.)</corpname>
-        <subject source="lcsh" encodinganalog="650">Clergy--United States.</subject>
-        <subject source="lcsh" encodinganalog="650">Clergy--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">First Presbyterian Church (Ann Arbor, Mich.)</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n94005455">First Presbyterian Church (Iowa City, Iowa)</corpname>
-        <geogname source="lcsh" encodinganalog="651">Iowa City (Iowa)</geogname>
-        <persname source="lcnaf" encodinganalog="600">Lemon, William Philip, 1882-1967.</persname>
-        <corpname source="lcnaf" encodinganalog="610">Men's Club for the Study of Religion (Detroit, Mich.)</corpname>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79003965.html">Minneapolis (Minn.)</geogname>
-        <geogname source="lcsh" encodinganalog="651">Newark (N.J.)</geogname>
-        <corpname source="lcnaf" encodinganalog="610">Presbyterian Church.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Presbyterian Church--Michigan--Ann Arbor.</corpname>
-        <subject source="lcsh" encodinganalog="650">Travelers.</subject>
-        <subject source="lcsh" encodinganalog="650">Voyages and travels.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18432">Andrew Church (Minneapolis, Minn.)</corpname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html" ref="/subjects/860">Ann Arbor (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18387">Calvary Presbyterian Church (Newark, N.J.)</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6394">Clergy--United States.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6466">Clergy--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18768">First Presbyterian Church (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n94005455" ref="/agents/corporate_entities/19972">First Presbyterian Church (Iowa City, Iowa)</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2199">Iowa City (Iowa)</geogname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32073">Lemon, William Philip, 1882-1967.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/17433">Men's Club for the Study of Religion (Detroit, Mich.)</corpname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79003965.html" ref="/subjects/2200">Minneapolis (Minn.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2201">Newark (N.J.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19977">Presbyterian Church.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19977">Presbyterian Church--Michigan--Ann Arbor.<term type="geographic">Michigan</term><term type="geographic">Ann Arbor.</term></corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6035">Travelers.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6034">Voyages and travels.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <corpname source="lcnaf" encodinganalog="610">Andrews Presbyterian Church (Minneapolis, Minn.)</corpname>
-        <subject source="lctgm" encodinganalog="650">Christmas.</subject>
-        <subject source="lctgm" encodinganalog="650">Clergymen.</subject>
-        <subject source="lctgm" encodinganalog="650">Costumes.</subject>
-        <subject source="lctgm" encodinganalog="650">Easter.</subject>
-        <persname source="lcnaf" encodinganalog="600">Lemon, William Philip, 1882-1967.</persname>
-        <subject source="lctgm" encodinganalog="650">Pageants.</subject>
-        <subject source="lctgm" encodinganalog="650">Tableaux.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21656">Andrews Presbyterian Church (Minneapolis, Minn.)</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4634">Christmas.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3691">Clergymen.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3575">Costumes.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4635">Easter.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/32073">Lemon, William Philip, 1882-1967.</persname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3577">Pageants.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4636">Tableaux.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Diaries.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="aat" encodinganalog="655">Sermons.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3146">Diaries.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3137">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3187">Sermons.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -129,13 +129,13 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [312491884352912154194]">1</container>
             <unittitle>Biographical and personal material</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [312491884352912154194]">1</container>
             <unittitle>Papers re. Ann Arbor First Presbyterian Church</unittitle>
           </did>
         </c02>
@@ -146,73 +146,48 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle><unitdate>Undated</unitdate> and fragmentary</unittitle>
-          </did>
+            <container type="box" label="Box [312491884352912154194]">1</container>
+            <unittitle>And fragmentary</unittitle><unitdate>Undated</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1913/1930">1913-1930</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [312491884352912154194]">1</container>
+            <unitdate type="inclusive" normal="1913/1930">1913-1930</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1931/1940">1931-1940</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [312491884352912154194]">1</container>
+            <unitdate type="inclusive" normal="1931/1940">1931-1940</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1941/1945">1941-1945</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [312491884352912154194]">1</container>
+            <unitdate type="inclusive" normal="1941/1945">1941-1945</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1946/1950">1946-1950</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [312491884352912154194]">1</container>
+            <unitdate type="inclusive" normal="1946/1950">1946-1950</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1951">1951</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [312491884352912154194]">1</container>
+            <unitdate type="inclusive" normal="1951">1951</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1952">1952</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [312491884352912154194]">1</container>
+            <unitdate type="inclusive" normal="1952">1952</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1953/1960">1953-1960</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [312491884352912154194]">1</container>
+            <unitdate type="inclusive" normal="1953/1960">1953-1960</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1961/1966">1961-1966</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [312491884352912154194]">1</container>
+            <unitdate type="inclusive" normal="1961/1966">1961-1966</unitdate></did>
         </c02>
       </c01>
       <c01 level="series">
@@ -221,13 +196,13 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [312491884352912154194]">1</container>
             <unittitle>Student papers of W.P. Lemon</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [312491884352912154194]">1</container>
             <unittitle>Published writings</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -236,37 +211,35 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>Letters to Editor of <title render="italic">Christian Century</title> written under the pseudonym of Quintus Quiz, <unitdate type="inclusive" normal="1931/1932">1931-1932</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [312491884352912154194]">1</container>
+            <unittitle>Letters to Editor of <title render="italic">Christian Century</title> written under the pseudonym of Quintus Quiz</unittitle><unitdate type="inclusive" normal="1931/1932">1931-1932</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>Letters to Editor of <title render="italic">Christian Century</title> written under the pseudonym of Quintus Quiz, <unitdate type="inclusive" normal="1933/1935">1933-1935</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [312491884352912154194]">1</container>
+            <unittitle>Letters to Editor of <title render="italic">Christian Century</title> written under the pseudonym of Quintus Quiz</unittitle><unitdate type="inclusive" normal="1933/1935">1933-1935</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [312491884352912154194]">1</container>
             <unittitle>Quintus Quiz drafts and related correspondence</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [312491884352912154194]">1</container>
             <unittitle>Manuscripts of articles written for <title render="italic">Monday Morning</title></unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [312491884352912154194]">1</container>
             <unittitle>Poetry</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [312491884352912154194]">1</container>
             <unittitle>Manuscripts of book reviews</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
@@ -275,7 +248,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [312491884352912154194]">1</container>
             <unittitle>Manuscripts of book reviews written for <title render="italic">Monday Morning</title> and <title render="italic">The Presbyterian Tribune</title></unittitle>
           </did>
         </c02>
@@ -285,13 +258,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [312491884352912154194]">1</container>
               <unittitle>Miscellaneous periodicals</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [312491884352912154194]">1</container>
               <unittitle>
                 <title render="italic">The Presbyterian Tribune</title>
               </unittitle>
@@ -302,7 +275,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [312491884352912154194]">1</container>
               <unittitle>
                 <title render="italic">Christian Century</title>
               </unittitle>
@@ -314,30 +287,30 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">2</container>
+            <container type="box" label="Box [030840971176266272]">2</container>
             <unittitle>Manuscript of essays</unittitle>
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [030840971176266272]">2</container>
               <unittitle>"Religion in Account with Life"</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [030840971176266272]">2</container>
               <unittitle>"The Preacher as a Man of Letters"</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [030840971176266272]">2</container>
               <unittitle>"How to Know the Bible"</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [030840971176266272]">2</container>
               <unittitle>"The Letter that Moved the World"</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 volumes</extent>
@@ -349,19 +322,19 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [030840971176266272]">2</container>
               <unittitle>"The Letter that Moved the World" (Background and miscellaneous material)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [030840971176266272]">2</container>
               <unittitle>"Religion in Account with Economics"</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [030840971176266272]">2</container>
               <unittitle>"Religion and Science Down to Date"</unittitle>
             </did>
           </c03>
@@ -373,25 +346,25 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">2</container>
+            <container type="box" label="Box [030840971176266272]">2</container>
             <unittitle>Notices of speeches and program of Lemon appearances</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">2</container>
+            <container type="box" label="Box [030840971176266272]">2</container>
             <unittitle>Printed sermons</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">2</container>
+            <container type="box" label="Box [030840971176266272]">2</container>
             <unittitle>News clippings of sermons and speeches</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">2</container>
+            <container type="box" label="Box [030840971176266272]">2</container>
             <unittitle>Sermons and addresses on education</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
@@ -400,13 +373,13 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">2</container>
+            <container type="box" label="Box [030840971176266272]">2</container>
             <unittitle>Speeches and articles largely concerning Presbyterianism</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">2</container>
+            <container type="box" label="Box [030840971176266272]">2</container>
             <unittitle>Sermons and sermon notes largely concerning communion, Thanksgiving, food, blood, etc.</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -422,110 +395,74 @@
           </odd>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1918/1922">1918-1922</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [030840971176266272]">2</container>
+              <unitdate type="inclusive" normal="1918/1922">1918-1922</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1923">1923</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [030840971176266272]">2</container>
+              <unitdate type="inclusive" normal="1923">1923</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1924">1924</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [030840971176266272]">2</container>
+              <unitdate type="inclusive" normal="1924">1924</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1925">1925</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [030840971176266272]">2</container>
+              <unitdate type="inclusive" normal="1925">1925</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1926/1927">1926-1927</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [030840971176266272]">2</container>
+              <unitdate type="inclusive" normal="1926/1927">1926-1927</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1928/1930">1928-1930</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [030840971176266272]">2</container>
+              <unitdate type="inclusive" normal="1928/1930">1928-1930</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1931/1932">1931-1932</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [030840971176266272]">2</container>
+              <unitdate type="inclusive" normal="1931/1932">1931-1932</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1933/1934">1933-1934</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [030840971176266272]">2</container>
+              <unitdate type="inclusive" normal="1933/1934">1933-1934</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1935/1936">1935-1936</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [030840971176266272]">2</container>
+              <unitdate type="inclusive" normal="1935/1936">1935-1936</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1937/1938">1937-1938</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [030840971176266272]">2</container>
+              <unitdate type="inclusive" normal="1937/1938">1937-1938</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1939/1940">1939-1940</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [030840971176266272]">2</container>
+              <unitdate type="inclusive" normal="1939/1940">1939-1940</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1941/1947">1941-1947</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [030840971176266272]">2</container>
+              <unitdate type="inclusive" normal="1941/1947">1941-1947</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">2</container>
+            <container type="box" label="Box [030840971176266272]">2</container>
             <unittitle>Sermons largely relating to Memorial Day, Armistice Day, and the Unknown Soldier</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">3</container>
+            <container type="box" label="Box [9354444368041332]">3</container>
             <unittitle>Christmas sermons and addresses</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">9 folders</extent>
@@ -534,7 +471,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">3</container>
+            <container type="box" label="Box [9354444368041332]">3</container>
             <unittitle>Sermons and addresses (General)</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">14 folders</extent>
@@ -543,7 +480,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">3</container>
+            <container type="box" label="Box [9354444368041332]">3</container>
             <unittitle>Sermons and sermon notes</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">16 folders</extent>
@@ -552,9 +489,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">4</container>
-            <unittitle>Lectures on Biblical Literature given at the University of Minnesota <unitdate type="inclusive" normal="1923">1923</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [716794892960335430]">4</container>
+            <unittitle>Lectures on Biblical Literature given at the University of Minnesota</unittitle><unitdate type="inclusive" normal="1923">1923</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
             </physdesc>
           </did>
@@ -565,15 +501,14 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">4</container>
+              <container type="box" label="Box [716794892960335430]">4</container>
               <unittitle>Miscellanea</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">4</container>
-              <unittitle>Letters of appreciation <unitdate type="inclusive" normal="1941">1941</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [716794892960335430]">4</container>
+              <unittitle>Letters of appreciation</unittitle><unitdate type="inclusive" normal="1941">1941</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -581,7 +516,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">4</container>
+            <container type="box" label="Box [716794892960335430]">4</container>
             <unittitle>Mimeographed lecture notes (General)</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">7 folders</extent>
@@ -590,37 +525,37 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">4</container>
+            <container type="box" label="Box [716794892960335430]">4</container>
             <unittitle>Mimeographed lecture notes (comparative religions)</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">4</container>
+            <container type="box" label="Box [716794892960335430]">4</container>
             <unittitle>Mimeographed lecture notes (Jesus)</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">4</container>
+            <container type="box" label="Box [716794892960335430]">4</container>
             <unittitle>Mimeographed lecture notes (God)</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">4</container>
+            <container type="box" label="Box [716794892960335430]">4</container>
             <unittitle>Mimeographed lecture notes ("What is Christianity?")</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">4</container>
+            <container type="box" label="Box [716794892960335430]">4</container>
             <unittitle>Booklet containing mimeographed lecture notes on the Bible entitled, "Toward the Understanding of the Bible"</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">4</container>
+            <container type="box" label="Box [716794892960335430]">4</container>
             <unittitle>Mimeographed lecture notes on the Bible</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -629,22 +564,13 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">13</container>
+            <container type="box" label="Box [18308741644423313134]">13</container>
             <unittitle>Notebooks containing sermons</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">14</container>
-            <unittitle>Notebooks containing sermons</unittitle>
-          </did>
-          <odd>
-            <p>(continued)</p>
-          </odd>
-        </c02>
-        <c02 level="file">
-          <did>
-            <container type="box" label="Box">15</container>
+            <container type="box" label="Box [78142895834748992759900]">14</container>
             <unittitle>Notebooks containing sermons</unittitle>
           </did>
           <odd>
@@ -653,7 +579,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">16</container>
+            <container type="box" label="Box [2745420548599467112333]">15</container>
             <unittitle>Notebooks containing sermons</unittitle>
           </did>
           <odd>
@@ -662,7 +588,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">17</container>
+            <container type="box" label="Box [26765924140672018595]">16</container>
             <unittitle>Notebooks containing sermons</unittitle>
           </did>
           <odd>
@@ -671,7 +597,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">18</container>
+            <container type="box" label="Box [075263194527630616775]">17</container>
             <unittitle>Notebooks containing sermons</unittitle>
           </did>
           <odd>
@@ -680,54 +606,63 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">4</container>
+            <container type="box" label="Box [098742477435581743493583969]">18</container>
+            <unittitle>Notebooks containing sermons</unittitle>
+          </did>
+          <odd>
+            <p>(continued)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box [716794892960335430]">4</container>
             <unittitle>Church plays and pageants</unittitle>
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">4</container>
+              <container type="box" label="Box [716794892960335430]">4</container>
               <unittitle>"God's Foreigner"</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">4</container>
+              <container type="box" label="Box [716794892960335430]">4</container>
               <unittitle>"Risen In-Deed"</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">4</container>
+              <container type="box" label="Box [716794892960335430]">4</container>
               <unittitle>"East and West; a pageant of Pilgrims"</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">4</container>
+              <container type="box" label="Box [716794892960335430]">4</container>
               <unittitle>"Bread of Life" (Thanksgiving pageant)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">4</container>
+              <container type="box" label="Box [716794892960335430]">4</container>
               <unittitle>"Out of Dead Hopes" (Thanksgiving pageant)</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">4</container>
+              <container type="box" label="Box [716794892960335430]">4</container>
               <unittitle>"Bible of the World"</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">4</container>
+              <container type="box" label="Box [716794892960335430]">4</container>
               <unittitle>Christmas pageants</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">4</container>
+              <container type="box" label="Box [716794892960335430]">4</container>
               <unittitle>Miscellaneous</unittitle>
             </did>
           </c03>
@@ -742,7 +677,7 @@
         </odd>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">4</container>
+            <container type="box" label="Box [716794892960335430]">4</container>
             <unittitle>Old Testament</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
@@ -751,85 +686,85 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">4</container>
+            <container type="box" label="Box [716794892960335430]">4</container>
             <unittitle>Song of Solomon</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">4</container>
+            <container type="box" label="Box [716794892960335430]">4</container>
             <unittitle>Isaiah</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">4</container>
+            <container type="box" label="Box [716794892960335430]">4</container>
             <unittitle>Jeremiah</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">4</container>
+            <container type="box" label="Box [716794892960335430]">4</container>
             <unittitle>Genesis</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">4</container>
+            <container type="box" label="Box [716794892960335430]">4</container>
             <unittitle>Exodus and Leviticus</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">4</container>
+            <container type="box" label="Box [716794892960335430]">4</container>
             <unittitle>Numbers and Deuteronomy</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">4</container>
+            <container type="box" label="Box [716794892960335430]">4</container>
             <unittitle>Joshua, Judges, and Ruth</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">4</container>
+            <container type="box" label="Box [716794892960335430]">4</container>
             <unittitle>First and Second Samuel</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">4</container>
+            <container type="box" label="Box [716794892960335430]">4</container>
             <unittitle>First and Second Kings</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">4</container>
+            <container type="box" label="Box [716794892960335430]">4</container>
             <unittitle>Chronicles, Ezra, and Nehemiah</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">4</container>
+            <container type="box" label="Box [716794892960335430]">4</container>
             <unittitle>Esther</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">4</container>
+            <container type="box" label="Box [716794892960335430]">4</container>
             <unittitle>Psalms, Proverbs, Ecclesiastes</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">4</container>
+            <container type="box" label="Box [716794892960335430]">4</container>
             <unittitle>Lamentations</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">4</container>
+            <container type="box" label="Box [716794892960335430]">4</container>
             <unittitle>New Testament</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">3 folders</extent>
@@ -838,7 +773,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [06144370641583370119799]">5</container>
             <unittitle>Israel and the Bible</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 folders</extent>
@@ -847,7 +782,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [06144370641583370119799]">5</container>
             <unittitle>Religions of the World</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">9 folders</extent>
@@ -856,13 +791,13 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [06144370641583370119799]">5</container>
             <unittitle>Existentialism</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [06144370641583370119799]">5</container>
             <unittitle>Egypt</unittitle>
           </did>
         </c02>
@@ -876,55 +811,55 @@
         </odd>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [06144370641583370119799]">5</container>
             <unittitle>Advent and Christmas</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [06144370641583370119799]">5</container>
             <unittitle>Major Prophets (Isaiah, Jeremiah, Ezekiel)</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [06144370641583370119799]">5</container>
             <unittitle>Minor Prophets</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [06144370641583370119799]">5</container>
             <unittitle>Great Scriptural Passages</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [06144370641583370119799]">5</container>
             <unittitle>Life of Christ</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [06144370641583370119799]">5</container>
             <unittitle>Life of Peter</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [06144370641583370119799]">5</container>
             <unittitle>Scriptures for the Church Year</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [06144370641583370119799]">5</container>
             <unittitle>Special Scripture Readings</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">5</container>
+            <container type="box" label="Box [06144370641583370119799]">5</container>
             <unittitle>Miscellanea</unittitle>
           </did>
         </c02>
@@ -938,55 +873,55 @@
         </odd>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [457746536420377022287959]">6</container>
             <unittitle>Drama</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [457746536420377022287959]">6</container>
             <unittitle>Greek classics</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [457746536420377022287959]">6</container>
             <unittitle>J.M. Barrie and G.B. Shaw</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [457746536420377022287959]">6</container>
             <unittitle>T.S. Eliot and John Masefield</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [457746536420377022287959]">6</container>
             <unittitle>John Milton</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [457746536420377022287959]">6</container>
             <unittitle>Thomas Carlyle</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [457746536420377022287959]">6</container>
             <unittitle>Alfred Tennyson</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [457746536420377022287959]">6</container>
             <unittitle>Arthurian Legend</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [457746536420377022287959]">6</container>
             <unittitle>Robert Browning</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -995,55 +930,55 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [457746536420377022287959]">6</container>
             <unittitle>Dostoievsky</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [457746536420377022287959]">6</container>
             <unittitle>Charles Dickens</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [457746536420377022287959]">6</container>
             <unittitle>Frederick Goethe</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [457746536420377022287959]">6</container>
             <unittitle>Dante</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [457746536420377022287959]">6</container>
             <unittitle>William Shakespeare</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [457746536420377022287959]">6</container>
             <unittitle>Miscellaneous literary essays</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [457746536420377022287959]">6</container>
             <unittitle>Essay series: "Literature in account with</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [457746536420377022287959]">6</container>
             <unittitle>Essay series: "Literature and the Christian Religion"</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
+            <container type="box" label="Box [457746536420377022287959]">6</container>
             <unittitle>Mimeographed literary notes</unittitle>
           </did>
         </c02>
@@ -1054,19 +989,17 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">6</container>
-            <unittitle>Personal scrapbook kept while in Wales, South Dakota, and Newark, New Jersey <unitdate type="inclusive" normal="1902/1915">1902-1915</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [457746536420377022287959]">6</container>
+            <unittitle>Personal scrapbook kept while in Wales, South Dakota, and Newark, New Jersey</unittitle><unitdate type="inclusive" normal="1902/1915">1902-1915</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">7</container>
-            <unittitle>Scrapbook containing correspondence, clippings <genreform source="aat" normal="Photographs">photographs</genreform>, and biographical miscellanea, <unitdate type="inclusive" normal="1877/1978">1877-1978</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6128148881341250]">7</container>
+            <unittitle>Scrapbook containing correspondence, clippings <genreform source="aat" normal="Photographs">photographs</genreform>, and biographical miscellanea</unittitle><unitdate type="inclusive" normal="1877/1978">1877-1978</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">7</container>
+            <container type="box" label="Box [6128148881341250]">7</container>
             <unittitle>Loose items from scrapbook</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
@@ -1075,7 +1008,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">7</container>
+            <container type="box" label="Box [6128148881341250]">7</container>
             <unittitle>Notebook containing brief <genreform source="aat" normal="Diaries">diary</genreform> entries, clippings, photographs, and biographical miscellanea</unittitle>
           </did>
         </c02>
@@ -1085,35 +1018,31 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">7</container>
-              <unittitle>Europe <unitdate type="inclusive" normal="1908">1908</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [6128148881341250]">7</container>
+              <unittitle>Europe</unittitle><unitdate type="inclusive" normal="1908">1908</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">7</container>
-              <unittitle>Alaska <unitdate type="inclusive" normal="1934">1934</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [6128148881341250]">7</container>
+              <unittitle>Alaska</unittitle><unitdate type="inclusive" normal="1934">1934</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">7</container>
-              <unittitle>Europe <unitdate type="inclusive" normal="1936">1936</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [6128148881341250]">7</container>
+              <unittitle>Europe</unittitle><unitdate type="inclusive" normal="1936">1936</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">7</container>
-            <unittitle>Report of the Conference of the Association of Presbyterian University Pastors at Westminster Lodge, Saugatuck, Michigan <unitdate type="inclusive" normal="1941-06-23/1941-06-27">June 23-27, 1941</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [6128148881341250]">7</container>
+            <unittitle>Report of the Conference of the Association of Presbyterian University Pastors at Westminster Lodge, Saugatuck, Michigan</unittitle><unitdate type="inclusive" normal="1941-06-23/1941-06-27">June 23-27, 1941</unitdate></did>
           <odd>
             <p>(include study notes prepared by W.P. Lemon)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">7</container>
+            <container type="box" label="Box [6128148881341250]">7</container>
             <unittitle>
               <genreform source="aat" normal="Photographs">Photographs</genreform>
             </unittitle>
@@ -1121,28 +1050,19 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">7</container>
+            <container type="box" label="Box [6128148881341250]">7</container>
             <unittitle>Notebooks containing study and research materials on the Bible</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">8</container>
+            <container type="box" label="Box [1298741434739044887071]">8</container>
             <unittitle>Notebooks containing study and research materials on the Bible</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">9</container>
-            <unittitle>Notebooks containing study and research materials on the Bible</unittitle>
-          </did>
-          <odd>
-            <p>(continued)</p>
-          </odd>
-        </c02>
-        <c02 level="file">
-          <did>
-            <container type="box" label="Box">10</container>
+            <container type="box" label="Box [169414844409264558790]">9</container>
             <unittitle>Notebooks containing study and research materials on the Bible</unittitle>
           </did>
           <odd>
@@ -1151,13 +1071,22 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">11</container>
+            <container type="box" label="Box [0686746097614957178]">10</container>
+            <unittitle>Notebooks containing study and research materials on the Bible</unittitle>
+          </did>
+          <odd>
+            <p>(continued)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box [106049243719973117962]">11</container>
             <unittitle>Journals containing clippings on important events of the day</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">12</container>
+            <container type="box" label="Box [49650373841604435278]">12</container>
             <unittitle>Wall calendars containing notations on his daily activities</unittitle>
           </did>
         </c02>

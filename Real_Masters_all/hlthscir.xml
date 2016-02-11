@@ -23,6 +23,7 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
+    <classification ref="/repositories/2/classifications/2"/>
   </eadheader>
   <frontmatter>
     <titlepage>
@@ -34,10 +35,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Health Science Relations.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/19566">University of Michigan. Health Science Relations.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Health Science Relations (University of Michigan) scrapbooks <unitdate type="inclusive" encodinganalog="245$f" normal="1958/1974">1958-1974</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">87176 BImu Bimu C501 2</unitid>
+      <unittitle encodinganalog="245">Health Science Relations (University of Michigan) scrapbooks</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1958/1974">1958-1974</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">87176 BImu Bimu C501 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Scrapbooks, 1958-1974, of Health Science Relations of the University of Michigan, agency concerned with the distribution of news relating to health care delivery and research. Include clippings of news stories relating, in part, to the University of Michigan Medical School and Hospital.</abstract>
       <physdesc altrender="part">
@@ -80,13 +80,13 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Medicine--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151">University of Michigan. Medical School.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. University Hospital.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5720">Medicine--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151" ref="/agents/corporate_entities/20391">University of Michigan. Medical School.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20510">University of Michigan. University Hospital.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Scrapbooks.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Scrapbooks.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -96,71 +96,47 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1958/1960">1958-1960</unitdate>
-            </unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [1419545099641673]">1</container>
+            <unitdate type="inclusive" normal="1958/1960">1958-1960</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume">2</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1961/1963">1961-1963</unitdate>
-            </unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [5267914038233714]">2</container>
+            <unitdate type="inclusive" normal="1961/1963">1961-1963</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume">3</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1963/1965">1963-1965</unitdate>
-            </unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [1355454274899055153]">3</container>
+            <unitdate type="inclusive" normal="1963/1965">1963-1965</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume">4</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1965/1969">1965-1969</unitdate>
-            </unittitle>
-          </did>
+            <container type="volume" label="Oversize Volume [250317093469041118361]">4</container>
+            <unitdate type="inclusive" normal="1965/1969">1965-1969</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [420894492975442901]">1</container>
+            <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [420894492975442901]">1</container>
+            <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [420894492975442901]">1</container>
+            <unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>
-              <unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate>
-            </unittitle>
-          </did>
+            <container type="box" label="Box [420894492975442901]">1</container>
+            <unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="volume" label="Oversize Volume">5</container>
+            <container type="volume" label="Oversize Volume [880029578424520989166]">5</container>
             <unittitle>Regarding Services of Health Science Relations</unittitle>
           </did>
         </c02>

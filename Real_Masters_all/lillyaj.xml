@@ -28,6 +28,7 @@
         <item>Original encoding.</item>
       </change>
     </revisiondesc>
+    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
@@ -39,10 +40,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Lilly, Albert John.</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32808">Lilly, Albert John.</persname>
       </origination>
-      <unittitle encodinganalog="245">Albert Lilly photograph collection <unitdate type="inclusive" encodinganalog="245$f" normal="1918/1919">1918-1919</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2008070 Aa 2</unitid>
+      <unittitle encodinganalog="245">Albert Lilly photograph collection</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1918/1919">1918-1919</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2008070 Aa 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Photograph collection of a soldier with the 310th U.S. Engineers, serving near Archangel, Russia in the Allied intervention in Russia, 1918-1919, the "Polar Bear Expedition."</abstract>
       <physdesc altrender="part">
@@ -89,21 +89,21 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <geogname source="lcnaf" encodinganalog="651">Arkhangel'sk (Russia)</geogname>
-        <geogname source="lcnaf" encodinganalog="651">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
-        <corpname source="lcnaf" encodinganalog="610">United States. Army. Engineer Regiment, 310th.</corpname>
-        <subject source="lctgm" encodinganalog="650">Forts and fortifications--Russia (Federation)</subject>
-        <subject source="lctgm" encodinganalog="650">Military art and science.</subject>
-        <subject source="lctgm" encodinganalog="650">Military life.</subject>
-        <subject source="lctgm" encodinganalog="650">Soldiers--American--Russia (Federation)</subject>
-        <subject source="lctgm" encodinganalog="650">Railroads--Russia (Federation)</subject>
-        <subject source="lctgm" encodinganalog="650">Ships.</subject>
-        <subject encodinganalog="690" source="local" authfilenumber="http://id.loc.gov/authorities/names/n2008059426">Polar Bear Expedition.</subject>
+        <geogname source="lcnaf" encodinganalog="651" ref="/subjects/773">Arkhangel'sk (Russia)</geogname>
+        <geogname source="lcnaf" encodinganalog="651" ref="/subjects/760">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18859">United States. Army. Engineer Regiment, 310th.</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4652">Forts and fortifications--Russia (Federation)</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3723">Military art and science.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4166">Military life.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3720">Soldiers--American--Russia (Federation)</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4167">Railroads--Russia (Federation)</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3868">Ships.</subject>
+        <subject encodinganalog="690" source="local" authfilenumber="http://id.loc.gov/authorities/names/n2008059426" ref="/subjects/5619">Polar Bear Expedition.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">DVDs.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3156">DVDs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3137">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -113,13 +113,13 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder">1</container>
+            <container type="folder" label="Folder [867424905450598100822695]">1</container>
             <unittitle>Photograph album</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder">2</container>
+            <container type="folder" label="Folder [638951247842848268281]">2</container>
             <unittitle>DVD</unittitle>
           </did>
         </c02>
@@ -130,7 +130,7 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder">3</container>
+            <container type="folder" label="Folder [1275754349075869856936]">3</container>
             <unittitle>Biographical sketch</unittitle>
           </did>
         </c02>

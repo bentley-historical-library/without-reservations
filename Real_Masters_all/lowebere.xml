@@ -31,6 +31,7 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
+    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
@@ -42,10 +43,9 @@
   <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n85274911">Lowe, Berenice Bryant.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n85274911" ref="/agents/people/28500">Lowe, Berenice Bryant.</persname>
       </origination>
-      <unittitle encodinganalog="245">Berenice Bryant Lowe Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1880/1989" certainty="approximate">1880s-1980s</unitdate></unittitle>
-      <abstract>Local historian and collector of historical manuscripts. Materials concerning Sojourner Truth, Black abolitionist who settled in Battle Creek, Michigan in 1857; miscellaneous letters of John G. Whittier, George W. Cable; correspondence of Lowe with writer Gerald Carson; diaries of 1963 trip to Europe; and miscellanea and photographs.</abstract>
+      <unittitle encodinganalog="245">Berenice Bryant Lowe Papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1880/1989" certainty="approximate">1880s-1980s</unitdate><abstract>Local historian and collector of historical manuscripts. Materials concerning Sojourner Truth, Black abolitionist who settled in Battle Creek, Michigan in 1857; miscellaneous letters of John G. Whittier, George W. Cable; correspondence of Lowe with writer Gerald Carson; diaries of 1963 trip to Europe; and miscellanea and photographs.</abstract>
       <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">851770 Aa 2 Ac</unitid>
       <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
       <physdesc altrender="part">
@@ -89,36 +89,36 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Abolitionists--Michigan--Battle Creek.</subject>
-        <subject source="lcsh" encodinganalog="650">African Americans--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Antislavery movements--United States.</subject>
-        <subject source="lcsh" encodinganalog="650">Authors, American--Michigan.</subject>
-        <geogname source="lcsh" encodinganalog="651">Battle Creek (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85274911">Lowe, Berenice Bryant.</persname>
-        <persname source="lcnaf" encodinganalog="600">Truth, Sojourner, d. 1883.</persname>
-        <subject source="lcsh" encodinganalog="650">Women abolitionists--Michigan--Battle Creek.</subject>
-        <subject source="lcsh" encodinganalog="650">Women--Michigan--Battle Creek.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8888">Abolitionists--Michigan--Battle Creek.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5781">African Americans--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5806">Antislavery movements--United States.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6096">Authors, American--Michigan.</subject>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/934">Battle Creek (Mich.)</geogname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85274911" ref="/agents/people/28500">Lowe, Berenice Bryant.</persname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35617">Truth, Sojourner, d. 1883.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8889">Women abolitionists--Michigan--Battle Creek.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8064">Women--Michigan--Battle Creek.</subject>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Material:</head>
-        <corpname source="lcnaf" encodinganalog="610">Delta Chi Fraternity. University of Michigan Chapter.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Phi Kappa Psi. Michigan Alpha Chapter (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">Triangles (University of Michigan)</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Junior Hop.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs--1911-1920.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Student housing.</corpname>
-        <persname source="lcnaf" encodinganalog="600">Truth, Sojourner, d. 1883.</persname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19730">Delta Chi Fraternity. University of Michigan Chapter.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21426">Phi Kappa Psi. Michigan Alpha Chapter (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21911">Triangles (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22533">University of Michigan. Junior Hop.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Students--Social life and customs--1911-1920.<term type="topical">Students</term><term type="topical">Social life and customs</term><term type="temporal">1911-1920.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Student housing.<term type="topical">Student housing.</term></corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35617">Truth, Sojourner, d. 1883.</persname>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79076138">Cable, George Washington, 1844-1925.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2007026295">Carson, Gerald.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80034928">Whittier, John Greenleaf, 1807-1892.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79076138" ref="/agents/people/28769">Cable, George Washington, 1844-1925.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2007026295" ref="/agents/people/35007">Carson, Gerald.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80034928" ref="/agents/people/27305">Whittier, John Greenleaf, 1807-1892.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Diaries.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3146">Diaries.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3137">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -128,8 +128,8 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <container type="folder" label="Folder">1</container>
+            <container type="box" label="Box [651541578454588625382170]" id="7f90a133-4eca-4b0b-b767-210bda572b80">1</container>
+            <container type="folder" label="Folder" parent="7f90a133-4eca-4b0b-b767-210bda572b80">1</container>
             <unittitle>Biographical information compiled by Berenice Lowe</unittitle>
           </did>
         </c02>
@@ -139,8 +139,8 @@
           </did>
           <c03 level="item">
             <did>
-              <container type="box" label="Box">1</container>
-              <container type="folder" label="Folder">2</container>
+              <container type="box" label="Box [651541578454588625382170]" id="fc10875b-0ad4-417d-afed-543a66fca420">1</container>
+              <container type="folder" label="Folder" parent="fc10875b-0ad4-417d-afed-543a66fca420">2</container>
               <unittitle>Chronology, notes and sources-Hertha Pauli</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">10 pages</extent>
@@ -149,8 +149,8 @@
           </c03>
           <c03 level="item">
             <did>
-              <container type="box" label="Box">1</container>
-              <container type="folder" label="Folder">2</container>
+              <container type="box" label="Box [651541578454588625382170]" id="e0f770f2-a2e9-45af-8dba-b05ad2bdbbac">1</container>
+              <container type="folder" label="Folder" parent="e0f770f2-a2e9-45af-8dba-b05ad2bdbbac">2</container>
               <unittitle>Bibliography from "Her Name Was Sojourner Truth"-Hertha Pauli</unittitle>
             </did>
             <odd>
@@ -159,15 +159,15 @@
           </c03>
           <c03 level="item">
             <did>
-              <container type="box" label="Box">1</container>
-              <container type="folder" label="Folder">2</container>
+              <container type="box" label="Box [651541578454588625382170]" id="b69fca9a-fcfe-4491-a4e5-a98b2a107901">1</container>
+              <container type="folder" label="Folder" parent="b69fca9a-fcfe-4491-a4e5-a98b2a107901">2</container>
               <unittitle>"Narrative of Sojourner Truth" letters re from Library of Congress</unittitle>
             </did>
           </c03>
           <c03 level="item">
             <did>
-              <container type="box" label="Box">1</container>
-              <container type="folder" label="Folder">2</container>
+              <container type="box" label="Box [651541578454588625382170]" id="3bfdd0e9-5cf1-4deb-8489-398848d583d6">1</container>
+              <container type="folder" label="Folder" parent="3bfdd0e9-5cf1-4deb-8489-398848d583d6">2</container>
               <unittitle>Report on National Anti-Slavery Standard</unittitle>
             </did>
           </c03>
@@ -178,53 +178,47 @@
           </did>
           <c03 level="item">
             <did>
-              <container type="box" label="Box">1</container>
-              <container type="folder" label="Folder">3</container>
-              <unittitle>"Truth about Sojourner Truth" written by Berenice Lowe for the Battle Creek Enquirer and News <unitdate type="inclusive" normal="1956-07-21">July 21, 1956</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [651541578454588625382170]" id="3a7bdd26-aa9b-4a86-8ba3-074b22aa4957">1</container>
+              <container type="folder" label="Folder" parent="3a7bdd26-aa9b-4a86-8ba3-074b22aa4957">3</container>
+              <unittitle>"Truth about Sojourner Truth" written by Berenice Lowe for the Battle Creek Enquirer and News</unittitle><unitdate type="inclusive" normal="1956-07-21">July 21, 1956</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <container type="box" label="Box">1</container>
-              <container type="folder" label="Folder">3</container>
-              <unittitle>"Biographers of Sojourner Truth" written by Berenice Lowe for the <title render="italic">Battle Enquirer and News</title>, <unitdate type="inclusive" normal="1962-04-22">April 22, 1962</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [651541578454588625382170]" id="41d53b99-2b15-40ce-bd36-eef0af45de12">1</container>
+              <container type="folder" label="Folder" parent="41d53b99-2b15-40ce-bd36-eef0af45de12">3</container>
+              <unittitle>"Biographers of Sojourner Truth" written by Berenice Lowe for the <title render="italic">Battle Enquirer and News</title></unittitle><unitdate type="inclusive" normal="1962-04-22">April 22, 1962</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <container type="box" label="Box">1</container>
-              <container type="folder" label="Folder">3</container>
-              <unittitle>"Sojourner Truth, Apostle of Freedom for her Race" article by Forest G. Sweet written for the <title render="italic">Battle Creek Sunday Enquirer</title>, Part 1, <unitdate type="inclusive" normal="1910-07-10">July 10, 1910</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [651541578454588625382170]" id="82bc6fe8-2e39-44a2-a3bd-d4c8921b755f">1</container>
+              <container type="folder" label="Folder" parent="82bc6fe8-2e39-44a2-a3bd-d4c8921b755f">3</container>
+              <unittitle>"Sojourner Truth, Apostle of Freedom for her Race" article by Forest G. Sweet written for the <title render="italic">Battle Creek Sunday Enquirer</title>, Part 1</unittitle><unitdate type="inclusive" normal="1910-07-10">July 10, 1910</unitdate></did>
             <odd>
               <p>(Part 2; July 17, 1910 is available on microfilm as part of the Willard Library collection)</p>
             </odd>
           </c03>
           <c03 level="item">
             <did>
-              <container type="box" label="Box">1</container>
-              <container type="folder" label="Folder">3</container>
-              <unittitle>"Sojourner Truth" written by J. H. Brown for the Battle Creek Moon-Journal <unitdate type="inclusive" normal="1929-04-26">April 26, 1929</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [651541578454588625382170]" id="b3114402-d3b3-4d39-a1d5-fe7b3d937871">1</container>
+              <container type="folder" label="Folder" parent="b3114402-d3b3-4d39-a1d5-fe7b3d937871">3</container>
+              <unittitle>"Sojourner Truth" written by J. H. Brown for the Battle Creek Moon-Journal</unittitle><unitdate type="inclusive" normal="1929-04-26">April 26, 1929</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <container type="box" label="Box">1</container>
-              <container type="folder" label="Folder">3</container>
-              <unittitle>"Lincoln and Sojourner Truth" written by J. H. Brown for the <title render="italic">Battle Creek Moon-Journal</title>, <unitdate type="inclusive" normal="1929-05-03">May 3, 1929</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [651541578454588625382170]" id="691fcb90-424c-44cf-b850-c10b2693d19c">1</container>
+              <container type="folder" label="Folder" parent="691fcb90-424c-44cf-b850-c10b2693d19c">3</container>
+              <unittitle>"Lincoln and Sojourner Truth" written by J. H. Brown for the <title render="italic">Battle Creek Moon-Journal</title></unittitle><unitdate type="inclusive" normal="1929-05-03">May 3, 1929</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <container type="box" label="Box">1</container>
-              <container type="folder" label="Folder">3</container>
-              <unittitle>"Sojourner Truth" by George B. Dolliver, written in the "Mainly About Folks" column of the <title render="italic">Battle Creek Enquirer and News</title>, <unitdate type="inclusive" normal="1942-03-22">March 22, 1942</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [651541578454588625382170]" id="d20733f1-7394-4543-9c50-6239bee44e0f">1</container>
+              <container type="folder" label="Folder" parent="d20733f1-7394-4543-9c50-6239bee44e0f">3</container>
+              <unittitle>"Sojourner Truth" by George B. Dolliver, written in the "Mainly About Folks" column of the <title render="italic">Battle Creek Enquirer and News</title></unittitle><unitdate type="inclusive" normal="1942-03-22">March 22, 1942</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <container type="box" label="Box">1</container>
-              <container type="folder" label="Folder">3</container>
+              <container type="box" label="Box [651541578454588625382170]" id="1cdb8de6-3238-47a5-a971-d2e5434a91d4">1</container>
+              <container type="folder" label="Folder" parent="1cdb8de6-3238-47a5-a971-d2e5434a91d4">3</container>
               <unittitle>"Phrenological Character of Sojourner Truth" by Nelson Sizer with introduction by Berenice Lowe</unittitle>
             </did>
           </c03>
@@ -235,8 +229,8 @@
           </did>
           <c03 level="item">
             <did>
-              <container type="box" label="Box">1</container>
-              <container type="folder" label="Folder">4</container>
+              <container type="box" label="Box [651541578454588625382170]" id="8d3032bc-5bd5-4e80-8797-495ec8d640da">1</container>
+              <container type="folder" label="Folder" parent="8d3032bc-5bd5-4e80-8797-495ec8d640da">4</container>
               <unittitle>Information received from Burton Historical Collection about ST</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">8 pages</extent>
@@ -245,8 +239,8 @@
           </c03>
           <c03 level="item">
             <did>
-              <container type="box" label="Box">1</container>
-              <container type="folder" label="Folder">4</container>
+              <container type="box" label="Box [651541578454588625382170]" id="523ea7a9-8b39-4a0e-891f-b9cfd1672e39">1</container>
+              <container type="folder" label="Folder" parent="523ea7a9-8b39-4a0e-891f-b9cfd1672e39">4</container>
               <unittitle>Typescripts of articles from National Anti-Slavery Standard with introduction</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">5 pages</extent>
@@ -255,8 +249,8 @@
           </c03>
           <c03 level="item">
             <did>
-              <container type="box" label="Box">1</container>
-              <container type="folder" label="Folder">4</container>
+              <container type="box" label="Box [651541578454588625382170]" id="a91598e7-572d-4a5a-a4cb-9d100a8a74e1">1</container>
+              <container type="folder" label="Folder" parent="a91598e7-572d-4a5a-a4cb-9d100a8a74e1">4</container>
               <unittitle>Typescripts of news items from Battle Creek papers about ST</unittitle>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">13 pages</extent>
@@ -265,27 +259,25 @@
           </c03>
           <c03 level="item">
             <did>
-              <container type="box" label="Box">1</container>
-              <container type="folder" label="Folder">4</container>
-              <unittitle>"Sojourner Truth and Her Birthplace" from <title render="italic">The Illustrated American</title>, <unitdate type="inclusive" normal="1896">1896</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [651541578454588625382170]" id="9bd42e16-3894-4a9c-9cea-36b6c76026ba">1</container>
+              <container type="folder" label="Folder" parent="9bd42e16-3894-4a9c-9cea-36b6c76026ba">4</container>
+              <unittitle>"Sojourner Truth and Her Birthplace" from <title render="italic">The Illustrated American</title></unittitle><unitdate type="inclusive" normal="1896">1896</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 pages</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="item">
             <did>
-              <container type="box" label="Box">1</container>
-              <container type="folder" label="Folder">4</container>
+              <container type="box" label="Box [651541578454588625382170]" id="7f8f22c8-0731-4865-9108-9c1dd6364f6a">1</container>
+              <container type="folder" label="Folder" parent="7f8f22c8-0731-4865-9108-9c1dd6364f6a">4</container>
               <unittitle>Reminiscence of Henry B. Graves and others about ST</unittitle>
             </did>
           </c03>
           <c03 level="item">
             <did>
-              <container type="box" label="Box">1</container>
-              <container type="folder" label="Folder">4</container>
-              <unittitle>News clippings from <title render="italic">Detroit Free Press</title>, <unitdate type="inclusive" normal="1940">1940</unitdate>, <unitdate type="inclusive" normal="1942">1942</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [651541578454588625382170]" id="05119f68-637a-4f12-ad55-5935057c16b3">1</container>
+              <container type="folder" label="Folder" parent="05119f68-637a-4f12-ad55-5935057c16b3">4</container>
+              <unittitle>News clippings from <title render="italic">Detroit Free Press</title></unittitle><unitdate type="inclusive" normal="1940">1940</unitdate><unitdate type="inclusive" normal="1942">1942</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -294,15 +286,15 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <container type="folder" label="Folder">5</container>
+              <container type="box" label="Box [651541578454588625382170]" id="50810aac-1d6a-49f2-8f40-ff1eba2db252">1</container>
+              <container type="folder" label="Folder" parent="50810aac-1d6a-49f2-8f40-ff1eba2db252">5</container>
               <unittitle>Articles from Battle Creek newspapers and from Good Health</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <container type="folder" label="Folder">5</container>
+              <container type="box" label="Box [651541578454588625382170]" id="2c9b17d2-7bee-4948-92f6-4bb1f16cc9ef">1</container>
+              <container type="folder" label="Folder" parent="2c9b17d2-7bee-4948-92f6-4bb1f16cc9ef">5</container>
               <unittitle>Photograph of the grave of ST</unittitle>
             </did>
             <odd>
@@ -319,15 +311,15 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <container type="folder" label="Folder">6</container>
+              <container type="box" label="Box [651541578454588625382170]" id="57db2950-8a06-47e8-a119-d67a0f385669">1</container>
+              <container type="folder" label="Folder" parent="57db2950-8a06-47e8-a119-d67a0f385669">6</container>
               <unittitle>Reviews of God's Faithful Pilgrim by Arthur H. Fauset</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <container type="folder" label="Folder">6</container>
+              <container type="box" label="Box [651541578454588625382170]" id="b658ef5c-9218-4d22-9193-a29309b41066">1</container>
+              <container type="folder" label="Folder" parent="b658ef5c-9218-4d22-9193-a29309b41066">6</container>
               <unittitle>Reviews of Her Name Was Sojourner Truth by Hertha Pauli</unittitle>
             </did>
           </c03>
@@ -338,22 +330,22 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <container type="folder" label="Folder">7</container>
+              <container type="box" label="Box [651541578454588625382170]" id="9fc7b534-3dbd-448b-9da8-85f7f46d0a80">1</container>
+              <container type="folder" label="Folder" parent="9fc7b534-3dbd-448b-9da8-85f7f46d0a80">7</container>
               <unittitle>"The Family of Sojourner Truth" article written by Berenice Lowe for <title render="italic">Michigan Heritage</title>, III (Summer 1962), 181-185</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <container type="folder" label="Folder">7</container>
+              <container type="box" label="Box [651541578454588625382170]" id="57c38f3b-3bf3-4b22-9261-abd91102834c">1</container>
+              <container type="folder" label="Folder" parent="57c38f3b-3bf3-4b22-9261-abd91102834c">7</container>
               <unittitle>Newspaper obituaries of Sophia and Thomas Schuyler and Diana Corbin</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <container type="folder" label="Folder">7</container>
+              <container type="box" label="Box [651541578454588625382170]" id="1e7b7805-dec5-475c-a254-fb3188f1ea18">1</container>
+              <container type="folder" label="Folder" parent="1e7b7805-dec5-475c-a254-fb3188f1ea18">7</container>
               <unittitle>Newspaper interview with Diana Corbin (daughter of ST)</unittitle>
             </did>
           </c03>
@@ -364,18 +356,17 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <container type="folder" label="Folder">8</container>
-              <unittitle>Lincoln and Sojourner Truth from a painting by Frank Courter <unitdate type="inclusive" normal="1893">1893</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [651541578454588625382170]" id="df0b76a2-d62d-4d16-a5fb-67cc2c7dda11">1</container>
+              <container type="folder" label="Folder" parent="df0b76a2-d62d-4d16-a5fb-67cc2c7dda11">8</container>
+              <unittitle>Lincoln and Sojourner Truth from a painting by Frank Courter</unittitle><unitdate type="inclusive" normal="1893">1893</unitdate></did>
             <odd>
               <p>(na 3023)</p>
             </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <container type="folder" label="Folder">8</container>
+              <container type="box" label="Box [651541578454588625382170]" id="49ee93ce-e2aa-44fa-a05d-4dcce9ba8671">1</container>
+              <container type="folder" label="Folder" parent="49ee93ce-e2aa-44fa-a05d-4dcce9ba8671">8</container>
               <unittitle>Carte de visite photograph of Sojourner Truth</unittitle>
             </did>
             <odd>
@@ -387,15 +378,15 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <container type="folder" label="Folder">8</container>
+              <container type="box" label="Box [651541578454588625382170]" id="8475b1cb-d4d7-4ece-84ae-64fe2d2715c6">1</container>
+              <container type="folder" label="Folder" parent="8475b1cb-d4d7-4ece-84ae-64fe2d2715c6">8</container>
               <unittitle>Biography of Courter by Dolliver for "Mainly about Folks" column</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <container type="folder" label="Folder">8</container>
+              <container type="box" label="Box [651541578454588625382170]" id="150d326a-4abb-4872-9c29-b24c9c249887">1</container>
+              <container type="folder" label="Folder" parent="150d326a-4abb-4872-9c29-b24c9c249887">8</container>
               <unittitle>Lincoln and Sojourner</unittitle>
             </did>
             <odd>
@@ -404,15 +395,15 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <container type="folder" label="Folder">8</container>
+              <container type="box" label="Box [651541578454588625382170]" id="0015411c-92ea-46f0-9001-b31d540ffd0d">1</container>
+              <container type="folder" label="Folder" parent="0015411c-92ea-46f0-9001-b31d540ffd0d">8</container>
               <unittitle>Typescript from Fisk University re Lincoln Bible</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <container type="folder" label="Folder">8</container>
+              <container type="box" label="Box [651541578454588625382170]" id="7d5f1ebf-bdc9-449f-ad63-0e9da1cd6051">1</container>
+              <container type="folder" label="Folder" parent="7d5f1ebf-bdc9-449f-ad63-0e9da1cd6051">8</container>
               <unittitle>Photographs of ST on scrapbook page</unittitle>
             </did>
             <odd>
@@ -421,8 +412,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <container type="folder" label="Folder">8</container>
+              <container type="box" label="Box [651541578454588625382170]" id="52d238b7-90e0-4c76-936a-37fd2f5324d8">1</container>
+              <container type="folder" label="Folder" parent="52d238b7-90e0-4c76-936a-37fd2f5324d8">8</container>
               <unittitle>Copyprint of ST taken in Detroit</unittitle>
             </did>
             <odd>
@@ -431,8 +422,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <container type="folder" label="Folder">8</container>
+              <container type="box" label="Box [651541578454588625382170]" id="1318df83-ef0f-4e7c-9d18-63620e2ad124">1</container>
+              <container type="folder" label="Folder" parent="1318df83-ef0f-4e7c-9d18-63620e2ad124">8</container>
               <unittitle>Photographs of Diana Corbin (two)</unittitle>
             </did>
             <odd>
@@ -441,8 +432,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <container type="folder" label="Folder">8</container>
+              <container type="box" label="Box [651541578454588625382170]" id="b24f8582-a12f-4bd2-a08f-d82a281bcd07">1</container>
+              <container type="folder" label="Folder" parent="b24f8582-a12f-4bd2-a08f-d82a281bcd07">8</container>
               <unittitle>Photograph of Frances Titus</unittitle>
             </did>
             <odd>
@@ -451,8 +442,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <container type="folder" label="Folder">8</container>
+              <container type="box" label="Box [651541578454588625382170]" id="f7776c2b-b5e6-40d6-a244-bc9e91792afe">1</container>
+              <container type="folder" label="Folder" parent="f7776c2b-b5e6-40d6-a244-bc9e91792afe">8</container>
               <unittitle>Copy of letter from E. M. Spicer re two painting of ST</unittitle>
             </did>
           </c03>
@@ -463,15 +454,15 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <container type="folder" label="Folder">9</container>
+              <container type="box" label="Box [651541578454588625382170]" id="214a855c-9b8e-45e6-98aa-e66971214c51">1</container>
+              <container type="folder" label="Folder" parent="214a855c-9b8e-45e6-98aa-e66971214c51">9</container>
               <unittitle>Lincoln signature and "witness"</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <container type="folder" label="Folder">9</container>
+              <container type="box" label="Box [651541578454588625382170]" id="04f0ff3c-6ea7-40f0-b9f5-2aa53cde33a7">1</container>
+              <container type="folder" label="Folder" parent="04f0ff3c-6ea7-40f0-b9f5-2aa53cde33a7">9</container>
               <unittitle>Poster advertising ST lecture</unittitle>
             </did>
             <odd>
@@ -480,15 +471,15 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <container type="folder" label="Folder">9</container>
+              <container type="box" label="Box [651541578454588625382170]" id="7f270acb-d0fc-4ac2-9e6d-1e6069bcf92e">1</container>
+              <container type="folder" label="Folder" parent="7f270acb-d0fc-4ac2-9e6d-1e6069bcf92e">9</container>
               <unittitle>Photograph of young women in a dress from the Kingman Museum, including comment about the dress</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <container type="folder" label="Folder">9</container>
+              <container type="box" label="Box [651541578454588625382170]" id="5b3bfd39-ca3d-4db3-9d79-472cf9f151b1">1</container>
+              <container type="folder" label="Folder" parent="5b3bfd39-ca3d-4db3-9d79-472cf9f151b1">9</container>
               <unittitle>"Book of Life" Scrapbook maintained by ST, Part 3</unittitle>
             </did>
             <odd>
@@ -497,10 +488,9 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <container type="folder" label="Folder">9</container>
-              <unittitle>Message to religious journal from Sojourner Truth <unitdate type="inclusive" normal="1884">1884</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [651541578454588625382170]" id="5d68a01f-ffab-4162-9fed-42b5ceb32ed8">1</container>
+              <container type="folder" label="Folder" parent="5d68a01f-ffab-4162-9fed-42b5ceb32ed8">9</container>
+              <unittitle>Message to religious journal from Sojourner Truth</unittitle><unitdate type="inclusive" normal="1884">1884</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -509,29 +499,29 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <container type="folder" label="Folder">10</container>
+              <container type="box" label="Box [651541578454588625382170]" id="1e489c38-319f-4f62-9dfa-608db8423f01">1</container>
+              <container type="folder" label="Folder" parent="1e489c38-319f-4f62-9dfa-608db8423f01">10</container>
               <unittitle>Introduction</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <container type="folder" label="Folder">10</container>
+              <container type="box" label="Box [651541578454588625382170]" id="408c909d-4524-498a-bab9-b536afdce17c">1</container>
+              <container type="folder" label="Folder" parent="408c909d-4524-498a-bab9-b536afdce17c">10</container>
               <unittitle>Letter from Library of Congress re. songs</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <container type="folder" label="Folder">*</container>
+              <container type="box" label="Box [651541578454588625382170]" id="9cca0fc9-29bc-4601-80cb-8550766dc40c">1</container>
+              <container type="folder" label="Folder" parent="9cca0fc9-29bc-4601-80cb-8550766dc40c">*</container>
               <unittitle>A hymn to Sojourner and others</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <container type="folder" label="Folder">10</container>
+              <container type="box" label="Box [651541578454588625382170]" id="2d9fc07c-a4de-4e12-ab75-21726a61f6b9">1</container>
+              <container type="folder" label="Folder" parent="2d9fc07c-a4de-4e12-ab75-21726a61f6b9">10</container>
               <unittitle>"The Proclamation Day"</unittitle>
             </did>
           </c03>
@@ -542,8 +532,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <container type="folder" label="Folder">11</container>
+              <container type="box" label="Box [651541578454588625382170]" id="241c035e-acd4-46f3-957f-71156e8b4aee">1</container>
+              <container type="folder" label="Folder" parent="241c035e-acd4-46f3-957f-71156e8b4aee">11</container>
               <unittitle>Correspondence</unittitle>
             </did>
           </c03>
@@ -554,17 +544,16 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <container type="folder" label="Folder">12</container>
+              <container type="box" label="Box [651541578454588625382170]" id="f816e982-a037-4708-bb7b-c962d37d1add">1</container>
+              <container type="folder" label="Folder" parent="f816e982-a037-4708-bb7b-c962d37d1add">12</container>
               <unittitle>Introduction</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <container type="folder" label="Folder">12</container>
-              <unittitle>"Narrative of Sojourner Truth" by Olive Gilbert <unitdate type="inclusive" normal="1850">1850</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [651541578454588625382170]" id="d55d0364-515f-42cb-ae6f-f8684031e72b">1</container>
+              <container type="folder" label="Folder" parent="d55d0364-515f-42cb-ae6f-f8684031e72b">12</container>
+              <unittitle>"Narrative of Sojourner Truth" by Olive Gilbert</unittitle><unitdate type="inclusive" normal="1850">1850</unitdate></did>
             <odd>
               <p>(title page and p. 144 containing testimonials; also introduction by Harriet Beecher Stowe)</p>
             </odd>
@@ -572,8 +561,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <container type="folder" label="Folder">13</container>
+            <container type="box" label="Box [651541578454588625382170]" id="f61e4c51-e115-4bed-a338-0ef0ce1602d3">1</container>
+            <container type="folder" label="Folder" parent="f61e4c51-e115-4bed-a338-0ef0ce1602d3">13</container>
             <unittitle>Miscellaneous ST materials, including some photographs added to collection after the initial accession</unittitle>
           </did>
           <odd>
@@ -587,36 +576,32 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>European diaries <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [651541578454588625382170]">1</container>
+            <unittitle>European diaries</unittitle><unitdate type="inclusive" normal="1963">1963</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">4 volumes</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>"Looking Back-Battle Creek" <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [651541578454588625382170]">1</container>
+            <unittitle>"Looking Back-Battle Creek"</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           <odd>
             <p>(articles written about Battle Creek history)</p>
           </odd>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">2</container>
-            <unittitle>Gerald Carson, correspondence of BL with <unitdate type="inclusive" normal="1955/1972">1955-1972</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [786194284418144206661]">2</container>
+            <unittitle>Gerald Carson, correspondence of BL with</unittitle><unitdate type="inclusive" normal="1955/1972">1955-1972</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">5 folders</extent>
             </physdesc>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">2</container>
-            <unittitle>Letters from D. J. Van Schnell to Oldfield family members <unitdate type="inclusive" normal="1930/1949" certainty="approximate">1930s-1940s</unitdate></unittitle>
-            <physdesc altrender="whole">
+            <container type="box" label="Box [786194284418144206661]">2</container>
+            <unittitle>Letters from D. J. Van Schnell to Oldfield family members</unittitle><unitdate type="inclusive" normal="1930/1949" certainty="approximate">1930s-1940s</unitdate><physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">2 folders</extent>
             </physdesc>
           </did>
@@ -626,14 +611,14 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">2</container>
+            <container type="box" label="Box [786194284418144206661]">2</container>
             <unittitle>George Buckley, miscellaneous regarding</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">2</container>
-            <unittitle>re autograph collecting</unittitle>
+            <container type="box" label="Box [786194284418144206661]">2</container>
+            <unittitle>Re autograph collecting</unittitle>
           </did>
           <odd>
             <p>(include signed letters from George W. Cable and John G. Whittier)</p>
@@ -641,13 +626,13 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">2</container>
+            <container type="box" label="Box [786194284418144206661]">2</container>
             <unittitle>Miscellaneous</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">2</container>
+            <container type="box" label="Box [786194284418144206661]">2</container>
             <unittitle>
               <genreform source="aat" normal="Photographs">Photographs</genreform>
             </unittitle>
@@ -664,9 +649,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">2</container>
-            <unittitle>Autograph/sentiment book of Susan A. Lapham in which friends contributed poems and sentiments <unitdate type="inclusive" certainty="approximate" normal="1830/1839">1830s</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [786194284418144206661]">2</container>
+            <unittitle>Autograph/sentiment book of Susan A. Lapham in which friends contributed poems and sentiments</unittitle><unitdate type="inclusive" certainty="approximate" normal="1830/1839">1830s</unitdate></did>
         </c02>
       </c01>
     </dsc>

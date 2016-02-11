@@ -24,6 +24,7 @@
         <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
+    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n80024557">Louis, Joe, 1914-1981.</persname>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n80024557" ref="/agents/people/34542">Louis, Joe, 1914-1981.</persname>
       </origination>
-      <unittitle encodinganalog="245">Joe Louis scrapbooks and papers <unitdate type="inclusive" encodinganalog="245$f" normal="1935/1941">1935-1941</unitdate>, <unitdate type="inclusive" encodinganalog="245$f" normal="1948/1951">1948-1951</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851698 AA, Aa 2, UAm</unitid>
+      <unittitle encodinganalog="245">Joe Louis scrapbooks and papers</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1935/1941">1935-1941</unitdate><unitdate type="inclusive" encodinganalog="245$f" normal="1948/1951">1948-1951</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851698 AA, Aa 2, UAm</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Champion prize fighter of Detroit, Michigan. Scrapbooks, 1935-1941 (arranged chronologically by bout), and clippings, articles, and fan letters, 1948-1951, relating to his career as a boxer.</abstract>
       <physdesc altrender="part">
@@ -84,26 +84,26 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">African Americans--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Athletics--United States.</subject>
-        <subject source="lcsh" encodinganalog="650">Boxing.</subject>
-        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539.html">Detroit (Mich.)</geogname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80024557">Louis, Joe, 1914-1981.</persname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/5781">African Americans--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/8886">Athletics--United States.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6588">Boxing.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539.html" ref="/subjects/933">Detroit (Mich.)</geogname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80024557" ref="/agents/people/34542">Louis, Joe, 1914-1981.</persname>
       </controlaccess>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <subject source="lctgm" encodinganalog="650">Boxing.</subject>
-        <persname source="lcnaf" encodinganalog="600">Braddock, Jim.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50041744">La Guardia, Fiorello H. (Fiorello Henry), 1882-1947.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80024557">Louis, Joe, 1914-1981.</persname>
-        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50019256">Willkie, Wendell L. (Wendell Lewis), 1892-1944.</persname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4656">Boxing.</subject>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35924">Braddock, Jim.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50041744" ref="/agents/people/32312">La Guardia, Fiorello H. (Fiorello Henry), 1882-1947.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80024557" ref="/agents/people/34542">Louis, Joe, 1914-1981.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50019256" ref="/agents/people/33671">Willkie, Wendell L. (Wendell Lewis), 1892-1944.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="gmgpc" encodinganalog="655">Cartoons.</genreform>
-        <genreform source="gmgpc" encodinganalog="655">Paintings.</genreform>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
-        <genreform source="aat" encodinganalog="655">Scrapbooks.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3458">Cartoons.</genreform>
+        <genreform source="gmgpc" encodinganalog="655" ref="/subjects/3466">Paintings.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3137">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3135">Scrapbooks.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -113,316 +113,304 @@
         </did>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1935">1935</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1935">1935</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">1</container>
+              <container type="volume" label="Oversize Volume [0885554041184169320910]">1</container>
               <unittitle>Vol. 1, Primo Carnera</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">2</container>
+              <container type="volume" label="Oversize Volume [2725454847887057174291]">2</container>
               <unittitle>Vol. 2, Primo Carnera</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">3</container>
+              <container type="volume" label="Oversize Volume [20574958774708924049442482]">3</container>
               <unittitle>Vol. 3, King Levinsky</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">4</container>
+              <container type="volume" label="Oversize Volume [6858908448360226558]">4</container>
               <unittitle>Vol. 4, King Levinsky/Max Baer</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">5</container>
+              <container type="volume" label="Oversize Volume [4574348095466448241]">5</container>
               <unittitle>Vol. 5, Max Baer</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">6</container>
+              <container type="volume" label="Oversize Volume [5498057164350278096489752]">6</container>
               <unittitle>Vol. 6, Max Baer</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">7</container>
+              <container type="volume" label="Oversize Volume [834025545141948822268875]">7</container>
               <unittitle>Vol. 7, Max Baer</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">8</container>
+              <container type="volume" label="Oversize Volume [763604450654923505]">8</container>
               <unittitle>Vol. 8, Max Baer</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">9</container>
+              <container type="volume" label="Oversize Volume [8834153019466112809847]">9</container>
               <unittitle>Vol. 9, Max Baer</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">10</container>
+              <container type="volume" label="Oversize Volume [635529405230360958]">10</container>
               <unittitle>Vol. 10, Paulino Uzcudun</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">11</container>
+              <container type="volume" label="Oversize Volume [478170284485867150990468]">11</container>
               <unittitle>Vol. 11, Paulino Uzcudun</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">12</container>
+              <container type="volume" label="Oversize Volume [63313711406168390771]">12</container>
               <unittitle>Vol. 12, Paulino Uzcudun</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1936">1936</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1936">1936</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">13</container>
+              <container type="volume" label="Oversize Volume [5560453104019819851114132]">13</container>
               <unittitle>Vol. 13, Paulino Uzcudun</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">14</container>
+              <container type="volume" label="Oversize Volume [580936488525971808798]">14</container>
               <unittitle>Vol. 14, Paulino Uzcudun</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">15</container>
+              <container type="volume" label="Oversize Volume [7080165604835724985139]">15</container>
               <unittitle>Vol. 15, Chas. Retzlaff</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">16</container>
+              <container type="volume" label="Oversize Volume [51099671747822864324]">16</container>
               <unittitle>Vol. 16, Chas. Retzlaff</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">17</container>
+              <container type="volume" label="Oversize Volume [76135147697818552255]">17</container>
               <unittitle>Vol. 17, Chas. Retzlaff</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">18</container>
+              <container type="volume" label="Oversize Volume [1866970249754759254]">18</container>
               <unittitle>Vol. 18, Max Schmeling</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">19</container>
+              <container type="volume" label="Oversize Volume [6200839114143611775]">19</container>
               <unittitle>Vol. 19, Max Schmeling</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">20</container>
+              <container type="volume" label="Oversize Volume [4792434705064178141]">20</container>
               <unittitle>Vol. 20, Max Schmeling</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">21</container>
+              <container type="volume" label="Oversize Volume [31948560413713559512206]">21</container>
               <unittitle>Vol. 21, Max Schmeling</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">22</container>
+              <container type="volume" label="Oversize Volume [108760624915265916264817]">22</container>
               <unittitle>Vol. 22, Max Schmeling</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">23</container>
+              <container type="volume" label="Oversize Volume [01081043133161596]">23</container>
               <unittitle>Vol. 23, Max Schmeling</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">24</container>
+              <container type="volume" label="Oversize Volume [7016230464436990266]">24</container>
               <unittitle>Vol. 24, Max Schmeling</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">25</container>
+              <container type="volume" label="Oversize Volume [63256668754081809042192243]">25</container>
               <unittitle>Vol. 25, Max Schmeling</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">26</container>
+              <container type="volume" label="Oversize Volume [9335439094987047557690105]">26</container>
               <unittitle>Vol. 26, Jack Sharkey</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">27</container>
+              <container type="volume" label="Oversize Volume [3666333676436530237]">27</container>
               <unittitle>Vol. 27, Jack Sharkey</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">28</container>
+              <container type="volume" label="Oversize Volume [3380808403980955815]">28</container>
               <unittitle>Vol. 28, Al Ettore</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1937">1937</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1937">1937</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">29</container>
+              <container type="volume" label="Oversize Volume [61730588439926948322663]">29</container>
               <unittitle>Vol. 29, Jorge Brescia</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">30</container>
+              <container type="volume" label="Oversize Volume [4268550406950525]">30</container>
               <unittitle>Vol. 30, Eddie Simms</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">31</container>
+              <container type="volume" label="Oversize Volume [786750435819936]">31</container>
               <unittitle>Vol. 31, Bob Pastor</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">32</container>
+              <container type="volume" label="Oversize Volume [60582040890000742]">32</container>
               <unittitle>Vol. 32, Natie Brown</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">33</container>
+              <container type="volume" label="Oversize Volume [9451391444959888816]">33</container>
               <unittitle>Vol. 33, James J. Braddock</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">34</container>
+              <container type="volume" label="Oversize Volume [9018103543525480087]">34</container>
               <unittitle>Vol. 34, James J. Braddock</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">35</container>
+              <container type="volume" label="Oversize Volume [6027890624218774000763345]">35</container>
               <unittitle>Vol. 35, James J. Braddock</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">36</container>
+              <container type="volume" label="Oversize Volume [7191316427315687517720350]">36</container>
               <unittitle>Vol. 36, James J. Braddock</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">37</container>
+              <container type="volume" label="Oversize Volume [4466392488495353326]">37</container>
               <unittitle>Vol. 37, James J. Braddock</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">38</container>
+              <container type="volume" label="Oversize Volume [4437310842589772743696]">38</container>
               <unittitle>Vol. 38, James J. Braddock</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">39</container>
+              <container type="volume" label="Oversize Volume [7866444816784872]">39</container>
               <unittitle>Vol. 39, James J. Braddock</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">40</container>
+              <container type="volume" label="Oversize Volume [744572048762150377736]">40</container>
               <unittitle>Vol. 40, James J. Braddock</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">41</container>
+              <container type="volume" label="Oversize Volume [474629747922092]">41</container>
               <unittitle>Vol. 41, James J. Braddock</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">42</container>
+              <container type="volume" label="Oversize Volume [8012434484399179034]">42</container>
               <unittitle>Vol. 42, James J. Braddock</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">43</container>
+              <container type="volume" label="Oversize Volume [94419491184438896825526998]">43</container>
               <unittitle>Vol. 43, Tommy Farr</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">44</container>
+              <container type="volume" label="Oversize Volume [22668144895889323963]">44</container>
               <unittitle>Vol. 44, Tommy Farr</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">45</container>
+              <container type="volume" label="Oversize Volume [14180988415714085008401]">45</container>
               <unittitle>Vol. 45, Tommy Farr</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">46</container>
+              <container type="volume" label="Oversize Volume [4134499044241442212]">46</container>
               <unittitle>Vol. 46, Tommy Farr</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1938">1938</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1938">1938</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">47</container>
+              <container type="volume" label="Oversize Volume [535549534674966861602]">47</container>
               <unittitle>Vol. 47, Tommy Farr</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">48</container>
+              <container type="volume" label="Oversize Volume [96127884250029820]">48</container>
               <unittitle>Vol. 48</unittitle>
             </did>
             <odd>
@@ -431,298 +419,289 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">49</container>
+              <container type="volume" label="Oversize Volume [158888014199287292187]">49</container>
               <unittitle>Vol. 49, Nathan Mann</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">50</container>
+              <container type="volume" label="Oversize Volume [9087843234566621625404]">50</container>
               <unittitle>Vol. 50, Harry Thomas</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">51</container>
+              <container type="volume" label="Oversize Volume [072761044488574577667]">51</container>
               <unittitle>Vol. 51, Max Schmeling</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">52</container>
+              <container type="volume" label="Oversize Volume [3814852474211853704567]">52</container>
               <unittitle>Vol. 52, Max Schmeling</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">53</container>
+              <container type="volume" label="Oversize Volume [50597918541682431480]">53</container>
               <unittitle>Vol. 53, Max Schmeling</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">54</container>
+              <container type="volume" label="Oversize Volume [467324818072889805]">54</container>
               <unittitle>Vol. 54, Max Schmeling</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">55</container>
+              <container type="volume" label="Oversize Volume [482958614280887561393464]">55</container>
               <unittitle>Vol. 55, Max Schmeling</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">56</container>
+              <container type="volume" label="Oversize Volume [4494833458635363880]">56</container>
               <unittitle>Vol. 56, Max Schmeling</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">57</container>
+              <container type="volume" label="Oversize Volume [2431348278506005734]">57</container>
               <unittitle>Vol. 57, Max Schmeling</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1939">1939</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1939">1939</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">58</container>
+              <container type="volume" label="Oversize Volume [4053367174953867319625882]">58</container>
               <unittitle>Vol. 58, Max Schmeling</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">59</container>
+              <container type="volume" label="Oversize Volume [12748844134848659789091]">59</container>
               <unittitle>Vol. 59, John Henry Lewis</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">60</container>
+              <container type="volume" label="Oversize Volume [51685212241807339189]">60</container>
               <unittitle>Vol. 60, John Henry Lewis</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">61</container>
+              <container type="volume" label="Oversize Volume [560872152564453239171736]">61</container>
               <unittitle>Vol. 61, John Henry Lewis</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">62</container>
+              <container type="volume" label="Oversize Volume [470724091770426112410041030]">62</container>
               <unittitle>Vol. 62, John Henry Lewis</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">63</container>
+              <container type="volume" label="Oversize Volume [1672374489872581381]">63</container>
               <unittitle>Vol. 63, Jack Roper</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">64</container>
+              <container type="volume" label="Oversize Volume [6581843099853171970]">64</container>
               <unittitle>Vol. 64, Jack Roper</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">65</container>
+              <container type="volume" label="Oversize Volume [036249546880336759]">65</container>
               <unittitle>Vol. 65, Tony Galento</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">66</container>
+              <container type="volume" label="Oversize Volume [457767472961769583]">66</container>
               <unittitle>Vol. 66, Tony Galento</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">67</container>
+              <container type="volume" label="Oversize Volume [94831307499671015214]">67</container>
               <unittitle>Vol. 67, Tony Galento</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">68</container>
+              <container type="volume" label="Oversize Volume [9058052141890971867877]">68</container>
               <unittitle>Vol. 68, Tony Galento</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">69</container>
+              <container type="volume" label="Oversize Volume [577452728488867993808]">69</container>
               <unittitle>Vol. 69, Tony Galento</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1940">1940</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1940">1940</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">70</container>
+              <container type="volume" label="Oversize Volume [712703937141619328177319]">70</container>
               <unittitle>Vol. 70, Bob Pastor</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">71</container>
+              <container type="volume" label="Oversize Volume [8364494971888990784584]">71</container>
               <unittitle>Vol. 71, Bob Pastor</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">72</container>
+              <container type="volume" label="Oversize Volume [98270761495714005805228]">72</container>
               <unittitle>Vol. 72, Arturo Godoy</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">73</container>
+              <container type="volume" label="Oversize Volume [38613448436474780404]">73</container>
               <unittitle>Vol. 73, Arturo Godoy</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">74</container>
+              <container type="volume" label="Oversize Volume [708354144343871]">74</container>
               <unittitle>Vol. 74, Arturo Godoy</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">75</container>
+              <container type="volume" label="Oversize Volume [086018044469539318743109]">75</container>
               <unittitle>Vol. 75, Johnny Paycheck</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">76</container>
+              <container type="volume" label="Oversize Volume [1510544689365212]">76</container>
               <unittitle>Vol. 76, Johnny Paycheck</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">77</container>
+              <container type="volume" label="Oversize Volume [118429443240420]">77</container>
               <unittitle>Vol. 77, Arturo Godoy</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">78</container>
+              <container type="volume" label="Oversize Volume [7474146048026137]">78</container>
               <unittitle>Vol. 78, Arturo Godoy</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">79</container>
+              <container type="volume" label="Oversize Volume [647280945273140141]">79</container>
               <unittitle>Vol. 79, Arturo Godoy</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">80</container>
+              <container type="volume" label="Oversize Volume [867304173648819176]">80</container>
               <unittitle>Vol. 80, Arturo Godoy</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">81</container>
+              <container type="volume" label="Oversize Volume [412365148895571686651]">81</container>
               <unittitle>Vol. 81, Arturo Godoy</unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <unittitle>
-              <unitdate type="inclusive" normal="1941">1941</unitdate>
-            </unittitle>
-          </did>
+            <unitdate type="inclusive" normal="1941">1941</unitdate></did>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">82</container>
+              <container type="volume" label="Oversize Volume [61010418343489007076921040]">82</container>
               <unittitle>Vol. 82, Al McCoy</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">83</container>
+              <container type="volume" label="Oversize Volume [7714747254159944545043]">83</container>
               <unittitle>Vol. 83, Al McCoy</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">84</container>
+              <container type="volume" label="Oversize Volume [98388991640087149956622]">84</container>
               <unittitle>Vol. 84, Red Burman</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">85</container>
+              <container type="volume" label="Oversize Volume [61349824429205867042]">85</container>
               <unittitle>Vol. 85, Gus Dorazio</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">86</container>
+              <container type="volume" label="Oversize Volume [151544847491305796363]">86</container>
               <unittitle>Vol. 86, Abe Simon</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">87</container>
+              <container type="volume" label="Oversize Volume [20874296216418]">87</container>
               <unittitle>Vol. 87, Tony Musto</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">88</container>
+              <container type="volume" label="Oversize Volume [41865545394965551282266]">88</container>
               <unittitle>Vol. 88, Buddy Baer</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">89</container>
+              <container type="volume" label="Oversize Volume [586594352954211220843899]">89</container>
               <unittitle>Vol. 89, Buddy Baer</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">90</container>
+              <container type="volume" label="Oversize Volume [5400474767953560]">90</container>
               <unittitle>Vol. 90, Billy Conn</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">91</container>
+              <container type="volume" label="Oversize Volume [7824899824633019]">91</container>
               <unittitle>Vol. 91, Billy Conn</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">92</container>
+              <container type="volume" label="Oversize Volume [24726834390083457]">92</container>
               <unittitle>Vol. 92, Lou Nova</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">93</container>
+              <container type="volume" label="Oversize Volume [326453455902179412]">93</container>
               <unittitle>Vol. 93, Lou Nova</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="volume" label="Oversize Volume">94</container>
+              <container type="volume" label="Oversize Volume [83527990422840358839827]">94</container>
               <unittitle>Vol. 94, Lou Nova</unittitle>
             </did>
           </c03>
@@ -734,7 +713,7 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [8043914795350521919]">1</container>
             <unittitle>Loose clippings</unittitle>
             <physdesc altrender="whole">
               <extent altrender="materialtype spaceoccupied">5 folders</extent>
@@ -743,7 +722,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
+            <container type="box" label="Box [8043914795350521919]">1</container>
             <unittitle><genreform normal="Photographs">Photographs</genreform> and other visual materials</unittitle>
           </did>
           <odd>

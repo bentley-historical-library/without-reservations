@@ -24,6 +24,7 @@
         <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
+    <classification ref="/repositories/2/classifications/2"/>
   </eadheader>
   <frontmatter>
     <titlepage>
@@ -35,10 +36,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Safety Dept.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/20071">University of Michigan. Safety Dept.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Safety Dept. (University of Michigan) photograph collection <unitdate type="inclusive" encodinganalog="245$f" normal="1969/1970">1969-1970</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">92138 Bimu B27 2</unitid>
+      <unittitle encodinganalog="245">Safety Dept. (University of Michigan) photograph collection</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1969/1970">1969-1970</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">92138 Bimu B27 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Surveillance-type and other photos of student demonstrations at the University of Michigan.</abstract>
       <physdesc altrender="whole">
@@ -81,20 +81,20 @@
       </p>
       <controlaccess>
         <head>Subjects - Visual Materials:</head>
-        <corpname source="lcnaf" encodinganalog="610">Black Action Movement (University of Michigan)</corpname>
-        <subject source="lctgm" encodinganalog="650">Demonstrations--Michigan--Ann Arbor.</subject>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Buildings.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Campus.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Political activity.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs--1961-1970.</corpname>
-        <subject source="lctgm" encodinganalog="650">Vandalism.</subject>
-        <subject source="lctgm" encodinganalog="650">Classrooms--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Student registration.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21428">Black Action Movement (University of Michigan)</corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3591">Demonstrations--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Buildings.<term type="topical">Buildings.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Campus.<term type="topical">Campus.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Students.<term type="topical">Students.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Students--Political activity.<term type="topical">Students</term><term type="topical">Political activity.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Students--Social life and customs--1961-1970.<term type="topical">Students</term><term type="topical">Social life and customs</term><term type="temporal">1961-1970.</term></corpname>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/4011">Vandalism.</subject>
+        <subject source="lctgm" encodinganalog="650" ref="/subjects/3543">Classrooms--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9886">Student registration.</subject>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3137">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -107,73 +107,68 @@
         </odd>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder">1</container>
-            <unittitle>Administration Building, activities near <unitdate type="inclusive" normal="1970-03-19">March 19, 1970</unitdate></unittitle>
-          </did>
+            <container type="folder" label="Folder [51388641287380504098540]">1</container>
+            <unittitle>Administration Building, activities near</unittitle><unitdate type="inclusive" normal="1970-03-19">March 19, 1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder">2</container>
-            <unittitle>Angell Hall <unitdate type="inclusive" normal="1970-03-24">March 24, 1970</unitdate></unittitle>
-          </did>
+            <container type="folder" label="Folder [4381954332698500444220]">2</container>
+            <unittitle>Angell Hall</unittitle><unitdate type="inclusive" normal="1970-03-24">March 24, 1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder">3</container>
-            <unittitle>Black Action movement <unitdate type="inclusive" normal="1970-03">March 1970</unitdate></unittitle>
-          </did>
+            <container type="folder" label="Folder [784881918409995933360366]">3</container>
+            <unittitle>Black Action movement</unittitle><unitdate type="inclusive" normal="1970-03">March 1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder">4</container>
+            <container type="folder" label="Folder [0734069455465349365]">4</container>
             <unittitle>Miscellaneous</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder">5</container>
+            <container type="folder" label="Folder [0375440426916810077305307]">5</container>
             <unittitle>Naval Science protest</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder">6</container>
+            <container type="folder" label="Folder [284563466777025]">6</container>
             <unittitle>Interview protests at B.A. (and Engineering?)</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder">7</container>
+            <container type="folder" label="Folder [3672627774275164446]">7</container>
             <unittitle>Registration</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder">8</container>
-            <unittitle>ROTC takeover <unitdate type="inclusive" normal="1969-09-14">September 14, 1969</unitdate> (photos dated May, 1970)</unittitle>
-          </did>
+            <container type="folder" label="Folder [1122322814939891720]">8</container>
+            <unittitle>ROTC takeover  (photos dated May, 1970)</unittitle><unitdate type="inclusive" normal="1969-09-14">September 14, 1969</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder">9</container>
-            <unittitle>Tent City, photos dated <unitdate type="inclusive" normal="1970-09-23">September 23, 1970</unitdate></unittitle>
-          </did>
+            <container type="folder" label="Folder [2172652346887744740]">9</container>
+            <unittitle>Tent City, photos dated</unittitle><unitdate type="inclusive" normal="1970-09-23">September 23, 1970</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder">10</container>
+            <container type="folder" label="Folder [63804148421089334]">10</container>
             <unittitle>South U. demonstrations</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder">11</container>
+            <container type="folder" label="Folder [5968988084584858353753]">11</container>
             <unittitle>Vandalism</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="folder" label="Folder">12</container>
+            <container type="folder" label="Folder [043116470843990902987429]">12</container>
             <unittitle>IST (Institute for Science and Technology) Building bomb damage</unittitle>
           </did>
         </c02>

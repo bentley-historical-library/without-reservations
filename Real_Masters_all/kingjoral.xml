@@ -24,6 +24,7 @@
         <item>Original encoding from Word 2010 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
+    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
@@ -35,10 +36,9 @@
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <persname source="lcnaf" encodinganalog="100">Owens, John</persname>
+        <persname source="lcnaf" encodinganalog="100" ref="/agents/people/32891">Owens, John</persname>
       </origination>
-      <unittitle encodinganalog="245">Jean Ledwith King Oral History Collection <unitdate type="inclusive" encodinganalog="245$f" normal="1927/2011" certainty="approximate">circa 1927-2011</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="2011">2011</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2014049 Aa 3</unitid>
+      <unittitle encodinganalog="245">Jean Ledwith King Oral History Collection</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1927/2011" certainty="approximate">circa 1927-2011</unitdate><unitdate type="bulk" encodinganalog="245$g" normal="2011">2011</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2014049 Aa 3</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Ann Arbor, Michigan attorney who spent her career fighting sex discrimination in education, sports, and politics. The collection contains oral history interviews, tribute statements, and photographs collected on the occasion of renaming the Women's Center of Southeastern Michigan after Jean Ledwith King and for the creation of a documentary, "The Power of One: Celebrating Jean Ledwith King," by John Owens.</abstract>
       <physdesc altrender="whole">
@@ -90,43 +90,42 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">Jean Ledwith King Women's Center of Southeast Michigan.</corpname>
-        <persname source="lcnaf" encodinganalog="600">King, Jean Ledwith.</persname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79054541">Michigan State University.</corpname>
-        <subject source="lcsh" encodinganalog="650">Sex discrimination against women--Michigan.</subject>
-        <subject source="lcsh" encodinganalog="650">Sex discrimination in sports--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846">University of Michigan.</corpname>
-        <subject source="lcsh" encodinganalog="650">Women lawyers--Michigan--Ann Arbor.</subject>
-        <subject source="lcsh" encodinganalog="650">Women's rights--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20557">Jean Ledwith King Women's Center of Southeast Michigan.</corpname>
+        <persname source="lcnaf" encodinganalog="600" ref="/agents/people/35940">King, Jean Ledwith.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79054541" ref="/agents/corporate_entities/21284">Michigan State University.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7974">Sex discrimination against women--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/7976">Sex discrimination in sports--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021846" ref="/agents/corporate_entities/18699">University of Michigan.</corpname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6505">Women lawyers--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/6248">Women's rights--Michigan.</subject>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <persname source="lcnaf" encodinganalog="700">Allen, Knatarsha.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008016230">Burton, Carol W.</persname>
-        <persname source="lcnaf" encodinganalog="700">Cumming, Kimberli.</persname>
-        <persname source="lcnaf" encodinganalog="700">Francis, Nancy C.</persname>
-        <persname source="lcnaf" encodinganalog="700">George, Maryanne.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n78032058">Hollenshead, Carol.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86817603">Hutchins, Carol.</persname>
-        <persname source="lcnaf" encodinganalog="700">Maynard, Olivia.</persname>
-        <persname source="lcnaf" encodinganalog="700">Neiberg, Vicki.</persname>
-        <persname source="lcnaf" encodinganalog="700">Rivers, Lynn N.</persname>
-        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80048340">Sandler, Bernice Resnick.</persname>
-        <persname source="lcnaf" encodinganalog="700">Traxinger, Deb.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/32336">Allen, Knatarsha.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008016230" ref="/agents/people/32975">Burton, Carol W.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30392">Cumming, Kimberli.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27421">Francis, Nancy C.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34081">George, Maryanne.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n78032058" ref="/agents/people/29302">Hollenshead, Carol.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86817603" ref="/agents/people/30829">Hutchins, Carol.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/27391">Maynard, Olivia.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34728">Neiberg, Vicki.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/34986">Rivers, Lynn N.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80048340" ref="/agents/people/32688">Sandler, Bernice Resnick.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/35254">Traxinger, Deb.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Digital images.</genreform>
-        <genreform source="aat" encodinganalog="655">Digital moving image formats.</genreform>
-        <genreform source="aat" encodinganalog="655">Interviews.</genreform>
-        <genreform source="aat" encodinganalog="655">Oral histories.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3145">Digital images.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3307">Digital moving image formats.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3190">Interviews.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3157">Oral histories.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
       <c01 level="series">
         <did>
-          <unittitle>Video Recordings <unitdate type="inclusive" normal="2010/2011">2010-2011</unitdate></unittitle>
-        </did>
+          <unittitle>Video Recordings</unittitle><unitdate type="inclusive" normal="2010/2011">2010-2011</unitdate></did>
         <scopecontent>
           <p>The Video Recordings series (2010-2011, 62.4 GB) contains digital moving image files and is arranged by genre into three subseries: Documentary, Interviews, and Tribute Statements. The Documentary subseries contains two versions of "The Power of One: Celebrating Jean Ledwith King" created by John Owens. The Interviews subseries consists of oral history interviews conducted with King and various individuals familiar with King and her work, including some of those involved with particular cases, such as two members of the Michigan State University Women's Basketball team in the late 1970s. The Tribute Statements subseries includes statements from politicians, female athletes, and a former law partner honoring King and her impact, particularly with regard to women in politics and sports. Some of the digital file names in this series have been changed for consistency with spelling found in other sources.</p>
         </scopecontent>
@@ -143,24 +142,28 @@
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
-              <unittitle>Final version of "The Power of One: Celebrating Jean Ledwith King," <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
-              <dao href="http://hdl.handle.net/2027.42/108186" show="new" actuate="onrequest">
+              <unittitle>Final version of "The Power of One: Celebrating Jean Ledwith King,"</unittitle><unitdate type="inclusive" normal="2011">2011</unitdate><dao href="http://hdl.handle.net/2027.42/108186" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/2593">
                 <daodesc>
                   <p>[download item]</p>
                 </daodesc>
               </dao>
             </did>
+            <odd>
+              <p>(Two versions of a documentary video titled 'The Power of One: Celebrating Jean Ledwith King' created by John Owens to be shown at the March 26, 2011 event renaming the Women's Center of Southeastern Michigan after Jean Ledwith King.  The video features clips from interviews with King and several of her associates, colleagues, and clients including Bernice Sandler, Libby Maynard, Vicki Neiberg, Lynn Rivers, Deb Traxinger, and others.  The documentary honors King's life and especially her legal work fighting sex discrimination.  The final version is 15 minutes and 55 seconds in length. The longer version incorporates additional interview clips as well as extended versions of clips used in the final version, particularly regarding King's legacy and her work fighting for more equitable opportunities for women in sports. This longer version runs about 18 minutes and 45 seconds.)</p>
+            </odd>
           </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
-              <unittitle>Longer version of "The Power of One: Celebrating Jean Ledwith King," <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
-              <dao href="http://hdl.handle.net/2027.42/108186" show="new" actuate="onrequest">
+              <unittitle>Longer version of "The Power of One: Celebrating Jean Ledwith King,"</unittitle><unitdate type="inclusive" normal="2011">2011</unitdate><dao href="http://hdl.handle.net/2027.42/108186" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/2593">
                 <daodesc>
                   <p>[download item]</p>
                 </daodesc>
               </dao>
             </did>
+            <odd>
+              <p>(Two versions of a documentary video titled 'The Power of One: Celebrating Jean Ledwith King' created by John Owens to be shown at the March 26, 2011 event renaming the Women's Center of Southeastern Michigan after Jean Ledwith King.  The video features clips from interviews with King and several of her associates, colleagues, and clients including Bernice Sandler, Libby Maynard, Vicki Neiberg, Lynn Rivers, Deb Traxinger, and others.  The documentary honors King's life and especially her legal work fighting sex discrimination.  The final version is 15 minutes and 55 seconds in length. The longer version incorporates additional interview clips as well as extended versions of clips used in the final version, particularly regarding King's legacy and her work fighting for more equitable opportunities for women in sports. This longer version runs about 18 minutes and 45 seconds.)</p>
+            </odd>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -173,184 +176,210 @@
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
-              <unittitle>Allen, Knatarsha (Legal Assistant) <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
-              <physdesc>
+              <unittitle>Allen, Knatarsha (Legal Assistant)</unittitle><unitdate type="inclusive" normal="2011">2011</unitdate><physdesc>
                 <physfacet>.MP4 and .MOV files</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/108190" show="new" actuate="onrequest">
+              <dao href="http://hdl.handle.net/2027.42/108190" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/2594">
                 <daodesc>
                   <p>[download item]</p>
                 </daodesc>
               </dao>
             </did>
+            <odd>
+              <p>(Video recording [13:04] of an interview with Knatarsha Allen, who worked for Jean Ledwith King as a Legal Assistant from 1995 to 1999.  Allen discusses her experience working with King, for instance on the Glass Ceiling Commission.  Also talks about the topic subject files that King kept and the model that King set in her life and work.)</p>
+            </odd>
           </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
-              <unittitle>Burton, Carol (mother of Tricia McNaughton) <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
-              <physdesc>
+              <unittitle>Burton, Carol (mother of Tricia McNaughton)</unittitle><unitdate type="inclusive" normal="2011">2011</unitdate><physdesc>
                 <physfacet>.MP4 and .MOV files</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/108191" show="new" actuate="onrequest">
+              <dao href="http://hdl.handle.net/2027.42/108191" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/2595">
                 <daodesc>
                   <p>[download item]</p>
                 </daodesc>
               </dao>
             </did>
+            <odd>
+              <p>(Video recording [12:57] of an interview with Carol Burton, the mother of Tricia McNaughton, a world championship-winning wrestler.  Burton talks about how Jean Ledwith King fought for her daughter Tricia to have the right to participate in wrestling competitions, and how that changed her life, as well as commenting on the legacy King has left in women's sports.)</p>
+            </odd>
           </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
-              <unittitle>Cumming, Kimberli (Executive Director, Women's Center of Southeastern Michigan) <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
-              <physdesc>
+              <unittitle>Cumming, Kimberli (Executive Director, Women's Center of Southeastern Michigan)</unittitle><unitdate type="inclusive" normal="2011">2011</unitdate><physdesc>
                 <physfacet>.MP4 and .MOV files</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/108192" show="new" actuate="onrequest">
+              <dao href="http://hdl.handle.net/2027.42/108192" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/2596">
                 <daodesc>
                   <p>[download item]</p>
                 </daodesc>
               </dao>
             </did>
+            <odd>
+              <p>(Video recording [9:56] of an interview with Kimberli Cumming, Executive Director of the Women's Center of Southeastern Michigan.  Cumming speaks about the mission and purpose of the Women's Center and how renaming the center after Jean Ledwith King is aligned with that focus.)</p>
+            </odd>
           </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
-              <unittitle>Francis, Nancy (Judge, Washtenaw County Trial Court) <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
-              <physdesc>
+              <unittitle>Francis, Nancy (Judge, Washtenaw County Trial Court)</unittitle><unitdate type="inclusive" normal="2011">2011</unitdate><physdesc>
                 <physfacet>.MP4 and .MOV files</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/108193" show="new" actuate="onrequest">
+              <dao href="http://hdl.handle.net/2027.42/108193" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/2597">
                 <daodesc>
                   <p>[download item]</p>
                 </daodesc>
               </dao>
             </did>
+            <odd>
+              <p>(Video recording [11:14] of an interview with the Honorable Nancy Francis, a judge for the Washtenaw County Trial Court.  She talks about how she first met King when she was only 7 years old and King was doing political work but got to know her well after finishing her education and beginning to practice law herself.  She gives examples of working together on cases for the ACLU [American Civil Liberties Union] such as a Vietnam-era anti-war case.  Overall, she 'can't think about anybody who has done more for women's rights than Jean, at least in the modern age.' [Note: Later in 2011, Nancy Francis changed her name back to Nancy Wheeler, her maiden name.])</p>
+            </odd>
           </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
-              <unittitle>George, Maryanne (Reporter for the <title render="italic">Detroit Free Press</title>, 1980-2006), <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
-              <physdesc>
+              <unittitle>George, Maryanne (Reporter for the <title render="italic">Detroit Free Press</title>, 1980-2006)</unittitle><unitdate type="inclusive" normal="2011">2011</unitdate><physdesc>
                 <physfacet>.MP4 and .MOV files</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/108194" show="new" actuate="onrequest">
+              <dao href="http://hdl.handle.net/2027.42/108194" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/2598">
                 <daodesc>
                   <p>[download item]</p>
                 </daodesc>
               </dao>
             </did>
+            <odd>
+              <p>(Video recording [8:25] of an interview with Maryanne George, a reporter for the Detroit Free Press from 1980 to 2006.  George relates how she worked in the same building as King when she opened the Free Press Ann Arbor Bureau in 1990 and she and King became friends.  She also gives an overview of King's work fighting sex discrimination in education, politics, and sports and describes King as a 'walking, talking support group.')</p>
+            </odd>
           </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
-              <unittitle>Hollenshead, Carol (Director Emeritus, University of Michigan Center for the Education of Women) <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
-              <physdesc>
+              <unittitle>Hollenshead, Carol (Director Emeritus, University of Michigan Center for the Education of Women)</unittitle><unitdate type="inclusive" normal="2011">2011</unitdate><physdesc>
                 <physfacet>.MP4 and .MOV files</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/108195" show="new" actuate="onrequest">
+              <dao href="http://hdl.handle.net/2027.42/108195" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/2599">
                 <daodesc>
                   <p>[download item]</p>
                 </daodesc>
               </dao>
             </did>
+            <odd>
+              <p>(Video recording [16:56] of an interview with Carol Hollenshead, Director Emeritus of the University of Michigan Center for the Education of Women.  Hollenshead discusses the general experience of women at the University of Michigan in the 1970s, Jean Ledwith King's work, and her own personal experience with wanting to retain her maiden name, as well as about renaming the Women's Center of Southeastern Michigan after King.)</p>
+            </odd>
           </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
-              <unittitle>Hutchins, Carol (Michigan State University Basketball Player, <unitdate normal="1976/1979" type="inclusive">1976-1979</unitdate>) <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
-              <physdesc>
+              <unittitle>Hutchins, Carol (Michigan State University Basketball Player, )</unittitle><unitdate normal="1976/1979" type="inclusive">1976-1979</unitdate><unitdate type="inclusive" normal="2011">2011</unitdate><physdesc>
                 <physfacet>.MP4 and .MOV files</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/108196" show="new" actuate="onrequest">
+              <dao href="http://hdl.handle.net/2027.42/108196" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/2600">
                 <daodesc>
                   <p>[download item]</p>
                 </daodesc>
               </dao>
             </did>
+            <odd>
+              <p>(Video recording [13:35] of an interview with Carol Hutchins, a member of the Women's Basketball Team at Michigan State University from 1976 to 1979 and head coach of the University of Michigan Women's Softball Team beginning in 1985.  Hutchins discusses her experience on the MSU Women's Basketball team, feeling grateful for having the opportunity to play at all despite the significant inequities existing between the men and women's teams.  In 1979, team members brought their concerns to Jean Ledwith King in Ann Arbor, who took the case.  Hutchins also comments on the difference King has made in society and her legacy for women.)</p>
+            </odd>
           </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
-              <unittitle>King, Jean Ledwith <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
-              <physdesc>
+              <unittitle>King, Jean Ledwith</unittitle><unitdate type="inclusive" normal="2011">2011</unitdate><physdesc>
                 <physfacet>.MP4 and .MOV files</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/108175" show="new" actuate="onrequest">
+              <dao href="http://hdl.handle.net/2027.42/108175" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/2601">
                 <daodesc>
                   <p>[download item]</p>
                 </daodesc>
               </dao>
             </did>
+            <odd>
+              <p>(Video recording [42:34] of an interview with Jean Ledwith King about her career as an attorney as well as some background on her life prior to attending law school.  Following the conclusion of the interview there is also a brief discussion between King and the interviewer about other interviews planned.)</p>
+            </odd>
           </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
-              <unittitle>Maynard, Olivia [Libby] (Chair, Michigan Democratic Party, <unitdate normal="1979/1983" type="inclusive">1979-1983</unitdate>) <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
-              <physdesc>
+              <unittitle>Maynard, Olivia [Libby] (Chair, Michigan Democratic Party, )</unittitle><unitdate normal="1979/1983" type="inclusive">1979-1983</unitdate><unitdate type="inclusive" normal="2011">2011</unitdate><physdesc>
                 <physfacet>.MP4 and .MOV files</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/108176" show="new" actuate="onrequest">
+              <dao href="http://hdl.handle.net/2027.42/108176" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/2602">
                 <daodesc>
                   <p>[download item]</p>
                 </daodesc>
               </dao>
             </did>
+            <odd>
+              <p>(Video recording [9:06] of an interview with Olivia [Libby] Maynard, who served as the Chair of the Michigan Democratic Party from 1979 to 1983.  Maynard talks about how she first worked with King around 1972 on women's rights to equal representation at the Democratic National Convention, as well as her work involving women's participation in the Michigan Democratic Party in general.  Following the interview, there is a discussion about finding images connected to King's work in politics.)</p>
+            </odd>
           </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
-              <unittitle>Neiberg, Vicki (Michigan State University Alliance to End Sex Discrimination, 1970s) <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
-              <physdesc>
+              <unittitle>Neiberg, Vicki (Michigan State University Alliance to End Sex Discrimination, 1970s)</unittitle><unitdate type="inclusive" normal="2011">2011</unitdate><physdesc>
                 <physfacet>.MP4 and .MOV files</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/108177" show="new" actuate="onrequest">
+              <dao href="http://hdl.handle.net/2027.42/108177" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/2603">
                 <daodesc>
                   <p>[download item]</p>
                 </daodesc>
               </dao>
             </did>
+            <odd>
+              <p>(Two video recordings [19:02 and 15:23] of an interview with Vicki Neiberg, a member of the Michigan Alliance to End Sex Discrimination in the 1970s.  Neiberg talks about her experience with King in relation to fighting against sex discrimination at Michigan State University, and how King helped teach strategies and connected women together to further their goals.  Neiberg also discusses the incredible reach of King's legacy and gives examples of some of the creative tactics she employed to change policy, for instance to allow women to keep their maiden names on their Michigan driver's licenses.)</p>
+            </odd>
           </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
-              <unittitle>Rivers, Lynn (Law Clerk, <unitdate normal="1989/1991" type="inclusive">1989-1991</unitdate>) <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
-              <physdesc>
+              <unittitle>Rivers, Lynn (Law Clerk, )</unittitle><unitdate normal="1989/1991" type="inclusive">1989-1991</unitdate><unitdate type="inclusive" normal="2011">2011</unitdate><physdesc>
                 <physfacet>.MP4 and .MOV files</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/108178" show="new" actuate="onrequest">
+              <dao href="http://hdl.handle.net/2027.42/108178" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/2604">
                 <daodesc>
                   <p>[download item]</p>
                 </daodesc>
               </dao>
             </did>
+            <odd>
+              <p>(Video recording [13:19] of an interview with Lynn Rivers, who worked for Jean Ledwith King as a Law Clerk from 1989 to 1991.  Rivers talks about how she first met King on the Ann Arbor School Board in the mid-1980s. She also discusses particular cases such as those against the Department of Labor and Eastern Michigan University, which King did not win, and the lessons learned from that experience.  Rivers also recounts how she brought King's values to her time serving in Congress and that King directly encouraged her to run for political office.)</p>
+            </odd>
           </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
-              <unittitle>Sandler, Bernice (Senior Scholar, Women's Research &amp; Education Institute) <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
-              <physdesc>
+              <unittitle>Sandler, Bernice (Senior Scholar, Women's Research &amp; Education Institute)</unittitle><unitdate type="inclusive" normal="2011">2011</unitdate><physdesc>
                 <physfacet>.MP4 and .MOV files</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/108180" show="new" actuate="onrequest">
+              <dao href="http://hdl.handle.net/2027.42/108180" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/2605">
                 <daodesc>
                   <p>[download item]</p>
                 </daodesc>
               </dao>
             </did>
+            <odd>
+              <p>(Video recording [32:55] of an interview with Dr. Bernice Sandler, Senior Scholar at the Women's Research and Education Institute.  Sandler discusses her work with Jean Ledwith King and provides background and context on sex discrimination in the 1970s.  This discussion includes the story of how Sandler discovered an executive order that would allow charges to be filed in cases of sex discrimination against colleges and universities holding federal contracts.  The interview also includes stories about some of the cases King took on.  A second video [1:31] shows Sandler walking to her office and flipping through a book.)</p>
+            </odd>
           </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
-              <unittitle>Traxinger, Deb (Michigan State University Basketball Player, <unitdate normal="1978/1982" type="inclusive">1978-1982</unitdate>) <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
-              <physdesc>
+              <unittitle>Traxinger, Deb (Michigan State University Basketball Player, )</unittitle><unitdate normal="1978/1982" type="inclusive">1978-1982</unitdate><unitdate type="inclusive" normal="2011">2011</unitdate><physdesc>
                 <physfacet>.MP4 and .MOV files</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/108181" show="new" actuate="onrequest">
+              <dao href="http://hdl.handle.net/2027.42/108181" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/2606">
                 <daodesc>
                   <p>[download item]</p>
                 </daodesc>
               </dao>
             </did>
+            <odd>
+              <p>(Video recording [18:26] of an interview with Deb Traxinger, a member of the Women's Basketball Team at Michigan State University from 1978 to 1982 and current high school teacher.  Traxinger discusses issues surrounding her participation in sports during the 1970s prior to coming to college, playing women's basketball at MSU, and how she met Jean Ledwith King, who changed her life by taking her team's case against MSU.  When King made the case into a class action suit because Traxinger was the last remaining party to the suit and about to graduate, Traxinger became the class representative.  Traxinger also relates how much power King's name carries, giving an example of a situation in her own high school.  She states that 'Jean is my hero.')</p>
+            </odd>
           </c03>
         </c02>
         <c02 level="subseries">
@@ -363,102 +392,116 @@
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
-              <unittitle>Compilations <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
-              <physdesc>
+              <unittitle>Compilations</unittitle><unitdate type="inclusive" normal="2011">2011</unitdate><physdesc>
                 <physfacet>.MP4 and .MOV files</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/108182" show="new" actuate="onrequest">
+              <dao href="http://hdl.handle.net/2027.42/108182" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/2607">
                 <daodesc>
                   <p>[download item]</p>
                 </daodesc>
               </dao>
             </did>
+            <odd>
+              <p>(Two video  compilations of tribute statements from politicians, female athletes, and a former law partner honoring Jean Ledwith King.  The first includes statements from Senator Debbie Stabenow, Julie Foudy, Rich Bloch, Angela Ruggiero, and Senator Carl Levin.  The second copy omits the clip of Rich Bloch.)</p>
+            </odd>
           </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
-              <unittitle>Bloch, Rich (former Law Partner) <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
-              <physdesc>
+              <unittitle>Bloch, Rich (former Law Partner)</unittitle><unitdate type="inclusive" normal="2011">2011</unitdate><physdesc>
                 <physfacet>.MP4 and .M4V files</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/108183" show="new" actuate="onrequest">
+              <dao href="http://hdl.handle.net/2027.42/108183" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/2608">
                 <daodesc>
                   <p>[download item]</p>
                 </daodesc>
               </dao>
             </did>
+            <odd>
+              <p>(Video recording [0:59] of Rich Bloch, a former law partner of Jean Ledwith King's.  Bloch tells a story about King coming into the office once very excited to be interviewing a man for a secretary position.)</p>
+            </odd>
           </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
-              <unittitle>Foudy, Julie (U.S. Olympic Soccer Gold Medalist) <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
-              <physdesc>
+              <unittitle>Foudy, Julie (U.S. Olympic Soccer Gold Medalist)</unittitle><unitdate type="inclusive" normal="2011">2011</unitdate><physdesc>
                 <physfacet>.MP4 and .MOV files</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/108184" show="new" actuate="onrequest">
+              <dao href="http://hdl.handle.net/2027.42/108184" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/2609">
                 <daodesc>
                   <p>[download item]</p>
                 </daodesc>
               </dao>
             </did>
+            <odd>
+              <p>(Video recording [0:35] of Julie Foudy, United States Soccer Olympic Gold Medalist, thanking Jean Ledwith King for all her work on Title IX and increasing opportunities for women in sports.)</p>
+            </odd>
           </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
-              <unittitle>Levin, Carl (U.S. Senator for Michigan) <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
-              <physdesc>
+              <unittitle>Levin, Carl (U.S. Senator for Michigan)</unittitle><unitdate type="inclusive" normal="2011">2011</unitdate><physdesc>
                 <physfacet>.MP4 and .MPG files</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/108185" show="new" actuate="onrequest">
+              <dao href="http://hdl.handle.net/2027.42/108185" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/2610">
                 <daodesc>
                   <p>[download item]</p>
                 </daodesc>
               </dao>
             </did>
+            <odd>
+              <p>(Video recording [1:40] of United States Senator Carl Levin, a Democrat from Michigan, honoring Jean Ledwith King, particularly for her efforts in politics such as fighting for equity in the Michigan 1972 delegation to the Democratic National Convention.)</p>
+            </odd>
           </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
-              <unittitle>Ruggiero, Angela (U.S. Olympic Hockey Gold Medalist) <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
-              <physdesc>
+              <unittitle>Ruggiero, Angela (U.S. Olympic Hockey Gold Medalist)</unittitle><unitdate type="inclusive" normal="2011">2011</unitdate><physdesc>
                 <physfacet>.MP4 and .MOV files</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/108187" show="new" actuate="onrequest">
+              <dao href="http://hdl.handle.net/2027.42/108187" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/2611">
                 <daodesc>
                   <p>[download item]</p>
                 </daodesc>
               </dao>
             </did>
+            <odd>
+              <p>(Video recording [0:54] of Angela Ruggiero, four-time Olympian on the United States Ice Hockey Team, thanking Jean Ledwith King for her Title IX work and expressing her regrets that she was not able to attend the event honoring King and the Women's Center of Southeastern Michigan.)</p>
+            </odd>
           </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
-              <unittitle>Stabenow, Debbie (U.S. Senator for Michigan) <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
-              <physdesc>
+              <unittitle>Stabenow, Debbie (U.S. Senator for Michigan)</unittitle><unitdate type="inclusive" normal="2011">2011</unitdate><physdesc>
                 <physfacet>.MP4 and .MOV files</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/108188" show="new" actuate="onrequest">
+              <dao href="http://hdl.handle.net/2027.42/108188" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/2612">
                 <daodesc>
                   <p>[download item]</p>
                 </daodesc>
               </dao>
             </did>
+            <odd>
+              <p>(Video recording [0:55] of United States Senator Debbie Stabenow, a Democrat from Michigan, honoring Jean Ledwith King's work in furthering opportunities for women's participation in sports and politics.)</p>
+            </odd>
           </c03>
         </c02>
       </c01>
       <c01 level="series">
         <did>
           <physloc>Online</physloc>
-          <unittitle>Photographs, circa <unitdate type="inclusive" normal="1927/2011">1927-2011</unitdate></unittitle>
-          <physdesc>
+          <unittitle>Photographs, circa</unittitle><unitdate type="inclusive" normal="1927/2011">1927-2011</unitdate><physdesc>
             <physfacet>.ZIP file</physfacet>
           </physdesc>
-          <dao href="http://hdl.handle.net/2027.42/108189" show="new" actuate="onrequest">
+          <dao href="http://hdl.handle.net/2027.42/108189" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/2613">
             <daodesc>
               <p>[download item]</p>
             </daodesc>
           </dao>
         </did>
+        <odd>
+          <p>(Set of images related to Jean Ledwith King and her legacy.  Includes images of King from the 1920s to the 2010s as well as various photographs and newspaper clippings relating to particular cases and issues.  Topics represented include the Women's Center of Southeastern Michigan and its mission, the 1972 Democratic Convention, the University of Michigan, Michigan State University basketball and Magic Johnson, Tricia Saunders, Women and Sports [mostly stock photos], and the Women's Political Caucus.  Images compiled for use in the documentary, 'The Power of One: Celebrating Jean Ledwith King,' created by John Owens.)</p>
+        </odd>
         <accessrestrict>
           <p>[Online access restricted to computers in Bentley, Duderstadt Center, Hatcher, and Shapiro Libraries on University of Michigan campus.]</p>
         </accessrestrict>
@@ -467,8 +510,7 @@
         </scopecontent>
         <c02 level="file">
           <did>
-            <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> Democratic Convention</unittitle>
-          </did>
+            <unittitle>Democratic Convention</unittitle><unitdate type="inclusive" normal="1972">1972</unitdate></did>
         </c02>
         <c02 level="file">
           <did>

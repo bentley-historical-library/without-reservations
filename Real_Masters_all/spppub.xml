@@ -47,6 +47,7 @@
         <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
       </change>
     </revisiondesc>
+    <classification ref="/repositories/2/classifications/2"/>
   </eadheader>
   <frontmatter>
     <titlepage>
@@ -58,10 +59,9 @@
   <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Gerald R. Ford School of Public Policy.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/20864">University of Michigan. Gerald R. Ford School of Public Policy.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Gerald R. Ford School of Public Policy (University of Michigan) Publications <unitdate type="inclusive" encodinganalog="245$f" normal="1923/2006">1923-2006</unitdate></unittitle>
-      <physdesc altrender="part">
+      <unittitle encodinganalog="245">Gerald R. Ford School of Public Policy (University of Michigan) Publications</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1923/2006">1923-2006</unitdate><physdesc altrender="part">
         <extent encodinganalog="300" altrender="materialtype spaceoccupied">6.2 linear feet</extent>
       </physdesc>
       <physdesc altrender="part">
@@ -107,40 +107,40 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. School of Public Policy.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87826795">University of Michigan. Institute of Public Policy Studies.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Institute of Public Administration.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Institute of Public and Social Administration.</corpname>
-        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no95060550">University of Michigan. Bureau of Government.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19325">University of Michigan. School of Public Policy.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87826795" ref="/agents/corporate_entities/21516">University of Michigan. Institute of Public Policy Studies.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/19383">University of Michigan. Institute of Public Administration.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/20483">University of Michigan. Institute of Public and Social Administration.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no95060550" ref="/agents/corporate_entities/19546">University of Michigan. Bureau of Government.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Publications:</head>
-        <title source="aacr2" encodinganalog="740">Staebler caucus.</title>
+        <title source="aacr2" encodinganalog="740" ref="/subjects/157">Staebler caucus.</title>
       </controlaccess>
       <controlaccess>
         <head>Contributors:</head>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n87826795">University of Michigan. Institute of Public Policy Studies.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Institute of Public Administration.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Institute of Public and Social Administration.</corpname>
-        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/no95060550">University of Michigan. Bureau of Government.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">Neil Staebler Political Education Fund.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">American Society for Public Administration. Michigan Chapter.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n87826795" ref="/agents/corporate_entities/21516">University of Michigan. Institute of Public Policy Studies.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/19383">University of Michigan. Institute of Public Administration.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/20483">University of Michigan. Institute of Public and Social Administration.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/no95060550" ref="/agents/corporate_entities/19546">University of Michigan. Bureau of Government.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/18245">Neil Staebler Political Education Fund.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/19436">American Society for Public Administration. Michigan Chapter.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Publications:</head>
-        <title source="aacr2" encodinganalog="740">Staebler caucus.</title>
+        <title source="aacr2" encodinganalog="740" ref="/subjects/157">Staebler caucus.</title>
       </controlaccess>
       <controlaccess>
         <head>Genre/Form:</head>
-        <genreform source="aat" encodinganalog="655">Brochures.</genreform>
-        <genreform source="aat" encodinganalog="655">Lectures.</genreform>
-        <genreform source="aat" encodinganalog="655">Manuals.</genreform>
-        <genreform source="lcsh" encodinganalog="655">Catalogs, College.</genreform>
-        <genreform source="aat" encodinganalog="655">Newsletters.</genreform>
-        <genreform source="aat" encodinganalog="655">Proceedings.</genreform>
-        <genreform source="aat" encodinganalog="655">Programs.</genreform>
-        <genreform source="aat" encodinganalog="655">Reports.</genreform>
-        <genreform source="lcsh" encodinganalog="655">Student publications.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3155">Brochures.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3238">Lectures.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3154">Manuals.</genreform>
+        <genreform source="lcsh" encodinganalog="655" ref="/subjects/3435">Catalogs, College.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3153">Newsletters.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3241">Proceedings.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3211">Programs.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3151">Reports.</genreform>
+        <genreform source="lcsh" encodinganalog="655" ref="/subjects/3439">Student publications.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -158,19 +158,17 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle><title render="italic">Fiftieth Anniversary Celebration Institute of Public Administration</title>, <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [7310803564829351646]">1</container>
+              <unittitle><title render="italic">Fiftieth Anniversary Celebration Institute of Public Administration</title></unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>General <unitdate type="inclusive" normal="1986">1986</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [7310803564829351646]">1</container>
+              <unittitle>General</unittitle><unitdate type="inclusive" normal="1986">1986</unitdate><unitdate type="inclusive">undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [7310803564829351646]">1</container>
               <unittitle>
                 <title render="italic">Gerald R. Ford School of Public Policy Celebration and Naming Ceremony, 2000</title>
               </unittitle>
@@ -178,27 +176,23 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle><title render="italic">Joan and Sanford Weill Hall dedication</title>, <unitdate type="inclusive" normal="2006">2006</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [7310803564829351646]">1</container>
+              <unittitle><title render="italic">Joan and Sanford Weill Hall dedication</title></unittitle><unitdate type="inclusive" normal="2006">2006</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle><title render="italic">Institute of Public Policy Studies</title>, <unitdate type="inclusive" normal="1981" certainty="approximate">circa 1981</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [7310803564829351646]">1</container>
+              <unittitle><title render="italic">Institute of Public Policy Studies</title></unittitle><unitdate type="inclusive" normal="1981" certainty="approximate">circa 1981</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle><title render="italic">Public Leadership: Governing for the 21st Century</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [7310803564829351646]">1</container>
+              <unittitle><title render="italic">Public Leadership: Governing for the 21st Century</title></unittitle><unitdate type="inclusive">undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle><title render="italic">Site dedication ceremony</title>, <unitdate type="inclusive" normal="2003">2003</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [7310803564829351646]">1</container>
+              <unittitle><title render="italic">Site dedication ceremony</title></unittitle><unitdate type="inclusive" normal="2003">2003</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -207,33 +201,27 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [7310803564829351646]">1</container>
               <unittitle>
-                <title render="italic">The Institute of Public and Social Administration Announcement</title>
-                <unitdate type="inclusive" normal="1936/1938">1936-1938</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+                <title render="italic">The Institute of Public and Social Administration Announcement</title></unittitle><unitdate type="inclusive" normal="1936/1938">1936-1938</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle><title render="italic">The Institute of Public and Social Administration Curriculum in Public Administration Announcement</title>, <unitdate type="inclusive" normal="1939/1940">1939-1940</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [7310803564829351646]">1</container>
+              <unittitle><title render="italic">The Institute of Public and Social Administration Curriculum in Public Administration Announcement</title></unittitle><unitdate type="inclusive" normal="1939/1940">1939-1940</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>Graduate Curriculum in Social Work Announcement <unitdate type="inclusive" normal="1936/1937">1936-1937</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [7310803564829351646]">1</container>
+              <unittitle>Graduate Curriculum in Social Work Announcement</unittitle><unitdate type="inclusive" normal="1936/1937">1936-1937</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>Curriculum in Social Work Announcement Summer Session <unitdate type="inclusive" normal="1938">1938</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [7310803564829351646]">1</container>
+              <unittitle>Curriculum in Social Work Announcement Summer Session</unittitle><unitdate type="inclusive" normal="1938">1938</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -241,22 +229,16 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1939/1943">1939-1943</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [7310803564829351646]">1</container>
+                <unitdate type="inclusive" normal="1939/1943">1939-1943</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">6 volumes</extent>
                 </physdesc>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1944/1946">1944-1946</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [7310803564829351646]">1</container>
+                <unitdate type="inclusive" normal="1944/1946">1944-1946</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -267,49 +249,37 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1946/1954">1946-1954</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [7310803564829351646]">1</container>
+                <unitdate type="inclusive" normal="1946/1954">1946-1954</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">4 folders</extent>
                 </physdesc>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1958/1962">1958-1962</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [7310803564829351646]">1</container>
+                <unitdate type="inclusive" normal="1958/1962">1958-1962</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1966/1968">1966-1968</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [7310803564829351646]">1</container>
+                <unitdate type="inclusive" normal="1966/1968">1966-1968</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [7310803564829351646]">1</container>
               <unittitle>
                 <title render="italic">Institute of Public Policy Studies: Program in Public Administration</title>
               </unittitle>
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1969/1972">1969-1972</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [7310803564829351646]">1</container>
+                <unitdate type="inclusive" normal="1969/1972">1969-1972</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
@@ -323,33 +293,24 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1972/1980">1972-1980</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [7310803564829351646]">1</container>
+                <unitdate type="inclusive" normal="1972/1980">1972-1980</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">4 folders</extent>
                 </physdesc>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1984/1989">1984-1989</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [7310803564829351646]">1</container>
+                <unitdate type="inclusive" normal="1984/1989">1984-1989</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">3 folders</extent>
                 </physdesc>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">1</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1989/1994">1989-1994</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [7310803564829351646]">1</container>
+                <unitdate type="inclusive" normal="1989/1994">1989-1994</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
@@ -357,12 +318,9 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">5</container>
+              <container type="box" label="Box [35914948974724566]">5</container>
               <unittitle>
-                <title render="italic">School of Public Policy</title>
-                <unitdate type="inclusive" normal="1995/2001"> 1995-2001</unitdate>
-              </unittitle>
-            </did>
+                <title render="italic">School of Public Policy</title></unittitle><unitdate type="inclusive" normal="1995/2001"> 1995-2001</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -372,40 +330,29 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">5</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="2001/2002">2001/02</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [35914948974724566]">5</container>
+                <unitdate type="inclusive" normal="2001/2002">2001/02</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">5</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="2002/2003">2002/03</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [35914948974724566]">5</container>
+                <unitdate type="inclusive" normal="2002/2003">2002/03</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">5</container>
-                <unittitle>Supplement <unitdate type="inclusive" normal="2003/2004">2003/04</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [35914948974724566]">5</container>
+                <unittitle>Supplement</unittitle><unitdate type="inclusive" normal="2003/2004">2003/04</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">5</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="2004/2006">2004/06</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [35914948974724566]">5</container>
+                <unitdate type="inclusive" normal="2004/2006">2004/06</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">5</container>
-              <unittitle>Ph.D. Joint Programs, circa <unitdate type="inclusive" normal="2000"> 2000</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [35914948974724566]">5</container>
+              <unittitle>Ph.D. Joint Programs, circa</unittitle><unitdate type="inclusive" normal="2000"> 2000</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -414,8 +361,7 @@
           </did>
           <c03 level="file">
             <did>
-              <unittitle><title render="italic">Alumni directory</title>, <unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
-            </did>
+              <unittitle><title render="italic">Alumni directory</title></unittitle><unitdate type="inclusive" normal="1999">1999</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -428,15 +374,13 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">1</container>
-                <unittitle><title render="italic">Case Materials</title>, <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [7310803564829351646]">1</container>
+                <unittitle><title render="italic">Case Materials</title></unittitle><unitdate type="inclusive" normal="1977">1977</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">1</container>
-                <unittitle><title render="italic">Instructor's Guide and Bibliography</title>, <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [7310803564829351646]">1</container>
+                <unittitle><title render="italic">Instructor's Guide and Bibliography</title></unittitle><unitdate type="inclusive" normal="1977">1977</unitdate></did>
             </c04>
           </c03>
         </c02>
@@ -446,9 +390,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle><title render="italic">Citigroup Lecture </title>, <unitdate type="inclusive" normal="2002">2002</unitdate>, <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [7310803564829351646]">1</container>
+              <unittitle><title render="italic">Citigroup Lecture </title></unittitle><unitdate type="inclusive" normal="2002">2002</unitdate><unitdate type="inclusive" normal="2011">2011</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -458,21 +401,18 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">1</container>
-                <unittitle><title render="italic">No. 1, Human Capital and the Personal Distribution of Income: An Analytical Approach</title> by Gary S. Becker, <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [7310803564829351646]">1</container>
+                <unittitle><title render="italic">No. 1, Human Capital and the Personal Distribution of Income: An Analytical Approach</title> by Gary S. Becker</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">1</container>
-                <unittitle><title render="italic">No. 2, Guideposts for Wages and Prices: Criteria and Consistency</title> by Edward F. Dension, <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [7310803564829351646]">1</container>
+                <unittitle><title render="italic">No. 2, Guideposts for Wages and Prices: Criteria and Consistency</title> by Edward F. Dension</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">1</container>
-                <unittitle><title render="italic">No. 4, Individual Behavior, Economic Analysis and Public Policy</title>, by James N. Morgan, <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [7310803564829351646]">1</container>
+                <unittitle><title render="italic">No. 4, Individual Behavior, Economic Analysis and Public Policy</title>, by James N. Morgan</unittitle><unitdate type="inclusive" normal="1977">1977</unitdate></did>
             </c04>
           </c03>
         </c02>
@@ -482,27 +422,23 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">5</container>
-              <unittitle> Event Flyers, <unitdate type="inclusive" normal="2011/2012">2011-2012 </unitdate> </unittitle>
-            </did>
+              <container type="box" label="Box [35914948974724566]">5</container>
+              <unittitle>Event Flyers</unittitle><unitdate type="inclusive" normal="2011/2012">2011-2012 </unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">5</container>
-              <unittitle> Posters and Flyers Inventory <unitdate type="inclusive" normal="2002/2012">2002-2012</unitdate> </unittitle>
-            </did>
+              <container type="box" label="Box [35914948974724566]">5</container>
+              <unittitle>Posters and Flyers Inventory</unittitle><unitdate type="inclusive" normal="2002/2012">2002-2012</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">5</container>
-              <unittitle> Policy Talks <unitdate type="inclusive" normal="2012/2013">2012-2013</unitdate> </unittitle>
-            </did>
+              <container type="box" label="Box [35914948974724566]">5</container>
+              <unittitle>Policy Talks</unittitle><unitdate type="inclusive" normal="2012/2013">2012-2013</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="bundle" label="Bundle">1</container>
-              <unittitle> Posters and Flyers <unitdate type="inclusive" normal="2002/2010">2002-2010</unitdate> </unittitle>
-            </did>
+              <container type="bundle" label="Bundle [6935450024193354679235]">1</container>
+              <unittitle>Posters and Flyers</unittitle><unitdate type="inclusive" normal="2002/2010">2002-2010</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -511,15 +447,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle><title render="italic">IPPS Guide to Summer Internships and Summer Employment</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [7310803564829351646]">1</container>
+              <unittitle><title render="italic">IPPS Guide to Summer Internships and Summer Employment</title></unittitle><unitdate type="inclusive">undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle><title render="italic">Study Kit on Michigan Local Government</title>, <unitdate type="inclusive" normal="1954">1954</unitdate>, <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [7310803564829351646]">1</container>
+              <unittitle><title render="italic">Study Kit on Michigan Local Government</title></unittitle><unitdate type="inclusive" normal="1954">1954</unitdate><unitdate type="inclusive" normal="1958">1958</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">2 folders</extent>
               </physdesc>
             </did>
@@ -540,19 +474,13 @@
             </odd>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">6</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="2009/2010">2009-2010</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [8368765482567752]">6</container>
+                <unitdate type="inclusive" normal="2009/2010">2009-2010</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">6</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="2012/2013">2012-2013</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [8368765482567752]">6</container>
+                <unitdate type="inclusive" normal="2012/2013">2012-2013</unitdate></did>
             </c04>
           </c03>
         </c02>
@@ -562,43 +490,30 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">6</container>
-              <unittitle><title render="italic">IPPS Newsletter</title>, <unitdate type="inclusive" normal="1978/1986">1978-1986</unitdate> and1994-1995</unittitle>
-            </did>
+              <container type="box" label="Box [8368765482567752]">6</container>
+              <unittitle><title render="italic">IPPS Newsletter</title>,  and1994-1995</unittitle><unitdate type="inclusive" normal="1978/1986">1978-1986</unitdate></did>
             <odd>
               <p>[Continues as <title render="italic">School of Public Policy Newsletter</title>]</p>
             </odd>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">6</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1978/1983">1978-1983</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [8368765482567752]">6</container>
+                <unitdate type="inclusive" normal="1978/1983">1978-1983</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">6</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1986/1988">1986-1988</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [8368765482567752]">6</container>
+                <unitdate type="inclusive" normal="1986/1988">1986-1988</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">6</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1990/1992">1990-1992</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [8368765482567752]">6</container>
+                <unitdate type="inclusive" normal="1990/1992">1990-1992</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">6</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1993/1995">1993-1995</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [8368765482567752]">6</container>
+                <unitdate type="inclusive" normal="1993/1995">1993-1995</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -609,22 +524,16 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">6</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1956/1958">1956-1958</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [8368765482567752]">6</container>
+                <unitdate type="inclusive" normal="1956/1958">1956-1958</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">6</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1960/1965">1960-1965</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [8368765482567752]">6</container>
+                <unitdate type="inclusive" normal="1960/1965">1960-1965</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -638,29 +547,22 @@
             </odd>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">6</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1995/1997">1995-1997</unitdate>
-                </unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [8368765482567752]">6</container>
+                <unitdate type="inclusive" normal="1995/1997">1995-1997</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">6</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="2000/2002">2000-2002</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [8368765482567752]">6</container>
+                <unitdate type="inclusive" normal="2000/2002">2000-2002</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">6</container>
-              <unittitle><title render="italic">Perspectives</title> , <unitdate type="inclusive" normal="2003/2007">2003-2007</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [8368765482567752]">6</container>
+              <unittitle><title render="italic">Perspectives</title></unittitle><unitdate type="inclusive" normal="2003/2007">2003-2007</unitdate></did>
             <odd>
               <p>[Supersedes <title render="italic">SPP Newsletter]</title></p>
             </odd>
@@ -672,15 +574,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle><title render="italic">Papers in Comparative Public Administration</title> edited by Ferrel Heady and Sybil L. Stokes, <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [7310803564829351646]">1</container>
+              <unittitle><title render="italic">Papers in Comparative Public Administration</title> edited by Ferrel Heady and Sybil L. Stokes</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle><title render="italic">Proceedings of the First Annual Workshop on US-Canadian Relations</title>, <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [7310803564829351646]">1</container>
+              <unittitle><title render="italic">Proceedings of the First Annual Workshop on US-Canadian Relations</title></unittitle><unitdate type="inclusive" normal="1982">1982</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -689,15 +589,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle><title render="italic">IPPS/IPA Anniversary Celebration</title>, <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [7310803564829351646]">1</container>
+              <unittitle><title render="italic">IPPS/IPA Anniversary Celebration</title></unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>Management Clinic <unitdate type="inclusive" normal="1949/1950">1949-1950</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [7310803564829351646]">1</container>
+              <unittitle>Management Clinic</unittitle><unitdate type="inclusive" normal="1949/1950">1949-1950</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -706,45 +604,39 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle><title render="italic">A Case Study in Cost Effectiveness: Proposed Expansion of University of Michigan Athletic Facilities</title> by George M. Galloway, <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [7310803564829351646]">1</container>
+              <unittitle><title render="italic">A Case Study in Cost Effectiveness: Proposed Expansion of University of Michigan Athletic Facilities</title> by George M. Galloway</unittitle><unitdate type="inclusive">undated</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle><title render="italic">The Curriculum in Social Work: A Report of the First Five Years</title>, <unitdate type="inclusive" normal="1940">1940</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [7310803564829351646]">1</container>
+              <unittitle><title render="italic">The Curriculum in Social Work: A Report of the First Five Years</title></unittitle><unitdate type="inclusive" normal="1940">1940</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle><title render="italic">Demographic Information About IPPS Students</title>, <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [7310803564829351646]">1</container>
+              <unittitle><title render="italic">Demographic Information About IPPS Students</title></unittitle><unitdate type="inclusive" normal="1993">1993</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle><title render="italic">Financial Analysis of Current Operations of Colleges and Universities: Cooperative Research Project No. 1853</title>, <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [7310803564829351646]">1</container>
+              <unittitle><title render="italic">Financial Analysis of Current Operations of Colleges and Universities: Cooperative Research Project No. 1853</title></unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [7310803564829351646]">1</container>
               <unittitle><title render="italic">Report of the Advisory Council on Public Administration to the Executive Committee of the Institute of Public Administration</title>, [1967]</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle><title render="italic">State/Provincial Administrators in Michigan, Missouri, and Ontario: A Report to Respondents</title>, by Catherine Pastathopoulos, David A. Leuthold, and Robert S. Friedman, <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [7310803564829351646]">1</container>
+              <unittitle><title render="italic">State/Provincial Administrators in Michigan, Missouri, and Ontario: A Report to Respondents</title>, by Catherine Pastathopoulos, David A. Leuthold, and Robert S. Friedman</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle><title render="italic">University Centers for the Study of Public Policy: Organizational Viability</title> by John P. Crecine, <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [7310803564829351646]">1</container>
+              <unittitle><title render="italic">University Centers for the Study of Public Policy: Organizational Viability</title> by John P. Crecine</unittitle><unitdate type="inclusive">undated</unitdate></did>
           </c03>
         </c02>
       </c01>
@@ -773,494 +665,428 @@
               </did>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">1</container>
-                  <unittitle>No. 1, Per Capita General Property Taxation in Michigan Cities of Over 2,500 Population <unitdate type="inclusive" normal="1922">1922</unitdate> by Josephine Hoyt, <unitdate type="inclusive" normal="1923">1923</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [007901596451764161]" id="e9a4132d-7429-4564-9a9b-cd8ad92e36ff">2</container>
+                  <container type="folder" label="Folder" parent="e9a4132d-7429-4564-9a9b-cd8ad92e36ff">1</container>
+                  <unittitle>No. 1, Per Capita General Property Taxation in Michigan Cities of Over 2,500 Population 1922 by Josephine Hoyt, 1923</unittitle><unitdate type="inclusive" normal="1922">1922</unitdate><unitdate type="inclusive" normal="1923">1923</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">1</container>
-                  <unittitle>No. 2, Municipal News in Detroit Newspapers by Lida Rideout <unitdate type="inclusive" normal="1923">1923</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [007901596451764161]" id="d8995072-cb49-4a73-a166-0dfae48f6a34">2</container>
+                  <container type="folder" label="Folder" parent="d8995072-cb49-4a73-a166-0dfae48f6a34">1</container>
+                  <unittitle>No. 2, Municipal News in Detroit Newspapers by Lida Rideout</unittitle><unitdate type="inclusive" normal="1923">1923</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">1</container>
-                  <unittitle>No. 3, Suggestions for the Preparation of Term Reports on Problems of Municipal Government <unitdate type="inclusive" normal="1923">1923</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [007901596451764161]" id="788a762d-8e20-4589-b312-ee376c5c944a">2</container>
+                  <container type="folder" label="Folder" parent="788a762d-8e20-4589-b312-ee376c5c944a">1</container>
+                  <unittitle>No. 3, Suggestions for the Preparation of Term Reports on Problems of Municipal Government</unittitle><unitdate type="inclusive" normal="1923">1923</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">1</container>
-                  <unittitle>No. 3, (revised), Suggestions for the Preparation of Term Reports on Problems of Municipal Government <unitdate type="inclusive" normal="1932">1932</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [007901596451764161]" id="e2337532-e22c-4ba2-b13c-c4f832cf720b">2</container>
+                  <container type="folder" label="Folder" parent="e2337532-e22c-4ba2-b13c-c4f832cf720b">1</container>
+                  <unittitle>No. 3, (revised), Suggestions for the Preparation of Term Reports on Problems of Municipal Government</unittitle><unitdate type="inclusive" normal="1932">1932</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">1</container>
-                  <unittitle>No. 4 <title render="italic">Zoning Ordinances in Michigan Cities: Use Regulation</title>, <unitdate type="inclusive" normal="1923">1923</unitdate> by Lewis M. Gabriel, <unitdate type="inclusive" normal="1924">1924</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [007901596451764161]" id="e3ce9c5d-1e40-4ba6-8532-a0c021fd6a5d">2</container>
+                  <container type="folder" label="Folder" parent="e3ce9c5d-1e40-4ba6-8532-a0c021fd6a5d">1</container>
+                  <unittitle>No. 4 <title render="italic">Zoning Ordinances in Michigan Cities: Use Regulation</title>, 1923 by Lewis M. Gabriel, 1924</unittitle><unitdate type="inclusive" normal="1923">1923</unitdate><unitdate type="inclusive" normal="1924">1924</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">1</container>
-                  <unittitle>No. 5 <title render="italic">The Use of Voting Machines in Michigan, by James K. Pollock</title>, <unitdate type="inclusive" normal="1926">1926</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [007901596451764161]" id="20ef251f-0b58-452b-89de-b929ce0059b4">2</container>
+                  <container type="folder" label="Folder" parent="20ef251f-0b58-452b-89de-b929ce0059b4">1</container>
+                  <unittitle>No. 5 <title render="italic">The Use of Voting Machines in Michigan, by James K. Pollock</title></unittitle><unitdate type="inclusive" normal="1926">1926</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">1</container>
-                  <unittitle>No. 6 <title render="italic">Home Rule Charters in Michigan</title> by Paul Webbink and W.R. Maddox, <unitdate type="inclusive">undated</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [007901596451764161]" id="acffc7f5-93eb-4425-abc3-a040a4da353e">2</container>
+                  <container type="folder" label="Folder" parent="acffc7f5-93eb-4425-abc3-a040a4da353e">1</container>
+                  <unittitle>No. 6 <title render="italic">Home Rule Charters in Michigan</title> by Paul Webbink and W.R. Maddox</unittitle><unitdate type="inclusive">undated</unitdate></did>
               </c05>
             </c04>
             <c04 level="item">
               <did>
-                <unittitle><title render="italic">Michigan Governmental Digest</title>, Nos. 1, 3-4, <unitdate type="inclusive" normal="1946/1949">1946-1949</unitdate></unittitle>
-              </did>
+                <unittitle><title render="italic">Michigan Governmental Digest</title>, Nos. 1, 3-4</unittitle><unitdate type="inclusive" normal="1946/1949">1946-1949</unitdate></did>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">2</container>
-                  <unittitle>No. 1 <title render="italic">An Analysis of the Proposed Sales Tax Amendment</title> by Robert S. Ford, <unitdate type="inclusive" normal="1946">1946</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [007901596451764161]" id="2982a344-c29d-4eea-8d7a-a31114812092">2</container>
+                  <container type="folder" label="Folder" parent="2982a344-c29d-4eea-8d7a-a31114812092">2</container>
+                  <unittitle>No. 1 <title render="italic">An Analysis of the Proposed Sales Tax Amendment</title> by Robert S. Ford</unittitle><unitdate type="inclusive" normal="1946">1946</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">2</container>
-                  <unittitle>No. 3 <title render="italic">Michigan State Constitutional Revision Procedures</title>, by Claude R. Tharp, <unitdate type="inclusive" normal="1948">1948</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [007901596451764161]" id="6b91bf1b-5b0a-47da-a42b-3d096e73cd44">2</container>
+                  <container type="folder" label="Folder" parent="6b91bf1b-5b0a-47da-a42b-3d096e73cd44">2</container>
+                  <unittitle>No. 3 <title render="italic">Michigan State Constitutional Revision Procedures</title>, by Claude R. Tharp</unittitle><unitdate type="inclusive" normal="1948">1948</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">2</container>
-                  <unittitle>No. 4 <title render="italic">The Little Hoover Commissions</title> by John W. Lederle and Dorothee E. Strauss, <unitdate type="inclusive" normal="1949">1949</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [007901596451764161]" id="a00f92e2-0f37-4006-9ace-e84addffb0fb">2</container>
+                  <container type="folder" label="Folder" parent="a00f92e2-0f37-4006-9ace-e84addffb0fb">2</container>
+                  <unittitle>No. 4 <title render="italic">The Little Hoover Commissions</title> by John W. Lederle and Dorothee E. Strauss</unittitle><unitdate type="inclusive" normal="1949">1949</unitdate></did>
               </c05>
             </c04>
             <c04 level="file">
               <did>
-                <unittitle><title render="italic">Michigan Governmental Studies</title>, Nos. 1-50, <unitdate type="inclusive" normal="1938/1968">1938-1968</unitdate></unittitle>
-              </did>
+                <unittitle><title render="italic">Michigan Governmental Studies</title>, Nos. 1-50</unittitle><unitdate type="inclusive" normal="1938/1968">1938-1968</unitdate></did>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">3</container>
-                  <unittitle>No. 1 <title render="italic">The State Administrative Board in Michigan</title> by George C.S. Benson and Edward H. Litchfield, <unitdate type="inclusive" normal="1938">1938</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [007901596451764161]" id="7e874c09-3f43-4c1e-94fa-36e677e8ffe8">2</container>
+                  <container type="folder" label="Folder" parent="7e874c09-3f43-4c1e-94fa-36e677e8ffe8">3</container>
+                  <unittitle>No. 1 <title render="italic">The State Administrative Board in Michigan</title> by George C.S. Benson and Edward H. Litchfield</unittitle><unitdate type="inclusive" normal="1938">1938</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">3</container>
-                  <unittitle>No. 2. <title render="italic">Taxation of Intangibles in Michigan</title> by Robert S. Ford and William B. Wood, <unitdate type="inclusive" normal="1939">1939</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [007901596451764161]" id="b3d4ab1b-08d4-4a24-a208-bd40768ea1d0">2</container>
+                  <container type="folder" label="Folder" parent="b3d4ab1b-08d4-4a24-a208-bd40768ea1d0">3</container>
+                  <unittitle>No. 2. <title render="italic">Taxation of Intangibles in Michigan</title> by Robert S. Ford and William B. Wood</unittitle><unitdate type="inclusive" normal="1939">1939</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">3</container>
-                  <unittitle>No. 3 <title render="italic">Voting Behavior: A Case Study</title> by James Kerr Pollock, <unitdate type="inclusive" normal="1939">1939</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [007901596451764161]" id="6c708e4a-45cc-4f3d-b2f0-0c8bc8186a88">2</container>
+                  <container type="folder" label="Folder" parent="6c708e4a-45cc-4f3d-b2f0-0c8bc8186a88">3</container>
+                  <unittitle>No. 3 <title render="italic">Voting Behavior: A Case Study</title> by James Kerr Pollock</unittitle><unitdate type="inclusive" normal="1939">1939</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">4</container>
-                  <unittitle>No. 4 <title render="italic">A Manual of State Administrative Organization in Michigan</title>, <unitdate type="inclusive" normal="1940">1940</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [007901596451764161]" id="1d1e355b-1cf8-4873-abde-453c7c7c4454">2</container>
+                  <container type="folder" label="Folder" parent="1d1e355b-1cf8-4873-abde-453c7c7c4454">4</container>
+                  <unittitle>No. 4 <title render="italic">A Manual of State Administrative Organization in Michigan</title></unittitle><unitdate type="inclusive" normal="1940">1940</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">4</container>
-                  <unittitle>No. 5 <title render="italic">The Michigan Retail Sales and Use Taxes</title> by Robert S. Ford and E. Fenton Shepard, <unitdate type="inclusive" normal="1941">1941</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [007901596451764161]" id="c30eb99a-df07-479f-a517-62eacf8e996a">2</container>
+                  <container type="folder" label="Folder" parent="c30eb99a-df07-479f-a517-62eacf8e996a">4</container>
+                  <unittitle>No. 5 <title render="italic">The Michigan Retail Sales and Use Taxes</title> by Robert S. Ford and E. Fenton Shepard</unittitle><unitdate type="inclusive" normal="1941">1941</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">4</container>
-                  <unittitle>No. 6 <title render="italic">The Initiative and Referendum in Michigan</title> by James K. Pollock, <unitdate type="inclusive" normal="1940">1940</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [007901596451764161]" id="b0f7e14e-8b91-470d-864b-04df01a04c2f">2</container>
+                  <container type="folder" label="Folder" parent="b0f7e14e-8b91-470d-864b-04df01a04c2f">4</container>
+                  <unittitle>No. 6 <title render="italic">The Initiative and Referendum in Michigan</title> by James K. Pollock</unittitle><unitdate type="inclusive" normal="1940">1940</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">4</container>
-                  <unittitle>No. 7 <title render="italic">Voting Behavior in a Metropolitan Area</title> by Edward H. Litchfield, <unitdate type="inclusive" normal="1941">1941</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [007901596451764161]" id="ddfeec46-a07f-4108-9e77-27782b110249">2</container>
+                  <container type="folder" label="Folder" parent="ddfeec46-a07f-4108-9e77-27782b110249">4</container>
+                  <unittitle>No. 7 <title render="italic">Voting Behavior in a Metropolitan Area</title> by Edward H. Litchfield</unittitle><unitdate type="inclusive" normal="1941">1941</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">4</container>
-                  <unittitle>No. 8 <title render="italic">Income as an Index of the Fiscal Capacity of Michigan Counties</title> by Marvin A. Bacon, <unitdate type="inclusive" normal="1941">1941</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [007901596451764161]" id="48ce1157-ee1c-4ba5-b5dd-74035d949c64">2</container>
+                  <container type="folder" label="Folder" parent="48ce1157-ee1c-4ba5-b5dd-74035d949c64">4</container>
+                  <unittitle>No. 8 <title render="italic">Income as an Index of the Fiscal Capacity of Michigan Counties</title> by Marvin A. Bacon</unittitle><unitdate type="inclusive" normal="1941">1941</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">6</container>
-                  <unittitle>No. 9 <title render="italic">Financing Government in Michigan</title> by Robert S. Ford and Albert Waxman, <unitdate type="inclusive" normal="1942">1942</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [007901596451764161]" id="69dff0d3-8c88-44e2-b63b-e5186decffb8">2</container>
+                  <container type="folder" label="Folder" parent="69dff0d3-8c88-44e2-b63b-e5186decffb8">6</container>
+                  <unittitle>No. 9 <title render="italic">Financing Government in Michigan</title> by Robert S. Ford and Albert Waxman</unittitle><unitdate type="inclusive" normal="1942">1942</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">6</container>
+                  <container type="box" label="Box [007901596451764161]" id="918604d4-eaa0-4cb5-988e-6ad9b3d879bf">2</container>
+                  <container type="folder" label="Folder" parent="918604d4-eaa0-4cb5-988e-6ad9b3d879bf">6</container>
                   <unittitle>No. 10 <title render="italic">Michigan Politics in Transition</title> by James K. Pollock and Samuel J. Eldersveld</unittitle>
                 </did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">7</container>
-                  <unittitle>No. 11 <title render="italic">The Role of the Governor in Michigan in the Enactment of Appropriations</title> by John A. Perkins, <unitdate type="inclusive" normal="1943">1943</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [007901596451764161]" id="882ac430-dfbf-4613-b32b-875e11a79657">2</container>
+                  <container type="folder" label="Folder" parent="882ac430-dfbf-4613-b32b-875e11a79657">7</container>
+                  <unittitle>No. 11 <title render="italic">The Role of the Governor in Michigan in the Enactment of Appropriations</title> by John A. Perkins</unittitle><unitdate type="inclusive" normal="1943">1943</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">7</container>
-                  <unittitle>No. 12 <title render="italic">Michigan Highway Finance</title> by Robert S. Ford and Marvin A. Bacon, <unitdate type="inclusive" normal="1943">1943</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [007901596451764161]" id="36984fa4-ca3a-4fb1-9a3d-e5a9cd6b66a8">2</container>
+                  <container type="folder" label="Folder" parent="36984fa4-ca3a-4fb1-9a3d-e5a9cd6b66a8">7</container>
+                  <unittitle>No. 12 <title render="italic">Michigan Highway Finance</title> by Robert S. Ford and Marvin A. Bacon</unittitle><unitdate type="inclusive" normal="1943">1943</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">8</container>
-                  <unittitle>No. 13 <title render="italic">The Financing of Public Schools in Michigan</title> by E. Fenton Shepard and William B. Wood, <unitdate type="inclusive" normal="1942">1942</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [007901596451764161]" id="f30a47e6-5515-4f99-8dcd-1faba9e47a46">2</container>
+                  <container type="folder" label="Folder" parent="f30a47e6-5515-4f99-8dcd-1faba9e47a46">8</container>
+                  <unittitle>No. 13 <title render="italic">The Financing of Public Schools in Michigan</title> by E. Fenton Shepard and William B. Wood</unittitle><unitdate type="inclusive" normal="1942">1942</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">8</container>
+                  <container type="box" label="Box [007901596451764161]" id="79e27a8f-7677-4f00-a407-cdb9fa895ca3">2</container>
+                  <container type="folder" label="Folder" parent="79e27a8f-7677-4f00-a407-cdb9fa895ca3">8</container>
                   <unittitle>No. 14 <title render="italic">The Direct Primary in Michigan, 1909-1935</title> by James K. Pollock</unittitle>
                 </did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">9</container>
-                  <unittitle>No. 15 <title render="italic">A Manual of County Administrative Organization in Michigan</title> by Claude R. Tharp, <unitdate type="inclusive" normal="1944">1944</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [007901596451764161]" id="a63fd75a-4ec8-456e-aac6-b7c876803ad3">2</container>
+                  <container type="folder" label="Folder" parent="a63fd75a-4ec8-456e-aac6-b7c876803ad3">9</container>
+                  <unittitle>No. 15 <title render="italic">A Manual of County Administrative Organization in Michigan</title> by Claude R. Tharp</unittitle><unitdate type="inclusive" normal="1944">1944</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">9</container>
-                  <unittitle>No. 16 <title render="italic">Social Security and Related Services in Michigan, Their Administration and Financing</title> by Claude R. Tharp, <unitdate type="inclusive" normal="1946">1946</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [007901596451764161]" id="42ac9944-73b3-48e0-8f04-81731f4e8b12">2</container>
+                  <container type="folder" label="Folder" parent="42ac9944-73b3-48e0-8f04-81731f4e8b12">9</container>
+                  <unittitle>No. 16 <title render="italic">Social Security and Related Services in Michigan, Their Administration and Financing</title> by Claude R. Tharp</unittitle><unitdate type="inclusive" normal="1946">1946</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">10</container>
-                  <unittitle>No. 17 <title render="italic">Public Regulation in Action: The Experience of a Michigan Gas Company</title> by Floyd A. Bond, <unitdate type="inclusive" normal="1948">1948</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [007901596451764161]" id="3bd533bb-037c-4af8-bfcb-6decd976fa8c">2</container>
+                  <container type="folder" label="Folder" parent="3bd533bb-037c-4af8-bfcb-6decd976fa8c">10</container>
+                  <unittitle>No. 17 <title render="italic">Public Regulation in Action: The Experience of a Michigan Gas Company</title> by Floyd A. Bond</unittitle><unitdate type="inclusive" normal="1948">1948</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">10</container>
-                  <unittitle>No. 18 <title render="italic">A Manual of Township Government in Michigan</title> by Floyd A. Bond, <unitdate type="inclusive" normal="1948">1948</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [007901596451764161]" id="b176e5fd-12ce-4a86-b1ff-083b2b162fda">2</container>
+                  <container type="folder" label="Folder" parent="b176e5fd-12ce-4a86-b1ff-083b2b162fda">10</container>
+                  <unittitle>No. 18 <title render="italic">A Manual of Township Government in Michigan</title> by Floyd A. Bond</unittitle><unitdate type="inclusive" normal="1948">1948</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">11</container>
-                  <unittitle>No. 19 <title render="italic">The Population of Michigan 1840 to 1960 An Analysis of Growth, Distribution, and Composition</title> by Amos H. Hawley, <unitdate type="inclusive" normal="1949">1949</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [007901596451764161]" id="85aa7b5b-c92d-4ea2-a108-2c4ea802806f">2</container>
+                  <container type="folder" label="Folder" parent="85aa7b5b-c92d-4ea2-a108-2c4ea802806f">11</container>
+                  <unittitle>No. 19 <title render="italic">The Population of Michigan 1840 to 1960 An Analysis of Growth, Distribution, and Composition</title> by Amos H. Hawley</unittitle><unitdate type="inclusive" normal="1949">1949</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">11</container>
+                  <container type="box" label="Box [007901596451764161]" id="9b1f9813-5b5b-481c-b284-0c86727f5ba6">2</container>
+                  <container type="folder" label="Folder" parent="9b1f9813-5b5b-481c-b284-0c86727f5ba6">11</container>
                   <unittitle>No. 20 <title render="italic">A Manual of State Government in Michigan, 1949</title></unittitle>
                 </did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">12</container>
-                  <unittitle>No. 21 <title render="italic">Governmental Organizations in Metropolitan Areas</title> by Betty Tableman, <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [007901596451764161]" id="7c8ffd00-f168-422f-8e96-1c81d98d07e9">2</container>
+                  <container type="folder" label="Folder" parent="7c8ffd00-f168-422f-8e96-1c81d98d07e9">12</container>
+                  <unittitle>No. 21 <title render="italic">Governmental Organizations in Metropolitan Areas</title> by Betty Tableman</unittitle><unitdate type="inclusive" normal="1951">1951</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">12</container>
-                  <unittitle>No. 22 <title render="italic">Manual of City Government in Michigan (Revised Edition)</title> by Claude R. Tharp, <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [007901596451764161]" id="c5ee8381-6c01-4ef2-9db0-9e1e8823200a">2</container>
+                  <container type="folder" label="Folder" parent="c5ee8381-6c01-4ef2-9db0-9e1e8823200a">12</container>
+                  <unittitle>No. 22 <title render="italic">Manual of City Government in Michigan (Revised Edition)</title> by Claude R. Tharp</unittitle><unitdate type="inclusive" normal="1957">1957</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">13</container>
-                  <unittitle>No. 23 <title render="italic">Manual of Village Government in Michigan (Revised Edition)</title>, by Claude Tharp, <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [007901596451764161]" id="47b0dcea-df98-4dbc-aa49-0d891b5a2159">2</container>
+                  <container type="folder" label="Folder" parent="47b0dcea-df98-4dbc-aa49-0d891b5a2159">13</container>
+                  <unittitle>No. 23 <title render="italic">Manual of Village Government in Michigan (Revised Edition)</title>, by Claude Tharp</unittitle><unitdate type="inclusive" normal="1957">1957</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">13</container>
-                  <unittitle>No. 24 <title render="italic">Administrative Procedure Legislation in the States</title> by Ferrel Heady, <unitdate type="inclusive" normal="1952">1952</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [007901596451764161]" id="1b2210fc-93cd-48da-9ba5-81fa5f75d38d">2</container>
+                  <container type="folder" label="Folder" parent="1b2210fc-93cd-48da-9ba5-81fa5f75d38d">13</container>
+                  <unittitle>No. 24 <title render="italic">Administrative Procedure Legislation in the States</title> by Ferrel Heady</unittitle><unitdate type="inclusive" normal="1952">1952</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">14</container>
+                  <container type="box" label="Box [007901596451764161]" id="11d6b5da-a60e-49c3-8db1-1d9cb07d6ff6">2</container>
+                  <container type="folder" label="Folder" parent="11d6b5da-a60e-49c3-8db1-1d9cb07d6ff6">14</container>
                   <unittitle>No. 25 <title render="italic">Intrastate Migration in Michigan: 1935-1940</title> by Amos H. Hawley</unittitle>
                 </did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">14</container>
-                  <unittitle>No. 26 <title render="italic">The Special Assessment Today with Emphasis on the Michigan Experience</title> by William O. Winter, <unitdate type="inclusive" normal="1952">1952</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [007901596451764161]" id="cd22e6ab-fe3f-4568-be4c-d350d564ddff">2</container>
+                  <container type="folder" label="Folder" parent="cd22e6ab-fe3f-4568-be4c-d350d564ddff">14</container>
+                  <unittitle>No. 26 <title render="italic">The Special Assessment Today with Emphasis on the Michigan Experience</title> by William O. Winter</unittitle><unitdate type="inclusive" normal="1952">1952</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">15</container>
-                  <unittitle>No. 27 <title render="italic">Career Perspectives in a Bureaucratic Setting</title> by Dwaine Marvick, <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [007901596451764161]" id="f7adb80c-22c8-46cb-8724-a8cc2d9dbcad">2</container>
+                  <container type="folder" label="Folder" parent="f7adb80c-22c8-46cb-8724-a8cc2d9dbcad">15</container>
+                  <unittitle>No. 27 <title render="italic">Career Perspectives in a Bureaucratic Setting</title> by Dwaine Marvick</unittitle><unitdate type="inclusive" normal="1954">1954</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">15</container>
-                  <unittitle>No. 28 <title render="italic">Methods of State Constitutional Reform</title> by Albert L. Sturm, <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [007901596451764161]" id="37246504-4cbd-4da7-a0e3-06595f137dd5">2</container>
+                  <container type="folder" label="Folder" parent="37246504-4cbd-4da7-a0e3-06595f137dd5">15</container>
+                  <unittitle>No. 28 <title render="italic">Methods of State Constitutional Reform</title> by Albert L. Sturm</unittitle><unitdate type="inclusive" normal="1954">1954</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">16</container>
-                  <unittitle>No. 29 <title render="italic">Michigan State Highway Expenditure Policy</title> by Hubert H. Frisinger, <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [007901596451764161]" id="fbd2c397-28b6-42df-aebd-f69209921bfc">2</container>
+                  <container type="folder" label="Folder" parent="fbd2c397-28b6-42df-aebd-f69209921bfc">16</container>
+                  <unittitle>No. 29 <title render="italic">Michigan State Highway Expenditure Policy</title> by Hubert H. Frisinger</unittitle><unitdate type="inclusive" normal="1954">1954</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">16</container>
-                  <unittitle>No. 30 <title render="italic">Michigan's Recounts for Governor, 1950 and 1952 A Systematic Analysis of Election Error</title> by Samuel J. Eldersveld and Albert A. Applegate, <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [007901596451764161]" id="b02228dd-7057-4e8e-a2cc-2d232d9a2565">2</container>
+                  <container type="folder" label="Folder" parent="b02228dd-7057-4e8e-a2cc-2d232d9a2565">16</container>
+                  <unittitle>No. 30 <title render="italic">Michigan's Recounts for Governor, 1950 and 1952 A Systematic Analysis of Election Error</title> by Samuel J. Eldersveld and Albert A. Applegate</unittitle><unitdate type="inclusive" normal="1954">1954</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">17</container>
-                  <unittitle>No. 31 <title render="italic">The Michigan Department of Administration</title> by Ferrel Heady and Robert H. Pealy, <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [007901596451764161]" id="454a40c5-f70e-418b-be91-1d6e85a6c8e7">2</container>
+                  <container type="folder" label="Folder" parent="454a40c5-f70e-418b-be91-1d6e85a6c8e7">17</container>
+                  <unittitle>No. 31 <title render="italic">The Michigan Department of Administration</title> by Ferrel Heady and Robert H. Pealy</unittitle><unitdate type="inclusive" normal="1956">1956</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">17</container>
-                  <unittitle>No. 32 <title render="italic">Competitive Pressure and Democratic Consent</title> by Morris Janowitz and Dwaine Marvick, <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [007901596451764161]" id="34faa410-14c0-495b-88f9-8c4d21366741">2</container>
+                  <container type="folder" label="Folder" parent="34faa410-14c0-495b-88f9-8c4d21366741">17</container>
+                  <unittitle>No. 32 <title render="italic">Competitive Pressure and Democratic Consent</title> by Morris Janowitz and Dwaine Marvick</unittitle><unitdate type="inclusive" normal="1956">1956</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">18</container>
-                  <unittitle>No. 33 <title render="italic">A Comparative Study of Property Tax Administration in Illinois and Michigan</title> by Robert H. Pealy, <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [007901596451764161]" id="c05bdb38-e25b-4a78-a0a0-7f29650d2cc0">2</container>
+                  <container type="folder" label="Folder" parent="c05bdb38-e25b-4a78-a0a0-7f29650d2cc0">18</container>
+                  <unittitle>No. 33 <title render="italic">A Comparative Study of Property Tax Administration in Illinois and Michigan</title> by Robert H. Pealy</unittitle><unitdate type="inclusive" normal="1956">1956</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">18</container>
-                  <unittitle>No. 34 <title render="italic">Political Affiliation in Metropolitan Detroit</title> by Samuel J. Eldersveld, <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [007901596451764161]" id="c116e1f1-57ce-4792-a655-46cb57b297e1">2</container>
+                  <container type="folder" label="Folder" parent="c116e1f1-57ce-4792-a655-46cb57b297e1">18</container>
+                  <unittitle>No. 34 <title render="italic">Political Affiliation in Metropolitan Detroit</title> by Samuel J. Eldersveld</unittitle><unitdate type="inclusive" normal="1957">1957</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">19</container>
-                  <unittitle>No. 35 <title render="italic">The Michigan Municipal League: An Analysis of Policies and Services</title> by George A. Bell, <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [007901596451764161]" id="c38f4ffa-6bf5-4a8b-9e78-218bb018ce3e">2</container>
+                  <container type="folder" label="Folder" parent="c38f4ffa-6bf5-4a8b-9e78-218bb018ce3e">19</container>
+                  <unittitle>No. 35 <title render="italic">The Michigan Municipal League: An Analysis of Policies and Services</title> by George A. Bell</unittitle><unitdate type="inclusive" normal="1957">1957</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">19</container>
-                  <unittitle>No. 36 <title render="italic">Public Administration and the Public--Perspectives Toward Government in a Metropolitan Community</title> by Morris Janowitz, Deil Wright, and William Delany, <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [007901596451764161]" id="5eeec737-7bf3-4850-8343-50854c288707">2</container>
+                  <container type="folder" label="Folder" parent="5eeec737-7bf3-4850-8343-50854c288707">19</container>
+                  <unittitle>No. 36 <title render="italic">Public Administration and the Public--Perspectives Toward Government in a Metropolitan Community</title> by Morris Janowitz, Deil Wright, and William Delany</unittitle><unitdate type="inclusive" normal="1958">1958</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">20</container>
+                  <container type="box" label="Box [007901596451764161]" id="816cca2e-594b-4783-95a7-ab29b803c1d5">2</container>
+                  <container type="folder" label="Folder" parent="816cca2e-594b-4783-95a7-ab29b803c1d5">20</container>
                   <unittitle>No. 37 <title render="italic">Comprehensive River Basin Planning: The Arkansas-White-Red Basins Inter-Agency Committee Experience</title> by Robert H. Pealy</unittitle>
                 </did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">20</container>
-                  <unittitle>No. 39 <title render="italic">The President Makes a Decision: A Study of Dixon-Yates</title> by Jason L. Finkle, <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [007901596451764161]" id="14fe7d24-ab6c-470d-a09a-bcfbc07c990b">2</container>
+                  <container type="folder" label="Folder" parent="14fe7d24-ab6c-470d-a09a-bcfbc07c990b">20</container>
+                  <unittitle>No. 39 <title render="italic">The President Makes a Decision: A Study of Dixon-Yates</title> by Jason L. Finkle</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">21</container>
-                  <unittitle>No. 40 <title render="italic">The Democratic State Central Committee in Michigan, 1949-1959 The Rise of the New Politics and the New Political Leadership</title> by Robert Lee Sawyer, Jr., <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [007901596451764161]" id="f5c28e39-570f-40c4-8a73-027efc15e03b">2</container>
+                  <container type="folder" label="Folder" parent="f5c28e39-570f-40c4-8a73-027efc15e03b">21</container>
+                  <unittitle>No. 40 <title render="italic">The Democratic State Central Committee in Michigan, 1949-1959 The Rise of the New Politics and the New Political Leadership</title> by Robert Lee Sawyer, Jr.</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">2</container>
-                  <container type="folder" label="Folder">21</container>
-                  <unittitle>No. 41 <title render="italic">Personnel Adaptations in the Federal Junior Management Assistant Program</title> by Jonathan Avery Slesinger, <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [007901596451764161]" id="d9042aa8-aefc-413e-bdf2-c479a3a345c4">2</container>
+                  <container type="folder" label="Folder" parent="d9042aa8-aefc-413e-bdf2-c479a3a345c4">21</container>
+                  <unittitle>No. 41 <title render="italic">Personnel Adaptations in the Federal Junior Management Assistant Program</title> by Jonathan Avery Slesinger</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">1</container>
-                  <unittitle>No. 42 <title render="italic">Political Representation in Metropolitan Agencies</title> by Arthur W. Bromage, <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="0e5b7306-197d-46c9-9f9c-64254575bd04">3</container>
+                  <container type="folder" label="Folder" parent="0e5b7306-197d-46c9-9f9c-64254575bd04">1</container>
+                  <unittitle>No. 42 <title render="italic">Political Representation in Metropolitan Agencies</title> by Arthur W. Bromage</unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">1</container>
-                  <unittitle>No. 43 <title render="italic">Constitution-Making in Michigan, 1961-1962</title> by Albert Lee Sturm, <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="626523fb-f2b1-48d8-877f-4c69c8732973">3</container>
+                  <container type="folder" label="Folder" parent="626523fb-f2b1-48d8-877f-4c69c8732973">1</container>
+                  <unittitle>No. 43 <title render="italic">Constitution-Making in Michigan, 1961-1962</title> by Albert Lee Sturm</unittitle><unitdate type="inclusive" normal="1963">1963</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">1</container>
-                  <unittitle>No. 44 <title render="italic">The Michigan Constitutional Convention and Administrative Organization: A Case Study in the Politics of Constitution-Making</title> by Robert S. Friedman, <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="f79486e7-6c9e-410a-a301-994d1513d31e">3</container>
+                  <container type="folder" label="Folder" parent="f79486e7-6c9e-410a-a301-994d1513d31e">1</container>
+                  <unittitle>No. 44 <title render="italic">The Michigan Constitutional Convention and Administrative Organization: A Case Study in the Politics of Constitution-Making</title> by Robert S. Friedman</unittitle><unitdate type="inclusive" normal="1963">1963</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">2</container>
-                  <unittitle>No. 45 <title render="italic">State Budgeting for Higher Education: The Use of Formulas and Cost Analysis</title> by James L. Miller, Jr., <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="687fc535-5bd8-4eed-9921-e3ea705816a7">3</container>
+                  <container type="folder" label="Folder" parent="687fc535-5bd8-4eed-9921-e3ea705816a7">2</container>
+                  <unittitle>No. 45 <title render="italic">State Budgeting for Higher Education: The Use of Formulas and Cost Analysis</title> by James L. Miller, Jr.</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">2</container>
-                  <unittitle>No. 46 <title render="italic">Organization for Comprehensive River Basin Planning: The Texas and Southeast Experiences</title> by Robert H. Pealy, <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="876986b0-4be8-4a55-a9fd-10e43e4a67c4">3</container>
+                  <container type="folder" label="Folder" parent="876986b0-4be8-4a55-a9fd-10e43e4a67c4">2</container>
+                  <unittitle>No. 46 <title render="italic">Organization for Comprehensive River Basin Planning: The Texas and Southeast Experiences</title> by Robert H. Pealy</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">3</container>
-                  <unittitle>No. 47 <title render="italic">Income Distribution and the Federal Income Tax</title> by Benjamin A. Okner, <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="d70b64e4-e47f-403f-b1c4-f2f8a9dfc3a0">3</container>
+                  <container type="folder" label="Folder" parent="d70b64e4-e47f-403f-b1c4-f2f8a9dfc3a0">3</container>
+                  <unittitle>No. 47 <title render="italic">Income Distribution and the Federal Income Tax</title> by Benjamin A. Okner</unittitle><unitdate type="inclusive" normal="1966">1966</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">3</container>
-                  <unittitle>No. 48 <title render="italic">Normative Evaluation of a Public Health Program</title> by William B. Neenan, <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="5f3ebcc0-b1a8-4a99-8c97-795e1ba08c7e">3</container>
+                  <container type="folder" label="Folder" parent="5f3ebcc0-b1a8-4a99-8c97-795e1ba08c7e">3</container>
+                  <unittitle>No. 48 <title render="italic">Normative Evaluation of a Public Health Program</title> by William B. Neenan</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">4</container>
-                  <unittitle>No. 49 <title render="italic">Essays in State and Local Finance</title>, edited by Harvey E. Brazer, <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="92d23467-b001-46a7-8578-50a49deda5a0">3</container>
+                  <container type="folder" label="Folder" parent="92d23467-b001-46a7-8578-50a49deda5a0">4</container>
+                  <unittitle>No. 49 <title render="italic">Essays in State and Local Finance</title>, edited by Harvey E. Brazer</unittitle><unitdate type="inclusive" normal="1967">1967</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">4</container>
-                  <unittitle>No. 50 <title render="italic">Implementing a New Constitution: The Michigan Experience</title>, by Albert L. Sturm and Margaret Whitaker, <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="d69a38e8-f7d9-4d0c-b517-44a35ec3f4a4">3</container>
+                  <container type="folder" label="Folder" parent="d69a38e8-f7d9-4d0c-b517-44a35ec3f4a4">4</container>
+                  <unittitle>No. 50 <title render="italic">Implementing a New Constitution: The Michigan Experience</title>, by Albert L. Sturm and Margaret Whitaker</unittitle><unitdate type="inclusive" normal="1968">1968</unitdate></did>
               </c05>
             </c04>
             <c04 level="file">
               <did>
-                <unittitle><title render="italic">New Series Bulletin</title>, No. 1-8, <unitdate type="inclusive" normal="1932/1937">1932-1937</unitdate></unittitle>
-              </did>
+                <unittitle><title render="italic">New Series Bulletin</title>, No. 1-8</unittitle><unitdate type="inclusive" normal="1932/1937">1932-1937</unitdate></did>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">5</container>
-                  <unittitle>No. 1 <title render="italic">Tentative Conclusions with respect to the position of the Township in the Governmental Scheme</title>, by Arthur W. Bromage, <unitdate type="inclusive" normal="1932">1932</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="e9e8409d-b15b-4a3e-97c3-09418f955328">3</container>
+                  <container type="folder" label="Folder" parent="e9e8409d-b15b-4a3e-97c3-09418f955328">5</container>
+                  <unittitle>No. 1 <title render="italic">Tentative Conclusions with respect to the position of the Township in the Governmental Scheme</title>, by Arthur W. Bromage</unittitle><unitdate type="inclusive" normal="1932">1932</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">5</container>
-                  <unittitle>No. 2 <title render="italic">County Election Costs in Michigan</title>, by James Kerr Pollock, <unitdate type="inclusive" normal="1935">1935</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="83a1cf58-cf6e-4357-8a42-dc3df7e2e4e6">3</container>
+                  <container type="folder" label="Folder" parent="83a1cf58-cf6e-4357-8a42-dc3df7e2e4e6">5</container>
+                  <unittitle>No. 2 <title render="italic">County Election Costs in Michigan</title>, by James Kerr Pollock</unittitle><unitdate type="inclusive" normal="1935">1935</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">5</container>
-                  <unittitle>No. 3 <title render="italic">Civil Service in the States: A Selected and Annotated Bibliography on the Laws, Regulations and Practices in the State Governments of the United States</title>, by Ione M. Dority, <unitdate type="inclusive" normal="1935">1935</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="8191c488-8530-4cec-8ac8-4a45861fe7d0">3</container>
+                  <container type="folder" label="Folder" parent="8191c488-8530-4cec-8ac8-4a45861fe7d0">5</container>
+                  <unittitle>No. 3 <title render="italic">Civil Service in the States: A Selected and Annotated Bibliography on the Laws, Regulations and Practices in the State Governments of the United States</title>, by Ione M. Dority</unittitle><unitdate type="inclusive" normal="1935">1935</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">6</container>
-                  <unittitle>No. 4 <title render="italic">Recent Developments in the Michigan Tax Situation</title>, by Robert S. Ford, <unitdate type="inclusive" normal="1936">1936</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="70f164d0-752c-4b98-9637-39291346cd9f">3</container>
+                  <container type="folder" label="Folder" parent="70f164d0-752c-4b98-9637-39291346cd9f">6</container>
+                  <unittitle>No. 4 <title render="italic">Recent Developments in the Michigan Tax Situation</title>, by Robert S. Ford</unittitle><unitdate type="inclusive" normal="1936">1936</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">6</container>
-                  <unittitle>No. 5 <title render="italic">Administrative Organization of State Government in Michigan, 1921-1936</title>, by Harold M. Dorr, <unitdate type="inclusive" normal="1936">1936</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="e8cfac12-a04b-45c2-9ccb-51670d20a99d">3</container>
+                  <container type="folder" label="Folder" parent="e8cfac12-a04b-45c2-9ccb-51670d20a99d">6</container>
+                  <unittitle>No. 5 <title render="italic">Administrative Organization of State Government in Michigan, 1921-1936</title>, by Harold M. Dorr</unittitle><unitdate type="inclusive" normal="1936">1936</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">6</container>
-                  <unittitle>No. 5 (Supplement) <title render="italic">Administrative Reorganizations, 1936-1937</title>, by Harold M. Dorr, <unitdate type="inclusive" normal="1938">1938</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="e79ba930-e374-4715-ad0f-6956f6624e05">3</container>
+                  <container type="folder" label="Folder" parent="e79ba930-e374-4715-ad0f-6956f6624e05">6</container>
+                  <unittitle>No. 5 (Supplement) <title render="italic">Administrative Reorganizations, 1936-1937</title>, by Harold M. Dorr</unittitle><unitdate type="inclusive" normal="1938">1938</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">6</container>
-                  <unittitle>No. 6 <title render="italic">The Retail Sales Tax in Michigan</title>, by Robert S. Ford, <unitdate type="inclusive" normal="1936">1936</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="4d1dd5d0-e586-4bac-8208-a661c8a60e23">3</container>
+                  <container type="folder" label="Folder" parent="4d1dd5d0-e586-4bac-8208-a661c8a60e23">6</container>
+                  <unittitle>No. 6 <title render="italic">The Retail Sales Tax in Michigan</title>, by Robert S. Ford</unittitle><unitdate type="inclusive" normal="1936">1936</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">7</container>
-                  <unittitle>No. 7 <title render="italic">Permanent Registration of Voters in Michigan: An Appraisal</title>, by James K. Pollock, <unitdate type="inclusive" normal="1937">1937</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="0005580c-839b-4381-b741-63b387d2f092">3</container>
+                  <container type="folder" label="Folder" parent="0005580c-839b-4381-b741-63b387d2f092">7</container>
+                  <unittitle>No. 7 <title render="italic">Permanent Registration of Voters in Michigan: An Appraisal</title>, by James K. Pollock</unittitle><unitdate type="inclusive" normal="1937">1937</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">7</container>
-                  <unittitle>No. 8 <title render="italic">Realty Tax Delinquency in Michigan</title>, by Robert S. Ford, <unitdate type="inclusive" normal="1937">1937</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="09c895b6-d226-4295-848e-7ac76fda4382">3</container>
+                  <container type="folder" label="Folder" parent="09c895b6-d226-4295-848e-7ac76fda4382">7</container>
+                  <unittitle>No. 8 <title render="italic">Realty Tax Delinquency in Michigan</title>, by Robert S. Ford</unittitle><unitdate type="inclusive" normal="1937">1937</unitdate></did>
               </c05>
             </c04>
           </c03>
@@ -1270,217 +1096,186 @@
             </did>
             <c04 level="file">
               <did>
-                <unittitle><title render="italic">Michigan Pamphlets</title>, Nos. 1-30, <unitdate type="inclusive" normal="1939/1961">1939-1961</unitdate></unittitle>
-              </did>
+                <unittitle><title render="italic">Michigan Pamphlets</title>, Nos. 1-30</unittitle><unitdate type="inclusive" normal="1939/1961">1939-1961</unitdate></did>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">8</container>
-                  <unittitle>No. 1 <title render="italic">Taxing Intangibles--The Problem and Methods</title>, <unitdate type="inclusive" normal="1939">1939</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="4dc4087d-cee2-46ea-bdcd-b66239d2a976">3</container>
+                  <container type="folder" label="Folder" parent="4dc4087d-cee2-46ea-bdcd-b66239d2a976">8</container>
+                  <unittitle>No. 1 <title render="italic">Taxing Intangibles--The Problem and Methods</title></unittitle><unitdate type="inclusive" normal="1939">1939</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">8</container>
-                  <unittitle>No. 2 <title render="italic">Financing Michigan's Government: 1930-1938</title>, <unitdate type="inclusive" normal="1939">1939</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="660cb660-312d-4425-99b3-c0a0c7867f69">3</container>
+                  <container type="folder" label="Folder" parent="660cb660-312d-4425-99b3-c0a0c7867f69">8</container>
+                  <unittitle>No. 2 <title render="italic">Financing Michigan's Government: 1930-1938</title></unittitle><unitdate type="inclusive" normal="1939">1939</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">8</container>
-                  <unittitle>No. 3 <title render="italic">Property Tax Administration</title>, <unitdate type="inclusive" normal="1939">1939</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="59d46006-505b-4fb7-871b-d19062a4dd76">3</container>
+                  <container type="folder" label="Folder" parent="59d46006-505b-4fb7-871b-d19062a4dd76">8</container>
+                  <unittitle>No. 3 <title render="italic">Property Tax Administration</title></unittitle><unitdate type="inclusive" normal="1939">1939</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">8</container>
-                  <unittitle>No. 4 <title render="italic">Tax and Salvage Sales</title>, <unitdate type="inclusive" normal="1939">1939</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="5f7f27cb-9627-4360-8fa8-7d7e907f6774">3</container>
+                  <container type="folder" label="Folder" parent="5f7f27cb-9627-4360-8fa8-7d7e907f6774">8</container>
+                  <unittitle>No. 4 <title render="italic">Tax and Salvage Sales</title></unittitle><unitdate type="inclusive" normal="1939">1939</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">9</container>
-                  <unittitle>No. 5 <title render="italic">Trends in Highway Finance</title>, <unitdate type="inclusive" normal="1940">1940</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="0ab46cc7-e69b-485c-b816-6f38d476235f">3</container>
+                  <container type="folder" label="Folder" parent="0ab46cc7-e69b-485c-b816-6f38d476235f">9</container>
+                  <unittitle>No. 5 <title render="italic">Trends in Highway Finance</title></unittitle><unitdate type="inclusive" normal="1940">1940</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">9</container>
-                  <unittitle>No. 6 <title render="italic">State Tax Administration</title>, <unitdate type="inclusive" normal="1940">1940</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="dea21435-4745-4b82-b199-d5cf90af35f4">3</container>
+                  <container type="folder" label="Folder" parent="dea21435-4745-4b82-b199-d5cf90af35f4">9</container>
+                  <unittitle>No. 6 <title render="italic">State Tax Administration</title></unittitle><unitdate type="inclusive" normal="1940">1940</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">9</container>
-                  <unittitle>No. 7 <title render="italic">Local Government in Cheboygan County</title>, <unitdate type="inclusive" normal="1940">1940</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="941aedb7-fa13-4207-82e1-50fae03a4618">3</container>
+                  <container type="folder" label="Folder" parent="941aedb7-fa13-4207-82e1-50fae03a4618">9</container>
+                  <unittitle>No. 7 <title render="italic">Local Government in Cheboygan County</title></unittitle><unitdate type="inclusive" normal="1940">1940</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">9</container>
-                  <unittitle>No. 8 <title render="italic">Direct Government in Michigan</title>, <unitdate type="inclusive" normal="1940">1940</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="c447bbb5-afc0-4f96-baaf-b3e695d9dd45">3</container>
+                  <container type="folder" label="Folder" parent="c447bbb5-afc0-4f96-baaf-b3e695d9dd45">9</container>
+                  <unittitle>No. 8 <title render="italic">Direct Government in Michigan</title></unittitle><unitdate type="inclusive" normal="1940">1940</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">9</container>
-                  <unittitle>No. 9 <title render="italic">Local Government in Branch County</title>, <unitdate type="inclusive" normal="1940">1940</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="fb14d178-492a-4a2d-80b4-6fb8e9a54fdf">3</container>
+                  <container type="folder" label="Folder" parent="fb14d178-492a-4a2d-80b4-6fb8e9a54fdf">9</container>
+                  <unittitle>No. 9 <title render="italic">Local Government in Branch County</title></unittitle><unitdate type="inclusive" normal="1940">1940</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">10</container>
-                  <unittitle>No. 10 <title render="italic">Financing National Defense</title>, <unitdate type="inclusive" normal="1941">1941</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="23981739-3312-4eed-9ff9-bd77b918c30d">3</container>
+                  <container type="folder" label="Folder" parent="23981739-3312-4eed-9ff9-bd77b918c30d">10</container>
+                  <unittitle>No. 10 <title render="italic">Financing National Defense</title></unittitle><unitdate type="inclusive" normal="1941">1941</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">10</container>
-                  <unittitle>No. 11 <title render="italic">Units of Government in Michigan</title>, <unitdate type="inclusive" normal="1941">1941</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="b91dcb85-86db-4bcd-b1ce-6e034af273d0">3</container>
+                  <container type="folder" label="Folder" parent="b91dcb85-86db-4bcd-b1ce-6e034af273d0">10</container>
+                  <unittitle>No. 11 <title render="italic">Units of Government in Michigan</title></unittitle><unitdate type="inclusive" normal="1941">1941</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">10</container>
-                  <unittitle>No. 12 <title render="italic">Retail Sales Taxation in Michigan</title>, <unitdate type="inclusive" normal="1941">1941</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="d1244c93-1a1c-44f2-9def-0b19b5bd96b8">3</container>
+                  <container type="folder" label="Folder" parent="d1244c93-1a1c-44f2-9def-0b19b5bd96b8">10</container>
+                  <unittitle>No. 12 <title render="italic">Retail Sales Taxation in Michigan</title></unittitle><unitdate type="inclusive" normal="1941">1941</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">10</container>
-                  <unittitle>No. 13 <title render="italic">Federal Expenditures in Michigan</title>, <unitdate type="inclusive" normal="1941">1941</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="44d893aa-4124-4668-b58d-cac1727c93b5">3</container>
+                  <container type="folder" label="Folder" parent="44d893aa-4124-4668-b58d-cac1727c93b5">10</container>
+                  <unittitle>No. 13 <title render="italic">Federal Expenditures in Michigan</title></unittitle><unitdate type="inclusive" normal="1941">1941</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">10</container>
-                  <unittitle>No. 14 <title render="italic">Local Government in Genesee County</title>, <unitdate type="inclusive" normal="1941">1941</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="4d8f4c15-2e7d-4f83-9d1d-c0b7cc4b991f">3</container>
+                  <container type="folder" label="Folder" parent="4d8f4c15-2e7d-4f83-9d1d-c0b7cc4b991f">10</container>
+                  <unittitle>No. 14 <title render="italic">Local Government in Genesee County</title></unittitle><unitdate type="inclusive" normal="1941">1941</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">11</container>
-                  <unittitle>No. 15 <title render="italic">State Supervision of Local Borrowing</title>, <unitdate type="inclusive" normal="1942">1942</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="1ab8b86d-c312-424b-86ab-cc45da75ed7b">3</container>
+                  <container type="folder" label="Folder" parent="1ab8b86d-c312-424b-86ab-cc45da75ed7b">11</container>
+                  <unittitle>No. 15 <title render="italic">State Supervision of Local Borrowing</title></unittitle><unitdate type="inclusive" normal="1942">1942</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">11</container>
-                  <unittitle>No. 16 <title render="italic">An Experiment in Community Improvement</title>, <unitdate type="inclusive" normal="1942">1942</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="fb913ed8-0b37-4892-b5f4-4ffb8e7bbc78">3</container>
+                  <container type="folder" label="Folder" parent="fb913ed8-0b37-4892-b5f4-4ffb8e7bbc78">11</container>
+                  <unittitle>No. 16 <title render="italic">An Experiment in Community Improvement</title></unittitle><unitdate type="inclusive" normal="1942">1942</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">11</container>
-                  <unittitle>No. 17 <title render="italic">Administration and Financing of Public Relief</title>, <unitdate type="inclusive" normal="1942">1942</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="cfb43614-3a00-47d5-b2ec-69170ad587df">3</container>
+                  <container type="folder" label="Folder" parent="cfb43614-3a00-47d5-b2ec-69170ad587df">11</container>
+                  <unittitle>No. 17 <title render="italic">Administration and Financing of Public Relief</title></unittitle><unitdate type="inclusive" normal="1942">1942</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">11</container>
-                  <unittitle>No. 18 <title render="italic">State Aid in Michigan</title>, <unitdate type="inclusive" normal="1942">1942</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="ecc58d84-a36d-424a-b75e-eaba7db29072">3</container>
+                  <container type="folder" label="Folder" parent="ecc58d84-a36d-424a-b75e-eaba7db29072">11</container>
+                  <unittitle>No. 18 <title render="italic">State Aid in Michigan</title></unittitle><unitdate type="inclusive" normal="1942">1942</unitdate></did>
               </c05>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">12</container>
-                  <unittitle>No. 19 <title render="italic">Reorganization of Michigan's County Government</title>, <unitdate type="inclusive" normal="1946">1946</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="77887f6e-dbe9-448a-b60e-c5e482b14700">3</container>
+                  <container type="folder" label="Folder" parent="77887f6e-dbe9-448a-b60e-c5e482b14700">12</container>
+                  <unittitle>No. 19 <title render="italic">Reorganization of Michigan's County Government</title></unittitle><unitdate type="inclusive" normal="1946">1946</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">12</container>
-                  <unittitle>No. 20 <title render="italic">State Aid and Local Finance in Selected Michigan Counties</title>, <unitdate type="inclusive" normal="1949">1949</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="56d082f0-0886-45b4-9d0a-a39c90310c35">3</container>
+                  <container type="folder" label="Folder" parent="56d082f0-0886-45b4-9d0a-a39c90310c35">12</container>
+                  <unittitle>No. 20 <title render="italic">State Aid and Local Finance in Selected Michigan Counties</title></unittitle><unitdate type="inclusive" normal="1949">1949</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">13</container>
-                  <unittitle>No. 21 <title render="italic">Paying for Public Schools in Michigan</title>, <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="428494ca-f9f4-41cc-a2e8-838044fd4a68">3</container>
+                  <container type="folder" label="Folder" parent="428494ca-f9f4-41cc-a2e8-838044fd4a68">13</container>
+                  <unittitle>No. 21 <title render="italic">Paying for Public Schools in Michigan</title></unittitle><unitdate type="inclusive" normal="1951">1951</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">13</container>
-                  <unittitle>No. 22 <title render="italic">Property Tax Administration in Michigan</title>, <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="01158d72-a5a5-4528-86bb-5e6a5db07ccb">3</container>
+                  <container type="folder" label="Folder" parent="01158d72-a5a5-4528-86bb-5e6a5db07ccb">13</container>
+                  <unittitle>No. 22 <title render="italic">Property Tax Administration in Michigan</title></unittitle><unitdate type="inclusive" normal="1951">1951</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">13</container>
-                  <unittitle>No. 23 <title render="italic">Michigan Cities and Villages: Organization and Administration</title>, <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="533f6bcd-31cb-424f-bb76-36656bbdaa72">3</container>
+                  <container type="folder" label="Folder" parent="533f6bcd-31cb-424f-bb76-36656bbdaa72">13</container>
+                  <unittitle>No. 23 <title render="italic">Michigan Cities and Villages: Organization and Administration</title></unittitle><unitdate type="inclusive" normal="1951">1951</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">14</container>
-                  <unittitle>No. 24 <title render="italic">Public Services to Children in Michigan: A Study of Basic Structure</title>, <unitdate type="inclusive" normal="1952">1952</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="98c8ff85-cb9d-4279-bc0a-18936fc6c355">3</container>
+                  <container type="folder" label="Folder" parent="98c8ff85-cb9d-4279-bc0a-18936fc6c355">14</container>
+                  <unittitle>No. 24 <title render="italic">Public Services to Children in Michigan: A Study of Basic Structure</title></unittitle><unitdate type="inclusive" normal="1952">1952</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">15</container>
-                  <unittitle>No. 25 <title render="italic">Press Relations for Local Officials</title> by James C. MacDonald, <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="60d85c26-dbb2-46ed-bacf-ba559fa6143e">3</container>
+                  <container type="folder" label="Folder" parent="60d85c26-dbb2-46ed-bacf-ba559fa6143e">15</container>
+                  <unittitle>No. 25 <title render="italic">Press Relations for Local Officials</title> by James C. MacDonald</unittitle><unitdate type="inclusive" normal="1956">1956</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">15</container>
-                  <unittitle>No. 26 <title render="italic">The Urban Fringe Problem: Solutions Under Michigan Law</title> by Ralph T. Jans, <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="49e11ca6-79cb-4e81-829b-8c70fdc37338">3</container>
+                  <container type="folder" label="Folder" parent="49e11ca6-79cb-4e81-829b-8c70fdc37338">15</container>
+                  <unittitle>No. 26 <title render="italic">The Urban Fringe Problem: Solutions Under Michigan Law</title> by Ralph T. Jans</unittitle><unitdate type="inclusive" normal="1957">1957</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">15</container>
-                  <unittitle>No. 27 <title render="italic">The Voter and the Michigan Constitution in 1958</title> edited by Robert H. Pealy, <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="58d0c9b3-ecf4-4b95-825c-75f569ad9287">3</container>
+                  <container type="folder" label="Folder" parent="58d0c9b3-ecf4-4b95-825c-75f569ad9287">15</container>
+                  <unittitle>No. 27 <title render="italic">The Voter and the Michigan Constitution in 1958</title> edited by Robert H. Pealy</unittitle><unitdate type="inclusive" normal="1958">1958</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">16</container>
-                  <unittitle>No. 28 <title render="italic">A Program for Federal Tax Revision</title> by Harvey E. Brazer, <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="d3089309-0cd2-43e2-9bb5-fac8340e4458">3</container>
+                  <container type="folder" label="Folder" parent="d3089309-0cd2-43e2-9bb5-fac8340e4458">16</container>
+                  <unittitle>No. 28 <title render="italic">A Program for Federal Tax Revision</title> by Harvey E. Brazer</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">16</container>
-                  <unittitle>No. 29 <title render="italic">The Voter and the Michigan Constitution</title> edited by Robert H. Pealy, <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="f956c886-2c8e-4225-a127-56146584fd0b">3</container>
+                  <container type="folder" label="Folder" parent="f956c886-2c8e-4225-a127-56146584fd0b">16</container>
+                  <unittitle>No. 29 <title render="italic">The Voter and the Michigan Constitution</title> edited by Robert H. Pealy</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <container type="folder" label="Folder">16</container>
-                  <unittitle>No. 30 <title render="italic">Taxation in Michigan: An Appraisal</title> by Harvey E. Brazer, <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]" id="1067f094-83f3-45c2-b72c-1872d8c99cb7">3</container>
+                  <container type="folder" label="Folder" parent="1067f094-83f3-45c2-b72c-1872d8c99cb7">16</container>
+                  <unittitle>No. 30 <title render="italic">Taxation in Michigan: An Appraisal</title> by Harvey E. Brazer</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
               </c05>
             </c04>
           </c03>
@@ -1496,280 +1291,235 @@
               </did>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <unittitle>No. 1 <unitdate type="inclusive" normal="1948">1948</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]">3</container>
+                  <unittitle>No. 1</unittitle><unitdate type="inclusive" normal="1948">1948</unitdate></did>
                 <odd>
                   <p>(includes nine papers)</p>
                 </odd>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <unittitle>No. 2 <unitdate type="inclusive" normal="1948">1948</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]">3</container>
+                  <unittitle>No. 2</unittitle><unitdate type="inclusive" normal="1948">1948</unitdate></did>
                 <odd>
                   <p>(includes 8 articles by four authors)</p>
                 </odd>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <unittitle>No. 3 <title render="italic">Proceedings of the Third Annual Short Course for Municipal Assessing Officers...</title>, <unitdate type="inclusive" normal="1949">1949</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]">3</container>
+                  <unittitle>No. 3 <title render="italic">Proceedings of the Third Annual Short Course for Municipal Assessing Officers...</title></unittitle><unitdate type="inclusive" normal="1949">1949</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <unittitle>No. 4 <title render="italic">Proceedings of the Fourth Annual Short Course for Municipal Assessing Officers...</title>, <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]">3</container>
+                  <unittitle>No. 4 <title render="italic">Proceedings of the Fourth Annual Short Course for Municipal Assessing Officers...</title></unittitle><unitdate type="inclusive" normal="1950">1950</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <unittitle>No. 5 <title render="italic">Analysis of Annexation in Michigan Together with a Comparison of Annexation in Other States</title> by Robert E. Fryer, <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]">3</container>
+                  <unittitle>No. 5 <title render="italic">Analysis of Annexation in Michigan Together with a Comparison of Annexation in Other States</title> by Robert E. Fryer</unittitle><unitdate type="inclusive" normal="1951">1951</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <unittitle>No. 6 <title render="italic">A Series of Graduate Students' Reports</title>, <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]">3</container>
+                  <unittitle>No. 6 <title render="italic">A Series of Graduate Students' Reports</title></unittitle><unitdate type="inclusive" normal="1950">1950</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <unittitle>No. 7 <title render="italic">Proceedings of the Fifth Annual Short Course for Municipal Assessing Officers...</title>, <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]">3</container>
+                  <unittitle>No. 7 <title render="italic">Proceedings of the Fifth Annual Short Course for Municipal Assessing Officers...</title></unittitle><unitdate type="inclusive" normal="1951">1951</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <unittitle>No. 8 <title render="italic">Proceedings of the Sixth Annual Short Course for Assessing Officers...</title>, <unitdate type="inclusive" normal="1952">1952</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]">3</container>
+                  <unittitle>No. 8 <title render="italic">Proceedings of the Sixth Annual Short Course for Assessing Officers...</title></unittitle><unitdate type="inclusive" normal="1952">1952</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <unittitle>No. 9 <title render="italic">Proceedings of the Seventh Annual Short Course for Assessing Officers...</title>, <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]">3</container>
+                  <unittitle>No. 9 <title render="italic">Proceedings of the Seventh Annual Short Course for Assessing Officers...</title></unittitle><unitdate type="inclusive" normal="1953">1953</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <unittitle>No. 10 <title render="italic">Papers on Municipal Nonproperty Taxes in Michigan</title> by Arthur M. Wisehart, <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]">3</container>
+                  <unittitle>No. 10 <title render="italic">Papers on Municipal Nonproperty Taxes in Michigan</title> by Arthur M. Wisehart</unittitle><unitdate type="inclusive" normal="1954">1954</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <unittitle>No. 11 <title render="italic">Proceedings of the Eighth Annual Short Course for Assessing Officers...</title>, <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]">3</container>
+                  <unittitle>No. 11 <title render="italic">Proceedings of the Eighth Annual Short Course for Assessing Officers...</title></unittitle><unitdate type="inclusive" normal="1954">1954</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <unittitle>No. 12 <title render="italic">Three Aspects of Records Management: A Transcript of Remarks</title> edited by Theodore H. Drews, <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]">3</container>
+                  <unittitle>No. 12 <title render="italic">Three Aspects of Records Management: A Transcript of Remarks</title> edited by Theodore H. Drews</unittitle><unitdate type="inclusive" normal="1955">1955</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <unittitle>No. 13 <title render="italic">Charter Provisions for Personnel Administration in Michigan Cities</title> by Henry Spiegelblatt, <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]">3</container>
+                  <unittitle>No. 13 <title render="italic">Charter Provisions for Personnel Administration in Michigan Cities</title> by Henry Spiegelblatt</unittitle><unitdate type="inclusive" normal="1955">1955</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <unittitle>No. 16 <title render="italic">Payments in Lieu of Taxes on Public Lands Under the Jurisdiction of the Michigan Department of Conservation</title> by John H. Eichstedt, <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]">3</container>
+                  <unittitle>No. 16 <title render="italic">Payments in Lieu of Taxes on Public Lands Under the Jurisdiction of the Michigan Department of Conservation</title> by John H. Eichstedt</unittitle><unitdate type="inclusive" normal="1956">1956</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <unittitle>No. 17 <title render="italic">The Role of Public Opinion Polls in the Study of Political Parties</title> by John P. White, <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]">3</container>
+                  <unittitle>No. 17 <title render="italic">The Role of Public Opinion Polls in the Study of Political Parties</title> by John P. White</unittitle><unitdate type="inclusive" normal="1956">1956</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <unittitle>No. 18 <title render="italic">A "Buy-Michigan" Purchasing Policy?</title> by Leiv N. Rydland, <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]">3</container>
+                  <unittitle>No. 18 <title render="italic">A "Buy-Michigan" Purchasing Policy?</title> by Leiv N. Ryd</unittitle><unitdate type="inclusive" normal="1956">1956</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <unittitle>No. 19 <title render="italic">Field Organizations of Michigan State Government Departments</title> by Robert H. Pealy and John C. Robertson, <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]">3</container>
+                  <unittitle>No. 19 <title render="italic">Field Organizations of Michigan State Government Departments</title> by Robert H. Pealy and John C. Robertson</unittitle><unitdate type="inclusive" normal="1956">1956</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">3</container>
-                  <unittitle>No. 20 <title render="italic">Proceedings of the Tenth Annual Short Course for Assessing Officers...</title>, <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [34942859892204416]">3</container>
+                  <unittitle>No. 20 <title render="italic">Proceedings of the Tenth Annual Short Course for Assessing Officers...</title></unittitle><unitdate type="inclusive" normal="1956">1956</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">4</container>
-                  <unittitle>No. 21 <title render="italic">Proceedings of the Eleventh Annual Short Course for Assessing Officers...</title>, <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [098958614495886540]">4</container>
+                  <unittitle>No. 21 <title render="italic">Proceedings of the Eleventh Annual Short Course for Assessing Officers...</title></unittitle><unitdate type="inclusive" normal="1957">1957</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">4</container>
-                  <unittitle>No. 22 <title render="italic">A Directory of State Technical Services Available to City and Village Governments in Michigan</title> by Lynn W. Eley and Seymour D. Greenstone, <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [098958614495886540]">4</container>
+                  <unittitle>No. 22 <title render="italic">A Directory of State Technical Services Available to City and Village Governments in Michigan</title> by Lynn W. Eley and Seymour D. Greenstone</unittitle><unitdate type="inclusive" normal="1957">1957</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">4</container>
-                  <unittitle>No. 23 <title render="italic">A Model for the Comparative Study of Public Bureaucracies</title> by Jonathan A. Slesinger, <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [098958614495886540]">4</container>
+                  <unittitle>No. 23 <title render="italic">A Model for the Comparative Study of Public Bureaucracies</title> by Jonathan A. Slesinger</unittitle><unitdate type="inclusive" normal="1957">1957</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">4</container>
-                  <unittitle>No. 24 <title render="italic">Michigan Votes: Election Statistics, 1928-1956</title> by John P. White, <unitdate type="inclusive" normal="1958">1958</unitdate> includes supplements</unittitle>
-                </did>
+                  <container type="box" label="Box [098958614495886540]">4</container>
+                  <unittitle>No. 24 <title render="italic">Michigan Votes: Election Statistics, 1928-1956</title> by John P. White,  includes supplements</unittitle><unitdate type="inclusive" normal="1958">1958</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">4</container>
-                  <unittitle>No. 25 <title render="italic">Governor's Press Secretary: A Profile of Paul Weber</title> by Lawrence S. Hobart, <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [098958614495886540]">4</container>
+                  <unittitle>No. 25 <title render="italic">Governor's Press Secretary: A Profile of Paul Weber</title> by Lawrence S. Hobart</unittitle><unitdate type="inclusive" normal="1958">1958</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">4</container>
-                  <unittitle>No. 26 <title render="italic">Election, Initiative, Referendum and Recall: Charter Provisions in Michigan Home Rule Cities</title> by Tse-Tsung Chow, Seymour Greenstone, and Eleanor Tabor Linenthal, <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [098958614495886540]">4</container>
+                  <unittitle>No. 26 <title render="italic">Election, Initiative, Referendum and Recall: Charter Provisions in Michigan Home Rule Cities</title> by Tse-Tsung Chow, Seymour Greenstone, and Eleanor Tabor Linenthal</unittitle><unitdate type="inclusive" normal="1958">1958</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">4</container>
-                  <unittitle>No. 27 <title render="italic">Proceedings of the Twelfth Annual Short Course for Assessing Officers...</title>, <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [098958614495886540]">4</container>
+                  <unittitle>No. 27 <title render="italic">Proceedings of the Twelfth Annual Short Course for Assessing Officers...</title></unittitle><unitdate type="inclusive" normal="1958">1958</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">4</container>
-                  <unittitle>No. 28 <title render="italic">State Appropriations for Public Higher Education in Michigan, 1855-1957</title> by Cynthia Krans Link, <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [098958614495886540]">4</container>
+                  <unittitle>No. 28 <title render="italic">State Appropriations for Public Higher Education in Michigan, 1855-1957</title> by Cynthia Krans Link</unittitle><unitdate type="inclusive" normal="1958">1958</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">4</container>
-                  <unittitle>No. 29 <title render="italic">Michigan's Tax Crisis</title> edited by Harvey E. Brazer, <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [098958614495886540]">4</container>
+                  <unittitle>No. 29 <title render="italic">Michigan's Tax Crisis</title> edited by Harvey E. Brazer</unittitle><unitdate type="inclusive" normal="1958">1958</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">4</container>
-                  <unittitle>No. 30 <title render="italic">Michigan Council-Manager Charters</title> by Dale F. Bock and Harry R. Smith, <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [098958614495886540]">4</container>
+                  <unittitle>No. 30 <title render="italic">Michigan Council-Manager Charters</title> by Dale F. Bock and Harry R. Smith</unittitle><unitdate type="inclusive" normal="1959">1959</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">4</container>
-                  <unittitle>No. 31 <title render="italic">The Lawyer in Michigan State Government</title> by William L. Steude, <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [098958614495886540]">4</container>
+                  <unittitle>No. 31 <title render="italic">The Lawyer in Michigan State Government</title> by William L. Steude</unittitle><unitdate type="inclusive" normal="1959">1959</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">4</container>
-                  <unittitle>No. 32 <title render="italic">Administrative Leadership in Government: Selected Papers</title> edited by Don L. Bowen and Robert H. Pealy, <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [098958614495886540]">4</container>
+                  <unittitle>No. 32 <title render="italic">Administrative Leadership in Government: Selected Papers</title> edited by Don L. Bowen and Robert H. Pealy</unittitle><unitdate type="inclusive" normal="1959">1959</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">4</container>
-                  <unittitle>No. 33 <title render="italic">Proceedings of the Thirteenth Annual Short Course for Assessing Officers...</title>, <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [098958614495886540]">4</container>
+                  <unittitle>No. 33 <title render="italic">Proceedings of the Thirteenth Annual Short Course for Assessing Officers...</title></unittitle><unitdate type="inclusive" normal="1959">1959</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">4</container>
-                  <unittitle>No. 34 <title render="italic">A Guide to the Work of Executive Agencies in Michigan</title> by Curtis O. Baker, <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [098958614495886540]">4</container>
+                  <unittitle>No. 34 <title render="italic">A Guide to the Work of Executive Agencies in Michigan</title> by Curtis O. Baker</unittitle><unitdate type="inclusive" normal="1958">1958</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">4</container>
-                  <unittitle>No. 35 <title render="italic">Voting Machines and the 1958 Defeat of Constitutional Revision in Michigan</title> by John P. White, <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [098958614495886540]">4</container>
+                  <unittitle>No. 35 <title render="italic">Voting Machines and the 1958 Defeat of Constitutional Revision in Michigan</title> by John P. White</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">4</container>
-                  <unittitle>No. 36 <title render="italic">The 1958 Constitutional Revision Campaign in Michigan</title> by Robert S. Ketchum, <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [098958614495886540]">4</container>
+                  <unittitle>No. 36 <title render="italic">The 1958 Constitutional Revision Campaign in Michigan</title> by Robert S. Ketchum</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">4</container>
-                  <unittitle>No. 37 <title render="italic">State Supervision of Michigan Local Governments: The Water Pollution Problem</title> by Ernest F. Ross, <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [098958614495886540]">4</container>
+                  <unittitle>No. 37 <title render="italic">State Supervision of Michigan Local Governments: The Water Pollution Problem</title> by Ernest F. Ross</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">4</container>
-                  <unittitle>No. 38 <title render="italic">The 1959 Summer Institute in Practical Partisan Politics...</title> edited by Sybil L. Stokes and Lynn W. Eley, <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [098958614495886540]">4</container>
+                  <unittitle>No. 38 <title render="italic">The 1959 Summer Institute in Practical Partisan Politics...</title> edited by Sybil L. Stokes and Lynn W. Eley</unittitle><unitdate type="inclusive" normal="1960">1960</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">4</container>
-                  <unittitle>No. 39 <title render="italic">Proceedings of the Fourteenth Annual Short Course for Assessing Officers...</title>, <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [098958614495886540]">4</container>
+                  <unittitle>No. 39 <title render="italic">Proceedings of the Fourteenth Annual Short Course for Assessing Officers...</title></unittitle><unitdate type="inclusive" normal="1960">1960</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">4</container>
-                  <unittitle>No. 40 <title render="italic">A Governor's Residence in Michigan?</title> by David S. Brown, <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [098958614495886540]">4</container>
+                  <unittitle>No. 40 <title render="italic">A Governor's Residence in Michigan?</title> by David S. Brown</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">4</container>
-                  <unittitle>No. 41 <title render="italic">Proceedings of the Fifteenth Annual Short Course for Assessing Officers...</title>, <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [098958614495886540]">4</container>
+                  <unittitle>No. 41 <title render="italic">Proceedings of the Fifteenth Annual Short Course for Assessing Officers...</title></unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">4</container>
-                  <unittitle>No. 42 <title render="italic">How the Huron-Clinton Metropolitan Authority Responds to Its Public</title> by Jerry C. Bosworth, <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [098958614495886540]">4</container>
+                  <unittitle>No. 42 <title render="italic">How the Huron-Clinton Metropolitan Authority Responds to Its Public</title> by Jerry C. Bosworth</unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">4</container>
-                  <unittitle>No. 45 <title render="italic">Michigan Mayor-Council Charters</title> by Dodd A. Southern and Charles T. Canterbury, <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [098958614495886540]">4</container>
+                  <unittitle>No. 45 <title render="italic">Michigan Mayor-Council Charters</title> by Dodd A. Southern and Charles T. Canterbury</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">4</container>
-                  <unittitle>No. 46 <title render="italic">Proceedings of the Eighteenth Annual Short Course for Assessing Officers...</title>, <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [098958614495886540]">4</container>
+                  <unittitle>No. 46 <title render="italic">Proceedings of the Eighteenth Annual Short Course for Assessing Officers...</title></unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
               </c05>
               <c05 level="item">
                 <did>
-                  <container type="box" label="Box">4</container>
-                  <unittitle>No. 47 <title render="italic">Proceedings of the Nineteenth Annual Short Course for Assessing Officers...</title>, <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [098958614495886540]">4</container>
+                  <unittitle>No. 47 <title render="italic">Proceedings of the Nineteenth Annual Short Course for Assessing Officers...</title></unittitle><unitdate type="inclusive" normal="1965">1965</unitdate></did>
               </c05>
             </c04>
             <c04 level="item">
               <did>
-                <container type="box" label="Box">5</container>
-                <unittitle><title render="italic">Staff Contributions of the Institute of Public Administration to the Michigan Tax Study</title>, <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [35914948974724566]">5</container>
+                <unittitle><title render="italic">Staff Contributions of the Institute of Public Administration to the Michigan Tax Study</title></unittitle><unitdate type="inclusive" normal="1958">1958</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">5</container>
-                <unittitle><title render="italic">A Statewide Census Every Five Years</title> by Dorothee Strauss Pealy, <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [35914948974724566]">5</container>
+                <unittitle><title render="italic">A Statewide Census Every Five Years</title> by Dorothee Strauss Pealy</unittitle><unitdate type="inclusive" normal="1954">1954</unitdate></did>
             </c04>
           </c03>
         </c02>
@@ -1779,9 +1529,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">5</container>
-              <unittitle><title render="italic">Policy Brief</title>, <unitdate type="inclusive" normal="2006">2006</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [35914948974724566]">5</container>
+              <unittitle><title render="italic">Policy Brief</title></unittitle><unitdate type="inclusive" normal="2006">2006</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -1794,9 +1543,8 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">5</container>
-                <unittitle><title render="italic">The Staebler Caucus</title>, <unitdate type="inclusive" normal="1988/1991">1988-1991</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [35914948974724566]">5</container>
+                <unittitle><title render="italic">The Staebler Caucus</title></unittitle><unitdate type="inclusive" normal="1988/1991">1988-1991</unitdate></did>
             </c04>
           </c03>
         </c02>
@@ -1816,9 +1564,8 @@
               </did>
               <c05 level="file">
                 <did>
-                  <container type="box" label="Box">5</container>
-                  <unittitle>No. 3 <title render="italic">College Enrollment Potential in Michigan, 1960-1975</title>, <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
-                </did>
+                  <container type="box" label="Box [35914948974724566]">5</container>
+                  <unittitle>No. 3 <title render="italic">College Enrollment Potential in Michigan, 1960-1975</title></unittitle><unitdate type="inclusive" normal="1961">1961</unitdate></did>
               </c05>
             </c04>
           </c03>
@@ -1833,9 +1580,8 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">5</container>
-                <unittitle><title render="italic">Admissions at the University of Michigan During the 1980s and 1990s</title>, by John R. Chamberlin and Jack L. Walker, <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [35914948974724566]">5</container>
+                <unittitle><title render="italic">Admissions at the University of Michigan During the 1980s and 1990s</title>, by John R. Chamberlin and Jack L. Walker</unittitle><unitdate type="inclusive" normal="1984">1984</unitdate></did>
             </c04>
           </c03>
         </c02>
@@ -1849,9 +1595,8 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">5</container>
-                <unittitle><title render="italic">Public Policy and the Case for Corporate Support</title>, <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
-              </did>
+                <container type="box" label="Box [35914948974724566]">5</container>
+                <unittitle><title render="italic">Public Policy and the Case for Corporate Support</title></unittitle><unitdate type="inclusive" normal="1994">1994</unitdate></did>
             </c04>
           </c03>
         </c02>
@@ -1873,9 +1618,8 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">5</container>
-                <unittitle><title render="italic">Newsletter to Graduates</title>, <unitdate type="inclusive" normal="1949/1951">1949-1951</unitdate> vol. 1-3</unittitle>
-                <physdesc altrender="whole">
+                <container type="box" label="Box [35914948974724566]">5</container>
+                <unittitle><title render="italic">Newsletter to Graduates</title>,  vol. 1-3</unittitle><unitdate type="inclusive" normal="1949/1951">1949-1951</unitdate><physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 folders</extent>
                 </physdesc>
               </did>
@@ -1888,9 +1632,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">5</container>
-              <unittitle><title render="italic">Chromolume</title>, <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [35914948974724566]">5</container>
+              <unittitle><title render="italic">Chromolume</title></unittitle><unitdate type="inclusive" normal="1987">1987</unitdate></did>
           </c03>
         </c02>
       </c01>
@@ -1904,8 +1647,7 @@
         <c02 level="file">
           <did>
             <physloc>Online</physloc>
-            <unittitle>Archived Gerald R. Ford School of Public Policy home page <unitdate type="inclusive" normal="2010/9999">2010-[ongoing]</unitdate></unittitle>
-            <dao show="new" actuate="onrequest" href="87209-w-1">
+            <unittitle>Archived Gerald R. Ford School of Public Policy home page</unittitle><unitdate type="inclusive" normal="2010/9999">2010-[ongoing]</unitdate><dao show="new" actuate="onRequest" href="87209-w-1" ref="/repositories/2/digital_objects/7708">
               <daodesc>
                 <p>[view website]</p>
               </daodesc>
@@ -1915,8 +1657,7 @@
         <c02 level="file">
           <did>
             <physloc>Online</physloc>
-            <unittitle>Archived websites related to the Gerald R. Ford School of Public Policy <unitdate type="inclusive" normal="2010/9999">2010-[ongoing]</unitdate></unittitle>
-            <dao show="new" actuate="onrequest" href="87209-w-2">
+            <unittitle>Archived websites related to the Gerald R. Ford School of Public Policy</unittitle><unitdate type="inclusive" normal="2010/9999">2010-[ongoing]</unitdate><dao show="new" actuate="onRequest" href="87209-w-2" ref="/repositories/2/digital_objects/7709">
               <daodesc>
                 <p>[view website]</p>
               </daodesc>

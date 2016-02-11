@@ -24,10 +24,11 @@
         <item>Original encoding from Word 10.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
+    <classification ref="/repositories/2/classifications/1"/>
   </eadheader>
   <frontmatter>
     <titlepage>
-      <publisher><lb/>Bentley Historical Library<lb/>University of Michigan</publisher>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library<lb/>University of Michigan</publisher>
       <titleproper>Finding aid for<lb/> Michigan Coalition for Responsible Gun Owners records </titleproper>
       <author>Finding aid created by<lb/> Max Eckard, in September 2015. </author>
     </titlepage>
@@ -35,10 +36,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110"> Michigan Coalition for Responsible Gun Owners </corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/18290"> Michigan Coalition for Responsible Gun Owners </corpname>
       </origination>
-      <unittitle encodinganalog="245"> Michigan Coalition for Responsible Gun Owners records <unitdate type="inclusive" encodinganalog="245$f"> 1994-2007 </unitdate> </unittitle>
-      <physdesc>
+      <unittitle encodinganalog="245">Michigan Coalition for Responsible Gun Owners records</unittitle><unitdate type="inclusive" encodinganalog="245$f"> 1994-2007 </unitdate><physdesc>
         <extent encodinganalog="300"> 1.09 GB (online) and 1 archived website (online) </extent>
       </physdesc>
       <unitid encodinganalog="852$h" repositorycode="miu-h" countrycode="us" type="call number"> 2008027 Bj 2 </unitid>
@@ -89,19 +89,19 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <subject source="lcsh" encodinganalog="650">Firearms--Law and legislation--Michigan.</subject>
-        <corpname source="lcnaf" encodinganalog="610">Michigan Coalition for Responsible Gun Owners.</corpname>
-        <geogname source="lcsh" encodinganalog="651">Michigan--Politics and government--1951-1960.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Michigan--Politics and government--1991-2000.</geogname>
-        <geogname source="lcsh" encodinganalog="651">Michigan--Politics and government--2001-2010.</geogname>
+        <subject source="lcsh" encodinganalog="650" ref="/subjects/9357">Firearms--Law and legislation--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18290">Michigan Coalition for Responsible Gun Owners.</corpname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/1996">Michigan--Politics and government--1951-1960.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2368">Michigan--Politics and government--1991-2000.</geogname>
+        <geogname source="lcsh" encodinganalog="651" ref="/subjects/2369">Michigan--Politics and government--2001-2010.</geogname>
       </controlaccess>
       <controlaccess>
         <head>Contributors: </head>
-        <persname source="lcnaf" encodinganalog="700">Felbeck, David K.</persname>
+        <persname source="lcnaf" encodinganalog="700" ref="/agents/people/30373">Felbeck, David K.</persname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Digital file formats.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3189">Digital file formats.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -115,44 +115,50 @@
         <c02 level="file">
           <did>
             <physloc>Online </physloc>
-            <unittitle>MCRGO documents and lists, <unitdate type="inclusive">2001-2007</unitdate></unittitle>
-            <physdesc>
+            <unittitle>MCRGO documents and lists</unittitle><unitdate type="inclusive" normal="2001/2007">2001-2007</unitdate><physdesc>
               <extent>.ZIP file</extent>
             </physdesc>
-            <dao href="http://hdl.handle.net/2027.42/113277" show="new" actuate="onrequest">
+            <dao href="http://hdl.handle.net/2027.42/113277" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/2765">
               <daodesc>
                 <p>[download item]</p>
               </daodesc>
             </dao>
           </did>
+          <odd>
+            <p>(Documents and lists of the Michigan Coalition for Responsible Gun Owners (MCRGO), containing records of MCRGO endorsements for the Michigan Legislature, lists of activists, legislators and MCRGO employees and membership application materials.)</p>
+          </odd>
         </c02>
         <c02 level="file">
           <did>
             <physloc>Online</physloc>
-            <unittitle>Minutes, <unitdate type="inclusive">2001-2003</unitdate></unittitle>
-            <physdesc>
+            <unittitle>Minutes</unittitle><unitdate type="inclusive" normal="2001/2003">2001-2003</unitdate><physdesc>
               <extent>(.ZIP file</extent>
             </physdesc>
-            <dao href="http://hdl.handle.net/2027.42/113278" show="new" actuate="onrequest">
+            <dao href="http://hdl.handle.net/2027.42/113278" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/2766">
               <daodesc>
                 <p>[download item]</p>
               </daodesc>
             </dao>
           </did>
+          <odd>
+            <p>(Open and closed minutes from the Michigan Coalition of Responsible Gun Owners (MCRGO) Board of Directors.)</p>
+          </odd>
         </c02>
         <c02 level="file">
           <did>
             <physloc>Online</physloc>
-            <unittitle>Bills, <unitdate type="inclusive">1999-2006</unitdate></unittitle>
-            <physdesc>
+            <unittitle>Bills</unittitle><unitdate type="inclusive" normal="1999/2006">1999-2006</unitdate><physdesc>
               <extent>.ZIP file</extent>
             </physdesc>
-            <dao href="http://hdl.handle.net/2027.42/113279" show="new" actuate="onrequest">
+            <dao href="http://hdl.handle.net/2027.42/113279" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/2767">
               <daodesc>
                 <p>[download item]</p>
               </daodesc>
             </dao>
           </did>
+          <odd>
+            <p>(Michigan Coalition for Responsible Gun Owners (MCRGO)-endorsed firearms-related bills passed by the Michigan Legislature.)</p>
+          </odd>
         </c02>
       </c01>
       <c01 level="series">
@@ -165,18 +171,18 @@
         <c02 level="file">
           <did>
             <physloc>Online </physloc>
-            <unittitle>
-              <unitdate type="inclusive">1995-2006</unitdate>
-            </unittitle>
-            <physdesc>
+            <unitdate type="inclusive" normal="1995/2006">1995-2006</unitdate><physdesc>
               <physfacet>(.ZIP file)</physfacet>
             </physdesc>
-            <dao href="http://hdl.handle.net/2027.42/113280" show="new" actuate="onrequest">
+            <dao href="http://hdl.handle.net/2027.42/113280" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/2768">
               <daodesc>
                 <p>[download item]</p>
               </daodesc>
             </dao>
           </did>
+          <odd>
+            <p>(Michigan Coalition for Responsible Gun Owners (MCRGO) correspondence with both members and legislators, reference files, website files,  and news articles all related to the MCRGO and their work in the state of Michigan, organized chronologically. Also contains copies of the MCRGOs On Point newsletter.)</p>
+          </odd>
         </c02>
       </c01>
       <c01 level="series">
@@ -189,16 +195,18 @@
         <c02 level="file">
           <did>
             <physloc>Online </physloc>
-            <unittitle>"Firearms, Fantasy and Fact," <unitdate type="inclusive">undated</unitdate> </unittitle>
-            <physdesc>
+            <unittitle>"Firearms, Fantasy and Fact,"</unittitle><unitdate type="inclusive">undated</unitdate><physdesc>
               <physfacet>(.ZIP file)</physfacet>
             </physdesc>
-            <dao href="http://hdl.handle.net/2027.42/113281" show="new" actuate="onrequest">
+            <dao href="http://hdl.handle.net/2027.42/113281" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/2769">
               <daodesc>
                 <p>[download item]</p>
               </daodesc>
             </dao>
           </did>
+          <odd>
+            <p>(Point/counterpoint-style talking points employed by the Michigan Coalition for Responsible Gun Owners (MCRGO) on firearms-related issues that arose in the media, especially by proponents of gun control arguing that widespread gun ownership increased the danger of gun-related injuries, murder and suicide.)</p>
+          </odd>
         </c02>
       </c01>
       <c01 level="series">
@@ -212,7 +220,7 @@
           <did>
             <physloc>Online </physloc>
             <unittitle>MCRGO website </unittitle>
-            <dao href="2008027-w-1" show="new" actuate="onrequest">
+            <dao href="2008027-w-1" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/2770">
               <daodesc>
                 <p>[view item]</p>
               </daodesc>

@@ -44,6 +44,7 @@
         <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
+    <classification ref="/repositories/2/classifications/2"/>
   </eadheader>
   <frontmatter>
     <titlepage>
@@ -55,10 +56,9 @@
   <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
-        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Office of Human Resources and Affirmative Action.</corpname>
+        <corpname source="lcnaf" encodinganalog="110" ref="/agents/corporate_entities/21530">University of Michigan. Office of Human Resources and Affirmative Action.</corpname>
       </origination>
-      <unittitle encodinganalog="245">Office of Human Resources and Affirmative Action (University of Michigan) publications <unitdate type="inclusive" encodinganalog="245$f" normal="1945/2016">1945-2016</unitdate></unittitle>
-      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">9770 Bimu B28 2</unitid>
+      <unittitle encodinganalog="245">Office of Human Resources and Affirmative Action (University of Michigan) publications</unittitle><unitdate type="inclusive" encodinganalog="245$f" normal="1945/2016">1945-2016</unitdate><unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">9770 Bimu B28 2</unitid>
       <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Publications produced by Office of Human Resources and Affirmative Action and affiliated programs. Includes catalogs of professional development courses, pamphlets and manuals describing benefit programs such as health care, disability, and retirement. Also contains personnel manuals; as well as statistics analyzing faculty salaries. Also contains annual salary record of faculty and staff.</abstract>
       <physdesc altrender="part">
@@ -113,25 +113,25 @@
       </p>
       <controlaccess>
         <head>Subjects:</head>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Office of Human Resources and Affirmative Action.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Personnel Office.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Office of Faculty and Staff Statistics.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Employees--Salaries, etc.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty--Salaries, etc.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Benefits Office.</corpname>
-        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Human Resource Development.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Office of Faculty and Staff Statistics.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Benefits Office.</corpname>
-        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Human Resource Development.</corpname>
-        <title source="aacr2" encodinganalog="730">Comparative instructional salary data.</title>
-        <title source="aacr2" encodinganalog="740">University of Michigan faculty and staff record.</title>
-        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Personnel Office.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21530">University of Michigan. Office of Human Resources and Affirmative Action.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/22279">University of Michigan. Personnel Office.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21962">University of Michigan. Office of Faculty and Staff Statistics.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Employees--Salaries, etc.<term type="topical">Employees</term><term type="topical">Salaries, etc.</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18699">University of Michigan--Faculty--Salaries, etc.<term type="topical">Salaries, etc.</term><term type="topical">Faculty</term></corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/21906">University of Michigan. Benefits Office.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" ref="/agents/corporate_entities/18341">University of Michigan. Human Resource Development.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/21962">University of Michigan. Office of Faculty and Staff Statistics.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/21906">University of Michigan. Benefits Office.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/18341">University of Michigan. Human Resource Development.</corpname>
+        <title source="aacr2" encodinganalog="730" ref="/subjects/62">Comparative instructional salary data.</title>
+        <title source="aacr2" encodinganalog="740" ref="/subjects/63">University of Michigan faculty and staff record.</title>
+        <corpname source="lcnaf" encodinganalog="710" ref="/agents/corporate_entities/22279">University of Michigan. Personnel Office.</corpname>
       </controlaccess>
       <controlaccess>
         <head>Genre Terms:</head>
-        <genreform source="aat" encodinganalog="655">Statistics.</genreform>
-        <genreform source="aat" encodinganalog="655">Manuals.</genreform>
-        <genreform source="aat" encodinganalog="655">Pamphlets.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3290">Statistics.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3154">Manuals.</genreform>
+        <genreform source="aat" encodinganalog="655" ref="/subjects/3148">Pamphlets.</genreform>
       </controlaccess>
     </controlaccess>
     <dsc type="combined">
@@ -149,9 +149,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle><title render="italic">Employees' Retirement Plan</title>, <unitdate type="inclusive" normal="1960/1962">1960-1962</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [95331221498293931946479]">1</container>
+              <unittitle><title render="italic">Employees' Retirement Plan</title></unittitle><unitdate type="inclusive" normal="1960/1962">1960-1962</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -160,52 +159,46 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle><title render="italic">Choose Your Own Program: Blue Cross and Blue Shield Benefits</title>, <unitdate type="inclusive" normal="1961/1973">1961-1973</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [95331221498293931946479]">1</container>
+              <unittitle><title render="italic">Choose Your Own Program: Blue Cross and Blue Shield Benefits</title></unittitle><unitdate type="inclusive" normal="1961/1973">1961-1973</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle><title render="italic">Faculty and Academic Staff Benefits</title>, <unitdate type="inclusive" normal="1957/1967">1957-1967</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [95331221498293931946479]">1</container>
+              <unittitle><title render="italic">Faculty and Academic Staff Benefits</title></unittitle><unitdate type="inclusive" normal="1957/1967">1957-1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle><title render="italic">Let Yourself Grow</title>, <unitdate type="inclusive" normal="1959/1967">1959-1967</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [95331221498293931946479]">1</container>
+              <unittitle><title render="italic">Let Yourself Grow</title></unittitle><unitdate type="inclusive" normal="1959/1967">1959-1967</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [95331221498293931946479]">1</container>
               <unittitle>Miscellaneous, 1946-</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle><title render="italic">Your Retirement Annuity</title>, <unitdate type="inclusive" normal="1957/1969">1957-1969</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [95331221498293931946479]">1</container>
+              <unittitle><title render="italic">Your Retirement Annuity</title></unittitle><unitdate type="inclusive" normal="1957/1969">1957-1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle><title render="italic">UMatter Staff Recognition Program</title>, <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [95331221498293931946479]">1</container>
+              <unittitle><title render="italic">UMatter Staff Recognition Program</title></unittitle><unitdate type="inclusive" normal="1997">1997</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
+              <container type="box" label="Box [95331221498293931946479]">1</container>
               <unittitle><title render="italic">Workplace Awards</title>, 1994- </unittitle>
             </did>
           </c03>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box" label="Box">1</container>
-            <unittitle>Flyers regarding AFSCME/UAW election <unitdate type="inclusive" normal="1974/1977">1974-1977</unitdate></unittitle>
-          </did>
+            <container type="box" label="Box [95331221498293931946479]">1</container>
+            <unittitle>Flyers regarding AFSCME/UAW election</unittitle><unitdate type="inclusive" normal="1974/1977">1974-1977</unitdate></did>
         </c02>
         <c02 level="file">
           <did>
@@ -213,39 +206,33 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle><title render="italic">Employees' Retirement Plan</title>, <unitdate type="inclusive" normal="1945/1963">1945-1963</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [95331221498293931946479]">1</container>
+              <unittitle><title render="italic">Employees' Retirement Plan</title></unittitle><unitdate type="inclusive" normal="1945/1963">1945-1963</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle><title render="italic">Group Insurance Plans and Programs</title>, <unitdate type="inclusive" normal="1950/1988">1950-1988</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [95331221498293931946479]">1</container>
+              <unittitle><title render="italic">Group Insurance Plans and Programs</title></unittitle><unitdate type="inclusive" normal="1950/1988">1950-1988</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle><title render="italic">Income Protection for Totally Disabled Staff Members</title>, <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [95331221498293931946479]">1</container>
+              <unittitle><title render="italic">Income Protection for Totally Disabled Staff Members</title></unittitle><unitdate type="inclusive" normal="1970">1970</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle><title render="italic">Major Medical Expense Plan</title>, <unitdate type="inclusive" normal="1962/1973">1962-1973</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [95331221498293931946479]">1</container>
+              <unittitle><title render="italic">Major Medical Expense Plan</title></unittitle><unitdate type="inclusive" normal="1962/1973">1962-1973</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>Travel (includes Information on Reimbursement and Insurance) <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [95331221498293931946479]">1</container>
+              <unittitle>Travel (includes Information on Reimbursement and Insurance)</unittitle><unitdate type="inclusive" normal="1963">1963</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle><title render="italic">You and Your Job at the University of Michigan</title>, <unitdate type="inclusive" normal="1950/1969">1950-1969</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [95331221498293931946479]">1</container>
+              <unittitle><title render="italic">You and Your Job at the University of Michigan</title></unittitle><unitdate type="inclusive" normal="1950/1969">1950-1969</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -254,18 +241,16 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>HRAA News (print-outs of e-mail) <unitdate type="inclusive" normal="2000/2004">2000-2004</unitdate></unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [95331221498293931946479]">1</container>
+              <unittitle>HRAA News (print-outs of e-mail)</unittitle><unitdate type="inclusive" normal="2000/2004">2000-2004</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">3 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle><title render="italic">Inter-action Quarterly Newsletter of Human Resources/ Affirmative Action</title>, <unitdate type="inclusive" normal="1995/1997">1995-1997</unitdate> [issue 1 vol 1; issue 2, vol 1-3; issue 5, vol 2; issue 6, vol 3; issue 7; vol 4]</unittitle>
-            </did>
+              <container type="box" label="Box [95331221498293931946479]">1</container>
+              <unittitle><title render="italic">Inter-action Quarterly Newsletter of Human Resources/ Affirmative Action</title>,  [issue 1 vol 1; issue 2, vol 1-3; issue 5, vol 2; issue 6, vol 3; issue 7; vol 4]</unittitle><unitdate type="inclusive" normal="1995/1997">1995-1997</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -274,9 +259,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle><title render="italic">Vacation and Sick Leave</title>, <unitdate type="inclusive" normal="1946">1946</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [95331221498293931946479]">1</container>
+              <unittitle><title render="italic">Vacation and Sick Leave</title></unittitle><unitdate type="inclusive" normal="1946">1946</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -285,51 +269,43 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>Availability Assessment (labor market availability) <unitdate type="inclusive" normal="1976">1976</unitdate>, <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [95331221498293931946479]">1</container>
+              <unittitle>Availability Assessment (labor market availability)</unittitle><unitdate type="inclusive" normal="1976">1976</unitdate><unitdate type="inclusive" normal="1978">1978</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle><title render="italic">Building Blocks for Performance Planning and Appraisal</title>, <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [95331221498293931946479]">1</container>
+              <unittitle><title render="italic">Building Blocks for Performance Planning and Appraisal</title></unittitle><unitdate type="inclusive" normal="1996">1996</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle><title render="italic">Business Process Reengineering</title> Human Resources Pathways HRM Service Delivery System and Recommendations Survey, <unitdate type="inclusive" normal="1997-05">May 1997</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [95331221498293931946479]">1</container>
+              <unittitle><title render="italic">Business Process Reengineering</title> Human Resources Pathways HRM Service Delivery System and Recommendations Survey</unittitle><unitdate type="inclusive" normal="1997-05">May 1997</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle><title render="italic">The Culture and Climate for Quality: Perceptions of the Work Environment of the University of Michigan</title>, <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [95331221498293931946479]">1</container>
+              <unittitle><title render="italic">The Culture and Climate for Quality: Perceptions of the Work Environment of the University of Michigan</title></unittitle><unitdate type="inclusive" normal="1994">1994</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle><unitdate type="inclusive" normal="1997">1997</unitdate> Benefits Survey, University of Michigan, <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [95331221498293931946479]">1</container>
+              <unittitle>1997 Benefits Survey, University of Michigan, 1997</unittitle><unitdate type="inclusive" normal="1997">1997</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>Retirement Benefits Provided by TIAA-CREF to Emeriti Professors <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [95331221498293931946479]">1</container>
+              <unittitle>Retirement Benefits Provided by TIAA-CREF to Emeriti Professors</unittitle><unitdate type="inclusive" normal="1969">1969</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle>Self-Assessment <unitdate type="inclusive" normal="1999-08">August 1999</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [95331221498293931946479]">1</container>
+              <unittitle>Self-Assessment</unittitle><unitdate type="inclusive" normal="1999-08">August 1999</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">1</container>
-              <unittitle><title render="italic">Viewpoints and Attitudes: Report of a Survey Among University of Michigan Staff Members</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [95331221498293931946479]">1</container>
+              <unittitle><title render="italic">Viewpoints and Attitudes: Report of a Survey Among University of Michigan Staff Members</title></unittitle><unitdate type="inclusive">undated</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -338,33 +314,26 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
+              <container type="box" label="Box [9011208484178906483951]">2</container>
               <unittitle>
                 <title render="italic">An Analysis of the Salaries Paid to the Faculty of the University of Michigan [Office of the Vice President and Dean of Faculties]</title>
               </unittitle>
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [9011208484178906483951]">2</container>
+                <unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [9011208484178906483951]">2</container>
+                <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">2</container>
-              <unittitle><title render="italic">An Analysis of the Salaries Paid to the Teaching Staff of the University of Michigan 1962-1963 [Office of the Vice President for Academic Affairs]</title>, <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9011208484178906483951]">2</container>
+              <unittitle><title render="italic">An Analysis of the Salaries Paid to the Teaching Staff of the University of Michigan 1962-1963 [Office of the Vice President for Academic Affairs]</title></unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -374,39 +343,23 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate>
-                  <unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [9011208484178906483951]">2</container>
+                <unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate><unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate>
-                  <unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [9011208484178906483951]">2</container>
+                <unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate><unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate>
-                  <unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [9011208484178906483951]">2</container>
+                <unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate><unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate>
-                  <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [9011208484178906483951]">2</container>
+                <unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate><unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -417,12 +370,8 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate>
-                  <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [9011208484178906483951]">2</container>
+                <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate><unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -433,11 +382,8 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [9011208484178906483951]">2</container>
+                <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -448,27 +394,18 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [9011208484178906483951]">2</container>
+                <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [9011208484178906483951]">2</container>
+                <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [9011208484178906483951]">2</container>
+                <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -479,148 +416,97 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [9011208484178906483951]">2</container>
+                <unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [9011208484178906483951]">2</container>
+                <unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1974/1975">1974-1975</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [9011208484178906483951]">2</container>
+                <unitdate type="inclusive" normal="1974/1975">1974-1975</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1975/1976">1975-1976</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [9011208484178906483951]">2</container>
+                <unitdate type="inclusive" normal="1975/1976">1975-1976</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1976/1977">1976-1977</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [9011208484178906483951]">2</container>
+                <unitdate type="inclusive" normal="1976/1977">1976-1977</unitdate></did>
               <odd>
                 <p>(main volume and summary volume)</p>
               </odd>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1977/1978">1977-1978</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [9011208484178906483951]">2</container>
+                <unitdate type="inclusive" normal="1977/1978">1977-1978</unitdate></did>
               <odd>
                 <p>(summary volume only)</p>
               </odd>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1978/1979">1978-1979</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [9011208484178906483951]">2</container>
+                <unitdate type="inclusive" normal="1978/1979">1978-1979</unitdate></did>
               <odd>
                 <p>(main volume and summary volume)</p>
               </odd>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1979/1980">1979-1980</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [9011208484178906483951]">2</container>
+                <unitdate type="inclusive" normal="1979/1980">1979-1980</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1980/1981">1980-1981</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [9011208484178906483951]">2</container>
+                <unitdate type="inclusive" normal="1980/1981">1980-1981</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1981/1982">1981-1982</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [9011208484178906483951]">2</container>
+                <unitdate type="inclusive" normal="1981/1982">1981-1982</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1982/1983">1982-1983</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [9011208484178906483951]">2</container>
+                <unitdate type="inclusive" normal="1982/1983">1982-1983</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1983/1984">1983-1984</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [9011208484178906483951]">2</container>
+                <unitdate type="inclusive" normal="1983/1984">1983-1984</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1984/1985">1984-1985</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [9011208484178906483951]">2</container>
+                <unitdate type="inclusive" normal="1984/1985">1984-1985</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1985/1986">1985-1986</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [9011208484178906483951]">2</container>
+                <unitdate type="inclusive" normal="1985/1986">1985-1986</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [9011208484178906483951]">2</container>
+                <unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1987/1988">1987-1988</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [9011208484178906483951]">2</container>
+                <unitdate type="inclusive" normal="1987/1988">1987-1988</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">2</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [9011208484178906483951]">2</container>
+                <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -631,59 +517,38 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [6148196742923179866]">3</container>
+                <unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1990/1991">1990-1991</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [6148196742923179866]">3</container>
+                <unitdate type="inclusive" normal="1990/1991">1990-1991</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [6148196742923179866]">3</container>
+                <unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [6148196742923179866]">3</container>
+                <unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [6148196742923179866]">3</container>
+                <unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [6148196742923179866]">3</container>
+                <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1995/1996">1995-1996</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [6148196742923179866]">3</container>
+                <unitdate type="inclusive" normal="1995/1996">1995-1996</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -694,99 +559,63 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1996/1997">1996-1997</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [6148196742923179866]">3</container>
+                <unitdate type="inclusive" normal="1996/1997">1996-1997</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1997/1998">1997-1998</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [6148196742923179866]">3</container>
+                <unitdate type="inclusive" normal="1997/1998">1997-1998</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1998/1999">1998-1999</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [6148196742923179866]">3</container>
+                <unitdate type="inclusive" normal="1998/1999">1998-1999</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1999/2000">1999-2000</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [6148196742923179866]">3</container>
+                <unitdate type="inclusive" normal="1999/2000">1999-2000</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="2000/2001">2000-2001</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [6148196742923179866]">3</container>
+                <unitdate type="inclusive" normal="2000/2001">2000-2001</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="2001/2002">2001-2002</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [6148196742923179866]">3</container>
+                <unitdate type="inclusive" normal="2001/2002">2001-2002</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="2002/2003">2002-2003</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [6148196742923179866]">3</container>
+                <unitdate type="inclusive" normal="2002/2003">2002-2003</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="2003/2004">2003-2004</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [6148196742923179866]">3</container>
+                <unitdate type="inclusive" normal="2003/2004">2003-2004</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="2004/2005">2004-2005</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [6148196742923179866]">3</container>
+                <unitdate type="inclusive" normal="2004/2005">2004-2005</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="2005/2006">2005-2006</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [6148196742923179866]">3</container>
+                <unitdate type="inclusive" normal="2005/2006">2005-2006</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="2006/2007">2006-2007</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [6148196742923179866]">3</container>
+                <unitdate type="inclusive" normal="2006/2007">2006-2007</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">3</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="2007/2008">2007-2008</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [6148196742923179866]">3</container>
+                <unitdate type="inclusive" normal="2007/2008">2007-2008</unitdate></did>
             </c04>
           </c03>
           <c03 level="file">
@@ -798,50 +627,50 @@
             <c04 level="file">
               <did>
                 <physloc>Online</physloc>
-                <unittitle>
-                  <unitdate type="inclusive" normal="2009/2010">2009-2010</unitdate>
-                </unittitle>
-                <physdesc>
+                <unitdate type="inclusive" normal="2009/2010">2009-2010</unitdate><physdesc>
                   <physfacet>.ZIP</physfacet>
                 </physdesc>
-                <dao href="http://hdl.handle.net/2027.42/96545" show="new" actuate="onrequest">
+                <dao href="http://hdl.handle.net/2027.42/96545" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1828">
                   <daodesc>
                     <p>[view item]</p>
                   </daodesc>
                 </dao>
               </did>
+              <odd>
+                <p>(An analysis of salaries paid to regular instructional faculty, regular clinical instructional faculty, lecturers and graduate student instructors for the 2009-2010 academic year.  This report, published annually based upon fall term data, analyzes current salaries of instructional staff and graduate student instructors appointed in academic units at the University of Michigan)</p>
+              </odd>
             </c04>
             <c04 level="file">
               <did>
                 <physloc>Online</physloc>
-                <unittitle>
-                  <unitdate type="inclusive" normal="2010/2011">2010-2011</unitdate>
-                </unittitle>
-                <physdesc>
+                <unitdate type="inclusive" normal="2010/2011">2010-2011</unitdate><physdesc>
                   <physfacet>.PDF</physfacet>
                 </physdesc>
-                <dao href="http://hdl.handle.net/2027.42/96547" show="new" actuate="onrequest">
+                <dao href="http://hdl.handle.net/2027.42/96547" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1829">
                   <daodesc>
                     <p>[view item]</p>
                   </daodesc>
                 </dao>
               </did>
+              <odd>
+                <p>(An analysis of salaries paid to regular instructional faculty, regular clinical instructional faculty, lecturers and graduate student instructors for the 2010-2011 academic year.  This report, published annually based upon fall term data, analyzes current salaries of instructional staff and graduate student instructors appointed in academic units at the University of Michigan)</p>
+              </odd>
             </c04>
             <c04 level="file">
               <did>
                 <physloc>Online</physloc>
-                <unittitle>
-                  <unitdate type="inclusive" normal="2011/2013">2011/12-2012/13</unitdate>
-                </unittitle>
-                <physdesc>
+                <unitdate type="inclusive" normal="2011/2013">2011/12-2012/13</unitdate><physdesc>
                   <physfacet>.PDF</physfacet>
                 </physdesc>
-                <dao href="http://hdl.handle.net/2027.42/94572" show="new" actuate="onrequest">
+                <dao href="http://hdl.handle.net/2027.42/94572" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1830">
                   <daodesc>
                     <p>[view item]</p>
                   </daodesc>
                 </dao>
               </did>
+              <odd>
+                <p>(An analysis of salaries paid to regular instructional faculty, regular clinical instructional faculty, lecturers and graduate student instructors for the 2011-2012 and 2012-2013 academic years.  This report, published annually based upon fall term data, analyzes current salaries of instructional staff and graduate student instructors appointed in academic units at the University of Michigan)</p>
+              </odd>
             </c04>
           </c03>
         </c02>
@@ -851,9 +680,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">4</container>
-              <unittitle>Executive Salary Information Executive Officers, Deans and Directors <unitdate type="inclusive" normal="1992-07">July 1992</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9186264477840237363092]">4</container>
+              <unittitle>Executive Salary Information Executive Officers, Deans and Directors</unittitle><unitdate type="inclusive" normal="1992-07">July 1992</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -861,107 +689,98 @@
             </did>
             <c04 level="item">
               <did>
-                <container type="box" label="Box">4</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1987">1987</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [9186264477840237363092]">4</container>
+                <unitdate type="inclusive" normal="1987">1987</unitdate></did>
             </c04>
             <c04 level="item">
               <did>
-                <container type="box" label="Box">4</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1991">1991</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [9186264477840237363092]">4</container>
+                <unitdate type="inclusive" normal="1991">1991</unitdate></did>
             </c04>
             <c04 level="item">
               <did>
-                <container type="box" label="Box">4</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1993">1993</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [9186264477840237363092]">4</container>
+                <unitdate type="inclusive" normal="1993">1993</unitdate></did>
             </c04>
             <c04 level="item">
               <did>
                 <physloc>Online</physloc>
-                <unittitle>
-                  <unitdate type="inclusive" normal="2008">2008</unitdate>
-                </unittitle>
-                <physdesc>
+                <unitdate type="inclusive" normal="2008">2008</unitdate><physdesc>
                   <physfacet>.ZIP</physfacet>
                 </physdesc>
-                <dao href="http://hdl.handle.net/2027.42/96548" show="new" actuate="onrequest">
+                <dao href="http://hdl.handle.net/2027.42/96548" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1851">
                   <daodesc>
                     <p>[view item]</p>
                   </daodesc>
                 </dao>
               </did>
+              <odd>
+                <p>(FTE report for 2008. The Office of Human Resources prepares these reports each November for use in surveys. They provide a count of employees based on their FTE/effort and document all regular active and paid leave faculty and staff. FTE counts are broken down by Job Family within unit/campus and across fund group and faculty counts are broken down by tenure status.)</p>
+              </odd>
             </c04>
             <c04 level="item">
               <did>
                 <physloc>Online</physloc>
-                <unittitle>
-                  <unitdate type="inclusive" normal="2009">2009</unitdate>
-                </unittitle>
-                <physdesc>
+                <unitdate type="inclusive" normal="2009">2009</unitdate><physdesc>
                   <physfacet>.ZIP</physfacet>
                 </physdesc>
-                <dao href="http://hdl.handle.net/2027.42/96549" show="new" actuate="onrequest">
+                <dao href="http://hdl.handle.net/2027.42/96549" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1852">
                   <daodesc>
                     <p>[view item]</p>
                   </daodesc>
                 </dao>
               </did>
+              <odd>
+                <p>(FTE report for 2009. The Office of Human Resources prepares these reports each November for use in surveys. They provide a count of employees based on their FTE/effort and document all regular active and paid leave faculty and staff. FTE counts are broken down by Job Family within unit/campus and across fund group and faculty counts are broken down by tenure status.)</p>
+              </odd>
             </c04>
             <c04 level="item">
               <did>
                 <physloc>Online</physloc>
-                <unittitle>
-                  <unitdate type="inclusive" normal="2010">2010</unitdate>
-                </unittitle>
-                <physdesc>
+                <unitdate type="inclusive" normal="2010">2010</unitdate><physdesc>
                   <physfacet>.ZIP</physfacet>
                 </physdesc>
-                <dao href="http://hdl.handle.net/2027.42/96550" show="new" actuate="onrequest">
+                <dao href="http://hdl.handle.net/2027.42/96550" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1853">
                   <daodesc>
                     <p>[view item]</p>
                   </daodesc>
                 </dao>
               </did>
+              <odd>
+                <p>(FTE report for 2010. The Office of Human Resources prepares these reports each November for use in surveys. They provide a count of employees based on their FTE/effort and document all regular active and paid leave faculty and staff. FTE counts are broken down by Job Family within unit/campus and across fund group and faculty counts are broken down by tenure status.)</p>
+              </odd>
             </c04>
             <c04 level="item">
               <did>
                 <physloc>Online</physloc>
-                <unittitle>
-                  <unitdate type="inclusive" normal="2011">2011</unitdate>
-                </unittitle>
-                <physdesc>
+                <unitdate type="inclusive" normal="2011">2011</unitdate><physdesc>
                   <physfacet>.ZIP</physfacet>
                 </physdesc>
-                <dao href="http://hdl.handle.net/2027.42/96551" show="new" actuate="onrequest">
+                <dao href="http://hdl.handle.net/2027.42/96551" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1854">
                   <daodesc>
                     <p>[view item]</p>
                   </daodesc>
                 </dao>
               </did>
+              <odd>
+                <p>(FTE report for 2011. The Office of Human Resources prepares these reports each November for use in surveys. They provide a count of employees based on their FTE/effort and document all regular active and paid leave faculty and staff. FTE counts are broken down by Job Family within unit/campus and across fund group and faculty counts are broken down by tenure status.)</p>
+              </odd>
             </c04>
             <c04 level="item">
               <did>
                 <physloc>Online</physloc>
-                <unittitle>
-                  <unitdate type="inclusive" normal="2012">2012</unitdate>
-                </unittitle>
-                <physdesc>
+                <unitdate type="inclusive" normal="2012">2012</unitdate><physdesc>
                   <physfacet>.ZIP</physfacet>
                 </physdesc>
-                <dao href="http://hdl.handle.net/2027.42/96552" show="new" actuate="onrequest">
+                <dao href="http://hdl.handle.net/2027.42/96552" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1855">
                   <daodesc>
                     <p>[view item]</p>
                   </daodesc>
                 </dao>
               </did>
+              <odd>
+                <p>(FTE report for 2012. The Office of Human Resources prepares these reports each November for use in surveys. They provide a count of employees based on their FTE/effort and document all regular active and paid leave faculty and staff. FTE counts are broken down by Job Family within unit/campus and across fund group and faculty counts are broken down by tenure status.)</p>
+              </odd>
             </c04>
           </c03>
           <c03 level="file">
@@ -970,13 +789,13 @@
             </did>
             <c04 level="item">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [9186264477840237363092]">4</container>
                 <unittitle>1989-90</unittitle>
               </did>
             </c04>
             <c04 level="item">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [9186264477840237363092]">4</container>
                 <unittitle>1990-91</unittitle>
               </did>
             </c04>
@@ -987,37 +806,37 @@
             </did>
             <c04 level="item">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [9186264477840237363092]">4</container>
                 <unittitle>1991-92</unittitle>
               </did>
             </c04>
             <c04 level="item">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [9186264477840237363092]">4</container>
                 <unittitle>1993-94</unittitle>
               </did>
             </c04>
             <c04 level="item">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [9186264477840237363092]">4</container>
                 <unittitle>1994-95</unittitle>
               </did>
             </c04>
             <c04 level="item">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [9186264477840237363092]">4</container>
                 <unittitle>1995-96</unittitle>
               </did>
             </c04>
             <c04 level="item">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [9186264477840237363092]">4</container>
                 <unittitle>1996-97</unittitle>
               </did>
             </c04>
             <c04 level="item">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [9186264477840237363092]">4</container>
                 <unittitle>1997-98</unittitle>
               </did>
               <odd>
@@ -1031,7 +850,7 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [9186264477840237363092]">4</container>
                 <unittitle>1986-87</unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 volumes</extent>
@@ -1040,37 +859,37 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [9186264477840237363092]">4</container>
                 <unittitle>1987-88</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [9186264477840237363092]">4</container>
                 <unittitle>1988-89</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [9186264477840237363092]">4</container>
                 <unittitle>1989-90</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [9186264477840237363092]">4</container>
                 <unittitle>1990-91</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [9186264477840237363092]">4</container>
                 <unittitle>1991-92</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [9186264477840237363092]">4</container>
                 <unittitle>1992-93</unittitle>
               </did>
             </c04>
@@ -1082,16 +901,18 @@
             <c04 level="file">
               <did>
                 <physloc>Online</physloc>
-                <unittitle>Ann Arbor Campus Faculty Demographics <unitdate type="inclusive" normal="2008">2008</unitdate></unittitle>
-                <physdesc>
+                <unittitle>Ann Arbor Campus Faculty Demographics</unittitle><unitdate type="inclusive" normal="2008">2008</unitdate><physdesc>
                   <physfacet>.ZIP</physfacet>
                 </physdesc>
-                <dao href="http://hdl.handle.net/2027.42/96553" show="new" actuate="onrequest">
+                <dao href="http://hdl.handle.net/2027.42/96553" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1856">
                   <daodesc>
                     <p>[view item]</p>
                   </daodesc>
                 </dao>
               </did>
+              <odd>
+                <p>(Analysis of faculty demographics for 2008 at the University of Michigan Ann Arbor campus, prepared as part of the Integrated Postsecondary Education Data System.  Provides an overview of full-time faculty based on tenure status, rank, race and gender.)</p>
+              </odd>
             </c04>
             <c04 level="file">
               <did>
@@ -1100,244 +921,241 @@
               <c05 level="file">
                 <did>
                   <physloc>Online</physloc>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1999">1999</unitdate>
-                  </unittitle>
-                  <physdesc>
+                  <unitdate type="inclusive" normal="1999">1999</unitdate><physdesc>
                     <physfacet>.ZIP</physfacet>
                   </physdesc>
-                  <dao href="http://hdl.handle.net/2027.42/96554" show="new" actuate="onrequest">
+                  <dao href="http://hdl.handle.net/2027.42/96554" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1857">
                     <daodesc>
                       <p>[view item]</p>
                     </daodesc>
                   </dao>
                 </did>
+                <odd>
+                  <p>(Summary report provided to the Integrated Postsecondary Education Data System in 1999. Includes counts of all regular active and paid leave faculty and staff, with counts broken down by one or more IPEDS categories: full-time/part-time, ethnicity/gender, appointment periods, and campuses. IPEDS is a system of interrelated surveys conducted annually by the U.S. Department’s National Center for Education Statistics that gathers information from every college, university, and technical and vocational institution that participates in the federal student financial aid programs as required by the Higher Education Act of 1965)</p>
+                </odd>
               </c05>
               <c05 level="file">
                 <did>
                   <physloc>Online</physloc>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="2000">2000</unitdate>
-                  </unittitle>
-                  <physdesc>
+                  <unitdate type="inclusive" normal="2000">2000</unitdate><physdesc>
                     <physfacet>.ZIP</physfacet>
                   </physdesc>
-                  <dao href="http://hdl.handle.net/2027.42/96555" show="new" actuate="onrequest">
+                  <dao href="http://hdl.handle.net/2027.42/96555" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1858">
                     <daodesc>
                       <p>[view item]</p>
                     </daodesc>
                   </dao>
                 </did>
+                <odd>
+                  <p>(Summary report provided to the Integrated Postsecondary Education Data System in 2000. Includes counts of all regular active and paid leave faculty and staff, with counts broken down by one or more IPEDS categories: full-time/part-time, ethnicity/gender, appointment periods, and campuses. IPEDS is a system of interrelated surveys conducted annually by the U.S. Department’s National Center for Education Statistics that gathers information from every college, university, and technical and vocational institution that participates in the federal student financial aid programs as required by the Higher Education Act of 1965)</p>
+                </odd>
               </c05>
               <c05 level="file">
                 <did>
                   <physloc>Online</physloc>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="2001">2001</unitdate>
-                  </unittitle>
-                  <physdesc>
+                  <unitdate type="inclusive" normal="2001">2001</unitdate><physdesc>
                     <physfacet>.ZIP</physfacet>
                   </physdesc>
-                  <dao href="http://hdl.handle.net/2027.42/96556" show="new" actuate="onrequest">
+                  <dao href="http://hdl.handle.net/2027.42/96556" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1859">
                     <daodesc>
                       <p>[view item]</p>
                     </daodesc>
                   </dao>
                 </did>
+                <odd>
+                  <p>(Summary report provided to the Integrated Postsecondary Education Data System in 2001. Includes counts of all regular active and paid leave faculty and staff, with counts broken down by one or more IPEDS categories: full-time/part-time, ethnicity/gender, appointment periods, and campuses. IPEDS is a system of interrelated surveys conducted annually by the U.S. Department’s National Center for Education Statistics that gathers information from every college, university, and technical and vocational institution that participates in the federal student financial aid programs as required by the Higher Education Act of 1965)</p>
+                </odd>
               </c05>
               <c05 level="file">
                 <did>
                   <physloc>Online</physloc>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="2002">2002</unitdate>
-                  </unittitle>
-                  <physdesc>
+                  <unitdate type="inclusive" normal="2002">2002</unitdate><physdesc>
                     <physfacet>.ZIP</physfacet>
                   </physdesc>
-                  <dao href="http://hdl.handle.net/2027.42/96557" show="new" actuate="onrequest">
+                  <dao href="http://hdl.handle.net/2027.42/96557" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1860">
                     <daodesc>
                       <p>[view item]</p>
                     </daodesc>
                   </dao>
                 </did>
+                <odd>
+                  <p>(Summary report provided to the Integrated Postsecondary Education Data System in 2002. Includes counts of all regular active and paid leave faculty and staff, with counts broken down by one or more IPEDS categories: full-time/part-time, ethnicity/gender, appointment periods, and campuses. IPEDS is a system of interrelated surveys conducted annually by the U.S. Department’s National Center for Education Statistics that gathers information from every college, university, and technical and vocational institution that participates in the federal student financial aid programs as required by the Higher Education Act of 1965)</p>
+                </odd>
               </c05>
               <c05 level="file">
                 <did>
                   <physloc>Online</physloc>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="2003">2003</unitdate>
-                  </unittitle>
-                  <physdesc>
+                  <unitdate type="inclusive" normal="2003">2003</unitdate><physdesc>
                     <physfacet>.ZIP</physfacet>
                   </physdesc>
-                  <dao href="http://hdl.handle.net/2027.42/96558" show="new" actuate="onrequest">
+                  <dao href="http://hdl.handle.net/2027.42/96558" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1861">
                     <daodesc>
                       <p>[view item]</p>
                     </daodesc>
                   </dao>
                 </did>
+                <odd>
+                  <p>(Summary report provided to the Integrated Postsecondary Education Data System in 2003. Includes counts of all regular active and paid leave faculty and staff, with counts broken down by one or more IPEDS categories: full-time/part-time, ethnicity/gender, appointment periods, and campuses. IPEDS is a system of interrelated surveys conducted annually by the U.S. Department’s National Center for Education Statistics that gathers information from every college, university, and technical and vocational institution that participates in the federal student financial aid programs as required by the Higher Education Act of 1965)</p>
+                </odd>
               </c05>
               <c05 level="file">
                 <did>
                   <physloc>Online</physloc>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="2004">2004</unitdate>
-                  </unittitle>
-                  <physdesc>
+                  <unitdate type="inclusive" normal="2004">2004</unitdate><physdesc>
                     <physfacet>.ZIP</physfacet>
                   </physdesc>
-                  <dao href="http://hdl.handle.net/2027.42/96559" show="new" actuate="onrequest">
+                  <dao href="http://hdl.handle.net/2027.42/96559" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1862">
                     <daodesc>
                       <p>[view item]</p>
                     </daodesc>
                   </dao>
                 </did>
+                <odd>
+                  <p>(Summary report provided to the Integrated Postsecondary Education Data System in 2004. Includes counts of all regular active and paid leave faculty and staff, with counts broken down by one or more IPEDS categories: full-time/part-time, ethnicity/gender, appointment periods, and campuses. IPEDS is a system of interrelated surveys conducted annually by the U.S. Department’s National Center for Education Statistics that gathers information from every college, university, and technical and vocational institution that participates in the federal student financial aid programs as required by the Higher Education Act of 1965)</p>
+                </odd>
               </c05>
               <c05 level="file">
                 <did>
                   <physloc>Online</physloc>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="2005">2005</unitdate>
-                  </unittitle>
-                  <physdesc>
+                  <unitdate type="inclusive" normal="2005">2005</unitdate><physdesc>
                     <physfacet>.ZIP</physfacet>
                   </physdesc>
-                  <dao href="http://hdl.handle.net/2027.42/96560" show="new" actuate="onrequest">
+                  <dao href="http://hdl.handle.net/2027.42/96560" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1863">
                     <daodesc>
                       <p>[view item]</p>
                     </daodesc>
                   </dao>
                 </did>
+                <odd>
+                  <p>(Summary report provided to the Integrated Postsecondary Education Data System in 2005. Includes counts of all regular active and paid leave faculty and staff, with counts broken down by one or more IPEDS categories: full-time/part-time, ethnicity/gender, appointment periods, and campuses. IPEDS is a system of interrelated surveys conducted annually by the U.S. Department’s National Center for Education Statistics that gathers information from every college, university, and technical and vocational institution that participates in the federal student financial aid programs as required by the Higher Education Act of 1965)</p>
+                </odd>
               </c05>
               <c05 level="file">
                 <did>
                   <physloc>Online</physloc>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="2006">2006</unitdate>
-                  </unittitle>
-                  <physdesc>
+                  <unitdate type="inclusive" normal="2006">2006</unitdate><physdesc>
                     <physfacet>.ZIP</physfacet>
                   </physdesc>
-                  <dao href="http://hdl.handle.net/2027.42/96561" show="new" actuate="onrequest">
+                  <dao href="http://hdl.handle.net/2027.42/96561" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1864">
                     <daodesc>
                       <p>[view item]</p>
                     </daodesc>
                   </dao>
                 </did>
+                <odd>
+                  <p>(Summary report provided to the Integrated Postsecondary Education Data System in 2006. Includes counts of all regular active and paid leave faculty and staff, with counts broken down by one or more IPEDS categories: full-time/part-time, ethnicity/gender, appointment periods, and campuses. IPEDS is a system of interrelated surveys conducted annually by the U.S. Department’s National Center for Education Statistics that gathers information from every college, university, and technical and vocational institution that participates in the federal student financial aid programs as required by the Higher Education Act of 1965)</p>
+                </odd>
               </c05>
               <c05 level="file">
                 <did>
                   <physloc>Online</physloc>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="2007">2007</unitdate>
-                  </unittitle>
-                  <physdesc>
+                  <unitdate type="inclusive" normal="2007">2007</unitdate><physdesc>
                     <physfacet>.ZIP</physfacet>
                   </physdesc>
-                  <dao href="http://hdl.handle.net/2027.42/96562" show="new" actuate="onrequest">
+                  <dao href="http://hdl.handle.net/2027.42/96562" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1865">
                     <daodesc>
                       <p>[view item]</p>
                     </daodesc>
                   </dao>
                 </did>
+                <odd>
+                  <p>(Summary report provided to the Integrated Postsecondary Education Data System in 2007. Includes counts of all regular active and paid leave faculty and staff, with counts broken down by one or more IPEDS categories: full-time/part-time, ethnicity/gender, appointment periods, and campuses. IPEDS is a system of interrelated surveys conducted annually by the U.S. Department’s National Center for Education Statistics that gathers information from every college, university, and technical and vocational institution that participates in the federal student financial aid programs as required by the Higher Education Act of 1965)</p>
+                </odd>
               </c05>
               <c05 level="file">
                 <did>
                   <physloc>Online</physloc>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="2008">2008</unitdate>
-                  </unittitle>
-                  <physdesc>
+                  <unitdate type="inclusive" normal="2008">2008</unitdate><physdesc>
                     <physfacet>.ZIP</physfacet>
                   </physdesc>
-                  <dao href="http://hdl.handle.net/2027.42/96563" show="new" actuate="onrequest">
+                  <dao href="http://hdl.handle.net/2027.42/96563" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1866">
                     <daodesc>
                       <p>[view item]</p>
                     </daodesc>
                   </dao>
                 </did>
+                <odd>
+                  <p>(Summary report provided to the Integrated Postsecondary Education Data System in 2008. Includes counts of all regular active and paid leave faculty and staff, with counts broken down by one or more IPEDS categories: full-time/part-time, ethnicity/gender, appointment periods, and campuses. IPEDS is a system of interrelated surveys conducted annually by the U.S. Department’s National Center for Education Statistics that gathers information from every college, university, and technical and vocational institution that participates in the federal student financial aid programs as required by the Higher Education Act of 1965)</p>
+                </odd>
               </c05>
               <c05 level="file">
                 <did>
                   <physloc>Online</physloc>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="2009">2009</unitdate>
-                  </unittitle>
-                  <physdesc>
+                  <unitdate type="inclusive" normal="2009">2009</unitdate><physdesc>
                     <physfacet>.ZIP</physfacet>
                   </physdesc>
-                  <dao href="http://hdl.handle.net/2027.42/96564" show="new" actuate="onrequest">
+                  <dao href="http://hdl.handle.net/2027.42/96564" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1867">
                     <daodesc>
                       <p>[view item]</p>
                     </daodesc>
                   </dao>
                 </did>
+                <odd>
+                  <p>(Summary report provided to the Integrated Postsecondary Education Data System in 2009. Includes counts of all regular active and paid leave faculty and staff, with counts broken down by one or more IPEDS categories: full-time/part-time, ethnicity/gender, appointment periods, and campuses. IPEDS is a system of interrelated surveys conducted annually by the U.S. Department’s National Center for Education Statistics that gathers information from every college, university, and technical and vocational institution that participates in the federal student financial aid programs as required by the Higher Education Act of 1965)</p>
+                </odd>
               </c05>
               <c05 level="file">
                 <did>
                   <physloc>Online</physloc>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="2010">2010</unitdate>
-                  </unittitle>
-                  <physdesc>
+                  <unitdate type="inclusive" normal="2010">2010</unitdate><physdesc>
                     <physfacet>.ZIP</physfacet>
                   </physdesc>
-                  <dao href="http://hdl.handle.net/2027.42/96565" show="new" actuate="onrequest">
+                  <dao href="http://hdl.handle.net/2027.42/96565" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1868">
                     <daodesc>
                       <p>[view item]</p>
                     </daodesc>
                   </dao>
                 </did>
+                <odd>
+                  <p>(Summary report provided to the Integrated Postsecondary Education Data System in 2010. Includes counts of all regular active and paid leave faculty and staff, with counts broken down by one or more IPEDS categories: full-time/part-time, ethnicity/gender, appointment periods, and campuses. IPEDS is a system of interrelated surveys conducted annually by the U.S. Department’s National Center for Education Statistics that gathers information from every college, university, and technical and vocational institution that participates in the federal student financial aid programs as required by the Higher Education Act of 1965)</p>
+                </odd>
               </c05>
               <c05 level="file">
                 <did>
                   <physloc>Online</physloc>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="2011">2011</unitdate>
-                  </unittitle>
-                  <physdesc>
+                  <unitdate type="inclusive" normal="2011">2011</unitdate><physdesc>
                     <physfacet>.ZIP</physfacet>
                   </physdesc>
-                  <dao href="http://hdl.handle.net/2027.42/96566" show="new" actuate="onrequest">
+                  <dao href="http://hdl.handle.net/2027.42/96566" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1869">
                     <daodesc>
                       <p>[view item]</p>
                     </daodesc>
                   </dao>
                 </did>
+                <odd>
+                  <p>(Summary report provided to the Integrated Postsecondary Education Data System in 2011. Includes counts of all regular active and paid leave faculty and staff, with counts broken down by one or more IPEDS categories: full-time/part-time, ethnicity/gender, appointment periods, and campuses. IPEDS is a system of interrelated surveys conducted annually by the U.S. Department’s National Center for Education Statistics that gathers information from every college, university, and technical and vocational institution that participates in the federal student financial aid programs as required by the Higher Education Act of 1965)</p>
+                </odd>
               </c05>
               <c05 level="file">
                 <did>
                   <physloc>Online</physloc>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="2012">2012</unitdate>
-                  </unittitle>
-                  <physdesc>
+                  <unitdate type="inclusive" normal="2012">2012</unitdate><physdesc>
                     <physfacet>.ZIP</physfacet>
                   </physdesc>
-                  <dao href="http://hdl.handle.net/2027.42/96567" show="new" actuate="onrequest">
+                  <dao href="http://hdl.handle.net/2027.42/96567" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1870">
                     <daodesc>
                       <p>[view item]</p>
                     </daodesc>
                   </dao>
                 </did>
+                <odd>
+                  <p>(Summary report provided to the Integrated Postsecondary Education Data System in 2012. Includes counts of all regular active and paid leave faculty and staff, with counts broken down by one or more IPEDS categories: full-time/part-time, ethnicity/gender, appointment periods, and campuses. IPEDS is a system of interrelated surveys conducted annually by the U.S. Department’s National Center for Education Statistics that gathers information from every college, university, and technical and vocational institution that participates in the federal student financial aid programs as required by the Higher Education Act of 1965)</p>
+                </odd>
               </c05>
             </c04>
           </c03>
           <c03 level="item">
             <did>
-              <container type="box" label="Box">4</container>
-              <unittitle><title render="italic">Some Comparisons of Salaries Paid to the Faculties of the Nine State-Supported Institutions of the Western Conference (Big 10) 1956-57 and 1961-62 (Compensation of Academic Personnel Report Series)</title>, <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9186264477840237363092]">4</container>
+              <unittitle><title render="italic">Some Comparisons of Salaries Paid to the Faculties of the Nine State-Supported Institutions of the Western Conference (Big 10) 1956-57 and 1961-62 (Compensation of Academic Personnel Report Series)</title></unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <unittitle><title render="italic">Teaching Salaries Compared, 1956-1957 to 1963-1964</title> (Big 10 Universities and UC-Berkeley), <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-            </did>
+              <unittitle><title render="italic">Teaching Salaries Compared, 1956-1957 to 1963-1964</title> (Big 10 Universities and UC-Berkeley)</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <unittitle>University of Michigan and Big Ten Schools Instructional Staff Salary Comparison by Department <unitdate type="inclusive" normal="1983/1984">1983-1984</unitdate>, <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
-            </did>
+              <unittitle>University of Michigan and Big Ten Schools Instructional Staff Salary Comparison by Department</unittitle><unitdate type="inclusive" normal="1983/1984">1983-1984</unitdate><unitdate type="inclusive" normal="1984">1984</unitdate></did>
           </c03>
         </c02>
         <c02 level="file">
@@ -1346,9 +1164,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">4</container>
-              <unittitle>Executive Salary Information Executive Officers, Deans and Directors <unitdate type="inclusive" normal="1992-07">July 1992</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9186264477840237363092]">4</container>
+              <unittitle>Executive Salary Information Executive Officers, Deans and Directors</unittitle><unitdate type="inclusive" normal="1992-07">July 1992</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
@@ -1356,107 +1173,98 @@
             </did>
             <c04 level="item">
               <did>
-                <container type="box" label="Box">4</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1987">1987</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [9186264477840237363092]">4</container>
+                <unitdate type="inclusive" normal="1987">1987</unitdate></did>
             </c04>
             <c04 level="item">
               <did>
-                <container type="box" label="Box">4</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1991">1991</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [9186264477840237363092]">4</container>
+                <unitdate type="inclusive" normal="1991">1991</unitdate></did>
             </c04>
             <c04 level="item">
               <did>
-                <container type="box" label="Box">4</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1993">1993</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [9186264477840237363092]">4</container>
+                <unitdate type="inclusive" normal="1993">1993</unitdate></did>
             </c04>
             <c04 level="item">
               <did>
                 <physloc>Online</physloc>
-                <unittitle>
-                  <unitdate type="inclusive" normal="2008">2008</unitdate>
-                </unittitle>
-                <physdesc>
+                <unitdate type="inclusive" normal="2008">2008</unitdate><physdesc>
                   <physfacet>.ZIP</physfacet>
                 </physdesc>
-                <dao href="http://hdl.handle.net/2027.42/96548" show="new" actuate="onrequest">
+                <dao href="http://hdl.handle.net/2027.42/96548" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1851">
                   <daodesc>
                     <p>[download item]</p>
                   </daodesc>
                 </dao>
               </did>
+              <odd>
+                <p>(FTE report for 2008. The Office of Human Resources prepares these reports each November for use in surveys. They provide a count of employees based on their FTE/effort and document all regular active and paid leave faculty and staff. FTE counts are broken down by Job Family within unit/campus and across fund group and faculty counts are broken down by tenure status.)</p>
+              </odd>
             </c04>
             <c04 level="item">
               <did>
                 <physloc>Online</physloc>
-                <unittitle>
-                  <unitdate type="inclusive" normal="2009">2009</unitdate>
-                </unittitle>
-                <physdesc>
+                <unitdate type="inclusive" normal="2009">2009</unitdate><physdesc>
                   <physfacet>.ZIP</physfacet>
                 </physdesc>
-                <dao href="http://hdl.handle.net/2027.42/96549" show="new" actuate="onrequest">
+                <dao href="http://hdl.handle.net/2027.42/96549" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1852">
                   <daodesc>
                     <p>[download item]</p>
                   </daodesc>
                 </dao>
               </did>
+              <odd>
+                <p>(FTE report for 2009. The Office of Human Resources prepares these reports each November for use in surveys. They provide a count of employees based on their FTE/effort and document all regular active and paid leave faculty and staff. FTE counts are broken down by Job Family within unit/campus and across fund group and faculty counts are broken down by tenure status.)</p>
+              </odd>
             </c04>
             <c04 level="item">
               <did>
                 <physloc>Online</physloc>
-                <unittitle>
-                  <unitdate type="inclusive" normal="2010">2010</unitdate>
-                </unittitle>
-                <physdesc>
+                <unitdate type="inclusive" normal="2010">2010</unitdate><physdesc>
                   <physfacet>.ZIP</physfacet>
                 </physdesc>
-                <dao href="http://hdl.handle.net/2027.42/96550" show="new" actuate="onrequest">
+                <dao href="http://hdl.handle.net/2027.42/96550" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1853">
                   <daodesc>
                     <p>[download item]</p>
                   </daodesc>
                 </dao>
               </did>
+              <odd>
+                <p>(FTE report for 2010. The Office of Human Resources prepares these reports each November for use in surveys. They provide a count of employees based on their FTE/effort and document all regular active and paid leave faculty and staff. FTE counts are broken down by Job Family within unit/campus and across fund group and faculty counts are broken down by tenure status.)</p>
+              </odd>
             </c04>
             <c04 level="item">
               <did>
                 <physloc>Online</physloc>
-                <unittitle>
-                  <unitdate type="inclusive" normal="2011">2011</unitdate>
-                </unittitle>
-                <physdesc>
+                <unitdate type="inclusive" normal="2011">2011</unitdate><physdesc>
                   <physfacet>.ZIP</physfacet>
                 </physdesc>
-                <dao href="http://hdl.handle.net/2027.42/96551" show="new" actuate="onrequest">
+                <dao href="http://hdl.handle.net/2027.42/96551" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1854">
                   <daodesc>
                     <p>[download item]</p>
                   </daodesc>
                 </dao>
               </did>
+              <odd>
+                <p>(FTE report for 2011. The Office of Human Resources prepares these reports each November for use in surveys. They provide a count of employees based on their FTE/effort and document all regular active and paid leave faculty and staff. FTE counts are broken down by Job Family within unit/campus and across fund group and faculty counts are broken down by tenure status.)</p>
+              </odd>
             </c04>
             <c04 level="item">
               <did>
                 <physloc>Online</physloc>
-                <unittitle>
-                  <unitdate type="inclusive" normal="2012">2012</unitdate>
-                </unittitle>
-                <physdesc>
+                <unitdate type="inclusive" normal="2012">2012</unitdate><physdesc>
                   <physfacet>.ZIP</physfacet>
                 </physdesc>
-                <dao href="http://hdl.handle.net/2027.42/96552" show="new" actuate="onrequest">
+                <dao href="http://hdl.handle.net/2027.42/96552" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1855">
                   <daodesc>
                     <p>[download item]</p>
                   </daodesc>
                 </dao>
               </did>
+              <odd>
+                <p>(FTE report for 2012. The Office of Human Resources prepares these reports each November for use in surveys. They provide a count of employees based on their FTE/effort and document all regular active and paid leave faculty and staff. FTE counts are broken down by Job Family within unit/campus and across fund group and faculty counts are broken down by tenure status.)</p>
+              </odd>
             </c04>
           </c03>
           <c03 level="file">
@@ -1465,13 +1273,13 @@
             </did>
             <c04 level="item">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [9186264477840237363092]">4</container>
                 <unittitle>1989-90</unittitle>
               </did>
             </c04>
             <c04 level="item">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [9186264477840237363092]">4</container>
                 <unittitle>1990-91</unittitle>
               </did>
             </c04>
@@ -1482,37 +1290,37 @@
             </did>
             <c04 level="item">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [9186264477840237363092]">4</container>
                 <unittitle>1991-92</unittitle>
               </did>
             </c04>
             <c04 level="item">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [9186264477840237363092]">4</container>
                 <unittitle>1993-94</unittitle>
               </did>
             </c04>
             <c04 level="item">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [9186264477840237363092]">4</container>
                 <unittitle>1994-95</unittitle>
               </did>
             </c04>
             <c04 level="item">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [9186264477840237363092]">4</container>
                 <unittitle>1995-96</unittitle>
               </did>
             </c04>
             <c04 level="item">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [9186264477840237363092]">4</container>
                 <unittitle>1996-97</unittitle>
               </did>
             </c04>
             <c04 level="item">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [9186264477840237363092]">4</container>
                 <unittitle>1997-98</unittitle>
               </did>
               <odd>
@@ -1526,7 +1334,7 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [9186264477840237363092]">4</container>
                 <unittitle>1986-87</unittitle>
                 <physdesc altrender="whole">
                   <extent altrender="materialtype spaceoccupied">2 volumes</extent>
@@ -1535,37 +1343,37 @@
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [9186264477840237363092]">4</container>
                 <unittitle>1987-88</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [9186264477840237363092]">4</container>
                 <unittitle>1988-89</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [9186264477840237363092]">4</container>
                 <unittitle>1989-90</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [9186264477840237363092]">4</container>
                 <unittitle>1990-91</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [9186264477840237363092]">4</container>
                 <unittitle>1991-92</unittitle>
               </did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">4</container>
+                <container type="box" label="Box [9186264477840237363092]">4</container>
                 <unittitle>1992-93</unittitle>
               </did>
             </c04>
@@ -1577,16 +1385,18 @@
             <c04 level="file">
               <did>
                 <physloc>Online</physloc>
-                <unittitle>Ann Arbor Campus Faculty Demographics <unitdate type="inclusive" normal="2008">2008</unitdate></unittitle>
-                <physdesc>
+                <unittitle>Ann Arbor Campus Faculty Demographics</unittitle><unitdate type="inclusive" normal="2008">2008</unitdate><physdesc>
                   <physfacet>.ZIP</physfacet>
                 </physdesc>
-                <dao href="http://hdl.handle.net/2027.42/96553" show="new" actuate="onrequest">
+                <dao href="http://hdl.handle.net/2027.42/96553" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1856">
                   <daodesc>
                     <p>[download item]</p>
                   </daodesc>
                 </dao>
               </did>
+              <odd>
+                <p>(Analysis of faculty demographics for 2008 at the University of Michigan Ann Arbor campus, prepared as part of the Integrated Postsecondary Education Data System.  Provides an overview of full-time faculty based on tenure status, rank, race and gender.)</p>
+              </odd>
             </c04>
             <c04 level="file">
               <did>
@@ -1595,246 +1405,243 @@
               <c05 level="file">
                 <did>
                   <physloc>Online</physloc>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="1999">1999</unitdate>
-                  </unittitle>
-                  <physdesc>
+                  <unitdate type="inclusive" normal="1999">1999</unitdate><physdesc>
                     <physfacet>.ZIP</physfacet>
                   </physdesc>
-                  <dao href="http://hdl.handle.net/2027.42/96554" show="new" actuate="onrequest">
+                  <dao href="http://hdl.handle.net/2027.42/96554" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1857">
                     <daodesc>
                       <p>[download item]</p>
                     </daodesc>
                   </dao>
                 </did>
+                <odd>
+                  <p>(Summary report provided to the Integrated Postsecondary Education Data System in 1999. Includes counts of all regular active and paid leave faculty and staff, with counts broken down by one or more IPEDS categories: full-time/part-time, ethnicity/gender, appointment periods, and campuses. IPEDS is a system of interrelated surveys conducted annually by the U.S. Department’s National Center for Education Statistics that gathers information from every college, university, and technical and vocational institution that participates in the federal student financial aid programs as required by the Higher Education Act of 1965)</p>
+                </odd>
               </c05>
               <c05 level="file">
                 <did>
                   <physloc>Online</physloc>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="2000">2000</unitdate>
-                  </unittitle>
-                  <physdesc>
+                  <unitdate type="inclusive" normal="2000">2000</unitdate><physdesc>
                     <physfacet>.ZIP</physfacet>
                   </physdesc>
-                  <dao href="http://hdl.handle.net/2027.42/96555" show="new" actuate="onrequest">
+                  <dao href="http://hdl.handle.net/2027.42/96555" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1858">
                     <daodesc>
                       <p>[download item]</p>
                     </daodesc>
                   </dao>
                 </did>
+                <odd>
+                  <p>(Summary report provided to the Integrated Postsecondary Education Data System in 2000. Includes counts of all regular active and paid leave faculty and staff, with counts broken down by one or more IPEDS categories: full-time/part-time, ethnicity/gender, appointment periods, and campuses. IPEDS is a system of interrelated surveys conducted annually by the U.S. Department’s National Center for Education Statistics that gathers information from every college, university, and technical and vocational institution that participates in the federal student financial aid programs as required by the Higher Education Act of 1965)</p>
+                </odd>
               </c05>
               <c05 level="file">
                 <did>
                   <physloc>Online</physloc>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="2001">2001</unitdate>
-                  </unittitle>
-                  <physdesc>
+                  <unitdate type="inclusive" normal="2001">2001</unitdate><physdesc>
                     <physfacet>.ZIP</physfacet>
                   </physdesc>
-                  <dao href="http://hdl.handle.net/2027.42/96556" show="new" actuate="onrequest">
+                  <dao href="http://hdl.handle.net/2027.42/96556" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1859">
                     <daodesc>
                       <p>[download item]</p>
                     </daodesc>
                   </dao>
                 </did>
+                <odd>
+                  <p>(Summary report provided to the Integrated Postsecondary Education Data System in 2001. Includes counts of all regular active and paid leave faculty and staff, with counts broken down by one or more IPEDS categories: full-time/part-time, ethnicity/gender, appointment periods, and campuses. IPEDS is a system of interrelated surveys conducted annually by the U.S. Department’s National Center for Education Statistics that gathers information from every college, university, and technical and vocational institution that participates in the federal student financial aid programs as required by the Higher Education Act of 1965)</p>
+                </odd>
               </c05>
               <c05 level="file">
                 <did>
                   <physloc>Online</physloc>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="2002">2002</unitdate>
-                  </unittitle>
-                  <physdesc>
+                  <unitdate type="inclusive" normal="2002">2002</unitdate><physdesc>
                     <physfacet>.ZIP</physfacet>
                   </physdesc>
-                  <dao href="http://hdl.handle.net/2027.42/96557" show="new" actuate="onrequest">
+                  <dao href="http://hdl.handle.net/2027.42/96557" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1860">
                     <daodesc>
                       <p>[download item]</p>
                     </daodesc>
                   </dao>
                 </did>
+                <odd>
+                  <p>(Summary report provided to the Integrated Postsecondary Education Data System in 2002. Includes counts of all regular active and paid leave faculty and staff, with counts broken down by one or more IPEDS categories: full-time/part-time, ethnicity/gender, appointment periods, and campuses. IPEDS is a system of interrelated surveys conducted annually by the U.S. Department’s National Center for Education Statistics that gathers information from every college, university, and technical and vocational institution that participates in the federal student financial aid programs as required by the Higher Education Act of 1965)</p>
+                </odd>
               </c05>
               <c05 level="file">
                 <did>
                   <physloc>Online</physloc>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="2003">2003</unitdate>
-                  </unittitle>
-                  <physdesc>
+                  <unitdate type="inclusive" normal="2003">2003</unitdate><physdesc>
                     <physfacet>.ZIP</physfacet>
                   </physdesc>
-                  <dao href="http://hdl.handle.net/2027.42/96558" show="new" actuate="onrequest">
+                  <dao href="http://hdl.handle.net/2027.42/96558" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1861">
                     <daodesc>
                       <p>[download item]</p>
                     </daodesc>
                   </dao>
                 </did>
+                <odd>
+                  <p>(Summary report provided to the Integrated Postsecondary Education Data System in 2003. Includes counts of all regular active and paid leave faculty and staff, with counts broken down by one or more IPEDS categories: full-time/part-time, ethnicity/gender, appointment periods, and campuses. IPEDS is a system of interrelated surveys conducted annually by the U.S. Department’s National Center for Education Statistics that gathers information from every college, university, and technical and vocational institution that participates in the federal student financial aid programs as required by the Higher Education Act of 1965)</p>
+                </odd>
               </c05>
               <c05 level="file">
                 <did>
                   <physloc>Online</physloc>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="2004">2004</unitdate>
-                  </unittitle>
-                  <physdesc>
+                  <unitdate type="inclusive" normal="2004">2004</unitdate><physdesc>
                     <physfacet>.ZIP</physfacet>
                   </physdesc>
-                  <dao href="http://hdl.handle.net/2027.42/96559" show="new" actuate="onrequest">
+                  <dao href="http://hdl.handle.net/2027.42/96559" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1862">
                     <daodesc>
                       <p>[download item]</p>
                     </daodesc>
                   </dao>
                 </did>
+                <odd>
+                  <p>(Summary report provided to the Integrated Postsecondary Education Data System in 2004. Includes counts of all regular active and paid leave faculty and staff, with counts broken down by one or more IPEDS categories: full-time/part-time, ethnicity/gender, appointment periods, and campuses. IPEDS is a system of interrelated surveys conducted annually by the U.S. Department’s National Center for Education Statistics that gathers information from every college, university, and technical and vocational institution that participates in the federal student financial aid programs as required by the Higher Education Act of 1965)</p>
+                </odd>
               </c05>
               <c05 level="file">
                 <did>
                   <physloc>Online</physloc>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="2005">2005</unitdate>
-                  </unittitle>
-                  <physdesc>
+                  <unitdate type="inclusive" normal="2005">2005</unitdate><physdesc>
                     <physfacet>.ZIP</physfacet>
                   </physdesc>
-                  <dao href="http://hdl.handle.net/2027.42/96560" show="new" actuate="onrequest">
+                  <dao href="http://hdl.handle.net/2027.42/96560" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1863">
                     <daodesc>
                       <p>[download item]</p>
                     </daodesc>
                   </dao>
                 </did>
+                <odd>
+                  <p>(Summary report provided to the Integrated Postsecondary Education Data System in 2005. Includes counts of all regular active and paid leave faculty and staff, with counts broken down by one or more IPEDS categories: full-time/part-time, ethnicity/gender, appointment periods, and campuses. IPEDS is a system of interrelated surveys conducted annually by the U.S. Department’s National Center for Education Statistics that gathers information from every college, university, and technical and vocational institution that participates in the federal student financial aid programs as required by the Higher Education Act of 1965)</p>
+                </odd>
               </c05>
               <c05 level="file">
                 <did>
                   <physloc>Online</physloc>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="2006">2006</unitdate>
-                  </unittitle>
-                  <physdesc>
+                  <unitdate type="inclusive" normal="2006">2006</unitdate><physdesc>
                     <physfacet>.ZIP</physfacet>
                   </physdesc>
-                  <dao href="http://hdl.handle.net/2027.42/96561" show="new" actuate="onrequest">
+                  <dao href="http://hdl.handle.net/2027.42/96561" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1864">
                     <daodesc>
                       <p>[download item]</p>
                     </daodesc>
                   </dao>
                 </did>
+                <odd>
+                  <p>(Summary report provided to the Integrated Postsecondary Education Data System in 2006. Includes counts of all regular active and paid leave faculty and staff, with counts broken down by one or more IPEDS categories: full-time/part-time, ethnicity/gender, appointment periods, and campuses. IPEDS is a system of interrelated surveys conducted annually by the U.S. Department’s National Center for Education Statistics that gathers information from every college, university, and technical and vocational institution that participates in the federal student financial aid programs as required by the Higher Education Act of 1965)</p>
+                </odd>
               </c05>
               <c05 level="file">
                 <did>
                   <physloc>Online</physloc>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="2007">2007</unitdate>
-                  </unittitle>
-                  <physdesc>
+                  <unitdate type="inclusive" normal="2007">2007</unitdate><physdesc>
                     <physfacet>.ZIP</physfacet>
                   </physdesc>
-                  <dao href="http://hdl.handle.net/2027.42/96562" show="new" actuate="onrequest">
+                  <dao href="http://hdl.handle.net/2027.42/96562" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1865">
                     <daodesc>
                       <p>[download item]</p>
                     </daodesc>
                   </dao>
                 </did>
+                <odd>
+                  <p>(Summary report provided to the Integrated Postsecondary Education Data System in 2007. Includes counts of all regular active and paid leave faculty and staff, with counts broken down by one or more IPEDS categories: full-time/part-time, ethnicity/gender, appointment periods, and campuses. IPEDS is a system of interrelated surveys conducted annually by the U.S. Department’s National Center for Education Statistics that gathers information from every college, university, and technical and vocational institution that participates in the federal student financial aid programs as required by the Higher Education Act of 1965)</p>
+                </odd>
               </c05>
               <c05 level="file">
                 <did>
                   <physloc>Online</physloc>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="2008">2008</unitdate>
-                  </unittitle>
-                  <physdesc>
+                  <unitdate type="inclusive" normal="2008">2008</unitdate><physdesc>
                     <physfacet>.ZIP</physfacet>
                   </physdesc>
-                  <dao href="http://hdl.handle.net/2027.42/96563" show="new" actuate="onrequest">
+                  <dao href="http://hdl.handle.net/2027.42/96563" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1866">
                     <daodesc>
                       <p>[download item]</p>
                     </daodesc>
                   </dao>
                 </did>
+                <odd>
+                  <p>(Summary report provided to the Integrated Postsecondary Education Data System in 2008. Includes counts of all regular active and paid leave faculty and staff, with counts broken down by one or more IPEDS categories: full-time/part-time, ethnicity/gender, appointment periods, and campuses. IPEDS is a system of interrelated surveys conducted annually by the U.S. Department’s National Center for Education Statistics that gathers information from every college, university, and technical and vocational institution that participates in the federal student financial aid programs as required by the Higher Education Act of 1965)</p>
+                </odd>
               </c05>
               <c05 level="file">
                 <did>
                   <physloc>Online</physloc>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="2009">2009</unitdate>
-                  </unittitle>
-                  <physdesc>
+                  <unitdate type="inclusive" normal="2009">2009</unitdate><physdesc>
                     <physfacet>.ZIP</physfacet>
                   </physdesc>
-                  <dao href="http://hdl.handle.net/2027.42/96564" show="new" actuate="onrequest">
+                  <dao href="http://hdl.handle.net/2027.42/96564" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1867">
                     <daodesc>
                       <p>[download item]</p>
                     </daodesc>
                   </dao>
                 </did>
+                <odd>
+                  <p>(Summary report provided to the Integrated Postsecondary Education Data System in 2009. Includes counts of all regular active and paid leave faculty and staff, with counts broken down by one or more IPEDS categories: full-time/part-time, ethnicity/gender, appointment periods, and campuses. IPEDS is a system of interrelated surveys conducted annually by the U.S. Department’s National Center for Education Statistics that gathers information from every college, university, and technical and vocational institution that participates in the federal student financial aid programs as required by the Higher Education Act of 1965)</p>
+                </odd>
               </c05>
               <c05 level="file">
                 <did>
                   <physloc>Online</physloc>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="2010">2010</unitdate>
-                  </unittitle>
-                  <physdesc>
+                  <unitdate type="inclusive" normal="2010">2010</unitdate><physdesc>
                     <physfacet>.ZIP</physfacet>
                   </physdesc>
-                  <dao href="http://hdl.handle.net/2027.42/96565" show="new" actuate="onrequest">
+                  <dao href="http://hdl.handle.net/2027.42/96565" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1868">
                     <daodesc>
                       <p>[download item]</p>
                     </daodesc>
                   </dao>
                 </did>
+                <odd>
+                  <p>(Summary report provided to the Integrated Postsecondary Education Data System in 2010. Includes counts of all regular active and paid leave faculty and staff, with counts broken down by one or more IPEDS categories: full-time/part-time, ethnicity/gender, appointment periods, and campuses. IPEDS is a system of interrelated surveys conducted annually by the U.S. Department’s National Center for Education Statistics that gathers information from every college, university, and technical and vocational institution that participates in the federal student financial aid programs as required by the Higher Education Act of 1965)</p>
+                </odd>
               </c05>
               <c05 level="file">
                 <did>
                   <physloc>Online</physloc>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="2011">2011</unitdate>
-                  </unittitle>
-                  <physdesc>
+                  <unitdate type="inclusive" normal="2011">2011</unitdate><physdesc>
                     <physfacet>.ZIP</physfacet>
                   </physdesc>
-                  <dao href="http://hdl.handle.net/2027.42/96566" show="new" actuate="onrequest">
+                  <dao href="http://hdl.handle.net/2027.42/96566" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1869">
                     <daodesc>
                       <p>[download item]</p>
                     </daodesc>
                   </dao>
                 </did>
+                <odd>
+                  <p>(Summary report provided to the Integrated Postsecondary Education Data System in 2011. Includes counts of all regular active and paid leave faculty and staff, with counts broken down by one or more IPEDS categories: full-time/part-time, ethnicity/gender, appointment periods, and campuses. IPEDS is a system of interrelated surveys conducted annually by the U.S. Department’s National Center for Education Statistics that gathers information from every college, university, and technical and vocational institution that participates in the federal student financial aid programs as required by the Higher Education Act of 1965)</p>
+                </odd>
               </c05>
               <c05 level="file">
                 <did>
                   <physloc>Online</physloc>
-                  <unittitle>
-                    <unitdate type="inclusive" normal="2012">2012</unitdate>
-                  </unittitle>
-                  <physdesc>
+                  <unitdate type="inclusive" normal="2012">2012</unitdate><physdesc>
                     <physfacet>.ZIP</physfacet>
                   </physdesc>
-                  <dao href="http://hdl.handle.net/2027.42/96567" show="new" actuate="onrequest">
+                  <dao href="http://hdl.handle.net/2027.42/96567" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1870">
                     <daodesc>
                       <p>[download item]</p>
                     </daodesc>
                   </dao>
                 </did>
+                <odd>
+                  <p>(Summary report provided to the Integrated Postsecondary Education Data System in 2012. Includes counts of all regular active and paid leave faculty and staff, with counts broken down by one or more IPEDS categories: full-time/part-time, ethnicity/gender, appointment periods, and campuses. IPEDS is a system of interrelated surveys conducted annually by the U.S. Department’s National Center for Education Statistics that gathers information from every college, university, and technical and vocational institution that participates in the federal student financial aid programs as required by the Higher Education Act of 1965)</p>
+                </odd>
               </c05>
             </c04>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">4</container>
-              <unittitle><title render="italic">Some Comparisons of Salaries Paid to the Faculties of the Nine State-Supported Institutions of the Western Conference (Big 10) 1956-57 and 1961-62 (Compensation of Academic Personnel Report Series)</title>, <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9186264477840237363092]">4</container>
+              <unittitle><title render="italic">Some Comparisons of Salaries Paid to the Faculties of the Nine State-Supported Institutions of the Western Conference (Big 10) 1956-57 and 1961-62 (Compensation of Academic Personnel Report Series)</title></unittitle><unitdate type="inclusive" normal="1962">1962</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">4</container>
-              <unittitle><title render="italic">Teaching Salaries Compared, 1956-1957 to 1963-1964</title> (Big 10 Universities and UC-Berkeley), <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9186264477840237363092]">4</container>
+              <unittitle><title render="italic">Teaching Salaries Compared, 1956-1957 to 1963-1964</title> (Big 10 Universities and UC-Berkeley)</unittitle><unitdate type="inclusive" normal="1964">1964</unitdate></did>
           </c03>
           <c03 level="item">
             <did>
-              <container type="box" label="Box">4</container>
-              <unittitle>University of Michigan and Big Ten Schools Instructional Staff Salary Comparison by Department <unitdate type="inclusive" normal="1983/1984">1983-1984</unitdate>, <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
-            </did>
+              <container type="box" label="Box [9186264477840237363092]">4</container>
+              <unittitle>University of Michigan and Big Ten Schools Instructional Staff Salary Comparison by Department</unittitle><unitdate type="inclusive" normal="1983/1984">1983-1984</unitdate><unitdate type="inclusive" normal="1984">1984</unitdate></did>
           </c03>
         </c02>
       </c01>
@@ -1851,16 +1658,13 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">5</container>
+              <container type="box" label="Box [006081146580630868]">5</container>
               <unittitle>Brochures, Flyers, and Benefit Catalogs (includes staff orientation and open enrollment)</unittitle>
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">5</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1954/2004">1954-2004</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [006081146580630868]">5</container>
+                <unitdate type="inclusive" normal="1954/2004">1954-2004</unitdate></did>
             </c04>
           </c03>
         </c02>
@@ -1870,7 +1674,7 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">6</container>
+              <container type="box" label="Box [297844441609676743352760]">6</container>
               <unittitle>Brochures and Flyers</unittitle>
             </did>
           </c03>
@@ -1880,15 +1684,12 @@
             </did>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">6</container>
-                <unittitle>
-                  <unitdate type="inclusive" normal="1979/1984">1979-1984</unitdate>
-                </unittitle>
-              </did>
+                <container type="box" label="Box [297844441609676743352760]">6</container>
+                <unitdate type="inclusive" normal="1979/1984">1979-1984</unitdate></did>
             </c04>
             <c04 level="file">
               <did>
-                <container type="box" label="Box">6</container>
+                <container type="box" label="Box [297844441609676743352760]">6</container>
                 <unittitle>1987-</unittitle>
               </did>
             </c04>
@@ -1909,297 +1710,273 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">7</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1979/1988">1979/80-1987/88</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [220795234193922437534]">7</container>
+              <unitdate type="inclusive" normal="1979/1988">1979/80-1987/88</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">9 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">8</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1988/1996">1988/89-1995/96</unitdate>
-              </unittitle>
-              <physdesc altrender="whole">
+              <container type="box" label="Box [44163644182392737128]">8</container>
+              <unitdate type="inclusive" normal="1988/1996">1988/89-1995/96</unitdate><physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">8 folders</extent>
               </physdesc>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1996/1997">1996/97</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [174237103465980532592011]">9</container>
+              <unitdate type="inclusive" normal="1996/1997">1996/97</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1997/1998">1997/98</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [174237103465980532592011]">9</container>
+              <unitdate type="inclusive" normal="1997/1998">1997/98</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1998/1999">1998/99</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [174237103465980532592011]">9</container>
+              <unitdate type="inclusive" normal="1998/1999">1998/99</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="1999/2000">1999-2000</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [174237103465980532592011]">9</container>
+              <unitdate type="inclusive" normal="1999/2000">1999-2000</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="2000/2001">2000/01</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [174237103465980532592011]">9</container>
+              <unitdate type="inclusive" normal="2000/2001">2000/01</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="2001/2002">2001/02</unitdate>
-              </unittitle>
-            </did>
+              <container type="box" label="Box [174237103465980532592011]">9</container>
+              <unitdate type="inclusive" normal="2001/2002">2001/02</unitdate></did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">9</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="2002/2003">2002/03</unitdate>
-              </unittitle>
-              <physdesc>
+              <container type="box" label="Box [174237103465980532592011]">9</container>
+              <unitdate type="inclusive" normal="2002/2003">2002/03</unitdate><physdesc>
                 <physfacet>.PDF</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/87964" show="new" actuate="onrequest">
+              <dao href="http://hdl.handle.net/2027.42/87964" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1871">
                 <daodesc>
                   <p>[download item]</p>
                 </daodesc>
               </dao>
             </did>
+            <odd>
+              <p>(The 2002 Salary Record for individuals on each of the campuses is in alphabetical order by name. The report includes all regular faculty and staff who have an ‘active’ or ‘paid leave’ appointment. The report does not include graduate students, other student intern appointments and temporary staff appointments.  Includes the individual’s name, title, department, full-time rate (FTR), FTR basis, and amount of salary paid from the general fund.  Includes data for the Ann Arbor, Dearborn and Flint campuses.)</p>
+            </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">10</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="2003/2004">2003/04</unitdate>
-              </unittitle>
-              <physdesc>
+              <container type="box" label="Box [103264727149986423444973]">10</container>
+              <unitdate type="inclusive" normal="2003/2004">2003/04</unitdate><physdesc>
                 <physfacet>.PDF</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/87959" show="new" actuate="onrequest">
+              <dao href="http://hdl.handle.net/2027.42/87959" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1872">
                 <daodesc>
                   <p>[download item]</p>
                 </daodesc>
               </dao>
             </did>
+            <odd>
+              <p>(The 2003 Salary Record for individuals on each of the campuses is in alphabetical order by name. The report includes all regular faculty and staff who have an ‘active’ or ‘paid leave’ appointment. The report does not include graduate students, other student intern appointments and temporary staff appointments.  Includes the individual’s name, title, department, full-time rate (FTR), FTR basis, and amount of salary paid from the general fund.  Includes data for the Ann Arbor, Dearborn and Flint campuses.)</p>
+            </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">10</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="2004/2005">2004/05</unitdate>
-              </unittitle>
-              <physdesc>
+              <container type="box" label="Box [103264727149986423444973]">10</container>
+              <unitdate type="inclusive" normal="2004/2005">2004/05</unitdate><physdesc>
                 <physfacet>.PDF</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/87960" show="new" actuate="onrequest">
+              <dao href="http://hdl.handle.net/2027.42/87960" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1873">
                 <daodesc>
                   <p>[download item]</p>
                 </daodesc>
               </dao>
             </did>
+            <odd>
+              <p>(The 2004 Salary Record for individuals on each of the campuses is in alphabetical order by name. The report includes all regular faculty and staff who have an ‘active’ or ‘paid leave’ appointment. The report does not include graduate students, other student intern appointments and temporary staff appointments.  Includes the individual’s name, title, department, full-time rate (FTR), FTR basis, and amount of salary paid from the general fund.  Includes data for the Ann Arbor, Dearborn and Flint campuses.)</p>
+            </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">10</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="2005/2006">2005/06</unitdate>
-              </unittitle>
-              <physdesc>
+              <container type="box" label="Box [103264727149986423444973]">10</container>
+              <unitdate type="inclusive" normal="2005/2006">2005/06</unitdate><physdesc>
                 <physfacet>.PDF</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/87961" show="new" actuate="onrequest">
+              <dao href="http://hdl.handle.net/2027.42/87961" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1874">
                 <daodesc>
                   <p>[download item]</p>
                 </daodesc>
               </dao>
             </did>
+            <odd>
+              <p>(The 2005 Salary Record for individuals on each of the campuses is in alphabetical order by name. The report includes all regular faculty and staff who have an ‘active’ or ‘paid leave’ appointment. The report does not include graduate students, other student intern appointments and temporary staff appointments.  Includes the individual’s name, title, department, full-time rate (FTR), FTR basis, and amount of salary paid from the general fund.  Includes data for the Ann Arbor, Dearborn and Flint campuses.)</p>
+            </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">10</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="2006/2007">2006/07</unitdate>
-              </unittitle>
-              <physdesc>
+              <container type="box" label="Box [103264727149986423444973]">10</container>
+              <unitdate type="inclusive" normal="2006/2007">2006/07</unitdate><physdesc>
                 <physfacet>.PDF</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/87962" show="new" actuate="onrequest">
+              <dao href="http://hdl.handle.net/2027.42/87962" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1875">
                 <daodesc>
                   <p>[download item]</p>
                 </daodesc>
               </dao>
             </did>
+            <odd>
+              <p>(The 2006 Salary Record for individuals on each of the campuses is in alphabetical order by name. The report includes all regular faculty and staff who have an ‘active’ or ‘paid leave’ appointment. The report does not include graduate students, other student intern appointments and temporary staff appointments.  Includes the individual’s name, title, department, full-time rate (FTR), FTR basis, and amount of salary paid from the general fund. Includes data for the Ann Arbor, Dearborn and Flint campuses.)</p>
+            </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">10</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="2007/2008">2007/08</unitdate>
-              </unittitle>
-              <physdesc>
+              <container type="box" label="Box [103264727149986423444973]">10</container>
+              <unitdate type="inclusive" normal="2007/2008">2007/08</unitdate><physdesc>
                 <physfacet>.PDF</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/87963" show="new" actuate="onrequest">
+              <dao href="http://hdl.handle.net/2027.42/87963" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1876">
                 <daodesc>
                   <p>[download item]</p>
                 </daodesc>
               </dao>
             </did>
+            <odd>
+              <p>(The 2007 Salary Record for individuals on each of the campuses is in alphabetical order by name. The report includes all regular faculty and staff who have an ‘active’ or ‘paid leave’ appointment. The report does not include graduate students, other student intern appointments and temporary staff appointments.  Includes the individual’s name, title, department, full-time rate (FTR), FTR basis, and amount of salary paid from the general fund.  Includes data for the Ann Arbor, Dearborn and Flint campuses.)</p>
+            </odd>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box" label="Box">10</container>
-              <unittitle>
-                <unitdate type="inclusive" normal="2008/2009">2008/09</unitdate>
-              </unittitle>
-              <physdesc>
+              <container type="box" label="Box [103264727149986423444973]">10</container>
+              <unitdate type="inclusive" normal="2008/2009">2008/09</unitdate><physdesc>
                 <physfacet>.PDF</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/78512" show="new" actuate="onrequest">
+              <dao href="http://hdl.handle.net/2027.42/78512" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1877">
                 <daodesc>
                   <p>[download item]</p>
                 </daodesc>
               </dao>
             </did>
+            <odd>
+              <p>(The 2008 Salary Record for individuals on each of the campuses is in alphabetical order by name. The report includes all regular faculty and staff who have an ‘active’ or ‘paid leave’ appointment. The report does not include graduate students, other student intern appointments and temporary staff appointments.  Includes the individual’s name, title, department, full-time rate (FTR), FTR basis, and amount of salary paid from the general fund.  Includes data for the Ann Arbor, Dearborn, and Flint campuses.)</p>
+            </odd>
           </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
-              <unittitle>
-                <unitdate type="inclusive" normal="2009/2010">2009/10</unitdate>
-              </unittitle>
-              <physdesc>
+              <unitdate type="inclusive" normal="2009/2010">2009/10</unitdate><physdesc>
                 <physfacet>.PDF</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/78525" show="new" actuate="onrequest">
+              <dao href="http://hdl.handle.net/2027.42/78525" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1878">
                 <daodesc>
                   <p>[download item]</p>
                 </daodesc>
               </dao>
             </did>
+            <odd>
+              <p>(The 2009 Salary Record for individuals on each of the campuses is in alphabetical order by name. The report includes all regular faculty and staff who have an ‘active’ or ‘paid leave’ appointment. The report does not include graduate students, other student intern appointments and temporary staff appointments.  Includes the individual’s name, title, department, full-time rate (FTR), FTR basis, and amount of salary paid from the general fund. Includes data for the Ann Arbor, Dearborn, and Flint campuses.)</p>
+            </odd>
           </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
-              <unittitle>
-                <unitdate type="inclusive" normal="2010/2011">2010/11</unitdate>
-              </unittitle>
-              <physdesc>
+              <unitdate type="inclusive" normal="2010/2011">2010/11</unitdate><physdesc>
                 <physfacet>.PDF</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/78554" show="new" actuate="onrequest">
+              <dao href="http://hdl.handle.net/2027.42/78554" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1879">
                 <daodesc>
                   <p>[download item]</p>
                 </daodesc>
               </dao>
             </did>
+            <odd>
+              <p>(The 2010 Salary Record for individuals on each of the campuses is in alphabetical order by name. The report includes all regular faculty and staff who have an ‘active’ or ‘paid leave’ appointment. The report does not include graduate students, other student intern appointments and temporary staff appointments.  Includes the individual’s name, title, department, full-time rate (FTR), FTR basis, and amount of salary paid from the general fund.  Includes data for the Ann Arbor, Dearborn and Flint campuses.)</p>
+            </odd>
           </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
-              <unittitle>
-                <unitdate type="inclusive" normal="2011/2012">2011/12</unitdate>
-              </unittitle>
-              <physdesc>
+              <unitdate type="inclusive" normal="2011/2012">2011/12</unitdate><physdesc>
                 <physfacet>.PDF</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/88210" show="new" actuate="onrequest">
+              <dao href="http://hdl.handle.net/2027.42/88210" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1880">
                 <daodesc>
                   <p>[download item]</p>
                 </daodesc>
               </dao>
             </did>
+            <odd>
+              <p>(The 2011 Salary Record for individuals on each of the campuses is in alphabetical order by name. The report includes all regular faculty and staff who have an ‘active’ or ‘paid leave’ appointment. The report does not include graduate students, other student intern appointments and temporary staff appointments.  Includes the individual’s name, title, department, full-time rate (FTR), FTR basis, and amount of salary paid from the general fund.  Includes salary data for the Ann Arbor, Dearborn and Flint campuses.)</p>
+            </odd>
           </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
-              <unittitle>
-                <unitdate type="inclusive" normal="2012/2013">2012/13</unitdate>
-              </unittitle>
-              <physdesc>
+              <unitdate type="inclusive" normal="2012/2013">2012/13</unitdate><physdesc>
                 <physfacet>.PDF</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/94549" show="new" actuate="onrequest">
+              <dao href="http://hdl.handle.net/2027.42/94549" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1881">
                 <daodesc>
                   <p>[download item]</p>
                 </daodesc>
               </dao>
             </did>
+            <odd>
+              <p>(The 2012 Salary Record for individuals on each of the campuses is in alphabetical order by name. The report includes all regular faculty and staff who have an ‘active’ or ‘paid leave’ appointment. The report does not include graduate students, other student intern appointments and temporary staff appointments.  Includes the individual’s name, title, department, full-time rate (FTR), FTR basis, and amount of salary paid from the general fund. Includes salary data for the Ann Arbor, Dearborn and Flint campuses.)</p>
+            </odd>
           </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
-              <unittitle>
-                <unitdate type="inclusive" normal="2013/2014">2013/14</unitdate>
-              </unittitle>
-              <physdesc>
+              <unitdate type="inclusive" normal="2013/2014">2013/14</unitdate><physdesc>
                 <physfacet>.PDF</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/101947" show="new" actuate="onrequest">
+              <dao href="http://hdl.handle.net/2027.42/101947" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1882">
                 <daodesc>
                   <p>[download item]</p>
                 </daodesc>
               </dao>
             </did>
+            <odd>
+              <p>(Salary Record for individuals on each of the University of Michigan's campuses.  The Salary Record is listed by alphabetical order.  The report includes all regular faculty and staff who have an active or paid leave appointment. The report does not include graduate students, other student intern appointments and temporary staff appointments.  Includes individual's name, title, department, full-time rate (FTR), FTR basis, and amount of salary paid from the general fund.  Includes data for Ann Arbor, Dearborn and Flint campuses.)</p>
+            </odd>
           </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
-              <unittitle>
-                <unitdate type="inclusive" normal="2014/2015">2014/15</unitdate>
-              </unittitle>
-              <physdesc>
+              <unitdate type="inclusive" normal="2014/2015">2014/15</unitdate><physdesc>
                 <physfacet>.PDF</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/110513" show="new" actuate="onrequest">
+              <dao href="http://hdl.handle.net/2027.42/110513" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1883">
                 <daodesc>
                   <p>[download item]</p>
                 </daodesc>
               </dao>
             </did>
+            <odd>
+              <p>(2014-2015 academic year salary Record for individuals on each of the University of Michigan's campuses. The Salary Record is listed by alphabetical order. The report includes all regular faculty and staff who have an active or paid leave appointment. The report does not include graduate students, other student intern appointments and temporary staff appointments. Includes individual's name, title, department, full-time rate (FTR), FTR basis, and amount of salary paid from the general fund. Includes data for Ann Arbor, Dearborn and Flint campuses.)</p>
+            </odd>
           </c03>
           <c03 level="file">
             <did>
               <physloc>Online</physloc>
-              <unittitle>
-                <unitdate type="inclusive" normal="2015/2016">2015/16</unitdate>
-              </unittitle>
-              <physdesc>
+              <unitdate type="inclusive" normal="2015/2016">2015/16</unitdate><physdesc>
                 <physfacet>.PDF</physfacet>
               </physdesc>
-              <dao href="http://hdl.handle.net/2027.42/116299" show="new" actuate="onrequest">
+              <dao href="http://hdl.handle.net/2027.42/116299" show="new" actuate="onRequest" ref="/repositories/2/digital_objects/1884">
                 <daodesc>
                   <p>[download item]</p>
                 </daodesc>
               </dao>
             </did>
+            <odd>
+              <p>(2015-2016 academic year salary Record for individuals on each of the University of Michigan's campuses. The Salary Record is listed by alphabetical order. The report includes all regular faculty and staff who have an active or paid leave appointment. The report does not include graduate students, other student intern appointments and temporary staff appointments. Includes individual's name, title, department, full-time rate (FTR), FTR basis, and amount of salary paid from the general fund. Includes data for Ann Arbor, Dearborn and Flint campuses.)</p>
+            </odd>
           </c03>
         </c02>
       </c01>
